@@ -1,0 +1,18 @@
+# DocFx
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+/**/_site/
+/**/_site_pdf/
+
+# react
+/**/node_modules/
+/**/lib/
+/**/lib-commonjs/
+/**/dist/
+
+# ConvertHtmlToJson
+/**/_json/
+.DS_Store

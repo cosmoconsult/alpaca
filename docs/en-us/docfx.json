@@ -1,0 +1,109 @@
+{
+    "metadata": [],
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_site/**",
+                    "_themes/**",
+                    "_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.gif",
+                    "**/media/**"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_site/**",
+                    "_themes/**",
+                    "_themes.pdf/**"
+                ]
+            }
+        ],
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "_appTitle": "COSMO Alpaca",
+            "_description": "COSMO Alpaca",
+            "_ms.locale": "en-us",
+            "_enableNewTab": true,
+            "_disableContribution ": true
+        },
+        "template": [],
+        "dest": "_site",
+        "markdownEngineName": "markdig"
+    },
+    "pdf": {
+        "content": [
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_site/**",
+                    "_themes/**",
+                    "_themes.pdf/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices"
+                ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.gif",
+                    "**/media/**"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "_site/**",
+                    "_themes/**",
+                    "_themes.pdf/**"
+                ]
+            }
+        ],
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "_appTitle": "Alpaca",
+            "_description": "COSMO Alpaca",
+            "_ms.locale": "en-us",
+            "_enableNewTab": true,
+            "_disableContribution ": true
+        },
+        "template": [],
+        "dest": "_site_pdf",
+        "markdownEngineName": "markdig",
+        "wkhtmltopdf": {
+            "filePath": "C:\\Users\\mlippert9438\\Downloads\\keep\\docs-tester\\wkhtmltox\\runtime\\wkhtmltopdf.exe",
+            "additionalArguments": " --enable-local-file-access --load-error-handling ignore --margin-left 20mm --margin-right 20mm --margin-top 30mm --header-spacing 12 --header-html \"C:\\Users\\mlippert9438\\Downloads\\keep\\docs-tester\\docfx\\themes\\pdf.cosmo\\header.html\" --margin-bottom 32mm --footer-spacing 15 --footer-html \"C:\\Users\\mlippert9438\\Downloads\\keep\\docs-tester\\docfx\\themes\\pdf.cosmo\\footer.html\" --replace pdfTitle \"Product Name\" --replace pdfVersion \"1.0.0.0\" --title \"Product Name\" --no-outline cover \"C:\\Users\\mlippert9438\\Downloads\\keep\\docs-tester\\docfx\\themes\\pdf.cosmo\\cover.html\" toc --xsl-style-sheet \"C:\\Users\\mlippert9438\\Downloads\\keep\\docs-tester\\docfx\\themes\\pdf.cosmo\\toc.cosmo.xsl\""
+        },
+        "keepRawFiles": true,
+        "maxParallelism": 1
+    }
+}

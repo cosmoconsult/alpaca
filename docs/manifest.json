@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"authorization": {
+		"users": [],
+		"domains": [],
+		"businessRelations": [],
+		"appRoleAssignments": []
+	}
+}
