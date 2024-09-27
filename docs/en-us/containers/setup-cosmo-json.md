@@ -198,8 +198,10 @@ The order of import is:
 |`"createRuntimePackage"`|boolean |optional|If this option is set additionally a runtime package is created and published to the pipeline build.|
 |`"enableCompilerOutput"`|boolean |optional|Enable or disable the additional logging output from the Compiler. Per default the output is enabled.|
 |`"useLegacyCompiler"`|boolean |optional|Switch back to old .net framework compiler. Per default the .net core compiler version is used.|
-|`"createTranslations"`|boolean|optional|Enable or disable the generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/1.8.0.0)|
-|`"translationLanguages"`|string|optional|Defines the Comma-separated list of language tags for which the translation files are to be generated (e.g. `de-DE,de-AT`)|
+|`"createTranslations"`|boolean|optional|Enable or disable the generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
+|`"translationLanguages"`|string[]|optional|Defines the array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
+|`"testTranslations"`|boolean|optional|Enable or disable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
+|`"testTranslationRules"`|string[]|optional|Defines the array of additional rules for which the generated translation files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)|
 
 [additional-deployment-feeds]: setup-cosmo-json.md#additional-deployment-feeds
 [setup-custom-scripts]:        setup-custom-scripts.md
