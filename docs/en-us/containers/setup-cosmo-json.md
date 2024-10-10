@@ -190,8 +190,9 @@ The order of import is:
 
 |Element|Type||Value|
 |-|-|-|-|
-|`"codeCops"`|string|optional|AL Analyzer(s) used for compiling. (Example: CodeCop,UICop).|
-|`"rulesetFile"`|string|optional|Overrule the rules from the code cops. Path relative to AlSourcePath.|
+|`"compilerVsixVersion"`|string|optional|Defines the version of the AL language VSC Extension whose AL compiler is to be used (`container` *(default)*, `latest`, `prerelease`, `<a>[.<b>][.<c>][.<d>]`)|
+|`"codeCops"`|string[]|optional|Defines the array of the AL Analyzer(s) used for compiling (e.g. `[ "CodeCop", "UICop", "LinterCop", "<url>", "<path>" ]`)|
+|`"rulesetFile"`|string|optional|Overrule the rules from the code cops. Path relative to AlSourcePath or an external url.|
 |`"appManifestFile"`|string|optional|Sets the path to [manifest file (app.json)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-json-files#Appjson) of the app. Path is relative [Build.SourcesDirectory](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)|
 |`"testAppManifestFile"`|string|optional|Sets the path to manifest file (app.json) of the test app. Path is relative [Build.SourcesDirectory](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)|
 |`"setBuildIdInManifestOn"`|string|optional|If this option is set the version is taken from the manifest file (app.json) and the BuildId is set on the position defined with this option. Possible values are: "None", "Build", "Revision"|

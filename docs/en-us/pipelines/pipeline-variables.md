@@ -94,11 +94,13 @@ Remove **Pipeline Variable** by:
 
 | Name | cosmo.json | Default Value | Description |
 |-|-|:-:|-|
-|Compile.FailOnWarning       |                      |`false`|`true` to force builds without warnings|
-|Compile.CreateTranslations  |`createTranslations`  |`false`|`true` to enable generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
-|Compile.TranslationLanguages|`translationLanguages`|`de-DE`|Array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
-|Compile.TestTranslations    |`testTranslations`    |`false`|`true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/) |
-|Compile.TestTranslationRules|`testTranslationRules`|       |Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)|
+|Compile.CompilerVsixVersion |`compilerVsixVersion` |`container`  |Version of the AL language VSC Extension whose AL compiler is to be used (`container`, `latest`, `prerelease`, `<a>[.<b>][.<c>][.<d>]`)|
+|CodeCops                    |`codeCops`            |             |Array of the AL Analyzer(s) used for compiling. (e.g. `[ "CodeCop", "UICop", "LinterCop", "<url>", "<path>" ]`)|
+|Compile.FailOnWarning       |                      |`false`      |`true` to force builds without warnings|
+|Compile.CreateTranslations  |`createTranslations`  |`false`      |`true` to enable generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
+|Compile.TranslationLanguages|`translationLanguages`|`[ "de-DE" ]`|Array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
+|Compile.TestTranslations    |`testTranslations`    |`false`      |`true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/) |
+|Compile.TestTranslationRules|`testTranslationRules`|             |Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)|
 
 ## Test App
 
