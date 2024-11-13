@@ -37,10 +37,13 @@ There are also some topics which might be relevant:
 
 The variables to start/stop Build Agents at Container environment for the Build Pipeline are:
 
-| Name               | Default Value | Description                                                                     |
-| ------------------ | :-----------: | ------------------------------------------------------------------------------- |
-| DockerSwarmURL     |               | The URL for docker automation API.<br />**Note: Secret value is not supported** |
-| DockerSwarmVersion |    `0.11`     | The current version of docker automation API.                                   |
+| Name                         | Default Value | Description                                                                                                                                                                   |
+| ---------------------------- | :-----------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DockerSwarmURL               |               | The URL for docker automation API.<br />**Note: Secret value is not supported**                                                                                               |
+| DockerSwarmVersion           |    `0.11`     | The current version of docker automation API.                                                                                                                                 |
+| Docker.KeepAlive             |     false     | Keeps the container alive to afterwards connect to it                                                                                                                         |
+| Docker.KeepAliveOnTestError  |     false     | Keeps the container alive if there were test errors to afterwards connect to it                                                                                               |
+| Docker.NoOfTailEntriesToRead |     5000      | If there's a huge log output in the `Wait on Container start` step, then it might be that it hangs up, but on the other site increasing this value decreases the performance. |
 
 **Note:** Ensure your used container environment support the right version.
 
