@@ -42,6 +42,6 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 [Change Log](changelogs/backend/azure-devops-pipeline-templates.md)
 
-## GitHub Al-Go Templates
+## GitHub AL-Go Templates
 
 *available soon...*
