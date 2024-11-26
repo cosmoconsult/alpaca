@@ -1,12 +1,51 @@
 ---
-    title: Azure pipeline templates Changelog
-    description: Azure pipeline templates Changelog
+    title: Azure DevOps Pipeline Templates Change Log
+    description: Azure DevOps Pipeline Templates Change Log
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/Templates-DevOps-D365BC?path=%2Fchangelog.md
 ---
 
 # Change Log
 
-All notable changes to the Azure pipeline templates
+All notable changes to the Azure DevOps Pipeline Templates
+
+## Unreleased
+<!-- ## v2.23.0 -->
+
+* Make the timeout of agents configurable, because if the generated AccessToken is timed out, the agent shuts down and aborts the pipeline runs
+* Fix issue where pipeline runs can hangup on publishing App (with errors) for BC25+
+* Introduce parameter `CreateRelease`. When it is set, an artifact will be created.
+* Introduced variable `Docker.NoOfTailEntriesToRead`. With this the number of logs read in the `Wait on Container`-task can be changed. Default is `5000`.
+* Add Docker.KeepAliveOnTestError variable
+
+## v2.22.0
+
+* Fix issue where pipeline runs always fetch the cosmo.json of the latest commit from a branch (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4080)
+* Minor fix in uploading files to an Azure File Share as retention policy was not always working.
+* Fix issue where pipeline runs for BC26 (and higher) throw an UnhandledException-Error when running the tests (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4150)
+
+## v2.21.0
+
+- Support for tests of generated translations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3703)
+- Support for using other versions of the AL compiler (specific, latest, prerelease) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3788)
+- Support for using other code analyzers with the AL compiler (specific file or url) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3918)
+- Support for using LinterCop as a code analyzer with the AL compiler (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3918)
+- Improved performance of downloads
+
+## v2.20.0
+
+* Improve logging of API exceptions (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4066)
+
+## v2.19.1 - v2.19.2
+
+* Improve logging of errors during the Data Upgrade of an App (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4061)
+
+## v2.19.0
+
+* Fix issue where errors during the Data Upgrade of an App were not correctly caught (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4061)
+
+## v2.18.0
+
+* Fix issue where the branch name was not correctly passed to the build conainer, causing custom scripts to not work as expected (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4054)
 
 ## v2.17.0
 
@@ -165,6 +204,7 @@ All notable changes to the Azure pipeline templates
 * Publish previous app in CI builds does not work in tenant scope and if app is already published [2484](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2484/)
 * Overwriting the artifact name was not taken into account for the deployment [2507](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2507)
 * Add pipeline variable to exclude build containers from the limits [2524](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2524/)
+* Set labels on agent container & add labels with pipeline information for grafana [2553](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2553/)
 
 ## v2.2.0
 

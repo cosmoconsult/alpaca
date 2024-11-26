@@ -1,14 +1,124 @@
 ---
-    title: Azure DevOps Automation Backend Changelog
-    description: Azure DevOps Automation Backend Changelog
+    title: Azure DevOps Backend Change Log
+    description: Azure DevOps Backend Change Log
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-automation?path=%2FCHANGELOG.md
 ---
 
 # Change Log
 
-All notable changes to the Azure DevOps Automation Backend
+All notable changes to the Azure DevOps Backend
 
-# v1.17.0
+## Unreleased
+
+## v1.31.0
+
+- Adjust health check to not fail in case Azure DevOps is unhealthy or unresponsive (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4164)
+
+## v1.30.0
+
+- Improve stability of concurrent artifact downloads (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4158)
+
+## v1.29.0
+
+- Add Branch property IsMineOrDefault (v0.12) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4153)
+- Better handling of major/minor version for AzFS artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4127)
+
+## v1.28.0
+
+- Ignore user cache when creating new projects (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4148)
+
+## v1.27.0 - v1.27.2
+
+- Fix issue where missing COSMO entity configuration caused organizations to not load (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4136)
+- Further improve handling of errors from Azure CLI when downloading artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4131)
+- Replace individual OpenTelemetry components with Azure Application Insights (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4133)
+
+## v1.26.0
+
+- Install COSMO Parrot extension per default for COSMO users (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4132)
+
+## v1.25.0
+
+- Make secret detection in cosmo.json more robust (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4121)
+- Add endpoints to get cosmo.json for a git commit (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4080)
+- Refactored endpoints to get cosmo.json for v0.12
+- Improve stability of artifact downloads (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4131)
+
+## v1.24.0
+
+- Reworked setup of "codeCops" in cosmo.json as an array (v0.11: optional; v0.12: mandatory) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3918)
+- Extended cosmo.json with configuration to support the usage of specific compiler versions (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3788)
+
+## v1.23.2
+
+- Project creation error powershell error in linux environment
+
+## v1.23.1
+
+- Project creation send only error message if an error occured, not the whole output
+
+## v1.23.0
+
+- Add endpoints to get COSMO entities/offices from configuration and Sharepoint (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4090)
+- Update GitHub API Client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4093)
+- Support BC25
+- Add support to authenticate downstream APIs (Graph, Sharepoint) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4090)
+- Add caching for organization users and graph groups (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4090)
+
+## v1.22.1
+
+- Fix problem during project creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4091)
+
+## v1.22.0
+
+- Add XML Swagger documentation, apply code formatting (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4090/)
+- Extended cosmo.json with configurations to support tests of the translations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3703)
+- Reworked setup of "translationLanguages" in cosmo.json as an array (v0.11: optional; v0.12: mandatory)
+- Added validation for "translationLanguages" in cosmo.json (e.g. "de-DE")
+- Add retries on failed artifact downloads through Azure CLI (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4085)
+
+## v1.21.0
+
+- Add auth retry policies (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4082)
+
+## v1.20.3 - v1.20.6
+
+- Fix issue where downloading artifacts may fail inconsistently (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4085)
+
+## v1.20.2
+
+- Fix issue where invoking PowerShell returns old output (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4084)
+
+## v1.20.1
+
+- Improve auth handler to retry on timeout (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4082)
+
+## v1.20.0
+
+- Improve PowerShell execution (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4081)
+- Add logging to auth handler (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4082)
+
+## v1.19.0
+
+- Override scope to full access for PATs requested by the PowerApp (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4079)
+
+## v1.18.5
+
+- Override Authorization when downloading IP artifacts or packages from external feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+- Parse the version of Azure Devops artifacts as semantic version (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+
+## v1.18.1 - v1.18.4
+
+- Fix bug where downloading artifacts may fail inconsistently (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+
+## v1.18.0
+
+- Improve artifact download and caching (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+- Add functions to retrieve latest version of an artifact (filtered for a given version with wildcard and for a given view) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+- Add functions to retrieve latest version of an artifact (also for a given view) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4035/)
+- Accept GitHub token for authentification (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4064)
+
+## v1.17.0
 
 - Release Pipelines: Remove "Stop Agent" TaskGroup as we no longer use it (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4028)
 - Fix bug where the mandatory branch "main" was missing for the DevOps repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3994)
@@ -16,7 +126,7 @@ All notable changes to the Azure DevOps Automation Backend
 - Fix bug where an empty repository caused an error when creating an app or updating variables due to missing cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4047)
 - Improve logging for the DevOps organization admin check (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4048/)
 
-# v1.16.0
+## v1.16.0
 
 - Also allow "master" as version for IP artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3962)
 - Fix a problem where not all users were returned for large organizations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3976)
@@ -27,69 +137,69 @@ All notable changes to the Azure DevOps Automation Backend
 - Fix issue where the project name (containing whitespaces) was not normalized correctly for the feed name (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4015/)
 - Add new endpoints to get cosmo.json for a git tag (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4020)
 
-# v1.15.0
+## v1.15.0
 
 - Fix a problem where the validation of the current hour for a release gate failed because of wrong auth header (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3955)
 
-# v1.14.0
+## v1.14.0
 
 - move to .NET 8.0, rework telemetry implementation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3929)
 
-# v1.13.0
+## v1.13.0
 
 - Respect the configured default branch for a project (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3916)
 - Fix a problem where project creation failed because of wrong auth header (https://dev.azure.com/cc-ppi/General/_workitems/edit/3936)
 
-# v1.12.2
+## v1.12.2
 
 - Fix bug where wrong Auth header was used when querying ipPackages via pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3934)
 
-# v1.12.1
+## v1.12.1
 
 - Fix bug where backend url was not set during project creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3932)
 
-# v1.12.0
+## v1.12.0
 
 - Restructure v12 controllers and services (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3920)
 - Support BC24 projects (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3924)
 
-# v1.11.1
+## v1.11.1
 
 - Fix a problem where IP Artifacts on an Azure File Share with multiple versions could not be correctly resolved (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3896)
 
-# v1.11.0
+## v1.11.0
 
 - Add new endpoint to validate whether the current hour is allowed for release/deployment (set up multiple schedules using gates) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3878)
 
-# v1.10.0
+## v1.10.0
 
 - Allow pipeline configuration for automatic translation file generation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3817)
 - Create main branch in DevOps repo if not exists, to keep combatibility with older projects (https://dev.azure.com/cc-ppi/General/_workitems/edit/3866)
 
-# v1.9.0
+## v1.9.0
 
 - Updates to "COSMO DevOps Template" (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3855/)
 
-# v1.8.0
+## v1.8.0
 
 - Make "COSMO DevOps Template" available for COSMO West (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3855/)
 
-# v1.7.1
+## v1.7.1
 
 - Faulty ip feed configuration could lead to crashing azdevops-automation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3796)
 - Optimize resolved cosmo.json size by removing unresolved configs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3815)
 
-# v1.7.0
+## v1.7.0
 
 - New customization for DevOps (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3793)
 
-# v1.6.2
+## v1.6.2
 
 - Allow projects with blanks in the name via API by replacing the blanks with hyphens (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3725)
 - Make AzFS IP artifact backend less verbose (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3726)
 - Only show artifact versions in a view (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3727)
 
-# v1.6.0
+## v1.6.0
 
 - Install AL Code Highlighter and COSMO Loop (COSMO only) for new projects (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3666)
 - Hide/Ignore disabled repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/756)
@@ -97,7 +207,7 @@ All notable changes to the Azure DevOps Automation Backend
 - Fix parameters for pull request id for power apps with v0.11 (https://dev.azure.com/cc-ppi/General/_workitems/edit/3648)
 - Support BC23 Project Template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3676)
 
-# v1.5.2
+## v1.5.2
 
 - Fix sorting of artifacts in AzFS backend (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3474 and https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3631)
 - Fix send pullRequestId instead of parameters for power app (https://dev.azure.com/cc-ppi/General/_workitems/edit/3272)
@@ -105,80 +215,78 @@ All notable changes to the Azure DevOps Automation Backend
 - Fix error in CreateApp when agent pool is missing (https://dev.azure.com/cc-ppi/General/_workitems/edit/3615/)
 - Fix ignoreIn for devops artifacts is not working (https://dev.azure.com/cc-ppi/General/_workitems/edit/3627)
 
-# v1.5.1
+## v1.5.1
 
 - Add endpoint for validation container config against schema (https://dev.azure.com/cc-ppi/General/_workitems/edit/3519)
 
-# v1.5.0
+## v1.5.0
 
 - Fix demo container functionality (https://dev.azure.com/cc-ppi/General/_workitems/edit/3473)
 
-# v1.4.0
+## v1.4.0
 
 - Don't install ALOps on project creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3447)
 - Enable post for repository pullrequests endpoint (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3458)
 
-# v1.3.3
+## v1.3.3
 
 - Fix process customization on k8s (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3440)
 
-# v1.3.2
+## v1.3.2
 
 - Fix resolving single variables in cosmo.json and variables containing dots (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3367)
 
-# v1.3.1
+## v1.3.1
 
 - Implement versioning for comso.json (https://dev.azure.com/cc-ppi/General/_workitems/edit/3105)
 
-# v1.3.0
+## v1.3.0
 
 - Ignore audience logs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3126)
 
-# v1.2.1
+## v1.2.1
 
 - Fix license handling in pipelines (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3238)
 
-# v1.2.0
+## v1.2.0
 
 - Improve permission assignment of build service user during project and app creation (https://dev.azure.com/cc-ppi/General/_workitems/edit/3295)
 
-# v1.1.0
+## v1.1.0
 
 - Separate app registrations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3126)
 
-# v1.0.0
+## v1.0.0
 
 - Support authentication via App registration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3126)
 
-# 0.11.57.1
+## v0.11.57.1
 
 - fix http 500 "Config: 'cosmo.json' not found!" (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3238)
 
-# 0.11.57
+## v0.11.57
 
 - Respect DefaultStartupfileBranch if configured in k8s as well (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3113)
 - Fix file paths for Azure File Share IP artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3143)
 - Support shared customer cluster scenarios (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2995/)
 
-# 0.11.56
+## v0.11.56
 
 - Move to different registry
 
-# 0.11.55
+## v0.11.55
 
 - If there are multiple versions of an extension in the same folder in the AzFS ip package backend, only the latest is shown (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3020)
 
-# 0.11.56
+## v0.11.56
 
 - Move to different registry
 
-# 0.11.55
+## v0.11.55
 
 - If there are multiple versions of an extension in the same folder in the AzFS ip package backend, only the latest is shown (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3020)
 
->>>>>>> master
-
-# 0.11.54
+## v0.11.54
 
 - Fix a typo in a test app name (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2885)
 - Fix Http 500 issue in `ContainerConfigController` during load of configurations, caused by a config have invalid artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2890)
@@ -186,51 +294,51 @@ All notable changes to the Azure DevOps Automation Backend
 - Allow the deployment of arbitrary build artifacts to arbitrary containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2968)
 - Fix potential blank in feed name and check Build Service user permission before trying to set (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2969)
 
-# 0.11.53
+## v0.11.53
 
 - Support for access by additional users, e.g. freelancers working for COSMO (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2855)
 
-# 0.11.52
+## v0.11.52
 
 - GitHub rate limit shouldn't stop containers from starting (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2745)
 - Improved logging (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2746)
 - Add devcontainer support (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2850)
 - Support for opt-in AD guest support (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2855)
 
-# 0.11.51
+## v0.11.51
 
 - Fixed: Circularity check didn't work correctly in ProcessMap import. (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 
-# 0.11.50
+## v0.11.50
 
 - Compressing special fields for Power App compatibility added. (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 
-# 0.11.49
+## v0.11.49
 
 - Response Json fixed for Process Map Import, additional error details added. (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 
-# 0.11.48
+## v0.11.48
 
 - Improved error handling for Process Map Import (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 
-# 0.11.47
+## v0.11.47
 
 - Process map export added, to import an existing backlog into a new project (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 - Process map import improved to support additional custom fields (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2710/)
 
-# 0.11.46
+## v0.11.46
 
 - Also respect IgnoreIn for AzFileShare ipArtifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2670/)
 - Return the author of a branch in the same way as the Azure DevOps web UI does (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2695)
 - Special handling for IP artifacts from master: Only show latest, add reference with wildcard (https://dev.azure.com/cc-ppi/General/_workitems/edit/2699)
 
-# 0.11.45
+## v0.11.45
 
 - Add new LS process customization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2424/)
 - Support repositories with cosmo.json files in subfolders (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2528)
 - make new LS process customization available to additional entities: international, schweden and france (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2424/)
 
-# 0.11.44
+## v0.11.44
 
 - Support BC22 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2581)
 
@@ -340,12 +448,15 @@ All notable changes to the Azure DevOps Automation Backend
 - Clean up code (https://dev.azure.com/cc-ppi/General/_workitems/edit/1632/)
 - Handle continuation token when getting graph groups (https://dev.azure.com/cc-ppi/General/_workitems/edit/1578/)
 
-# v0.11.27 - v0.11.28
+# v0.11.28
 
 - Extend "Doc Handling" process customization to also include documentation tab for Tasks (https://dev.azure.com/cc-ppi/General/_workitems/edit/1455)
 - Fixed: Release Pipelines with wrong Agent Demand (https://dev.azure.com/cc-ppi/General/_workitems/edit/1481)
 - Extend container config by all properties defined in the pipeline mappings (https://dev.azure.com/cc-ppi/General/_workitems/edit/1507)
 - Add retrieving resolved and unresolved cosmo.json for pull requests (https://dev.azure.com/cc-ppi/General/_workitems/edit/1503)
+
+# v0.11.27
+
 - Add some checks when creating new apps (https://dev.azure.com/cc-ppi/General/_workitems/edit/772)
 - Support special chars in bug reports and feature requests (https://dev.azure.com/cc-ppi/General/_workitems/edit/1424)
 - Support BC19 and BC20 (https://dev.azure.com/cc-ppi/General/_workitems/edit/1399)
@@ -353,10 +464,16 @@ All notable changes to the Azure DevOps Automation Backend
 - New structure "additionalDeploymentFeeds" introduced for product development in COSMO.json. This array will provide additional deployment feed information for the primary output artifact during build. (https://dev.azure.com/cc-ppi/General/_workitems/edit/1345)
 - Fix a problem where cosmoArtifacts couldn't be correctly loaded if the were defined as children of bcArtifacts (https://dev.azure.com/cc-ppi/General/_workitems/edit/1450)
 
-# v0.11.26.1 - v0.11.26.3
+# v0.11.26.3
 
 - Add owner and better description to process modifications (https://dev.azure.com/cc-ppi/General/_workitems/edit/1359)
+
+# v0.11.26.2
+
 - Fixed problem during release pipeline creation for OnPrem (https://dev.azure.com/cc-ppi/General/_workitems/edit/1362)
+
+# v0.11.26.1
+
 - Add missing parameter enablePremium (https://dev.azure.com/cc-ppi/General/_workitems/edit/1312)
 - Add method to get configured backend URL (https://dev.azure.com/cc-ppi/General/_workitems/edit/1311)
 

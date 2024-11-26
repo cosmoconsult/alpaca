@@ -1,12 +1,15 @@
 ---
-    title: Power App Changelog
-    description: Power App Changelog
+    title: Power App Change Log
+    description: Power App Change Log
     orig-source: https://dev.azure.com/cc-ppi/General/_git/ppi-self-service?path=%2Fchangelog.md
 ---
 
 # Change Log
 
-All notable changes to the COSMO Alpaca PowerApp Solution.
+All notable changes to the PowerApp
+
+> [!NOTE]
+> Dicontinued. [More information](../whats-next.md#power-app)
 
 ## 2.3.30
 

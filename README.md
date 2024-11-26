@@ -1,6 +1,6 @@
 # COSMO Alpaca
 
-COSMO Alpaca offers a VS Code Extension for Business Central development with AL-Go for GitHub & Azure DevOps support: Cloud Development Environments, CI/CD, convenience features, automation & a lot more!
+COSMO Alpaca offers a Visual Studio Code Extension for Business Central development with AL-Go for GitHub & Azure DevOps support: Cloud Development Environments, CI/CD, convenience features, automation & a lot more!
 
 - AL-Go Extension: https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-alpaca
 - Azure DevOps Extension: https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-azure-devops

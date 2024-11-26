@@ -1,46 +1,47 @@
 ---
-    title: What's new
-    description: What's new
+    title: What's new in COSMO Alpaca
+    description: What's new in COSMO Alpaca
 ---
 
 # What's new in COSMO Alpaca
 
-Here you will find what is new in the latest release and also links to the history of previous changes. If you are not a COSMO employee, you might not be able to reach all links referenced here. If that is the case, please get in touch if you want/need more information.
+Here you will find links to the change logs of the different parts of COSMO Alpaca.\
+The change logs contain all notable changes to COSMO Alpaca.
+> [!NOTE]
+> If you are not a COSMO employee, you might not be able to reach all links referenced in the change logs.
 
-***This is currently reworked***
-
-## Visual Studio Code Extension
-
-[Changelog](full-changelogs/azdevops-vscode-extension.md)
+# Frontend
 
 ## Visual Studio Code Extension (Preview)
 
-[Changelog](full-changelogs/alpaca-vsc-extension.md)
+[Change Log](changelogs/frontend/alpaca-vsc-extension.md)
+
+## Visual Studio Code Extension
+
+[Change Log](changelogs/frontend/azdevops-vscode-extension.md)
 
 ## Power App
 
-[Changelog](full-changelogs/power-app.md)
+[Change Log](changelogs/frontend/power-app.md)
 
-## Azure DevOps Automation Backend
+# Backend
 
-[Changelog](full-changelogs/azdevops-automation.md)
+## Azure DevOps
 
-## Kubernetes Automation Backend
+[Change Log](changelogs/backend/azure-devops.md)
 
-[Changelog](full-changelogs/k8s-automation.md)
+## GitHub
 
-## Business Central development project templates
+[Change Log](changelogs/backend/github.md)
 
-[Changelog](full-changelogs/project-templates.md)
+## Container Backend
 
-## Azure pipeline templates
+[Change Log](changelogs/backend/container.md)
 
-[Changelog](full-changelogs/pipeline-templates.md)
+## Azure DevOps Pipeline Templates
 
-## Azure pipeline build agent image
+[Change Log](changelogs/backend/azure-devops-pipeline-templates.md)
 
-[Changelog](full-changelogs/azdevops-build-agent-image.md)
+## GitHub Al-Go Templates
 
-## Container startup scripts
-
-[Changelog](full-changelogs/startup-scripts.md)
+*available soon...*
