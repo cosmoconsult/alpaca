@@ -4,7 +4,7 @@
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-automation?path=%2FCHANGELOG.md
 ---
 
-# Change Log
+# Azure DevOps Backend Change Log
 
 All notable changes to the Azure DevOps Backend
 
@@ -269,14 +269,6 @@ All notable changes to the Azure DevOps Backend
 - Respect DefaultStartupfileBranch if configured in k8s as well (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3113)
 - Fix file paths for Azure File Share IP artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3143)
 - Support shared customer cluster scenarios (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2995/)
-
-## v0.11.56
-
-- Move to different registry
-
-## v0.11.55
-
-- If there are multiple versions of an extension in the same folder in the AzFS ip package backend, only the latest is shown (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3020)
 
 ## v0.11.56
 

@@ -4,7 +4,7 @@
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/GitHubApi
 ---
 
-# Change Log
+# GitHub Backend Change Log
 
 All notable changes to the GitHub Backend
 

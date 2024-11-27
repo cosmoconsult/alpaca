@@ -4,7 +4,7 @@
     orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
 ---
 
-# Change Log
+# Visual Studio Code Extension (Preview) Change Log
 
 All notable changes to the Visual Studio Code Extension (Preview)
 

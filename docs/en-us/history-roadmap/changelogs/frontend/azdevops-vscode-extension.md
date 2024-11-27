@@ -4,7 +4,7 @@
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-vscode-extension?path=/CHANGELOG.md
 ---
 
-# Change Log
+# Visual Studio Code Extension Change Log
 
 All notable changes to the Visual Studio Code Extension
 
