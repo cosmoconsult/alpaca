@@ -4,7 +4,7 @@
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/Templates-DevOps-D365BC?path=%2Fchangelog.md
 ---
 
-# Change Log
+# Azure DevOps Pipeline Templates Change Log
 
 All notable changes to the Azure DevOps Pipeline Templates
 

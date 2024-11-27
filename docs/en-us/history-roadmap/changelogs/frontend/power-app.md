@@ -4,12 +4,12 @@
     orig-source: https://dev.azure.com/cc-ppi/General/_git/ppi-self-service?path=%2Fchangelog.md
 ---
 
-# Change Log
+# Power App Change Log
 
 All notable changes to the PowerApp
 
 > [!NOTE]
-> Dicontinued. [More information](../whats-next.md#power-app)
+> Dicontinued. [More information](../../whats-next.md#power-app)
 
 ## 2.3.30
 
