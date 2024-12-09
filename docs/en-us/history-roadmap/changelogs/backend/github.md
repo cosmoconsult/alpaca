@@ -10,6 +10,10 @@ All notable changes to the GitHub Backend
 
 ## Unreleased
 
+- Add support for `alpaca.json` configuration
+
+## v0.22.0
+
 ## v0.21.0
 
 ## v0.20.0

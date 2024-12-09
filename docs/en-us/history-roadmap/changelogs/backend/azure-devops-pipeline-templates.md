@@ -9,13 +9,16 @@
 All notable changes to the Azure DevOps Pipeline Templates
 
 ## Unreleased
-<!-- ## v2.23.0 -->
+
+## v2.23.0
 
 * Make the timeout of agents configurable, because if the generated AccessToken is timed out, the agent shuts down and aborts the pipeline runs
 * Fix issue where pipeline runs can hangup on publishing App (with errors) for BC25+
 * Introduce parameter `CreateRelease`. When it is set, an artifact will be created.
 * Introduced variable `Docker.NoOfTailEntriesToRead`. With this the number of logs read in the `Wait on Container`-task can be changed. Default is `5000`.
 * Add Docker.KeepAliveOnTestError variable
+* Introduced variable `Docker.KeepAliveOnTestError`. With this containers can be kept alive only if there are test errors.
+* Introduced variable `Docker.WaitForContainerTimeoutInSec`. With this there can be set a timeout if e.g. the loading of the cosmo.json takes too long.
 
 ## v2.22.0
 

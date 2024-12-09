@@ -10,6 +10,12 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## Unreleased
 
+- Add optional setting to always show the container id
+- Improve container status/health checks (esp. after restarts)
+- Improve documentation of auto start/stop actions and settings
+- Update dependency packages
+- Update API clients
+  
 ## 0.31.0 (2024-11-19)
 
 - Fix visibility issue when switching to only show favorites

@@ -10,6 +10,10 @@ All notable changes to the Visual Studio Code Extension
 
 ## Unreleased
 
+- Add optional setting to always show the container id
+- Improve container status/health checks (esp. after restarts)
+- Improve documentation of auto start/stop actions and settings
+
 ## 1.20.0 (2024-11-26)
 
 - Fix issue where the notification (incl. postpone action) for the auto stop of containers was not shown (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4163)
