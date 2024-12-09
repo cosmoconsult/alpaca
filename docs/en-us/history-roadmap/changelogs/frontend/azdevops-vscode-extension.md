@@ -10,6 +10,8 @@ All notable changes to the Visual Studio Code Extension
 
 ## Unreleased
 
+## 1.21.0 (2024-12-09)
+
 - Add optional setting to always show the container id
 - Improve container status/health checks (esp. after restarts)
 - Improve documentation of auto start/stop actions and settings
