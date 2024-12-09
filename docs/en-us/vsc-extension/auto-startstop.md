@@ -28,6 +28,6 @@ You can also configure the Auto-Start and Auto-Stop modes and times differently 
 
 You can watch a walkthrough here:
 <video width="1280px" height="720px" controls>
-  <source src="../media/vscode/autostart-stop.mp4" type="video/mp4">
+  <source src="../media/vscode/auto-startstop.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

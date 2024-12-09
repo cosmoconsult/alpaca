@@ -1,10 +1,10 @@
 ---
-    title: Azure DevOps Pipeline Templates Change Log
-    description: Azure DevOps Pipeline Templates Change Log
+    title: Azure DevOps Pipeline Templates Changelog
+    description: Azure DevOps Pipeline Templates Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/Templates-DevOps-D365BC?path=%2Fchangelog.md
 ---
 
-# Azure DevOps Pipeline Templates Change Log
+# Azure DevOps Pipeline Templates Changelog
 
 All notable changes to the Azure DevOps Pipeline Templates
 

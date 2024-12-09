@@ -1,10 +1,10 @@
 ---
-    title: Azure DevOps Backend Change Log
-    description: Azure DevOps Backend Change Log
+    title: Azure DevOps Backend Changelog
+    description: Azure DevOps Backend Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-automation?path=%2FCHANGELOG.md
 ---
 
-# Azure DevOps Backend Change Log
+# Azure DevOps Backend Changelog
 
 All notable changes to the Azure DevOps Backend
 

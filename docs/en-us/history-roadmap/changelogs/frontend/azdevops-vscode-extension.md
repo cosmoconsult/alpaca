@@ -1,10 +1,10 @@
 ---
-    title: Visual Studio Code Extension Change Log
-    description: Visual Studio Code Extension Change Log
+    title: Visual Studio Code Extension Changelog
+    description: Visual Studio Code Extension Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-vscode-extension?path=/CHANGELOG.md
 ---
 
-# Visual Studio Code Extension Change Log
+# Visual Studio Code Extension Changelog
 
 All notable changes to the Visual Studio Code Extension
 

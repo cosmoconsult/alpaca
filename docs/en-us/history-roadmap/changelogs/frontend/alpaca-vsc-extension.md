@@ -1,10 +1,10 @@
 ---
-    title: Visual Studio Code Extension (Preview) Change Log
-    description: Visual Studio Code Extension (Preview) Change Log
+    title: Visual Studio Code Extension (Preview) Changelog
+    description: Visual Studio Code Extension (Preview) Changelog
     orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
 ---
 
-# Visual Studio Code Extension (Preview) Change Log
+# Visual Studio Code Extension (Preview) Changelog
 
 All notable changes to the Visual Studio Code Extension (Preview)
 

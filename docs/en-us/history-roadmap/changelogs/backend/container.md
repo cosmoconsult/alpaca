@@ -1,10 +1,10 @@
 ---
-    title: Container Backend Change Log
-    description: Container Backend Change Log
+    title: Container Backend Changelog
+    description: Container Backend Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/docker-automation?path=%2FCHANGELOG.md&version=GBk8s
 ---
 
-# Container Backend Change Log
+# Container Backend Changelog
 
 All notable changes to the Container Backend
 

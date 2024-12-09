@@ -14,33 +14,33 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 ## Visual Studio Code Extension (Preview)
 
-[Change Log](changelogs/frontend/alpaca-vsc-extension.md)
+[Changelog](changelogs/frontend/alpaca-vsc-extension.md)
 
 ## Visual Studio Code Extension
 
-[Change Log](changelogs/frontend/azdevops-vscode-extension.md)
+[Changelog](changelogs/frontend/azdevops-vscode-extension.md)
 
 ## Power App
 
-[Change Log](changelogs/frontend/power-app.md)
+[Changelog](changelogs/frontend/power-app.md)
 
 # Backend
 
 ## Azure DevOps
 
-[Change Log](changelogs/backend/azure-devops.md)
+[Changelog](changelogs/backend/azure-devops.md)
 
 ## GitHub
 
-[Change Log](changelogs/backend/github.md)
+[Changelog](changelogs/backend/github.md)
 
 ## Container Backend
 
-[Change Log](changelogs/backend/container.md)
+[Changelog](changelogs/backend/container.md)
 
 ## Azure DevOps Pipeline Templates
 
-[Change Log](changelogs/backend/azure-devops-pipeline-templates.md)
+[Changelog](changelogs/backend/azure-devops-pipeline-templates.md)
 
 ## GitHub AL-Go Templates
 
