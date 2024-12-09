@@ -1,14 +1,26 @@
 ---
-    title: Container Backend Change Log
-    description: Container Backend Change Log
+    title: Container Backend Changelog
+    description: Container Backend Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/docker-automation?path=%2FCHANGELOG.md&version=GBk8s
 ---
 
-# Container Backend Change Log
+# Container Backend Changelog
 
 All notable changes to the Container Backend
 
 ## Unreleased
+
+## v1.47.1
+
+- Fix container creation for GitHub repositories without configuration (https://github.com/cosmoconsult/alpaca/issues/18)
+
+## v1.47.0
+
+- Support configuration of artifacts for GitHub containers
+
+## v1.46.0
+
+- Fix issue where the name of the owner of a container is incorrectly normalized (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4172)
 
 ## v1.45.0
 

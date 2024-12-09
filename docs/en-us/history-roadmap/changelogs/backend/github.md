@@ -1,14 +1,18 @@
 ---
-    title: GitHub Backend Change Log
-    description: GitHub Backend Change Log
+    title: GitHub Backend Changelog
+    description: GitHub Backend Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/GitHubApi
 ---
 
-# GitHub Backend Change Log
+# GitHub Backend Changelog
 
 All notable changes to the GitHub Backend
 
 ## Unreleased
+
+- Add support for `alpaca.json` configuration
+
+## v0.22.0
 
 ## v0.21.0
 

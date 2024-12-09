@@ -92,7 +92,7 @@
 
 ### [Create a backup of the database in the container](vsc-extension/backup-database.md)
 
-### [Configure Auto-Start and Auto-Stop](vsc-extension/autostart-stop.md)
+### [Configure Auto-Start and Auto-Stop](vsc-extension/auto-startstop.md)
 
 ### [Rename a container](vsc-extension/rename-container.md)
 

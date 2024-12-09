@@ -1,10 +1,10 @@
 ---
-    title: NuGet Backend Change Log
-    description: NuGet Backend Change Log
+    title: NuGet Backend Changelog
+    description: NuGet Backend Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/NugetApi
 ---
 
-# NuGet Backend Change Log
+# NuGet Backend Changelog
 
 All notable changes to the NuGet Backend
 

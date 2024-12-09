@@ -1,14 +1,20 @@
 ---
-    title: Visual Studio Code Extension Change Log
-    description: Visual Studio Code Extension Change Log
+    title: Visual Studio Code Extension Changelog
+    description: Visual Studio Code Extension Changelog
     orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-vscode-extension?path=/CHANGELOG.md
 ---
 
-# Visual Studio Code Extension Change Log
+# Visual Studio Code Extension Changelog
 
 All notable changes to the Visual Studio Code Extension
 
 ## Unreleased
+
+## 1.21.0 (2024-12-09)
+
+- Add optional setting to always show the container id (`cc-azdevops.alwaysShowContainerId`)
+- Improve container status/health checks (esp. after restarts)
+- Improve documentation of auto start/stop actions and settings
 
 ## 1.20.0 (2024-11-26)
 

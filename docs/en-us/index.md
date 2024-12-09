@@ -69,7 +69,7 @@ In this section you find help for the usage scenarios as technical consultant or
   - [Get the event log](vsc-extension/event-log.md)
   - [Create a container with configuration from a specific branch](vsc-extension/create-branch-container.md)
   - [Create a backup of the database in the container](vsc-extension/backup-database.md)
-  - [Configure Auto-Start and Auto-Stop](vsc-extension/autostart-stop.md)
+  - [Configure Auto-Start and Auto-Stop](vsc-extension/auto-startstop.md)
   - [Rename a container](vsc-extension/rename-container.md)
   - [Restart NAV/BC Service Tier](vsc-extension/restart-service-tier.md)
 - [Assign an organization to an entity](vsc-extension/assign-entity.md)

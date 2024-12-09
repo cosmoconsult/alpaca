@@ -1,10 +1,10 @@
 ---
-    title: Power App Change Log
-    description: Power App Change Log
+    title: Power App Changelog
+    description: Power App Changelog
     orig-source: https://dev.azure.com/cc-ppi/General/_git/ppi-self-service?path=%2Fchangelog.md
 ---
 
-# Power App Change Log
+# Power App Changelog
 
 All notable changes to the PowerApp
 
