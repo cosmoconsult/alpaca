@@ -12,7 +12,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## 0.32.0 (2024-12-09)
 
-- Add optional setting to always show the container id
+- Add optional setting to always show the container id (`cosmo-alpaca.visibility.alwaysShowContainerId`)
 - Improve container status/health checks (esp. after restarts)
 - Improve documentation of auto start/stop actions and settings
 - Update dependency packages
