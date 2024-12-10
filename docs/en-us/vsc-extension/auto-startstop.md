@@ -27,6 +27,7 @@ You can also configure the Auto-Start and Auto-Stop modes and times differently 
 > If you only want to change the Auto-Start and Auto-Stop times for a container, you have to configure the times in the **Settings** and then set the modes for the container by choosing the same modes that are already set for the container. This way only the times are changed.
 
 You can watch a walkthrough here:
+
 <video width="1280px" height="720px" controls>
   <source src="../media/vscode/auto-startstop.mp4" type="video/mp4">
   Your browser does not support the video tag.
