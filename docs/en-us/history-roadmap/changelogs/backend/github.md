@@ -10,9 +10,14 @@ All notable changes to the GitHub Backend
 
 ## Unreleased
 
-- Add support for `alpaca.json` configuration
+## v0.23.0 (2024-12-10)
+
+- Fix issue where slashes in the name of an AL-Go project caused an error
+- Update AL-Go to v6.1
 
 ## v0.22.0
+
+- Add support for `alpaca.json` configuration
 
 ## v0.21.0
 
