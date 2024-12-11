@@ -20,8 +20,12 @@ You can also configure the Auto-Start and Auto-Stop modes and times differently 
 
 1. In VS Code, find your container and right-click on it.
 1. Choose **Set Auto-Start mode** or **Set Auto-Stop mode**
+1. Confirm that you want to change the Auto-Start or Auto-Stop mode which will **restart a running container**.
 1. Choose the mode you want to use for this single container.
 1. The new mode is active for the container. The Auto-Start and Auto-Stop times from your **Settings** are also set for this container.
+
+> [!IMPORTANT]
+> Activating or deactivating the Auto-Start or Auto-Stop mode for a container will restart the container if it runs.
 
 > [!TIP]
 > If you only want to change the Auto-Start and Auto-Stop times for a container, you have to configure the times in the **Settings** and then set the modes for the container by choosing the same modes that are already set for the container. This way only the times are changed.
