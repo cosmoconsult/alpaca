@@ -7,7 +7,7 @@
 
 If you would like to execute custom scripts within your containers created for development, testing, build or demo purposes you can easily add them to your Git repository as follows:
 
-1. Create a directory `.container-my` in the root of the Git repository of your application. In there you can create arbitary PowerShell scripts with the same filename [as the one in the Business Central image](https://github.com/microsoft/nav-docker/tree/master/generic/Run) to override them. You can override almost any script except from `navstart.ps1` (e.g. [`AdditionalSetup.ps1`](https://github.com/microsoft/nav-docker/blob/main/generic/Run/AdditionalSetup.ps1))
+1. Create a directory `.container-my` in the root of the Git repository of your application. In there you can create arbitary PowerShell scripts with the same filename [as the one in the Business Central image](https://github.com/microsoft/nav-docker/tree/master/generic/Run) to override them. You can override almost any script except from `navstart.ps1` (e.g. [`AdditionalSetup.ps1`](https://github.com/microsoft/nav-docker/blob/main/generic/Run/AdditionalSetup.ps1))\
 Your custom PowerShell scripts will be run during the start of the container instead of the default logic. To invoke the default script from within your overridden script you have to call `. (Join-Path $runPath $MyInvocation.MyCommand.Name)`.
 
 1. Within your `cosmo.json` set the following parameter within the root node:
