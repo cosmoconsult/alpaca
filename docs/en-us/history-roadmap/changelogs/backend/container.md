@@ -10,6 +10,18 @@ All notable changes to the Container Backend
 
 ## Unreleased
 
+## v1.47.4
+
+- Fix saasbak and bak are handled as nuget (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4191)
+
+## v1.47.3
+
+- Fix problem in namespace resolution (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4189)
+
+## v1.47.2
+
+- Fix upgrades for containers by always removing all apps before the upgrade (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4178)
+
 ## v1.47.1
 
 - Fix container creation for GitHub repositories without configuration (https://github.com/cosmoconsult/alpaca/issues/18)

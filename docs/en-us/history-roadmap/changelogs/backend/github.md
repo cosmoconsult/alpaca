@@ -12,7 +12,7 @@ All notable changes to the GitHub Backend
 
 ## v0.23.0 (2024-12-10)
 
-- Fix issue where slashes in the name of an AL-Go project caused an error
+- Fix issue where slashes in the name of an AL-Go project caused an error (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4180)
 - Update AL-Go to version 6.1
 
 ## v0.22.0
