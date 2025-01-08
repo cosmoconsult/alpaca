@@ -10,9 +10,13 @@ All notable changes to the Visual Studio Code Extension
 
 ## Unreleased
 
+## 1.22.0 (2024-12-16)
+
+- Add setting to make (auto-managed) PAT lifetime configurable: `cc-azdevops.autoManagePATLifetime` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4182)
+
 ## 1.21.0 (2024-12-09)
 
-- Add optional setting to always show the container id (`cc-azdevops.alwaysShowContainerId`)
+- Add optional setting to always show the container id: `cc-azdevops.alwaysShowContainerId`
 - Improve container status/health checks (esp. after restarts)
 - Improve documentation of auto start/stop actions and settings
 

@@ -10,6 +10,11 @@ All notable changes to the Azure DevOps Backend
 
 ## Unreleased
 
+## v1.32.0
+
+- Prevent empty repositories (with no default branch) from causing exceptions (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4184)
+- Add new DevOps process customization template: LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+
 ## v1.31.0
 
 - Adjust health check to not fail in case Azure DevOps is unhealthy or unresponsive (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4164)
