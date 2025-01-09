@@ -10,6 +10,13 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## Unreleased
 
+## 0.33.0 (2025-01-09)
+
+- Improve webview implementation
+- After an update of the extension, the changelog will now be shown automatically
+- Update translations
+- Update dependency packages
+
 ## 0.32.0 (2024-12-09)
 
 - Add optional setting to always show the container id (`cosmo-alpaca.visibility.alwaysShowContainerId`)
