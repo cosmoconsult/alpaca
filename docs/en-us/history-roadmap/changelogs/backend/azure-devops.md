@@ -10,7 +10,11 @@ All notable changes to the Azure DevOps Backend
 
 ## Unreleased
 
-## v1.32.0
+## v1.32.1 (2025-01-09)
+
+- Remove breaking change between LS-Extension V2 and LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+
+## v1.32.0 (2025-01-08)
 
 - Prevent empty repositories (with no default branch) from causing exceptions (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4184)
 - Add new DevOps process customization template: LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
