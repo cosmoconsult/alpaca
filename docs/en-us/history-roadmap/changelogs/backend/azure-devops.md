@@ -10,9 +10,15 @@ All notable changes to the Azure DevOps Backend
 
 ## Unreleased
 
+## v1.32.2 (2025-01-13)
+
+- Fix issue in process customization LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+- Extend error logging when applying process customizations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+- Add capability to update the properties "required" and "defaultValue" of existing fields in a process customization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+
 ## v1.32.1 (2025-01-09)
 
-- Remove breaking change between LS-Extension V2 and LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+- Remove breaking change between process customizations LS-Extension V2 and LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
 
 ## v1.32.0 (2025-01-08)
 
