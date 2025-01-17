@@ -10,7 +10,11 @@ All notable changes to the Container Backend
 
 ## Unreleased
 
-## v1.47.4
+## v1.47.5 (2025-01-15)
+
+- Allow longer startup time for containers with saasbak (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4196)
+
+## v1.47.4 (2025-01-08)
 
 - Fix saasbak and bak are handled as nuget (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4191)
 
