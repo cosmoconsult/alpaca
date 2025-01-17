@@ -205,7 +205,7 @@ When the configuration file `<App-Repo>/.devops/cosmo.json` exists, the followin
 
 | Name              | Description                                                                                                                                                                         |
 | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| LicenseFile       | URL to the license file. **Value like `$(devlic-bc16-de)` with reference to a [secret](../admin/index.md).**                                                                        |
+| LicenseFile       | URL to the license file. **Value like `$(dbclic-bc-de)` with reference to a [secret](../admin/index.md).**                                                                        |
 | CustomerLicense   | URL to the customer specific license file. **Value like `$(customer-lic)` with reference to a secret variable in a referenced variable groups is possible.**                        |
 | Docker.Parameters | Parameters for the Build-Container                                                                                                                                                  |
 | Artifacts.Feed    | Define the used artifact feed during **Publish Artifacts**.<br />The value is either `<project-name>/>feed-name>` (Project-Scoped-Feed) or `<feed-name>` (organization-Scoped-Feed) |

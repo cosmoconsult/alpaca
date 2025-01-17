@@ -156,4 +156,6 @@
 
 # [Cross-tenant Collaboration](collaboration.md)
 
+# [Status and Health](status.md)
+
 # [Download PDF](doc.pdf)
