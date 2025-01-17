@@ -8,8 +8,6 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## Unreleased
-
 ## 1.22.0 (2024-12-16)
 
 - Add setting to make (auto-managed) PAT lifetime configurable: `cc-azdevops.autoManagePATLifetime` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4182)

@@ -8,8 +8,6 @@
 
 All notable changes to the Azure DevOps Backend
 
-## Unreleased
-
 ## v1.32.3 (2025-01-14)
 
 - Fix issue in process customization LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
