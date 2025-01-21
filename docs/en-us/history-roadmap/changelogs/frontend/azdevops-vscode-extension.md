@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.23.0 (2025-01-21)
+
+- Restrict permissions for the private key file of a container to the current user (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4200)
+
 ## 1.22.0 (2024-12-16)
 
 - Add setting to make (auto-managed) PAT lifetime configurable: `cc-azdevops.autoManagePATLifetime` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4182)
