@@ -8,7 +8,7 @@
 
 All notable changes to the Container Backend
 
-## v1.48.0
+## v1.48.0 (2025-01-22)
 
 - Upgrade dependencies to latest versions (https://github.com/cosmoconsult/alpaca/issues/28)
 
