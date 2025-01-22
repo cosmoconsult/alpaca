@@ -18,18 +18,10 @@ Open the PowerApp and navigate to the "Project Maintenance" and than to the "Imp
 1. [Wait until the import finish](./import-backlog.md#wait-for-completion). There is an automatic refresh until the import is succeeded or failed.
 1. [Check the import result](./import-backlog.md#check-import-result).
 
-You can watch a walk through here:
-
-<video width="1280px" height="720px" controls>
-  <source src="../media/powerapps/import-processmap.webm" type='video/webm; codecs="vp8, vorbis"'>
-  Your browser does not support the video tag.
-</video>
-
 ## Import Source - Process Map
 
-Change the process map language and press "Select Source" to continue. You can also use the toggle button to switch to import from [Backlog](./import-backlog.md#import-source---source-project-backlog).
-
-![Import Process Map](../media/powerapps/import-backlog-02.png "Process Map")
+> [!IMPORTANT]
+> The process map and its import has been reworked. Please refer to the new documentation: [COSMO Docs](https://docs.cosmoconsult.com/en-us/internal/process-driven-consulting)
 
 ## Import Source - Source Project Backlog
 
@@ -45,7 +37,7 @@ Select the target project and press "Select Target" to continue.
 
 ## Export Source Backlog
 
-Start the export backlog (only needed, when source backlog was selected) by pressing "Export Backlog":
+Start the export backlog by pressing "Export Backlog":
 
 ![Export Source Backlog](../media/powerapps/import-backlog-04-1.png "Export Source Backlog")
 
@@ -70,7 +62,3 @@ Afterwards the import is running:
 The whole import take approx. 5 minutes. A result is automatically checked every 5 seconds. When the import is completed please navigate to **"Details"**:
 
 ![Import Complete](../media/powerapps/import-backlog-06-1.png "Import Complete")
-
-For example her is a correct import result:
-
-![Import Result](../media/powerapps/import-backlog-07.png "Import Result")
