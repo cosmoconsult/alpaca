@@ -8,8 +8,6 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## Unreleased
-
 ## v2.23.0
 
 * Make the timeout of agents configurable, because if the generated AccessToken is timed out, the agent shuts down and aborts the pipeline runs

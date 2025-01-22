@@ -10,6 +10,14 @@ All notable changes to the Azure DevOps Backend
 
 ## Unreleased
 
+- Install BC25 Test Libraries and Test Apps as well when importTestLibraries or importTestApps set in cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4197)
+- Fix issue when re-applying a process customization containing custom/standalone work item types (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4199)
+- Return null for unset translation settings in cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4170)
+
+## v1.32.3 (2025-01-14)
+
+- Fix issue in process customization LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)
+
 ## v1.32.2 (2025-01-13)
 
 - Fix issue in process customization LS-Extension MBPC V4 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4190)

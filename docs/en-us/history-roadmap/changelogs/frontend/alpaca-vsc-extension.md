@@ -8,8 +8,6 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## Unreleased
-
 ## 0.33.0 (2025-01-10)
 
 - Improve webview implementation

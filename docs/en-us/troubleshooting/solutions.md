@@ -27,9 +27,7 @@ Exception calling "DownloadFile" with "2" argument(s): "The remote server return
 Downloading license file ...
 ```
 
-then very likely your license has expired and the corresponding link with it. In this case you need to ask your administrator to provide an updated license. For BC22+ we recommend specifying `"licenseFile": ""` in the cosmo.json to use the default CRONUS license which contains all license ranges and exires only after 10 years.
-
-Only relevant for COSMO employees: We only provide updated licenses for the latest BC versions, so you might have to update the `licensefile` reference in your `cosmo.json` file.
+then very likely your license has expired and the corresponding link with it. You have to update the referenced license file in your `cosmo.json` file. [see](../containers/setup-cosmo-json.md#licensefile)
 
 ### My build pipelines sometimes fail and sometimes work with the same code
 

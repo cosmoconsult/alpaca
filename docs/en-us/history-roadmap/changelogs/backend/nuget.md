@@ -8,10 +8,6 @@
 
 All notable changes to the NuGet Backend
 
-## Unreleased
-
-- Work in progress
-
 ## v0.1.0
 
 - Initial release

@@ -79,7 +79,7 @@ A container is created and used as:
 |`"additionalDeploymentFeeds"` |array |optional |An optional array of additional deployment feeds. [more][additional-deployment-feeds]|
 |`"publishToFolderStructure"` | boolean | optional | Publishes the artifact in a folder structure. The app file is put in a folder `app` and the test app is put into a folder `test`.
 |`"devopsPool"`           |string |**mandatory**|The reference to the used DevOps build agent pool. The default `"$(devopsPool)"` references a variable from `CI Build Agent` variable group of the project.|
-|`"licenseFile"`          |string |**mandatory**|The used license file for the container. The value references a [secret](../admin/index.md).|
+|`"licenseFile"`          |string |**mandatory**|The used license file for the container. [more](setup-cosmo-json.md#license-file)|
 |`"customerLicense"`      |string |optional     |The  used license file for PR-Test during build to ensure all IDs are included in the customer license. Note: "licenseFile" is used, when this parameter is empty.|
 |`"customerLicenseScope"` |string |optional     |The import scope for the customer license file. Values are: `Default`, `NavDatabase`, `Master`, `Tenant`.|
 |`"useCustomScriptsFromRepo"`|boolean |optional |`true` to use custom scripts during container start. More information can be found here: [Set up custom scripts][setup-custom-scripts] |
@@ -115,6 +115,36 @@ The additional deployment feeds are used in Product Development to deploy the sa
     // ...
 }
 ```
+
+### License File
+
+- For **< BC23**: If you don't use any 3rd party dependencies you can use the default Cronus license by specifying this in your cosmo.json:
+
+```json
+"licenseFile": ""
+```
+
+- If you use third 3rd party dependencies and running BC version **17.12+**, **18.7+**, **19.1+** or up until **BC22** you can use the BC23 Cronus license that contains all license ranges by specifying this in your cosmo.json:
+
+```json
+"licenseFile": "https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D" 
+```
+
+- Starting with **BC23** you can always use the default Cronus license since it includes all license ranges by specifying this in your cosmo.json:
+  
+```json
+"licenseFile": ""
+```
+
+- *COSMO-only*: If the default Cronus license doesn't work for you, you can use a version and country specific development license. Unfortunatly we can only provide updated licenses for the latest BC versions, but to avoid updating the license in your cosmo.json repeatedly, you can now use the new "latest" license secrets. Those secrets are named after the following format: `dbclic-bc-<language>`. e.g.:
+  - dbclic-bc-at
+  - dbclic-bc-de
+  - dbclic-bc-de-ch
+  - dbclic-bc-es
+  - dbclic-bc-fr
+  - dbclic-bc-hu
+  - dbclic-bc-ro-w1
+  - dbclic-bc-se
 
 ## Docker-Specific Parameters
 
