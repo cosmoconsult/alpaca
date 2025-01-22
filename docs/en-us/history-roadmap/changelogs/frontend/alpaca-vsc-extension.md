@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## 0.34.0 (2025-01-22)
+
+- Add **Alpaca Home** page to show the changelog and status information
+- Remove unnecessary status bar items for username and Azure tenant
+- Update dependency packages
+
 ## 0.33.0 (2025-01-10)
 
 - Improve webview implementation
