@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## 0.35.0 (2025-01-22)
+
+- Add actions to open status page links externally
+
 ## 0.34.0 (2025-01-22)
 
 - Add **Alpaca Home** page to show the changelog and status information
