@@ -16,3 +16,11 @@ To stop and start a container you [created before](create-container.md), e.g. to
   <source src="../media/vsc-extension-startstop-container.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+> [!NOTE] Automated nightly consolidation:
+> We're using an automated mechanism that automatically consolidates all running containers on as few resources as possible during the night. In the background containers are spread across different virtual machines where one machine runs many BC containers.
+>
+> **Example**: Due to different stop times of containers it can happen, that in the worst case 12 virtual machines running with only 1 BC container each, although a single VM is capable of running much more.\
+> The automated mechanism consolidates those containers so that only 1 virtual machine is needed for those 12 containers. *#COSMOgoesgreen*
+>
+> The mechanism usually starts at **22pm CET** and might make your container unavailable for around 10-15min during consolidation.
