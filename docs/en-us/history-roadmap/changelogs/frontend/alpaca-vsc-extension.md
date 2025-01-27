@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## 0.35.1 (2025-01-27)
+
+- Fix prefixes of support issues (bugs & feature requests)
+
 ## 0.35.0 (2025-01-22)
 
 - Add actions to open status page links externally
