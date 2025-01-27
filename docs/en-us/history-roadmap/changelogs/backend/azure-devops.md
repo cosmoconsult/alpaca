@@ -8,12 +8,14 @@
 
 All notable changes to the Azure DevOps Backend
 
-## v1.33.0 (unreleased)
+## v1.33.0 (2025-01-27)
 
 - Install BC25 Test Libraries and Test Apps as well when importTestLibraries or importTestApps set in cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4197)
 - Fix issue when re-applying a process customization containing custom/standalone work item types (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4199)
 - Return null for unset translation settings in cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4170)
 - Fix problem in COSMO entity resolution (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4189)
+- Extended cosmo.json with configuration to support dependencies for artifacts (e.g. "app" must be compiled and installed beforehand) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4198)
+- Fix bug where the artifact download may return wrong artifact from cache (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4205)
 
 ## v1.32.3 (2025-01-14)
 
