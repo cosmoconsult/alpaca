@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.24.0 (unreleased)
+
+- Moved bug reports and feature requests to github issues (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4204/)
+
 ## 1.23.0 (2025-01-21)
 
 - Restrict permissions for the private key file of a container to the current user (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4200)
