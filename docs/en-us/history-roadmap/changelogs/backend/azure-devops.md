@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.34.0
+
+- Stabilize Azure FileShare IP artifact backend to tolerate unexpected naming structure (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4214)
+
 ## v1.33.0 (2025-01-27)
 
 - Install BC25 Test Libraries and Test Apps as well when importTestLibraries or importTestApps set in cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4197)
