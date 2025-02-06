@@ -8,6 +8,18 @@
 
 All notable changes to the Container Backend
 
+# v1.51.0
+
+- Resolve target namespace for GitHub containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4218)
+
+# v1.50.0
+
+- Add Endpoint to get artifacts for a GitHub container configuration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4210)
+
+# v1.49.0
+
+- Add retries for Kubernetes API requests (https://github.com/cosmoconsult/alpaca/issues/28)
+
 ## v1.48.0 (2025-01-22)
 
 - Upgrade dependencies to latest versions (https://github.com/cosmoconsult/alpaca/issues/28)
