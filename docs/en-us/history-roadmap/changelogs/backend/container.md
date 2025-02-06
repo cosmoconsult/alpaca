@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+# v1.52.0
+
+- Replace GitHubAPI client by AlpacaAPI client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4220)
+
 # v1.51.0
 
 - Resolve target namespace for GitHub containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4218)
