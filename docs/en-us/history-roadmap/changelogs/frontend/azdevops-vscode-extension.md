@@ -8,9 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## 1.24.0 (unreleased)
+## 1.24.0 (2025-02-12)
 
 - Moved bug reports and feature requests to github issues (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4204/)
+- Fixed bug where "Open Terminal" or "Open Fileshare" downloads an empty SSH keyfile (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4216/)
 
 ## 1.23.0 (2025-01-21)
 
