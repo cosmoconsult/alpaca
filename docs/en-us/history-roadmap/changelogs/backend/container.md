@@ -11,8 +11,7 @@ All notable changes to the Container Backend
 ## v1.55.0 (2025-02-14)
 
 - Update Alpaca API client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4229)
-- Update backup-converter chart version to 1.9.0 (appVersion 1.2.1) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4226)
-- Update backup-converter chart version to 1.10.0 (appVersion 1.2.2) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4230)
+- Update backup-converter chart version to 1.11.0 (appVersion 1.2.3) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4230)
 
 ## v1.54.0 (2025-02-14)
 
