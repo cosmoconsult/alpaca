@@ -11,6 +11,7 @@ All notable changes to the Azure DevOps Backend
 ## v1.35.0
 
 - Remove GitHubApi Client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4220)
+- Install AL Test runner when installTestApps=true (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4227)
 
 ## v1.34.0
 
