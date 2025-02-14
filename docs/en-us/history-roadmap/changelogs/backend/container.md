@@ -8,32 +8,33 @@
 
 All notable changes to the Container Backend
 
-# v1.55.0 (2025-02-14)
+## v1.55.0 (2025-02-14)
 
-- Update Alpaca API client
+- Update Alpaca API client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4229)
+- Update backup-converter chart version to 1.9.0 (appVersion 1.2.1) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4226)
 
-# v1.54.0 (2025-02-14)
+## v1.54.0 (2025-02-14)
 
 - Update backup-converter chart version to 1.8.0 (appVersion 1.2.0) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4226)
 - Set auto start and stop deactivated for backup conversion containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4226)
 
-# v1.53.0
+## v1.53.0
 
 - Enable BC14 pipelines (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4224)
 
-# v1.52.0
+## v1.52.0
 
 - Replace GitHubAPI client by AlpacaAPI client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4220)
 
-# v1.51.0
+## v1.51.0
 
 - Resolve target namespace for GitHub containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4218)
 
-# v1.50.0
+## v1.50.0
 
 - Add Endpoint to get artifacts for a GitHub container configuration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4210)
 
-# v1.49.0
+## v1.49.0
 
 - Add retries for Kubernetes API requests (https://github.com/cosmoconsult/alpaca/issues/28)
 
