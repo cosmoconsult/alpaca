@@ -8,6 +8,18 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.25.0
+
+* Improved error handling for the startup of build containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4225)
+
+## v2.24.0
+
+* Add further publishers to Pipelines and add/extract 2 functions:
+  * add `Backup-DatabaseToAzureFileShare` which can be used to store the .bak file of the container on Azure FileShare
+  * extract function `Get-AzureFoldernameOnFileshare` which is now used in `Backup-DatabaseToAzureFileShare` and `Publish-ToAzureFileShare`.
+* Add variable `Compile.AssemblyProbingPaths` to overrule the assemblyProbingPaths.
+* Do not add directory path to appManifestFile-value if it is specified in cosmo.json
+
 ## v2.23.0
 
 * Make the timeout of agents configurable, because if the generated AccessToken is timed out, the agent shuts down and aborts the pipeline runs

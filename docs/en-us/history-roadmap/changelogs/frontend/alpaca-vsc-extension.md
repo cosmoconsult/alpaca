@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## 0.37.0 (2025-02-14)
+
+- Update API clients
+- Move to GitHub specifc endpoints of Alpaca API
+- Update dependency packages
+
 ## 0.36.0 (2025-02-06)
 
 - Update API clients
