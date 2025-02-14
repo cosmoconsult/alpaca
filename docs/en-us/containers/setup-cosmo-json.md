@@ -86,6 +86,7 @@ A container is created and used as:
 |`"downloadSourcePreviousRelease"` |string |optional |Specify if the artifact for the breaking change test should be taken from the target branch of the pull request or from a feed. Values are: `Feed`, **`PR-Target`** (default). Use the above described option `"previousRelease"` to specify the feed and package name. |
 |`"auth"`|string |optional |This can be either **`navuserpassword`** (default) or `aad`. Please note that to use `aad`, you first need to set up your backend correctl<>: [Configuring your backend for AAD authentication][aad-setup]. *This feature works with with docker-automation 0.11.29, azdevops-automation 0.11.35 and the VS Code extension 0.11.57 and later*|
 |`"bcVersionDirectory"`|string|optional|Specify the subfolder for locating the Business Central management libraries. The default value is `"*"`. Use e.g. "200" if your  Business Central insallation is located in "C:\Program Files (x86)\Microsoft Dynamics 365 Business Central\200". |
+|`"importTestApps"`|boolean|optional|Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
 
 ### Additional Deployment Feeds
 
