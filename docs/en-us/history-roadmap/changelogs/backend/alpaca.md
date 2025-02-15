@@ -1,12 +1,23 @@
 ---
-    title: GitHub Backend Changelog
-    description: GitHub Backend Changelog
-    orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/GitHubApi
+    title: Alpaca Backend Changelog
+    description: Alpaca Backend Changelog
+    orig-source: https://github.com/cosmoconsult/alpaca-api
 ---
 
-# GitHub Backend Changelog
+# Alpaca Backend Changelog
 
-All notable changes to the GitHub Backend
+All notable changes to the Alpaca Backend
+
+## v0.25.0 (2025-02-14)
+
+- Update dependency packages
+- Internal improvements
+- Add GitHub specific endpoints
+
+## v0.24.0 (2025-02-06)
+
+- Move to GitHub
+- Update to AL-Go v6.3
 
 ## v0.23.0 (2024-12-10)
 

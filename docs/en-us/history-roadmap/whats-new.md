@@ -26,17 +26,25 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 # Backend
 
+## Alpaca
+
+[Changelog](changelogs/backend/alpaca.md)
+
 ## Azure DevOps
 
 [Changelog](changelogs/backend/azure-devops.md)
 
-## GitHub
-
-[Changelog](changelogs/backend/github.md)
-
 ## Container Backend
 
 [Changelog](changelogs/backend/container.md)
+
+## NuGet Backend
+
+[Changelog](changelogs/backend/nuget.md)
+
+## Product Backend
+
+[Changelog](changelogs/backend/product.md)
 
 ## Azure DevOps Pipeline Templates
 
@@ -44,4 +52,10 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 ## GitHub AL-Go Templates
 
-*available soon...*
+### Alpaca AL-Go Per Tenant Extension Template
+
+[Changelog](changelogs/backend/alpaca-pte.md)
+
+### Alpaca AL-Go AppSource App Template
+
+**available soon...**
