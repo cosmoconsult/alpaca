@@ -137,15 +137,23 @@ The additional deployment feeds are used in Product Development to deploy the sa
 "licenseFile": ""
 ```
 
-- *COSMO-only*: If the default Cronus license doesn't work for you, you can use a version and country specific development license. Unfortunatly we can only provide updated licenses for the latest BC versions, but to avoid updating the license in your cosmo.json repeatedly, you can now use the new "latest" license secrets. Those secrets are named after the following format: `dbclic-bc-<language>`. e.g.:
-  - dbclic-bc-at
-  - dbclic-bc-de
-  - dbclic-bc-de-ch
-  - dbclic-bc-es
-  - dbclic-bc-fr
-  - dbclic-bc-hu
-  - dbclic-bc-ro-w1
-  - dbclic-bc-se
+- *COSMO-only*: If the default Cronus license doesn't work for you, you can use a country specific development license. Unfortunatly we can only provide updated licenses for the latest BC versions, but to avoid updating the license in your cosmo.json repeatedly, you can now use the new "latest" license secrets. Those secrets are named after the following format: `dbclic-bc-<language>` *(.bclicense)* or `devlic-bc-<language>` *(.flf)*. e.g.:
+  - **.bclicense** *(BC version **17.12**, **18.7**, **19.1** and later)*:
+    - dbclic-bc-at
+    - dbclic-bc-de
+    - dbclic-bc-de-ch
+    - dbclic-bc-es
+    - dbclic-bc-fr
+    - dbclic-bc-hu
+    - dbclic-bc-ro-w1
+    - dbclic-bc-se
+  - **.flf** *(BC Version **17.11**, **18.6**, **19.0** and earlier)*
+    - devlic-bc-at
+    - devlic-bc-de
+    - devlic-bc-es
+    - devlic-bc-fr
+    - devlic-bc-hu
+    - devlic-bc-se
 
 ## Docker-Specific Parameters
 
