@@ -5,6 +5,11 @@ on:
     types: [opened, reopened, edited]
     branches:
       - main 
+
+permissions:
+    pull-requests: read
+
+    
 jobs:
   create-edit-comment:
     name: check   
