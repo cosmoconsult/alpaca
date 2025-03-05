@@ -8,6 +8,15 @@
 
 All notable changes to the Azure DevOps Backend
 
+# v1.37.0 (unreleased)
+
+* Support for extension deployment with schedule and schema sync mode (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3030)
+
+# v1.36.0
+
+- Populate backend URL for unresolved config as well (https://github.com/cosmoconsult/alpaca/issues/40)
+- Improve assignment of a COSMO entity to an organization: assigning a new entity now removes/replaces the previous assignment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4233/)
+
 ## v1.35.0
 
 - Remove GitHubApi Client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4220)

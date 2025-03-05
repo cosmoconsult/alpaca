@@ -130,13 +130,13 @@ When creating new release pipeline, choose the option **"COSMO Deploy App (D365B
 
 1. Install and configure the Build Agent on the target machine. It will then be available in the Azure DevOps Pool.
 
-   ![Build Agent in Azure DevOps Pool](../media/releaase-pipeline/powershell-pool-agent.png "Build Agent in Azure DevOps Pool")
+   ![Build Agent in Azure DevOps Pool](../media/release-pipeline/powershell-pool-agent.png "Build Agent in Azure DevOps Pool")
 
    **Note:** It is recommended to set up a maintenance job for the Build Agent to clean up the agent's work directory. This can be done by adding a maintenance job to the agent pool like described in the [docs](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#what-is-a-maintenance-job).
 
 2. Replace the agent pool in the created release pipline with the pool where the Build Agent is located.
 
-   ![Build Agent in Release Pipeline](../media/releaase-pipeline/powershell-pool-pipeline.png "Build Agent in Release Pipeline")
+   ![Build Agent in Release Pipeline](../media/release-pipeline/powershell-pool-pipeline.png "Build Agent in Release Pipeline")
 
 ##### Setup the configuration in Azure DevOps
 
@@ -167,7 +167,7 @@ Now you need to enable the Automation API for your OnPrem environment:
 2. Restart Server Instance (as indicated when the scripts are executed)
 3. Generate Web Service Access Key (Password) for the User which should be used to access the Automation API
 
-   ![Generate Web Service Access Key](../media/releaase-pipeline/automation-api-user.png "Generate Web Service Access Key")
+   ![Generate Web Service Access Key](../media/release-pipeline/automation-api-user.png "Generate Web Service Access Key")
 
 4. The API should be reachable from external ("https://**Url**/**ServerInstance**/api/microsoft/automation/v1.0/companies")
    * **Important** : If errors occur, you need to contact local or global IT to open the  appropriate port and to enable authentication.
@@ -240,6 +240,20 @@ To configure the API call as a gate:
 
 ![Configure Release Stage Schedule Part 1](../media/pipelines/release_schedule_gate_1.png)
 ![Configure Release Stage Schedule Part 2](../media/pipelines/release_schedule_gate_2.png)
+
+#### Deployment with ForceSync
+
+To deploy a release with a forced schema synchronization, set the variable `SyncMode` when creating the release.
+These values are available: `Add` *(default)*, `Force Sync`
+
+![Desployment with SyncMode](../media/release-pipeline/deployment-sync-mode.png)
+
+#### Deployment for next Minor/Major version
+
+To deploy a release for the next minor/major version, set the variable `Schedule` when creating the release.
+These values are available: `Current version` *(default)*, `Next minor version`, `Next major version`
+
+![Deployment with Schedule](../media/release-pipeline/deployment-schedule.png)
 
 ### Known Issues
 
