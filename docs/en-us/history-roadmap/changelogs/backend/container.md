@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+# v1.56.0
+
+- Update launch.json creation process with the attach configuration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4238/)
+
 ## v1.55.0 (2025-02-14)
 
 - Update Alpaca API client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4229)
