@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.26.0 (unreleased)
+
+* Support for extension deployment with schedule and schema sync mode (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3030)
+
 ## v2.25.0
 
 * Improved error handling for the startup of build containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4225)
