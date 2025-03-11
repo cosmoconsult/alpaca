@@ -8,7 +8,29 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.25.0 (2025-02-14)
+## v0.29.0 (2025-03-06)
+
+- Automatically apply Alpaca repo standards configured in org variable on repo initialization
+
+## v0.28.1 - v0.28.2 (2025-03-05)
+
+- Fix Image build
+
+## v0.28.0 (2025-03-05)
+
+- Add endpoint to get the custom properties of a repo
+
+## v0.27.0 (2025-02-26)
+
+- Merge GitHub specific services, adapt structure and tests
+
+## v0.26.0 (2025-02-26)
+
+- Update dependency packages
+- Remove duplicate GitHub endpoints
+- Add tests for RepositoryService
+
+## v0.25.0 (2025-02-15)
 
 - Update dependency packages
 - Internal improvements

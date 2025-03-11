@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-03-03)
+
+- Update AL-Go System Files
+
 ## (2025-02-05)
 
 - Skip dependency app install, because they are already installed in container
