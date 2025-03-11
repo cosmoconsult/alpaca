@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## 0.38.0 (2025-03-11)
+
+- Several internal improvements
+- Update API clients
+- Update dependency packages
+
 ## 0.37.0 (2025-02-14)
 
 - Update API clients

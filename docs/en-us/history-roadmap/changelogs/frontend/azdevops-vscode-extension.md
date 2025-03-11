@@ -8,6 +8,13 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.25.0 (2025-03-08)
+
+- Improve user prompt for customer account assignment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4235)
+- Improve performance for opening repos with many artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4249)
+- Enhance owner change process for containers with validation and confirmation prompt (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4241)
+- Add debug/attach configurations for AL to vscode launch.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4238)
+
 ## 1.24.0 (2025-02-12)
 
 - Moved bug reports and feature requests to github issues (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4204/)
