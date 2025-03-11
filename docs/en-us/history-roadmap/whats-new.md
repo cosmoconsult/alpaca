@@ -20,10 +20,6 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 [Changelog](changelogs/frontend/azdevops-vscode-extension.md)
 
-## Power App
-
-[Changelog](changelogs/frontend/power-app.md)
-
 # Backend
 
 ## Alpaca

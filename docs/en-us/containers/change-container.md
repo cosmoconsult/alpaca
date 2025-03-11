@@ -46,7 +46,7 @@ For the changes to take effect for your dev containers you need to take the foll
 1. Reload in the COSMO Alpaca view to make the extension aware of your changes
 1. Create a new container (see [create container][create-container]) and probably also a new launch config (see [launch-json][launch-json])
 
-Any build or container created in the future through the Power App will have the new configuration automatically. Existing container are not affected.
+Any build or container created in the future will have the new configuration automatically. Existing container are not affected.
 
 <video width="1280px" height="720px" controls>
   <source src="../media/vsc-extension-change-container.mp4" type="video/mp4">

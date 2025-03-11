@@ -6,33 +6,10 @@
 
 ## [Walkthrough](getting-started/walkthrough.md)
 
-## [Access to and setup of the Power App](getting-started/access-and-setup-powerapps.md)
 
 ## [Access to and setup of the VS Code extension](getting-started/access-and-setup-vsce.md)
 
 ## [Create an organization in Azure DevOps](getting-started/create-org.md)
-
-# Usage for project managers / functional consultants
-
-## [Create a project as part of an organization in Azure DevOps](powerapps/create-project.md)
-
-## [Import a backlog into your project](powerapps/import-backlog.md)
-
-## [Create an app in your project](powerapps/create-app.md)
-
-## [Create a release pipeline for your app](powerapps/create-release-pipeline.md)
-
-## [Update the configuration in your project](powerapps/update-config.md)
-
-## [Update Task Group Templates](powerapps/update-task-groups.md)
-
-## [Create a test / demo environment](powerapps/create-test-demo.md)
-
-## [Create an environment to test a Pull Request](powerapps/create-pr-test.md)
-
-## [Create an environment based on predefined configurations](powerapps/create-predefined-config.md)
-
-## [Manage your environments](powerapps/manage-environments.md)
 
 # Usage for technical consultants / developers
 

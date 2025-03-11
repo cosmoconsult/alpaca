@@ -20,7 +20,7 @@ then might a reverse proxy is blocking access to certain URLs. Make sure that th
 
 ### My container doesn't start / the container in my pipeline doesn't start
 
-If a container doesn't start, please always check the logs of the container, depending on your scenario either through the [VS Code Extension](../vsc-extension/open-stuff.md), the Power App or the pipeline logs. If you see something like this
+If a container doesn't start, please always check the logs of the container through the [VS Code Extension](../vsc-extension/open-stuff.md). If you see something like this
 
 ```powershell
 Exception calling "DownloadFile" with "2" argument(s): "The remote server returned an error: (403) Forbidden.",
