@@ -14,18 +14,14 @@ Before starting with the walkthrough, let's set up our tooling.
 1. [Sign in to Azure DevOps](https://aex.dev.azure.com/go/signup?account=true) and create your own Azure DevOps organization or use an existing one.
     - **Note for trial users:** If you never used Azure DevOps you need to **wait for 5min** until your first Azure DevOps sign-up has been synchronized, else you'll get an error and need to sign-out and sign-in again.
 1. [Set-up VS Code and the COSMO Alpaca Extension](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/getting-started/access-and-setup-vsce.html)
-1. [Set-up the COSMO Alpaca PowerApp](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/getting-started/access-and-setup-powerapps.html)
-    - **Note for trial users:** If you want to try out the PowerApp, please get in contact so we can set it up in your tenant.
 
 ## Create your first app and requirement
 
-Imagine you're the project manager or lead developer and you got a new customer. You now set up the new project for that customer either via VS Code or via the PowerApp and create a WorkItem:
+Imagine you're the project manager or lead developer and you got a new customer. You now set up the new project for that customer via VS Code and create a WorkItem:
 
-| Step | VS Code | PowerApp |
-|-|-|-|
-|1. Create a project | [VS Code Docs](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-project.html) | [PowerApp](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/create-project.html) |
-|2. Create AL App and pipelines | [VS Code Docs](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-app.html) | [PowerApp](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/create-app.html) 
-|3. Open your created Project in the browser and create a new WorkItem with a requirement that you'll be working on next | [VS Code Docs](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/open-stuff.html) | Just open the project via https://dev.azure.com |
+1. [Create a project](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-project.html)
+2. [Create AL App and pipelines](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-app.html)
+3. [Open your created Project in the browser](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/open-stuff.html) and create a new WorkItem with a requirement that you'll be working on next
 
 
 ## Implementing your first requirement
@@ -49,21 +45,24 @@ Next a lead developer would review the code changes of the Pull Request. A funct
 
 ## Validating the implementation from a functional perspective
 
-As the development work is now finished, imagine you're a project manager or functional consultant and need to verify the change the developer just implemented before the code is merged. As a likely less-technical person we use the PowerApp for that:
+As the development work is now finished, imagine you're a project manager or functional consultant and need to verify the change the developer just implemented before the code is merged. 
 
-1. Open the PowerApp and [create a Pull Request container](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/create-pr-test.html) for the pull request we just created.
-1. In the [containers view](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/manage-environments.html) of the PowerApp you can wait for your PR environment to be ready and open the web client to test your change that was automatically published to your container
-1. If your test was successful, the PR can be merged and you delete your container from the [containers view](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/manage-environments.html). Now wait for the pipeline to create a new release artifact. Note that you can also [view and download the release artifacts](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/download-artifact.html) directly from VS Code.
+<!-- 
+You can use VS Code in the browser via [vscode.dev](https://vscode.dev/) to do so.
+
+1. Create a new PR container
+1. Wait for your container to be ready and open the webclient
+1. If your test was successful, the PR can be merged and you delete your container. Now wait for the pipeline to create a new release artifact.
 1. Now at the latest also the developer would [delete the development container](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/delete-container.html) if it was just stopped before.
-
+-->
 
 ## Deploying your app
 
-There comes a time in your project where you need to deploy the current state of the project. There are two ways to achieve that with COSMO Alpaca:
+There comes a time in your project where you need to deploy the current state of the project. The default way would be to use Release Pipelines to (continuously) deploy changes to a test, QA and production environment. You can set up release pipelines to deploy to SaaS or OnPrem environments with a single click via [VS Code](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-release-pipeline.html). Afterwards you need to [configure the connection](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-release-pipeline.html#configuration) to your environment.
 
-- The default way would be to use Release Pipelines to (continuously) deploy changes to a test, QA and production environment. You can set up release pipelines to deploy to SaaS or OnPrem environments with a single click via [VS Code](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-release-pipeline.html) or via the [PowerApp](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/create-release-pipeline.html). Afterwards you need to [configure the connection](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-release-pipeline.html#configuration) to your environment.
-
-- Alternatively as a quick way to present the current state without a "formal release" you can use the PowerApp to [create a project container](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/powerapps/create-test-demo.html) as a test or demo environment.
+<!--
+- Alternatively as a quick way to present the current state without a "formal release" you can use the the VS Code extension to create a project container.
+-->
 
 You now learned the fundamental flow of working with COSMO Alpaca. You're now prepared to handle basic projects. What about more advanced projects?
 
