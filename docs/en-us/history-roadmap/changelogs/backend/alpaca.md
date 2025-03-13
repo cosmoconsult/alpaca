@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.30.0 (2025-03-13)
+
+- Adapt specification of release types due to changes in AL-Go (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4263)
+
 ## v0.29.0 (2025-03-06)
 
 - Automatically apply Alpaca repo standards configured in org variable on repo initialization

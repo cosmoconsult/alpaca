@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.39.0 (2025-03-13)
+
+- Adapt specification of release types due to changes in AL-Go
+
 ## 0.38.0 (2025-03-11)
 
 - Several internal improvements
