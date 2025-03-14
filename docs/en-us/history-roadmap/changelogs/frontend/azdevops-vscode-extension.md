@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.26.0 (2025-03-14)
+- Product packages view supports now to display nuget packages. Configuration is made per Alpaca subscription in the backend (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4262/)
+- "Save to packagecache" supports now multiroot workspaces. Every workspacefolder which includes an app.json will be considered (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4266)
+
 ## 1.25.0 (2025-03-08)
 
 - Improve user prompt for customer account assignment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4235)
