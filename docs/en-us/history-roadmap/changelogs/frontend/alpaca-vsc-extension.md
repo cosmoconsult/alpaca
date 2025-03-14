@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.40.0 (2025-03-14)
+
+- Add handling of GitHub owner specific Alpaca backends
+- Update API clients
+- Several internal improvements
+
 ## v0.39.0 (2025-03-13)
 
 - Adapt specification of release types due to changes in AL-Go
