@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.40.1 (2025-03-28)
+
+- Fix retrieving containers for a specific project/branch (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4283)
+- Fix typo in title of containers tree view (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4282)
+- Update dependency packages
+
 ## v0.40.0 (2025-03-14)
 
 - Add handling of GitHub owner specific Alpaca backends

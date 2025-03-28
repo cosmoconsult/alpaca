@@ -8,6 +8,10 @@
 
 All notable changes to the NuGet Backend
 
+## v1.2.1 (2025-03-24)
+
+- Download with selction of "Earlist" if version is given (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4276)
+
 ## v1.2.0 (2025-03-14)
 
 - New endpoint `/metadata` to get package information (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4262)
