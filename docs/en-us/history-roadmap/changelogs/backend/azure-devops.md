@@ -8,15 +8,15 @@
 
 All notable changes to the Azure DevOps Backend
 
-# v1.38.0 (unreleased)
+## v1.38.0 (unreleased)
 
 * Enhance the properties 'AppImportSyncMode' and 'AppImportScope'  from the cosmo.json to be set per-artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 
-# v1.37.0 (2025-03-17)
+## v1.37.0 (2025-03-17)
 
 * Support for extension deployment with schedule and schema sync mode (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3030)
 
-# v1.36.0 (2025-03-04)
+## v1.36.0 (2025-03-04)
 
 - Populate backend URL for unresolved config as well (https://github.com/cosmoconsult/alpaca/issues/40)
 - Improve assignment of a COSMO entity to an organization: assigning a new entity now removes/replaces the previous assignment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4233/)

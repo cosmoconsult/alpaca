@@ -8,16 +8,16 @@
 
 All notable changes to the Container Backend
 
-# v1.58.0 (2025-03-19)
+## v1.58.0 (2025-03-19)
 
 - ConfigHelper for managing application settings and configurations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4240/)
 - Add new property for custom nuget feeds in Container creation model (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4268/)
 
-# v1.57.0 (2025-03-12)
+## v1.57.0 (2025-03-12)
 
 - New endpoint to get Nuget Package config for VS Code (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4262)
 
-# v1.56.0 (2025-03-07)
+## v1.56.0 (2025-03-07)
 
 - Determine Namespace based on custom property for COSMO GitHub repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4251)
 - Update launch.json creation process with the attach configuration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4238)
