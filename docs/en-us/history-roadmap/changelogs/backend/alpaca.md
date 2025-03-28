@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.30.1 (2025-03-26)
+
+- Fix search to return default branch of repositories
+
 ## v0.30.0 (2025-03-13)
 
 - Adapt specification of release types due to changes in AL-Go (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4263)

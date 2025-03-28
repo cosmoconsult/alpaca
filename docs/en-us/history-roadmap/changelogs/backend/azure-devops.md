@@ -8,7 +8,11 @@
 
 All notable changes to the Azure DevOps Backend
 
-# v1.37.0 (unreleased)
+# v1.38.0 (unreleased)
+
+* Enhance the properties 'AppImportSyncMode' and 'AppImportScope'  from the cosmo.json to be set per-artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+
+# v1.37.0 (2025-03-17)
 
 * Support for extension deployment with schedule and schema sync mode (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3030)
 
