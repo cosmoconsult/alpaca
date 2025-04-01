@@ -14,5 +14,5 @@ After installation you can select between *technical* or *functional* which will
 In this section you find help getting started:
 
 - [Access to and setup of the VS Code extension](getting-started/access-and-setup-vsce.md)
-- [Create an organization in Azure DevOps](getting-started/create-org.md)
+- [Create an organization](getting-started/create-org.md)
 
