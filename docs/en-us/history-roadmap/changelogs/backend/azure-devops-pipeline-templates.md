@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.27.0 (unreleased)
+## v2.27.0
 
 * Improved error handling for extension deployment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4279)
 
