@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.59.0 (2025-04-01)
+
+- Add better error handling when retrieving container configuration fails (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4290/)
+
 ## v1.58.0 (2025-03-19)
 
 - ConfigHelper for managing application settings and configurations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4240/)
