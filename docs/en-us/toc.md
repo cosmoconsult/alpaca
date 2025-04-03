@@ -9,13 +9,13 @@
 
 ## [Access to and setup of the VS Code extension](getting-started/access-and-setup-vsce.md)
 
-## [Create an organization in Azure DevOps](getting-started/create-org.md)
+## [Create an organization](getting-started/create-org.md)
 
 # Usage for technical consultants / developers
 
 ## [Define favorite organizations and show only those](vsc-extension/favorite-orgs.md)
 
-## [Create a project as part of an organization in Azure DevOps](vsc-extension/create-project.md)
+## [Create a project](vsc-extension/create-project.md)
 
 ## [Onboard an existing project for usage with the self-service](vsc-extension/onboard-project.md)
 
