@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.40.2 (2025-04-02)
+## v0.40.2 (2025-04-03)
 
 - Add multi-backend support for containers tree view
 - Update dependency packages
