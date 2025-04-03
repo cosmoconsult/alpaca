@@ -8,10 +8,15 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.40.2 (2025-04-03)
+
+- Add multi-backend support for containers tree view
+- Update dependency packages
+
 ## v0.40.1 (2025-03-28)
 
-- Fix retrieving containers for a specific project/branch (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4283)
-- Fix typo in title of containers tree view (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4282)
+- Fix retrieving containers for a specific project/branch
+- Fix typo in title of containers tree view
 - Update dependency packages
 
 ## v0.40.0 (2025-03-14)
