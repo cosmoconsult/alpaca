@@ -161,8 +161,4 @@ Please use the pricing calculator below to estimate your monthly costs. The firs
 
 ## Trial
 
-You can try out COSMO Alpaca for free and run containers for up to 50 hours. The is no prior registration needed. The only thing you need to do is to use one of the clients:
-- [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md)
-- [BcContainerHelper PowerShell Cmdlets](integrations.md#bccontainerhelper-powershell-cmdlets)
-- For the early preview of the AL-Go integration install the [COSMO Alpaca Preview VS Code extension](integrations.md#al-go-for-github)
-- Use the [API](integrations.md#openapi-specification) directly
+You can try out COSMO Alpaca for free and run containers for up to 50 hours. The is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md).
