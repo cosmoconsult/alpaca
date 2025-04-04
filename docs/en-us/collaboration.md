@@ -5,8 +5,7 @@
 
 # Cross-company Collaboration
 
-COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can to work together on the same project. 
-
+COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can work together on the same project.
 # [**GitHub (AL-Go)**](#tab/github)
 WIP
 
