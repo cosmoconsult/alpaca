@@ -1,6 +1,6 @@
 ---
     title: Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
-    description: Setup Next Minor / Next Major / Localization / Minimum PipelinPipelines/Workflowses
+    description: Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
 ---
 
 # Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
