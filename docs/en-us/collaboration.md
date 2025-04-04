@@ -1,12 +1,18 @@
 ---
-    title: Cross-tenant Collaboration
-    description: Cross-tenant Collaboration
+    title: Cross-company Collaboration
+    description: Cross-company Collaboration
 ---
 
-# Cross-tenant Collaboration
+# Cross-company Collaboration
 
-COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can to work together on the same project. Please note that the tenant an Azure DevOps organization is connected to, determines the billed party.
+COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can to work together on the same project. 
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
+Please note that the tenant an Azure DevOps organization is connected to, determines the billed party.
 
 ## Inviting external users to collaborate with Alpaca
 
@@ -27,3 +33,5 @@ If your customer wants to have the Azure DevOps organization to reside in their 
 1. After the move, [allow guest access and invite all your users into the organization](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/add-external-user?view=azure-devops). Please note that the customer is now billed for all User licenses.
 
 Please note that developers now need to [switch to the customer tenant](vsc-extension/tenant.md) to work in the customer organization and should create different VS Code profiles for the different tenants.
+
+---

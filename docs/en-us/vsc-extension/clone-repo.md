@@ -5,6 +5,11 @@
 
 # Clone a repository for development
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 If you want to start developing on a Azure DevOps repository (see [create app][create-app] on how to create one), you need to locally clone that repository and then open the workspace. Please note that installing Git is a prerequisite for this to work. You can find the installer [here][git].
 
 To clone the repository, you take these steps:
@@ -20,6 +25,8 @@ With that, you are ready to start developing. You might want to [create a contai
   <source src="../media/vsc-extension-clone.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
 
 [create-app]: ../vsc-extension/create-app.md
 [create-container]: create-container.md

@@ -7,6 +7,11 @@
 
 To develop, test or debug your app, you want to create a Business Central container. You can easily achieve that from within Visual Studio Code by following these steps:
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 1. In the Visual Studio Code extension right click on the **Containers** node under the Repository of your app and choose **Create container**.
 1. Enter a name for your new container.
 1. Wait until the container was created and is shown in the list. If someone else already used a similar container, this just takes a few seconds. Else this might take up to 20 minutes the first time.
@@ -18,7 +23,7 @@ To develop, test or debug your app, you want to create a Business Central contai
   Your browser does not support the video tag.
 </video>
 
-# Select a specific BC artifact configuration when creating a new container
+## Select a specific BC artifact configuration when creating a new container
 
 If you have multiple BC artifact configurations set up in your cosmo.json file, you might want to create a container using one of those configurations other than the default, which is "current". You can do so fo by following these steps:
 
@@ -32,7 +37,7 @@ If you have multiple BC artifact configurations set up in your cosmo.json file, 
   Your browser does not support the video tag.
 </video>
 
-# Select arbitrary BC artifact version and country when creating a new container
+## Select arbitrary BC artifact version and country when creating a new container
 
 If you want to quickly create a container for a specific version and country without adding a new configuratoin to your `cosmo.json` you can do so by following these steps:
 
@@ -47,3 +52,5 @@ If you want to quickly create a container for a specific version and country wit
   <source src="../media/vsc-extension-create-container-version.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

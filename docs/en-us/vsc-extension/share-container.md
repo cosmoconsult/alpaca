@@ -11,9 +11,16 @@ If you want to share a container with a colleague, so that it appears in their t
 1. Add or remove owners. If you have more than one, they need to be separated with commas (no blanks)
 1. The container is automatically restarted so the changes get applied.
 
-You can watch it step by step here:
+You can see it step by step here:
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 <video width="1312px" height="960px" controls>
   <source src="../media/vsc-extension-owners.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

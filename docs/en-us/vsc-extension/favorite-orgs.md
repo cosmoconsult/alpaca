@@ -7,6 +7,11 @@
 
 In the list of organizations, you will over time probably see a lot of them and not all are relevant anymore. To help with that, you can set up favorite organizations that will have a special icon and additionaly also define that only the favorites are visible:
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 1. Open the extension settings
 1. Find the setting "Cc-azdevops: Favorite Organizations" and click on "Edit in settings.json". As the setting is an array, it needs to be configured manually in the settings file.
 1. If you e.g. have two organizations called "cc-ppi" and "cc-demo-devops" and you want to define them as favorites, put this in your config file:
@@ -26,3 +31,5 @@ If you had the organization list already open before changing the setting, you h
   <source src="../media/vsce-favorite-orgs.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

@@ -5,6 +5,11 @@
 
 # Customize a project
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 For your specific project in Azure DevOps you might have additional requirements which need customizations. Some examples for customizations include:
 
 - Adding additional fields, groups of fields or pages/tabs to your to WorkItems or removing existing ones
@@ -23,3 +28,5 @@ To make sure the customizations don't need to be created every time by hand, so 
   <source src="../media/customize-project.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

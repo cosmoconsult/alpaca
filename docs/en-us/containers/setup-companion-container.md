@@ -5,6 +5,11 @@
 
 # Set up companion containers
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 A companion container is an additional container which is started with your BC Container. Every action (start/stop/delete) on the BC container also affects the companion.
 
 You can setup companions inside of the cosmo.json
@@ -63,3 +68,5 @@ Therfore you can add the key "companionServices" to the [bcArtifacts](containers
 If you want to setup default companions for your company and don't want to define the companionValues in every cosmo.json, there is a possibility to add a specific service which generates the companionValues during startup for you.
 
 For help setting up the service, please contact the COSMO Alpaca Supportteam
+
+---

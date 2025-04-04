@@ -1,11 +1,11 @@
 ---
-    title: Create a bug report or feature request for any part of the self-service
-    description: Create a bug report or feature request for any part of the self-service
+    title: Create a bug report or feature request
+    description: Create a bug report or feature request
 ---
 
-# Create a bug report or feature request for any part of the self-service
+# Create a bug report or feature request
 
-If you run into issues while using the Visual Studio Code extension or any part of the self-service you can either
+If you run into issues while using the Visual Studio Code extension or any part of Alpaca you can either
 
 - directly report a bug from the error you received.
 - report a general issue for any part of the self-service.
@@ -13,6 +13,11 @@ If you run into issues while using the Visual Studio Code extension or any part 
 If you have ideas how to improve the extension or any part of the self-service you can also create a feature.
 
 We will then try to understand, reproduce and fix your issue or implement the feature. We get in contact with you if we need additional information or to update you on the progress of your bug report or feature request.
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 ## Report a bug for a specific error
 
@@ -31,3 +36,5 @@ In the Visual Studio Code extension view click on the three dots (`⋯`) in the 
   <source src="../media/bug-report2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

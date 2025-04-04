@@ -5,6 +5,11 @@
 
 # Set up custom scripts
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 If you would like to execute custom scripts within your containers created for development, testing, build or demo purposes you can easily add them to your Git repository as follows:
 
 1. Create a directory `.container-my` in the root of the Git repository of your application. In there you can create arbitary PowerShell scripts with the same filename [as the one in the Business Central image](https://github.com/microsoft/nav-docker/tree/master/generic/Run) to override them. You can override almost any script except from `navstart.ps1` (e.g. [`AdditionalSetup.ps1`](https://github.com/microsoft/nav-docker/blob/main/generic/Run/AdditionalSetup.ps1)).\
@@ -28,3 +33,5 @@ Note that the default script is called at the beginning of the custom script, so
 
 Write-Host "Running custom script"
 ```
+
+---

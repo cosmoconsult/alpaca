@@ -5,6 +5,11 @@
 
 # Setup app signing within pipelines
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 Alpaca supports code signing of the app package within the pipeline. For this you need to use the new HSM certificates in combination with an Azure KeyVault.
 
 
@@ -27,4 +32,5 @@ Alpaca supports code signing of the app package within the pipeline. For this yo
     - `SignApp.KvCertificate`: The name of the certificate in the Azure KeyVault
     - `SignApp.KvClientId`: The Application ID of the AAD Application
     - `SignApp.KvClientSecret`: The client secret of the AAD Application
-    
+
+---

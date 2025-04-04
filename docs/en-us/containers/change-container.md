@@ -5,6 +5,11 @@
 
 # Change the base version or country of the used container
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 If you need to change the configuration of the containers used for build, development or test, e.g. because you want to change the major version, set up a specific version or change the localization, you take these steps:
 
 1. Click on File -> Open in VS Code
@@ -52,6 +57,8 @@ Any build or container created in the future will have the new configuration aut
   <source src="../media/vsc-extension-change-container.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
 
 [setup-artifacts]:  setup-artifacts.md
 [create-container]: ../vsc-extension/create-container.md

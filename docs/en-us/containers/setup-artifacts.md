@@ -5,6 +5,11 @@
 
 # Setup Artifacts
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 There are 2 ways to setup artifacts for your container.
 
 1. Setup [Artifacts from Container File-Share](#Artifacts-from-Container-File-Share)
@@ -200,6 +205,8 @@ Here is an example how to add additional fonts as artifacts. Please note the `"i
     // ...
 }
 ```
+
+---
 
 [cosmo-json]:      setup-cosmo-json.md
 [artifact]:        setup-cosmo-json.md#artifact

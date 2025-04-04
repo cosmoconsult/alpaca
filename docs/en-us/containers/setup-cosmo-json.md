@@ -1,9 +1,14 @@
 ---
-    title: Set up cosmo.json parameters
-    description: Set up cosmo.json parameters
+    title: Set up cosmo.json/alpaca.json parameters
+    description: Set up cosmo.json/alpaca.json parameters
 ---
 
-# Set up `cosmo.json` parameters
+# Set up `cosmo.json`/`alpaca.json` parameters
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 The `cosmo.json` define the used artifacts during setup of the container.
 
@@ -242,6 +247,8 @@ The order of import is:
 |`"translationLanguages"`|string[]|optional|Defines the array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
 |`"testTranslations"`|boolean|optional|Enable or disable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
 |`"testTranslationRules"`|string[]|optional|Defines the array of additional rules for which the generated translation files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)|
+
+---
 
 [additional-deployment-feeds]: setup-cosmo-json.md#additional-deployment-feeds
 [setup-custom-scripts]:        setup-custom-scripts.md

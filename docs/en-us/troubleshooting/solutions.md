@@ -3,6 +3,13 @@
     description: Typical problems and their solutions
 ---
 
+# Typical problems and their solutions
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 ### Self-hosted agents in restricted networks
 
 If you get errors in your pipelines like
@@ -57,3 +64,5 @@ This can be done in the project settings (and organization settings) in Azure De
 **Note** When setting up a new project using Alpaca, this should already be done automatically.
 
 ![Classic Pipelines](../media/troubleshoot/classic_pipelines.png)
+
+---
