@@ -5,9 +5,14 @@
 
 # Create a new standalone container
 
-If you want to quickly create a container without a connection to a repository and without setting up a `cosmo.json` you can do so by following these steps:
+If you want to quickly create a container without a connection to a repository and without setting up a configuration you can do so by following these steps:
 
-1. In the Visual Studio Code extension in the *Container* view click on the `+` icon to create a new on-demand container.
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
+1. In the Visual Studio Code extension in the *Containers* view click on the `+` icon to create a new on-demand container.
 1. Enter a name for your new container.
 1. Enter the BC version for your new container.
 1. Enter the country for your new container.
@@ -21,3 +26,5 @@ If you want to quickly create a container without a connection to a repository a
   <source src="../media/vsc-extension-create-ondemand-container-version.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

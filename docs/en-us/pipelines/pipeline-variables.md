@@ -1,9 +1,14 @@
 ---
-    title: Pipeline Variables
-    description: Pipeline Variables
+    title: Using Variables
+    description: Using Variables
 ---
 
-# Pipeline Variables
+# Using Variables
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 The Azure DevOps pipeline templates uses primary the settings from [`.devops/cosmo.json`][cosmo-json] in the respective source branch of your repository. These variables can be overruled by:
 
@@ -245,6 +250,8 @@ extends:
 
     # ...
 ```
+
+---
 
 [cosmo-json]:      ../containers/setup-cosmo-json.md
 [artifact]:        ../containers/setup-cosmo-json.md#artifact

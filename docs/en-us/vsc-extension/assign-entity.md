@@ -6,6 +6,11 @@
 # Assign an organization to an entity
 _This is only available for COSMO CONSULT_
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 For a couple of reasons it is important to know to which entity an organization belongs, e.g.:
 
 - Which container backend should be used for containers connected to this organization, e.g. for [development](create-container.md)?
@@ -18,3 +23,5 @@ To assign an organization to an entity, right-click on the organization and sele
   <source src="../media/vsc-extension-assign-entity.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

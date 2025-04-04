@@ -1,9 +1,14 @@
 ---
-    title: Create a release pipeline for your app 
-    description: Create a release pipeline for your app 
+    title: Release your app
+    description: Release your app
 ---
 
-# Create a release pipeline for your app
+# Release your app
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 ## Basic Setup
 
@@ -283,3 +288,5 @@ Uninstall-Module ALOps.ExternalDeployer
    - Open the following Directory: "C:\Program Files\WindowsPowerShell\Modules"
    - You should'nt see a folder named "ALOps.ExternalDeployer". If you do, you may delete it manually.
 3. Install ExternalDeployer again, follow "normal" installation instructions ([see above](#deploying-via-automation-api-oauth-or-basic-auth))
+
+---

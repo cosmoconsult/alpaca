@@ -1,9 +1,14 @@
 ---
-    title: Download a DevOps artifact
-    description: Download a DevOps artifact
+    title: Download an artifact
+    description: Download an artifact
 ---
 
-# Download a DevOps artifact
+# Download an artifact
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 Each pipeline produces an app artifact which is stored within the artifact repository of Azure DevOps. Further you can add other artifacts to the artifact repository to easily distribute them or use them in your pipelines. In the Visual Studio Code extension you can directly download an artifact:
 
@@ -21,3 +26,5 @@ Each pipeline produces an app artifact which is stored within the artifact repos
   <source src="../media/download-artifact.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

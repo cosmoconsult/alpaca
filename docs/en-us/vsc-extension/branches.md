@@ -5,6 +5,11 @@
 
 # Work with branches
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 ## See and interact with branches
 
 You can find the branches directly below the repository where they belong to. The list of branches shows you the name and the creator.
@@ -35,3 +40,5 @@ You can watch it step by step here:
   <source src="../media/vsc-extension-create-branch.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

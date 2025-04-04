@@ -7,6 +7,11 @@
 
 To save costs containers should be shut down when when they are not in use. While you can [manually stop them](startstop-container.md) all containers also have Auto-Stop enabled per default to prevent users forgetting to shutdown their environments.
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 For the best experience you should configure the default Auto-Start and Auto-Stop times and modes to your personal working schedule:
 
 1. In VS Code, click on the gear at the bottom left and choose **Settings**
@@ -36,3 +41,5 @@ You can watch a walkthrough here:
   <source src="../media/vscode/auto-startstop.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

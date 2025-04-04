@@ -1,9 +1,14 @@
 ---
-    title: Interact with WorkItems
-    description: Interact with WorkItems
+    title: Interact with requirements
+    description: Interact with requirements
 ---
 
-# Interact with WorkItems
+# Interact with requirements
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 The COSMO Alpaca extension allows a couple of interactions with WorkItems in your projects. To see the WorkItems, you go to the COSMO Alpaca view, open your project and extend "WorkItems (max 25 per query)". You will always see a couple of predefined queries there and you will also see all shared queries in your project as well as your own private queries. Please note that for now only queries of type "flat list of WorkItems" are shown. If you need more information about working with queries, please take a look at the [Azure DevOps documentation](https://docs.microsoft.com/en-us/azure/devops/boards/queries/about-managed-queries?view=azure-devops)
 
@@ -30,3 +35,5 @@ You can watch a walkthrough here:
 ## Create a branch to work on a WorkItem
 
 You can find the documentation about that [here](branches.md)
+
+---

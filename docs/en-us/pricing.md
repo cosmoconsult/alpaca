@@ -18,8 +18,8 @@
 
 COSMO Alpaca has a usage-based pricing model. The usage is billed to the minute based on the container runtime. Containers are used to run isolated Business Central environments used for development, testing, and verifying. The following containers are billed:
 - Development BC Containers
-- Build Agents (running your pipelines to build and deploy your app)
-- Build BC Containers (started from the pipeline to verify your app and run automated tests)
+- Build Agents (running your pipelines/workflows to build and deploy your app)
+- Build BC Containers (started from the pipeline/workflow to verify your app and run automated tests)
 
 Stopped containers are free, as well as all other project management functions in Alpaca. There are scheduled Auto-Stop and Auto-Start features to help you save costs. There's also a dashboard with usage per organization, project and user that helps you to keep control over your costs.
 
@@ -44,11 +44,11 @@ Please use the pricing calculator below to estimate your monthly costs. The firs
         <td><input type="number" value="8" id="workingHours" /> h per day</td>
     </tr>
     <tr>
-        <td><label for="pipelineRuns">Pipeline runs</label></td>
+        <td><label for="pipelineRuns">Pipeline/Workflow runs</label></td>
         <td><input type="number" value="8" id="pipelineRuns" /> per day</td>
     </tr>
     <tr>
-        <td><label for="pipelineRunTime">Pipeline runtime</label></td>
+        <td><label for="pipelineRunTime">Pipeline/Workflow runtime</label></td>
         <td><input type="number" value="0.35" id="pipelineRunTime" step="0.1" /> h</td>
     </tr>
     <tr>
@@ -161,8 +161,4 @@ Please use the pricing calculator below to estimate your monthly costs. The firs
 
 ## Trial
 
-You can try out COSMO Alpaca for free and run containers for up to 50 hours. The is no prior registration needed. The only thing you need to do is to use one of the clients:
-- [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md)
-- [BcContainerHelper PowerShell Cmdlets](integrations.md#bccontainerhelper-powershell-cmdlets)
-- For the early preview of the AL-Go integration install the [COSMO Alpaca Preview VS Code extension](integrations.md#al-go-for-github)
-- Use the [API](integrations.md#openapi-specification) directly
+You can try out COSMO Alpaca for free and run containers for up to 50 hours. There is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md).

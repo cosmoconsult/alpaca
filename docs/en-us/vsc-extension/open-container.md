@@ -14,7 +14,14 @@ While you can of course open the Web Client there are also many further ways to 
     - **Open terminal** to get a shell in your container to run any custom commands. You can load the Business Central PowerShell Cmdlets through running `C:\Run\Prompt.ps1`.
 2. Your browser opens with either the Business Central Web Client where you can log in with your [username and password](copy-user-pwd.md) or used the VS Code terminal or output window to show logs or connect to your container for sharing files or using the terminal.
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 <video width="1280px" height="720px" controls>
   <source src="../media/open-container.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

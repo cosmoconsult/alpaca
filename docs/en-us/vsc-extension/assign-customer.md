@@ -6,6 +6,12 @@
 # Assign an organization to a customer
 _This is only available for COSMO CONSULT_
 
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 It is important to assign an organization to it´s COSMO customer in order to be able to establish a connection between the DevOps organization and the customer´s data, which is processed/used by other COSMO services. This is particularly relevant for the development process since the maximum number of development environments is determined by the COSMO Alpaca license model selected by the customer.
 
 To assign an organization to a customer, right-click on the organization and select **Assign customer**. A dialog for entering (parts of) the customer name is displayed. In the next step, based on the input made, a filtered list of customers is displayed. Now select the customer to which the organization should be assigned to. When the assignment was successful, the organization list will reload and show the newly assigned customer next to the organisation.
@@ -38,3 +44,5 @@ Otherwise, please contact your project management to configure this limitation.
   <source src="../media/vsc-extension-use-emergency-button.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

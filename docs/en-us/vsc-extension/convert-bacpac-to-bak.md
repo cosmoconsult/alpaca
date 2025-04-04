@@ -7,6 +7,11 @@
 
 If you have a .bacpac file, e.g. from an Azure SQL database and want to convert it to a .bak file, you can use this functionality. It will start a SQL Server container, restore the .bacpac file to a database and then create a .bak file from it. Currently the only supported way to get a .bacpac file into the service is to store in the Azure File Share connected to your backend.
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 To convert a .bacpac file, take these steps:
 
 1. Upload the file to the Azure File Share directly in the root folder or in a subfolder. For this example, let's assume that you put it in a folder called "backups" and the name of the file is "database-backup.bacpac"
@@ -28,3 +33,5 @@ You can see a walkthrough here:
   <source src="../media/convert-bacpac-to-bak.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

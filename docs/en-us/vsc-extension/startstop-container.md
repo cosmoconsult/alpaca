@@ -12,10 +12,17 @@ To stop and start a container you [created before](create-container.md), e.g. to
 1. Right click on the stopped container and choose **Start**. The container will be started and the icon will turn to red until it becomes healthy. If you take a look at the logs again, you will no see the message "This seems to be a service restart".
 1. Also note that in a later stage during startup, the log shows "Skipping artifact import because this seems to be a service restart" when the container skips the import of an artifact that shouldn't be imported on restart
 
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
+
 <video width="1280px" height="720px" controls>
   <source src="../media/vsc-extension-startstop-container.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
 
 > [!NOTE] Automated nightly consolidation:
 > We're using an automated mechanism that automatically consolidates all running containers on as few resources as possible during the night. In the background containers are spread across different virtual machines where one machine runs many BC containers.

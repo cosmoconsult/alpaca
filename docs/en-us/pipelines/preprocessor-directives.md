@@ -1,9 +1,14 @@
 ---
-    title: Use Preprocessor Directives in a pipeline
-    description: Use Preprocessor Directives in a pipeline
+    title: Use Preprocessor Directives
+    description: Use Preprocessor Directives
 ---
 
-# Use preprocessorSymbols in the pipelines
+# Use Preprocessor Directives
+
+# [**GitHub (AL-Go)**](#tab/github)
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 If you e.g. have a multi-language app, you may have the same source code as a base but need different logic depending on the target localization. For that you can use [Preprocessor Directives](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al) in AL.
 
@@ -46,3 +51,5 @@ OnSetupBuildTasks:
         echo $TestApp
     displayName: On Setup Build
 ```
+
+---

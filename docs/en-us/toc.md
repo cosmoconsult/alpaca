@@ -17,29 +17,25 @@
 
 ## [Create a project](vsc-extension/create-project.md)
 
-## [Onboard an existing project for usage with the self-service](vsc-extension/onboard-project.md)
+## [Onboard existing projects and apps](vsc-extension/onboard-project.md)
 
 ## [Create an app in your project](vsc-extension/create-app.md)
 
-## [Create a release pipeline for your app](vsc-extension/create-release-pipeline.md)
+## [Release your app](vsc-extension/create-release-pipeline.md)
 
 ## [Clone a repository for development](vsc-extension/clone-repo.md)
 
 ## [Work with branches](vsc-extension/branches.md)
 
-## [Open a repository, pipeline, build, workitem, project or organization in the browser](vsc-extension/open-stuff.md)
+## [Open a repository, pipeline/workflow, requirement, project or organization in the browser](vsc-extension/open-stuff.md)
 
-## [Associate a workitem to a commit](vsc-extension/associate-wi.md)
+## [Interact with requirements](vsc-extension/associate-wi.md)
 
-## [Create a bug report or feature request for any part of the self-service](vsc-extension/bug-report.md)
+## [Create a bug report or feature request](vsc-extension/bug-report.md)
 
 ## [Customize a project](vsc-extension/customize-project.md)
 
-## [Get the latest version of the COSMO CI/CD template](vsc-extension/cicd-update.md)
-
-## [Get the latest version of the COSMO Task group (release pipeline) template](vsc-extension/update-task-groups.md)
-
-## [Update the project configuration](vsc-extension/update-project.md)
+## [Update CI/CD templates](vsc-extension/cicd-update.md)
 
 ## Container handling
 
@@ -81,7 +77,7 @@
 
 ## [Assign an organization a responsible user](vsc-extension/assign-responsible-user.md)
 
-## [Download a DevOps artifact](vsc-extension/download-artifact.md)
+## [Download an artifact](vsc-extension/download-artifact.md)
 
 ## [Select a different tenant](vsc-extension/tenant.md)
 
@@ -89,7 +85,7 @@
 
 # Container setup
 
-## [Set up `cosmo.json` parameters](containers/setup-cosmo-json.md)
+## [Set up `cosmo.json`/`alpaca.json` parameters](containers/setup-cosmo-json.md)
 
 ### [Set up apps, fobs, dlls, fonts or rapidstart packages to import on startup](containers/setup-artifacts.md)
 
@@ -101,17 +97,17 @@
 
 ## [Set up custom scripts to run on container startup](containers/setup-custom-scripts.md)
 
-# Pipeline setup and handling
+# Pipeline/Workflow setup
 
-## [Override pipeline variables](pipelines/pipeline-variables.md)
+## [Using variables](pipelines/pipeline-variables.md)
 
-## [Set up extended pipelines](pipelines/next.md)
+## [Setup Next Minor / Next Major / Localization / Minimum Pipelines](pipelines/next.md)
 
 ## [Increase the version of the app you are building](pipelines/version-increase.md)
 
-## [Use Preprocessor Directives in a pipeline](pipelines/preprocessor-directives.md)
+## [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
 
-## [Setup app signing within pipelines](pipelines/app-signing.md)
+## [Setup app signing](pipelines/app-signing.md)
 
 # Scenarios
 
@@ -129,9 +125,9 @@
 
 ## [Typical problems and their solutions](troubleshooting/solutions.md)
 
-# [Integrations](integrations.md)
+# [Cross-company Collaboration](collaboration.md)
 
-# [Cross-tenant Collaboration](collaboration.md)
+# [Base App contributions with COSMO Alpaca](base-app.md)
 
 # [Status and Health](status.md)
 
