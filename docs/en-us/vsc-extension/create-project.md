@@ -1,23 +1,40 @@
 ---
-    title: Create a project as part of an organization in Azure DevOps
-    description: Create a project as part of an organization in Azure DevOps
+    title: Create a project
+    description: Create a project
 ---
 
-# Create a project as part of an organization in Azure DevOps
+# Create a project
+
+# [**GitHub (AL-Go)**](#tab/github)
+
+In GitHub (AL-Go) you can cluster multiple apps into *projects*. *Projects* are just subfolders within your repository with one or many AL app directories. All apps within a project are usually shipped together. When [creating a new repository and app](create-app.md) AL app folders by default are within the root of a repository. This is called a *single-project repository*
+
+In the Alpaca VSC extension the projects are listed underneath the repository:
+
+![Extension Preview Projects](../media/extension-preview-projects.png)
+
+Single-project repositories only have one project listed there that by default has the same name as the repository.
+
+When [creating a new app](create-app.md) you can specify the project your app should belong to. This is the only way to create a new project - by creating a new app while specifying a project name that isn't existing yet.
+
+
+# [**Azure DevOps**](#tab/azdevops)
 
 When working with Azure DevOps, you need an organization (see [create org][create-org]) and a project. To create a project, you need to take the following steps:
 
-1. Right-click on the organization where you want to create a project and select "Create project"
+1. Right-click on the organization where you want to create a project and select **Create project**
 1. Enter a name for the new project
+
+![Extension Create Azure DevOps Project](../media/extension-create-project.png)
 
 With that, the new project will be created. It has all the basic setup and preparation needed to start working on a Business Central project including e.g. a repository for the CI/CD automation. In the background the following extensions will be installed in the Organization:
 - [Code Search](https://marketplace.visualstudio.com/items?itemName=ms.vss-code-search)
 - [Pull Request Merge Conflict Extension](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.conflicts-tab)
 - [Generic Connection Viewer](https://marketplace.visualstudio.com/items?itemName=achermyanin.credentials-viewer)
+- [AL Language Syntax Highlights](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.allanghighlights)
 
-<video width="1280px" height="720px" controls>
-  <source src="../media/vsc-extension-create-project.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+You're now ready to [create a repository with an AL app](create-app.md).
+
+---
 
 [create-org]: ../getting-started/create-org.md

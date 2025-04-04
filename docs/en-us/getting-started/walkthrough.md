@@ -11,17 +11,16 @@ This walkthrough is intended to quickly get to know COSMO Alpaca and the modern 
 
 Before starting with the walkthrough, let's set up our tooling. 
 
-1. [Sign in to Azure DevOps](https://aex.dev.azure.com/go/signup?account=true) and create your own Azure DevOps organization or use an existing one.
-    - **Note for trial users:** If you never used Azure DevOps you need to **wait for 5min** until your first Azure DevOps sign-up has been synchronized, else you'll get an error and need to sign-out and sign-in again.
-1. [Set-up VS Code and the COSMO Alpaca Extension](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/getting-started/access-and-setup-vsce.html)
+1. [Sign up and create an organization](create-org.md)
+1. [Set-up VS Code and the COSMO Alpaca Extension](access-and-setup-vsce.md)
 
 ## Create your first app and requirement
 
-Imagine you're the project manager or lead developer and you got a new customer. You now set up the new project for that customer via VS Code and create a WorkItem:
+Imagine you're the project manager or lead developer and you got a new customer. You now prepare the new project and set up the new repository for that customer via VS Code and create the first requirement:
 
-1. [Create a project](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-project.html)
-2. [Create AL App and pipelines](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/create-app.html)
-3. [Open your created Project in the browser](https://docs.cosmoconsult.com/de-de/cloud-service/devops-docker-selfservice/vsc-extension/open-stuff.html) and create a new WorkItem with a requirement that you'll be working on next
+1. [Create a project](../vsc-extension/create-project.md) (optional for GitHub, only if you want a multi-project repository)
+2. [Create repository, AL App and pipelines](../vsc-extension/create-app.md)
+3. [Open your project/repository in the browser](../vsc-extension/open-stuff.md) and create a new requirement that you'll be working on next
 
 
 ## Implementing your first requirement

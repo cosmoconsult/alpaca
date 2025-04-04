@@ -52,6 +52,8 @@ To get access, you need to:
 
 ## First Use
 
+If you never used Azure DevOps before you need to [sign up first and create your first organization](create-org.md). After that please **wait for 5min** until your first Azure DevOps sign-up has been synchronized, else you'll get an error during the following step.
+
 When you use the extension for the first time by clicking on the COSMO Alpaca icon in the activity bar, you might be asked to log in with your Microsoft Account for up to 2 times:
 
 ![Extension Login](../media/getting-started/extension-login.png)

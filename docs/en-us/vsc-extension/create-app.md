@@ -1,9 +1,15 @@
 ---
-    title: Create an app in your project
-    description: Create an app in your project
+    title: Create a repository and an app
+    description: Create a repository and an app
 ---
 
-# Create an app in your project
+# Create a repository and an app
+
+# [**GitHub (AL-Go)**](#tab/github)
+
+WIP
+
+# [**Azure DevOps**](#tab/azdevops)
 
 When creating a BC app using VS Code and Azure DevOps, you need an organization (see [create org][create-org]), a project (see [create project][create-project]) and a repository with a connected pipeline. To create a repository with a connected pipeline, you need to take the following steps:
 
@@ -19,6 +25,8 @@ With that, the new repository and pipeline will be created. It has all the basic
   <source src="../media/vsc-extension-create-app.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
 
 [create-org]: ../getting-started/create-org.md
 [create-project]: create-project.md
