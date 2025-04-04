@@ -161,4 +161,4 @@ Please use the pricing calculator below to estimate your monthly costs. The firs
 
 ## Trial
 
-You can try out COSMO Alpaca for free and run containers for up to 50 hours. The is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md).
+You can try out COSMO Alpaca for free and run containers for up to 50 hours. There is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](getting-started/access-and-setup-vsce.md).
