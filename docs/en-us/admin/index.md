@@ -130,10 +130,9 @@ The following values can be customized in the ConfigMap:
 - `EULA`
 - `help`
 - `url`
-- `logo`
 - `idRangesFrom`
 - `idRangesTo`
-- `Logo` (URL that will be downloaded as a file into the repository that is created)
+- `logo` (URL that will be downloaded as a file into the repository that is created)
 
 
 ### Example ConfigMap
@@ -150,8 +149,7 @@ data:
   EULA: "https://your-eula-url"
   help: "https://your-help-url"
   url: "https://your-app-url"
-  logo: "https://your-logo-url"
   idRangesFrom: 50000
   idRangesTo: 51111
-  Logo: "https://your-logo-url"
+  logo: "https://your-logo-url"
 ```
