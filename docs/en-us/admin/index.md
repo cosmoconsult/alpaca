@@ -118,9 +118,9 @@ If everything works as expected, then you will see 13 new secrets that need to b
 
 If you want to better understand which app registrations exactly are generated, you can check the [sources](https://github.com/microsoft/navcontainerhelper/blob/master/AzureAD/Create-AadAppsForNav.ps1). This script only adds wildcard reply URLs which is not strictly recommended, but the app registrations are limited to users from your own tenant, we deemed it an acceptable risk. The alternative would have been to create a Service Principal with the necessary permissions to create potentially those five app registrations for every container, which also isn't a great solution.
 
-## Customizing the application settings
+## Customizing the settings for new app repositories
 
-Customers, who want to customize the global template, should create a ConfigMap named `appconfig` with the desired values under the `data` section. This ConfigMap should be placed in the customer-configs configuration repository.
+Customers, who want to customize the template for new app repositories, should create a ConfigMap named `appconfig` with the desired values under the `data` section. This ConfigMap should be placed in the customer configuration repository.
 
 The following values can be customized in the ConfigMap:
 
