@@ -117,3 +117,41 @@ Please note that you need to adapt the first couple of lines to your backend and
 If everything works as expected, then you will see 13 new secrets that need to be synced to your backend, all starting with `AAD-Auth--` as well as 5 new app registrations in your Azure Portal, all ending with `for https://<your-backend>/BC/`. The backend services will take some minutes to pick up the change. 
 
 If you want to better understand which app registrations exactly are generated, you can check the [sources](https://github.com/microsoft/navcontainerhelper/blob/master/AzureAD/Create-AadAppsForNav.ps1). This script only adds wildcard reply URLs which is not strictly recommended, but the app registrations are limited to users from your own tenant, we deemed it an acceptable risk. The alternative would have been to create a Service Principal with the necessary permissions to create potentially those five app registrations for every container, which also isn't a great solution.
+
+## Customizing the application settings
+
+Customers, who want to customize the global template, should create a ConfigMap named `appconfig` with the desired values under the `data` section. This ConfigMap should be placed in the customer-configs configuration repository.
+
+The following values can be customized in the ConfigMap:
+
+- `name`
+- `publisher`
+- `privacyStatement`
+- `EULA`
+- `help`
+- `url`
+- `logo`
+- `idRangesFrom`
+- `idRangesTo`
+- `Logo` (URL that will be downloaded as a file into the repository that is created)
+
+
+### Example ConfigMap
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: appconfig
+data:
+  name: "YourAppName"
+  publisher: "YourPublisher"
+  privacyStatement: "https://your-privacy-statement-url"
+  EULA: "https://your-eula-url"
+  help: "https://your-help-url"
+  url: "https://your-app-url"
+  logo: "https://your-logo-url"
+  idRangesFrom: 50000"
+  idRangesTo: "51111"
+  Logo: "https://your-logo-url"
+```
