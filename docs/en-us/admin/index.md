@@ -151,7 +151,7 @@ data:
   help: "https://your-help-url"
   url: "https://your-app-url"
   logo: "https://your-logo-url"
-  idRangesFrom: 50000"
-  idRangesTo: "51111"
+  idRangesFrom: 50000
+  idRangesTo: 51111
   Logo: "https://your-logo-url"
 ```
