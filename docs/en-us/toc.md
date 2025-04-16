@@ -1,133 +1,130 @@
-# [Introduction and overview](index.md)
+# [Introduction and Overview](index.md)
 
 # [Pricing and Trial](pricing.md)
 
-# Getting started
+# Getting Started
 
 ## [Walkthrough](getting-started/walkthrough.md)
 
+## [Access and Setup of the VS Code Extension](getting-started/access-and-setup-vsce.md)
 
-## [Access to and setup of the VS Code extension](getting-started/access-and-setup-vsce.md)
+## [Create an Organization](getting-started/create-org.md)
 
-## [Create an organization](getting-started/create-org.md)
+# Usage Guide
 
-# Usage for technical consultants / developers
+## General Features
 
-## [Define favorite organizations and show only those](vsc-extension/favorite-orgs.md)
+### [Define Favorite Organizations](vsc-extension/favorite-orgs.md)
 
-## [Create a project](vsc-extension/create-project.md)
+### [Create a Project](vsc-extension/create-project.md)
 
-## [Onboard existing projects and apps](vsc-extension/onboard-project.md)
+### [Onboard Existing Projects and Apps](vsc-extension/onboard-project.md)
 
-## [Create an app in your project](vsc-extension/create-app.md)
+### [Customize a Project](vsc-extension/customize-project.md)
 
-## [Release your app](vsc-extension/create-release-pipeline.md)
+### [Interact with Requirements](vsc-extension/associate-wi.md)
 
-## [Clone a repository for development](vsc-extension/clone-repo.md)
+### [Download Artifacts](vsc-extension/download-artifact.md)
 
-## [Work with branches](vsc-extension/branches.md)
+### [Open a Repository, Pipeline/Workflow, Requirement, Project or Organization in the Browser](vsc-extension/open-stuff.md)
 
-## [Open a repository, pipeline/workflow, requirement, project or organization in the browser](vsc-extension/open-stuff.md)
+## App Development
 
-## [Interact with requirements](vsc-extension/associate-wi.md)
+### [Create an App in Your Project](vsc-extension/create-app.md)
 
-## [Create a bug report or feature request](vsc-extension/bug-report.md)
+### [Clone a Repository for Development](vsc-extension/clone-repo.md)
 
-## [Customize a project](vsc-extension/customize-project.md)
+### [Work with Branches](vsc-extension/branches.md)
 
-## [Update CI/CD templates](vsc-extension/cicd-update.md)
+## Dev Container Management
 
-## Container handling
+### [Create a New Container](vsc-extension/create-container.md)
 
-### [Create a new container](vsc-extension/create-container.md)
+### [Create a Standalone Container](vsc-extension/create-ondemand-container.md)
 
-### [Create a new standalone container without predefined configuration](vsc-extension/create-ondemand-container.md)
+### [Get username or password](vsc-extension/copy-user-pwd.md)
 
-### [Share a container with someone else](vsc-extension/share-container.md)
+### [Open the Web Client, terminal, file share, log](vsc-extension/open-container.md)
 
-### [Backup the database in a container](vsc-extension/backup-database.md)
+### [Delete a Container](vsc-extension/delete-container.md)
 
-### [Stop and start a container](vsc-extension/startstop-container.md)
+### [Stop and Start a Container](vsc-extension/startstop-container.md)
 
-### [Show all containers](vsc-extension/show-all-containers.md)
+### [Configure Auto-Start and Auto-Stop for Containers](vsc-extension/auto-startstop.md)
 
-### [Create a configuration in your launch.json connected to the container](vsc-extension/create-launch-json.md)
+### [Share a Container](vsc-extension/share-container.md)
 
-### [Delete a container](vsc-extension/delete-container.md)
+### [Backup the Database in a Container](vsc-extension/backup-database.md)
 
-### [Open the Web Client, terminal, file share, log, configuration or statistics in the browser](vsc-extension/open-container.md)
-
-### [Copy username or password for the container](vsc-extension/copy-user-pwd.md)
-
-### [Get the event log](vsc-extension/event-log.md)
-
-### [Create a container with configuration from a specific branch](vsc-extension/create-branch-container.md)
-
-### [Create a backup of the database in the container](vsc-extension/backup-database.md)
-
-### [Configure Auto-Start and Auto-Stop](vsc-extension/auto-startstop.md)
-
-### [Rename a container](vsc-extension/rename-container.md)
+### [Rename a Container](vsc-extension/rename-container.md)
 
 ### [Restart NAV/BC Service Tier](vsc-extension/restart-service-tier.md)
 
-## [Assign an organization to an entity](vsc-extension/assign-entity.md)
+### [Accessing SQL Server](scenarios/access-sql.md)
 
-## [Assign an organization to a customer](vsc-extension/assign-customer.md)
+### [Get Event Log](vsc-extension/event-log.md)
 
-## [Assign an organization a responsible user](vsc-extension/assign-responsible-user.md)
+## Dev & Build Container Setup
 
-## [Download an artifact](vsc-extension/download-artifact.md)
+### [Set Up cosmo.json/alpaca.json Config](containers/setup-cosmo-json.md)
 
-## [Select a different tenant](vsc-extension/tenant.md)
+### [Change the Base Version or Country](containers/change-container.md)
 
-## [Convert a .bacpac backup file to a .bak backup file](vsc-extension/convert-bacpac-to-bak.md)
+### [Set Up Artifacts to Import on Startup](containers/setup-artifacts.md)
 
-# Container setup
+### [Set Up a Database Backup](containers/setup-bak.md)
 
-## [Set up `cosmo.json`/`alpaca.json` parameters](containers/setup-cosmo-json.md)
+### [Convert a .bacpac to .bak](vsc-extension/convert-bacpac-to-bak.md)
 
-### [Set up apps, fobs, dlls, fonts or rapidstart packages to import on startup](containers/setup-artifacts.md)
+### [Set Up Companion Containers](containers/setup-companion-container.md)
 
-### [Set up a database backup to use when the container starts](containers/setup-bak.md)
+### [Set Up Custom Scripts](containers/setup-custom-scripts.md)
 
-### [Setup companion containers](containers/setup-companion-container.md)
+## Pipeline/Workflow Setup
 
-## [Change the base version or country of the used container](containers/change-container.md)
+### [Increase App Version](pipelines/version-increase.md)
 
-## [Set up custom scripts to run on container startup](containers/setup-custom-scripts.md)
+### [Deploy Your App](vsc-extension/create-release-pipeline.md)
 
-# Pipeline/Workflow setup
+### [Update CI/CD Templates](vsc-extension/cicd-update.md)
 
-## [Using variables](pipelines/pipeline-variables.md)
+### [Setup Next Minor/Major Pipelines](pipelines/next.md)
 
-## [Setup Next Minor / Next Major / Localization / Minimum Pipelines](pipelines/next.md)
+### [Using Variables](pipelines/pipeline-variables.md)
 
-## [Increase the version of the app you are building](pipelines/version-increase.md)
+### [Setup App Signing](pipelines/app-signing.md)
 
-## [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
+### [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
 
-## [Setup app signing](pipelines/app-signing.md)
+## COSMO-only features
 
-# Scenarios
+### [Assign an Organization to a Customer](vsc-extension/assign-customer.md)
 
-## [Accessing SQL Server](scenarios/access-sql.md)
+### [Assign an Organization to an Entity](vsc-extension/assign-entity.md)
 
-# Roadmap and history
-
-## [What's next](history-roadmap/whats-next.md)
-
-## [What's new](history-roadmap/whats-new.md)
+### [Assign an Organization to a Responsible User](vsc-extension/assign-responsible-user.md)
 
 # [Administration](admin/index.md)
 
-# Troubleshooting
+# Roadmap and History
 
-## [Typical problems and their solutions](troubleshooting/solutions.md)
+## [What's Next](history-roadmap/whats-next.md)
 
-# [Cross-company Collaboration](collaboration.md)
+## [What's New](history-roadmap/whats-new.md)
 
-# [Base App contributions with COSMO Alpaca](base-app.md)
+# Support
+
+## [Create a Bug Report or Feature Request](vsc-extension/bug-report.md)
+
+## [Typical Problems and Solutions](troubleshooting/solutions.md)
+
+# Collaboration
+
+## [Cross-Company Collaboration](collaboration.md)
+
+## [Change the Tenant](vsc-extension/tenant.md)
+
+## [Base App Contributions with COSMO Alpaca](base-app.md)
 
 # [Status and Health](status.md)
 
