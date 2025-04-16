@@ -8,6 +8,11 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.28.0
+
+* Fix issue where the test app could faild to publish for the localization check of the build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4295)
+* Support for artifacts dependent on the app in the build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4198/)
+
 ## v2.27.0
 
 * Improved error handling for extension deployment (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4279)
