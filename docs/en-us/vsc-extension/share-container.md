@@ -1,9 +1,9 @@
 ---
-    title: Share a container
-    description: Share a container
+    title: Share Container
+    description: Share Container
 ---
 
-# Share a container with a colleague
+# Share Container
 
 If you want to share a container with a colleague, so that it appears in their tooling as well, you can take the following steps:
 

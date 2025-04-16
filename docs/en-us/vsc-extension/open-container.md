@@ -1,9 +1,9 @@
 ---
-    title: Open the Web Client, terminal, file share, log, configuration or statistics in the browser
-    description: Open the Web Client, terminal, file share, log, configuration or statistics in the browser
+    title: Open Web Client, Terminal, File Share, Log
+    description: Open Web Client, Terminal, File Share, Log
 ---
 
-# Open the Web Client, terminal, file share, log, configuration or statistics in the browser
+# Open Web Client, Terminal, File Share, Log
 
 While you can of course open the Web Client there are also many further ways to interact with your [created container](create-container.md). You can manage files, look at the logs, statistics and the configuration of your container and are also able to run commands inside:
 

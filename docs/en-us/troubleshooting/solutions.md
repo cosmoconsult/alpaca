@@ -1,9 +1,9 @@
 ---
-    title: Typical problems and their solutions
-    description: Typical problems and their solutions
+    title: Typical Problems & Solutions
+    description: Typical Problems & Solutions
 ---
 
-# Typical problems and their solutions
+# Typical Problems & Solutions
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

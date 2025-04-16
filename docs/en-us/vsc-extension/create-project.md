@@ -1,9 +1,9 @@
 ---
-    title: Create a project
-    description: Create a project
+    title: Create Project
+    description: Create Project
 ---
 
-# Create a project
+# Create Project
 
 # [**GitHub (AL-Go)**](#tab/github)
 

@@ -1,11 +1,11 @@
 ---
-    title: Define favorite organizations and show only those
-    description: Define favorite organizations and show only those
+    title: Favorite Organizations
+    description: Favorite Organizations
 ---
 
-# Define favorite organizations and show only those
+# Favorite Organizations
 
-In the list of organizations, you will over time probably see a lot of them and not all are relevant anymore. To help with that, you can set up favorite organizations that will have a special icon and additionaly also define that only the favorites are visible:
+In the list of organizations, you may over time see a lot of them and not all are relevant anymore. To help with that, you can set up favorite organizations that will have a special icon and additionally define that only the favorites are visible:
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

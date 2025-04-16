@@ -1,9 +1,9 @@
 ---
-    title: Open a repository, pipeline/workflow, requirement, project or organization in the browser
-    description: Open a repository, pipeline/workflow, requirement, project or organization in the browser
+    title: Open Elements in Browser
+    description: Open Elements in Browser
 ---
 
-# Open a repository, pipeline/workflow, requirement, project or organization in the browser
+# Open Elements in Browser
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

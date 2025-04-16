@@ -1,9 +1,9 @@
 ---
-    title: Setup app signing within pipelines
-    description: Setup app signing within pipelines
+    title: Setup App Signing
+    description: Setup App Signing
 ---
 
-# Setup app signing within pipelines
+# Setup App Signing
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

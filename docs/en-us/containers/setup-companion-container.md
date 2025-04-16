@@ -1,6 +1,6 @@
 ---
-    title: Set up companion containers
-    description: Set up companion containers
+    title: Setup Companion Containers
+    description: Setup Companion Containers
 ---
 
 # Set up companion containers

@@ -1,9 +1,9 @@
 ---
-    title: Assign an organization to a customer
-    description: Assign an organization to a customer
+    title: Assign Organization to Responsible User
+    description: Assign Organization to Responsible User
 ---
 
-# Assign an organization a responsible user
+# Assign Organization to Responsible User
 _This is only available for COSMO CONSULT_
 
 # [**GitHub (AL-Go)**](#tab/github)

@@ -1,9 +1,9 @@
 ---
-    title: Set up custom scripts
-    description: Set up custom scripts
+    title: Setup Custom Scripts
+    description: Setup Custom Scripts
 ---
 
-# Set up custom scripts
+# Setup Custom Scripts
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

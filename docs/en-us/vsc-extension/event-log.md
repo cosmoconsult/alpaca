@@ -1,9 +1,9 @@
 ---
-    title: Get the event log
-    description: Get the event log
+    title: Get Event Log
+    description: Get Event Log
 ---
 
-# Get the event log
+# Get Event Log
 
 To troubleshoot problems within your container it's often helpful to have a look at the event log. The event log can be easily downloaded:
 

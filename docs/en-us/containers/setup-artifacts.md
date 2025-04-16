@@ -1,9 +1,9 @@
 ---
-    title: Setup Artifacts
-    description: Setup Artifacts
+    title: Setup Artifacts to Import on Startup
+    description: Setup Artifacts to Import on Startup
 ---
 
-# Setup Artifacts
+# Setup Artifacts to Import on Startup
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

@@ -1,9 +1,9 @@
 ---
-    title: Create a new standalone container
-    description: Create a new standalone container
+    title: Create Standalone Container
+    description: Create Standalone Container
 ---
 
-# Create a new standalone container
+# Create Standalone Container
 
 If you want to quickly create a container without a connection to a repository and without setting up a configuration you can do so by following these steps:
 

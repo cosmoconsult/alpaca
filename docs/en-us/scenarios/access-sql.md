@@ -1,9 +1,9 @@
 ---
-    title: Accessing SQL Server
-    description: Accessing SQL Server
+    title: Access SQL Server
+    description: Access SQL Server
 ---
 
-# Accessing SQL Server inside Containers
+# Access SQL Server
 
 1. ["Open file share"](../vsc-extension/open-container.md) on your container
 1. On first launch, choose "Windows" as platform in the VS Code Window if you're asked

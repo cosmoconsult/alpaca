@@ -1,9 +1,9 @@
 ---
-    title: Onboard existing projects and apps
-    description: Onboard existing projects and apps
+    title: Onboard Existing Projects & Apps
+    description: Onboard Existing Projects & Apps
 ---
 
-# Onboard existing projects and apps
+# Onboard Existing Projects & Apps
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

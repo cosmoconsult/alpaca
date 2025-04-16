@@ -1,9 +1,9 @@
 ---
-    title: Set up cosmo.json/alpaca.json parameters
-    description: Set up cosmo.json/alpaca.json parameters
+    title: Setup cosmo.json/alpaca.json Config
+    description: Setup cosmo.json/alpaca.json Config
 ---
 
-# Set up `cosmo.json`/`alpaca.json` parameters
+# Setup `cosmo.json`/`alpaca.json` Config
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

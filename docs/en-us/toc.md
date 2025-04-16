@@ -18,7 +18,7 @@
 
 ### [Create Project](vsc-extension/create-project.md)
 
-### [Onboard Existing Projects and Apps](vsc-extension/onboard-project.md)
+### [Onboard Existing Projects & Apps](vsc-extension/onboard-project.md)
 
 ### [Customize Projects](vsc-extension/customize-project.md)
 
@@ -30,7 +30,7 @@
 
 ## App Development
 
-### [Create App](vsc-extension/create-app.md)
+### [Create a Repository & App](vsc-extension/create-app.md)
 
 ### [Clone Repository](vsc-extension/clone-repo.md)
 
@@ -54,11 +54,11 @@
 
 ### [Share Container](vsc-extension/share-container.md)
 
-### [Backup Container Databases](vsc-extension/backup-database.md)
+### [Backup Container Database](vsc-extension/backup-database.md)
 
 ### [Rename Container](vsc-extension/rename-container.md)
 
-### [Restart NAV/BC Service Tier](vsc-extension/restart-service-tier.md)
+### [Restart BC Service Tier](vsc-extension/restart-service-tier.md)
 
 ### [Access SQL Server](scenarios/access-sql.md)
 
@@ -88,7 +88,7 @@
 
 ### [Update CI/CD Templates](vsc-extension/cicd-update.md)
 
-### [Setup Next Major/-Minor Pipelines](pipelines/next.md)
+### [Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows](pipelines/next.md)
 
 ### [Using Variables](pipelines/pipeline-variables.md)
 
@@ -106,7 +106,7 @@
 
 # [Administration](admin/index.md)
 
-# Roadmap and History
+# Roadmap & History
 
 ## [What's Next](history-roadmap/whats-next.md)
 
@@ -116,7 +116,7 @@
 
 ## [Create a Bug Report or Feature Request](vsc-extension/bug-report.md)
 
-## [Typical Problems and Solutions](troubleshooting/solutions.md)
+## [Typical Problems & Solutions](troubleshooting/solutions.md)
 
 # Collaboration
 
@@ -124,8 +124,8 @@
 
 ## [Change the Tenant](vsc-extension/tenant.md)
 
-## [Base App Contributions with COSMO Alpaca](base-app.md)
+## [Base App Contributions](base-app.md)
 
-# [Status and Health](status.md)
+# [Status & Health](status.md)
 
 # [Download PDF](doc.pdf)
