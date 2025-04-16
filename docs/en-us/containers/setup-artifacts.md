@@ -81,6 +81,7 @@ You need write-access to the File-Share which is attached to your target Swarm-E
 |`"target"`|string|**mandatory**|Specify the [Artifact Target][artifact-target] folder in the container file system and import action.|
 |`"targetFolder"`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
 |`"appImportScope"`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
+|`"appImportSyncMode"`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)**, `Clean`, `Development` or `ForceSync`.|
 |`"ignoreIn"`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 
 ## Artifacts from Azure DevOps Artifact Feed
@@ -131,6 +132,7 @@ You / your Build Agent need **anonymous** read access at the used artifact feed(
 |`"type"`|string|optional|Specify the type of the artifact feed. COSMO uses **`upack` (default)**.|
 |`"target"`|string|optional|Specify the [Artifact Target][artifact-target] folder in the container file system and import action.|
 |`"appImportScope"`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
+|`"appImportSyncMode"`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)** , `Clean`, `Development` or `ForceSync`.|
 |`"ignoreIn"`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 
 **Note:**

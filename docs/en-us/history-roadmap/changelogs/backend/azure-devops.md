@@ -8,9 +8,19 @@
 
 All notable changes to the Azure DevOps Backend
 
-## v1.38.0 (unreleased)
+# v1.39.0 (unreleased)
 
+* Fix inheritance of app artifacts and SyncMode and ImportScope (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+
+# v1.38.0 (2025-04-16)
+
+* Add error handling to the app creation process (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4265/)
+* Update CreateInitScriptCall to customize the creation of app based on config-templates (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4256/)
+* Pipeline error handling for existing pipelines (https://github.com/cosmoconsult/alpaca/issues/39)
+* Inherit app artifacts from the parent artifact to the bcartifact (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 * Enhance the properties 'AppImportSyncMode' and 'AppImportScope'  from the cosmo.json to be set per-artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+* Support BC26 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4302/)
+
 
 ## v1.37.0 (2025-03-17)
 
