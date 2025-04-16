@@ -1,6 +1,6 @@
 ---
-    title: COSMO Alpaca Pricing and Trial
-    description: COSMO Alpaca Pricing and Trial
+    title: Pricing & Trial
+    description: Pricing & Trial
 ---
 
 <style>
