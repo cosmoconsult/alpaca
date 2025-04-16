@@ -216,6 +216,7 @@ The order of import is:
 |`"targetFolder"`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
 |`"appImportScope"`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
 |`"ignoreIn"`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](#-cosmo.json-))*|
+|`"dependsOn"`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 |***file artifact***|
 |`"name"`|string|optional|The name of the artifact. *This is for informational purpose only.*|
 |`"version"`|string|optional|The version of the artifact. *This is for informational purpose only.*|
