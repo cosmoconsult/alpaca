@@ -1,9 +1,9 @@
 ---
-    title: Access and setup the VS Code Extension
-    description: Access and setup the VS Code Extension
+    title: VS Code Extension Setup
+    description: VS Code Extension Setup
 ---
 
-# Access and setup the VS Code Extension
+# VS Code Extension Setup
 
 One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](create-org.md) beforehand.
 

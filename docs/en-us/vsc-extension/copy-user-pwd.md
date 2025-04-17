@@ -1,9 +1,9 @@
 ---
-    title: Copy username or password for the container
-    description: Copy username or password for the container
+    title: Get User/Password
+    description: Get User/Password
 ---
 
-# Copy username or password for the container
+# Get User/Password
 
 When [creating a new container](create-container.md) a user and a random password is automatically created for you. Alternativeley you can set up a default username and password by setting the *Default Container Password* and *Default Container Username* option within the extension settings. This credential is used for accessing the Business Central Web Client.
 

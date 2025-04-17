@@ -1,9 +1,9 @@
 ---
-    title: Base App contributions with COSMO Alpaca
-    description: Base App contributions with COSMO Alpaca
+    title: Base App Contributions
+    description: Base App Contributions
 ---
 
-### Base App contributions with COSMO Alpaca
+### Base App Contributions
 
 1. Join the Microsoft Dynamics 365 Business Central Base Application contribution pilot : https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR_Qj5hjzNeNOhBcvBoRIOltUOVBVTklZN1hBOTZJUU40OE5CUzNWNk1FQy4u
 1. Fork https://github.com/microsoft/BusinessCentralApps

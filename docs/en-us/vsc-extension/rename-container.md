@@ -1,9 +1,9 @@
 ---
-    title: Rename a container
-    description: Rename a container
+    title: Rename Container
+    description: Rename Container
 ---
 
-# Rename a container
+# Rename Container
 
 If you want to rename a container, you can take the following steps:
 

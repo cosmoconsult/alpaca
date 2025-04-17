@@ -1,11 +1,11 @@
 ---
-    title: Restart NAV/BC Service Tier
-    description: Restart NAV/BC Service Tier
+    title: Restart BC Service Tier
+    description: Restart BC Service Tier
 ---
 
-# Restart NAV/BC Service Tier
+# Restart BC Service Tier
 
-If you want to restart the NAV/BC service tier in a container, you can take the following steps:
+If you want to restart the BC service tier in a container, you can take the following steps:
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

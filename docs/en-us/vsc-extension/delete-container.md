@@ -1,9 +1,9 @@
 ---
-    title: Delete a container
-    description: Delete a container
+    title: Delete Container
+    description: Delete Container
 ---
 
-# Delete a container
+# Delete Container
 
 To delete the container you [created before](create-container.md) you need to right click on your container in the Containers list under the Repository of your app and choose **Delete container**. After confirmation your container is deleted.
 

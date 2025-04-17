@@ -1,9 +1,9 @@
 ---
-    title: Cross-company Collaboration
-    description: Cross-company Collaboration
+    title: Cross-Company Collaboration
+    description: Cross-Company Collaboration
 ---
 
-# Cross-company Collaboration
+# Cross-Company Collaboration
 
 COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can work together on the same project.
 # [**GitHub (AL-Go)**](#tab/github)

@@ -1,9 +1,9 @@
 ---
-    title: Change the base version or country of the used container
-    description: Change the base version or country of the used container
+    title: Change BC Version/Country
+    description: Change BC Version/Country
 ---
 
-# Change the base version or country of the used container
+# Change BC Version/Country
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

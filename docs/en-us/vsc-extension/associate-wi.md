@@ -1,9 +1,9 @@
 ---
-    title: Interact with requirements
-    description: Interact with requirements
+    title: Interact with Requirements
+    description: Interact with Requirements
 ---
 
-# Interact with requirements
+# Interact with Requirements
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

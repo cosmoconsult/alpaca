@@ -1,9 +1,9 @@
 ---
-    title: Stop and start a container
-    description: Stop and start a container
+    title: Start/Stop Container
+    description: Start/Stop Container
 ---
 
-# Stop and start a container
+# Start/Stop Container
 
 To stop and start a container you [created before](create-container.md), e.g. to save costs and lessen the load on the backends, you need to do the following steps. Please note that stopping and starting actually **removes the container and creates it again**, only the **database stays in place!** That means that you **keep all your data, deployed extensions etc.**, but **anything on the file system will be gone**. On a restart, the same steps as on the first start are taken, so all dlls, fonts etc. will be added again exactly as on the first start, but importing apps, fobs or rapidstart packages is skipped.
 

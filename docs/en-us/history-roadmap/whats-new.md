@@ -1,9 +1,9 @@
 ---
-    title: What's new in COSMO Alpaca
-    description: What's new in COSMO Alpaca
+    title: What's New
+    description: What's New
 ---
 
-# What's new in COSMO Alpaca
+# What's New
 
 Here you will find links to the change logs of the different parts of COSMO Alpaca.\
 The change logs contain all notable changes to COSMO Alpaca.

@@ -1,9 +1,9 @@
 ---
-    title: Create a repository and an app
-    description: Create a repository and an app
+    title: Create a Repository & App
+    description: Create a Repository & App
 ---
 
-# Create a repository and an app
+# Create a Repository & App
 
 # [**GitHub (AL-Go)**](#tab/github)
 

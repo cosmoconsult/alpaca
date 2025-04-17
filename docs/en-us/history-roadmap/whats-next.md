@@ -1,9 +1,9 @@
 ---
-    title: What's next in COSMO Alpaca
-    description: What's next in COSMO Alpaca
+    title: What's Next
+    description: What's Next
 ---
 
-# What's next in COSMO Alpaca
+# What's Next
 
 Here you will find what we are currently working on and what is planned for the future.
 > [!NOTE]
