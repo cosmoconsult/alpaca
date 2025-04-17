@@ -106,6 +106,7 @@ Four types of artifacts are supported:
 |`target`|string|**mandatory**|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
 |`targetFolder`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
 |`appImportScope`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
+|`appImportSyncMode`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)**, `Clean`, `Development` or `ForceSync`.|
 |`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
@@ -198,6 +199,7 @@ __ This is only available for Alpaca on Azure DevOps __
 |`type`|string|optional|Specify the type of the artifact feed. COSMO uses **`upack` (default)**.|
 |`target`|string|optional|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
 |`appImportScope`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
+|`appImportSyncMode`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)** , `Clean`, `Development` or `ForceSync`.|
 |`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
