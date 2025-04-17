@@ -143,13 +143,13 @@ kind: ConfigMap
 metadata:
   name: appconfig
 data:
-  name: "YourAppName"
-  publisher: "YourPublisher"
-  privacyStatement: "https://your-privacy-statement-url"
-  EULA: "https://your-eula-url"
-  help: "https://your-help-url"
-  url: "https://your-app-url"
-  idRangesFrom: 50000
-  idRangesTo: 51111
-  logo: "https://your-logo-url"
+  appconfig__name: "YourAppName"
+  appconfig__publisher: "YourPublisher"
+  appconfig__privacyStatement: "https://your-privacy-statement-url"
+  appconfig__EULA: "https://your-eula-url"
+  appconfig__help: "https://your-help-url"
+  appconfig__url: "https://your-app-url"
+  appconfig__idRangesFrom: 50000
+  appconfig__idRangesTo: 51111
+  appconfig__logo: "https://your-logo-url"
 ```
