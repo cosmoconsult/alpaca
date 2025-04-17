@@ -24,9 +24,8 @@ Four types of artifacts are supported:
 1. Artifacts from an Azure DevOps Artifact feed (only for Alpaca on Azure DevOps)
 1. Artifacts from a product feed
 
-Select a tab below to see how each type of artifact is configured:
 
-# [URL or Alpaca fileshare](#tab/artifact-url)
+# URL or Alpaca fileshare
 
 1. Open the Alpaca fileshare. Please contact the Alpaca support if you don't have access yet.
 1. Copy your artifact to the fileshare. One option to organize your folder structure could look like this, but if you have some other structure already in place in your organization, it also might be a good idea to use that:
@@ -110,7 +109,7 @@ Select a tab below to see how each type of artifact is configured:
 |`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
-# [NuGet feed](#tab/artifact-nuget)
+# NuGet feed
 
 By default all Microsoft NuGet feeds are available. Custom nuget feeds can either be configured globally, per-project or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
@@ -153,7 +152,7 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 |`version`|string|optional|The version of the artifact. (Latest - when not specified)|
 
 
-# [Azure DevOps Artifact feed](#tab/artifact-azdevops)
+# Azure DevOps Artifact feed
 __ This is only available for Alpaca on Azure DevOps __
 
 
@@ -202,7 +201,7 @@ __ This is only available for Alpaca on Azure DevOps __
 |`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
-# [Product feed](#tab/artifact-product-feed)
+# Product feed
 
 The use case for the product feed is to enable users and pipelines/workflows to consume artifacts managed in a central feed. This is mainly used for feeds hosting intelectual property. As a bonus you can use the version overview in the VS Code Extension to browse your regularly used artifacts.
 
