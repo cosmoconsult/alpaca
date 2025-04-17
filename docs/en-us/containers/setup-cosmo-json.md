@@ -238,6 +238,50 @@ You can optionally set custom BC service tier or Web server settings within the 
 |`"settings"` |string |**mandatory**|Comma-separated string of `key=value` pairs, e.g. `EnableTaskScheduler=true` (case-sensitive)|
 |`"ignoreIn"`|string[]|**optional**|Specify in which container setup your settings should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](#-cosmo.json-))*|
 
+## Artifact Target
+
+The `"target"` specify the target folder and finally what should hapen with the artifact.
+
+|Target(s)|Destination|Import|
+|-|-|-|
+|`bak`|---|The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
+|`saasbak`|---|Backup file from an online SaaS environment, [converted from bacpac to bak](../vsc-extension/convert-bacpac-to-bak.md), **cannot** be combined with `bak` |
+|`dll` or `add-ins`|`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as an App |
+|`font` or `fonts`|`c:/fonts`|The Artifact will be imported as an App |
+|`fob`, `app`, `rapidStart`, ...|`C:\run\my\apps`|The Artifact content will be imported as fob, app or rapid start package depending on the file extension. |
+
+The order of import is:
+
+1. DLL(s) and Add-Ins
+1. Font(s)
+1. FOB(s)
+1. App(s)
+1. Rapid Start Package(s)
+
+## Artifact
+
+|Element|Type||Value|
+|-|-|-|-|
+|***common***|
+|`"target"`|string|**mandatory**|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
+|`"targetFolder"`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
+|`"appImportScope"`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
+|`"appImportSyncMode"`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)**, `Clean`, `Development` or `ForceSync`.|
+|`"ignoreIn"`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](#-cosmo.json-))*|
+|***file artifact***|
+|`"name"`|string|optional|The name of the artifact. *This is for informational purpose only.*|
+|`"version"`|string|optional|The version of the artifact. *This is for informational purpose only.*|
+|`"url"`|string|**mandatory**|The path or url to download the artifact.|
+|***feed artifact***|
+|`"organization"`|string|**mandatory**|The organization name of the feed.|
+|`"project"`|string|optional, mandatory|The project id of the artifact feed (**mandatory** for project scoped feeds).|
+|`"feed"`|string|**mandatory**|The name of the artifact feed.|
+|`"name"`|string|**mandatory**|The name of the artifact.|
+|`"scope"`|string|optional|The scope of the feed can be `organization` and **`project` (default)**.|
+|`"version"`|string|optional|The version of the artifact. (Latest - when not specified)|
+|`"view"`|string|optional|The view (promotion-level) of the artifact determines which version is used.|
+|`"type"`|string[]|optional|Specify the type of the artifact feed. COSMO uses **`upack` (default)** (for now only `upack` is supported).|
+
 ## Compiler
 
 |Element|Type||Value|
