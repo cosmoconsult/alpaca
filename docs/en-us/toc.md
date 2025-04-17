@@ -70,7 +70,7 @@
 
 ### [Change BC Version/Country](containers/change-container.md)
 
-### [Setup Artifacts to Import on Startup](containers/setup-artifacts.md)
+### [Setup Artifacts to Import on Container Startup](containers/setup-artifacts.md)
 
 ### [Setup Database Backup](containers/setup-bak.md)
 
