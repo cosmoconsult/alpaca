@@ -1,9 +1,9 @@
 ---
-    title: Create a new container
-    description: Create a new container
+    title: Create Container
+    description: Create Container
 ---
 
-# Create a new container
+# Create Container
 
 To develop, test or debug your app, you want to create a Business Central container. You can easily achieve that from within Visual Studio Code by following these steps:
 
@@ -22,6 +22,20 @@ WIP
   <source src="../media/create-container.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+## Create a container with configuration from a specific branch
+
+To test out a change in either the `cosmo.json` or your [custom scripts](../containers/setup-custom-scripts.md) without affecting other users, you can create a container and use the configuration and custom scripts from a specific branch:
+
+1. In the Visual Studio Code extension right click on a branch with your changes under the Repository of your app and choose **Create container with configuration from this branch**.
+1. Enter a name for your new container and hit Enter.
+
+<video width="1280px" height="720px" controls>
+  <source src="../media/branch-create-container.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Similar as when [creating a container the default way](create-container.md) you need to wait until the container is created and ready.
 
 ## Select a specific BC artifact configuration when creating a new container
 

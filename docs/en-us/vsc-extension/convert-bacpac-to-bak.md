@@ -1,9 +1,9 @@
 ---
-    title: Convert a .bacpac backup file to a .bak backup file
-    description: Convert a .bacpac backup file to a .bak backup file
+    title: Convert .bacpac to .bak
+    description: Convert .bacpac to .bak
 ---
 
-# Convert a .bacpac backup file to a .bak backup file
+# Convert .bacpac to .bak
 
 If you have a .bacpac file, e.g. from an Azure SQL database and want to convert it to a .bak file, you can use this functionality. It will start a SQL Server container, restore the .bacpac file to a database and then create a .bak file from it. Currently the only supported way to get a .bacpac file into the service is to store in the Azure File Share connected to your backend.
 

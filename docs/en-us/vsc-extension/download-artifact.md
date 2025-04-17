@@ -1,9 +1,9 @@
 ---
-    title: Download an artifact
-    description: Download an artifact
+    title: Download Artifacts
+    description: Download Artifacts
 ---
 
-# Download an artifact
+# Download Artifacts
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

@@ -1,9 +1,9 @@
 ---
-    title: Customize a project
-    description: Customize a project
+    title: Customize Projects
+    description: Customize Projects
 ---
 
-# Customize a project
+# Customize Projects
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

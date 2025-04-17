@@ -1,9 +1,9 @@
 ---
-    title: Administration of the Self-Service
-    description: Administration of the Self-Service
+    title: Administration
+    description: Administration
 ---
 
-# Administration of the Self-Service
+# Administration
 
 ## Setting up licenses
 

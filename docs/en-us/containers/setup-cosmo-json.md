@@ -1,16 +1,67 @@
 ---
-    title: Set up cosmo.json/alpaca.json parameters
-    description: Set up cosmo.json/alpaca.json parameters
+    title: Setup cosmo.json/alpaca.json Config
+    description: Setup cosmo.json/alpaca.json Config
 ---
 
-# Set up `cosmo.json`/`alpaca.json` parameters
+# Setup `cosmo.json`/`alpaca.json` Config
 
 # [**GitHub (AL-Go)**](#tab/github)
-WIP
+
+The `alpaca.json` is usually located in `.alpaca/alpaca.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **build containers** are automatically created by the CI/CD workflows to publish compiled apps and run automated tests on them.
+
+The basic `alpaca.json` looks like the following:
+```json
+{
+    "containerConfigurations": [
+        {
+            "name": "default",
+            "artifacts": []
+        },
+        {
+            "name": "current",
+            "inheritFromWorkflow": "Test Current"
+        },
+        {
+            "name": "NextMajor",
+            "inheritFromWorkflow": "Test Next Major"
+        },
+        {
+            "name": "NextMinor",
+            "inheritFromWorkflow": "Test Next Minor"
+        }
+    ]
+}
+```
+
+## Container Configurations
+
+The `containerConfigurations` array defines different configurations for your containers. 
+
+By default you will have the following configurations:
+- `default`: The default configuration for all dev and build containers. All other container will inherit from this configuration automatically if you don't set something different in `inheritFromConfig` (see below). This allows you to e.g. specify artifacts "globally" which are then used by all other configurations.
+- `current`: The configuration for the current BC version. It's automatically used when running the `CI/CD` or `Test Current` workflow.
+- `NextMajor`: The configuration for the next major BC version. It's automatically used when running the `Test Next Major` workflow.
+- `NextMinor`: The configuration for the next minor BC version. It's automatically used when running the `Test Next Minor` workflow.
+
+You can define additional configurations like e.g. one which imports RapidStart packages ore one with a backup. When [creating a new dev container](../vsc-extension/create-container.md) you can specify which configuration to use.
+
+### Parameters
+
+|Element|Type||Value|
+|-|-|-|-|
+|`name`|string|**mandatory**|The name of the configuration. This is used to identify the configuration when creating a new dev container.|
+|`inheritFromWorkflow`|string|optional|The name of the workflow to inherit settings from (e.g. `Test Current` will inherit settings like artifact, country etc. from `.github/Test Current.settings.json`)|
+|`inheritFromConfig`|string|optional|The name of the container configuration to inherit settings from. This allows you to create a hierarchy of configurations.|
+|`storageAccount`|string|optional|The name of the storage account to use for the BC artifact.|
+|`type`|string|optional|The type of the BC artifact. This can be `onprem` or `sandbox`.|
+|`version`|string|optional|The version of the BC artifact (e.g. `25`, `25.1`, `25.1.12345`). This will default to latest.|
+|`select`|string|optional|The [selector](https://github.com/microsoft/navcontainerhelper/blob/49da2c44a41e3671ed3d94c4d8e8362578eda520/Artifacts/Get-BCArtifactUrl.ps1#L12-L22) for the BC artifact. One of `latest`, `first`, `all`, `closest`, `secondToLastMajor`, `current`, `nextMinor`, `nextMajor`, `daily`, `weekly`.|
+|`country`|string|optional|The country of the BC artifact (e.g. `w1`, `de`, `fr`, ..). This will default to `w1`|
+|`artifacts`|array|optional|The artifacts to import during the startup of the container. See the [documentation](setup-artifacts.md).|
 
 # [**Azure DevOps**](#tab/azdevops)
 
-The `cosmo.json` define the used artifacts during setup of the container.
+The `cosmo.json` define the used artifacts during setup of development & build containers.
 
 A container is created and used as:
 
@@ -186,50 +237,6 @@ You can optionally set custom BC service tier or Web server settings within the 
 |-|-|-|-|
 |`"settings"` |string |**mandatory**|Comma-separated string of `key=value` pairs, e.g. `EnableTaskScheduler=true` (case-sensitive)|
 |`"ignoreIn"`|string[]|**optional**|Specify in which container setup your settings should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](#-cosmo.json-))*|
-
-## Artifact Target
-
-The `"target"` specify the target folder and finally what should hapen with the artifact.
-
-|Target(s)|Destination|Import|
-|-|-|-|
-|`bak`|---|The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
-|`saasbak`|---|Backup file from an online SaaS environment, [converted from bacpac to bak](../vsc-extension/convert-bacpac-to-bak.md), **cannot** be combined with `bak` |
-|`dll` or `add-ins`|`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as an App |
-|`font` or `fonts`|`c:/fonts`|The Artifact will be imported as an App |
-|`fob`, `app`, `rapidStart`, ...|`C:\run\my\apps`|The Artifact content will be imported as fob, app or rapid start package depending on the file extension. |
-
-The order of import is:
-
-1. DLL(s) and Add-Ins
-1. Font(s)
-1. FOB(s)
-1. App(s)
-1. Rapid Start Package(s)
-
-## Artifact
-
-|Element|Type||Value|
-|-|-|-|-|
-|***common***|
-|`"target"`|string|**mandatory**|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
-|`"targetFolder"`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
-|`"appImportScope"`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
-|`"ignoreIn"`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](#-cosmo.json-))*|
-|`"dependsOn"`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
-|***file artifact***|
-|`"name"`|string|optional|The name of the artifact. *This is for informational purpose only.*|
-|`"version"`|string|optional|The version of the artifact. *This is for informational purpose only.*|
-|`"url"`|string|**mandatory**|The path or url to download the artifact.|
-|***feed artifact***|
-|`"organization"`|string|**mandatory**|The organization name of the feed.|
-|`"project"`|string|optional, mandatory|The project id of the artifact feed (**mandatory** for project scoped feeds).|
-|`"feed"`|string|**mandatory**|The name of the artifact feed.|
-|`"name"`|string|**mandatory**|The name of the artifact.|
-|`"scope"`|string|optional|The scope of the feed can be `organization` and **`project` (default)**.|
-|`"version"`|string|optional|The version of the artifact. (Latest - when not specified)|
-|`"view"`|string|optional|The view (promotion-level) of the artifact determines which version is used.|
-|`"type"`|string[]|optional|Specify the type of the artifact feed. COSMO uses **`upack` (default)** (for now only `upack` is supported).|
 
 ## Compiler
 

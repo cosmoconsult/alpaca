@@ -1,9 +1,9 @@
 ---
-    title: Select a different tenant
-    description: Select a different tenant
+    title: Change the Tenant
+    description: Change the Tenant
 ---
 
-# Select a different tenant
+# Change the Tenant
 
 # [**GitHub (AL-Go)**](#tab/github)
 Not relevant for GitHub. You can see different GitHub organizations/accounts all at once.

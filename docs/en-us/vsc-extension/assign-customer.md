@@ -1,9 +1,9 @@
 ---
-    title: Assign an organization to a customer
-    description: Assign an organization to a customer
+    title: Assign Organization to Customer
+    description: Assign Organization to Customer
 ---
 
-# Assign an organization to a customer
+# Assign Organization to Customer
 _This is only available for COSMO CONSULT_
 
 

@@ -1,9 +1,9 @@
 ---
-    title: Status and Health of COSMO Alpaca
-    description: Status and Health of COSMO Alpaca
+    title: Status & Health
+    description: Status & Health
 ---
 
-# Status and Health of COSMO Alpaca
+# Status & Health
 
 ## Performance Issues BC24+
 

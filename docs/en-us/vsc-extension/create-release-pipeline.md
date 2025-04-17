@@ -1,9 +1,9 @@
 ---
-    title: Release your app
-    description: Release your app
+    title: Deploy App
+    description: Deploy App
 ---
 
-# Release your app
+# Deploy App
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

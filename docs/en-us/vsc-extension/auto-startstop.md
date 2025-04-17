@@ -1,9 +1,9 @@
 ---
-    title: Configure Auto-Start and Auto-Stop for containers
-    description: Configure Auto-Start and Auto-Stop for containers
+    title: Auto-Start/-Stop Container
+    description: Auto-Start/-Stop Container
 ---
 
-# Configure Auto-Start and Auto-Stop for containers
+# Auto-Start/-Stop Container
 
 To save costs containers should be shut down when when they are not in use. While you can [manually stop them](startstop-container.md) all containers also have Auto-Stop enabled per default to prevent users forgetting to shutdown their environments.
 

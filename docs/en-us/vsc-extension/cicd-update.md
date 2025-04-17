@@ -1,9 +1,9 @@
 ---
-    title: Update CI/CD templates
-    description: Update CI/CD templates
+    title: Update CI/CD Templates
+    description: Update CI/CD Templates
 ---
 
-# Update CI/CD templates
+# Update CI/CD Templates
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

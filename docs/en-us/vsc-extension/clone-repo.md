@@ -1,9 +1,9 @@
 ---
-    title: Clone a repository for development
-    description: Clone a repository for development
+    title: Clone Repository
+    description: Clone Repository
 ---
 
-# Clone a repository for development
+# Clone Repository
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

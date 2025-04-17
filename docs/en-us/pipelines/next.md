@@ -1,9 +1,9 @@
 ---
-    title: Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
-    description: Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
+    title: Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows
+    description: Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows
 ---
 
-# Setup Next Minor / Next Major / Localization / Minimum Pipelines/Workflows
+# Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

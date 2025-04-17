@@ -1,9 +1,9 @@
 ---
-    title: Assign an organization to an entity
-    description: Assign an organization to an entity
+    title: Assign Organization to Entity
+    description: Assign Organization to Entity
 ---
 
-# Assign an organization to an entity
+# Assign Organization to Entity
 _This is only available for COSMO CONSULT_
 
 # [**GitHub (AL-Go)**](#tab/github)

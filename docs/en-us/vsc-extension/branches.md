@@ -1,9 +1,9 @@
 ---
-    title: Work with branches
-    description: Work with branches
+    title: Work with Branches
+    description: Work with Branches
 ---
 
-# Work with branches
+# Work with Branches
 
 # [**GitHub (AL-Go)**](#tab/github)
 WIP

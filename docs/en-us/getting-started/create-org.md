@@ -1,9 +1,9 @@
 ---
-    title: Create an organization
-    description: Create an organization
+    title: Create Organization
+    description: Create Organization
 ---
 
-# Create an organization
+# Create Organization
 
 # [**GitHub (AL-Go)**](#tab/github)
 
