@@ -94,9 +94,7 @@ Select a tab below to see how each type of artifact is configured:
 
 * You need to escape the folder separator `\` by using `\\` because the value must be a JSON-String.
 * The fileshare path always is `c:\azurefileshare` inside of a container. That means that if you place a file `fantastic-app.app` in the root of your fileshare, you need to reference it as `c:\\azurefileshare\\fantastic-app.app`.
-* Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which wil be extracted the container startup.
-* Artifacts added by Download-URL such as Azure Blob Storage `"url": "https://my.blob.../app.zip?sv=2019-02-02&..."` **are only supported as ZIP-Archive** and are downloaded and extracted during "Additional-Setup" of the container.
-
+* Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which will be extracted during the container startup.
 
 ### Parameters
 
