@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.60.0 (unreleased)
+
+- Add branch filter to the endpoint for getting services/containers of a repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
+
 ## v1.59.0 (2025-04-01)
 
 - Add better error handling when retrieving container configuration fails (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4290/)

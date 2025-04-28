@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.29.0 (unreleased)
+
+- Fixed bug where branch containers where shown under the branches of wrong repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
+
 ## 1.28.1 (2025-03-28)
 
 - Fix typo in title of containers tree view (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4282)
