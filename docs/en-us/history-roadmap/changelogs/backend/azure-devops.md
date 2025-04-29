@@ -13,6 +13,7 @@ All notable changes to the Azure DevOps Backend
 * Fix inheritance of app artifacts and SyncMode and ImportScope (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 * Inherit app artifacts from the parent artifact to the bcartifact (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 * Improve logging for failed API calls (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4312)
+* Improve performance when retrieving artifacts from Azure FileShare IP artifact backend (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4321/)
 
 # v1.38.0 (2025-04-16)
 
