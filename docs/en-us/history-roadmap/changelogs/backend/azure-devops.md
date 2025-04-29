@@ -8,10 +8,11 @@
 
 All notable changes to the Azure DevOps Backend
 
-# v1.39.0 (unreleased)
+# v1.39.0 (2025-04-29)
 
 * Fix inheritance of app artifacts and SyncMode and ImportScope (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 * Inherit app artifacts from the parent artifact to the bcartifact (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+* Improve logging for failed API calls (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4312)
 
 # v1.38.0 (2025-04-16)
 
