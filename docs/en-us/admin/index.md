@@ -149,7 +149,7 @@ data:
   appconfig__EULA: "https://your-eula-url"
   appconfig__help: "https://your-help-url"
   appconfig__url: "https://your-app-url"
-  appconfig__idRangesFrom: 50000
-  appconfig__idRangesTo: 51111
+  appconfig__idRangesFrom: "50000"
+  appconfig__idRangesTo: "51111"
   appconfig__logo: "https://your-logo-url"
 ```
