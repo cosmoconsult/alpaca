@@ -11,7 +11,7 @@ In GitHub (AL-Go) you can cluster multiple apps into *projects*. *Projects* are 
 
 In the Alpaca VSC extension the projects are listed underneath the repository:
 
-![Extension Preview Projects](../media/extension-preview-projects.png)
+![Extension GitHub Projects](../media/extension-github-projects.png)
 
 Single-project repositories only have one project listed there that by default has the same name as the repository.
 
@@ -25,7 +25,7 @@ When working with Azure DevOps, you need an organization (see [create org][creat
 1. Right-click on the organization where you want to create a project and select **Create project**
 1. Enter a name for the new project
 
-![Extension Create Azure DevOps Project](../media/extension-create-project.png)
+![Extension Azure DevOps Create Project](../media/extension-devops-create-project.png)
 
 With that, the new project will be created. It has all the basic setup and preparation needed to start working on a Business Central project including e.g. a repository for the CI/CD automation. In the background the following extensions will be installed in the Organization:
 - [Code Search](https://marketplace.visualstudio.com/items?itemName=ms.vss-code-search)

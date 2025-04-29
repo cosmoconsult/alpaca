@@ -11,7 +11,7 @@ If you haven't already, please [sign up for a GitHub account](https://github.com
 
 We recommend that you use a GitHub organization to group all your repositories together. If you don't have an organization yet, you can use the action in COSMO Alpaca to create one or alternatively click [here](https://github.com/organizations/plan). 
 
-![Extension Create GitHub Organization](../media/getting-started/extension-preview-new-account.png)
+![Extension Github Create Organization](../media/getting-started/extension-github-new-account.png)
 
 The free plan is sufficient to use COSMO Alpaca.
 
@@ -24,7 +24,7 @@ The top-level entity in Azure DevOps is an organization (or *project collection*
 
 If you are using the COSMO Alpaca VS Code Extension ([setup instructions](access-and-setup-vsce.md)), then you need to go to the Azure DevOps view, click the three dots on the top right and select **New organization**. Alternatively you can directly go to the [signup page](https://aex.dev.azure.com/go/signup?account=true).
 
-![Extension Create Azure DevOps Organization](../media/getting-started/extension-new-org.png)
+![Extension Azure DevOps Create Organization](../media/getting-started/extension-devops-new-org.png)
 
 In both cases, a web site comes up and you need need to follow the steps outlined in the [Azure DevOps documentation](https://learn.microsoft.com/en-US/azure/devops/organizations/accounts/create-organization?view=azure-devops#create-an-organization-1).
 

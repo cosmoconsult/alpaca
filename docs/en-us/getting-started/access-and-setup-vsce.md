@@ -23,13 +23,13 @@ One of the clients that give you access to COSMO Alpaca is the VS Code Extension
 
 To open the COSMO Alpaca Preview extension, click the respective icon in the activity bar. On the first use you're asked for your role and whether you want to use Azure DevOps or GitHub as a platform.
 
-![Extension Preview Role Selection](../media/getting-started/extension-preview-role-selection.png)
+![Extension GitHub Role Selection](../media/getting-started/extension-github-role-selection.png)
 
 Depending on what platform you choose you'll be asked to sign in with your GitHub or Microsoft account. Check the other tab in the documentation for Azure DevOps, we'll go with GitHub here.
 
 Now you can make yourself familiar with the interface:
 
-![Extension Preview Overview](../media/getting-started/extension-preview-overview.png)
+![Extension GitHub Overview](../media/getting-started/extension-github-overview.png)
 
 1. The **GitHub** View let's you navigate through your Azure GitHub organizations, accounts, repositories and more.
 1. The **Containers** View shows you all your containers across all your organizations and accounts along with their state and details.
@@ -48,7 +48,7 @@ To get access, you need to:
 1. Wait until the installation has finished, you might have to reload the VS Code window
 1. Afterwards you should see the extension in the list of installed extensions
 
-![Extension Installation](../media/getting-started/install-extension.png)
+![Extension Azure DevOps Installation](../media/getting-started/install-extension.png)
 
 ## First Use
 
@@ -56,11 +56,11 @@ If you never used Azure DevOps before you need to [sign up first and create your
 
 When you use the extension for the first time by clicking on the COSMO Alpaca icon in the activity bar, you might be asked to log in with your Microsoft Account for up to 2 times:
 
-![Extension Login](../media/getting-started/extension-login.png)
+![Extension Azure DevOps Login](../media/getting-started/extension-devops-login.png)
 
 Now you can make yourself familiar with the interface:
 
-![Extension Overview](../media/getting-started/extension-overview.png)
+![Extension Azure DevOps Overview](../media/getting-started/extension-devops-overview.png)
 
 1. The **Azure DevOps** View let's you navigate through your Azure DevOps organizations, projects, repositories, artifacts, pipelines, WorkItems and more.
 1. The **Containers** View shows you all your containers across all your organizations along with their state and details.

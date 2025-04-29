@@ -1,9 +1,9 @@
 ---
-    title: Create a Bug Report or Feature Request
-    description: Create a Bug Report or Feature Request
+    title: Create Bug Report or Feature Request
+    description: Create Bug Report or Feature Request
 ---
 
-# Create a Bug Report or Feature Request
+# Create Bug Report or Feature Request
 
 If you run into issues while using the Visual Studio Code extension or any part of Alpaca you can either
 
