@@ -8,7 +8,7 @@
 
 All notable changes to the Container Backend
 
-## v1.60.0 (unreleased)
+## v1.60.0 (2025-04-30)
 
 - Add branch filter to the endpoint for getting services/containers of a repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
 
