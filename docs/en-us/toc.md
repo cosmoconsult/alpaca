@@ -30,7 +30,7 @@
 
 ## App Development
 
-### [Create a Repository & App](vsc-extension/create-app.md)
+### [Create Repository & App](vsc-extension/create-app.md)
 
 ### [Clone Repository](vsc-extension/clone-repo.md)
 
@@ -114,7 +114,7 @@
 
 # Support
 
-## [Create a Bug Report or Feature Request](vsc-extension/bug-report.md)
+## [Create Bug Report or Feature Request](vsc-extension/bug-report.md)
 
 ## [Typical Problems & Solutions](troubleshooting/solutions.md)
 
