@@ -158,7 +158,7 @@ data:
 ## GitHub Repo Standards
 _This is available for GitHub only_
 
-When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS`. The standards are also applied when running “Initialize for usage with COSMO Alpaca” on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
+When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running “Initialize for usage with COSMO Alpaca” on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
 
 ```json
 {
