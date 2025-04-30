@@ -3,7 +3,7 @@
     description: Create Repository & App
 ---
 
-# Create a Repository & App
+# Create Repository & App
 
 # [**GitHub (AL-Go)**](#tab/github)
 
@@ -17,10 +17,10 @@ To create a repositoy use the `+` action next to your GitHub organization or acc
 
 Now follow the wizard:
 1. Enter the type of the new repository. Here you can choose between the PTE or AppSource Templates from Mirosoft or the respective Alpaca templates (recommended). The Alpaca templates are using Alpaca's container infrastructure for the AL-Go pipelines which can then run much faster.
-1. The name of the new repository
+1. Enter the name of the new repository
 1. Select if the new repository should be private.
 
-With that a single-project repository will be created based on the selected tempalte. If defined, your [GitHub Repository Standards](../admin/index.md#github-repo-standards) are applied to the new repo. The new repository will contain all needed workflows and configurations.
+With that a single-project repository will be created based on the selected template. If defined, your [GitHub Repo Standards](../admin/index.md#github-repo-standards) are applied to the new repo. The new repository will contain all needed workflows and configurations.
 
 ## Create App
 
@@ -30,7 +30,7 @@ To create an app within your repository, select your repository and navigate the
 
 Now follow the wizard:
 1. Enter the name of the project where you want to create the app. You can use `_` to use the default root project. If you enter a project name that doesn't exist yet, the new project will be created. The repo structure might be converted from single-project to multi-project.
-1. Select the type (App, TestApp or PerformanceTestApp) of the new App
+1. Select the type (App, TestApp or PerformanceTestApp) of the new app
 1. Enter the name of the new app
 1. Enter the publisher name of the new app
 1. Enter the ID range of the new app

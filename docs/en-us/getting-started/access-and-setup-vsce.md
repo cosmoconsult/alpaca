@@ -68,6 +68,6 @@ Now you can make yourself familiar with the interface:
 
 ---
 
-You now may want to go through the [walkthrough](../walkthrough.md) to get a first impression of COSMO Alpaca or change some of the default [configuration]() in VS Code.
+You now may want to go through the [walkthrough](walkthrough.md) to get a first impression of COSMO Alpaca.
 
 [vsc-install]: https://code.visualstudio.com/download
