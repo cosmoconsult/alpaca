@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.29.0 (unreleased)
+## v2.29.0
 
 * Fix issue where the build name would differ from the app version when using "setBuildIdInManifestOn" (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4304)
 * Improve app import scope and sync mode handling for build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
