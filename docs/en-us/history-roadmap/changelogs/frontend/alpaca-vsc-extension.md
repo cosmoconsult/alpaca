@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.41.0 (2025-04-30)
+
+- Allow to specify project name on AL-Go app creation (allows multi-project repos)
+- Update dependency packages
+
 ## v0.40.2 (2025-04-03)
 
 - Add multi-backend support for containers tree view
