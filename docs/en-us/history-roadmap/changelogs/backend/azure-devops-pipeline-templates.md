@@ -8,6 +8,13 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.29.0 (unreleased)
+
+* Fix issue where the build name would differ from the app version when using "setBuildIdInManifestOn" (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4304)
+* Improve app import scope and sync mode handling for build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+* Add support for artifact inheritance in the cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+* Fix issue where running the tests could fail for the localization check of the build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4316)
+
 ## v2.28.0
 
 * Fix issue where the test app could faild to publish for the localization check of the build pipeline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4295)
