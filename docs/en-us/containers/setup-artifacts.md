@@ -232,19 +232,19 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 ```json
 {
     "ipArtifacts": [
-            {
-                "name": "advanced-manufacturing-pack",
-                "version": "2.8.12341",
-                "type": ["app"] // optional, default is "app"
-            },
-            {
-                "name": "alloy-management",
-                "version": "2.2.*"
-            },
-            {
-                "name": "commision",
-                "version": "2.1.36626"
-            }
+        {
+            "name": "advanced-manufacturing-pack",
+            "version": "2.8.12341",
+            "type": ["app"] // optional, default is "app"
+        },
+        {
+            "name": "alloy-management",
+            "version": "2.2.*"
+        },
+        {
+            "name": "commision",
+            "version": "2.1.36626"
+        }
     ]
 ```
 
@@ -258,7 +258,7 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 |`name`|string|**mandatory**|The name of the artifact.|
 |`version`|string|optional|The version of the artifact. (Latest - when not specified). The version can include wildcards ("*") at the end, e.g. `2.*` or `2.1.*`|
 |`type`|string[]|optional|Specify the type of the artifact you want to use as an array. For now, you only get the full app with type "app", but in the future test apps, rapidstart packages or runtime packages might follow.|
-|`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
+|`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](setup-cosmo-json.md))*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
 ---
