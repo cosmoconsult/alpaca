@@ -40,7 +40,7 @@ If you e.g. want to make sure you stay on release 17.2 and use the w1 version, y
 For the changes to take effect for your dev containers you need to take the following steps:
 
 1. Reload in the COSMO Alpaca view to make the extension aware of your changes
-2. Create a new container (see [create container](../vsc-extension/create-container.md)) and probably also a new launch config *(see [launch-json](../vsc-extension/create-launch-json.md))*
+1. Create a new container (see [create container](../vsc-extension/create-container.md)) and probably also a new launch config *(see [launch-json](../vsc-extension/create-launch-json.md))*
 
 Any build or container created in the future will have the new configuration automatically. Existing containers are not affected.
 
