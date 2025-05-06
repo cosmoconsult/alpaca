@@ -8,6 +8,26 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-04-29)
+
+- Fix bug where pre-configured apps were not considered for compilation
+
+## (2025-04-25)
+
+- Update AL-Go System Files
+- Set w1 as default country
+- Improve default AL-Go settings
+
+## (2025-04-16)
+
+- Add default Alpaca backend URL
+- Add basic alpaca.json configuration
+- Update AL-Go System Files
+
+## (2025-04-15)
+
+- Update AL-Go System Files
+
 ## (2025-03-03)
 
 - Update AL-Go System Files
