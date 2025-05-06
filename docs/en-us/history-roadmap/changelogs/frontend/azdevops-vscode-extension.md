@@ -8,9 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## 1.29.0 (unreleased)
+## 1.29.0 (2025-05-06)
 
-- Fixed bug where branch containers where shown under the branches of wrong repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
+- Fix typo in title of Universal Packages tree item
+- Add support for artifact inheritance and allow syncMode & importscope to be set per-artifact https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254
+- Fixed bug where branch containers were shown under the branches of wrong repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
 
 ## 1.28.1 (2025-03-28)
 

@@ -8,6 +8,28 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.34.0 (2025-05-02)
+
+- Improve variable retrieval logic to enable overriding organization variables on repository level
+- Enhance error handling when getting custom properties of a repository
+
+## v0.33.0 (2025-04-17)
+
+- Enhance processing of scheduled background jobs
+- Minor internal improvements
+
+## v0.32.1 (2025-04-29)
+
+- Remove optional route parameters and update XMLDoc generation
+
+## v0.32.0 (2025-04-17)
+
+- Update AL-Go
+
+## v0.31.0 (2025-04-15)
+
+- Update AL-Go
+
 ## v0.30.1 (2025-03-26)
 
 - Fix search to return default branch of repositories

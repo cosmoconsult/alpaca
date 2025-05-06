@@ -7,13 +7,13 @@
 
 Artifacts are specified in a different configuration file whether you're using Alpaca with GitHub or Azure DevOps:
 
-# [GitHub (AL-Go)](#tab/github)
+## [GitHub (AL-Go)](#tab/github)
 
 Artifacts are configured in [`containerConfigurations.artifacts` in `alpaca.json` config file](setup-cosmo-json.md). The defined artifacts are automatically installed in the dev containers during the container startup. Artifacts defined in the `default`, `current`, `NextMajor` or `NextMinor` container configurations are also automatically installed for build containers started from the respective AL-Go workflows.
 
-# [Azure DevOps](#tab/azdevops)
+## [Azure DevOps](#tab/azdevops)
 
-Artifacts are configured in [`bcArtifacts.artifacts` in `cosmo.json` config file][cosmo-json]. The defined artifacts are automatically installed in the dev containers during the container startup. Artifacts defined in the `current`, `nextMajor` or `nextMinor` `bcArtifacts` sections are also automatically installed for build containers started from the respective Azure DevOps pipelines.
+Artifacts are configured in [`bcArtifacts.artifacts` in `cosmo.json` config file](setup-cosmo-json.md). The defined artifacts are automatically installed in the dev containers during the container startup. Artifacts defined in the `current`, `nextMajor` or `nextMinor` `bcArtifacts` sections are also automatically installed for build containers started from the respective Azure DevOps pipelines.
 
 ---
 
@@ -24,7 +24,6 @@ Four types of artifacts are supported:
 1. Artifacts from an Azure DevOps Artifact feed (only for Alpaca on Azure DevOps)
 1. Artifacts from a product feed
 
-
 # URL or Alpaca fileshare
 
 1. Open the Alpaca fileshare. Please contact the Alpaca support if you don't have access yet.
@@ -33,7 +32,7 @@ Four types of artifacts are supported:
    * artifacts related to a customer project: `/<customer-name>/<project-name>`
 1. Add the artifact to `artifacts` in your respective configuration file (see above):
 
-# [GitHub (AL-Go)](#tab/artifact-url-github)
+## [GitHub (AL-Go)](#tab/artifact-url-github)
 
 ```json
 {
@@ -56,10 +55,10 @@ Four types of artifacts are supported:
 }
 ```
 
-# [Azure DevOps](#tab/artifact-url-azdevops)
+## [Azure DevOps](#tab/artifact-url-azdevops)
+
 ```json
 {
-    // ...
     "artifacts": [
         {
             "name": "gbedv GmbH & Co. KG_OPplus Extension",
@@ -81,40 +80,37 @@ Four types of artifacts are supported:
             "url": "https://my.blob.core.windows.net/test/ForNAV/ForNAV%20Report%20Pack%205.2.0.0%20for%20BC15ONPREM%20(5.2.0.1924).app.zip?sv=2019-02-02&...",
             "target": "app"
         }
-        
-    ],
-    // ...
+    ]
 }
 ```
 
 ---
 
-**Note:**
+> [!NOTE]
+> You need to escape the folder separator `\` by using `\\` because the value must be a JSON-String.
+> The fileshare path always is `c:\azurefileshare` inside of a container. That means that if you place a file `fantastic-app.app` in the root of your fileshare, you need to reference it as `c:\\azurefileshare\\fantastic-app.app`.
+> Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which will be extracted during the container startup.
 
-* You need to escape the folder separator `\` by using `\\` because the value must be a JSON-String.
-* The fileshare path always is `c:\azurefileshare` inside of a container. That means that if you place a file `fantastic-app.app` in the root of your fileshare, you need to reference it as `c:\\azurefileshare\\fantastic-app.app`.
-* Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which will be extracted during the container startup.
-
-### Parameters
+## Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
-|`type`|string|**mandatory for GitHub**|The type of the artifact. Must be `url` for fileshare/URL artifacts.|
-|`name`|string|optional|The name of the artifact. Informational only.|
-|`version`|string|optional|The version of the artifact. Informational only.|
-|`url`|string|**mandatory**|The path or url to download the artifact.|
-|`target`|string|**mandatory**|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
-|`targetFolder`|string|optional|This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
-|`appImportScope`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
-|`appImportSyncMode`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)**, `Clean`, `Development` or `ForceSync`.|
-|`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
-|`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
+|`type`             |string  |**mandatory for GitHub**|The type of the artifact. Must be `url` for fileshare/URL artifacts.|
+|`name`             |string  |optional                |The name of the artifact. Informational only.|
+|`version`          |string  |optional                |The version of the artifact. Informational only.|
+|`url`              |string  |**mandatory**           |The path or url to download the artifact.|
+|`target`           |string  |optional                |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
+|`targetFolder`     |string  |optional                |This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
+|`appImportScope`   |string  |optional                |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
+|`appImportSyncMode`|string  |optional                |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
+|`ignoreIn`         |string[]|optional                |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](setup-cosmo-json.md))*|
+|`dependsOn`        |string  |optional                |Specify the dependency of an artifact. The value can be missing (default) or `App`.<br/><br/>Artifacts with a dependency will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
 # NuGet feed
 
 By default all Microsoft NuGet feeds are available. Custom nuget feeds can either be configured globally, per-project or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
-# [GitHub (AL-Go)](#tab/artifact-url-github)
+## [GitHub (AL-Go)](#tab/artifact-url-github)
 
 ```json
 {
@@ -128,7 +124,7 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 }
 ```
 
-# [Azure DevOps](#tab/artifact-url-azdevops)
+## [Azure DevOps](#tab/artifact-url-azdevops)
 
 ```json
 {
@@ -144,18 +140,18 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 
 ---
 
-### Parameters
+## Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
-|`type`|string|**mandatory for Azure DevOps**|Type of the artifact, use `nuget`.|
-|`name`|string|**mandatory**|The name of the artifact.|
-|`version`|string|optional|The version of the artifact. (Latest - when not specified)|
-
+|`type`   |string|**mandatory for Azure DevOps**|Type of the artifact, use `nuget`.|
+|`name`   |string|**mandatory**                 |The name of the artifact.|
+|`version`|string|optional                      |The version of the artifact. (latest - when not specified)|
 
 # Azure DevOps Artifact feed
-__ This is only available for Alpaca on Azure DevOps __
 
+> [!IMPORTANT]
+> This is only available for Alpaca on **Azure DevOps**
 
 1. [Grant read access](https://learn.microsoft.com/en-us/azure/devops/artifacts/feeds/feed-permissions?view=azure-devops&tabs=nuget%2Cnugetserver22%2Cnugetserver#feed-settings) to the feed for the respective users as well as the pipelines by adding the `Project Collection Build Service (<org-name>)` group in Azure DevOps. This group has access to all feeds in the organization.
 1. Get the needed information for your artifact feed
@@ -178,39 +174,41 @@ __ This is only available for Alpaca on Azure DevOps __
     }
    ```
 
-**Note:**
+> [!NOTE]
+> Only `upack` artifacts are supported.
+> The `upack` artifact name is always lower case.
+> Use the project ID for `project`
+> When you have a project-scoped feed in a different project of the same organization, follow [the instructions here](https://learn.microsoft.com/en-us/azure/devops/artifacts/feeds/project-scoped-feeds?view=azure-devops#q-how-can-i-access-a-project-scoped-feed-in-another-project-from-my-pipeline).
 
-* Only `upack` artifacts are supported.
-* The `upack` artifact name is always lower case.
-* Use the project ID for `project`
-* When you have a project-scoped feed in a different project of the same organization, follow [the instructions here](https://learn.microsoft.com/en-us/azure/devops/artifacts/feeds/project-scoped-feeds?view=azure-devops#q-how-can-i-access-a-project-scoped-feed-in-another-project-from-my-pipeline).
-
-### Parameters
+## Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
-|`organization`|string|**mandatory**|The organization name of the feed.|
-|`project`|string|optional, mandatory|The project id of the artifact feed (**mandatory** for project scoped feeds).|
-|`feed`|string|**mandatory**|The name of the artifact feed.|
-|`name`|string|**mandatory**|The name of the artifact.|
-|`scope`|string|optional|The scope of the feed can be `organization` and **`project` (default)**.|
-|`version`|string|optional|The version of the artifact. (Latest - when not specified)|
-|`view`|string|optional|The view (promotion-level) of the artifact determines which version is used.|
-|`type`|string|optional|Specify the type of the artifact feed. COSMO uses **`upack` (default)**.|
-|`target`|string|optional|Specify the [Artifact Target](#Artifact-Target) folder in the container file system and import action.|
-|`appImportScope`|string|optional|Specify the import scope for apps. The value can be **`Global` (default)** or `Tenant`.|
-|`appImportSyncMode`|string|optional|Specify the import sync mode for apps. The value can be **`Add` (default)** , `Clean`, `Development` or `ForceSync`.|
-|`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json][cosmo-json])*|
-|`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
+|`organization`     |string  |**mandatory**      |The organization name of the feed.|
+|`project`          |string  |optional, mandatory|The project id of the artifact feed (**mandatory** for project scoped feeds).|
+|`feed`             |string  |**mandatory**      |The name of the artifact feed.|
+|`name`             |string  |**mandatory**      |The name of the artifact.|
+|`scope`            |string  |optional           |The scope of the feed can be `organization` or `project` (default).|
+|`version`          |string  |optional           |The version of the artifact. (latest - when not specified)|
+|`view`             |string  |optional           |The view (promotion-level) of the artifact determines which version is used.|
+|`type`             |string  |optional           |Specify the type of the artifact feed. COSMO uses `upack` (default).|
+|`target`           |string  |optional           |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
+|`appImportScope`   |string  |optional           |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
+|`appImportSyncMode`|string  |optional           |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
+|`ignoreIn`         |string[]|optional           |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see [cosmo.json](setup-cosmo-json.md)*|
+|`dependsOn`        |string  |optional           |Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
 # Product feed
 
 The use case for the product feed is to enable users and pipelines/workflows to consume artifacts managed in a central feed. This is mainly used for feeds hosting intelectual property. As a bonus you can use the version overview in the VS Code Extension to browse your regularly used artifacts.
 
-1. Find out which name the IP artifact has and which version you want to use
-1. Add the Artifact to `ipArtifacts` in your configuration file
+> [!IMPORTANT]
+> It is currently only available for **COSMO** users to consume the COSMO products.
 
-# [GitHub (AL-Go)](#tab/artifact-product-feed-github)
+1. Find out which name the IP artifact has and which version you want to use
+2. Add the Artifact to `ipArtifacts` in your configuration file
+
+## [GitHub (AL-Go)](#tab/artifact-product-feed-github)
 
 ```json
 {
@@ -229,16 +227,15 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 }
 ```
 
-# [Azure DevOps](#tab/artifact-product-feed-azdevops)
+## [Azure DevOps](#tab/artifact-product-feed-azdevops)
 
 ```json
 {
-    // ...
     "ipArtifacts": [
             {
                 "name": "advanced-manufacturing-pack",
                 "version": "2.8.12341",
-                "type": ["app"]
+                "type": ["app"] // optional, default is "app"
             },
             {
                 "name": "alloy-management",
@@ -248,9 +245,7 @@ The use case for the product feed is to enable users and pipelines/workflows to 
                 "name": "commision",
                 "version": "2.1.36626"
             }
-    ],          
-    // ...
-}
+    ]
 ```
 
 ---
@@ -268,40 +263,38 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 
 ---
 
-## Artifact Target
+# Artifact Target
 
 The `target` specifies the target folder and finally what should hapen with the artifact.
 
 |Target(s)|Destination|Import|
 |-|-|-|
-|`bak`|---|The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
-|`saasbak`|---|Backup file from an online SaaS environment, [converted from bacpac to bak](../vsc-extension/convert-bacpac-to-bak.md), **cannot** be combined with `bak` |
-|`dll` or `add-ins`|`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as an App |
-|`font` or `fonts`|`c:/fonts`|The Artifact will be imported as an App |
-|`fob`, `app`, `rapidStart`, ...|`C:\run\my\apps`|The Artifact content will be imported as fob, app or rapid start package depending on the file extension. |
+|`bak`                          |---                                         |The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
+|`saasbak`                      |---                                         |Backup file from an online SaaS environment, [converted from bacpac to bak](../vsc-extension/convert-bacpac-to-bak.md), **cannot** be combined with `bak`.|
+|`dll` or `add-ins`             |`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as a DLL or Add-In.|
+|`font` or `fonts`              |`c:/fonts`                                  |The Artifact will be imported as a Font.|
+|`app`, `fob`, `rapidStart`, ...|`C:\run\my\apps`                            |The Artifact content will be imported as an App, Fob or RapidStart package depending on the file extension.|
 
 The order of import is:
 
 1. DLL(s) and Add-Ins
-1. Font(s)
-1. FOB(s)
-1. App(s)
-1. Rapid Start Package(s)
+2. Font(s)
+3. FOB(s)
+4. App(s)
+5. Rapid Start Package(s)
 
 ## Examples
 
 ### Add Fonts as Artifacts
 
-Adding an additional font to a container **require** you **to add also the default fonts as an additional artifact**. This is because there are not fonts installed in the container and your Business Central Reports might use your additional font as default font for your reports.
+Adding an additional font to a container **requires** you **to add also the default fonts as an additional artifact**. This is because there are not fonts installed in the container and your Business Central Reports might use your additional font as default font for your reports.
 
-Here is an example how to add additional fonts as artifacts. Please note the `ignoreIn` setting as you probably won't need the fonts in a build pipeline and as they require a restart of the service tier, they make the pipeline slower and can cause issues with symbol loading in hybrid dev setups
+Here is an example how to add additional fonts as artifacts. Please note the `ignoreIn` setting as you probably won't need the fonts in a build pipeline and as they require a restart of the service tier, they make the pipeline slower and can cause issues with symbol loading in hybrid dev setups.
 
-# [GitHub (AL-Go)](#tab/example-fonts-github)
+#### [GitHub (AL-Go)](#tab/example-fonts-github)
 
 ```json
 {
-    // ...
-
     "artifacts": [
         {
             "type": "url",
@@ -318,17 +311,13 @@ Here is an example how to add additional fonts as artifacts. Please note the `ig
             "ignoreIn": ["build"]
         }
     ]
-
-    // ...
 }
 ```
 
-# [Azure DevOps](#tab/example-fonts-azdevops)
+#### [Azure DevOps](#tab/example-fonts-azdevops)
 
 ```json
 {
-    // ...
-
     "artifacts": [
         {
             "name": "Default-Fonts",
@@ -343,11 +332,5 @@ Here is an example how to add additional fonts as artifacts. Please note the `ig
             "ignoreIn": ["build"]
         }
     ]
-
-    // ...
 }
 ```
-
----
-
-[cosmo-json]:      setup-cosmo-json.md

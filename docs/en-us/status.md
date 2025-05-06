@@ -17,10 +17,10 @@ In the meantime, if you encounter problems with pipelines running into timeouts,
 > [!IMPORTANT]
 > **Feedback from Microsoft**: Unfortunately, there is no solution for BC24 and BC25, but they have promised to fix it with **BC26**.
 
-## Publishing Apps hangs BC24+
+## Publishing and Syncing Apps hangs BC24+
 
 Starting with **BC24** and due to the Powershell bridging (see [above](#performance-issues-bc24)) publishing Apps may hang forever.
-Errors during the App compilation are not recognized and the `Publish-NavApp` command is never completed or terminated.
+Errors during the App compilation are not recognized and the `Publish-NavApp` or `Sync-NavApp` command is never completed or terminated.
 
 **Solution**: review your App’s dependencies carefully (almost every issue we’ve seen could be resolved by adding/updating missing/incompatible dependencies)
 **Solution (technical)**: create a dev container and try publishing the Apps (in the correct order) manually using PowerShell 7 `pwsh`
