@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-05-07)
+
+- Fix bug where pre-configured artifacts were not correctly placed in compiler folder
+- Add BcContainerHelper setting `doNotRemovePackagesFolderIfExists` to AL-Go settings (next to the related setting `useCompilerFolder`)
+
 ## (2025-04-29)
 
 - Fix bug where pre-configured apps were not considered for compilation
