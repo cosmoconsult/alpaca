@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+# v1.40.0 (unreleased)
+
+- Fix issue where Azure DevOps Advanced Security prevents automated commits when updating our DevOps templates (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4337/)
+
 # v1.39.0 (2025-04-29)
 
 - Fix inheritance of app artifacts and SyncMode and ImportScope (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
