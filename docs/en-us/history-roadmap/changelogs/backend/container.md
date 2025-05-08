@@ -8,6 +8,11 @@
 
 All notable changes to the Container Backend
 
+## v1.61.0 (unreleased)
+
+- Fix issue where an orphaned service could lead to a crash of the API (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4333)
+- Add new property for custom nuget feeds in Container creation model for GitHub (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4271/)
+
 ## v1.60.0 (2025-04-30)
 
 - Add branch filter to the endpoint for getting services/containers of a repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4317)
