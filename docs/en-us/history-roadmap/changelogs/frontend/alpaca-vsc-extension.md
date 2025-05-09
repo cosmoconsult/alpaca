@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.42.0 (2025-05-09)
+
+- Assign COSMO Entity feature implemented
+
 ## v0.41.0 (2025-04-30)
 
 - Allow to specify project name on AL-Go app creation (allows multi-project repos)
