@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.62.0 (unreleased)
+
+- Add support for async mode to container/service creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)
+
 ## v1.61.0 (2025-05-08)
 
 - Fix issue where an orphaned service could lead to a crash of the API (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4333)

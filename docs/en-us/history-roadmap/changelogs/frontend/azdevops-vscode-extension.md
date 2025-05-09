@@ -11,6 +11,7 @@ All notable changes to the Visual Studio Code Extension
 ## 1.30.0 (2025-05-09)
 
 - Fix long loads of the tree views, add mechanism to clean up expired cache entries (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4299/)
+- Add support to enable/disable async mode for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)
 
 ## 1.29.0 (2025-05-06)
 
