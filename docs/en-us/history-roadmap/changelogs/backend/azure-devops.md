@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+# v1.41.0 (unreleased)
+
+- Extended cosmo.json with configuration to enable/disable async mode for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)
+
 # v1.40.0 (2025-05-08)
 
 - Fix issue where Azure DevOps Advanced Security prevents automated commits when updating our DevOps templates (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4337/)
