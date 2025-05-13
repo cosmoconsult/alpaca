@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.42.0 (2025-05-12)
+## v0.42.0 (2025-05-13)
 
 - Add action to assign a COSMO Entity to a GitHub repository
 - Update dependency packages
