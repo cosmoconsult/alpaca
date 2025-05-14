@@ -5,22 +5,23 @@
 
 # Share Container
 
-If you want to share a container with a colleague, so that it appears in their tooling as well, you can take the following steps:
+If you want to share a container with a colleague, so that it appears in their container list as well, you can take the following steps:
 
-1. Right-click on a container and select "Change owners"
-1. Add or remove owners. If you have more than one, they need to be separated with commas (no blanks)
+1. Right-click on a container and select "Change owner(s)"
+1. Add or remove owner(s). If you have more than one, they need to be **separated with commas (no blanks)**
 1. The container is automatically restarted so the changes get applied.
 
-You can see it step by step here:
+## Syntax Validation
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
+> [!NOTE]
+> The syntax validation will not be performed for containers created prior 2025-05-14 (see [Changelog](../history-roadmap/changelogs/backend/container.md#v1620-2025-05-14)).
 
-# [**Azure DevOps**](#tab/azdevops)
+When changing the owner(s) of a container, the syntax of the owner(s) will be validated based on the containers origin:
 
-<video width="1312px" height="960px" controls>
-  <source src="../media/vsc-extension-owners.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+## [**GitHub (AL-Go)**](#tab/github)
 
----
+Each owner must be a valid GitHub username. Note that it is not verified that the user actually exists.
+
+## [**Azure DevOps**](#tab/azdevops)
+
+Each owner must be a valid email address. Note that it is not verified that there actually exists a user with the given email address.

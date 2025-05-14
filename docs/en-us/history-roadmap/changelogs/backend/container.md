@@ -8,9 +8,10 @@
 
 All notable changes to the Container Backend
 
-## v1.62.0 (unreleased)
+## v1.62.0 (2025-05-14)
 
 - Add support for async mode to container/service creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)
+- Validate syntax when changing the owner(s) of a container based on the container origin (Azure DevOps or GitHub) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4277)
 
 ## v1.61.0 (2025-05-08)
 
