@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.43.0 (2025-05-14)
+
+- Add action to change the owner(s) of a container (or share a container)
+
 ## v0.42.0 (2025-05-13)
 
 - Add action to assign a COSMO Entity to a GitHub repository
