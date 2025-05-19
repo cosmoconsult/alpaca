@@ -8,22 +8,26 @@
 
 All notable changes to the Azure DevOps Backend
 
-# v1.41.0 (2025-05-14)
+## v1.42.0 (2025-05-19)
+
+- Fix issue where special characters were not correctly encoded for URLs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
+
+## v1.41.0 (2025-05-14)
 
 - Extended cosmo.json with configuration to enable/disable async mode for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)
 
-# v1.40.0 (2025-05-08)
+## v1.40.0 (2025-05-08)
 
 - Fix issue where Azure DevOps Advanced Security prevents automated commits when updating our DevOps templates (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4337/)
 
-# v1.39.0 (2025-04-29)
+## v1.39.0 (2025-04-29)
 
 - Fix inheritance of app artifacts and SyncMode and ImportScope (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 - Inherit app artifacts from the parent artifact to the bcartifact (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
 - Improve logging for failed API calls (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4312)
 - Improve performance when retrieving artifacts from Azure FileShare IP artifact backend (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4321/)
 
-# v1.38.0 (2025-04-16)
+## v1.38.0 (2025-04-16)
 
 - Add error handling to the app creation process (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4265/)
 - Update CreateInitScriptCall to customize the creation of app based on config-templates (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4256/)
