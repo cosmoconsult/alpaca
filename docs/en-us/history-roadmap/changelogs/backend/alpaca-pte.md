@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-05-16)
+
+- Update AL-Go System Files
+- Move and refactor Update COSMO Alpaca system files to a dedicated GitHub action
+
 ## (2025-05-07)
 
 - Fix bug where pre-configured artifacts were not correctly placed in compiler folder
