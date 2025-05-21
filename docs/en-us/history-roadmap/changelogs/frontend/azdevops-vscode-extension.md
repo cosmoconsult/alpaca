@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.31.0 (2025-05-21)
+
+- Streamline how URLs are encoded across all API requests (especially handle branch names containing hashes) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
+- Add action to copy the name of ipPackages and NuGet Packages (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4348)
+
 ## 1.30.0 (2025-05-14)
 
 - Fix long loads of the tree views, add mechanism to clean up expired cache entries (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4299/)
