@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.44.0 (2025-05-21)
+
+- Customize AzureDevOps Projects based on Cosmo Entities
+
 ## v0.43.1 (2025-05-15)
 
 - Update the container status after changing the owner
