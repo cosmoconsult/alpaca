@@ -8,10 +8,16 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.34.0 (2025-05-02)
+## v0.35.0 - v0.35.2 (2025-05-08)
+
+- Add new endpoint to retrieve the list of COSMO entities (together with the related office)
+- Add new endpoint to assign a COSMO entity to a GitHub repository
+
+## v0.34.0 - v0.34.1 (2025-05-02)
 
 - Improve variable retrieval logic to enable overriding organization variables on repository level
 - Enhance error handling when getting custom properties of a repository
+- Update dependency packages
 
 ## v0.33.0 (2025-04-17)
 

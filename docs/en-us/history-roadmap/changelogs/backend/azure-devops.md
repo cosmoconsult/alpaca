@@ -8,6 +8,11 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.42.1 (2025-05-21)
+
+- Fix another issue where special characters and whitespaces were not correctly encoded for URLs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
+- Improve handling of exceptions during the execution of PowerShell scripts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4351)
+
 ## v1.42.0 (2025-05-19)
 
 - Fix issue where special characters were not correctly encoded for URLs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
