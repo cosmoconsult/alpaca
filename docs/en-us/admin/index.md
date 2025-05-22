@@ -114,11 +114,12 @@ az ad app update --id "$($ids.SsoAdAppId)" --add replyUrls "$backendUrl/*"
 
 Please note that you need to adapt the first couple of lines to your backend and can run it afterwards. Please also note that you will need permissions to create and modify app registrations.
 
-If everything works as expected, then you will see 13 new secrets that need to be synced to your backend, all starting with `AAD-Auth--` as well as 5 new app registrations in your Azure Portal, all ending with `for https://<your-backend>/BC/`. The backend services will take some minutes to pick up the change. 
+If everything works as expected, then you will see 13 new secrets that need to be synced to your backend, all starting with `AAD-Auth--` as well as 5 new app registrations in your Azure Portal, all ending with `for https://<your-backend>/BC/`. The backend services will take some minutes to pick up the change.
 
 If you want to better understand which app registrations exactly are generated, you can check the [sources](https://github.com/microsoft/navcontainerhelper/blob/master/AzureAD/Create-AadAppsForNav.ps1). This script only adds wildcard reply URLs which is not strictly recommended, but the app registrations are limited to users from your own tenant, we deemed it an acceptable risk. The alternative would have been to create a Service Principal with the necessary permissions to create potentially those five app registrations for every container, which also isn't a great solution.
 
 ## Customizing the settings for new app repositories
+
 _This is available for Azure DevOps only_
 
 Customers, who want to customize the template for new app repositories, should create a ConfigMap named `appconfig` with the desired values under the `data` section. This ConfigMap should be placed in the customer configuration repository.
@@ -134,7 +135,6 @@ The following values can be customized in the ConfigMap:
 - `idRangesFrom`
 - `idRangesTo`
 - `logo` (URL that will be downloaded as a file into the repository that is created)
-
 
 ### Example ConfigMap
 
@@ -156,18 +156,43 @@ data:
 ```
 
 ## GitHub Repo Standards
+
 _This is available for GitHub only_
 
 When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running “Initialize for usage with COSMO Alpaca” on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
 
+### Parameters
+
+|Setting|Description|
+|-|-|
+|`HasWiki`|Sets whether to enable the wiki for the repository.|
+|`HasIssues`|Sets whether to enable issues for the repository.|
+|`AllowForking`|Sets whether to allow this repository to be forked or not. **(only supported on organization-owned repositories)**|
+|`HasDiscussions`|Sets whether to enable discussions for the repository.|
+|`HasProjects`|Sets whether to enable projects for the repository.|
+|`AllowMergeCommit`|Allows the "Create a merge commit" merge method to be used.|
+|`AllowSquashMerge`|Allows the "Squash Merge" merge method to be used.|
+|`UseSquashPrTitleAsDefault`|Automatically set the title of squashed commits to be the PR title.|
+|`AllowRebaseMerge`|Allows the "Rebase and Merge" method to be used.|
+|`AllowUpdateBranch`|Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging.|
+|`AllowAutoMerge`|Allows the auto merge feature to be used.|
+|`DeleteBranchOnMerge`|Automatically delete branches on PR merge.|
+
+### Example
+
 ```json
 {
-  "HasIssues": false,
-  "HasProjects": false,
   "HasWiki": false,
+  "HasIssues": false,
+  "AllowForking": false,
   "HasDiscussions": false,
-  "AllowAutoMerge": true,
+  "HasProjects": false,
+  "AllowMergeCommit": false,
+  "AllowSquashMerge": true,
   "UseSquashPrTitleAsDefault": true,
+  "AllowRebaseMerge": false,
+  "AllowUpdateBranch": true,
+  "AllowAutoMerge": true,
   "DeleteBranchOnMerge": true
 }
 ```
