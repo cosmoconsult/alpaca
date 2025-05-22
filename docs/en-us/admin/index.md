@@ -159,7 +159,7 @@ data:
 
 _This is available for GitHub only_
 
-When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running “Initialize for usage with COSMO Alpaca” on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
+When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running "Initialize" on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
 
 ### Parameters
 
@@ -177,6 +177,9 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 |`AllowUpdateBranch`|Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging.|
 |`AllowAutoMerge`|Allows the auto merge feature to be used.|
 |`DeleteBranchOnMerge`|Automatically delete branches on PR merge.|
+
+> [!NOTE]
+> All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
 
 ### Example
 
