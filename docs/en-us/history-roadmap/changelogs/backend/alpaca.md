@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.36.0 (2025-05-22)
+
+- Add additional properties to update GitHub repository settings from `ALPACA_REPO_STANDARDS`
+
 ## v0.35.0 - v0.35.2 (2025-05-08)
 
 - Add new endpoint to get the list of COSMO entities (together with the related office)
