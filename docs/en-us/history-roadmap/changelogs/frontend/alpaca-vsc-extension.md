@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.44.0 (unreleased)
+
+- Streamline COSMO entity assignment for both Azure DevOps and GitHub
+- Add commandPalette action to switch between view modes (functional/technical)
+
 ## v0.43.1 (2025-05-15)
 
 - Update the container status after changing the owner
