@@ -10,7 +10,7 @@ All notable changes to the Azure DevOps Backend
 
 ## v1.43.0 (2025-05-23)
 
-- Enhance application creation process to include handling for translation languages (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4071)
+- Add a new setting to specify the languages for translations during app creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4071)
 
 ## v1.42.1 (2025-05-21)
 
