@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+
+## 1.32.0 (2025-05-23)
+
+- Add a new setting to specify the languages for translations during app creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4071)
+
 ## 1.31.0 (2025-05-21)
 
 - Streamline how URLs are encoded across all API requests (especially handle branch names containing hashes) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
