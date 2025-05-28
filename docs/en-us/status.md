@@ -12,10 +12,15 @@
 > Additionally, not all artifacts are installed in development containers. 
 > We are actively investigating the cause.
 
-Update 28.05. 23:30 - We didn't find the root cause of the issue yet but currently we believe it's an underlying infrastructure issue within Azure. We continue to investigate together with Microsoft Support.
+Update 28.05. 23:30
 
+We didn't find the root cause of the issue yet but currently we believe it's an underlying infrastructure issue within Azure. We continue to investigate together with Microsoft Support.
 
-For some cases it helped to get rid of the Digital Consultant app if present. 
+Workarounds (pipelines still slow but might not hang):
+
+- For some cases it helped to get rid of the COSMO Digital Consultant app if present. 
+- For others you can try to use a workaround script by changing the folders in dockerParamsForBuild in cosmo.json to the following URL: https://ppi-devops.germanywestcentral.cloudapp.azure.com/automation/0.11/startupfile/package/build?branch=stuck-workaround
+
 
 ## Performance Issues BC24+
 
