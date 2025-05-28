@@ -12,6 +12,11 @@
 > Additionally, not all artifacts are installed in development containers. 
 > We are actively investigating the cause.
 
+Update 28.05. 23:30 - We didn't find the root cause of the issue yet but currently we believe it's an underlying infrastructure issue within Azure. We're continue to investigate together with Microsoft Support.
+
+
+For some cases it helped to get rid of the Digital Consultant app if present. 
+
 ## Performance Issues BC24+
 
 Starting with **BC24** Microsoft switched the managment console from Powershell 5 to Powershell 7.
