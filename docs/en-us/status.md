@@ -5,6 +5,13 @@
 
 # Status & Health
 
+## Container crashes
+
+> [!CAUTION]
+> Containers are crashing unexpectedly, causing pipelines to become stuck. 
+> Additionally, not all artifacts are installed in development containers. 
+> We are actively investigating the cause.
+
 ## Performance Issues BC24+
 
 Starting with **BC24** Microsoft switched the managment console from Powershell 5 to Powershell 7.
