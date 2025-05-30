@@ -12,6 +12,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 - Streamline COSMO entity assignment for both Azure DevOps and GitHub
 - Add commandPalette action to switch between view modes (functional/technical)
+- Add support for custom backendUrl on GitHub repository level
 - Update API clients
 - Update dependency packages
 
