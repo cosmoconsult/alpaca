@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-05-30)
+
+- Refactor Alpaca API functions module
+- Support setting a custom backendUrl using the variable `ALPACA_BACKEND_URL` (on organization or repository level)
+- Remove dedicated GitHub Authorization Header for Alpaca container requests
+
 ## (2025-05-16)
 
 - Update AL-Go System Files
