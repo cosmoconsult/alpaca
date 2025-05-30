@@ -11,7 +11,7 @@ All notable changes to the Container Backend
 ## v1.62.0 (2025-05-30)
 
 - Fix issue where a container may not be restarted correctly after changing the owner(s) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4357)
-- Update Alpaca API client and remove specific Authorization Header for GitHub requests (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4358)
+- Update Alpaca API client and remove dedicated Authorization Header for GitHub requests (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4358)
 
 ## v1.62.0 (2025-05-14)
 
