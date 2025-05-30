@@ -8,9 +8,17 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.37.0 (2025-05-30)
+
+- Remove backendUrl from repository configuration
+- Setting a custom backendUrl is now done via the variable `ALPACA_BACKEND_URL` (on organization or repository level)
+- Minor internal improvements
+- Update dependency packages
+
 ## v0.36.0 (2025-05-22)
 
-- Add additional properties to update GitHub repository settings from `ALPACA_REPO_STANDARDS`
+- Add additional properties to update GitHub repository settings from variable `ALPACA_REPO_STANDARDS`
+- Update dependency packages
 
 ## v0.35.0 - v0.35.2 (2025-05-08)
 
