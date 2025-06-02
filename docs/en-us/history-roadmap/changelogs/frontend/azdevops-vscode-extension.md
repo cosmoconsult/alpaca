@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.32.0 (2025-06-03)
+
+- Add 'Template Catalog' pipeline to available extended pipelines for product template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4361/)
+
 ## 1.31.0 (2025-05-21)
 
 - Streamline how URLs are encoded across all API requests (especially handle branch names containing hashes) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
