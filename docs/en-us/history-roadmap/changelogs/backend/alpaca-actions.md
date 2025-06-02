@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## (2025-05-30)
+
+- Adapt recent changes in AL-Go Actions
+
 ## (2025-05-27)
 
 - Fix issue where the destination folder was not correctly set when updating files
