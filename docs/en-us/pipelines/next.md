@@ -38,7 +38,7 @@ After setting up the pipeline you need to configure some more settings before th
     - Delete
     - List
 
-With this now every change on the `master` branch will trigger the Template Catalog Pipeline and uploads the contents of `TemplateCatalog.SourcePath` to your Blob storage container.
+With this now every change on the `main` branch will trigger the Template Catalog Pipeline and uploads the contents of `TemplateCatalog.SourcePath` to your Blob storage container.
 
 ---
 
