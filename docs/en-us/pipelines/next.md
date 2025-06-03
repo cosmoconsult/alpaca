@@ -24,7 +24,7 @@ With that, the selected pipeline(s) will be created.
 
 ## Template Catalog pipeline
 
-The template catalog pipeline can upload the content of a directory within your repository to an Azure Blog Storage container.
+The template catalog pipeline can upload the content of a directory within your repository to an Azure Blob Storage container.
 
 After setting up the pipeline you need to configure some more settings before the pipeline will run:
 
