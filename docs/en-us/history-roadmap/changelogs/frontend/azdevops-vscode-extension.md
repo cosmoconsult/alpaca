@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## 1.33.0 (2025-06-03)
+
+- Implement VS Code Extension Telemetry (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4362)
+
 ## 1.32.0 (2025-06-03)
 
 - Add 'Template Catalog' pipeline to available extended pipelines for product template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4361/)
