@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.45.0 (2025-06-03)
+## v0.45.0 - v0.45.1 (2025-06-03)
 
 - Implement VS Code Extension Telemetry
 
