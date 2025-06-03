@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.32.0 (unreleased)
+## v2.32.0 (2025-06-02)
 
 - Add support for deployment with PowerShell Core (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4350/)
 
