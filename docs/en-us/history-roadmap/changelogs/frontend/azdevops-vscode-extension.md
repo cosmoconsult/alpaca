@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.34.0 (unreleased)
+
+- Fix action to save product packages to the package cache (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4360/)
+
 ## v1.33.0 - v1.33.1 (2025-06-03)
 
 - Implement VS Code Extension Telemetry (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4362)
