@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-06-06)
+
+- Include OnPrem deployment script from https://github.com/akoniecki/AL-Go-OnPremise-Deployer
+
 ## (2025-06-05)
 
 - Update AL-Go System Files
