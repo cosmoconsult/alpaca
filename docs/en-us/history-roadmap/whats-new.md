@@ -48,6 +48,10 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 ## GitHub AL-Go Templates
 
+### Alpaca AL-Go Actions
+
+[Changelog](changelogs/backend/alpaca-actions.md)
+
 ### Alpaca AL-Go Per Tenant Extension Template
 
 [Changelog](changelogs/backend/alpaca-pte.md)
