@@ -8,9 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## v1.34.0 (unreleased)
+## v1.34.0 (2025-06-10)
 
 - Fix action to save product packages to the package cache (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4360/)
+- Add a new setting to specify the languages for translations during app creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4071)
 
 ## v1.33.0 - v1.33.1 (2025-06-03)
 
