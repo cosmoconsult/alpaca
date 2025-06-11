@@ -8,6 +8,24 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-06-06)
+
+- Include OnPrem deployment script from https://github.com/akoniecki/AL-Go-OnPremise-Deployer
+
+## (2025-06-05)
+
+- Update AL-Go System Files
+
+## (2025-06-02)
+
+- Update AL-Go System Files
+
+## (2025-05-30)
+
+- Refactor Alpaca API functions module
+- Support setting a custom backendUrl using the variable `ALPACA_BACKEND_URL` (on organization or repository level)
+- Remove dedicated GitHub Authorization Header for Alpaca container requests
+
 ## (2025-05-16)
 
 - Update AL-Go System Files

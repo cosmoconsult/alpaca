@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.33.0 (2025-06-03)
+
+- Add 'Template Catalog' pipeline to available extended pipelines for product template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4361/)
+
+## v2.32.0 (2025-06-02)
+
+- Add support for deployment with PowerShell Core (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4350/)
+
 ## v2.31.0 (2025-05-14)
 
 - Add support to enable/disable async mode for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4320)

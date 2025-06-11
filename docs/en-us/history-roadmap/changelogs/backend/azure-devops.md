@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.43.0 (2025-06-10)
+
+- Enhance application creation process to include handling for translation languages (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4071)
+
 ## v1.42.1 (2025-05-21)
 
 - Fix another issue where special characters and whitespaces were not correctly encoded for URLs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4345)
