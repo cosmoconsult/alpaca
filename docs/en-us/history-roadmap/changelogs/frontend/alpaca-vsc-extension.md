@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.46.0 (2025-06-11)
+## v0.46.0 (2025-06-13)
 
 - Add action to customize the process of Azure DevOps projects (based on the available customizations for the assigned COSMO entity)
 
