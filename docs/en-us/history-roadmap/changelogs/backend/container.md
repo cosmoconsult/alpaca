@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.63.3 (2025-06-12)
+
+- Fix issue where the owner of a container could not be determined correctly (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4363)
+
 ## v1.63.1 - v1.63.2 (2025-06-05)
 
 - Fix issue where the owner of a container could not be determined correctly (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4363)

@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.33.0 (2025-06-03)
+## v2.33.0 - v2.34.0 (2025-06-03)
 
 - Add 'Template Catalog' pipeline to available extended pipelines for product template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4361/)
 
