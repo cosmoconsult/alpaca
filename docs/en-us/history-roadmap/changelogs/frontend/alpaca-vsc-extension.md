@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.46.1 (2025-06-20)
+## v0.47.0 (2025-06-20)
 
 - Update dependency packages
 - Fix issue where permissions weren't correctly set for SSH private key file on some Windows systems
