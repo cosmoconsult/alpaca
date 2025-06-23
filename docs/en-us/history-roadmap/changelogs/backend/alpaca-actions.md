@@ -15,7 +15,7 @@ All notable changes to the Alpaca AL-Go Actions
 ## (2025-06-19)
 
 - Update AL-Go Helpers
-- Fix issue with GitHub Token
+- Fix issue with GitHub Token when downloading template
 
 ## (2025-05-30)
 
