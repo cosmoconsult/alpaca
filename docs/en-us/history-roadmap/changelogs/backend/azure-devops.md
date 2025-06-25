@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.44.0 (2025-06-25)
+
+- Disable DevOps by default enabled PAT creation restriction policy on project creation/init (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4381)
+
 ## v1.43.1 (2025-06-13)
 
 - Suppress Azure CLI warnings regarding "pkg_resources" when downloading artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4366)

@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.35.0 (2025-06-25)
+
+- Fix issue where the build number is taken from the Test-App's app.json instead of from the App's app.json when using "setBuildIdInManifestOn" (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4380)
+
 ## v2.33.0 - v2.34.0 (2025-06-03)
 
 - Add 'Template Catalog' pipeline to available extended pipelines for product template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4361/)

@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-06-23)
+
+- Update AL-Go System Files
+
 ## (2025-06-18)
 
 - Update AL-Go System Files
