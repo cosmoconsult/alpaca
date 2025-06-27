@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.34.1 (2025-06-26)
+
+- Fix issue where customers with names containing special characters could not be found (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4382)
+
 ## v1.34.0 (2025-06-10)
 
 - Fix action to save product packages to the package cache (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4360/)
