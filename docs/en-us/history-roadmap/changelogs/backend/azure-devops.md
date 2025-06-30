@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## Unreleased
+
+- Extended cosmo.json with configuration to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
+
 ## v1.44.0 (2025-06-25)
 
 - Disable DevOps by default enabled PAT creation restriction policy on project creation/init (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4381)
