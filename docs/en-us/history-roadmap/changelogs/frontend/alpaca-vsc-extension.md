@@ -8,8 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## Unreleased
+## v0.47.0 (2025-06-30)
 
+- Fetch Azure DevOps organizations and projects (and their assigned entities) from new Alpaca API endpoints
+- Streamline entity handling between Azure DevOps and GitHub
+- Streamline handling for Azure DevOps organizations/projects and GitHub owners/repositories
+- Update API clients
 - Update dependency packages
 
 ## v0.46.1 (2025-06-20)
