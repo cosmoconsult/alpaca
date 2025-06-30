@@ -8,6 +8,18 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.38.0 (2025-06-30)
+
+- Improve repository retrieval & also include repository where the user is only a collaborator
+- Add Container namespace and endpoints to retrieve containers
+- Add separate Azure DevOps authentication
+- Add endpoints to retrieve DevOps organizations, projects and their assigned entities
+- Update dependency packages
+
+## v0.37.1 (2025-06-10)
+
+- Improve repository search
+
 ## v0.37.0 (2025-05-30)
 
 - Remove backendUrl from repository configuration
