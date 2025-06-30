@@ -214,15 +214,16 @@ The additional deployment feeds are used in Product Development to deploy the sa
 
 |Element|Type||Value|
 |-|-|-|-|
-|`"dockerSwarmUrl"`          |string |**mandatory**|The reference to the used Backend URL. The default `"$(dockerSwarmUrl)"` references a variable from `CI Build Agent` variable group of the project. *Will be removed in the future.*|
-|`"dockerParamsForBuild"`    |string |optional     |The optional docker params for Build. The default is <br />`"--env folders=c:\\run=https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com/automation/0.11/startupfile/package/build --env alops-docker-username=$(alops-docker-username) --env alops-docker-password=$(alops-docker-password)"`. *Will be removed in the future.*|
-|`"multitenant"`             |string |optional     |Setup the container as multi-tenant container or not. Values are: `Y` or `N`. Note: onprem containers are single-tenant by default, sandbox containers are multi-tenant by default. *Will be removed in the future.*|
-|`"appImportScope"`          |string |optional     |The import scope for all Apps. Values are: `Global` (default) or `Tenant`. This can be overruled by adding the `"appImportScope"` to a specific App-Artifact. *(see [setup artifacts](setup-artifacts.md))*|
-|`"appImportSyncMode"`       |string |optional     |The sync mode for all App Imports. Values are: `Add` (default), `Clean`, `Development` or `ForceSync`. This can be overruled by adding the `"appImportSyncMode"` to a specific App-Artifact. *(see [setup artifacts](setup-artifacts.md))*|
-|`"enableSymbolLoading"`     |boolean|optional     |Enable Symbol loading inside the Container, the default value (if nothing is specified) is `true`. *Will be removed in the future.*|
-|`"enablePremium"`           |boolean|optional     |Enable premium SKU (User Experience) for the default admin user, the default value (if nothing is specified) is `false`. **This is only valid for sandbox containers**.|
-|`"enablePerformanceCounter"`|boolean|optional     |Enable performance counters for better monitoring, the default value (if nothing is specified) is `false`.|
-|`"containerAsyncMode"`      |boolean|optional     |Enable/disable the Async mode for containers, the default value (if nothing is specified) is `false`.|
+|`"dockerSwarmUrl"`                     |string |**mandatory**|The reference to the used Backend URL. The default `"$(dockerSwarmUrl)"` references a variable from `CI Build Agent` variable group of the project. *Will be removed in the future.*|
+|`"dockerParamsForBuild"`               |string |optional     |The optional docker params for Build. The default is <br />`"--env folders=c:\\run=https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com/automation/0.11/startupfile/package/build --env alops-docker-username=$(alops-docker-username) --env alops-docker-password=$(alops-docker-password)"`. *Will be removed in the future.*|
+|`"multitenant"`                        |string |optional     |Setup the container as multi-tenant container or not. Values are: `Y` or `N`. Note: onprem containers are single-tenant by default, sandbox containers are multi-tenant by default. *Will be removed in the future.*|
+|`"appImportScope"`                     |string |optional     |The import scope for all Apps. Values are: `Global` (default) or `Tenant`. This can be overruled by adding the `"appImportScope"` to a specific App-Artifact. *(see [setup artifacts](setup-artifacts.md))*|
+|`"appImportSyncMode"`                  |string |optional     |The sync mode for all App Imports. Values are: `Add` (default), `Clean`, `Development` or `ForceSync`. This can be overruled by adding the `"appImportSyncMode"` to a specific App-Artifact. *(see [setup artifacts](setup-artifacts.md))*|
+|`"enableSymbolLoading"`                |boolean|optional     |Enable Symbol loading inside the Container, the default value (if nothing is specified) is `true`. *Will be removed in the future.*|
+|`"enablePremium"`                      |boolean|optional     |Enable premium SKU (User Experience) for the default admin user, the default value (if nothing is specified) is `false`. **This is only valid for sandbox containers**.|
+|`"enablePerformanceCounter"`           |boolean|optional     |Enable performance counters for better monitoring, the default value (if nothing is specified) is `false`.|
+|`"containerAsyncMode"`                 |boolean|optional     |Enable/disable the Async mode for containers, the default value (if nothing is specified) is `false`.|f
+|`"containerPersistentServerFileCache"` |boolean|optional     |Enable/disable the Server File Cache persistence for containers, the default value (if nothing is specified) is `false`.|
 
 ## Custom BC Service tier or Web server settings
 
