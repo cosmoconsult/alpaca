@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
 
+## (2025-06-30)
+
+- Fix bug where the first tries to publish a app did not log the error message
+
 ## (2025-06-23)
 
 - Update AL-Go System Files
