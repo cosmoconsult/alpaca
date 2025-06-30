@@ -12,7 +12,7 @@ All notable changes to the Alpaca Backend
 
 - Improve repository retrieval & also include repository where the user is only a collaborator
 - Add Container namespace and endpoints to retrieve containers
-- Add separate Azure DevOps authentication
+- Add separate Azure DevOps authentication and connection
 - Add endpoints to retrieve DevOps organizations, projects and their assigned entities
 - Update dependency packages
 
