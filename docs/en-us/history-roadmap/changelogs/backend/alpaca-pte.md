@@ -6,7 +6,11 @@
 
 # Alpaca AL-Go Per Tenant Extension Template Changelog
 
-All notable changes to the Alpaca AL-Go Per Tenant Extension Template Template
+All notable changes to the Alpaca AL-Go Per Tenant Extension Template
+
+## (2025-06-30)
+
+- Fix bug where only the last attempt to publish a app logged the error message
 
 ## (2025-06-23)
 
