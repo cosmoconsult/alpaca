@@ -222,7 +222,7 @@ The additional deployment feeds are used in Product Development to deploy the sa
 |`"enableSymbolLoading"`                |boolean|optional     |Enable Symbol loading inside the Container, the default value (if nothing is specified) is `true`. *Will be removed in the future.*|
 |`"enablePremium"`                      |boolean|optional     |Enable premium SKU (User Experience) for the default admin user, the default value (if nothing is specified) is `false`. **This is only valid for sandbox containers**.|
 |`"enablePerformanceCounter"`           |boolean|optional     |Enable performance counters for better monitoring, the default value (if nothing is specified) is `false`.|
-|`"containerAsyncMode"`                 |boolean|optional     |Enable/disable the Async mode for containers, the default value (if nothing is specified) is `false`.|f
+|`"containerAsyncMode"`                 |boolean|optional     |Enable/disable the Async mode for containers, the default value (if nothing is specified) is `false`.|
 |`"containerPersistentServerFileCache"` |boolean|optional     |Enable/disable the Server File Cache persistence for containers, the default value (if nothing is specified) is `false`.|
 
 ## Custom BC Service tier or Web server settings
