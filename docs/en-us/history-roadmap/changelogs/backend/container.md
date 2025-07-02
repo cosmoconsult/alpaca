@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.65.2 (2025-07-02)
+
+- Fix "dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
+
 ## v1.65.1 (2025-07-02)
 
 - Update Alpaca-API and add dedicated endpoint to retrieve the assigned entity of a GitHub repository again (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4388)

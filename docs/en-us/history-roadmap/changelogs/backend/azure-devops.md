@@ -8,9 +8,14 @@
 
 All notable changes to the Azure DevOps Backend
 
-## Unreleased
+## v1.45.1 (2025-07-02)
 
 - Extended cosmo.json with configuration to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
+- Fix "dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
+
+## v1.45.0 (2025-07-01)
+
+- Add "da-dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
 
 ## v1.44.0 (2025-06-25)
 
