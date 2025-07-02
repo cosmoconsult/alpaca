@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## Unreleased
+
+- Add support for server file cache persistence to container/service creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
+
 ## v1.63.3 (2025-06-12)
 
 - Fix issue where the owner of a container could not be determined correctly (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4363)
