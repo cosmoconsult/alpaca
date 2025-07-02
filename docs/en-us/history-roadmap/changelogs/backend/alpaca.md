@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.39.1 (2025-07-02)
+
+- Add dedicated endpoint to retrieve the assigned entity of a GitHub repository again
+
 ## v0.39.0 (2025-07-02)
 
 - Support specific backend per Azure DevOps project (defined in variable group or service connection)
