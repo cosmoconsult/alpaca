@@ -8,9 +8,14 @@
 
 All notable changes to the Container Backend
 
-## Unreleased
+## v1.65.0 (2025-07-02)
 
 - Add support for server file cache persistence to container/service creation (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
+- Update Alpaca-API (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4388)
+
+## v1.64.0 (2025-06-30)
+
+- Add "da-dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
 
 ## v1.63.3 (2025-06-12)
 
