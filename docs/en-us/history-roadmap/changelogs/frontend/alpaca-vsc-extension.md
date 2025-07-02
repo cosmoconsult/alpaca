@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.48.0 (2025-07-02)
+
+- Support specific backend per Azure DevOps project
+- Update API clients
+- Internal improvements
+
 ## v0.47.0 (2025-06-30)
 
 - Fetch Azure DevOps organizations and projects (and their assigned entities) from new Alpaca API endpoints

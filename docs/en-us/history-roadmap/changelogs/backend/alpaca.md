@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.39.0 (2025-07-02)
+
+- Support specific backend per Azure DevOps project (defined in variable group or service connection)
+- Check if the current user is a Project Collection Administrator when assigning a COSMO entity to a project
+- Remove default values for BcArtifact to enable inheritance again
+
 ## v0.38.0 (2025-06-30)
 
 - Improve repository retrieval & also include repositories where the user is only a collaborator
