@@ -51,6 +51,7 @@ The variables to start/stop Build Agents at Container environment for the Build 
 | Docker.NoOfTailEntriesToRead        |     5000      | If there's a huge log output in the `Wait on Container start` step, then it might be that it hangs up, but on the other site increasing this value decreases the performance. |
 | Docker.WaitForContainerTimeoutInSec |       0       | It happened that retrieving the cosmo.json when creating a container hung up. Adding a timeout and trying it again might help.                                                |
 | Docker.AsyncMode                    |     false     | Enables/disables the Async mode for the container |
+| Docker.PersistentServerFileCache    |     false     | Enables/disables the Server File Cache persistence for the container |
 
 **Note:** Ensure your used container environment support the right version.
 
