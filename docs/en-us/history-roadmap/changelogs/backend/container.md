@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.66.0 (2025-07-03)
+
+- Reset autostop override time on manual stop (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4396)
+  
 ## v1.65.2 (2025-07-02)
 
 - Fix "dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
