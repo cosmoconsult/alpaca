@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.49.0 (2025-07-09)
+
+- Internal improvements
+- Update API clients
+- Update dependency packages
+
 ## v0.48.0 (2025-07-02)
 
 - Support specific backend per Azure DevOps project
