@@ -8,10 +8,12 @@
 
 All notable changes to the Container Backend
 
-## v1.66.0 (2025-07-03)
+## v1.66.0 (2025-07-08)
 
+- Remove obsolete owner labels, read owner(s) always from annotations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4397)
+- Make agent job deadline based on BC build container deadline (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4398)
 - Reset autostop override time on manual stop (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4396)
-  
+
 ## v1.65.2 (2025-07-02)
 
 - Fix "dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)

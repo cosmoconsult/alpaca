@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Backend
 
+## Unreleased
+
+- Remove duplicate method descriptions on process controller (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4403)
+
+## v1.46.0 (2025-07-08)
+
+- Replace continuationToken if it already exists (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4400)
+
 ## v1.45.1 (2025-07-02)
 
 - Extended cosmo.json with configuration to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
