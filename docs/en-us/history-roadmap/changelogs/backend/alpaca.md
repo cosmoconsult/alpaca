@@ -8,7 +8,28 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.39.2 (2025-07-02)
+## v0.41.0 (2025-07-10)
+
+- Add organization and project to repository model
+- Add more properties to branches model: organization, project, repository, isMineOrDefault
+- Extend tests
+
+## v0.40.2 (2025-07-09)
+
+- Swagger: Don't require unique actionName/operationId per namespace but only per controller
+- Swagger: Set the action name as the description of the operation
+
+## v0.40.1 (2025-07-08)
+
+- Move backendUrl retrieval (from variables, variable group and service connection) to dedicated endpoints
+- Return default backendUrl on DevOps organizations/projects and GitHub owners/repositories (default backend is determined by Azure AD Tenant or GitHub owner)
+- Add initial support for 4PS backend
+- Improve caching for repository retrieval
+- Set correct htmlUrl on repositories
+- Return branch names without prefix
+- Update dependency packages
+
+## v0.40.0 (2025-07-07)
 
 - Add dedicated endpoints for Azure DevOps Repositories and Branches
 
