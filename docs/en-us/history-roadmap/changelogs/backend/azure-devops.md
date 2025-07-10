@@ -8,9 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
-## Unreleased
+## v1.47.0 (2025-07-10)
 
 - Remove duplicate method descriptions on process controller (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4403)
+- Fix issue where the test apps were not correctly set when inheriting artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4405)
 
 ## v1.46.0 (2025-07-08)
 
