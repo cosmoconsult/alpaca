@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.47.1 (2025-07-10)
+
+- Fix "dk" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4386)
+
 ## v1.47.0 (2025-07-10)
 
 - Remove duplicate method descriptions on process controller (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4403)
