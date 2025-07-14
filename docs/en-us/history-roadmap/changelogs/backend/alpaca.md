@@ -8,6 +8,13 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.41.1 (2025-07-14)
+
+- Streamline some Azure Devops and GitHub models, add Id properties
+- Add tests for GitHub BranchService
+- Update cache when changing the assigned entity of a GitHub repository
+- Update dependency packages
+
 ## v0.41.0 (2025-07-10)
 
 - Add organization and project to repository model
