@@ -11,7 +11,7 @@ With GitHub you can either use the GitHub issues to track your requirements or y
 
 ## Azure DevOps WorkItems
 
-To connect a GitHub repository to an Azure DevOps project you need to [setup the connection](https://learn.microsoft.com/en-us/azure/devops/boards/github/install-github-app?view=azure-devops#add-or-remove-repositories-or-remove-a-connection-from-azure-boards) first.
+To connect a GitHub repository to an Azure DevOps project you need to [set up the connection](https://learn.microsoft.com/en-us/azure/devops/boards/github/install-github-app?view=azure-devops#add-or-remove-repositories-or-remove-a-connection-from-azure-boards) first.
 
 Afterwards you can use the following ways to link code changes in your GitHub repositories to WorkItems in Azure DevOps:
 - When you start working on a WorkItem, you can [create a new branch directly from the WorkItem](https://learn.microsoft.com/en-us/azure/devops/release-notes/roadmap/2024/github-branch).
