@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.67.0 (2025-07-16)
+
+- Use new ArgoCD tracking id annotation to correctly delete SSH secrets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4409)
+
 ## v1.66.0 (2025-07-08)
 
 - Remove obsolete owner labels, read owner(s) always from annotations (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4397)
