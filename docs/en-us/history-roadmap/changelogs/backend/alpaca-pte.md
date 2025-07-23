@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## (2025-07-23)
+
+- Fix issue where the error messages of the attempts to publish an app resulted in confusing annotations
+
 ## (2025-07-02)
 
 - Fix issue where the container configuration was not correctly used from the source branch of the pull request
