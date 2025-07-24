@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## Unreleased
+
+- Update dependency packages
+
 ## v0.41.1 (2025-07-14)
 
 - Streamline some Azure DevOps and GitHub models, add Id properties

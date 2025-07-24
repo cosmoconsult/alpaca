@@ -8,9 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## Unreleased
+## v1.35.0 (2025-07-22)
 
 - Add support to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
+- Fix SSH key permission error on Windows when opening terminal or file share (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4410)
 
 ## v1.34.1 (2025-06-26)
 
