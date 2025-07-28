@@ -8,8 +8,12 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## Unreleased
+## v2.36.0 (2025-07-28)
 
+- Only do a shallow fetch when getting repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4417)
+- Optionally retry applicable API calls after a timeout (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4416)
+- Identify dependencies through AppId instead of name (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4414)
+- Improve resolution and minimum version check of dependencies (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4367)
 - Add support to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
 
 ## v2.35.0 (2025-06-25)
