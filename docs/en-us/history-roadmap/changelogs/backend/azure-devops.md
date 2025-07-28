@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.48.2 (2025-07-28)
+
+- Inherit previousRelease (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4419)
+
 ## v1.48.0 - v1.48.1 (2025-07-17)
 
 - Fix and improve artifacts inheritance and merging (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4405)
