@@ -11,6 +11,7 @@ All notable changes to the Alpaca Backend
 ## Unreleased
 
 - Update dependency packages
+- Add customize function for Azure DevOps projects 
 
 ## v0.41.1 (2025-07-14)
 
