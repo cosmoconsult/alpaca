@@ -22,9 +22,9 @@ The name, organization and PAT must be stored as secrets:
 
 |Name|Value|
 |-|-|
-|`"ip-feed-name"`|The name of you feed|
-|`"ip-feed-org"`|The name of the organization|
-|`"ip-feed-pat"`|The PAT of a dummy user that has read access to the feed|
+|`ipartifacts__organization`|The name of the organization|
+|`ipartifacts__feed`|The name of you feed|
+|`ipartifacts__pat`|The PAT of a dummy user that has read access to the feed|
 
 A package in the artifact feed must have the following folder structure:
 

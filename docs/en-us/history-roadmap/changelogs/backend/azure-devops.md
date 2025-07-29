@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.49.0 (2025-07-29)
+
+- Allow customer-specific ipartifact configuration (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4421/)
+
 ## v1.48.2 (2025-07-28)
 
 - Inherit previousRelease (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4419)

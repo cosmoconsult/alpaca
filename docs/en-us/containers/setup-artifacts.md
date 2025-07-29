@@ -203,7 +203,7 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 The use case for the product feed is to enable users and pipelines/workflows to consume artifacts managed in a central feed. This is mainly used for feeds hosting intelectual property. As a bonus you can use the version overview in the VS Code Extension to browse your regularly used artifacts.
 
 > [!IMPORTANT]
-> It is currently only available for **COSMO** users to consume the COSMO products.
+> Before using product feeds, you need to [configure the feed](../admin/index.md#ip-artifacts).
 
 1. Find out which name the IP artifact has and which version you want to use
 2. Add the Artifact to `ipArtifacts` in your configuration file
