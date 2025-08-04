@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## Unreleased
+
+- Remove connection to legacy swarm (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4422)
+
+## v1.36.0 (2025-07-25)
+
+- Cache expiration is now configurable: `cc-azdevops.cacheExpirationHours` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4415)
+
 ## v1.35.0 (2025-07-22)
 
 - Add support to enable/disable server file cache persistence for containers (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4387)
