@@ -8,6 +8,14 @@
 
 All notable changes to the Container Backend
 
+## v1.68.1 (2025-08-04)
+
+- Fix issue where the auto-stop configuration of a container was reset to the default values when starting the container (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4423)
+
+## v1.68.0 (2025-07-24)
+
+- Do not lower the whole name of the backup folder when backing up a container (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4413)
+
 ## v1.67.0 (2025-07-16)
 
 - Use new ArgoCD tracking id annotation to correctly delete SSH secrets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4409)
