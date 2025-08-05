@@ -8,14 +8,18 @@
 
 All notable changes to the Alpaca Backend
 
-## unreleased
+## v0.45.0 (2025-08-05)
 
 - Changed repository for template type "AlpacaPTE" to "cosmoconsult/Alpaca-PTE-Template"
+
+## v0.44.0 (2025-08-05)
+
+- Add container functions and endpoints to create, update and delete (BC) containers
 
 ## v0.43.0 (2025-08-05)
 
 - Update dependency packages
-- Add customize function for Azure DevOps projects 
+- Add customize function for Azure DevOps projects
 
 ## v0.41.1 (2025-07-14)
 
