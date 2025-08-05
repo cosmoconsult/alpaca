@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## unreleased
+
+- Changed repository for template type "AlpacaPTE" to "cosmoconsult/Alpaca-PTE-Template"
+
 ## v0.43.0 (2025-08-05)
 
 - Update dependency packages
