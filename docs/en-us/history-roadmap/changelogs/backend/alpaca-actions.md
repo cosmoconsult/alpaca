@@ -8,7 +8,12 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
-## (2025-06-23)
+## v2.0.0 (2025-08-05)
+
+- Refactored scripts for custom workflow jobs of repository Alpaca-PTE as actions
+- Refactored handling of Run-AlPipeline overrides
+
+## v1.0.0 (2025-06-23)
 
 - Download AL-Go Helpers from microsoft/AL-Go-PTE@preview
 

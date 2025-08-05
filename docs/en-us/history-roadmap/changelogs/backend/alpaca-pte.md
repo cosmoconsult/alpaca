@@ -8,6 +8,13 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## (2025-08-05)
+
+- Added update of AL-Go system files after all app creation workflows
+- Added support for multiple independent projects
+- Refactored scripts of custom workflow jobs as actions in repository Alpaca-Actions
+- Refactored handling of Run-AlPipeline overrides
+
 ## (2025-07-23)
 
 - Fix issue where the error messages of the attempts to publish an app resulted in confusing annotations
