@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## unreleased
+
+- Fix containers always using default bc artifact values (e.g. country "w1")
+
 ## v0.45.0 (2025-08-05)
 
 - Changed repository for template type "AlpacaPTE" to "cosmoconsult/Alpaca-PTE-Template"
