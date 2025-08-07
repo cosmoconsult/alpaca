@@ -220,15 +220,15 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 1. Root Object
 
-| Feld                     | Typ     | Beschreibung                                                       | Pflicht       |
-|--------------------------|---------|--------------------------------------------------------------------|---------------|
-| `name`                   | string  | Eindeutiger Name der Konfiguration                                 | erforderlich  |
-| `description`            | string  | Beschreibung des Anpassungszwecks                                  | erforderlich  |
-| `owner`                  | string  | Verantwortliches Team oder Kontakt                                  | erforderlich  |
-| `procModProcess`         | object  | Hauptdefinition des Prozesses                                       | erforderlich  |
-| `procModProcessCompressed` | string | Optional: Base64-komprimierte Darstellung als Alternative zum JSON | optional      |
+| Field                      | Type   | Description                                                          | Required |
+| -------------------------- | ------ | -------------------------------------------------------------------- | -------- |
+| `name`                     | string | Unique name of the configuration                                     | required |
+| `description`              | string | Description of the customization purpose                             | required |
+| `owner`                    | string | Responsible team or contact                                          | required |
+| `procModProcess`           | object | Main definition of the process                                       | required |
+| `procModProcessCompressed` | string | Optional: Base64-compressed representation as an alternative to JSON | optional |
 
-### Beispiel
+### Example
 
 ```json
 {
@@ -244,14 +244,14 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 2. procModProcess
 
-| Feld            | Typ    | Beschreibung                     | Pflicht      |
-| --------------- | ------ | -------------------------------- | ------------ |
-| `id`            | string | Optional: Prozess-ID             | optional     |
-| `name`          | string | Interner Name des Prozesses      | erforderlich |
-| `label`         | string | Anzeigename des Prozesses        | erforderlich |
-| `workItemTypes` | array  | Liste der Work Item Types (WITs) | erforderlich |
+| Field           | Type   | Description                    | Required |
+| --------------- | ------ | ------------------------------ | -------- |
+| `id`            | string | Optional: Process ID           | optional |
+| `name`          | string | Internal name of the process   | required |
+| `label`         | string | Display name of the process    | required |
+| `workItemTypes` | array  | List of Work Item Types (WITs) | required |
 
-### Beispiel
+### Example
 
 ```json
 {
@@ -264,22 +264,22 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ---
 
-## 3. workItemTypes (Array von Objekten)
+## 3. workItemTypes (Array of objects)
 
-| Feld        | Typ    | Beschreibung                                         | Pflicht      |
-| ----------- | ------ | ---------------------------------------------------- | ------------ |
-| `id`        | string | Optional: WIT-ID                                     | optional     |
-| `name`      | string | Interner Name des Work Item Typs (z.B. Bug)          | erforderlich |
-| `label`     | string | Anzeigename des WIT                                  | erforderlich |
-| `color`     | string | Hex-Farbcode zur Visualisierung                      | optional     |
-| `icon`      | string | Azure DevOps Icon-Name                               | optional     |
-| `pages`     | array  | Layout-Definition (Tabs, Sections, Groups, Controls) | optional     |
-| `rules`     | array  | Business Rules (Regeln für Felder/Verhalten)         | optional     |
-| `cards`     | object | Card Layout und Farbregeln                           | optional     |
-| `templates` | array  | Vordefinierte Item-Vorlagen                          | optional     |
-| `states`    | array  | Workflow-States                                      | optional     |
+| Field       | Type   | Description                                          | Required |
+| ----------- | ------ | ---------------------------------------------------- | -------- |
+| `id`        | string | Optional: WIT ID                                     | optional |
+| `name`      | string | Internal name of the work item type (e.g., Bug)      | required |
+| `label`     | string | Display name of the WIT                              | required |
+| `color`     | string | Hex color code for visualization                     | optional |
+| `icon`      | string | Azure DevOps icon name                               | optional |
+| `pages`     | array  | Layout definition (tabs, sections, groups, controls) | optional |
+| `rules`     | array  | Business rules (rules for fields/behavior)           | optional |
+| `cards`     | object | Card layout and color rules                          | optional |
+| `templates` | array  | Predefined item templates                            | optional |
+| `states`    | array  | Workflow states                                      | optional |
 
-### Beispiel
+### Example
 
 ```json
 [
@@ -302,22 +302,22 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 4. pages → sections → groups → controls
 
-### Felder controls
+### Fields for controls
 
-| Feld               | Typ     | Beschreibung                              | Pflicht      |
-| ------------------ | ------- | ----------------------------------------- | ------------ |
-| `id`               | string  | Eindeutige Steuerungs-ID                  | erforderlich |
-| `name`             | string  | Interner Name der Steuerung               | erforderlich |
-| `label`            | string  | Anzeigename                               | optional     |
-| `description`      | string  | Tooltip-Text                              | optional     |
-| `type`             | string  | Feldtyp (z.B. Text\_SingleLine, Picklist) | erforderlich |
-| `itemsForPicklist` | array   | Liste der Werte für Dropdowns             | optional     |
-| `hideFromLayout`   | boolean | Versteckt die Steuerung im UI, wenn true  | optional     |
-| `required`         | boolean | Markiert das Feld als Pflichtfeld         | optional     |
-| `order`            | integer | Reihenfolge innerhalb der Gruppe          | optional     |
-| `defaultValue`     | string  | Vorgabewert                               | optional     |
+| Field              | Type    | Description                                   | Required |
+| ------------------ | ------- | --------------------------------------------- | -------- |
+| `id`               | string  | Unique control ID                             | required |
+| `name`             | string  | Internal name of the control                  | required |
+| `label`            | string  | Display name                                  | optional |
+| `description`      | string  | Tooltip text                                  | optional |
+| `type`             | string  | Field type (e.g., Text\_SingleLine, Picklist) | required |
+| `itemsForPicklist` | array   | List of values for dropdowns                  | optional |
+| `hideFromLayout`   | boolean | Hides the control in the UI if true           | optional |
+| `required`         | boolean | Marks the field as required                   | optional |
+| `order`            | integer | Order within the group                        | optional |
+| `defaultValue`     | string  | Default value                                 | optional |
 
-### Beispiel
+### Example
 
 ```json
 "pages": [
@@ -362,17 +362,17 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 5. rules
 
-| Feld                | Typ     | Beschreibung                               | Pflicht      |
-| ------------------- | ------- | ------------------------------------------ | ------------ |
-| `id`                | string  | Eindeutige ID der Regel                    | optional     |
-| `label`             | string  | Anzeigename                                | optional     |
-| `name`              | string  | Interner Name der Regel                    | optional     |
-| `actions`           | array   | Liste der auszuführenden Aktionen          | erforderlich |
-| `conditions`        | array   | Bedingungen, wann die Regel ausgelöst wird | optional     |
-| `isDisabled`        | boolean | Regel ist deaktiviert, wenn true           | optional     |
-| `customizationType` | string  | Art der Anpassung                          | optional     |
+| Field               | Type    | Description                      | Required |
+| ------------------- | ------- | -------------------------------- | -------- |
+| `id`                | string  | Unique ID of the rule            | optional |
+| `label`             | string  | Display name                     | optional |
+| `name`              | string  | Internal name of the rule        | optional |
+| `actions`           | array   | List of actions to perform       | required |
+| `conditions`        | array   | Conditions that trigger the rule | optional |
+| `isDisabled`        | boolean | Rule is disabled if true         | optional |
+| `customizationType` | string  | Type of customization            | optional |
 
-### Beispiel
+### Example
 
 ```json
 "rules": [
@@ -405,12 +405,12 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 6. cards
 
-| Feld        | Typ   | Beschreibung                                               | Pflicht      |
-| ----------- | ----- | ---------------------------------------------------------- | ------------ |
-| `fields`    | array | Liste der Felder, die auf der Board-Karte angezeigt werden | erforderlich |
-| `cardRules` | array | Visuelle Anpassungen je nach Bedingungen                   | optional     |
+| Field       | Type  | Description                                  | Required |
+| ----------- | ----- | -------------------------------------------- | -------- |
+| `fields`    | array | List of fields displayed on the board card   | required |
+| `cardRules` | array | Visual customization depending on conditions | optional |
 
-### Beispiel
+### Example
 
 ```json
 "cards": {
@@ -434,15 +434,15 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 7. templates
 
-| Feld               | Typ    | Beschreibung               | Pflicht      |
-| ------------------ | ------ | -------------------------- | ------------ |
-| `id`               | string | UUID der Vorlage           | erforderlich |
-| `name`             | string | Name der Vorlage           | erforderlich |
-| `description`      | string | Zweck der Vorlage          | optional     |
-| `workItemTypeName` | string | Zugehöriger Work Item Type | erforderlich |
-| `fields`           | object | Standardwerte der Felder   | optional     |
+| Field              | Type   | Description                   | Required |
+| ------------------ | ------ | ----------------------------- | -------- |
+| `id`               | string | UUID of the template          | required |
+| `name`             | string | Name of the template          | required |
+| `description`      | string | Purpose of the template       | optional |
+| `workItemTypeName` | string | Associated work item type     | required |
+| `fields`           | object | Default values for the fields | optional |
 
-### Beispiel
+### Example
 
 ```json
 "templates": [
@@ -463,15 +463,15 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 8. states
 
-| Feld            | Typ     | Beschreibung                                | Pflicht      |
-| --------------- | ------- | ------------------------------------------- | ------------ |
-| `id`            | string  | UUID des Status                             | erforderlich |
-| `name`          | string  | Anzeigename des Status                      | erforderlich |
-| `color`         | string  | Statusfarbe (Hex)                           | optional     |
-| `stateCategory` | string  | Kategorie (Proposed, InProgress, Completed) | erforderlich |
-| `order`         | integer | Reihenfolge im Workflow                     | optional     |
+| Field           | Type    | Description                                | Required |
+| --------------- | ------- | ------------------------------------------ | -------- |
+| `id`            | string  | UUID of the state                          | required |
+| `name`          | string  | Display name of the state                  | required |
+| `color`         | string  | State color (hex)                          | optional |
+| `stateCategory` | string  | Category (Proposed, InProgress, Completed) | required |
+| `order`         | integer | Order in the workflow                      | optional |
 
-### Beispiel
+### Example
 
 ```json
 "states": [
@@ -489,18 +489,18 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 9. boardColumns
 
-| Feld            | Typ     | Beschreibung                                  | Pflicht      |
-| --------------- | ------- | --------------------------------------------- | ------------ |
-| `id`            | string  | ID der Spalte                                 | optional     |
-| `name`          | string  | Name der Spalte                               | erforderlich |
-| `updateColumn`  | string  | Update-Spalte                                 | optional     |
-| `order`         | integer | Position der Spalte                           | erforderlich |
-| `itemLimit`     | integer | WIP-Limit                                     | optional     |
-| `isSplit`       | boolean | Spalte in Doing/Done teilen                   | optional     |
-| `stateMappings` | object  | Mapping von Work Item States zu dieser Spalte | optional     |
-| `columnType`    | string  | Spaltenverhalten                              | optional     |
+| Field           | Type    | Description                                | Required |
+| --------------- | ------- | ------------------------------------------ | -------- |
+| `id`            | string  | Column ID                                  | optional |
+| `name`          | string  | Name of the column                         | required |
+| `updateColumn`  | string  | Update column                              | optional |
+| `order`         | integer | Position of the column                     | required |
+| `itemLimit`     | integer | WIP limit                                  | optional |
+| `isSplit`       | boolean | Split column into Doing/Done               | optional |
+| `stateMappings` | object  | Mapping of work item states to this column | optional |
+| `columnType`    | string  | Column behavior                            | optional |
 
-### Beispiel
+### Example
 
 ```json
 "boardColumns": [
@@ -524,21 +524,21 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 10. renameTaskBoardColumns
 
-| Feld            | Typ     | Beschreibung                           | Pflicht      |
-| --------------- | ------- | -------------------------------------- | ------------ |
-| `id`            | string  | ID der Spalte                          | optional     |
-| `name`          | string  | Neuer Name der Spalte                  | erforderlich |
-| `renameFrom`    | string  | Alter Name der Spalte                  | erforderlich |
-| `order`         | integer | Reihenfolge                            | optional     |
-| `mapping`       | array   | Mapping von Work Item Types und States | optional     |
-| `itemLimit`     | integer | WIP-Limit                              | optional     |
-| `updateColumn`  | string  | Update-Spalte                          | optional     |
-| `isSplit`       | boolean | Spalte teilen                          | optional     |
-| `description`   | string  | Beschreibung                           | optional     |
-| `columnType`    | string  | Spaltenverhalten                       | optional     |
-| `stateMappings` | object  | State zu Spalten Mappings              | optional     |
+| Field           | Type    | Description                           | Required |
+| --------------- | ------- | ------------------------------------- | -------- |
+| `id`            | string  | ID of the column                      | optional |
+| `name`          | string  | New name of the column                | required |
+| `renameFrom`    | string  | Old name of the column                | required |
+| `order`         | integer | Order                                 | optional |
+| `mapping`       | array   | Mapping of work item types and states | optional |
+| `itemLimit`     | integer | WIP limit                             | optional |
+| `updateColumn`  | string  | Update column                         | optional |
+| `isSplit`       | boolean | Split the column                      | optional |
+| `description`   | string  | Description                           | optional |
+| `columnType`    | string  | Column behavior                       | optional |
+| `stateMappings` | object  | State-to-column mappings              | optional |
 
-### Beispiel
+### Example
 
 ```json
 "renameTaskBoardColumns": [
@@ -569,12 +569,12 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 11. extensions
 
-| Feld          | Typ    | Beschreibung                 | Pflicht      |
-| ------------- | ------ | ---------------------------- | ------------ |
-| `publisherId` | string | Publisher-ID der Erweiterung | erforderlich |
-| `extensionId` | string | ID der Erweiterung           | erforderlich |
+| Field         | Type   | Description                   | Required |
+| ------------- | ------ | ----------------------------- | -------- |
+| `publisherId` | string | Publisher ID of the extension | required |
+| `extensionId` | string | ID of the extension           | required |
 
-### Beispiel
+### Example
 
 ```json
 "extensions": [
@@ -589,11 +589,11 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ## 12. boardSwimlanes
 
-| Feld             | Typ   | Beschreibung                                 | Pflicht  |
-| ---------------- | ----- | -------------------------------------------- | -------- |
-| `boardSwimlanes` | array | Liste von benutzerdefinierten Swimlane-Namen | optional |
+| Field            | Type  | Description                   | Required |
+| ---------------- | ----- | ----------------------------- | -------- |
+| `boardSwimlanes` | array | List of custom swimlane names | optional |
 
-### Beispiel
+### Example
 
 ```json
 "boardSwimlanes": [
