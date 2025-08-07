@@ -204,7 +204,7 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 
 A **Process Modification Object** defines how to customize an **Azure DevOps process**. It allows you to extend or modify one or more **Work Item Types (WITs)** with custom fields, layouts, states, rules, and more.
 
-This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-example).
+Customers, who want to create new process-modifications, should create a ConfigMap named `process-modification` and add the modifications under the `data` section. This ConfigMap should be placed in the customer configuration repository.
 
 ### Main Components:
 
@@ -617,10 +617,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: process-modifications
-  annotations:
-    selfservice.cosmoconsult.com/target-namespaces: $all
 data:
-  process-modifcations: |-
+  process-modifications: |-
     {
     "description": "(Alpaca example) Adds documentation fields, a mandatory rule, and new states",
     "name": "alpaca-example-customization",
