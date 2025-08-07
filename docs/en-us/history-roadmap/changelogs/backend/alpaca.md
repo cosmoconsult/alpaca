@@ -14,6 +14,8 @@ All notable changes to the Alpaca Backend
 
 ## v0.46.0 (2025-08-07)
 
+- Implement retrieval of process modifications based on namespace via tenantId
+
 ## v0.45.0 (2025-08-05)
 
 - Changed repository for template type "AlpacaPTE" to "cosmoconsult/Alpaca-PTE-Template"
