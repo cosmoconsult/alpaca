@@ -11,6 +11,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## Unreleased
 
 - Update dependency packages
+- Add function to customize Azure DevOps processes
 
 ## v0.50.1 (2025-07-24)
 
