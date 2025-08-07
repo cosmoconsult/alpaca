@@ -8,14 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## Unreleased
+## v0.51.0 (2025-08-07)
 
-- Update dependency packages
+- Update Alpaca API clients
 - Add function to customize Azure DevOps processes
-
+  
 ## v0.50.1 (2025-07-24)
 
-- Update Alpaca API client
+- Update Alpaca API clients
 - Update dependency packages
 
 ## v0.50.0 (2025-07-10)
@@ -23,7 +23,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 - Fetch Azure DevOps repositories and branches from new Alpaca API endpoints
 - Add action to clone an Azure DevOps repository
 - Show Containers for Azure DevOps repositories and branches
-- Update Alpaca API client
+- Update Alpaca API clients
 - Update dependency packages
 
 ## v0.49.0 (2025-07-09)
