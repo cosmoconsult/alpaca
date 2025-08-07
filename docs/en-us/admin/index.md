@@ -199,3 +199,506 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
   "DeleteBranchOnMerge": true
 }
 ```
+
+# Azure DevOps – Process Modification
+
+A **Process Modification Object** defines how to customize an **Azure DevOps process**. It allows you to extend or modify one or more **Work Item Types (WITs)** with custom fields, layouts, states, rules, and more.
+
+This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-example).
+
+### Main Components:
+
+- **procModProcess**: Root object representing the customized process.
+- **workItemTypes**: List of WITs (e.g., Bug, User Story) to modify.
+- **pages → sections → groups → controls**: Nested layout structure for UI field placement.
+- **rules**: Conditional logic (e.g., required fields, autofill values).
+- **states**: New or modified workflow states.
+- **extensions**: Optional DevOps Marketplace extensions.
+- **name / description / owner**: Metadata for identification and ownership.
+
+---
+
+## 1. Root Object
+
+| Feld                     | Typ     | Beschreibung                                                       | Pflicht       |
+|--------------------------|---------|--------------------------------------------------------------------|---------------|
+| `name`                   | string  | Eindeutiger Name der Konfiguration                                 | erforderlich  |
+| `description`            | string  | Beschreibung des Anpassungszwecks                                  | erforderlich  |
+| `owner`                  | string  | Verantwortliches Team oder Kontakt                                  | erforderlich  |
+| `procModProcess`         | object  | Hauptdefinition des Prozesses                                       | erforderlich  |
+| `procModProcessCompressed` | string | Optional: Base64-komprimierte Darstellung als Alternative zum JSON | optional      |
+
+### Beispiel
+
+```json
+{
+  "procModProcess": {},
+  "procModProcessCompressed": "string",
+  "description": "string",
+  "name": "string",
+  "owner": "string"
+}
+```
+
+---
+
+## 2. procModProcess
+
+| Feld            | Typ    | Beschreibung                     | Pflicht      |
+| --------------- | ------ | -------------------------------- | ------------ |
+| `id`            | string | Optional: Prozess-ID             | optional     |
+| `name`          | string | Interner Name des Prozesses      | erforderlich |
+| `label`         | string | Anzeigename des Prozesses        | erforderlich |
+| `workItemTypes` | array  | Liste der Work Item Types (WITs) | erforderlich |
+
+### Beispiel
+
+```json
+{
+  "id": "string",
+  "name": "string",
+  "label": "string",
+  "workItemTypes": []
+}
+```
+
+---
+
+## 3. workItemTypes (Array von Objekten)
+
+| Feld        | Typ    | Beschreibung                                         | Pflicht      |
+| ----------- | ------ | ---------------------------------------------------- | ------------ |
+| `id`        | string | Optional: WIT-ID                                     | optional     |
+| `name`      | string | Interner Name des Work Item Typs (z.B. Bug)          | erforderlich |
+| `label`     | string | Anzeigename des WIT                                  | erforderlich |
+| `color`     | string | Hex-Farbcode zur Visualisierung                      | optional     |
+| `icon`      | string | Azure DevOps Icon-Name                               | optional     |
+| `pages`     | array  | Layout-Definition (Tabs, Sections, Groups, Controls) | optional     |
+| `rules`     | array  | Business Rules (Regeln für Felder/Verhalten)         | optional     |
+| `cards`     | object | Card Layout und Farbregeln                           | optional     |
+| `templates` | array  | Vordefinierte Item-Vorlagen                          | optional     |
+| `states`    | array  | Workflow-States                                      | optional     |
+
+### Beispiel
+
+```json
+[
+  {
+    "id": "string",
+    "name": "string",
+    "label": "string",
+    "color": "string",
+    "icon": "string",
+    "pages": [],
+    "rules": [],
+    "cards": {},
+    "templates": [],
+    "states": []
+  }
+]
+```
+
+---
+
+## 4. pages → sections → groups → controls
+
+### Felder controls
+
+| Feld               | Typ     | Beschreibung                              | Pflicht      |
+| ------------------ | ------- | ----------------------------------------- | ------------ |
+| `id`               | string  | Eindeutige Steuerungs-ID                  | erforderlich |
+| `name`             | string  | Interner Name der Steuerung               | erforderlich |
+| `label`            | string  | Anzeigename                               | optional     |
+| `description`      | string  | Tooltip-Text                              | optional     |
+| `type`             | string  | Feldtyp (z.B. Text\_SingleLine, Picklist) | erforderlich |
+| `itemsForPicklist` | array   | Liste der Werte für Dropdowns             | optional     |
+| `hideFromLayout`   | boolean | Versteckt die Steuerung im UI, wenn true  | optional     |
+| `required`         | boolean | Markiert das Feld als Pflichtfeld         | optional     |
+| `order`            | integer | Reihenfolge innerhalb der Gruppe          | optional     |
+| `defaultValue`     | string  | Vorgabewert                               | optional     |
+
+### Beispiel
+
+```json
+"pages": [
+  {
+    "id": "string",
+    "label": "string",
+    "name": "string",
+    "sections": [
+      {
+        "id": "string",
+        "label": "string",
+        "name": "string",
+        "groups": [
+          {
+            "id": "string",
+            "label": "string",
+            "name": "string",
+            "order": 0,
+            "controls": [
+              {
+                "id": "string",
+                "name": "string",
+                "label": "string",
+                "description": "string",
+                "type": "Text_SingleLine",
+                "itemsForPicklist": ["string"],
+                "hideFromLayout": true,
+                "required": true,
+                "order": 0,
+                "defaultValue": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
+```
+
+---
+
+## 5. rules
+
+| Feld                | Typ     | Beschreibung                               | Pflicht      |
+| ------------------- | ------- | ------------------------------------------ | ------------ |
+| `id`                | string  | Eindeutige ID der Regel                    | optional     |
+| `label`             | string  | Anzeigename                                | optional     |
+| `name`              | string  | Interner Name der Regel                    | optional     |
+| `actions`           | array   | Liste der auszuführenden Aktionen          | erforderlich |
+| `conditions`        | array   | Bedingungen, wann die Regel ausgelöst wird | optional     |
+| `isDisabled`        | boolean | Regel ist deaktiviert, wenn true           | optional     |
+| `customizationType` | string  | Art der Anpassung                          | optional     |
+
+### Beispiel
+
+```json
+"rules": [
+  {
+    "id": "string",
+    "label": "string",
+    "name": "string",
+    "actions": [
+      {
+        "actionType": "string",
+        "targetField": "string",
+        "value": "string"
+      }
+    ],
+    "conditions": [
+      {
+        "conditionType": "string",
+        "field": "string",
+        "value": "string",
+        "groupNameToIdValue": "string"
+      }
+    ],
+    "isDisabled": true,
+    "customizationType": "string"
+  }
+]
+```
+
+---
+
+## 6. cards
+
+| Feld        | Typ   | Beschreibung                                               | Pflicht      |
+| ----------- | ----- | ---------------------------------------------------------- | ------------ |
+| `fields`    | array | Liste der Felder, die auf der Board-Karte angezeigt werden | erforderlich |
+| `cardRules` | array | Visuelle Anpassungen je nach Bedingungen                   | optional     |
+
+### Beispiel
+
+```json
+"cards": {
+  "fields": ["string"],
+  "cardRules": [
+    {
+      "filter": "string",
+      "name": "string",
+      "isEnabled": "string",
+      "settings": {
+        "background-color": "string",
+        "title-color": "string",
+        "title-font-weight": "string"
+      }
+    }
+  ]
+}
+```
+
+---
+
+## 7. templates
+
+| Feld               | Typ    | Beschreibung               | Pflicht      |
+| ------------------ | ------ | -------------------------- | ------------ |
+| `id`               | string | UUID der Vorlage           | erforderlich |
+| `name`             | string | Name der Vorlage           | erforderlich |
+| `description`      | string | Zweck der Vorlage          | optional     |
+| `workItemTypeName` | string | Zugehöriger Work Item Type | erforderlich |
+| `fields`           | object | Standardwerte der Felder   | optional     |
+
+### Beispiel
+
+```json
+"templates": [
+  {
+    "id": "uuid",
+    "name": "string",
+    "description": "string",
+    "workItemTypeName": "string",
+    "fields": {
+      "field1": "value",
+      "field2": "value"
+    }
+  }
+]
+```
+
+---
+
+## 8. states
+
+| Feld            | Typ     | Beschreibung                                | Pflicht      |
+| --------------- | ------- | ------------------------------------------- | ------------ |
+| `id`            | string  | UUID des Status                             | erforderlich |
+| `name`          | string  | Anzeigename des Status                      | erforderlich |
+| `color`         | string  | Statusfarbe (Hex)                           | optional     |
+| `stateCategory` | string  | Kategorie (Proposed, InProgress, Completed) | erforderlich |
+| `order`         | integer | Reihenfolge im Workflow                     | optional     |
+
+### Beispiel
+
+```json
+"states": [
+  {
+    "id": "uuid",
+    "name": "string",
+    "color": "string",
+    "stateCategory": "string",
+    "order": 0
+  }
+]
+```
+
+---
+
+## 9. boardColumns
+
+| Feld            | Typ     | Beschreibung                                  | Pflicht      |
+| --------------- | ------- | --------------------------------------------- | ------------ |
+| `id`            | string  | ID der Spalte                                 | optional     |
+| `name`          | string  | Name der Spalte                               | erforderlich |
+| `updateColumn`  | string  | Update-Spalte                                 | optional     |
+| `order`         | integer | Position der Spalte                           | erforderlich |
+| `itemLimit`     | integer | WIP-Limit                                     | optional     |
+| `isSplit`       | boolean | Spalte in Doing/Done teilen                   | optional     |
+| `stateMappings` | object  | Mapping von Work Item States zu dieser Spalte | optional     |
+| `columnType`    | string  | Spaltenverhalten                              | optional     |
+
+### Beispiel
+
+```json
+"boardColumns": [
+  {
+    "id": "string",
+    "name": "string",
+    "updateColumn": "string",
+    "order": 0,
+    "itemLimit": 0,
+    "isSplit": true,
+    "stateMappings": {
+      "Bug": "Resolved",
+      "User Story": "Ready for Test"
+    },
+    "columnType": "string"
+  }
+]
+```
+
+---
+
+## 10. renameTaskBoardColumns
+
+| Feld            | Typ     | Beschreibung                           | Pflicht      |
+| --------------- | ------- | -------------------------------------- | ------------ |
+| `id`            | string  | ID der Spalte                          | optional     |
+| `name`          | string  | Neuer Name der Spalte                  | erforderlich |
+| `renameFrom`    | string  | Alter Name der Spalte                  | erforderlich |
+| `order`         | integer | Reihenfolge                            | optional     |
+| `mapping`       | array   | Mapping von Work Item Types und States | optional     |
+| `itemLimit`     | integer | WIP-Limit                              | optional     |
+| `updateColumn`  | string  | Update-Spalte                          | optional     |
+| `isSplit`       | boolean | Spalte teilen                          | optional     |
+| `description`   | string  | Beschreibung                           | optional     |
+| `columnType`    | string  | Spaltenverhalten                       | optional     |
+| `stateMappings` | object  | State zu Spalten Mappings              | optional     |
+
+### Beispiel
+
+```json
+"renameTaskBoardColumns": [
+  {
+    "id": "string",
+    "name": "string",
+    "renameFrom": "string",
+    "order": 0,
+    "mapping": [
+      {
+        "workItemType": "string",
+        "state": "string"
+      }
+    ],
+    "itemLimit": 0,
+    "updateColumn": "string",
+    "isSplit": true,
+    "description": "string",
+    "columnType": "string",
+    "stateMappings": {
+      "additionalProp1": "string"
+    }
+  }
+]
+```
+
+---
+
+## 11. extensions
+
+| Feld          | Typ    | Beschreibung                 | Pflicht      |
+| ------------- | ------ | ---------------------------- | ------------ |
+| `publisherId` | string | Publisher-ID der Erweiterung | erforderlich |
+| `extensionId` | string | ID der Erweiterung           | erforderlich |
+
+### Beispiel
+
+```json
+"extensions": [
+  {
+    "publisherId": "string",
+    "extensionId": "string"
+  }
+]
+```
+
+---
+
+## 12. boardSwimlanes
+
+| Feld             | Typ   | Beschreibung                                 | Pflicht  |
+| ---------------- | ----- | -------------------------------------------- | -------- |
+| `boardSwimlanes` | array | Liste von benutzerdefinierten Swimlane-Namen | optional |
+
+### Beispiel
+
+```json
+"boardSwimlanes": [
+  "string"
+]
+```
+---
+
+## ConfigMap Process-modification "alpaca-example"
+
+This example shows a minimal yet functional process modification:
+
+- Adds new fields: **"Documentation Title"** and **"Documentation Status"**.
+- Requires "Documentation Status" when the state is `Closed`.
+- Introduces two new states: `Blocked` and `Ready`.
+
+### Example ConfigMap
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: process-modifications
+  annotations:
+    selfservice.cosmoconsult.com/target-namespaces: $all
+data:
+  process-modifcations: |-
+    {
+    "description": "(Alpaca example) Adds documentation fields, a mandatory rule, and new states",
+    "name": "alpaca-example-customization",
+    "owner": "alpaca@example.com"
+        "procModProcess": {
+        "name": "ExampleProcess",
+        "workItemTypes": [
+            {
+            "name": "User Story",
+            "pages": [
+                {
+                "label": "Documentation",
+                "sections": [
+                    {
+                    "name": "Section1",
+                    "groups": [
+                        {
+                        "label": "Documentation Group",
+                        "controls": [
+                            {
+                            "type": 1,
+                            "label": "Documentation Title",
+                            "name": "Documentation Title"
+                            },
+                            {
+                            "type": 1,
+                            "label": "Documentation Status",
+                            "name": "Documentation Status",
+                            "itemsForPicklist": [
+                                "Not necessary",
+                                "Awaiting feedback",
+                                "Done"
+                            ]
+                            }
+                        ]
+                        }
+                    ]
+                    }
+                ]
+                }
+            ],
+            "rules": [
+                {
+                "name": "Require Documentation Status on Close",
+                "isDisabled": false,
+                "conditions": [
+                    {
+                    "conditionType": "when",
+                    "field": "System.State",
+                    "value": "Closed"
+                    }
+                ],
+                "actions": [
+                    {
+                    "actionType": "makeRequired",
+                    "targetField": "Custom.DocumentationStatus",
+                    "value": ""
+                    }
+                ]
+                }
+            ],
+            "states": [
+                {
+                "name": "Blocked",
+                "stateCategory": "Proposed",
+                "color": "db552c",
+                "order": 2
+                },
+                {
+                "name": "Ready",
+                "stateCategory": "Proposed",
+                "color": "cccccc",
+                "order": 3
+                }
+            ]
+            }
+        ]
+        },
+    }
+```
+
