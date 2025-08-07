@@ -226,7 +226,7 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 | `description`              | string | Description of the customization purpose                             | required |
 | `owner`                    | string | Responsible team or contact                                          | required |
 | `procModProcess`           | object | Main definition of the process                                       | required |
-| `procModProcessCompressed` | string | Optional: Base64-compressed representation as an alternative to JSON | optional |
+| `procModProcessCompressed` | string | Compressed version of the procModProcess (not available) | optional |
 
 ### Example
 
@@ -522,7 +522,7 @@ This configuration can be stored in a **Kubernetes ConfigMap** (see alpaca-examp
 
 ---
 
-## 10. renameTaskBoardColumns
+## 10. renameTaskBoardColumns (not available)
 
 | Field           | Type    | Description                           | Required |
 | --------------- | ------- | ------------------------------------- | -------- |
