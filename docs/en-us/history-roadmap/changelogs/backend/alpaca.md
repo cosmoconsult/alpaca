@@ -8,9 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
-## unreleased
+## v0.46.1 (2025-08-07)
 
 - Fix containers always using default BC artifact values (e.g. country "w1")
+
+## v0.46.0 (2025-08-07)
 
 ## v0.45.0 (2025-08-05)
 
