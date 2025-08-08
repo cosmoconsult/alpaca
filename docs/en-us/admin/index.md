@@ -204,7 +204,7 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 
 A **Process Modification Object** defines how to customize an **Azure DevOps process**. It allows you to extend or modify one or more **Work Item Types (WITs)** with custom fields, layouts, states, rules, and more.
 
-Customers, who want to create new process-modifications, should create a ConfigMap named `process-modification` and add the modifications under the `data` section. This ConfigMap should be placed in the customer configuration repository.
+Customers, who want to create new process-modifications, should create a ConfigMap (see [alpaca-example](#configmap-process-modification-alpaca-example)) named `process-modification` and add the modifications under the `data` section. This ConfigMap should be placed in the customer configuration repository.
 
 ### Main Components:
 
@@ -224,7 +224,7 @@ Customers, who want to create new process-modifications, should create a ConfigM
 | -------------------------- | ------ | -------------------------------------------------------------------- | -------- |
 | `name`                     | string | Unique name of the configuration                                     | required |
 | `description`              | string | Description of the customization purpose                             | required |
-| `owner`                    | string | Responsible team or contact                                          | required |
+| `owner`                    | string | Responsible team or contact mail                                          | required |
 | `procModProcess`           | object | Main definition of the process                                       | required |
 | `procModProcessCompressed` | string | Compressed version of the procModProcess (not available) | optional |
 
@@ -234,9 +234,9 @@ Customers, who want to create new process-modifications, should create a ConfigM
 {
   "procModProcess": {},
   "procModProcessCompressed": "string",
-  "description": "string",
-  "name": "string",
-  "owner": "string"
+  "description": "Process modifications description",
+  "name": "process-sample",
+  "owner": "owner@sample.com"
 }
 ```
 
@@ -246,18 +246,19 @@ Customers, who want to create new process-modifications, should create a ConfigM
 
 | Field           | Type   | Description                    | Required |
 | --------------- | ------ | ------------------------------ | -------- |
-| `id`            | string | Optional: Process ID           | optional |
 | `name`          | string | Internal name of the process   | required |
-| `label`         | string | Display name of the process    | required |
 | `workItemTypes` | array  | List of Work Item Types (WITs) | required |
+| `id`            | string | Optional: Process ID           | optional |
+| `label`         | string | Display name of the process    | optional |
+
 
 ### Example
 
 ```json
 {
-  "id": "string",
-  "name": "string",
-  "label": "string",
+  "id": "id-123-optional",
+  "name": "name-of-process",
+  "label": "label-of-process-optional",
   "workItemTypes": []
 }
 ```
@@ -270,7 +271,7 @@ Customers, who want to create new process-modifications, should create a ConfigM
 | ----------- | ------ | ---------------------------------------------------- | -------- |
 | `id`        | string | Optional: WIT ID                                     | optional |
 | `name`      | string | Internal name of the work item type (e.g., Bug)      | required |
-| `label`     | string | Display name of the WIT                              | required |
+| `label`     | string | Display name of the WIT                              | optional |
 | `color`     | string | Hex color code for visualization                     | optional |
 | `icon`      | string | Azure DevOps icon name                               | optional |
 | `pages`     | array  | Layout definition (tabs, sections, groups, controls) | optional |
@@ -284,18 +285,18 @@ Customers, who want to create new process-modifications, should create a ConfigM
 ```json
 [
   {
-    "id": "string",
-    "name": "string",
-    "label": "string",
-    "color": "string",
-    "icon": "string",
+    "id": "WIT-Id-optional",
+    "name": "User Story",
+    "label": "User Story",
+    "color": "color-optional",
+    "icon": "icon-optional",
     "pages": [],
     "rules": [],
     "cards": {},
     "templates": [],
     "states": []
   }
-]
+]   
 ```
 
 ---
