@@ -23,13 +23,12 @@ Customers, who want to create new process-modifications, should create a ConfigM
 
 ## Root Object
 
-| Field                      | Type   | Description                                              | Required |
-| -------------------------- | ------ | -------------------------------------------------------- | -------- |
-| `name`                     | string | Unique name of the configuration                         | required |
-| `description`              | string | Description of the customization purpose                 | required |
-| `owner`                    | string | Responsible team or contact mail                         | required |
-| `procModProcess`           | object | Main definition of the process                           | required |
-| `procModProcessCompressed` | string | Compressed version of the procModProcess (not available) | optional |
+| Field            | Type   | Description                              | Required |
+| ---------------- | ------ | ---------------------------------------- | -------- |
+| `name`           | string | Unique name of the configuration         | required |
+| `description`    | string | Description of the customization purpose | required |
+| `owner`          | string | Responsible team or contact mail         | required |
+| `procModProcess` | object | Main definition of the process           | required |
 
 #### Example
 
@@ -50,8 +49,6 @@ Customers, who want to create new process-modifications, should create a ConfigM
 | --------------- | ------ | ------------------------------ | -------- |
 | `name`          | string | Internal name of the process   | required |
 | `workItemTypes` | array  | List of Work Item Types (WITs) | required |
-| `id`            | string | Optional: Process ID           | optional |
-| `label`         | string | Display name of the process    | optional |
 
 #### Example
 
@@ -68,11 +65,7 @@ Customers, who want to create new process-modifications, should create a ConfigM
 
 | Field       | Type   | Description                                          | Required |
 | ----------- | ------ | ---------------------------------------------------- | -------- |
-| `id`        | string | Optional: WIT ID                                     | optional |
 | `name`      | string | Internal name of the work item type (e.g., Bug)      | required |
-| `label`     | string | Display name of the WIT                              | optional |
-| `color`     | string | Hex color code for visualization                     | optional |
-| `icon`      | string | Azure DevOps icon name                               | optional |
 | `pages`     | array  | Layout definition (tabs, sections, groups, controls) | optional |
 | `rules`     | array  | Business rules (rules for fields/behavior)           | optional |
 | `cards`     | object | Card layout and color rules                          | optional |
