@@ -7,9 +7,7 @@
 
 > **Note:** If you want to learn more about how to define and structure customizations for Azure DevOps processes – including adding fields, modifying layouts, defining rules, and managing states – please refer to the dedicated [**Process Modification documentation**](/docs/en-us/vsc-extension/process-modification.md).
 
-# [**GitHub (AL-Go)**](#tab/github)
-
-WIP
+> **Note:** this function is only available for Azure DevOps projects
 
 # [**Azure DevOps**](#tab/azdevops)
 
