@@ -20,20 +20,20 @@ The idea for the IP artifacts is to enable pipelines and the self-service to con
 
 The name, organization and PAT must be stored as secrets:
 
-|Name|Value|
-|-|-|
-|`ipartifacts__organization`|The name of the organization|
-|`ipartifacts__feed`|The name of you feed|
-|`ipartifacts__pat`|The PAT of a dummy user that has read access to the feed|
+| Name                        | Value                                                    |
+| --------------------------- | -------------------------------------------------------- |
+| `ipartifacts__organization` | The name of the organization                             |
+| `ipartifacts__feed`         | The name of you feed                                     |
+| `ipartifacts__pat`          | The PAT of a dummy user that has read access to the feed |
 
 A package in the artifact feed must have the following folder structure:
 
-|Folder|Content|
-|-|-|
-|`"app"`|app file of the main app|
-|`"test"`|app file of the test app|
-|`"runtime"`|app file of the runtime package|
-|`"rapidstart"`|the rapidstart package belonging to the app|
+| Folder         | Content                                     |
+| -------------- | ------------------------------------------- |
+| `"app"`        | app file of the main app                    |
+| `"test"`       | app file of the test app                    |
+| `"runtime"`    | app file of the runtime package             |
+| `"rapidstart"` | the rapidstart package belonging to the app |
 
 ![Folder Structure](../media/pipelines/ip-feed-folder-structure.png)
 
@@ -90,7 +90,7 @@ if ($switchUsers) {
 $ids = Create-AadAppsForBC -appIdUri $appIdUri -publicWebBaseUrl "$backendUrl/BC" -useCurrentAzureAdConnection -SingleTenant -IncludeExcelAadApp -IncludePowerBiAadApp -IncludeEmailAadApp -IncludeApiAccess
 
 # add the created app ids
-foreach ($key in $ids.Keys) 
+foreach ($key in $ids.Keys)
 {
     $secretName = "AAD-Auth--$key"
     Write-Host "Secret $secretName=$($ids[$key])"
@@ -136,7 +136,7 @@ The following values can be customized in the ConfigMap:
 - `idRangesTo`
 - `logo` (URL that will be downloaded as a file into the repository that is created)
 
-### Example ConfigMap
+#### Example ConfigMap
 
 ```yaml
 apiVersion: v1
@@ -163,25 +163,25 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 
 ### Parameters
 
-|Setting|Description|
-|-|-|
-|`HasWiki`|Sets whether to enable the wiki for the repository.|
-|`HasIssues`|Sets whether to enable issues for the repository.|
-|`AllowForking`|Sets whether to allow this repository to be forked or not. **(only supported on organization-owned repositories)**|
-|`HasDiscussions`|Sets whether to enable discussions for the repository.|
-|`HasProjects`|Sets whether to enable projects for the repository.|
-|`AllowMergeCommit`|Allows the "Create a merge commit" merge method to be used.|
-|`AllowSquashMerge`|Allows the "Squash Merge" merge method to be used.|
-|`UseSquashPrTitleAsDefault`|Automatically set the title of squashed commits to be the PR title.|
-|`AllowRebaseMerge`|Allows the "Rebase and Merge" method to be used.|
-|`AllowUpdateBranch`|Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging.|
-|`AllowAutoMerge`|Allows the auto merge feature to be used.|
-|`DeleteBranchOnMerge`|Automatically delete branches on PR merge.|
+| Setting                     | Description                                                                                                                                                      |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HasWiki`                   | Sets whether to enable the wiki for the repository.                                                                                                              |
+| `HasIssues`                 | Sets whether to enable issues for the repository.                                                                                                                |
+| `AllowForking`              | Sets whether to allow this repository to be forked or not. **(only supported on organization-owned repositories)**                                               |
+| `HasDiscussions`            | Sets whether to enable discussions for the repository.                                                                                                           |
+| `HasProjects`               | Sets whether to enable projects for the repository.                                                                                                              |
+| `AllowMergeCommit`          | Allows the "Create a merge commit" merge method to be used.                                                                                                      |
+| `AllowSquashMerge`          | Allows the "Squash Merge" merge method to be used.                                                                                                               |
+| `UseSquashPrTitleAsDefault` | Automatically set the title of squashed commits to be the PR title.                                                                                              |
+| `AllowRebaseMerge`          | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
+| `AllowUpdateBranch`         | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
+| `AllowAutoMerge`            | Allows the auto merge feature to be used.                                                                                                                        |
+| `DeleteBranchOnMerge`       | Automatically delete branches on PR merge.                                                                                                                       |
 
 > [!NOTE]
 > All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
 
-### Example
+#### Example
 
 ```json
 {
