@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.52.0 (2025-08-13)
+
+- Move to new Alpaca-API endpoints & models
+
 ## v0.51.0 (2025-08-07)
 
 - Update Alpaca API clients
