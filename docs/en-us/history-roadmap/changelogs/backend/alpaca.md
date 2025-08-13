@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.48.0 (2025-08-13)
+
+- introduce container type, add IDs to GitHub models
+
+## v0.47.0 (2025-08-07)
+
+- Add process customizations to configs
+
 ## v0.46.1 (2025-08-07)
 
 - Fix containers always using default BC artifact values (e.g. country "w1")
