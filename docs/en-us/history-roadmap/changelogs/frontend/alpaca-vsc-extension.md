@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.53.0 (2025-08-13)
+
+- Add function to create projects
+  
 ## v0.52.0 (2025-08-13)
 
 - Move to new Alpaca-API endpoints & models
