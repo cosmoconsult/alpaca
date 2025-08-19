@@ -49,10 +49,10 @@ If you want to use AAD authentication, so that e.g. users can log in to Business
 $tenantName = "<your tenant name>"
 
 # the base URL of your backend
-$backendUrl = "https://<your backend id>.<your region>.cloudapp.azure.com"
+$backendUrl = "https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com"
 
 # prefix for the appIdUri. You only need to change this if you have multiple backends for your AD tenant. In that case, each one needs a different prefix
-$appIdUriPrefix = "selfservice"
+$appIdUriPrefix = "alpaca"
 
 # if you need to switch users between creating / changing app registrations, set this to $true. This could also be needed, if you create the app registrations in a different tenant
 $switchUsers = $true
@@ -89,7 +89,7 @@ if ($switchUsers) {
 # create AAD apps
 $ids = Create-AadAppsForBC -appIdUri $appIdUri -publicWebBaseUrl "$backendUrl/BC" -useCurrentAzureAdConnection -SingleTenant -IncludeExcelAadApp -IncludePowerBiAadApp -IncludeEmailAadApp -IncludeApiAccess
 
-# add the created app ids
+# print relevant secrets for later configuration
 foreach ($key in $ids.Keys)
 {
     $secretName = "AAD-Auth--$key"
@@ -114,7 +114,7 @@ az ad app update --id "$($ids.SsoAdAppId)" --add replyUrls "$backendUrl/*"
 
 Please note that you need to adapt the first couple of lines to your backend and can run it afterwards. Please also note that you will need permissions to create and modify app registrations.
 
-If everything works as expected, then you will see 13 new secrets that need to be synced to your backend, all starting with `AAD-Auth--` as well as 5 new app registrations in your Azure Portal, all ending with `for https://<your-backend>/BC/`. The backend services will take some minutes to pick up the change.
+If everything works as expected, the script will print 13 secrets that need to be added to a configuration file (please contact the Alpaca support). You should also get 5 new app registrations in your Azure Portal, all ending with `for https://cosmo-alpaca-enterprise.westeurope.cloudapp.azure.com/BC/`.
 
 If you want to better understand which app registrations exactly are generated, you can check the [sources](https://github.com/microsoft/navcontainerhelper/blob/master/AzureAD/Create-AadAppsForNav.ps1). This script only adds wildcard reply URLs which is not strictly recommended, but the app registrations are limited to users from your own tenant, we deemed it an acceptable risk. The alternative would have been to create a Service Principal with the necessary permissions to create potentially those five app registrations for every container, which also isn't a great solution.
 
