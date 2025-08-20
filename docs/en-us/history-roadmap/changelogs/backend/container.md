@@ -8,7 +8,7 @@
 
 All notable changes to the Container Backend
 
-## v1.70.0 (2025-08-14)
+## v1.70.0 (2025-08-20)
 
 - Add "au" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4436)
 
