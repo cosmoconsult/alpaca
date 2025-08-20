@@ -7,6 +7,13 @@
 # Azure DevOps Backend Changelog
 
 All notable changes to the Azure DevOps Backend
+## v1.51.0 (2025-08-20)
+
+- Update service endpoint name retrieval to support new format (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4428/)
+
+## v1.50.0 (2025-08-18)
+
+- Allow default namespace for trial (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4434/)
 
 ## v1.49.0 (2025-07-29)
 
