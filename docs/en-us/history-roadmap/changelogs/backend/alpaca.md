@@ -11,6 +11,7 @@ All notable changes to the Alpaca Backend
 ## v0.49.0 (2025-08-19)
 
 - Add endpoint for project creation
+- Update dependency packages
 
 ## v0.48.0 (2025-08-13)
 

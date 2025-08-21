@@ -11,6 +11,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## v0.53.0 (2025-08-19)
 
 - Add function to create projects
+- Update dependency packages
   
 ## v0.52.0 (2025-08-13)
 
