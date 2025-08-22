@@ -11,6 +11,8 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## v0.53.0 (2025-08-19)
 
 - Add function to create projects
+- Fix SSH key permission error on Windows when opening terminal or file share ([related change](azdevops-vscode-extension.md#v1350-2025-07-22))
+- Cache expiration is now configurable: `cosmo-alpaca.cacheExpirationHours` ([related change](azdevops-vscode-extension.md#v1360-2025-07-25))
 - Update dependency packages
   
 ## v0.52.0 (2025-08-13)
