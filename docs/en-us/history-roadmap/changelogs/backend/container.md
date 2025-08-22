@@ -8,6 +8,14 @@
 
 All notable changes to the Container Backend
 
+## v1.70.0 (2025-08-20)
+
+- Add "au" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4436)
+
+## v1.69.0 (2025-08-14)
+
+- Update BuildBcContainerDeadline to stop build bc containers after 4 hours per default (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4430/)
+
 ## v1.68.1 (2025-08-04)
 
 - Fix issue where the auto-stop configuration of a container was reset to the default values when starting the container (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4423)
