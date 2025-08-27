@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.53.0 (2025-08-27)
+## v0.52.1 (2025-08-27)
 
 - Fix issue when creating launch.json
 
