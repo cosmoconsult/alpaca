@@ -5,10 +5,6 @@
 
 # Status & Health
 
-## BC27 Webclient issue
-
-With BC27 there's currently an issue that prevents to open the webclient. We reported the issue to Microsoft and hope for a timely solution: https://github.com/microsoft/navcontainerhelper/issues/3997
-
 ## Performance Issues BC24+
 
 Starting with **BC24** Microsoft switched the managment console from Powershell 5 to Powershell 7.
