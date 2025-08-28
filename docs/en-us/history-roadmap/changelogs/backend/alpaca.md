@@ -8,9 +8,20 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.49.0 (2025-08-28)
+
+- Add endpoint for project creation
+- Refactor Kubernetes label value validation and normalization
+- Restore BcArtifact default values (were previously removed with [v0.46.1](#v0461-2025-08-07))
+- Update dependency packages
+
+## v0.48.1 (2025-08-14)
+
+- Remove all forward and back slashes from the start and end of snippet group names
+
 ## v0.48.0 (2025-08-13)
 
-- introduce container type, add IDs to GitHub models
+- Introduce container type, add IDs to GitHub models
 
 ## v0.47.0 (2025-08-07)
 
