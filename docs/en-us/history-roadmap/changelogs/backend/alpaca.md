@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.49.0 (2025-08-19)
+## v0.49.0 (2025-08-28)
 
 - Add endpoint for project creation
 - Refactor Kubernetes label value validation and normalization
