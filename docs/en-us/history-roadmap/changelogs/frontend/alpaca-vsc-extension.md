@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.54.0 (2025-08-29)
+
+- Migrate container execution and logging operations from Container API to Alpaca API
+- Add new container actions: base app preparation, NAV/BC server instance restart and event log download
+- Implement container selection functionality for operations that don't have a specific container context
+- Internal improvements
+- Update Alpaca API client
+
 ## v0.53.0 (2025-08-28)
 
 - Add function to create projects
@@ -25,12 +33,12 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.51.0 (2025-08-07)
 
-- Update Alpaca API clients
+- Update Alpaca API client
 - Add function to customize Azure DevOps processes
   
 ## v0.50.1 (2025-07-24)
 
-- Update Alpaca API clients
+- Update Alpaca API client
 - Update dependency packages
 
 ## v0.50.0 (2025-07-10)
@@ -38,7 +46,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 - Fetch Azure DevOps repositories and branches from new Alpaca API endpoints
 - Add action to clone an Azure DevOps repository
 - Show Containers for Azure DevOps repositories and branches
-- Update Alpaca API clients
+- Update Alpaca API client
 - Update dependency packages
 
 ## v0.49.0 (2025-07-09)
