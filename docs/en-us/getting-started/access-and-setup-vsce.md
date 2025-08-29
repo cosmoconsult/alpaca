@@ -62,8 +62,6 @@ The **Functional View** is divided into two main sections: **Organizations** and
   ![Project options](../media/vscode.dev/vscode-browser-project-opts.png)
 
 
-
-
 # [**GitHub (AL-Go)**](#tab/github)
 
 ## Installation
