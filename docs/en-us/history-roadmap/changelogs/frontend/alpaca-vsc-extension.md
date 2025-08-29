@@ -15,6 +15,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 - Implement container selection functionality for operations that don't have a specific container context
 - Internal improvements
 - Update Alpaca API client
+- Update README (add Azure DevOps features)
 
 ## v0.53.0 (2025-08-28)
 
