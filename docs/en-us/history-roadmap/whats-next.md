@@ -29,9 +29,13 @@ Here you will find what we are currently working on and what is planned for the 
 ## Power App
 
 > [!NOTE]
-> We will not continue to develop the Power App. We will keep it running until the new solution is fully ready and supports the main features of the Power App (Demo & Pull Request Containers, etc.)
-> The new solution will be the new Visual Studio Code Extension, which we are currently working on. It can be used on `vscode.dev` also by non-technical people by providing a simplified user interface.
-> By using the new extension as our central frontend for all users, we can completly focus on the development of one solution. This will allow us to provide new features and improvements faster.
+> We will not continue to develop the Power App. It will remain available until the new solution is fully ready and supports the main features of the Power App (Demo & Pull Request Containers, etc.).
+>
+> The new solution is the Visual Studio Code Extension, which is currently under development. It offers a simplified user interface for non-technical users and can be used on `vscode.dev`.
+>
+> By making the new extension our central frontend, we can focus development on a single solution and deliver new features and improvements more quickly.
+>
+> For installation instructions, see the [Visual Studio Code Extension setup guide](../getting-started/vscode-dev.md).
 
 # Backend
 
