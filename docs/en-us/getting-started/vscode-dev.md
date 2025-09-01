@@ -13,7 +13,7 @@ With the **browser-based version** of Visual Studio Code available at [vscode.de
 For advanced development workflows, and full extension capabilities, we recommend using the local installation of Visual Studio Code. The browser edition is ideal for quick access and non-technical roles, but developers will benefit more form local installation version.
 
 
-> **New Feature:** The well-known **PowerApps functions** are now integrated into the extension. You can directly manage projects and entities in COSMO Alpaca: *Customize Project, Create Project, Assign Entity.*
+> **New Feature:** Most of the well-known **PowerApps functions** are now integrated into the extension. You can directly manage projects and entities in COSMO Alpaca: *Customize Project, Create Project, Assign Entity.*
 > This ensures both technical and non-technical users can work seamlessly in one tool.
 
 ---
