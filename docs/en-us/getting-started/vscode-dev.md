@@ -1,6 +1,6 @@
 ---
-    title: Cosmo Alpaca Browser edition
-    description: Cosmo Alpaca Browser edition
+    title: COSMO Alpaca Browser edition
+    description: COSMO Alpaca Browser edition
 ---
 
 # COSMO Alpaca – Browser Edition
@@ -52,10 +52,13 @@ For advanced development workflows, and full extension capabilities, we recommen
 The **Functional View** is divided into two main sections: **Organizations** and **Containers**.
 
 * In the **Organizations** section, all organizations are listed.
+
   ![Organizations view](../media/vscode.dev/vscode-browser-orgs.png)
 
 * Right-click an organization to access available functions (e.g., *Create Project*, *Assign Entity*).
+
   ![Organization options](../media/vscode.dev/vscode-browser-orgs-opts.png)
 
 * Projects are listed under each organization. Right-clicking on a project displays its available functions.
+
   ![Project options](../media/vscode.dev/vscode-browser-project-opts.png)

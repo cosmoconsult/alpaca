@@ -11,10 +11,6 @@ Here you will find what we are currently working on and what is planned for the 
 
 # General
 
-> [!CAUTION]
-> Shutdown of Docker Swarm as of **June 30, 2025** ([Announcement](https://engage.cloud.microsoft/main/org/cosmoconsult.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzA3OTUwMTk5ODgwOTA4OCJ9?trk_copy_link=V2))\
-> This means that COSMO Alpaca will no longer support BC14 and older versions.
-
 - Update documenation and remove outdated information (e.g. Docker Swarm specifics)
 
 # Frontend
@@ -23,7 +19,6 @@ Here you will find what we are currently working on and what is planned for the 
 
 - Reimplement the whole extension and adding support for [AL-Go for GitHub](https://github.com/microsoft/AL-Go) ([Preview](https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-alpaca))\
   (The new extensions currenly provides mainly GitHub functionality, but we are adding the known Azure DevOps features step by step.)
-- Add a new simplified user interface for non-technical people to use the extension on `vscode.dev`
 - 1-Click install product package in container ([COSMO Improve](https://improve.cosmoconsult.com/ideas/I-0162))
 
 ## Power App
@@ -31,7 +26,7 @@ Here you will find what we are currently working on and what is planned for the 
 > [!NOTE]
 > We will not continue to develop the Power App. It will remain available until the new solution is fully ready and supports the main features of the Power App (Demo & Pull Request Containers, etc.).
 >
-> The new solution is the Visual Studio Code Extension, which is currently under development. It offers a simplified user interface for non-technical users and can be used on `vscode.dev`.
+> The new solution is the Visual Studio Code Extension, which is currently under development. It offers a simplified user interface for non-technical users and can be used on [vscode.dev](https://vscode.dev).
 >
 > By making the new extension our central frontend, we can focus development on a single solution and deliver new features and improvements more quickly.
 >

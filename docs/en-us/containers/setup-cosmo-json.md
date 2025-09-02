@@ -63,14 +63,16 @@ You can define additional configurations like e.g. one which imports RapidStart 
 
 # [**Azure DevOps**](#tab/azdevops)
 
-The `cosmo.json` define the used artifacts during setup of development & build containers.
+The `cosmo.json` is  located in `.devops/cosmo.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **build containers** are automatically created by the pipeline runs to publish compiled apps and run automated tests on them.
 
 A container is created and used as:
 
 * `build` ... Build Container in CI
 * `dev`   ... Development / Demo Container
 
-`"artifacts"` as well as `"devopsArtifacts"` can be specified global or in a specific `"bcArtifacts"` (`"current"`, `nextMinor`, `nextMajor`) configuration. Specific artifacts will be merged with global artifacts. Additionally the `"previousRelease"` can be specified in the global configuration. The `"previousRelease"` is a feed artifact and has the corresponding properties. The `"previousRelease"` option is **mandatory** if you enable the breaking change evaluation in the AppSourceCop code analyzer and therefore pulled for all builds.
+`"artifacts"` as well as `"devopsArtifacts"` can be specified global or in a specific `"bcArtifacts"` container configuration (see [below](#container-configurations-1)). Specific artifacts will be merged with global artifacts. Additionally the `"previousRelease"` can be specified in the global configuration. The `"previousRelease"` is a feed artifact and has the corresponding properties. The `"previousRelease"` option is **mandatory** if you enable the breaking change evaluation in the AppSourceCop code analyzer and therefore pulled for all builds.
+
+A basic `cosmo.json` could look like the following:
 
 ```json
 {
@@ -125,6 +127,30 @@ A container is created and used as:
     // ...
 }
 ```
+
+## Container Configurations
+
+The objects under `bcArtifacts` define different configurations for your containers.
+
+By default you will have the following configurations:
+
+- `current`: The default configuration for all dev and build containers. It's automatically used when running a build pipeline.
+- `nextMajor`: The configuration for the next major BC version. It's automatically used when running the `Next Major` pipeline.
+- `nextMinor`: The configuration for the next minor BC version. It's automatically used when running the `Next Minor` pipeline.
+
+You can define additional configurations like e.g. one which imports RapidStart packages ore one with a backup. When [creating a new dev container](../vsc-extension/create-container.md) you can specify which configuration to use.
+
+### Parameters
+
+|Element|Type||Value|
+|-|-|-|-|
+|object name          |string|**mandatory**|The name of the configuration. This is used to identify the configuration when creating a new dev container (e.g. "current").|
+|`storageAccount`     |string|optional     |The name of the storage account to use for the BC artifact. This can be `bcartifacts` (default) or `bcinsider`.|
+|`type`               |string|optional     |The type of the BC artifact. This can be `sandbox` (default) or `onprem`.|
+|`version`            |string|optional     |The version of the BC artifact (e.g. `25`, `25.1`, `25.1.12345`). This will default to the latest version.|
+|`select`             |string|optional     |The [selector](https://github.com/microsoft/navcontainerhelper/blob/49da2c44a41e3671ed3d94c4d8e8362578eda520/Artifacts/Get-BCArtifactUrl.ps1#L12-L22) for the BC artifact. One of `latest`, `first`, `all`, `closest`, `secondToLastMajor`, `current`, `nextMinor`, `nextMajor`, `daily`, `weekly`.|
+|`country`            |string|optional     |The country of the BC artifact (e.g. `w1`, `de`, `fr`, ..). This will default to `w1`|
+|`artifacts`          |array |optional     |The artifacts to import during the startup of the container. See the [documentation](setup-artifacts.md).|
 
 ## Common Parameters
 
@@ -227,7 +253,7 @@ The additional deployment feeds are used in Product Development to deploy the sa
 
 ## Custom BC Service tier or Web server settings
 
-You can optionally set custom BC service tier or Web server settings within the cosmo.json in `customNavSettings` or `customWebSettings`. Those get applied to the dev or build container. The blocks take the following parameters:
+You can optionally set custom BC service tier or Web server settings within the `cosmo.json` in `customNavSettings` or `customWebSettings`. Those get applied to the dev or build container. The blocks take the following parameters:
 
 |Element|Type||Value|
 |-|-|-|-|

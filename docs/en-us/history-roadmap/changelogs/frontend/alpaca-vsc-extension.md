@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.54.1 (2025-09-02)
+
+- Fix an issue where a wrong authentication was reused from cache when switching views between GitHub and Azure DevOps
+
 ## v0.54.0 (2025-08-29)
 
 - Migrate container execution and logging operations from Container API to Alpaca API
