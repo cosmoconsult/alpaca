@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## (2025-09-04)
+
+- Added support for multiple projects with dependencies
+- Changed runner to ubuntu-latest for all custom jobs
+- Changed shell to pwsh for all custom jobs
+
 ## (2025-08-05)
 
 - Added update of AL-Go system files after all app creation workflows

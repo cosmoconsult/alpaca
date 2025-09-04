@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.1.0 (2025-09-04)
+
+- Added support for multiple projects with dependencies
+
 ## v2.0.0 (2025-08-05)
 
 - Refactored scripts for custom workflow jobs of repository Alpaca-PTE as actions
