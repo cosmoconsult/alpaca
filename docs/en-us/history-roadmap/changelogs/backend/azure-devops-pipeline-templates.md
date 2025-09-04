@@ -14,7 +14,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.39.0 (2025-08-20)
 
-- Use Build.TimeoutInMinutes for start agent (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4435/)
+- Use Build.TimeoutInMinutes for start agent (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4435)
 
 ## v2.38.0 (2025-08-06)
 
@@ -22,7 +22,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.37.0 (2025-07-28)
 
-- Fix missing artifact inheritance in the cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254/)
+- Fix missing artifact inheritance in the cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254)
 
 ## v2.36.0 (2025-07-28)
 
