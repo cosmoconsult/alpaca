@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.52.0
+
+- Add new process map endpoint to import the backlog from a source project
+
 ## v0.51.0 (2025-09-02)
 
 - Harmonize PowerShell execution within APIs
