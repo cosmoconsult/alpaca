@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.54.2 (2025-09-05)
+
+- Remove dependency on GitHub Actions extension to improve stability when switching contexts
+
 ## v0.54.1 (2025-09-02)
 
 - Fix an issue where a wrong authentication was reused from cache when switching views between GitHub and Azure DevOps
