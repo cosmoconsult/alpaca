@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.55.0
+
+- Add action to import the backlog from a source project
+
 ## v0.54.1 (2025-09-02)
 
 - Fix an issue where a wrong authentication was reused from cache when switching views between GitHub and Azure DevOps
