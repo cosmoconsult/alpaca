@@ -8,9 +8,9 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.40.0 (unreleased)
+## v2.39.1 (2025-09-08)
 
-- Add support for including external rulesets in local rulesets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4456)
+- Fix issue for including external rulesets in local rulesets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4456)
 
 ## v2.39.0 (2025-08-20)
 
