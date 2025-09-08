@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.74.2 (2025-09-08)
+
+- Fix issue where Azure DevOps pipeline agents were not created for release pipelines (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4460)
+
 ## v1.72.0 - v1.74.1 (2025-09-04)
 
 - Update Version of Azure DevOps dummy pipeline agent
