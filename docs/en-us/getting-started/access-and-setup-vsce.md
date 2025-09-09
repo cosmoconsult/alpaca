@@ -8,7 +8,7 @@
 One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](create-org.md) beforehand.
 
 > **Note:** The VS Code extension is therefore also easily usable by non-technical users in the browser via [vscode.dev](https://vscode.dev/).  
-> For a complete installation guide, see [VS Code in the browser](getting-started/vscode-dev.md).
+> For a complete installation guide, see [VS Code in the browser](vscode-dev.md).
 
 # [**GitHub (AL-Go)**](#tab/github)
 
@@ -37,7 +37,6 @@ Now you can make yourself familiar with the interface:
 1. The **GitHub** View let's you navigate through your Azure GitHub organizations, accounts, repositories and more.
 1. The **Containers** View shows you all your containers across all your organizations and accounts along with their state and details.
 1. The **Product Packages** View isn't currently implemented. In the future it will show shows product packages that you often need during development. The feed from which the packages are fetched will be configurable.
-
 
 # [**Azure DevOps**](#tab/azdevops)
 

@@ -8,6 +8,22 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.39.1 (2025-09-08)
+
+- Fix issue for including external rulesets in local rulesets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4456)
+
+## v2.39.0 (2025-08-20)
+
+- Use Build.TimeoutInMinutes for start agent (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4435)
+
+## v2.38.0 (2025-08-06)
+
+- Fix issue with download of dependencies with an empty AppId (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4414)
+
+## v2.37.0 (2025-07-28)
+
+- Fix missing artifact inheritance in the cosmo.json (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4254)
+
 ## v2.36.0 (2025-07-28)
 
 - Only do a shallow fetch when getting repositories (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4417)

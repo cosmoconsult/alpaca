@@ -8,6 +8,14 @@
 
 All notable changes to the NuGet Backend
 
+## v1.3.0 (2025-09-02)
+
+- Harmonize PowerShell execution within APIs
+
+## v1.2.4 (2025-08-29)
+
+- Better PowerShell error handling
+
 ## v1.2.3 (2025-04-25)
 
 - Update BcContainerHelper

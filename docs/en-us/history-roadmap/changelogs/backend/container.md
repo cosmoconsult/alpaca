@@ -8,6 +8,19 @@
 
 All notable changes to the Container Backend
 
+## v1.74.2 (2025-09-08)
+
+- Fix issue where Azure DevOps pipeline agents were not created for release pipelines (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4460)
+
+## v1.72.0 - v1.74.1 (2025-09-04)
+
+- Update Version of Azure DevOps dummy pipeline agent
+- Fix issue where project with long names or whitespaces in the name could no longer create Azure DevOps pipeline agents (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4453)
+
+## v1.71.0 (2025-09-04)
+
+- Add support for Node.js agents and support different agent images (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4450)
+
 ## v1.70.0 (2025-08-20)
 
 - Add "au" localization (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4436)

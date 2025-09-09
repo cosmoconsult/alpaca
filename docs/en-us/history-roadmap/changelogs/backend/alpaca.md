@@ -8,6 +8,19 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.52.0
+
+- Add new process map endpoint to import the backlog of another Azure DevOps project
+
+## v0.51.0 (2025-09-02)
+
+- Harmonize PowerShell execution within APIs
+
+## v0.50.0 (2025-08-29)
+
+- Add new container actions: get logs, execute scripts (DLL collection, base app preparation, restart NAV/BC server instance), retrieve event logs, and download files
+- Implement script execution with async status tracking and WebSocket-based command execution in containers
+
 ## v0.49.0 (2025-08-28)
 
 - Add endpoint for project creation

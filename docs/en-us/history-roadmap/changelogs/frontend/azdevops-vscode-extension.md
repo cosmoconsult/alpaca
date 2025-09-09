@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## Unreleased
+## v1.37.0 (2025-08-29)
 
 - Remove connection to legacy swarm (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4422)
 

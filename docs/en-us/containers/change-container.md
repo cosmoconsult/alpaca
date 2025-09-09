@@ -5,46 +5,60 @@
 
 # Change BC Version/Country
 
+If you want to change the major BC version, set up a specific BC version or change the localization of the containers used for build, development or testing, you have to modify a different configuration file whether you're using Alpaca with GitHub or Azure DevOps:
+
 # [**GitHub (AL-Go)**](#tab/github)
 
-WIP
+Locate the container configuration you want to change in the `containerConfigurations` section of the `alpaca.json`, e.g. `current`. There you will see an entry like this:
+
+```json
+{
+    "name": "current",
+    "inheritFromWorkflow": "Test Current"
+}
+```
+
+If you e.g. want to make sure you stay on release 24.2 and use the w1 version, you would change it like this:
+
+```json
+{
+    "name": "current",
+    "inheritFromWorkflow": "Test Current",
+    "version": "24.2",
+    "country": "w1"
+}
+```
+
+For the changes to take effect you need to commit and push the changes to the repository.
+When creating a new development container (see [create container](../vsc-extension/create-container.md)) or build container the new configuration will be applied automically.
+
+> [!NOTE]
+> Existing containers are not affected.
 
 # [**Azure DevOps**](#tab/azdevops)
 
-If you need to change the configuration of the containers used for build, development or test, e.g. because you want to change the major version, set up a specific version or change the localization, you take these steps:
-
-1. Click on File -> Open in VS Code
-1. Navigate to the base project folder of your AL project
-1. Navigate to the subfolder ".devops" and open the file "cosmo.json"
-
-In that file, the basic setup is included as well as the artifact used when the container starts (*see [setup artifacts](setup-artifacts.md)* for more information on the latter). If you want to change the version or country, go to `bcArtifacts` --> `current`. There you will see an entry like this:
+Locate the container configuration you want to change in the `bcArtifacts` section of the `cosmo.json`, e.g. `current`. There you will see an entry like this:
 
 ```json
 "current": {
-    "version": "17",
+    "version": "24",
     "type":    "onprem",
-    "country": "fr"
-},
+    "country": "de"
+}
 ```
 
-If you e.g. want to make sure you stay on release 17.2 and use the w1 version, you would change it like this:
+If you e.g. want to make sure you stay on release 24.2 and use the w1 version, you would change it like this:
 
 ```json
 "current": {
-    "version": "17.2",
+    "version": "24.2",
     "type":    "onprem",
     "country": "w1"
-},
+}
 ```
 
-For the changes to take effect for your dev containers you need to take the following steps:
+For the changes to take effect you need to commit and push the changes to the repository.
+When creating a new development container (see [create container](../vsc-extension/create-container.md)) or build container the new configuration will be applied automically.
 
-1. Reload in the COSMO Alpaca view to make the extension aware of your changes
-1. Create a new container (see [create container](../vsc-extension/create-container.md)) and probably also a new launch config *(see [launch-json](../vsc-extension/create-launch-json.md))*
-
-Any build or container created in the future will have the new configuration automatically. Existing containers are not affected.
-
-<video width="1280px" height="720px" controls>
-  <source src="../media/vsc-extension-change-container.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+> [!NOTE]
+> Existing containers are not affected.
