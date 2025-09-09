@@ -8,9 +8,13 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.52.0
+## v0.53.0
 
 - Add new process map endpoint to import the backlog of another Azure DevOps project
+
+## v0.52.0
+
+- Adapt to AL-Go workflow inputs  
 
 ## v0.51.0 (2025-09-02)
 
