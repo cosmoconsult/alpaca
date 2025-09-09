@@ -11,6 +11,8 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## v0.55.0 (2025-09-09)
 
 - Add action to import the backlog of another Azure DevOps project
+- Add action to onboard existing Azure DevOps projects for usage with COSMO Alpaca
+- Update dependency packages
 
 ## v0.54.2 (2025-09-05)
 
