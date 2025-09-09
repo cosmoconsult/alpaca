@@ -57,9 +57,9 @@ The **Functional View** is divided into two main sections: **Organizations** and
 
   ![Organizations view](../media/vscode.dev/vscode-browser-orgs.png)
 
-* Right-click an organization to access available functions (e.g., *Create Project*, *Assign Entity*).
+* To add a new project, use the **plus (+) icon** next to the organization name.
 
-  ![Organization options](../media/vscode.dev/vscode-browser-orgs-opts.png)
+  ![Organization options](../media/vscode.dev/vscode-browser-project-add.png)
 
 * Projects are listed under each organization. Right-clicking on a project displays its available functions.
 
