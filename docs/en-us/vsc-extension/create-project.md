@@ -35,6 +35,10 @@ With that, the new project will be created. It has all the basic setup and prepa
 
 You're now ready to [create a repository with an AL app](create-app.md).
 
+>[!NOTE]
+>To add a new project in the preview Alpaca extension, use the **plus (+) icon** next to the organization name.
+>![Organization options](../media/vscode.dev/vscode-browser-project-add.png)
+
 ---
 
 [create-org]: ../getting-started/create-org.md
