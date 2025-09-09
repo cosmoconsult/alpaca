@@ -10,6 +10,8 @@
 
 ## [VS Code Extension Setup](getting-started/access-and-setup-vsce.md)
 
+## [VS Code Browser Setup](getting-started/vscode-dev.md)
+
 # Usage Guide
 
 ## General Features
@@ -19,6 +21,8 @@
 ### [Create Project](vsc-extension/create-project.md)
 
 ### [Onboard Existing Projects & Apps](vsc-extension/onboard-project.md)
+
+### [Import Project Backlog](vsc-extension/import-projectbacklog.md)
 
 ### [Customize Projects](vsc-extension/customize-project.md)
 
