@@ -8,6 +8,16 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.53.0 - v0.53.1 (2025-09-09)
+
+- Add new endpoint to import the backlog of another Azure DevOps project
+- Fix process retrieve for process customization
+
+## v0.52.0 (2025-09-09)
+
+- Adapt to AL-Go workflow inputs  
+- Update dependency packages
+
 ## v0.51.0 (2025-09-02)
 
 - Harmonize PowerShell execution within APIs
