@@ -52,14 +52,6 @@ For advanced development workflows, and full extension capabilities, we recommen
 The **Functional View** is divided into two main sections: **Organizations** and **Containers**.
 
 * In the **Organizations** section, all organizations are listed.
-<<<<<<< HEAD
-  ![Organizations view](../media/vscode.dev/vscode-browser-orgs.png)
-
-* Right-click an organization to access available functions (e.g., *Create Project*, *Assign Entity*).
-  ![Organization options](../media/vscode.dev/vscode-browser-orgs-opts.png)
-
-* Projects are listed under each organization. Right-clicking on a project displays its available functions.
-=======
 
   ![Organizations view](../media/vscode.dev/vscode-browser-orgs.png)
 
@@ -69,5 +61,4 @@ The **Functional View** is divided into two main sections: **Organizations** and
 
 * Projects are listed under each organization. Right-clicking on a project displays its available functions.
 
->>>>>>> fadc0a649748d4eba721eb17da037c9f1d168f25
   ![Project options](../media/vscode.dev/vscode-browser-project-opts.png)
