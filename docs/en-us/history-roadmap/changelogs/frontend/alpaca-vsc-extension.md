@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.55.0
 
-- Add action to import the backlog from a source project
+- Add action to import the backlog of another Azure DevOps project
 
 ## v0.54.1 (2025-09-02)
 
