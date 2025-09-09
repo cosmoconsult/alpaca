@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.53.1
+
+- Fix process retrieve for process customization
+
 ## v0.53.0
 
 - Add new process map endpoint to import the backlog of another Azure DevOps project
