@@ -51,7 +51,7 @@ For advanced development workflows, and full extension capabilities, we recommen
 
 The **Functional View** is divided into two main sections: **Organizations** and **Containers**.
 
-> **Tip:** Need to create a new organization? See our [step-by-step guide](../getting-started/create-org.md) for instructions on setting up organizations in COSMO Alpaca.
+> **Tip:** Need to create a new organization? See our [Create organization guide](../getting-started/create-org.md) for instructions on setting up organizations in COSMO Alpaca.
 
 * In the **Organizations** section, all organizations are listed.
 
