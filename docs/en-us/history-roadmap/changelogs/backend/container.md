@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.74.3 (2025-09-10)
+
+- Fix issue where project with long names could no longer create Azure DevOps pipeline agents (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4462)
+
 ## v1.74.2 (2025-09-08)
 
 - Fix issue where Azure DevOps pipeline agents were not created for release pipelines (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4460)
