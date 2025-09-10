@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.53.2 (2025-09-10)
+
+- Fix issue where the enterprise backend was not correctly used when creating or onboarding an Azure DevOps project
+
 ## v0.53.0 - v0.53.1 (2025-09-09)
 
 - Add new endpoint to import the backlog of another Azure DevOps project
