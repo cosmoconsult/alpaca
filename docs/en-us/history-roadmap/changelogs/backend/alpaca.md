@@ -8,6 +8,15 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.53.4 (2025-09-12)
+
+- Fix issue where existing service connections were not correctly used when onboarding an Azure DevOps project
+
+## v0.53.3 (2025-09-11)
+
+- Fix issue that may have occurred when updating the Templates repository in an Azure DevOps project
+- Enhance error handling when initializing Azure DevOps projects
+
 ## v0.53.2 (2025-09-10)
 
 - Fix issue where the enterprise backend was not correctly used when creating or onboarding an Azure DevOps project

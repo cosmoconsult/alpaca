@@ -8,6 +8,13 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.56.0 (2025-09-12)
+
+- Improve stability of container health checks
+- Internal improvements
+- Display image building errors next to the container status
+- Add dedicated support URLs for COSMO users
+
 ## v0.55.0 (2025-09-09)
 
 - Add action to import the backlog of another Azure DevOps project
