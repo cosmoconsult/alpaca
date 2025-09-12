@@ -7,7 +7,7 @@
 
 The extension provides a convenient way to import an entire backlog from one Azure DevOps project into another. This feature allows you to quickly replicate existing work items and relationships across projects without manual re-entry.
 
-> [!NOTE]
+> [!WARNING]
 > The source and target projects must use the same process customization for a successful backlog import ([customize project](customize-project.md)).
 
 > [!NOTE]
