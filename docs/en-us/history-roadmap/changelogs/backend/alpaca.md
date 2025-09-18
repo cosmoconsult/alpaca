@@ -10,7 +10,8 @@ All notable changes to the Alpaca Backend
 
 ## v0.54.0 (2025-09-17)
 
-- Add Azure DevOps areas to Backlog import feature
+- Include areas when importing an Azure DevOps project backlog
+- Update dependency packages
 
 ## v0.53.4 (2025-09-12)
 
