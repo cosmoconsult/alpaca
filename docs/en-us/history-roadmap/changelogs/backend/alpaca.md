@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.54.0 (2025-09-17)
+
+- Include areas when importing an Azure DevOps project backlog
+- Update dependency packages
+
 ## v0.53.4 (2025-09-12)
 
 - Fix issue where existing service connections were not correctly used when onboarding an Azure DevOps project
