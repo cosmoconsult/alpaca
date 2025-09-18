@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.39.3 (unreleased)
+
+- Fix issue with custom nuget feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4473)
+
+## v2.39.2 (2025-09-17)
+
+- Fix issue with runtime package naming (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4471)
+
 ## v2.39.1 (2025-09-08)
 
 - Fix issue for including external rulesets in local rulesets (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4456)
