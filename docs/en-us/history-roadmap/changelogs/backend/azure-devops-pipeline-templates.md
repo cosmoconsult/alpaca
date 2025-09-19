@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.39.3 (unreleased)
+## v2.39.3 (2025-09-19)
 
 - Fix issue with custom NuGet feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4473)
 

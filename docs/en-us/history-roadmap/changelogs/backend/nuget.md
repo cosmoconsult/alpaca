@@ -8,6 +8,14 @@
 
 All notable changes to the NuGet Backend
 
+## v1.3.2 (2025-09-19)
+
+- Fix issues with GitHub feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4474)
+
+## v1.3.1 (2025-09-04)
+
+- Fix wildcard homebrew path
+
 ## v1.3.0 (2025-09-02)
 
 - Harmonize PowerShell execution within APIs
