@@ -10,7 +10,7 @@ All notable changes to the NuGet Backend
 
 ## v1.3.2 (unreleased)
 
-- Fix issues with github feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4474)
+- Fix issues with GitHub feeds (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4474)
 
 ## v1.3.1 (2025-09-04)
 
