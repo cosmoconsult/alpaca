@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## Unreleased
+
+- Internal improvements & refactorings
+
 ## v0.54.0 (2025-09-17)
 
 - Include areas when importing an Azure DevOps project backlog

@@ -11,6 +11,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## Unreleased
 
 - Update dependency packages
+- Internal improvements
 
 ## v0.56.0 (2025-09-12)
 
