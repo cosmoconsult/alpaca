@@ -8,9 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
-## Unreleased
+## v0.55.0 (2025-09-23)
 
 - Internal improvements & refactorings
+- Support AL-Go setting `assignPremiumPlan` for premium experience in Alpaca containers
 
 ## v0.54.0 (2025-09-17)
 
