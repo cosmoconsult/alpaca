@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.56.0 (2025-09-23)
+
+- Add enpoint to retrieve container configurations and prune obsolete ones
+
 ## v0.55.0 (2025-09-23)
 
 - Internal improvements & refactorings
