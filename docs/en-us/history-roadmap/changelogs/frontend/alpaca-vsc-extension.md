@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.58.0 (2025-09-23)
+
+- Use Alpaca Api to retrieve and prune container configurations
+
 ## v0.57.0 (2025-09-23)
 
 - Update dependency packages
