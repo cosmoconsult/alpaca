@@ -33,7 +33,7 @@
    > Closing the shell will stop the SSH tunnel
 
 1. Connect to SQL Server from any local software\
-   *(e.g. VS Code extension [SQL server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) or [SQL Management Studio](https://learn.microsoft.com/de-de/ssms/sql-server-management-studio-ssms))*
+   *(e.g. VS Code extension [SQL server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) or [SQL Management Studio](https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms))*
    - Server = `127.0.0.1\SQLEXPRESS` 
    - Port = `1433`
    - Authorization = Container user and password
