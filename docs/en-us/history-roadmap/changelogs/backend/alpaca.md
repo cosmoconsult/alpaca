@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.56.0 (2025-09-26)
+
+- Add support for the `ChildTasksTemplate` extension in the customizing function
+
 ## v0.55.1 (2025-09-26)
 
 - Fix issue where trying to create a container for a branch containing non-alphanumeric characters caused an error
