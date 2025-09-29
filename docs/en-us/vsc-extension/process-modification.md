@@ -31,7 +31,7 @@ Customers, who want to create new process-modifications, should create a ConfigM
 | `description`        | string | Description of the customization purpose | required |
 | `owner`              | string | Responsible team or contact mail         | required |
 | `procModProcess`     | object | Main definition of the process           | required |
-| `ChildTasksTemplate` | object | Child tasks template                     | required |
+| `ChildTasksTemplate` | object | Child tasks template                     | optional |
 
 #### Example
 
