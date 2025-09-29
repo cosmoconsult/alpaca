@@ -17,7 +17,7 @@ Customers, who want to create new process-modifications, should create a ConfigM
 - **rules**: Conditional logic (e.g., required fields, autofill values).
 - **states**: New or modified workflow states.
 - **extensions**: Optional DevOps Marketplace extensions.
-- **ChildTasksTemplate**: Optional Template of Child Tasks, that can be overriden during the customization 
+- **ChildTasksTemplate**: Optional Template of Child Tasks, that can be overridden during the customization 
 - **name / description / owner**: Metadata for identification and ownership.
 
 
