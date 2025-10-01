@@ -17,24 +17,28 @@ Customers, who want to create new process-modifications, should create a ConfigM
 - **rules**: Conditional logic (e.g., required fields, autofill values).
 - **states**: New or modified workflow states.
 - **extensions**: Optional DevOps Marketplace extensions.
+- **ChildTasksTemplate**: Optional Template of Child Tasks, that can be overridden during the customization 
 - **name / description / owner**: Metadata for identification and ownership.
+
 
 ---
 
 ## Root Object
 
-| Field            | Type   | Description                              | Required |
-| ---------------- | ------ | ---------------------------------------- | -------- |
-| `name`           | string | Unique name of the configuration         | required |
-| `description`    | string | Description of the customization purpose | required |
-| `owner`          | string | Responsible team or contact mail         | required |
-| `procModProcess` | object | Main definition of the process           | required |
+| Field                | Type   | Description                              | Required |
+| ----------------     | ------ | ---------------------------------------- | -------- |
+| `name`               | string | Unique name of the configuration         | required |
+| `description`        | string | Description of the customization purpose | required |
+| `owner`              | string | Responsible team or contact mail         | required |
+| `procModProcess`     | object | Main definition of the process           | required |
+| `ChildTasksTemplate` | object | Child tasks template                     | optional |
 
 #### Example
 
 ```json
 {
   "procModProcess": {},
+  "ChildTasksTemplate": {},
   "description": "Process modifications description",
   "name": "process-sample",
   "owner": "owner@sample.com"
@@ -414,6 +418,67 @@ Customers, who want to create new process-modifications, should create a ConfigM
   "Waiting"
 ]
 ```
+
+## ChildTasksTemplate
+
+### ChildTasksTemplate
+
+| Field      | Type             | Description                                 | Required |
+| ---------- | ---------------- | ------------------------------------------- | -------- |
+| `Version`  | integer          | Version of the template format              | required |
+| `Templates`| array of object  | List of task templates                      | required |
+
+#### Templates
+
+| Field   | Type             | Description                | Required |
+| ------- | ---------------- | ---------------------------| -------- |
+| `Name`  | string           | Name of the template       | required |
+| `Tasks` | array of object  | List of child tasks        | required |
+
+#### Tasks
+
+| Field   | Type             | Description                | Required |
+| ------- | ---------------- | ---------------------------| -------- |
+| `Name`  | string           | Name of the child task     | required |
+| `Fields`| array of object  | Fields for the child task  | required |
+
+#### Field
+
+| Field   | Type    | Description           | Required |
+| ------- | ------- | ----------------------| -------- |
+| `Name`  | string  | Field name            | required |
+| `Value` | string  | Field value           | required |
+
+#### Example
+
+```json
+"ChildTasksTemplate": {
+  "Version": 1,
+  "Templates": [
+    {
+      "Name": "Default Tasks",
+      "Tasks": [
+        {
+          "Name": "Review Documentation",
+          "Fields": [
+            { "Name": "System.Title", "Value": "Review Documentation" },
+            { "Name": "System.Description", "Value": "Ensure documentation is up to date." }
+          ]
+        },
+        {
+          "Name": "Update Wiki",
+          "Fields": [
+            { "Name": "System.Title", "Value": "Update Wiki" },
+            { "Name": "System.Description", "Value": "Update the project wiki with latest changes." }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+
 
 ---
 
