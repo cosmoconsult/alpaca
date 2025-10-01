@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.58.0 (2025-10-01)
+
+- Use Alpaca Api to retrieve and prune container configurations
+
 ## v0.57.1 (2025-09-26)
 
 - Fix issue where an expired Microsoft authentication token could be used

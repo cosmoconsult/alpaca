@@ -10,6 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.56.0 (2025-10-01)
 
+- Add endpoint to retrieve container configurations and prune obsolete ones
 - Add support for the `ChildTasksTemplate` extension in the customizing function
 
 ## v0.55.1 (2025-09-26)
