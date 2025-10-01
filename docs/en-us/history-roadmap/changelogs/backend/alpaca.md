@@ -12,6 +12,10 @@ All notable changes to the Alpaca Backend
 
 - Add endpoint to retrieve container configurations and prune obsolete ones
 
+## v0.55.1 (2025-09-26)
+
+- Fix issue where trying to create a container for a branch containing non-alphanumeric characters caused an error
+
 ## v0.55.0 (2025-09-23)
 
 - Internal improvements & refactorings
