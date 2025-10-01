@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.56.0 (2025-09-29)
+## v0.56.0 (2025-10-01)
 
 - Add support for the `ChildTasksTemplate` extension in the customizing function
 
