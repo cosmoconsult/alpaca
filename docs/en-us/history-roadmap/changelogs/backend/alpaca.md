@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.56.1 (2025-10-01)
+
+- Fix issue where customizing a new project in a new organization causes an error during while creating ChildTasksTemplates
+
 ## v0.56.0 (2025-10-01)
 
 - Add endpoint to retrieve container configurations and prune obsolete ones
