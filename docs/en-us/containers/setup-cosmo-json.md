@@ -160,15 +160,11 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"artifactsScope"`               |string |optional     |The scope of the artifact feed. Values are `organization` or `project` (default).|
 |`"artifactsPackageName"`         |string |optional     |The name of the output artifact. Otherwise, the default artifact is generated from App-Name (app.json) and non alpha numeric characters are replaced by `_`.|
 |`"additionalDeploymentFeeds"`    |array  |optional     |An optional array of additional deployment feeds. [more](#additional-deployment-feeds)|
-|`"publishToFolderStructure"`     |boolean|optional     |Publishes the artifact in a folder structure. The app file is put in a folder `app` and the test app is put into a folder `test`.|
 |`"devopsPool"`                   |string |**mandatory**|The reference to the used DevOps build agent pool. The default `"$(devopsPool)"` references a variable from `CI Build Agent` variable group of the project.|
 |`"licenseFile"`                  |string |optional     |The used license file for the container. [more](setup-cosmo-json.md#license-file)|
-|`"customerLicense"`              |string |optional     |The used license file for PR-Test during build to ensure all IDs are included in the customer license. Note: "licenseFile" is used, when this parameter is empty.|
-|`"customerLicenseScope"`         |string |optional     |The import scope for the customer license file. Values are: `Default`, `NavDatabase`, `Master`, `Tenant`.|
 |`"useCustomScriptsFromRepo"`     |boolean|optional     |Set `true` to use custom scripts during container start. More information can be found here: [Set up custom scripts](setup-custom-scripts.md)|
 |`"downloadSourcePreviousRelease"`|string |optional     |Specify if the artifact for the breaking change test should be taken from the target branch of the pull request or from a feed. Values are: `Feed`, `PR-Target` (default). Use the above described option `"previousRelease"` to specify the feed and package name.|
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
-|`"bcVersionDirectory"`           |string |optional     |Specify the subfolder for locating the Business Central management libraries. The default value is `"*"`. Use e.g. "200" if your  Business Central insallation is located in "C:\Program Files (x86)\Microsoft Dynamics 365 Business Central\200".|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
 
 ### Additional Deployment Feeds
@@ -271,8 +267,6 @@ You can optionally set custom BC service tier or Web server settings within the 
 |`"testAppManifestFile"`    |string  |optional|Sets the path to manifest file (app.json) of the test app. Path is relative [Build.SourcesDirectory](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)|
 |`"setBuildIdInManifestOn"` |string  |optional|If this option is set the version is taken from the manifest file (app.json) and the BuildId is set on the position defined with this option. Possible values are: "None", "Build", "Revision"|
 |`"createRuntimePackage"`   |boolean |optional|If this option is set additionally a runtime package is created and published to the pipeline build.|
-|`"enableCompilerOutput"`   |boolean |optional|Enable or disable the additional logging output from the Compiler. Per default the output is enabled.|
-|`"useLegacyCompiler"`      |boolean |optional|Switch back to old .net framework compiler. Per default the .net core compiler version is used.|
 |`"createTranslations"`     |boolean |optional|Enable or disable the generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
 |`"translationLanguages"`   |string[]|optional|Defines the array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
 |`"testTranslations"`       |boolean |optional|Enable or disable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
