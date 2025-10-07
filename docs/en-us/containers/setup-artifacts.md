@@ -263,7 +263,7 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 
 You can use the VSCode extension to create the required entries for a product package.
 1. Open the workspace of the repository in Visual Studio Code
-1. Goto “COSMO ALPACA”
+1. Go to “COSMO ALPACA”
 1. Expand/Update “PRODUCT PACKAGES”
 1. Expand "Universal Packages"
 1. Expand the entry of the required product (e.g. “COSMO Advanced Manufacturing Pack”)
