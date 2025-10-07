@@ -15,7 +15,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 ## v2.40.0 (2025-09-25)
 
 - Add support for different agent images (with/without node.js) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4450)
-- Moved hook "OnAfterPublishApp" before step to publish apps denpending on app
+- Moved hook "OnAfterPublishApp" before step to publish apps depending on app
 - Updated Azure SignTool to v6 (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4479)
 
 ## v2.39.3 (2025-09-19)
