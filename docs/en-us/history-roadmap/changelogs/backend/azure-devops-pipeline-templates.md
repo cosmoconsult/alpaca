@@ -8,8 +8,9 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.40.1 (unreleased)
+## v2.41.0 (2025-10-07)
 
+- Add pipeline parameter for additional parallel build jobs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4501)
 - Fix issue with AL compiler not able to load LinterCop (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4499)
 
 ## v2.40.0 (2025-09-25)
