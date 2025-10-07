@@ -138,6 +138,19 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 }
 ```
 
+You can use the VSCode extension to create the required entries for a product package.
+1. Open the workspace of the repository in Visual Studio Code
+1. Go to “COSMO ALPACA”
+1. Expand/Update “PRODUCT PACKAGES”
+1. Expand the entry of the required product (e.g. “COSMO Advanced Manufacturing Pack”)
+1. Expand the type (e.g. “App”)
+1. Expand the package (e.g. “COSMO Advanced Manufacturing Pack”)
+1. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
+1. Right click on the wanted version and click “Add Dependency”
+1. Repeat from 4. for each required product
+1. *(Optional) Remove versions of added artifacts in the cosmo.json to always use the latest versions for your BC version*
+1. Commit/push the changed cosmo.json
+
 ---
 
 ## Parameters
@@ -247,6 +260,18 @@ The use case for the product feed is to enable users and pipelines/workflows to 
         }
     ]
 ```
+
+You can use the VSCode extension to create the required entries for a product package.
+1. Open the workspace of the repository in Visual Studio Code
+1. Go to “COSMO ALPACA”
+1. Expand/Update “PRODUCT PACKAGES”
+1. Expand "Universal Packages"
+1. Expand the entry of the required product (e.g. “COSMO Advanced Manufacturing Pack”)
+1. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
+1. Right click on the wanted version and click “Add Dependency”
+1. Repeat from 5. for each required product
+1. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
+1. Commit/push the changed cosmo.json
 
 ---
 
