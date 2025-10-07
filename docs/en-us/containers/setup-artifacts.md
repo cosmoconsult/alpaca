@@ -140,7 +140,7 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 
 You can use the VSCode extension to create the required entries for a product package.
 1. Open the workspace of the repository in Visual Studio Code
-1. Goto “COSMO ALPACA”
+1. Go to “COSMO ALPACA”
 1. Expand/Update “PRODUCT PACKAGES”
 1. Expand the entry of the required product (e.g. “COSMO Advanced Manufacturing Pack”)
 1. Expand the type (e.g. “App”)
