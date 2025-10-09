@@ -47,6 +47,7 @@ Four types of artifacts are supported:
         },
         {
             "type": "url",
+            "name": "myapp",
             // URLs MUST reference a ZIP file
             "url": "https://my.blob.core.windows.net/test/myapp/myapp_1.2.3.4.app.zip?sv=2019-02-02&...",
             "target": "app"
@@ -96,7 +97,7 @@ Four types of artifacts are supported:
 |Element|Type||Value|
 |-|-|-|-|
 |`type`             |string  |**mandatory for GitHub**|The type of the artifact. Must be `url` for fileshare/URL artifacts.|
-|`name`             |string  |optional                |The name of the artifact. Informational only.|
+|`name`             |string  |**mandatory for GitHub**|The name of the artifact. Informational only.|
 |`version`          |string  |optional                |The version of the artifact. Informational only.|
 |`url`              |string  |**mandatory**           |The path or url to download the artifact.|
 |`target`           |string  |optional                |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
