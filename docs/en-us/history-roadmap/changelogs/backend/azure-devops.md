@@ -8,6 +8,11 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.52.0 (2025-10-13)
+  
+- Fix bug where the setting appImportScope was not inherited correctly (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4497)
+- Add support for BC27 project template (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4504)
+
 ## v1.51.0 (2025-08-20)
 
 - Update service endpoint name retrieval to support new format (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4428/)
