@@ -8,6 +8,18 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.58.1 (2025-10-13)
+
+- Improve error handling when reading Github project settings
+
+## v0.58.0 (2025-10-09)
+
+- Add endpoint for syncing GitHub secrets/variables to Kubernetes secret
+
+## v0.57.0 (2025-10-08)
+
+- Add Copilot instructions and support for GitHub workflow authentication
+
 ## v0.56.1 (2025-10-01)
 
 - Fix issue where customizing a new project in a new organization causes an error while creating ChildTasksTemplates

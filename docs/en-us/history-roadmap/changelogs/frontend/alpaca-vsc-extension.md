@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## Unreleased
+
+- Update dependency packages
+
 ## v0.58.1 (2025-10-02)
 
 - Fix issue where containers created by a pipeline or workflow would show up as containers of the current user

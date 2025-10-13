@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.75.0 (2025-09-25)
+
+- Add Azure DevOps pipeline agents demands as environment variable (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4450)
+
 ## v1.74.3 (2025-09-10)
 
 - Fix issue where project with long names could no longer create Azure DevOps pipeline agents (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4462)
