@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.37.1 (2025-10-14)
+
+- Fix issue with duplicate build IDs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4506)
+
 ## v1.37.0 (2025-08-29)
 
 - Remove connection to legacy swarm (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4422)
