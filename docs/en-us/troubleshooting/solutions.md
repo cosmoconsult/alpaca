@@ -92,4 +92,3 @@ Add the following setting to your `cosmo.json`:
 ```
 
 After updating the file, recreate the container. RapidStart imports should then function as before.
-
