@@ -69,3 +69,27 @@ We worked with Microsoft to find a solution because this issue affects not only 
 But unfortunately, there is no solution for BC24 and BC25, but Microsoft has promised to fix it with **BC26**.
 
 If you encounter problems with pipelines running into timeouts, please increase the timeout as a workaround. You can achieve this by setting the variable `Build.TimeoutInMinutes` in your library to a higher value (recommended: `"120"`).
+
+## RapidStart Import Fails in BC 27
+
+Starting with Business Central version 27, the setting **`EnforceUserPathForAlFileOperations`** is enabled by default (`true`).
+This restricts AL file operations (e.g., RapidStart imports) to the service account’s user folder only.
+
+In container environments (where the service typically runs under the **SYSTEM** account), RapidStart packages located in common directories such as `C:\run`, `Temp`, or `Users` fail to import with the following error message:
+
+> *Files outside of the current user's folder cannot be accessed.*
+
+**Solution**: The setting must be disabled during container setup. This can be configured in the **`cosmo.json`** file using the `customNavSettings` property.
+
+Add the following setting to your `cosmo.json`:
+
+```json
+"customNavSettings": [
+  {
+    "settings": "EnforceUserPathForAlFileOperations=false"
+  }
+]
+```
+
+After updating the file, recreate the container or restart the service. RapidStart imports should then function as before.
+
