@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.37.2 (2025-10-21)
+
+- Fix deploying build artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4511)
+- Sort builds of repository or pipeline by date
+  
 ## v1.37.1 (2025-10-14)
 
 - Fix issue with duplicate build IDs (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4506)
