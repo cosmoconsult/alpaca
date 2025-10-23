@@ -10,7 +10,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.41.1 (2025-10-07)
 
-- fix issue with nullable IgnoreIn in the CustomNavSettings (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4509)
+- Fix issue with nullable IgnoreIn in the CustomNavSettings. (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4509)
 - Mock Invoke-WebRequest in Context "Test Invoking Rest API", removing pipedream URLs
 
 ## v2.41.0 (2025-10-07)
