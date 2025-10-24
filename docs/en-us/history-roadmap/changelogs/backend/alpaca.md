@@ -30,7 +30,7 @@ All notable changes to the Alpaca Backend
   
 ## v0.59.0 (2025-10-14)
 
-- Add Enpoint to get info about published and installed apps in the container
+- Add Endpoint to get info about published and installed apps in the container
 
 ## v0.58.1 (2025-10-13)
 
