@@ -8,6 +8,26 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.64.0 (2025-10-24)
+
+- Improve error handling while migrating project to template process
+
+## v0.63.0 (2025-10-22)
+
+- Add a new endpoint to retrieve the detailed status of a container, including image build information and Kubernetes pod states
+
+## v0.62.0 (2025-10-22)
+
+- Add a ProjectHelper class to map GitHub workflow to container configuration
+
+## v0.61.0 (2025-10-21)
+
+- Update SnippetManagement endpoint
+
+## v0.60.0 (2025-10-16)
+
+- Add demo-containers configuration
+  
 ## v0.59.0 (2025-10-14)
 
 - Add Enpoint to get info about published and installed apps in the container
