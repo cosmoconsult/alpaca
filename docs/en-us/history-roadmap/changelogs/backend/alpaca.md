@@ -14,7 +14,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.63.0 (2025-10-22)
 
-- Add a new endpoint to retrieve the detailed status of a container, including image build information and Kubernetes pod states
+- Modify endpoint to receive container/image creation status to use bool flags for easy access in consuming Powershell
 
 ## v0.62.0 (2025-10-22)
 
@@ -22,7 +22,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.61.0 (2025-10-21)
 
-- Update SnippetManagement endpoint
+- Update Snippet endpoints to return the whole commit message of a snippet as description in case there is no dedicated description
 
 ## v0.60.0 (2025-10-16)
 
