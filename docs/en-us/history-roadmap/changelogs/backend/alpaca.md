@@ -8,9 +8,9 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.65.0 (2025-10-24)
+## v0.65.0 (2025-10-27)
 
-- Add action to update CI/CD of an Azure DevOps project
+- Add endpoint to update CI/CD of an Azure DevOps project
   
 ## v0.64.0 (2025-10-24)
 
