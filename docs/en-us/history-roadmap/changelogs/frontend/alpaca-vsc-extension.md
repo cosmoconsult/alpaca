@@ -8,9 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## Unreleased
+## v0.59.0 (2025-10-29)
 
 - Update dependency packages
+- Add action to update CI/CD of an Azure DevOps project
 
 ## v0.58.1 (2025-10-02)
 
