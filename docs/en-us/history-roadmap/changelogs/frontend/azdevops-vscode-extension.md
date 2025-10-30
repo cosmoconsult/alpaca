@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.37.3 (2025-10-30)
+
+- Fix typo in setting `cc-azdevops.autoManagePATLifetime` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4522/)
+
 ## v1.37.2 (2025-10-21)
 
 - Fix deploying build artifacts (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4511)
