@@ -14,6 +14,8 @@ All notable changes to the Visual Studio Code Extension (Preview)
 - Add Azure DevOps PAT helper and related settings: `cosmo-alpaca.azureDevops.autoManagePATs`, `cosmo-alpaca.azureDevops.autoManagePATLifetime`
 - Add action to create containers for an Azure DevOps repository (cosmo.json)
 - Refactor container creation
+- Add tree item to show Pull-Requests of an Azure DevOps repository
+- Set strict order of labels below Repositories and Projects
 
 ## v0.59.0 (2025-10-29)
 
