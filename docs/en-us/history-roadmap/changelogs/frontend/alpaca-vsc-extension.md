@@ -8,6 +8,13 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.60.0 (2025-10-30)
+
+- Update Alpaca API client and translations
+- Add Azure DevOps PAT helper and related settings: `cosmo-alpaca.azureDevops.autoManagePATs`, `cosmo-alpaca.azureDevops.autoManagePATLifetime`
+- Add action to create containers for an Azure DevOps repository (cosmo.json)
+- Refactor container creation
+
 ## v0.59.0 (2025-10-29)
 
 - Update dependency packages
