@@ -8,6 +8,18 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.66.0 (2025-10-30)
+
+- Add endpoint to retrieve Azure DevOps pull requests
+- Implement support to create containers based on a cosmo.json (Azure DevOps)
+- Implement retrieval to read the container configuration from a cosmo.json (Azure DevOps)
+- Streamline and reuse models from GitHub for Azure DevOps container configuration
+- Implement translation and merge of ipArtifacts (Azure DevOps)
+- Implement origin-based container request pre-processing
+- Implement validation of URL and DevOps artifacts (Azure DevOps)
+- Add endpoints to create and revoke PATs (Azure DevOps)
+- Add support for authentication with Azure DevOps pipeline token
+
 ## v0.65.0 (2025-10-29)
 
 - Add endpoint to update CI/CD of an Azure DevOps project
