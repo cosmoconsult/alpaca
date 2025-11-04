@@ -8,6 +8,21 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.3.1 (2025-11-04)
+
+- Fix issue where AL-Go published wrong app versions in the container
+
+## v2.3.0 (2025-10-29)
+
+- Added new workflow to sync secrets to the Alpaca backend
+- Moved all usages of the k8s api to the alpaca api
+
+## v2.2.0 (2025-10-28)
+
+- Fix issue with urls in AL-Go setting "installApps"
+- Added support for Url-artifacts to directly reference app files
+- Added support for all not already installed apps to be published in the container
+
 ## v2.1.0 (2025-09-04)
 
 - Added support for multiple projects with dependencies
