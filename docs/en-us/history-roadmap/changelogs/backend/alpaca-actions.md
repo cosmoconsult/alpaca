@@ -10,7 +10,7 @@ All notable changes to the Alpaca AL-Go Actions
 
 ## v2.3.2 (2025-11-05)
 
-- Fix issue where tests where not run in the container or could result in endless lopps
+- Fix issue where tests were not run in the container or could result in endless loops
 
 ## v2.3.1 (2025-11-04)
 
