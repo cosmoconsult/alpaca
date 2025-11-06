@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.67.0 (2025-11-07)
+
+- Add endpoint to create demo containers
+- Add endpoint to retrieve artifacts from a container origin
+- Implement artifact selection while creating containers
+
 ## v0.66.0 - v0.66.1 (2025-10-30)
 
 - Add endpoint to retrieve Azure DevOps pull requests
