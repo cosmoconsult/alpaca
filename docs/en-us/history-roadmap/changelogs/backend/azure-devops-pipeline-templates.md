@@ -8,6 +8,18 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.42.2 (2025-11-06)
+
+- Fix issue where NuGet PackageProvider could not be installed on some OnPrem systems (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4535)
+
+## v2.42.1 (2025-11-05)
+
+- Fix issue where PipelineStepPath parameter was not set (e.g. for localization pipeline) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4530)
+
+## v2.42.0 (2025-10-31)
+
+- Remove dependency on DevOps extension Generic Connection Viewer + Service Connection (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4446)
+
 ## v2.41.1 (2025-10-21)
 
 - Fix issue with nullable IgnoreIn in the CustomNavSettings. (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4509)
