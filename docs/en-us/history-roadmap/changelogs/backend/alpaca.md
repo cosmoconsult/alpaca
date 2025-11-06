@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.67.0 (2025-11-06)
+
+- Implement demo containers option for standalone containers
+- Implement artifact selection while creating containers
+- Add assignment of the project for standalone containers
+
 ## v0.66.0 - v0.66.1 (2025-10-30)
 
 - Add endpoint to retrieve Azure DevOps pull requests
