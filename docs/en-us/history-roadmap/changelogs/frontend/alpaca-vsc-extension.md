@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.61.0 (2025-11-07)
 
-- Remove token parsing and determine type of the user via an API call
+- Remove token parsing and determine the user type via an API call
 - Hide COSMO specific actions for non-COSMO users (e.g. entity assignment)
 - Update Alpaca API client
 - Update dependency packages
