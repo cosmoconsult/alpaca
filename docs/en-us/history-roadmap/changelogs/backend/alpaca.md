@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.67.0 (2025-11-07)
+## v0.67.0 (2025-11-10)
 
 - Add endpoints to retrieve the current user together with their type
 - Update dependency packages
