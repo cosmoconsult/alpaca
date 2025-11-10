@@ -12,7 +12,7 @@ All notable changes to the Alpaca Backend
 
 - Add endpoints to retrieve the current user together with their type
 - Retrieve the user profile from Graph API instead of Visual Studio API
-- Additionally extract the COSMO domain of a user from it's Graph profile
+- Additionally extract the COSMO domain of a user from its Graph profile
 - Update dependency packages
 
 ## v0.66.0 - v0.66.1 (2025-10-30)
