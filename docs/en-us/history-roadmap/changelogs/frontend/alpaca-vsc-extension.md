@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.61.1 (2025-11-11)
 
-- Add caching for base backendUrl and user profile
+- Add caching for user profile
 - Update Alpaca API client
 
 ## v0.61.0 (2025-11-10)
