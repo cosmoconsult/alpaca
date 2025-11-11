@@ -60,6 +60,8 @@ When you use the extension for the first time by clicking on the COSMO Alpaca ic
 
 ![Extension Azure DevOps Login](../media/getting-started/extension-devops-login.png)
 
+Depending on your tenant settings you might also need an Entra administrator to consent the required permissions for the extension as documented [here](../admin/index.md#alpaca-app-registrations).
+
 Now you can make yourself familiar with the interface:
 
 ![Extension Azure DevOps Overview](../media/getting-started/extension-devops-overview.png)

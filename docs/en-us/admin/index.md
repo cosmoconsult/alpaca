@@ -5,6 +5,25 @@
 
 # Administration
 
+## Alpaca App Registrations
+
+_This is relevant for Alpaca's Azure DevOps integration only_
+
+Some Entra tenants are configured to not let users grant app permissions by themselves. In those cases, the Alpaca app registrations need to be pre-approved by an administrator in order for users to be able to log in to Alpaca and use its features. An Entra administrator can approve the required permissions by following this link and replacing `<tenant-id>` with the tenant ID of the Entra tenant:
+
+```
+https://login.microsoftonline.com/<tenant-id>/adminconsent?client_id=abed730b-114e-47a8-b905-1e116382469e
+```
+
+The following Enterprise applications will be automatically created in your Entra tenant by approving:
+- **COSMO Alpaca - VS Code**: Signing in to Alpaca through VS Code with permissions to the Azure DevOps REST APIs, the user information via Graph and the Alpaca Backend APIs for Container management (Kubernetes) and Azure DevOps management:
+    ![Permissions of COSMO Alpaca - VS Code](../media/admin/appreg-vsc.png)
+- **COSMO Alpaca - Azure DevOps**: Permissions for the Alpaca Azure DevOps management backend to access the Azure DevOps REST APIs and the user information via Graph on behalf of the signed-in user:
+    ![Permissions of COSMO Alpaca - Azure DevOps](../media/admin/appreg-ado.png)
+- **COSMO Alpaca - Kubernetes**: Permissions for the Alpaca container management backend to access the user information via Graph on behalf of the signed-in user:
+    ![Permissions of COSMO Alpaca - Kubernetes](../media/admin/appreg-k8s.png)
+
+
 ## Setting up licenses
 
 Licenses are made available to the Self-Service through secrets. Those secrets contain anonymously accessible URLs to the `*.flf` or `*.bclicense` files and must be named after the following format:
