@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.67.1 (2025-11-11)
 
-- Remove unneccessary Kubernetes label validation for branch names again
+- Remove unnecessary Kubernetes label validation for branch names again
 
 ## v0.67.0 (2025-11-10)
 
