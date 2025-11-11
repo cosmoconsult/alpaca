@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.61.1 (2025-11-11)
+
+- Add caching for user profile
+- Update Alpaca API client
+
 ## v0.61.0 (2025-11-10)
 
 - Remove token parsing and determine the user type via an API call
