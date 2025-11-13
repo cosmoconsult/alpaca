@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.61.2 (2025-11-13)
 
-- Improved API client caching to depend on token expiration
+- Improve API client caching to depend on token expiration
 
 ## v0.61.1 (2025-11-11)
 
