@@ -8,9 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.68.0 (2025-11-18)
+## v0.68.0 - v0.68.1 (2025-11-18)
 
 - Add support for authentication with Azure management tokens
+- Set default backend URL for COSMO users
 - Update dependency packages
 
 ## v0.67.2 (2025-11-14)
