@@ -8,6 +8,15 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.68.0 (2025-11-18)
+
+- Add support for authentication with Azure management tokens
+- Update dependency packages
+
+## v0.67.2 (2025-11-14)
+
+- Set artifact defaults already when retrieving the configuration of an AL-Go project
+
 ## v0.67.1 (2025-11-11)
 
 - Remove unnecessary Kubernetes label validation for branch names again
