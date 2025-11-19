@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.76.0 (2025-11-19)
+
+- Add DK as available country (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4552)
+
 ## v1.75.0 (2025-09-25)
 
 - Add Azure DevOps pipeline agents demands as environment variable (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4450)
