@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.38.0 (2025-11-20)
+
+- Add action to download a NuGet package for a specified platform version (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4553/)
+
 ## v1.37.3 (2025-10-30)
 
 - Fix typo in setting `cc-azdevops.autoManagePATLifetime` (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4522/)
