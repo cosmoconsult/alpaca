@@ -8,11 +8,35 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.67.0 (2025-11-07)
+## v0.70.0 (2025-11-27)
 
-- Add endpoint to create demo containers
-- Add endpoint to retrieve artifacts from a container origin
-- Implement artifact selection while creating containers
+- Add endpoint to create demo containers in the Azure DevOps view
+- Implement artifact selection while creating containers based on the Azure DevOps project
+
+## v0.69.0 (2025-11-19)
+
+- Implement reading of configuration settings of GitHub projects
+
+## v0.68.0 - v0.68.1 (2025-11-18)
+
+- Add support for authentication with Azure management tokens
+- Set default backend URL for COSMO users
+- Update dependency packages
+
+## v0.67.2 (2025-11-14)
+
+- Set artifact defaults already when retrieving the configuration of an AL-Go project
+
+## v0.67.1 (2025-11-11)
+
+- Remove unnecessary Kubernetes label validation for branch names again
+
+## v0.67.0 (2025-11-10)
+
+- Add endpoints to retrieve the current user together with their type
+- Retrieve the user profile from Graph API instead of Visual Studio API
+- Additionally extract the COSMO domain of a user from its Graph profile
+- Update dependency packages
 
 ## v0.66.0 - v0.66.1 (2025-10-30)
 
