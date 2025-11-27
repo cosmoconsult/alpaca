@@ -10,12 +10,13 @@ All notable changes to the Alpaca Backend
 
 ## v0.70.0 (2025-11-27)
 
-- Add endpoint to create demo containers in the Azure DevOps view
-- Implement artifact selection while creating containers based on the Azure DevOps project
+- Add endpoint to retrieve Azure DevOps demo container configurations
+- Add endpoint to create containers based on an Azure DevOps demo configuration
+- Implement BcArtifact selection while creating containers for an Azure DevOps repository
 
 ## v0.69.0 (2025-11-19)
 
-- Implement reading of configuration settings of GitHub projects
+- Implement reading of AL-Go configuration settings
 
 ## v0.68.0 - v0.68.1 (2025-11-18)
 
