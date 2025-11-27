@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.62.0 (2025-11-27)
+
+- Implement demo containers option for standalone containers
+- Implement BcArtifact selection while creating containers for an Azure DevOps repository
+- Update Alpaca API client
+
 ## v0.61.2 (2025-11-13)
 
 - Improve API client caching to depend on token expiration
