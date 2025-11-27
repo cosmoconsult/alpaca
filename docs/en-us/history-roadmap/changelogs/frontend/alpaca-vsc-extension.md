@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.62.0 (2025-11-07)
+## v0.62.0 (2025-11-27)
 
 - Implement demo containers option for standalone containers
 - Implement artifact selection while creating containers for Azure DevOps projects
