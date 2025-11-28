@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.52.1 (2025-10-13)
+
+- Catch exception for insufficient permissions while creating a new app repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4562/)
+  
 ## v1.52.0 (2025-10-13)
   
 - Fix bug where the setting appImportScope was not inherited correctly (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4497)
