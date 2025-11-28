@@ -10,7 +10,7 @@ All notable changes to the Azure DevOps Backend
 
 ## v1.52.1 (2025-10-13)
 
-- Catch Exceptions while creating a new app repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4562/)
+- Catch Exception while creating a new app repository (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4562/)
   
 ## v1.52.0 (2025-10-13)
   
