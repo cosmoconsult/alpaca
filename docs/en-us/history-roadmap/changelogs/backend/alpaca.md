@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## Unreleased
+
+- Update dependency packages
+
 ## v0.70.0 (2025-11-27)
 
 - Add endpoint to retrieve Azure DevOps demo container configurations
