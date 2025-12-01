@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.62.1 (2025-12-01)
+
+- Don't ask for BcArtifact selection when creating standalone containers
+
 ## v0.62.0 (2025-11-27)
 
 - Implement demo containers option for standalone containers
