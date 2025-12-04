@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.63.0 (2025-12-04)
+
+- Update Alpaca API client and adapt changes
+- Use dedicated container create endpoints
+
 ## v0.62.1 (2025-12-01)
 
 - Don't ask for BcArtifact selection when creating standalone containers
