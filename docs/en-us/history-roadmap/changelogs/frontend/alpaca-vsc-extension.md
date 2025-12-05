@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.63.0 (2025-12-04)
+## v0.63.0 (2025-12-05)
 
 - Update Alpaca API client and adapt changes
 - Use dedicated container create endpoints

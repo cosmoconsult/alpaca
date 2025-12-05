@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.71.0 (2025-12-04)
+## v0.72.0 (2025-12-05)
 
 - Upgrade to .NET 10 (incl. dependencies packages)
 - Adapt to changes in OpenAPI & Swagger
@@ -34,6 +34,10 @@ All notable changes to the Alpaca Backend
   - POST `/Container/Container/standalone`
   - POST `/Container/Container/demo`
 - BC Artifact properties are now overridable when creating a container
+
+## v0.71.0 (2025-12-05)
+
+- Rework for handling of trusted NuGet feeds
 
 ## v0.70.0 (2025-11-27)
 
