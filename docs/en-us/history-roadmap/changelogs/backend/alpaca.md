@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.72.0 (2025-12-05)
+## v0.72.0 (2025-12-08)
 
 - Upgrade to .NET 10 (incl. dependencies packages)
 - Adapt to changes in OpenAPI & Swagger
