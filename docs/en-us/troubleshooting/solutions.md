@@ -92,3 +92,9 @@ Add the following setting to your `cosmo.json`:
 ```
 
 After updating the file, recreate the container. RapidStart imports should then function as before.
+
+## Azure DevOps Pipeline does not start due to missing parallelism
+
+On new Azure DevOps organizations and private projects [Microsoft does no longer provide free parallelism by default](https://learn.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update?WT.mc_id=DOP-MVP-5001511#changes-to-azure-pipelines-free-grants).If you have multiple pipelines (build or release) configured, they might not start due to missing parallelism.
+
+You have to request the free grant by submitting the [parallelism request form](https://aka.ms/azpipelines-parallelism-request). *(It can take several business days to process the request.)*

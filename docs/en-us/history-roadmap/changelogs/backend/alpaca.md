@@ -8,9 +8,36 @@
 
 All notable changes to the Alpaca Backend
 
-## Unreleased
+## v0.72.0 (2025-12-08)
 
-- Update dependency packages
+- Upgrade to .NET 10 (incl. dependencies packages)
+- Adapt to changes in OpenAPI & Swagger
+- Support API paging when retrieving graph groups for an Azure DevOps organization
+- Fix issue that the server address in the container launch configuration should not contain the server instance
+- Review and streamline XML docs of all API endpoints
+- Review and replace misleading API endpoints:
+  - POST `/AzureDevOps/Backlog/{organization}/{project}/{sourceOrganization}/{sourceProject}` ->
+  - POST `/AzureDevOps/Backlog/import` with request body
+  - GET `/AzureDevOps/Branch/{organization}/{project}/{repository}/branches` ->
+  - GET `/AzureDevOps/Branch/{organization}/{project}/{repository}`
+  - GET `/AzureDevOps/Repository/{organization}/{project}/{repository}` ->
+  - GET `/AzureDevOps/RepositoryConfig/{organization}/{project}/{repository}`
+  - GET `/AzureDevOps/Repository/{organization}/{project}/{repository}/bcArtifacts` ->
+  - GET `/AzureDevOps/RepositoryConfig/{organization}/{project}/{repository}/bcArtifacts`
+  - GET `/Container/Exec/{containerId}/{id}` ->
+  - GET `/Container/Exec/{containerId}/status/{id}`
+  - marked the old endpoints as obsolete for now
+- Add dedicated container endpoints with simplified models:
+  - POST `/Container/Container` (generic endpoint remains unchanged)
+  - POST `/Container/Container/azureDevOps`
+  - POST `/Container/Container/gitHub`
+  - POST `/Container/Container/standalone`
+  - POST `/Container/Container/demo`
+- BC Artifact properties are now overridable when creating a container
+
+## v0.71.0 (2025-12-05)
+
+- Rework for handling of trusted NuGet feeds
 
 ## v0.70.0 (2025-11-27)
 
