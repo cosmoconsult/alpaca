@@ -24,8 +24,6 @@ All notable changes to the Alpaca Backend
   - GET `/AzureDevOps/RepositoryConfig/{organization}/{project}/{repository}`
   - GET `/AzureDevOps/Repository/{organization}/{project}/{repository}/bcArtifacts` ->
   - GET `/AzureDevOps/RepositoryConfig/{organization}/{project}/{repository}/bcArtifacts`
-  - GET `/Container/Exec/{containerId}/{id}` ->
-  - GET `/Container/Exec/{containerId}/status/{id}`
   - marked the old endpoints as obsolete for now
 - Add dedicated container endpoints with simplified models:
   - POST `/Container/Container` (generic endpoint remains unchanged)
