@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.43.0 (2025-12-09)
+
+- Add Page Scripting Tests support (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4564)
+
 ## v2.42.2 (2025-11-06)
 
 - Fix issue where NuGet PackageProvider could not be installed on some OnPrem systems (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4535)
