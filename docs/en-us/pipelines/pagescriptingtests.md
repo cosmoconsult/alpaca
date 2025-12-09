@@ -7,7 +7,7 @@
 
 # [**GitHub (AL-Go)**](#tab/github)
 
-Running Page Scripting Test on Alpaca Containers in AL-Go is **not yet** supported.
+Running Page Scripting Tests on Alpaca Containers in AL-Go is **not yet** supported.
 
 # [**Azure DevOps**](#tab/azdevops)
 
