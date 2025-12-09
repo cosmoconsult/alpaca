@@ -100,6 +100,8 @@
 
 ### [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
 
+### [Run Page Scripting Tests](pipelines/pagescriptingtests.md)
+
 ## COSMO-only Features
 
 ### [Assign Organization to Customer](vsc-extension/assign-customer.md)
