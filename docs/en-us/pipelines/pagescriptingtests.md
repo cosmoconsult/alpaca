@@ -15,12 +15,12 @@ Running Page Scripting Tests on Alpaca Containers in AL-Go is **not yet** suppor
 
 To automatically execute Page Scripting Tests during a build process, it is necessary to store them in a folder within the repository. Subfolders are permitted.
 
-To enable test execution for the CI pipeline, simply specify the directory containing all Page Scripting Tests in the ´.devops/azure-pipeline.yml´ file using the PageScriptingTestsDirectory variable. For example:
-´´´yaml
+To enable test execution for the CI pipeline, simply specify the directory containing all Page Scripting Tests in the `.devops/azure-pipeline.yml` file using the PageScriptingTestsDirectory variable. For example:
+```yaml
   - name:     'PageScriptingTestsDirectory' # Directory for Page Scripting Tests e.g. 'pageScriptingTests'
     value:    'pageScriptingTests'
-´´´
+```
 
-If you want the tests to run during validation against the next minor or major version, you must also make this change in ´.devops/azure-pipeline-next-minor.yml´ and ´.devops/azure-pipeline-next-major.yml´.
+If you want the tests to run during validation against the next minor or major version, you must also make this change in `.devops/azure-pipeline-next-minor.yml` and `.devops/azure-pipeline-next-major.yml`.
 
 After a successful pipeline run, the results of the Page Scripting Tests (along with classic tests) can be viewed in the "Tests" tab, where you can also track detailed error information.
