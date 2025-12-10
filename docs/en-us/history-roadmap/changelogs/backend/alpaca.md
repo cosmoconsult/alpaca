@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.72.1 (2025-12-10)
+
+- Read and pass licenseFile from cosmo.json correctly to the container
+
 ## v0.72.0 (2025-12-08)
 
 - Upgrade to .NET 10 (incl. dependencies packages)
