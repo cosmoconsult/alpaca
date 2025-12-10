@@ -8,10 +8,13 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.63.1 - v0.63.2 (2025-12-10)
+## v0.64.0 (2025-12-10)
+
+- Show progress indicator while preparing container creation (e.g. when waiting for user inputs)
+
+## v0.63.1 (2025-12-10)
 
 - Fix issue where the container creation for an Azure DevOps branch didn't work
-- Show progress indicator while preparing container creation (e.g. when waiting for user inputs)
 
 ## v0.63.0 (2025-12-08)
 
