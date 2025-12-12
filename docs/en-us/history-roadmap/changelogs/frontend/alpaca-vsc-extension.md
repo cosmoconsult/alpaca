@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.64.1 (2025-12-12)
+
+- Add search action at the top of all tree views
+- Trigger built-in `list.find` functionality instead of custom search implementation
+
 ## v0.64.0 (2025-12-10)
 
 - Show progress indicator while preparing container creation (e.g. when waiting for user inputs)
