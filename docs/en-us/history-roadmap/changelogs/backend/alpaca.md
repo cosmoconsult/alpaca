@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.72.1 - v0.72.2 (2025-12-11)
+## v0.72.1 - v0.72.3 (2025-12-11)
 
 - Read and pass licenseFile from cosmo.json correctly to the container
 - Fix issue that prevented using AAD authentication when creating containers for Azure DevOps repositories
