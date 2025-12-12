@@ -26,7 +26,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 - Update Alpaca API client and adapt changes
 - Use dedicated container create endpoints
 - Ask for BcArtifact properties (version, country, etc.) when creating a demo or standalone container
-- Add search functionality for Azure DevOps and GitHub view (hit `Ctrl+F` or `Cmd+F` when focused on the tree view)
+- Add search functionality for Azure DevOps and GitHub view
 
 ## v0.62.1 (2025-12-01)
 
