@@ -8,6 +8,11 @@
 
 All notable changes to the NuGet Backend
 
+## v1.6.0 (2025-12-16)
+
+- Return title, description and authors of a package (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4596)
+- Swagger: handle XForwardedPrefixHeader correctly
+
 ## v1.5.0 (2025-12-16)
 
 - Support paging when querying packages in a feed (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4596)

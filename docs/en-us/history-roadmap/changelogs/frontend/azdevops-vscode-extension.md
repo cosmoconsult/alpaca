@@ -11,7 +11,7 @@ All notable changes to the Visual Studio Code Extension
 ## v1.39.0 (2025-12-16)
 
 - Retrieve NuGet feeds configuration from Alpaca-API
-- Auto-generate list of NuGet packages grouped by appId
+- Auto-generate list of NuGet packages (grouped by appId)
 - Add caching for NuGet feeds configuration and NuGet feeds packages
 - Add new setting `cc-azdevops.customNuGetFeeds` to allow specifying custom NuGet feeds to be used additionally in the Product Packages view
 

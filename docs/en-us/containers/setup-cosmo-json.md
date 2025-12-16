@@ -166,6 +166,7 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"downloadSourcePreviousRelease"`|string |optional     |Specify if the artifact for the breaking change test should be taken from the target branch of the pull request or from a feed. Values are: `Feed`, `PR-Target` (default). Use the above described option `"previousRelease"` to specify the feed and package name.|
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
+|`"customNuGetFeeds"`             |array  |optional     |An optional array of custom NuGet feeds. [more](#custom-nuget-feeds)|
 
 ### Additional Deployment Feeds
 
@@ -231,6 +232,17 @@ The additional deployment feeds are used in Product Development to deploy the sa
     - $(devlic-bc-fr)
     - $(devlic-bc-hu)
     - $(devlic-bc-se)
+
+### Custom NuGet Feeds
+
+You can specify custom NuGet feeds to be used by the container when downloading NuGet artifacts (e.g. 3rd party dependencies).
+
+|Element|Type||Value|
+|-|-|-|-|
+|`"feedUrl"`|string|**mandatory**|The URL of the NuGet feed.|
+|`"pat"`    |string|optional     |The Personal Access Token (PAT) to access the NuGet feed.|
+
+In the Visual Studio Code extension you can configure custom NuGet feeds in the setting `cc-azdevops.customNuGetFeeds`. Those feeds will be automatically passed to the container when creating a new container (together with the ones from the repository configuration). Additionally you can explore your configured custom feeds and their packages in the "Product Packages" view.
 
 ## Docker-Specific Parameters
 
