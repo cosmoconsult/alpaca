@@ -14,7 +14,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.73.0 (2025-12-16)
 
-- Add endpoint to retrieve secret sync status for GitHub 
+- Add endpoint to retrieve secret sync status for GitHub
 
 ## v0.72.1 - v0.72.3 (2025-12-11)
 
