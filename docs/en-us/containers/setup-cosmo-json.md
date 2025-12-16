@@ -242,7 +242,7 @@ You can specify custom NuGet feeds to be used by the container when downloading 
 |`"feedUrl"`|string|**mandatory**|The URL of the NuGet feed.|
 |`"pat"`    |string|optional     |The Personal Access Token (PAT) to access the NuGet feed.|
 
-In the Visual Studio Code extension you can configure custom NuGet feeds in the setting `cc-azdevops.customNuGetFeeds`. Those feeds will be automatically passed to the container when creating a new container (together with the ones from the repository configuration). Additionally you can explore your configured custom feeds and their packages in the "Product Packages" view.
+In the Visual Studio Code extension you can configure custom NuGet feeds in the setting `cc-azdevops.customNuGetFeeds`. Those feeds will be automatically passed to the container when creating a new container (together with the ones from the repository configuration). Additionally you can explore your configured custom feeds and their packages in the "Product Packages" view under the group "Custom NuGet Feeds".
 
 ## Docker-Specific Parameters
 
