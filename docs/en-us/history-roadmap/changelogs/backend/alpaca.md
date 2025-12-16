@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.73.0 (2025-12-16)
+
+- Add endpoint to retrieve NuGet feeds configuration
+
 ## v0.72.1 - v0.72.3 (2025-12-11)
 
 - Read and pass licenseFile from cosmo.json correctly to the container
