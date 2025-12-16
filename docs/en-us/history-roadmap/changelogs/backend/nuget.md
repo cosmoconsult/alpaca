@@ -8,6 +8,10 @@
 
 All notable changes to the NuGet Backend
 
+## v1.5.0 (2025-12-16)
+
+- Support paging when querying packages in a feed (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4596)
+
 ## v1.4.0 (2025-09-23)
 
 - Add endpoint `<package>/download` to download a package with HTTP POST (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4476)
