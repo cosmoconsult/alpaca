@@ -17,7 +17,12 @@ In general, all Cosmo Alpaca-specific settings are stored in their own `alpaca` 
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "alpaca": {}
+  "alpaca": {
+    "createTranslations": true,
+    "translationLanguages": [ "de-DE", "de-AT" ],
+    "testTranslations": true,
+    "testTranslationRules": [ "All" ]
+  }
 }
 ```
 ## Translations
