@@ -8,6 +8,11 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.44.0 (2025-12-18)
+
+- Refactor checkout steps for improved performance (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4570)
+- Use Latest Windows instead of "Hosted Windows 2019 with VS2019" for Microsoft Hosted Agents [due to deprecation](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=windows-images%2Cyaml#windows-server-2019-hosted-image-deprecation-schedule) (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4586)
+
 ## v2.43.0 (2025-12-09)
 
 - Add Page Scripting Tests support (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4564)
