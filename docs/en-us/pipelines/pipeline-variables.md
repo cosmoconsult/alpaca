@@ -6,7 +6,30 @@
 # Using Variables
 
 # [**GitHub (AL-Go)**](#tab/github)
-WIP
+All Cosmo Alpaca-specific settings can be stored in [different files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located), just like the settings for AL-Go.
+Our settings follow the same rules for inheritance and [overwriting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-) as those from Microsoft.
+
+In general, all Cosmo Alpaca-specific settings are stored in their own `alpaca` group:
+```json .AL-Go/settings.json
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
+  "country": "w1",
+  "appFolders": [],
+  "testFolders": [],
+  "bcptTestFolders": [],
+  "alpaca": {}
+}
+```
+## Translations
+
+| Name | Default Value | Description |
+| - | - | - |
+| createTranslations | false | `true` to enable generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
+| translationLanguages | [] |  Array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`) |
+| testTranslations  | false | `true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
+| testTranslationRules  | [] | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`) |
+
+
 
 # [**Azure DevOps**](#tab/azdevops)
 
