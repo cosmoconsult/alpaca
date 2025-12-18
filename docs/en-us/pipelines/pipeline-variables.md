@@ -32,8 +32,7 @@ In general, all Cosmo Alpaca-specific settings are stored in their own `alpaca` 
 | createTranslations | false | `true` to enable generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
 | translationLanguages | [] |  Array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`) |
 | testTranslations  | false | `true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
-| testTranslationRules  | [] | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`) |
-
+| testTranslationRules  | [] | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`). <br>See the [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details about what each rule checks. |
 
 
 # [**Azure DevOps**](#tab/azdevops)
