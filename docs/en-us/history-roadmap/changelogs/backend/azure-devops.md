@@ -511,7 +511,7 @@ All notable changes to the Azure DevOps Backend
 - Fixed: Telemetry Controller did not forward the received content correctly to its endpoint
 - Define a simple mechanism to allow for custom startup scripts per Swarm [see #2194](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2194)
 - Add support for companion containers, i.e. non-BC containers connected to a "main" BC container [see #1970](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/1970)
-- Download library method added, to provide the D365BC powershell library for deployment tasks. [2137][see #2137](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2137)
+- Download library method added, to provide the D365BC powershell library for deployment tasks. [see #2137](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2137)
 - Extend process customizations [see #2202](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2202)
 - Define a simple mechanism to trigger different behavior for custom startup scripts per Swarm [see #2194](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2194)
 
@@ -559,7 +559,7 @@ All notable changes to the Azure DevOps Backend
 # v0.11.30
 
 - Make customizations of DEMUE_GMBH available for DEBER_LS as well [see #1722](https://dev.azure.com/cc-ppi/General/_workitems/edit/1722)
-- Suppress configurable errors or warnings during logging. The suppressed message are then logged as information. [#1730][see #1730](https://dev.azure.com/cc-ppi/General/_workitems/edit/1730)
+- Suppress configurable errors or warnings during logging. The suppressed message are then logged as information. [see #1730](https://dev.azure.com/cc-ppi/General/_workitems/edit/1730)
 - Fixed a problem when getting Artifacts from IP Feed [see #1749](https://dev.azure.com/cc-ppi/General/_workitems/edit/1749)
 
 # v0.11.29.3
@@ -616,7 +616,7 @@ All notable changes to the Azure DevOps Backend
 
 - Verify user has access level Basic or Visual Studio Subscriber when creating or onboarding a project [see #380](https://dev.azure.com/cc-ppi/General/_workitems/edit/380)
 - Fix bug where the default repository is not deleted when creating a new project [see #1083](https://dev.azure.com/cc-ppi/General/_workitems/edit/1083)
-- Fix bug where IncludeProjects in GetOrganizations call caused and HTTP 500, because of missing permissions in organization projects [#1130][see #1130](https://dev.azure.com/cc-ppi/General/_workitems/edit/1130)
+- Fix bug where IncludeProjects in GetOrganizations call caused and HTTP 500, because of missing permissions in organization projects [see #1130](https://dev.azure.com/cc-ppi/General/_workitems/edit/1130)
 - Added Package to enable Performance Counters, for better monitoring. The counters are enabled per default [see #422](https://dev.azure.com/cc-ppi/General/_workitems/edit/422)
 - Fix parameter enablePremium is not used for build containers [see #1134](https://dev.azure.com/cc-ppi/General/_workitems/edit/1134)
 - Allow project customizations to install extensions, modify board swimlanes and reference groups in WorkItem rules [see #916](https://dev.azure.com/cc-ppi/General/_workitems/edit/916)
@@ -626,8 +626,8 @@ All notable changes to the Azure DevOps Backend
 - Add project template support for product management. [see #1103](https://dev.azure.com/cc-ppi/General/_workitems/edit/1103)
 - Import process map into Azure DevOps backlog. (https://dev.azure.com/cc-ppi/DigiCheck%20E2E/_workitems/edit/1229)
 - Wrong URL path encoding corrected in Configuration Controller & Repository Controller [see #1230](https://dev.azure.com/cc-ppi/General/_workitems/edit/1230)
-- Fix bug where included variables in cosmo.json wasn't resolved in get configuration methods from ContainerConfigController. [#1183][see #1183](https://dev.azure.com/cc-ppi/General/_workitems/edit/1183)
-- Allow to easily define COSMO IP artifacts as dependency in a container [#1034][see #1034](https://dev.azure.com/cc-ppi/General/_workitems/edit/1034)
+- Fix bug where included variables in cosmo.json wasn't resolved in get configuration methods from ContainerConfigController. [see #1183](https://dev.azure.com/cc-ppi/General/_workitems/edit/1183)
+- Allow to easily define COSMO IP artifacts as dependency in a container [see #1034](https://dev.azure.com/cc-ppi/General/_workitems/edit/1034)
 - Support artifact download if version contains wildcard [see #1241](https://dev.azure.com/cc-ppi/General/_workitems/edit/1241)
 - Support lang subcodes when creating new apps [see #1285](https://dev.azure.com/cc-ppi/General/_workitems/edit/1285)
 - Variable `Endpoint.{Stage}` added for release pipeline `Deploy and Promote - ALOps Extension API (OnPrem)` [see #1247](https://dev.azure.com/cc-ppi/General/_workitems/edit/1247)
@@ -798,7 +798,7 @@ All notable changes to the Azure DevOps Backend
 
 # v0.11.7.1
 
-- The call to get the User (https://github.com/tfenster/azdevops-automation/blob/a9f47cc9d93c4da392d5049e471860007320c433/core/Auth/CustomAuthenticationHandler.cs#L222) without an org only works with "all orgs" enabled PATs and we can't create those through the API. Therefore PATValidationProject had to be re-enabled to fix [this bug][see #432](https://dev.azure.com/cc-ppi/General/_workitems/edit/432)
+- The call to get the User (https://github.com/tfenster/azdevops-automation/blob/a9f47cc9d93c4da392d5049e471860007320c433/core/Auth/CustomAuthenticationHandler.cs#L222) without an org only works with "all orgs" enabled PATs and we can't create those through the API. Therefore PATValidationProject had to be re-enabled to fix [this bug](https://dev.azure.com/cc-ppi/General/_workitems/edit/432)
 
 # v0.11.7
 
@@ -808,5 +808,5 @@ All notable changes to the Azure DevOps Backend
 # v0.11.6
 
 - Remove requirement for PATValidationProject: Instead of setting a PATValidationProject query param, most of the time the org can be deduced from the user. If not, a Header "Collection-URI" is used
-- Add AgentController to handle add and delete of agents, necessary for starting agents in server jobs ([documentation][see #405](https://dev.azure.com/cc-ppi/General/_workitems/edit/405))
-- Process modification improvements ([documentation][see #281](https://dev.azure.com/cc-ppi/General/_workitems/edit/281))
+- Add AgentController to handle add and delete of agents, necessary for starting agents in server jobs ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/405))
+- Process modification improvements ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/281))

@@ -617,7 +617,7 @@ All notable changes to the Visual Studio Code Extension
 - Better error handling when creating containers [see #862](https://dev.azure.com/cc-ppi/General/_workitems/edit/862)
 - The lists below "WorkItems" are now sorted in the same way as the original queries [see #925](https://dev.azure.com/cc-ppi/General/_workitems/edit/925)
 - Fix error preventing the launch.json to be updated when the configurations field is not present, pretty-print config [see #970](https://dev.azure.com/cc-ppi/General/_workitems/edit/970)
-- Fix creation of release pipeline used wrong ordered stages caused by VSCode ItemList sorting. [see #989][see #989](https://dev.azure.com/cc-ppi/General/_workitems/edit/989)
+- Fix creation of release pipeline used wrong ordered stages caused by VSCode ItemList sorting. [see #989](https://dev.azure.com/cc-ppi/General/_workitems/edit/989)
 - Rename "Update license" to "Update variables/licenses" as it now does both [see #354](https://dev.azure.com/cc-ppi/General/_workitems/edit/354)
 - Add the possibility to set additional owners for a container so that it appears in their tooling as well [see #500](https://dev.azure.com/cc-ppi/General/_workitems/edit/500)
 - Support the new workspace trust feature (https://code.visualstudio.com/docs/editor/workspace-trust) of Visual Studio Code [see #1029](https://dev.azure.com/cc-ppi/General/_workitems/edit/1029)
@@ -749,10 +749,10 @@ All notable changes to the Visual Studio Code Extension
 ## v0.11.10
 
 - Allow definition of favorite organizations including potentially filtering on them ([documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/favorite-orgs.html))
-- Use new startup file handling ([documentation][see #382](https://dev.azure.com/cc-ppi/General/_workitems/edit/382))
+- Use new startup file handling ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/382))
 - Add action to open [documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice)
-- Refresh the organization after an entity has been assigned ([documentation][see #394](https://dev.azure.com/cc-ppi/General/_workitems/edit/394))
-- Allow container access even when the container isn't running ([documentation][see #401](https://dev.azure.com/cc-ppi/General/_workitems/edit/401))
+- Refresh the organization after an entity has been assigned ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/394))
+- Allow container access even when the container isn't running ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/401))
 
 ## v0.11.9
 
