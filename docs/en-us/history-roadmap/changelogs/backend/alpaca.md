@@ -332,8 +332,8 @@ All notable changes to the Alpaca Backend
 
 ## v0.30.0 (2025-03-13)
 
-- Adapt specification of release types due to changes in AL-Go (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4263)
-- Support specific backend per GitHub owner and pass backendUrl to be used to client (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4264)
+- Adapt specification of release types due to changes in AL-Go [see #4263](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4263)
+- Support specific backend per GitHub owner and pass backendUrl to be used to client [see #4264](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4264)
 
 ## v0.29.0 (2025-03-06)
 
@@ -370,7 +370,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.23.0 (2024-12-10)
 
-- Fix issue where slashes in the name of an AL-Go project caused an error (https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4180)
+- Fix issue where slashes in the name of an AL-Go project caused an error [see #4180](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4180)
 - Update AL-Go to version 6.1
 
 ## v0.22.0

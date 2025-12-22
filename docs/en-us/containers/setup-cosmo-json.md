@@ -244,6 +244,9 @@ You can specify custom NuGet feeds to be used by the container when downloading 
 
 In the Visual Studio Code extension you can configure custom NuGet feeds in the setting `cc-azdevops.customNuGetFeeds`. Those feeds will be automatically passed to the container when creating a new container (together with the ones from the repository configuration). Additionally you can explore your configured custom feeds and their packages in the "Product Packages" view under the group "Custom NuGet Feeds".
 
+> [!TIP]
+> In the Visual Studio Code extension settings you can configure a `"filter"` for each custom NuGet feed to only show packages containing a certain term. This is useful if you have custom feeds with a lot of packages and only want to see relevant ones.
+
 ## Docker-Specific Parameters
 
 |Element|Type||Value|

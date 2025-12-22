@@ -8,6 +8,10 @@
 
 All notable changes to the NuGet Backend
 
+## v1.7.0 (2025-12-22)
+
+- Allow anonymous access for public feeds without PAT [see #4605](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4605)
+
 ## v1.6.0 (2025-12-16)
 
 - Return title, description and authors of a package [see #4596](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4596)
