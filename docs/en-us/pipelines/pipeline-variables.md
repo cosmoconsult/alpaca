@@ -6,10 +6,10 @@
 # Using Variables
 
 # [**GitHub (AL-Go)**](#tab/github)
-All Cosmo Alpaca-specific settings can be stored in [different files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located), just like the settings for AL-Go.
+All COSMO Alpaca-specific settings can be stored in [different files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located), just like the settings for AL-Go.
 Our settings follow the same rules for inheritance and [overwriting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-) as those from Microsoft.
 
-In general, all Cosmo Alpaca-specific settings are stored in their own `alpaca` group:
+In general, all COSMO Alpaca-specific settings are stored in their own `alpaca` group:
 ```json .AL-Go/settings.json
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
