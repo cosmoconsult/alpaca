@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.45.0 (2025-12-23)
+
+- Replace legacy ppi-devops host for additional folders to maintain backward compatibility [see #4608](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4608)
+
 ## v2.44.0 (2025-12-18)
 
 - Refactor checkout steps for improved performance [see #4570](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4570)

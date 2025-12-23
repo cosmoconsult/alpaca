@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.41.0 (2025-12-23)
+
+- Remove references to legacy ppi-devops host and unused dependencies [see #4608](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4608)
+
 ## v1.40.0 (2025-12-22)
 
 - Allow anonymous access for public NuGet feeds without PAT [see #4605](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4605)
