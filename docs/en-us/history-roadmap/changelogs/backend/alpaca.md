@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.75.0 (2026-01-05)
+
+- Add endpoint to create Azure DevOps app repository
+  
 ## v0.74.0 (2025-12-16)
 
 - Add endpoint to retrieve NuGet feeds configuration
