@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.64.1 (2026-01-05)
+## v0.65.0 (2026-01-05)
 
 - Add action to create Azure DevOps app repository
   
