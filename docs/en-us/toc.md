@@ -12,61 +12,61 @@
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
-# Usage Guide
+# COSMO Alpaca (Legacy)
 
 ## General Features
 
-### [Favorite Organizations](vsc-extension/favorite-orgs.md)
+### [Favorite Organizations](legacy/vsc-extension/favorite-orgs.md)
 
-### [Create Project](vsc-extension/create-project.md)
+### [Create Project](legacy/vsc-extension/create-project.md)
 
-### [Onboard Existing Projects & Apps](vsc-extension/onboard-project.md)
+### [Onboard Existing Projects & Apps](legacy/vsc-extension/onboard-project.md)
 
-### [Import Project Backlog](vsc-extension/import-projectbacklog.md)
+### [Import Project Backlog](legacy/vsc-extension/import-projectbacklog.md)
 
-### [Customize Projects](vsc-extension/customize-project.md)
+### [Customize Projects](legacy/vsc-extension/customize-project.md)
 
-### [Interact with Requirements](vsc-extension/associate-wi.md)
+### [Interact with Requirements](legacy/vsc-extension/associate-wi.md)
 
-### [Download Artifacts](vsc-extension/download-artifact.md)
+### [Download Artifacts](legacy/vsc-extension/download-artifact.md)
 
-### [Open Elements in Browser](vsc-extension/open-stuff.md)
+### [Open Elements in Browser](legacy/vsc-extension/open-stuff.md)
 
 ## App Development
 
-### [Create Repository & App](vsc-extension/create-app.md)
+### [Create Repository & App](legacy/vsc-extension/create-app.md)
 
-### [Clone Repository](vsc-extension/clone-repo.md)
+### [Clone Repository](legacy/vsc-extension/clone-repo.md)
 
-### [Work with Branches](vsc-extension/branches.md)
+### [Work with Branches](legacy/vsc-extension/branches.md)
 
 ## Dev Container Management
 
-### [Create Container](vsc-extension/create-container.md)
+### [Create Container](legacy/vsc-extension/create-container.md)
 
-### [Create Standalone Container](vsc-extension/create-ondemand-container.md)
+### [Create Standalone Container](legacy/vsc-extension/create-ondemand-container.md)
 
-### [Get User/Password](vsc-extension/copy-user-pwd.md)
+### [Get User/Password](legacy/vsc-extension/copy-user-pwd.md)
 
-### [Open Web Client, Terminal, File Share, Log](vsc-extension/open-container.md)
+### [Open Web Client, Terminal, File Share, Log](legacy/vsc-extension/open-container.md)
 
-### [Delete Container](vsc-extension/delete-container.md)
+### [Delete Container](legacy/vsc-extension/delete-container.md)
 
-### [Start/Stop Container](vsc-extension/startstop-container.md)
+### [Start/Stop Container](legacy/vsc-extension/startstop-container.md)
 
-### [Auto-Start/-Stop Container](vsc-extension/auto-startstop.md)
+### [Auto-Start/-Stop Container](legacy/vsc-extension/auto-startstop.md)
 
-### [Share Container](vsc-extension/share-container.md)
+### [Share Container](legacy/vsc-extension/share-container.md)
 
-### [Backup Container Database](vsc-extension/backup-database.md)
+### [Backup Container Database](legacy/vsc-extension/backup-database.md)
 
-### [Rename Container](vsc-extension/rename-container.md)
+### [Rename Container](legacy/vsc-extension/rename-container.md)
 
-### [Restart BC Service Tier](vsc-extension/restart-service-tier.md)
+### [Restart BC Service Tier](legacy/vsc-extension/restart-service-tier.md)
 
 ### [Access SQL Server](scenarios/access-sql.md)
 
-### [Get Event Log](vsc-extension/event-log.md)
+### [Get Event Log](legacy/vsc-extension/event-log.md)
 
 ## Dev & Build Container Setup
 
@@ -78,7 +78,7 @@
 
 ### [Setup Database Backup](containers/setup-bak.md)
 
-### [Convert .bacpac to .bak](vsc-extension/convert-bacpac-to-bak.md)
+### [Convert .bacpac to .bak](legacy/vsc-extension/convert-bacpac-to-bak.md)
 
 ### [Setup Companion Containers](containers/setup-companion-container.md)
 
@@ -88,9 +88,9 @@
 
 ### [Increase App Version](pipelines/version-increase.md)
 
-### [Deploy App](vsc-extension/create-release-pipeline.md)
+### [Deploy App](legacy/vsc-extension/create-release-pipeline.md)
 
-### [Update CI/CD Templates](vsc-extension/cicd-update.md)
+### [Update CI/CD Templates](legacy/vsc-extension/cicd-update.md)
 
 ### [Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows](pipelines/next.md)
 
@@ -104,11 +104,73 @@
 
 ## COSMO-only Features
 
-### [Assign Organization to Customer](vsc-extension/assign-customer.md)
+### [Assign Organization to Customer](legacy/vsc-extension/assign-customer.md)
 
-### [Assign Organization to Entity](vsc-extension/assign-entity.md)
+### [Assign Organization to Entity](legacy/vsc-extension/assign-entity.md)
 
-### [Assign Organization to Responsible User](vsc-extension/assign-responsible-user.md)
+### [Assign Organization to Responsible User](legacy/vsc-extension/assign-responsible-user.md)
+
+# COSMO Alpaca (Preview)
+
+## General Features
+
+### [Favorite Organizations](preview/vsc-extension/favorite-orgs.md)
+
+### [Create Project](preview/vsc-extension/create-project.md)
+
+### [Interact with Requirements](preview/vsc-extension/associate-wi.md)
+
+## App Development
+
+### [Create Repository & App](preview/vsc-extension/create-app.md)
+
+### [Clone Repository](preview/vsc-extension/clone-repo.md)
+
+### [Work with Branches](preview/vsc-extension/branches.md)
+
+## Dev Container Management
+
+### [Create Container](preview/vsc-extension/create-container.md)
+
+### [Create Standalone Container](preview/vsc-extension/create-ondemand-container.md)
+
+### [Get User/Password](preview/vsc-extension/copy-user-pwd.md)
+
+### [Open Web Client, Terminal, File Share, Log](preview/vsc-extension/open-container.md)
+
+### [Delete Container](preview/vsc-extension/delete-container.md)
+
+### [Start/Stop Container](preview/vsc-extension/startstop-container.md)
+
+### [Auto-Start/-Stop Container](preview/vsc-extension/auto-startstop.md)
+
+### [Share Container](preview/vsc-extension/share-container.md)
+
+### [Backup Container Database](preview/vsc-extension/backup-database.md)
+
+### [Rename Container](preview/vsc-extension/rename-container.md)
+
+### [Restart BC Service Tier](preview/vsc-extension/restart-service-tier.md)
+
+### [Access SQL Server](scenarios/access-sql.md)
+
+### [Get Event Log](preview/vsc-extension/event-log.md)
+
+## Dev & Build Container Setup
+
+### [Setup cosmo.json/alpaca.json Config](containers/setup-cosmo-json.md)
+
+### [Change BC Version/Country](containers/change-container.md)
+
+### [Setup Artifacts to Import on Container Startup](containers/setup-artifacts.md)
+
+### [Setup Database Backup](containers/setup-bak.md)
+
+### [Convert .bacpac to .bak](preview/vsc-extension/convert-bacpac-to-bak.md)
+
+### [Setup Companion Containers](containers/setup-companion-container.md)
+
+### [Setup Custom Scripts](containers/setup-custom-scripts.md)
 
 # [Administration](admin/index.md)
 
