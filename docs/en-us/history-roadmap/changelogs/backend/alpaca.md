@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.74.1 (2026-01-12)
+
+- Fix issue where the workflow specific settings file was not correctly used when creating a GitHub container for that settings file
+
 ## v0.74.0 (2025-12-16)
 
 - Add endpoint to retrieve NuGet feeds configuration
