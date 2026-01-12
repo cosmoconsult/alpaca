@@ -98,3 +98,17 @@ After updating the file, recreate the container. RapidStart imports should then 
 On new Azure DevOps organizations and private projects [Microsoft does no longer provide free parallelism by default](https://learn.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update?WT.mc_id=DOP-MVP-5001511#changes-to-azure-pipelines-free-grants).If you have multiple pipelines (build or release) configured, they might not start due to missing parallelism.
 
 You have to request the free grant by submitting the [parallelism request form](https://aka.ms/azpipelines-parallelism-request). *(It can take several business days to process the request.)*
+
+## Windows Server 2019 images are now retired.
+
+Microsoft has [removed Windows Server 2019 Support](https://devblogs.microsoft.com/devops/upcoming-updates-for-azure-pipelines-agents-images/#windows) for Microsoft Hosted Agents.
+In earlier versions, we used this as the default.
+
+To switch to a current image, it is advisable to first update the DevOps repository and the task groups.
+If release pipelines already exist, they must be adjusted.
+This can be done either using [this script](../media\troubleshoot\fix-agentpool-in-releasepipeline.ps1) for all release pipelines in an Azure DevOps organization or manually for each individual release job. The latter can be time-consuming.
+1. Open you release pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+1. Select a Stage to edit (Repeat for all Stages)
+1. Locate all agent job (marked as 'Run on agent')
+1. If the selected Agent Pool is Windows Server 2019 (or similar) change it to 'Azure Pipelines' and set 'windows-latest' as Agent Specification
+![Set Agent pool in Classic Release Pipeline](../media/troubleshoot/set-agentpool-in-releasepipeline.png)
