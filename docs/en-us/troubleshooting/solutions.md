@@ -106,9 +106,9 @@ In earlier versions, we used this as the default.
 
 To switch to a current image, it is advisable to first update the DevOps repository and the task groups.
 If release pipelines already exist, they must be adjusted.
-This can be done either using [this script](../media\troubleshoot\fix-agentpool-in-releasepipeline.ps1) for all release pipelines in an Azure DevOps organization or manually for each individual release job. The latter can be time-consuming.
-1. Open you release pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-releasepipeline.ps1) for all release pipelines in an Azure DevOps organization or manually for each individual release job. The latter can be time-consuming.
+1. Open your release pipeline and click 'Edit'. (Repeat for all Release Pipelines)
 1. Select a Stage to edit (Repeat for all Stages)
-1. Locate all agent job (marked as 'Run on agent')
+1. Locate all agent jobs (marked as 'Run on agent')
 1. If the selected Agent Pool is Windows Server 2019 (or similar) change it to 'Azure Pipelines' and set 'windows-latest' as Agent Specification
 ![Set Agent pool in Classic Release Pipeline](../media/troubleshoot/set-agentpool-in-releasepipeline.png)
