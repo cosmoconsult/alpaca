@@ -104,7 +104,9 @@ You have to request the free grant by submitting the [parallelism request form](
 Microsoft has [removed Windows Server 2019 Support](https://devblogs.microsoft.com/devops/upcoming-updates-for-azure-pipelines-agents-images/#windows) for Microsoft Hosted Agents.
 In earlier versions, we used this as the default.
 
-To switch to a current image, it is advisable to first update the DevOps repository and the task groups.
+### Classic Release Pipelines
+
+To switch to a current image, it is advisable to first update the task groups.
 If release pipelines already exist, they must be adjusted.
 This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-releasepipeline.ps1) for all release pipelines in an Azure DevOps organization or manually for each individual release job. The latter can be time-consuming.
 1. Open your release pipeline and click 'Edit'. (Repeat for all Release Pipelines)
@@ -112,3 +114,15 @@ This can be done either using [this script](../media/troubleshoot/fix-agentpool-
 1. Locate all agent jobs (marked as 'Run on agent')
 1. If the selected Agent Pool is Windows Server 2019 (or similar) change it to 'Azure Pipelines' and set 'windows-latest' as Agent Specification
 ![Set Agent pool in Classic Release Pipeline](../media/troubleshoot/set-agentpool-in-releasepipeline.png)
+
+### Yaml Pipelines
+
+One indicator of this problem is that when scheduling a pipeline run, the 'Run' button remains permanently grayed out.
+
+To switch to a current image, it is advisable to first update the DevOps repository.
+If release pipelines already exist, they must be adjusted.
+This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-yamlpipeline.ps1) for all pipelines in an Azure DevOps organization or manually for each pipeline. The latter can be time-consuming.
+1. Open your  pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+1. Click the three dots in the upper right corner and select 'Triggers'
+1. Navigate to the 'YAML' Tab an set the 'Default agent pool for YAML' to 'Azure Pipelines'
+1. Save the changes and start a test run.
