@@ -8,6 +8,12 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.46.0 (2026-01-13)
+
+- Log errors during dependent app publish [see #4610](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4610)
+- Update default agent pool from 'Hosted' to 'Azure Pipelines' [see #4586](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4586)
+- Page Scripting fails due to connection error [see #4613](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4613)
+
 ## v2.45.0 (2025-12-23)
 
 - Replace legacy ppi-devops host for additional folders to maintain backward compatibility [see #4608](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4608)
