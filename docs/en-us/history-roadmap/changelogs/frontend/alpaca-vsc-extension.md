@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.65.0 (2026-01-13)
+
+- Add MCP tool support for using COSMO Alpaca actions via Copilot agents
+
 ## v0.64.1 (2025-12-12)
 
 - Add search action at the top of all tree views
