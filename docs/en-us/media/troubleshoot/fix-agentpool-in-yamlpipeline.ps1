@@ -25,7 +25,6 @@ $Projects = Invoke-RestMethod -Uri "https://dev.azure.com/$Organization/_apis/pr
 
 #Get All Pipelines in those Projects
 $DefsToEdit = @()
-$Project = $Projects[0]
 foreach ($Project in $Projects) {
     $Definitions = Invoke-RestMethod -Uri "https://dev.azure.com/$Organization/$($Project.id)/_apis/build/definitions?api-version=7.1" -Headers $Headers | Select-Object -ExpandProperty value 
     foreach ($Def in $Definitions) {
