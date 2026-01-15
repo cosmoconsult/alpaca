@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.66.0 (2026-01-15)
+
+- Add new actions for GitHub PRs to open PR Webview in VS Code and checking out PRs directly
+
 ## v0.65.0 (2026-01-13)
 
 - Add MCP tool support for using COSMO Alpaca actions via Copilot agents
