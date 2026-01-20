@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.47.0 (2026-01-19)
+
+- Fix an issue where CreateRuntimePackage failed due to paths containing spaces [see #4619](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4619)
+
 ## v2.46.0 (2026-01-13)
 
 - Log errors during dependent app publish [see #4610](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4610)
