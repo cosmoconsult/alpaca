@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.75.0 (2026-01-21)
 
-- Add distributed redis cache shared between Alpaca API instances
+- Add distributed Redis cache shared between Alpaca API instances
 
 ## v0.74.1 (2026-01-12)
 
