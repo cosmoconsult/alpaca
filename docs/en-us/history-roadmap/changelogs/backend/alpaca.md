@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.75.0 (2026-01-22)
+
+- Add distributed Redis cache shared between Alpaca API instances
+
 ## v0.74.1 (2026-01-12)
 
 - Fix issue where the workflow specific settings file was not correctly used when creating a GitHub container for that workflow/settings
