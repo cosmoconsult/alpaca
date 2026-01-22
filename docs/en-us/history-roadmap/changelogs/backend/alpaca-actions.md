@@ -16,7 +16,7 @@ All notable changes to the Alpaca AL-Go Actions
 - Refactored debug messages
 - Refactored sync of secrets to the Alpaca backend
 - Fix issues with container status checks
-- Fix issues with error handling (missing error details & github annotation overflow)
+- Fix issues with error handling (missing error details & GitHub annotation overflow)
 - Fix issues with url encodings
 
 ## v2.3.2 (2025-11-05)
