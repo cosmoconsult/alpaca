@@ -21,17 +21,6 @@ Here you will find what we are currently working on and what is planned for the 
   (The new extensions currenly provides mainly GitHub functionality, but we are adding the known Azure DevOps features step by step.)
 - 1-Click install product package in container ([COSMO Improve](https://improve.cosmoconsult.com/ideas/I-0162))
 
-## Power App
-
-> [!NOTE]
-> We will not continue to develop the Power App. It will remain available until the new solution is fully ready and supports the main features of the Power App (Demo & Pull Request Containers, etc.).
->
-> The new solution is the Visual Studio Code Extension, which is currently under development. It offers a simplified user interface for non-technical users and can be used on [vscode.dev](https://vscode.dev).
->
-> By making the new extension our central frontend, we can focus development on a single solution and deliver new features and improvements more quickly.
->
-> For installation instructions, see the [Visual Studio Code Extension setup guide](../getting-started/vscode-dev.md).
-
 # Backend
 
 ## Azure DevOps
@@ -40,7 +29,7 @@ Here you will find what we are currently working on and what is planned for the 
 
 ## GitHub
 
-- Add support for [BcNuGet](https://github.com/BusinessCentralApps/GenerateBcNuGet?tab=readme-ov-file#using-github) to Product Packages
+- Extend integration with AL-Go for GitHub
 
 ## Container
 
