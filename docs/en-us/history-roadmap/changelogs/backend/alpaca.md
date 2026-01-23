@@ -21,6 +21,10 @@ All notable changes to the Alpaca Backend
 - Move from alpine-based image to Debian due to BcContainerHelper/ALtool dependency
 - Updated to AL-Go v8.1
 
+## v0.76.1 (2026-01-23)
+
+- Change Kubernetes secret name for GitHub ConfigSync
+
 ## v0.76.0 (2026-01-22)
 
 - Replace GitHub SecretSync with ConfigSync and support variables
