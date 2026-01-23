@@ -8,6 +8,17 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.4.0 (2026-01-19)
+
+- Added support for containers per buildMode
+- Added translation creation on pre-compilation using XLIFF-Sync
+- Added removal of finished containers after each build
+- Refactored debug messages
+- Refactored sync of secrets to the Alpaca backend
+- Fix issues with container status checks
+- Fix issues with error handling (missing error details & GitHub annotation overflow)
+- Fix issues with url encodings
+
 ## v2.3.2 (2025-11-05)
 
 - Fix issue where tests were not run in the container or could result in endless loops
