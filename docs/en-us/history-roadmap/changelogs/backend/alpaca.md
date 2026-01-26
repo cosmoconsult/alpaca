@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.77.0 (2026-01-23)
+## v0.77.0 (2026-01-26)
 
 - Integrate and refactor endpoints from NuGet API:
   - `/NuGet/FeedsConfig`: Get NuGet feeds configuration for the current user

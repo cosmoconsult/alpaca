@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.67.0 (2026-01-23)
+## v0.67.0 (2026-01-26)
 
 - Update Alpaca API client
 - Implement package tree view
