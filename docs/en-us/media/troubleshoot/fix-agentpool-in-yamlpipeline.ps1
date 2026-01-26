@@ -10,7 +10,7 @@
     4. Identifies pipelines with no queue defined (queue.pool is null)
     5. Displays found pipelines in Out-GridView for user selection
     6. Updates selected pipelines by:
-       - Setting Queue ID to Azure Pipelines
+       - Setting the queue name to Azure Pipelines
     7. Pushes the updated pipeline definitions back to Azure DevOps
 #>
 
