@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## v1.42.0 (2026-01-26)
+## v1.42.0 (2026-01-27)
 
 - Update Alpaca API client
 - Move from NuGet API to Alpaca API for NuGet packages
