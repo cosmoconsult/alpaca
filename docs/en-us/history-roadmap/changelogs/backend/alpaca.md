@@ -8,6 +8,31 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.77.0 (2026-01-27)
+
+- Integrate and refactor endpoints from NuGet API:
+  - `/NuGet/FeedsConfig`: Get NuGet feeds configuration for the current user
+  - `/AzureDevOps/NuGetFeedsConfig` is obsolete now
+  - `/NuGet/Feed/query`: Query a NuGet feed and get package list
+  - `/NuGet/Package/{packageName}/download`: Download a NuGet package
+  - `/NuGet/Package/{packageName}/metadata`: Get metadata of a NuGet package
+  - `/NuGet/Package`: Create a NuGet package by uploading an app file
+- Integrate and refactor related services and models from NuGet API
+- Implement consolidation of BC NuGet packages (previously necessary on client side)
+- Move from alpine-based image to Debian due to BcContainerHelper/ALtool dependency
+- Updated to AL-Go v8.1
+- Integrate caching for NuGet feed indexes, query results and packages metadata
+- Always use memory streaming when downloading files (incl. NuGet packages)
+- Add Kubernetes leader election for distributed pod coordination (e.g. cleanup tasks)
+
+## v0.76.1 (2026-01-23)
+
+- Change Kubernetes secret name for GitHub ConfigSync
+
+## v0.76.0 (2026-01-22)
+
+- Replace GitHub SecretSync with ConfigSync and support variables
+
 ## v0.75.0 (2026-01-22)
 
 - Add distributed Redis cache shared between Alpaca API instances

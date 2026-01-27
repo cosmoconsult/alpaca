@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.43.0 (2026-01-27)
+
+- Update Alpaca API client
+- Move from NuGet API to Alpaca API for NuGet packages
+- Rework NuGet feeds configuration, feeds, packages and versions to adapt to changes in the Alpaca API
+- Integrate improvements and changes from alpaca-vsc-extension
+- Minor improvements and refactoring
+
 ## v1.42.0 (2026-01-27)
 
 - Fix issue with unclear "License URL" error message when aborting app creation [see #4631](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4631)
@@ -23,7 +31,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.39.0 (2025-12-16)
 
-- Retrieve NuGet feeds configuration from Alpaca-API
+- Retrieve NuGet feeds configuration from Alpaca API
 - Auto-generate list of NuGet packages (grouped by appId)
 - Add caching for NuGet feeds configuration and NuGet feeds packages
 - Add new setting `cc-azdevops.customNuGetFeeds` to allow specifying custom NuGet feeds to be used additionally in the Product Packages view

@@ -8,6 +8,19 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.67.0 (2026-01-27)
+
+- Update Alpaca API client
+- Implement package tree view
+  - Retrieve NuGet feeds configuration from Alpaca API
+  - Query feeds and list packages (incl. custom NuGet feeds)
+  - Show metadata and dependencies of a package
+  - Download packages by version and latest by platform
+  - Download package directly to AL package cache
+- Extend caching mechanism for tree views to better differentiate cached items per tree
+- Minor improvements and refactoring
+- Add new setting `cosmo-alpaca.customNuGetFeeds` to allow specifying custom NuGet feeds to be used additionally in the Packages view
+
 ## v0.66.1 (2026-01-16)
 
 - Shorten language model tool names
@@ -86,7 +99,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.58.0 (2025-10-01)
 
-- Use Alpaca Api to retrieve and prune container configurations
+- Use Alpaca API to retrieve and prune container configurations
 
 ## v0.57.1 (2025-09-26)
 

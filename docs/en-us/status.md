@@ -15,8 +15,11 @@ As a temporary workaround, please set the version in your cosmo.json back to **`
 
 ## Azure DevOps Organization creation requires Billing Subscription
 
-Microsoft recently made the assignment of a billing Azure subscription mandatory when creating new Azure DevOps organizations.
+> [!NOTE]
+> The information below is only relevant for COSMO users trying to create a new Azure DevOps organization.
 
-At the moment, only the Alpaca team and oneIT subscription owners are authorized to perform this assignment. We have already contacted the colleagues to find a better solution, but for now, we **will need to create new organizations on your behalf**. Please reach out to the Alpaca support for assistance.
+Since 2026, creating new Azure DevOps organizations requires specifying a billing subscription.
+
+We're currently working with the Global IT to find a good solution to this new requirement. Until then please get in touch with the [authorized people who have access to the billing subscription](https://engage.cloud.microsoft/main/org/cosmoconsult.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5OTk2NDUxNzE3MTIwMCJ9?trk_copy_link=V2).
 
 After the organization is created, you will be able to assign the COSMO entity and create a project using COSMO Alpaca as usual.
