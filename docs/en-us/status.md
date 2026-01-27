@@ -20,6 +20,6 @@ As a temporary workaround, please set the version in your cosmo.json back to **`
 
 Since 2026 the creation of new Azure DevOps organization requires specifying a billing subscription.
 
-We're currently working with the Global IT to find a good solution to this new requirement. Until then please get in touch with the [authorized people who have access to the billing subscription]((https://engage.cloud.microsoft/main/org/cosmoconsult.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5OTk2NDUxNzE3MTIwMCJ9?trk_copy_link=V2)).
+We're currently working with the Global IT to find a good solution to this new requirement. Until then please get in touch with the [authorized people who have access to the billing subscription](https://engage.cloud.microsoft/main/org/cosmoconsult.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzY5OTk2NDUxNzE3MTIwMCJ9?trk_copy_link=V2).
 
 After the organization is created, you will be able to assign the COSMO entity and create a project using COSMO Alpaca as usual.
