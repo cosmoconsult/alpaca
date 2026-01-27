@@ -18,8 +18,12 @@ All notable changes to the Alpaca Backend
   - `/NuGet/Package/{packageName}/metadata`: Get metadata of a NuGet package
   - `/NuGet/Package`: Create a NuGet package by uploading an app file
 - Integrate and refactor related services and models from NuGet API
+- Implement consolidation of BC NuGet packages (previously necessary on client side)
 - Move from alpine-based image to Debian due to BcContainerHelper/ALtool dependency
 - Updated to AL-Go v8.1
+- Integrate caching for NuGet feed indexes, query results and packages metadata
+- Always use memory streaming when downloading files (incl. NuGet packages)
+- Add Kubernetes leader election for distributed pod coordination (e.g. cleanup tasks)
 
 ## v0.76.1 (2026-01-23)
 

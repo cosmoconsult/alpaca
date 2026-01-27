@@ -8,13 +8,17 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## v1.42.0 (2026-01-27)
+## v1.43.0 (2026-01-28)
 
 - Update Alpaca API client
 - Move from NuGet API to Alpaca API for NuGet packages
 - Rework NuGet feeds configuration, feeds, packages and versions to adapt changes in Alpaca API
 - Integrate improvements and changes from alpaca-vsc-extension
 - Minor improvements and refactoring
+
+## v1.42.0 (2026-01-27)
+
+- Fix issue with unclear "License URL" error message when aborting app creation [see #4631](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4631)
 
 ## v1.41.0 (2025-12-23)
 
