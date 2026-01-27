@@ -12,7 +12,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Update Alpaca API client
 - Move from NuGet API to Alpaca API for NuGet packages
-- Rework NuGet feeds configuration, feeds, packages and versions to adapt changes in Alpaca API
+- Rework NuGet feeds configuration, feeds, packages and versions to adapt to changes in the Alpaca API
 - Integrate improvements and changes from alpaca-vsc-extension
 - Minor improvements and refactoring
 
