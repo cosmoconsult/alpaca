@@ -12,7 +12,7 @@ All notable changes to the Alpaca Backend
 
 - Integrate and refactor endpoints from NuGet API:
   - `/NuGet/FeedsConfig`: Get NuGet feeds configuration for the current user
-   -> `/AzureDevOps/NuGetFeedsConfig` is obsolete now
+  - `/AzureDevOps/NuGetFeedsConfig` is obsolete now
   - `/NuGet/Feed/query`: Query a NuGet feed and get package list
   - `/NuGet/Package/{packageName}/download`: Download a NuGet package
   - `/NuGet/Package/{packageName}/metadata`: Get metadata of a NuGet package
