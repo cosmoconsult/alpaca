@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.42.0 (2026-01-27)
 
-- Fix issue with unclear "license URL"-error on abortion of app creation [see #4631](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4631)
+- Fix issue with unclear "License URL" error message when aborting app creation [see #4631](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4631)
 
 ## v1.41.0 (2025-12-23)
 
