@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.68.1 (2026-01-28)
+
+- Refine visibility conditions for actions in menu view/title
+
 ## v0.68.0 (2026-01-28)
 
 - Add support for creating on-premises GitHub environments
