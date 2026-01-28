@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.44.0 (2026-01-28)
+
+- Remove dependency on deprecated SwarmUrlLookup
+
 ## v1.43.0 (2026-01-27)
 
 - Update Alpaca API client
