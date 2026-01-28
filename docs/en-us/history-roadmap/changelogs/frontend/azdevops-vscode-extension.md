@@ -10,12 +10,13 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.44.0 (2026-01-28)
 
-- Remove dependency on deprecated SwarmUrlLookup
+- Remove dependency on deprecated SwarmUrlLookup [see #4635](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4635)
+- Fix issue where downloading a specific NuGet package version always downloads the latest version [see #4636](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4636)
 
 ## v1.43.0 (2026-01-27)
 
 - Update Alpaca API client
-- Move from NuGet API to Alpaca API for NuGet packages
+- Move from NuGet API to Alpaca API for NuGet packages [see #4625](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4625)
 - Rework NuGet feeds configuration, feeds, packages and versions to adapt to changes in the Alpaca API
 - Integrate improvements and changes from alpaca-vsc-extension
 - Minor improvements and refactoring
