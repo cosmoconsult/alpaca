@@ -8,13 +8,17 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.80.0 (2026-01-28)
+
+- Replace internally used constant assembly name with app name
+
 ## v0.79.0 (2026-01-28)
 
 - Add support for creating and managing on-premises GitHub environments
 
 ## v0.78.0 (2026-01-28)
 
-- Read repository variables from config sync as fallback 
+- Read repository variables from config sync as fallback
 
 ## v0.77.0 (2026-01-27)
 
