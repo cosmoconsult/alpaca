@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.79.0 (2026-01-28)
+
+- Add support for creating and managing on-premises GitHub environments
+
+## v0.78.0 (2026-01-28)
+
+- Read repository variables from config sync as fallback 
+
 ## v0.77.0 (2026-01-27)
 
 - Integrate and refactor endpoints from NuGet API:
