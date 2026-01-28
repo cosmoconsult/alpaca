@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.78.0 (2026-01-28)
+
+- Add support for creating and managing on-premises GitHub environments
+
 ## v0.77.0 (2026-01-27)
 
 - Integrate and refactor endpoints from NuGet API:
