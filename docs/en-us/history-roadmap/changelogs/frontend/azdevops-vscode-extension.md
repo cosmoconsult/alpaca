@@ -11,7 +11,7 @@ All notable changes to the Visual Studio Code Extension
 ## v1.44.0 (2026-01-28)
 
 - Remove dependency on deprecated SwarmUrlLookup [see #4635](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4635)
-- Fix issue where downloading a specific NuGet package version always downloadeds the latest version [see #4636](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4636)
+- Fix issue where downloading a specific NuGet package version always downloads the latest version [see #4636](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4636)
 
 ## v1.43.0 (2026-01-27)
 
