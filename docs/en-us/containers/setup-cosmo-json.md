@@ -1,11 +1,35 @@
 ---
-    title: Setup cosmo.json/alpaca.json Config
-    description: Setup cosmo.json/alpaca.json Config
+    title: Setup cosmo.json/AL-Go/alpaca.json Config
+    description: Setup cosmo.json/AL-Go/alpaca.json Config
 ---
 
 # Setup `cosmo.json`/`alpaca.json` Config
 
 # [**GitHub (AL-Go)**](#tab/github)
+
+> [!CAUTION]
+> **DEPRECATED**
+>
+> Please use **[AL-Go settings](../github/setup-al-go-settings.md)** instead.
+>
+> Existing `alpaca.json` files should be migrated and removed.
+> 
+> Mapping of container configurations to AL-Go settings files:
+> | Source | Target |
+> | - | - |
+> | `default`   | `.github/AL-Go-Settings.json` |
+> | `current`   | `.github/AL-Go-Settings.json` |
+> | `NextMinor` | `.github/Test Next Minor.settings.json` |
+> | `NextMajor` | `.github/Test Next Major.settings.json` |
+>
+> Mapping of container configuration settings to AL-Go settings
+> | Source | Target |
+> | - | - |
+> | `name`                                        | *N/A* |
+> | `inheritFromWorkflow`                         | *N/A* |
+> | `country`                                     | `country` |
+> | `storageAccount`, `type`, `version`, `select` | `artifact` |
+> | `artifacts`                                   | `alpaca.artifacts` |
 
 The `alpaca.json` is usually located in `.alpaca/alpaca.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **build containers** are automatically created by the CI/CD workflows to publish compiled apps and run automated tests on them.
 
