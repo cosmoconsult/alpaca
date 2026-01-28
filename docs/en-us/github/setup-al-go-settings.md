@@ -22,12 +22,12 @@ All available AL-Go settings are documentented in the [AL-Go documentation](http
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `country`                  | string   | `us`                                    | container, workflow | The country to determine the BC artifact. [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#country) |
-| `artifact`                 | string   | `bcartifacts/sandbox//<country>/latest` | container, workflow | The reference to the BC artifact used to create a container. Either absolute url (`https://...`) or search uri (`<storageaccount>/<type>/<version>/<country>/<select>`). [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#artifact) |
-| `trustedNuGetFeeds`        | object[] | `[]`                                    | container, workflow | Array of trusted NuGet feed specifications (e.g. `{ "url": "...", "authTokenSecret": "...", "patterns": "*" }`). [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#trustedNuGetFeeds) |
-| `trustMicrosoftNuGetFeeds` | boolean  | `true`                                  | container, workflow | Set to `true` to trust NuGet feeds provided by Microsoft. [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#trustMicrosoftNuGetFeeds) |
-| `versioningStrategy`       | integer  | `0`                                     | workflow            | Determines how versioning is performed **(Recommendation: `3`)**. [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#versioningStrategy) |
-| `assignPremiumPlan`        | boolean  | `false`                                 | container           | Set to `true` to enable premium user experience for the default user of sandbox containers. [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#assignPremiumPlan) |
+| `country`                  | string   | `us`                                    | container, workflow | The country to determine the BC artifact. <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#country) |
+| `artifact`                 | string   | `bcartifacts/sandbox//<country>/latest` | container, workflow | The reference to the BC artifact used to create a container. <br>Either absolute url *(`https://...`)* or search uri *(`<storageaccount>/<type>/<version>/<country>/<select>`)*. <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#artifact) |
+| `trustedNuGetFeeds`        | object[] | `[]`                                    | container, workflow | Array of trusted NuGet feed specifications. <br>*(e.g. `{ "url": "...", "authTokenSecret": "..." }`)* <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#trustedNuGetFeeds) |
+| `trustMicrosoftNuGetFeeds` | boolean  | `true`                                  | container, workflow | Set `true` to trust NuGet feeds provided by Microsoft. <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#trustMicrosoftNuGetFeeds) |
+| `versioningStrategy`       | integer  | `0`                                     | workflow            | Determines how versioning is performed *(Recommendation: `3`)*. <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#versioningStrategy) |
+| `assignPremiumPlan`        | boolean  | `false`                                 | container           | Set `true` to enable premium user experience for the default user of sandbox containers. <br>[AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#assignPremiumPlan) |
 
 ## BcContainerHelper Settings
 
@@ -62,11 +62,11 @@ Settings to setup artifacts for containers.
 
 ### Translations
 
-Settings to setup automatic translation using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync).
+Settings to setup translations creation and testing using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync).
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
 | `alpaca.createTranslations`   | boolean  | `false` | workflow | Set `true` to enable automatic generation of translation files (.xlf) based on the comments *(e.g. `Comment="de-DE=Foo\|\|de-AT=Bar"`)* for AL caption/labels using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync). |
 | `alpaca.translationLanguages` | string[] | `[]`    | workflow | Array of language tags for which the translation files are to be generated *(e.g. `[ "de-DE", "de-AT" ]`)* |
 | `alpaca.testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
-| `alpaca.testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`).<br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
+| `alpaca.testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
