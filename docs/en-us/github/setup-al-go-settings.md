@@ -18,7 +18,7 @@ The AL-Go settings of a GitHub repository control the behavior of the **developm
 
 ## AL-Go settings
 
-All available AL-Go settings are documentented in the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#settings)
+All available AL-Go settings are documented in the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#settings)
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
