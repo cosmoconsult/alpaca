@@ -1,6 +1,6 @@
 ---
-    title: Setup cosmo.json/AL-Go/alpaca.json Config
-    description: Setup cosmo.json/AL-Go/alpaca.json Config
+    title: Setup cosmo.json/alpaca.json Config
+    description: Setup cosmo.json/alpaca.json Config
 ---
 
 # Setup `cosmo.json`/`alpaca.json` Config
