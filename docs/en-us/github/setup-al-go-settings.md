@@ -6,7 +6,7 @@
 # Setup AL-Go Settings
 
 > [!IMPORTANT]
-> This documentation is only for relevant for GitHub/AL-Go repositories
+> This documentation is only relevant for GitHub/AL-Go repositories
 
 The AL-Go settings of a GitHub repository control the behavior of the **development and build containers** as well as the **GitHub workflows**.
 
