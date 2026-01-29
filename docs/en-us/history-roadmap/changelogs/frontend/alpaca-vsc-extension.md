@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.68.2 (2026-01-29)
+
+- Fix issue where downloading a specific NuGet package version always downloads the latest version
+
 ## v0.68.1 (2026-01-28)
 
 - Refine visibility conditions for actions in menu view/title
