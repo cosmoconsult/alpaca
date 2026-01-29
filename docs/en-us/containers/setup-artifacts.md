@@ -9,7 +9,7 @@ Artifacts are specified in a different configuration file whether you're using A
 
 ## [GitHub (AL-Go)](#tab/github)
 
-Artifacts are configured in [`containerConfigurations.artifacts` in `alpaca.json` config file](setup-cosmo-json.md). The defined artifacts are automatically installed in the dev containers during the container startup. Artifacts defined in the `default`, `current`, `NextMajor` or `NextMinor` container configurations are also automatically installed for build containers started from the respective AL-Go workflows.
+Artifacts are configured in the [AL-Go settings](../github/setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
 
 ## [Azure DevOps](#tab/azdevops)
 
