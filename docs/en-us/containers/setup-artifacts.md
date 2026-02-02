@@ -9,7 +9,7 @@ Artifacts are specified in a different configuration file whether you're using A
 
 ## [GitHub (AL-Go)](#tab/github)
 
-Artifacts are configured in the [AL-Go settings](../github/setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
+Artifacts are configured in the [AL-Go settings](../preview/vsc-extension/setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
 
 ## [Azure DevOps](#tab/azdevops)
 

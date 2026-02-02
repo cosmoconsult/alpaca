@@ -72,8 +72,6 @@
 
 ### [Setup cosmo.json/alpaca.json Config](containers/setup-cosmo-json.md)
 
-### [Setup AL-Go Settings (GitHub)](github/setup-al-go-settings.md)
-
 ### [Change BC Version/Country](containers/change-container.md)
 
 ### [Setup Artifacts to Import on Container Startup](containers/setup-artifacts.md)
@@ -87,8 +85,6 @@
 ### [Setup Custom Scripts](containers/setup-custom-scripts.md)
 
 ## Pipeline/Workflow Setup
-
-### [Setup AL-Go Settings (GitHub)](github/setup-al-go-settings.md)
 
 ### [Increase App Version](pipelines/version-increase.md)
 
@@ -171,6 +167,8 @@
 ### [Get Event Log](preview/vsc-extension/event-log.md)
 
 ## Dev & Build Container Setup
+
+### [Setup AL-Go Settings (GitHub)](github/setup-al-go-settings.md)
 
 ### [Setup cosmo.json/alpaca.json Config](containers/setup-cosmo-json.md)
 
