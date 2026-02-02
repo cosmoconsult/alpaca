@@ -13,7 +13,7 @@ For your specific project in Azure DevOps you might have additional requirements
 - Change the label of fields
 - Add fields to the cards within the board view
 - Adding rules to mark specific fields as required or to change values based on certain conditions
-- ...
+- ...   
 
 To make sure the customizations don't need to be created every time by hand, so that you save time and always do it exactly the same, we have implemented an action to apply predefined customizations to projects. Those customizations are specific to certain entities. To apply a customization, follow these steps:
 
@@ -25,3 +25,5 @@ To make sure the customizations don't need to be created every time by hand, so 
   <source src="../../media/customize-project.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---

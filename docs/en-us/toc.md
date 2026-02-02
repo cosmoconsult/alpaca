@@ -12,7 +12,7 @@
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
-# COSMO Alpaca (Legacy)
+# COSMO Alpaca
 
 ## General Features
 
@@ -118,7 +118,17 @@
 
 ### [Create Project](preview/vsc-extension/create-project.md)
 
+### [Onboard Existing Projects & Apps](preview/vsc-extension/onboard-project.md)
+
+### [Import Project Backlog](preview/vsc-extension/import-projectbacklog.md)
+
+### [Customize Projects](preview/vsc-extension/customize-project.md)
+
 ### [Interact with Requirements](preview/vsc-extension/associate-wi.md)
+
+### [Download Artifacts](preview/vsc-extension/download-artifact.md)
+
+### [Open Elements in Browser](preview/vsc-extension/open-stuff.md)
 
 ## App Development
 
