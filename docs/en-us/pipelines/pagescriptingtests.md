@@ -23,4 +23,7 @@ To enable test execution for the CI pipeline, simply specify the directory conta
 
 If you want the tests to run during validation against the next minor or major version, you must also make this change in `.devops/azure-pipeline-next-minor.yml` and `.devops/azure-pipeline-next-major.yml`.
 
+> [!NOTE]
+> If the repository was created before version [2.43.0](..\history-roadmap\changelogs\backend\azure-devops-pipeline-templates.md#v2430-2025-12-09), it is necessary to additionally pass the new variable to the template in the corresponding YAML files by adding `PageScriptingTestsDirectory: ${{ variables['PageScriptingTestsDirectory'] }}` to the template parameters at the end of the file. This is already the case for repositories created after version 2.43.0.
+
 After a successful pipeline run, the results of the Page Scripting Tests (along with classic tests) can be viewed in the "Tests" tab, where you can also track detailed error information.

@@ -98,3 +98,31 @@ After updating the file, recreate the container. RapidStart imports should then 
 On new Azure DevOps organizations and private projects [Microsoft does no longer provide free parallelism by default](https://learn.microsoft.com/en-us/azure/devops/release-notes/2021/sprint-184-update?WT.mc_id=DOP-MVP-5001511#changes-to-azure-pipelines-free-grants).If you have multiple pipelines (build or release) configured, they might not start due to missing parallelism.
 
 You have to request the free grant by submitting the [parallelism request form](https://aka.ms/azpipelines-parallelism-request). *(It can take several business days to process the request.)*
+
+## Windows Server 2019 images are now retired.
+
+Microsoft has [removed Windows Server 2019 Support](https://devblogs.microsoft.com/devops/upcoming-updates-for-azure-pipelines-agents-images/#windows) for Microsoft Hosted Agents.
+In earlier versions, we used this as the default.
+
+### Classic Release Pipelines
+
+To switch to a current image, it is advisable to first update the task groups.
+If release pipelines already exist, they must be adjusted.
+This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-releasepipeline.ps1) for all release pipelines in an Azure DevOps organization or manually for each individual release job. The latter can be time-consuming.
+1. Open your release pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+1. Select a Stage to edit (Repeat for all Stages)
+1. Locate all agent jobs (marked as 'Run on agent')
+1. If the selected Agent Pool is Windows Server 2019 (or similar) change it to 'Azure Pipelines' and set 'windows-latest' as Agent Specification
+![Set Agent pool in Classic Release Pipeline](../media/troubleshoot/set-agentpool-in-releasepipeline.png)
+
+### Yaml Pipelines
+
+One indicator of this problem is that when scheduling a pipeline run, the 'Run' button remains permanently grayed out.
+
+To switch to a current image, it is advisable to first update the DevOps repository.
+If release pipelines already exist, they must be adjusted.
+This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-yamlpipeline.ps1) for all pipelines in an Azure DevOps organization or manually for each pipeline. The latter can be time-consuming.
+1. Open your  pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+1. Click the three dots in the upper right corner and select 'Triggers'
+1. Navigate to the 'YAML' Tab an set the 'Default agent pool for YAML' to 'Azure Pipelines'
+1. Save the changes and start a test run.

@@ -7,6 +7,26 @@
 
 # [**GitHub (AL-Go)**](#tab/github)
 
+> [!CAUTION]
+> **DEPRECATED**
+>
+> Use **[AL-Go settings](../github/setup-al-go-settings.md)** instead.
+>
+> Migrate and remove existing *alpaca.json* files.
+> 
+> Mapping of container configurations to AL-Go settings files:
+>> - default   -> .github/AL-Go-Settings.json
+>> - current   -> .github/AL-Go-Settings.json
+>> - NextMinor -> .github/Test Next Minor.settings.json
+>> - NextMajor -> .github/Test Next Major.settings.json
+>
+> Mapping of container configuration settings to AL-Go settings
+>> - name                                  -> *N/A*
+>> - inheritFromWorkflow                   -> *N/A*
+>> - country                               -> country
+>> - storageAccount, type, version, select -> artifact
+>> - artifacts                             -> alpaca.artifacts
+
 The `alpaca.json` is usually located in `.alpaca/alpaca.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **build containers** are automatically created by the CI/CD workflows to publish compiled apps and run automated tests on them.
 
 The basic `alpaca.json` looks like the following:

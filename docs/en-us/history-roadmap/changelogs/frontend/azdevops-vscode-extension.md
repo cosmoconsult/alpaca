@@ -8,6 +8,23 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.44.0 (2026-01-28)
+
+- Remove dependency on deprecated SwarmUrlLookup [see #4635](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4635)
+- Fix issue where downloading a specific NuGet package version always downloads the latest version [see #4636](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4636)
+
+## v1.43.0 (2026-01-27)
+
+- Update Alpaca API client
+- Move from NuGet API to Alpaca API for NuGet packages [see #4625](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4625)
+- Rework NuGet feeds configuration, feeds, packages and versions to adapt to changes in the Alpaca API
+- Integrate improvements and changes from alpaca-vsc-extension
+- Minor improvements and refactoring
+
+## v1.42.0 (2026-01-27)
+
+- Fix issue with unclear "License URL" error message when aborting app creation [see #4631](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4631)
+
 ## v1.41.0 (2025-12-23)
 
 - Remove references to legacy ppi-devops host and unused dependencies [see #4608](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4608)
@@ -19,7 +36,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.39.0 (2025-12-16)
 
-- Retrieve NuGet feeds configuration from Alpaca-API
+- Retrieve NuGet feeds configuration from Alpaca API
 - Auto-generate list of NuGet packages (grouped by appId)
 - Add caching for NuGet feeds configuration and NuGet feeds packages
 - Add new setting `cc-azdevops.customNuGetFeeds` to allow specifying custom NuGet feeds to be used additionally in the Product Packages view

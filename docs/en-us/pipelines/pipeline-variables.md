@@ -6,34 +6,8 @@
 # Using Variables
 
 # [**GitHub (AL-Go)**](#tab/github)
-All COSMO Alpaca-specific settings can be stored in [different files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located), just like the settings for AL-Go.
-Our settings follow the same rules for inheritance and [overwriting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-) as those from Microsoft.
 
-In general, all COSMO Alpaca-specific settings are stored in their own `alpaca` group:
-```json .AL-Go/settings.json
-{
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
-  "country": "w1",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": [],
-  "alpaca": {
-    "createTranslations": true,
-    "translationLanguages": [ "de-DE", "de-AT" ],
-    "testTranslations": true,
-    "testTranslationRules": [ "All" ]
-  }
-}
-```
-## Translations
-
-| Name | Default Value | Description |
-| - | - | - |
-| createTranslations | false | `true` to enable generation of translation files (.xlf) based on .g.xlf using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
-| translationLanguages | [] |  Array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`) |
-| testTranslations  | false | `true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
-| testTranslationRules  | [] | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`). <br>See the [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details about what each rule checks. |
-
+WIP
 
 # [**Azure DevOps**](#tab/azdevops)
 
@@ -100,6 +74,7 @@ The used BC-Artifacts are defined as [Artifacts][artifact] from [`cosmo.json`][c
 | --------------------------------- | --------------------------- | :---------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AZURE-DEVOPS-PAT                  |                             | `$(System.AccessToken)` | The Personal Access Token with READ permission to Artifact Feed, used for Artifact Download from Artifact-Feed. Furthermore, the PAT is also used for authentication at the service to add/remove Build Agents.                                                                                                        |
 | ImportArtifacts.AppExcludeExpr    |                             | `.*Test_.*|.*Tests_.*`  | The regex expression that is used to exclude apps from being published during the *Import Artifacts* step in the pipeline.                                                                                                                                                                                             |
+| ImportArtifacts.AppExcludeExprEnabled |                         |                         | If this is set to `false` the app exclude expression `ImportArtifacts.AppExcludeExpr` is set to an empty string, so no apps are excluded from being published during the *Import Artifacts* step in the pipeline.                                                                                                                                            |
 | ImportArtifacts.AppImportSyncMode | `appImportSyncMode`         |                         | The default (global) parameter for **Mode (NavAppSyncMode)** for [**Sync-NavApp**](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/sync-navapp) when an App-Artifact is imported by `AdditionalSetup` during `Docker Start` tasks. <br/>Values are: `Add`, `ForceSync`, ...  |
 | ImportArtifacts.AppImportScope    | `appImportScope`            |                         | The default (global) parameter for **Scope (NavAppScope)** for [**Publish-NavApp**](https://docs.microsoft.com/en-us/powershell/module/microsoft.dynamics.nav.apps.management/publish-navapp) when an App-Artifact is imported by `AdditionalSetup` during `Docker Start` tasks.<br/>Values are: `Global` or `Tenant`. |
 | ImportArtifacts.SuppressWarnings  | `appImportSuppressWarnings` |                         | The match string to suppress warnings during additional setup and log the message as an information.                                                                                                                                                                                                                   |
