@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## (unreleased)
+
+- Add more details to cosmo.json schema validation errors [see #4639](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4639)
+
 ## v1.52.3 (2026-01-20)
 
 - Update default queue name and add agent specification when creating release pipelines [see #4586](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4586)
