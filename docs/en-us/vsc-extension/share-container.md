@@ -18,10 +18,4 @@ If you want to share a container with a colleague, so that it appears in their c
 
 When changing the owner(s) of a container, the syntax of the owner(s) will be validated based on the containers origin:
 
-## [**GitHub (AL-Go)**](#tab/github)
-
-Each owner must be a valid GitHub username. Note that it is not verified that the user actually exists.
-
-## [**Azure DevOps**](#tab/azdevops)
-
 Each owner must be a valid email address. Note that it is not verified that there actually exists a user with the given email address.

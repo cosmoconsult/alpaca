@@ -5,11 +5,6 @@
 
 # Update CI/CD Templates
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 ## CI Template
 We have prepared different pipeline templates for you covering many Business Central versions as well as other specific needs you may have. Whenever you create a new project, the newest version of those templates is copied to a git repository called _DevOps_ within your project. After initial creation of the repository it's not automatically updated to ensure consistency and reproducability for your pipelines.
 
