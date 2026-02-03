@@ -8,6 +8,17 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.5.0 (2026-01-30)
+
+- Replaced SecretSync with ConfigSync
+- Add support for variables to ConfigSync
+- Add check for deprecated config (alpaca.json) to Initialization
+- Fix issues with missing directory ".alpaca" on updating system files
+- Fix issues with missing error details on failing to create a container
+- Fix issues with missing container cleanup after failing to create all containers
+- Fix issues with getting app infos on publishing app to container
+- Fix issues with case sensitivity of variable and secret names for ConfigSync
+
 ## v2.4.0 (2026-01-19)
 
 - Added support for containers per buildMode
