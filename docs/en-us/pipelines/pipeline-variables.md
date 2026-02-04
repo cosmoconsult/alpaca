@@ -221,10 +221,10 @@ Use these variables, when you want your pipelines to check out git submodules.
 > This feature only supports submodules which reference repositories in the same Azure DevOps organization.
 
 These settings are required for all submodules:
-- Setting **`Protect access to repositories in YAML pipelines`** must be **disabled** for the Azure DevOps organization and project
+- Setting **`Protect access to repositories in YAML pipelines`** must be **disabled** for the Azure DevOps project (and organization)
 
 **Additional** settings are required for submodules in different Azure DevOps projects of the same organization:
-- Setting **`Limit job authorization scope to current project for non-release pipelines`** must be **disabled** for the Azure DevOps organization and project
+- Setting **`Limit job authorization scope to current project for non-release pipelines`** must be **disabled** for the Azure DevOps project (and organization)
 - User **`Project Collection Build Service (<organization>)`** must have the role **Administrator** for the **Agent pool** *(same name as the current project)* on the **organizational level**
 
 ## Overruling by COSMO.json
