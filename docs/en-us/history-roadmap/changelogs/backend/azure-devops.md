@@ -8,9 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
-## (unreleased)
+## v1.53.0 (2026-02-06)
 
 - Add more details to cosmo.json schema validation errors [see #4639](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4639)
+- Use dedicated PPI namespace for COSMO specific configurations [see #4645](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4645)
 
 ## v1.52.3 (2026-01-20)
 

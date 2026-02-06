@@ -10,7 +10,8 @@ All notable changes to the Alpaca Backend
 
 ## v0.81.0 (2026-02-06)
 
-- Add endpoint to create new Azure DevOps repositories 
+- Add endpoint to create new Azure DevOps repositories
+- Use dedicated PPI namespace for COSMO specific configurations
 
 ## v0.80.0 (2026-01-28)
 
