@@ -8,10 +8,51 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.75.0 (2026-01-05)
+## v0.80.0 (2026-01-28)
 
-- Add endpoint to create Azure DevOps app repository
-  
+- Replace internally used constant assembly name with app name
+
+## v0.79.0 (2026-01-28)
+
+- Add support for creating and managing on-premises GitHub environments
+
+## v0.78.0 (2026-01-28)
+
+- Read repository variables from config sync as fallback
+
+## v0.77.0 (2026-01-27)
+
+- Integrate and refactor endpoints from NuGet API:
+  - `/NuGet/FeedsConfig`: Get NuGet feeds configuration for the current user
+  - `/AzureDevOps/NuGetFeedsConfig` is obsolete now
+  - `/NuGet/Feed/query`: Query a NuGet feed and get package list
+  - `/NuGet/Package/{packageName}/download`: Download a NuGet package
+  - `/NuGet/Package/{packageName}/metadata`: Get metadata of a NuGet package
+  - `/NuGet/Package`: Create a NuGet package by uploading an app file
+- Integrate and refactor related services and models from NuGet API
+- Implement consolidation of BC NuGet packages (previously necessary on client side)
+- Move from alpine-based image to Debian due to BcContainerHelper/ALtool dependency
+- Updated to AL-Go v8.1
+- Integrate caching for NuGet feed indexes, query results and packages metadata
+- Always use memory streaming when downloading files (incl. NuGet packages)
+- Add Kubernetes leader election for distributed pod coordination (e.g. cleanup tasks)
+
+## v0.76.1 (2026-01-23)
+
+- Change Kubernetes secret name for GitHub ConfigSync
+
+## v0.76.0 (2026-01-22)
+
+- Replace GitHub SecretSync with ConfigSync and support variables
+
+## v0.75.0 (2026-01-22)
+
+- Add distributed Redis cache shared between Alpaca API instances
+
+## v0.74.1 (2026-01-12)
+
+- Fix issue where the workflow specific settings file was not correctly used when creating a GitHub container for that workflow/settings
+
 ## v0.74.0 (2025-12-16)
 
 - Add endpoint to retrieve NuGet feeds configuration
