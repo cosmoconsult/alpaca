@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.81.0 (2026-02-06)
+
+- Add endpoint to create new Azure DevOps repositories 
+
 ## v0.80.0 (2026-01-28)
 
 - Replace internally used constant assembly name with app name
