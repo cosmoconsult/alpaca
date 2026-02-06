@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## Unreleased
+
+- Use dedicated PPI namespace for COSMO specific configurations
+
 ## v0.80.0 (2026-01-28)
 
 - Replace internally used constant assembly name with app name
