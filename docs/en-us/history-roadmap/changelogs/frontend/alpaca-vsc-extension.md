@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.70.0 (2026-02-09)
 
-- Add support for creating GitHub containers for the project AL-Go settings (workflow unspecific)
+- Add support for creating GitHub containers for the project AL-Go settings (workflow-independent)
 
 ## v0.69.0 (2026-02-06)
 
