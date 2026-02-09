@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.81.1 - v0.81.2 (2026-02-09)
+
+- Fix issue where test cases were not imported correctly from the backlog
+- Fix cache key problem during artifact file downloads
+
 ## v0.81.0 (2026-02-06)
 
 - Add endpoint to create new Azure DevOps repositories
