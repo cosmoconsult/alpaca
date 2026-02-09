@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.54.0 (unreleased)
+
+- Fix issue with unclear error messages for failed update of the DevOps repository on app creation [see #4650](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4650)
+
 ## v1.53.0 (2026-02-06)
 
 - Add more details to cosmo.json schema validation errors [see #4639](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4639)
