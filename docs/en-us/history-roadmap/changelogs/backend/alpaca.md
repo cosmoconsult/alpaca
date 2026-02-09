@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.82.0 (2026-02-09)
 
-- Add support for required status checks in alpaca repo standards
+- Add support for required status checks in Alpaca repo standards
 
 ## v0.81.1 - v0.81.2 (2026-02-09)
 
