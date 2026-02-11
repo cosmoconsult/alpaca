@@ -8,6 +8,15 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.70.0 (2026-02-09)
+
+- Add support for creating GitHub containers for the project AL-Go settings (workflow-independent)
+
+## v0.69.0 (2026-02-06)
+
+- Update dependency packages
+- Add new action for creating Azure DevOps repositories
+
 ## v0.68.2 (2026-01-29)
 
 - Fix issue where downloading a specific NuGet package version always downloads the latest version

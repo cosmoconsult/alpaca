@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.77.0 (2026-02-05)
+
+- Remove obsolete endpoint NugetPackageConfig [see #4644](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4644)
+
 ## v1.76.0 (2025-11-19)
 
 - Add DK as available country [see #4552](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4552)
