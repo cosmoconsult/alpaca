@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.83.0 (2026-02-12)
+
+- Track client name and version of requests for better telemetry and analytics
+- Remove obsolete endpoint `/AzureDevOps/NuGetFeedsConfig`
+
 ## v0.82.0 (2026-02-12)
 
 - Add support for required status checks in Alpaca repo standards
