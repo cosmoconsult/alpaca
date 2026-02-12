@@ -10,7 +10,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.48.0 (unreleased)
 
-- Add support for checkout of git submodules in pipeline runs [see #4641](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4641)
+- Add support for checkout of Git submodules in pipeline runs [see #4641](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4641)
 
 ## v2.47.0 (2026-01-19)
 
