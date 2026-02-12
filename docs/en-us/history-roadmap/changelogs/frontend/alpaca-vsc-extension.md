@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.70.0 (2026-02-12)
+## v0.71.0 (2026-02-12)
 
 - Add headers with client name and version to all API requests for better telemetry and analytics
 
