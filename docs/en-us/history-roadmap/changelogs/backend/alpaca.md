@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.82.0 (2026-02-12)
+
+- Add support for required status checks in Alpaca repo standards
+
 ## v0.81.3 (2026-02-11)
 
 - Include the country code of a NuGet package in its title
