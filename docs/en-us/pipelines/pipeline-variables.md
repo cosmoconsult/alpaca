@@ -211,7 +211,7 @@ The monitoring of our pipelines uses Application Insights. We collect informatio
 
 ### Git Submodules
 
-Use these variables, when you want your pipelines to check out git submodules.
+Use these variables when you want your pipelines to check out Git submodules.
 
 | Name                | Default Value | Description                                                                                   |
 | ------------------- | :-----------: | --------------------------------------------------------------------------------------------- |
