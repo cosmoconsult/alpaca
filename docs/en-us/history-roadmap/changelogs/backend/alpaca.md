@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.84.3 (2026-02-12)
+
+- Allow custom telemetry headers in CORS policy
+
+## v0.84.0 - v0.81.2 (2026-02-16)
+
+- Add support for guest users
+
 ## v0.83.0 (2026-02-12)
 
 - Track client name and version of requests for better telemetry and analytics
