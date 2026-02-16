@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.72.0 (2026-02-16)
+
+- Update OpenAPI client generator and Alpaca API client
+- Update dependency packages
+- Fix a missing dependency when running the extension in a web context (e.g. vscode.dev)
+
 ## v0.71.0 (2026-02-12)
 
 - Add headers with client name and version to all API requests for better telemetry and analytics
