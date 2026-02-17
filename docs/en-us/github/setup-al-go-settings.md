@@ -66,7 +66,7 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.createTranslations`   | boolean  | `false` | workflow | Set `true` to enable automatic generation of translation files (.xlf) based on the comments *(e.g. `Comment="de-DE=Foo\|\|de-AT=Bar"`)* for AL caption/labels using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync). |
+| `alpaca.createTranslations`   | boolean  | `false` | workflow | Set `true` to enable automatic generation of translation files (.xlf) based on the comments *(e.g. `Comment="de-DE=Foo||de-AT=Bar"`)* for AL caption/labels using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync). |
 | `alpaca.translationLanguages` | string[] | `[]`    | workflow | Array of language tags for which the translation files are to be generated *(e.g. `[ "de-DE", "de-AT" ]`)* |
 | `alpaca.testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
 | `alpaca.testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |

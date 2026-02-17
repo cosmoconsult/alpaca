@@ -8,6 +8,23 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.84.3 (2026-02-12)
+
+- Allow custom telemetry headers in CORS policy
+
+## v0.84.0 - v0.84.2 (2026-02-16)
+
+- Add support for guest users
+
+## v0.83.0 (2026-02-12)
+
+- Track client name and version of requests for better telemetry and analytics
+- Remove obsolete endpoint `/AzureDevOps/NuGetFeedsConfig`
+
+## v0.82.0 (2026-02-12)
+
+- Add support for required status checks in Alpaca repo standards
+
 ## v0.81.3 (2026-02-11)
 
 - Include the country code of a NuGet package in its title

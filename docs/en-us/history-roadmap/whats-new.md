@@ -22,21 +22,17 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 # Backend
 
-## Alpaca
+## Alpaca Backend
 
 [Changelog](changelogs/backend/alpaca.md)
 
-## Azure DevOps
+## Azure DevOps Backend
 
 [Changelog](changelogs/backend/azure-devops.md)
 
 ## Container Backend
 
 [Changelog](changelogs/backend/container.md)
-
-## NuGet Backend
-
-[Changelog](changelogs/backend/nuget.md)
 
 ## Product Backend
 

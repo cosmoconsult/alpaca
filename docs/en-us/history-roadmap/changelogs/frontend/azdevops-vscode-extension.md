@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.46.0 (2026-02-12)
+
+- Add headers with client name and version to all API requests for better telemetry and analytics
+
+## v1.45.0 (2026-01-29)
+
+- Revert removal of SwarmUrlLookup dependency in [v1.44.0](#v1440-2026-01-28) due to unexpected issues
+
 ## v1.44.0 (2026-01-28)
 
 - Remove dependency on deprecated SwarmUrlLookup [see #4635](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4635)
