@@ -32,27 +32,27 @@
 
 <!--### [Clone Repository](vsc-extension/clone-repo.md)-->
 
-### [Work with Branches](vsc-extension/branches.md)
+<!--### [Work with Branches](vsc-extension/branches.md)-->
 
 ## Dev Container Management
 
 ### [Create Container](vsc-extension/create-container-github.md)
 
-### [Create Standalone Container](vsc-extension/create-ondemand-container.md)
+<!-- ### [Create Standalone Container](vsc-extension/create-ondemand-container.md) -->
 
-### [Get User/Password](vsc-extension/copy-user-pwd.md)
+<!-- ### [Get User/Password](vsc-extension/copy-user-pwd.md) -->
 
-### [Open Web Client, Terminal, File Share, Log](vsc-extension/open-container.md)
+<!-- ### [Open Web Client, Terminal, File Share, Log](vsc-extension/open-container.md) -->
 
-### [Delete Container](vsc-extension/delete-container.md)
+<!-- ### [Delete Container](vsc-extension/delete-container.md) -->
 
-### [Start/Stop Container](vsc-extension/startstop-container.md)
+<!-- ### [Start/Stop Container](vsc-extension/startstop-container.md) -->
 
-### [Auto-Start/-Stop Container](vsc-extension/auto-startstop.md)
+<!-- ### [Auto-Start/-Stop Container](vsc-extension/auto-startstop.md) -->
 
 ### [Share Container](vsc-extension/share-container-github.md)
 
-### [Backup Container Database](vsc-extension/backup-database.md)
+<!-- ### [Backup Container Database](vsc-extension/backup-database.md) -->
 
 ### [Rename Container](vsc-extension/rename-container-github.md)
 
@@ -70,27 +70,27 @@
 
 ### [Setup Artifacts to Import on Container Startup](containers/setup-artifacts-github.md)
 
-### [Setup Database Backup](containers/setup-bak.md)
+<!-- ### [Setup Database Backup](containers/setup-bak.md) -->
 
-### [Convert .bacpac to .bak](vsc-extension/convert-bacpac-to-bak.md)
+<!-- ### [Convert .bacpac to .bak](vsc-extension/convert-bacpac-to-bak.md) -->
 
-### [Setup Companion Containers](containers/setup-companion-container.md)
+<!-- ### [Setup Companion Containers](containers/setup-companion-container.md) -->
 
-### [Setup Custom Scripts](containers/setup-custom-scripts.md)
+<!-- ### [Setup Custom Scripts](containers/setup-custom-scripts.md) -->
 
 ## Workflow Setup
 
 ### [Setup AL-Go Settings](github/setup-al-go-settings.md)
 
-### [Increase App Version](pipelines/version-increase.md)
+<!-- ### [Increase App Version](pipelines/version-increase.md) -->
 
-### [Deploy App](vsc-extension/create-release-pipeline.md)
+<!-- ### [Deploy App](vsc-extension/create-release-pipeline.md) -->
 
-### [Setup Next Major/-Minor, Localization & Minimum Workflows](pipelines/next.md)
+<!-- ### [Setup Next Major/-Minor, Localization & Minimum Workflows](pipelines/next.md) -->
 
-### [Using Variables](pipelines/pipeline-variables.md)
+<!-- ### [Using Variables](pipelines/pipeline-variables.md) -->
 
-### [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
+<!-- ### [Use Preprocessor Directives](pipelines/preprocessor-directives.md) -->
 
 ## Collaboration
 
