@@ -5,11 +5,6 @@
 
 # Setup Next Major/-Minor, Localization, Minimum & other Pipelines/Workflows
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 When setting up Next Minor, Next Major, Localization, Minimum or other Pipelines using VS Code and Azure DevOps, you need an organization (see [create org][create-org]), a project (see [create project][create-project]) and an app repository see [create app][create-app]. To create the pipeline(s), you need to take the following steps:
 
 1. Right-click on the app-repository where you want to create the pipeline(s) and select "Setup extended pipelines"

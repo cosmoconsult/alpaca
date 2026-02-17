@@ -5,11 +5,6 @@
 
 # Increase App Version
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 The CI Build templates **auto-increment** the **`AppVersion`** on each run. In detail, the pipeline uses a counter based on a combination of following variables in your current pipeline *(or `<App-Repo>/.devops/variables.version.yaml` (older templates))*:
 
 ```yaml
@@ -64,4 +59,3 @@ Your current version is `17.0.453` (App-Version `17.0.453.0`) and you want to re
 
 Changed variable `Version.Major` will cause the next build to have the Version `18.0.0` (App-Version `18.0.0.0`).
 
----

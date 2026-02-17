@@ -5,10 +5,8 @@
 
 # Work with Branches
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
+> [!TIP]
+> The screenshots/videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
 
 ## See and interact with branches
 
@@ -41,4 +39,3 @@ You can watch it step by step here:
   Your browser does not support the video tag.
 </video>
 
----

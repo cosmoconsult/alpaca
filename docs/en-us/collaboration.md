@@ -6,10 +6,6 @@
 # Cross-Company Collaboration
 
 COSMO Alpaca allows that both you and your customers, partners, freelancers, etc. can work together on the same project.
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
 
 Please note that the tenant an Azure DevOps organization is connected to, determines the billed party.
 
@@ -34,5 +30,3 @@ If your customer wants to have the Azure DevOps organization to reside in their 
 1. Files on the fileshare that are referenced as dependencies need to be present on the customer specific fileshare. You'll get access information about the customer specific fileshare in step 2.
 
 Please note that developers now need to [switch to the customer tenant](vsc-extension/tenant.md) to work in the customer organization and should create different VS Code profiles for the different tenants.
-
----

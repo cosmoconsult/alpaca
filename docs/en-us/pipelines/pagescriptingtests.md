@@ -5,11 +5,8 @@
 
 # Run Page Scripting Tests
 
-# [**GitHub (AL-Go)**](#tab/github)
-
-Running Page Scripting Tests on Alpaca Containers in AL-Go is **not yet** supported.
-
-# [**Azure DevOps**](#tab/azdevops)
+> [!NOTE]
+> Running Page Scripting Tests on Alpaca Containers in GitHub AL-Go is **not yet** supported. This feature is currently only available for Azure DevOps pipelines.
 
 [Page Scripting Tests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-scripting) in Business Central are automated tests that simulate user interactions with pages to validate UI behavior and business logic. They are useful for ensuring that changes to the application do not introduce errors or break existing functionality in the user interface.
 

@@ -5,11 +5,6 @@
 
 # Clone Repository
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 If you want to start developing on a Azure DevOps repository (see [create app][create-app] on how to create one), you need to locally clone that repository and then open the workspace. Please note that installing Git is a prerequisite for this to work. You can find the installer [here][git].
 
 To clone the repository, you take these steps:
@@ -20,6 +15,9 @@ To clone the repository, you take these steps:
 1. After opening the repository, VS Code will recognize that it contains a workspace and ask you, whether you want to open that. Click on "Open Workspace" as development will work best in the workspace.
 
 With that, you are ready to start developing. You might want to [create a container][create-container] and [setup your launch.json file][setup-launch] to start publishing and debugging
+
+> [!TIP]
+> The screenshots/videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
 
 <video width="1280px" height="720px" controls>
   <source src="../media/vsc-extension-clone.mp4" type="video/mp4">

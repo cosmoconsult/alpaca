@@ -5,11 +5,6 @@
 
 # Download Artifacts
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 Each pipeline produces an app artifact which is stored within the artifact repository of Azure DevOps. Further you can add other artifacts to the artifact repository to easily distribute them or use them in your pipelines. In the Visual Studio Code extension you can directly download an artifact:
 
 1. In the extension under your project select *Artifacts* and an artifact feed you whish to download artifacts from. For example the apps built by the default pipeline are stored within a feed which has the same name as your project. Now right click on the artifact you want to download and choose **Download artifact**.
@@ -27,4 +22,3 @@ Each pipeline produces an app artifact which is stored within the artifact repos
   Your browser does not support the video tag.
 </video>
 
----

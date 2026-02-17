@@ -14,11 +14,6 @@ If you have ideas how to improve the extension or any part of the self-service y
 
 We will then try to understand, reproduce and fix your issue or implement the feature. We get in contact with you if we need additional information or to update you on the progress of your bug report or feature request.
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 ## Report a bug for a specific error
 
 In the error notification just click **Create bug report** and a new Bug within Azure DevOps is created and pre-filled for you with your extension configuration and some context information to help us understand your issue. You just need to add the repro steps and **Save** the WorkItem.
@@ -37,4 +32,3 @@ In the Visual Studio Code extension view click on the three dots (`⋯`) in the 
   Your browser does not support the video tag.
 </video>
 
----

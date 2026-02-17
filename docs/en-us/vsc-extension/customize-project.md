@@ -7,10 +7,6 @@
 
 > **Note:** If you want to learn more about how to define and structure customizations for Azure DevOps processes – including adding fields, modifying layouts, defining rules, and managing states – please refer to the dedicated [**Process Modification documentation**](process-modification.md).
 
-> **Note:** this function is only available for Azure DevOps projects
-
-# [**Azure DevOps**](#tab/azdevops)
-
 For your specific project in Azure DevOps you might have additional requirements which need customizations. Some examples for customizations include:
 
 - Adding additional fields, groups of fields or pages/tabs to your to WorkItems or removing existing ones
@@ -24,6 +20,14 @@ To make sure the customizations don't need to be created every time by hand, so 
 1. In the Visual Studio Code extension right click on a project and choose **Customize**.
 2. All available customizations for the entity the organization of the project is connected with are displayed. Choose a customization from the list.
 3. When the customization was applied, you'll get a notification about the success.
+
+# [**Preview Extension**](#tab/preview)
+
+<!-- TODO: Add updated screenshot/video for the Preview extension -->
+
+The steps above apply to the COSMO Alpaca Preview extension.
+
+# [**Legacy Extension**](#tab/legacy)
 
 <video width="1280px" height="720px" controls>
   <source src="../media/customize-project.mp4" type="video/mp4">

@@ -5,11 +5,6 @@
 
 # Setup Database Backup
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 A database backup can be setup for a container as [Container File-Share Artifact](#database-backup-from-container-file-share).
 
 **Note:**

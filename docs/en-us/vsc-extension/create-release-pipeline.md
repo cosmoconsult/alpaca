@@ -5,11 +5,6 @@
 
 # Deploy App
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 ## Basic Setup
 
 When creating a release pipeline for your app using VS Code and Azure DevOps, you need an organization (see [create org](../getting-started/create-org.md)), a project (see [create project](create-project.md)), an app repository (see [create app](create-app.md)) and the imported task groups (see [update task groups](update-task-groups.md)). To create a release pipeline for your app, you need to take the following steps:
@@ -289,4 +284,3 @@ Uninstall-Module ALOps.ExternalDeployer
    - You should'nt see a folder named "ALOps.ExternalDeployer". If you do, you may delete it manually.
 3. Install ExternalDeployer again, follow "normal" installation instructions ([see above](#deploying-via-automation-api-oauth-or-basic-auth))
 
----

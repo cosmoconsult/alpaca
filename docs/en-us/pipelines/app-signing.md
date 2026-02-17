@@ -5,11 +5,6 @@
 
 # Setup App Signing
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 Alpaca supports code signing of the app package within the pipeline. For this you need to use the new HSM certificates in combination with an Azure KeyVault.
 
 

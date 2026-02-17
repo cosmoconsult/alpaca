@@ -5,11 +5,6 @@
 
 # Use Preprocessor Directives
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 If you e.g. have a multi-language app, you may have the same source code as a base but need different logic depending on the target localization. For that you can use [Preprocessor Directives](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al) in AL.
 
 You can use the [Pipeline Setup Hooks](pipeline-variables.md#pipeline-setup-hooks) to set the `preprocessorSymbols` in your `app.json` at build time to use them during the build.
@@ -52,4 +47,3 @@ OnSetupBuildTasks:
     displayName: On Setup Build
 ```
 
----

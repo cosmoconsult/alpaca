@@ -5,11 +5,6 @@
 
 # Update CI/CD Templates
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 ## CI Template
 We have prepared different pipeline templates for you covering many Business Central versions as well as other specific needs you may have. Whenever you create a new project, the newest version of those templates is copied to a git repository called _DevOps_ within your project. After initial creation of the repository it's not automatically updated to ensure consistency and reproducability for your pipelines.
 
@@ -20,10 +15,18 @@ If you want to benefit from the newest changes anyway or need something which is
 
 Please note that if you have customized CI/CD, this might break your customizations. You can always use the Git history to find out what change after updating, but you might need to take additional steps to get your customizations to work again.
 
+# [**Preview Extension**](#tab/preview)
+
+<!-- TODO: Add updated screenshot/video for the Preview extension -->
+
+# [**Legacy Extension**](#tab/legacy)
+
 <video width="1280px" height="720px" controls>
   <source src="../media/cicd-update.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+---
 
 ## Update task group templates
 

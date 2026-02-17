@@ -11,15 +11,15 @@ This walkthrough is intended to quickly get to know COSMO Alpaca and the modern 
 
 Before starting with the walkthrough, let's set up our tooling. 
 
-1. [Sign up and create an organization](create-org.md)
-1. [Set-up VS Code and the COSMO Alpaca Extension](access-and-setup-vsce.md)
+1. [Sign up and create an organization](create-org-github.md)
+1. [Set-up VS Code and the COSMO Alpaca Extension](access-and-setup-vsce-github.md)
 
 ## Create your first app and requirement
 
 Imagine you're the project manager or lead developer and you got a new customer. You now prepare the new project and set up the new repository for that customer via VS Code and create the first requirement:
 
-1. [Create a project](../vsc-extension/create-project.md) (optional for GitHub, only if you want a multi-project repository)
-2. [Create repository, AL App and pipelines](../vsc-extension/create-app.md)
+1. [Create a project](../vsc-extension/create-project-github.md) (optional for GitHub, only if you want a multi-project repository)
+2. [Create repository, AL App and pipelines](../vsc-extension/create-app-github.md)
 3. [Open your project/repository in the browser](../vsc-extension/open-stuff.md) and create a new requirement that you'll be working on next
 
 

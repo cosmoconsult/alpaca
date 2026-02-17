@@ -5,11 +5,6 @@
 
 # Backup Container Database
 
-# [**GitHub (AL-Go)**](#tab/github)
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 You can easily create backups of the one (single-tenant) or multiple (multi-tenant) databases in a container. You have to take the following steps to do that:
 
 1. Navigate to the container in the COSMO Alpaca view
@@ -27,4 +22,3 @@ You can watch it step by step here:
   Your browser does not support the video tag.
 </video>
 
----

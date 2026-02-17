@@ -5,12 +5,6 @@
 
 # Using Variables
 
-# [**GitHub (AL-Go)**](#tab/github)
-
-WIP
-
-# [**Azure DevOps**](#tab/azdevops)
-
 The Azure DevOps pipeline templates uses primary the settings from [`.devops/cosmo.json`][cosmo-json] in the respective source branch of your repository. These variables can be overruled by:
 
 1. Variables in your **`CI Build Agent`** (Project-Scope) variable group (Azure DevOps Project | Pipelines | Library). Note: This variable group is included in each **Business Central** pipeline of the project, base on COSMO Templates.
