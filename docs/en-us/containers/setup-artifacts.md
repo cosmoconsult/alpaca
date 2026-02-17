@@ -211,31 +211,7 @@ You can use the VSCode extension to create the required entries for a product pa
 
 # Artifact Target
 
-The `target` specifies the target folder and finally what should hapen with the artifact.
-
-|Target(s)|Destination|Import|
-|-|-|-|
-|`bak`                          |---                                         |The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
-|`saasbak`                      |---                                         |Backup file from an online SaaS environment, [converted from bacpac to bak](../vsc-extension/convert-bacpac-to-bak.md), **cannot** be combined with `bak`.|
-|`dll` or `add-ins`             |`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as a DLL or Add-In.|
-|`font` or `fonts`              |`c:/fonts`                                  |The Artifact will be imported as a Font.|
-|`app`, `fob`, `rapidStart`, ...|`C:\run\my\apps`                            |The Artifact content will be imported as an App, Fob or RapidStart package depending on the file extension.|
-
-The order of import is:
-
-1. DLL(s) and Add-Ins
-2. Font(s)
-3. FOB(s)
-4. App(s)
-5. Rapid Start Package(s)
-
-## Examples
-
-### Add Fonts as Artifacts
-
-Adding an additional font to a container **requires** you **to add also the default fonts as an additional artifact**. This is because there are not fonts installed in the container and your Business Central Reports might use your additional font as default font for your reports.
-
-Here is an example how to add additional fonts as artifacts. Please note the `ignoreIn` setting as you probably won't need the fonts in a build pipeline and as they require a restart of the service tier, they make the pipeline slower and can cause issues with symbol loading in hybrid dev setups.
+[!INCLUDE [Artifact Target](../includes/artifact-target.md)]
 
 ```json
 {
