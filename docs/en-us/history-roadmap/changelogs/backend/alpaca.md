@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.84.5 (2026-02-17)
+
+- Fix issue where wrong AutoStop information was returned
+
+## v0.84.4 (2026-02-16)
+
+- Fix issue on identifying guest users
+
 ## v0.84.3 (2026-02-12)
 
 - Allow custom telemetry headers in CORS policy
