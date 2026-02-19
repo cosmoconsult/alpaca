@@ -23,8 +23,8 @@ For a complete installation guide, see [VS Code in the browser](getting-started/
 
 This documentation is organized by platform at the top level. Select your platform to find all relevant guides:
 
-- **[GitHub (AL-Go)](#github-al-go)** — Repository management, AL-Go workflows, container configuration via AL-Go settings
-- **[Azure DevOps](#azure-devops)** — Project management, CI/CD pipelines, container configuration via cosmo.json
+- **GitHub (AL-Go)** — Repository management, AL-Go workflows, container configuration via AL-Go settings
+- **Azure DevOps** — Project management, CI/CD pipelines, container configuration via cosmo.json
 
 Many features (especially container management) work the same across both platforms. Where this is the case, shared pages are linked from both platform sections and use tabs to show platform-specific steps.
 

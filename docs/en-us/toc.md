@@ -224,4 +224,4 @@
 
 # [Status & Health](status.md)
 
-# [Download PDF](doc.pdf)
+<!-- # [Download PDF](doc.pdf) -->

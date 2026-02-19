@@ -12,7 +12,7 @@ A container is created and used as:
 * `build` ... Build Container in CI
 * `dev`   ... Development / Demo Container
 
-`"artifacts"` as well as `"devopsArtifacts"` can be specified global or in a specific `"bcArtifacts"` container configuration (see [below](#container-configurations-1)). Specific artifacts will be merged with global artifacts. Additionally the `"previousRelease"` can be specified in the global configuration. The `"previousRelease"` is a feed artifact and has the corresponding properties. The `"previousRelease"` option is **mandatory** if you enable the breaking change evaluation in the AppSourceCop code analyzer and therefore pulled for all builds.
+`"artifacts"` as well as `"devopsArtifacts"` can be specified global or in a specific `"bcArtifacts"` container configuration (see [below](#container-configurations)). Specific artifacts will be merged with global artifacts. Additionally the `"previousRelease"` can be specified in the global configuration. The `"previousRelease"` is a feed artifact and has the corresponding properties. The `"previousRelease"` option is **mandatory** if you enable the breaking change evaluation in the AppSourceCop code analyzer and therefore pulled for all builds.
 
 A basic `cosmo.json` could look like the following:
 

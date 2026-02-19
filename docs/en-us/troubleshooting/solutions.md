@@ -29,7 +29,7 @@ Exception calling "DownloadFile" with "2" argument(s): "The remote server return
 Downloading license file ...
 ```
 
-then very likely your license has expired and the corresponding link with it. You have to update the referenced license file in your `cosmo.json` file. [see](../containers/setup-cosmo-json.md#licensefile)
+then very likely your license has expired and the corresponding link with it. You have to update the referenced license file in your `cosmo.json` file. [see](../containers/setup-cosmo-json.md#license-file)
 
 ## My build pipelines sometimes fail and sometimes work with the same code
 

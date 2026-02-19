@@ -114,5 +114,5 @@ You need write-access to the File-Share which is attached to your target Swarm-E
 ---
 
 [cosmo-json]:      setup-cosmo-json.md
-[artifact]:        setup-cosmo-json.md#artifact
-[artifact-target]: setup-cosmo-json.md#artifact-target
+[artifact]:        setup-artifacts.md
+[artifact-target]: setup-artifacts.md#artifact-target

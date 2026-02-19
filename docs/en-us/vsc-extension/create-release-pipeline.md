@@ -7,7 +7,7 @@
 
 ## Basic Setup
 
-When creating a release pipeline for your app using VS Code and Azure DevOps, you need an organization (see [create org](../getting-started/create-org.md)), a project (see [create project](create-project.md)), an app repository (see [create app](create-app.md)) and the imported task groups (see [update task groups](update-task-groups.md)). To create a release pipeline for your app, you need to take the following steps:
+When creating a release pipeline for your app using VS Code and Azure DevOps, you need an organization (see [create org](../getting-started/create-org.md)), a project (see [create project](create-project.md)), an app repository (see [create app](create-app.md)) and the imported task groups. To create a release pipeline for your app, you need to take the following steps:
 
 1. Right-click on the project where you want to create a release pipeline for your app and select "Create Release Pipeline"
 1. Select the app repository that you want to use

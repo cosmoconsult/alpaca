@@ -9,7 +9,7 @@ A companion container is an additional container which is started with your BC C
 
 You can setup companions inside of the cosmo.json
 
-Therfore you can add the key "companionServices" to the [bcArtifacts](containers/setup-artifacts.md)
+Therfore you can add the key "companionServices" to the [bcArtifacts](setup-artifacts.md)
 ```json
     "bcArtifacts": {
         "current": {

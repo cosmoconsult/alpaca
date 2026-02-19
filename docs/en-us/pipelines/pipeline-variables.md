@@ -23,7 +23,7 @@ These variables can change the default behavior the **build, test & deployment**
 
 - Change the [BC Artifacts](#bc-artifacts) and [Additional Setup](#additional-setup)
 - Change the behavior of the [Deployment Test](#deployment-test)
-- Variables used during [Compile App](#compile-app) or for [Hybrid Development](#hybrid-development)
+- Variables used during [Compile App](#compile-app)
 - Modify the [Test App](#test-app) behavior
 - Variables to [Publish App](#publish-app), [Sign App](#sign-app), and run the [Deployment](#deployment) of your App
 
@@ -271,5 +271,5 @@ extends:
 ---
 
 [cosmo-json]:      ../containers/setup-cosmo-json.md
-[artifact]:        ../containers/setup-cosmo-json.md#artifact
-[artifact-target]: ../containers/setup-cosmo-json.md#artifact-target
+[artifact]:        ../containers/setup-artifacts.md
+[artifact-target]: ../containers/setup-artifacts.md#artifact-target

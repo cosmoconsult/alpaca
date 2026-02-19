@@ -16,7 +16,7 @@ Your custom PowerShell scripts will be run during the start of the container ins
     "useCustomScriptsFromRepo": true
     ```
 
-To test changes to your custom scripts from a separate branch you can use [the option to create a container with configuration in a branch](../vsc-extension/create-branch-container.md) in the Visual Studio Code Extension.
+To test changes to your custom scripts from a separate branch you can use [the option to create a container with configuration in a branch](../vsc-extension/create-container.md#create-a-container-with-configuration-from-a-specific-branch) in the Visual Studio Code Extension.
 
 ## Example
 
