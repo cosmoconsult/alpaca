@@ -182,20 +182,21 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 
 ### Parameters
 
-| Setting                     | Description                                                                                                                                                      |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `HasWiki`                   | Sets whether to enable the wiki for the repository.                                                                                                              |
-| `HasIssues`                 | Sets whether to enable issues for the repository.                                                                                                                |
-| `AllowForking`              | Sets whether to allow this repository to be forked or not. **(only supported on organization-owned repositories)**                                               |
-| `HasDiscussions`            | Sets whether to enable discussions for the repository.                                                                                                           |
-| `HasProjects`               | Sets whether to enable projects for the repository.                                                                                                              |
-| `AllowMergeCommit`          | Allows the "Create a merge commit" merge method to be used.                                                                                                      |
-| `AllowSquashMerge`          | Allows the "Squash Merge" merge method to be used.                                                                                                               |
-| `UseSquashPrTitleAsDefault` | Automatically set the title of squashed commits to be the PR title.                                                                                              |
-| `AllowRebaseMerge`          | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
-| `AllowUpdateBranch`         | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
-| `AllowAutoMerge`            | Allows the auto merge feature to be used.                                                                                                                        |
-| `DeleteBranchOnMerge`       | Automatically delete branches on PR merge.                                                                                                                       |
+| Setting                              | Type       | Description                                                                                                                                                      |
+| ------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HasWiki`                            | `bool`     | Sets whether to enable the wiki for the repository.                                                                                                              |
+| `HasIssues`                          | `bool`     | Sets whether to enable issues for the repository.                                                                                                                |
+| `AllowForking`                       | `bool`     | Sets whether to allow this repository to be forked or not. **(only supported on organization-owned repositories)**                                               |
+| `HasDiscussions`                     | `bool`     | Sets whether to enable discussions for the repository.                                                                                                           |
+| `HasProjects`                        | `bool`     | Sets whether to enable projects for the repository.                                                                                                              |
+| `AllowMergeCommit`                   | `bool`     | Allows the "Create a merge commit" merge method to be used.                                                                                                      |
+| `AllowSquashMerge`                   | `bool`     | Allows the "Squash Merge" merge method to be used.                                                                                                               |
+| `UseSquashPrTitleAsDefault`          | `bool`     | Automatically set the title of squashed commits to be the PR title.                                                                                              |
+| `AllowRebaseMerge`                   | `bool`     | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
+| `AllowUpdateBranch`                  | `bool`     | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
+| `AllowAutoMerge`                     | `bool`     | Allows the auto merge feature to be used.                                                                                                                        |
+| `DeleteBranchOnMerge`                | `bool`     | Automatically delete branches on PR merge.                                                                                                                       |
+| `RequiredStatusChecks`               | `string[]` | Defines the required status checks for the default branch by creating the repository ruleset `Alpaca Status Checks (managed - edit status and bypasses only)`.<br>These checks must pass before pull requests can be merged.<br>*(Default: `[ "Pull Request Status Check" ]` for the AL-Go workflow **Pull Request Build**)* |
 
 > [!NOTE]
 > All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
@@ -215,6 +216,7 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
   "AllowRebaseMerge": false,
   "AllowUpdateBranch": true,
   "AllowAutoMerge": true,
-  "DeleteBranchOnMerge": true
+  "DeleteBranchOnMerge": true,
+  "RequiredStatusChecks": []
 }
 ```
