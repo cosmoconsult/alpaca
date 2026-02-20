@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.85.1 (2026-09-20)
+
+- Fix incomplete tests for serialization of octokit.net GitHub API calls
+
 ## v0.85.0 (2026-09-20)
 
 - Optimized ruleset handling for required status checks
