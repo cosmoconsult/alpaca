@@ -11,9 +11,9 @@ All notable changes to the Alpaca Backend
 ## v0.85.0 (2026-09-20)
 
 - Optimized ruleset handling for required status checks
-  - Use GitHub client of octokit.net for GitHub api calls
+  - Use GitHub client of octokit.net for GitHub API calls
   - Add default status check `Pull Request Status Check`
-  - Fix issue with insufficent permissions or GitHub plans for managing rulesets
+  - Fix issue with insufficient permissions or GitHub plans for managing rulesets
 
 ## v0.84.5 (2026-02-17)
 
