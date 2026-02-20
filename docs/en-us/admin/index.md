@@ -217,6 +217,6 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
   "AllowUpdateBranch": true,
   "AllowAutoMerge": true,
   "DeleteBranchOnMerge": true,
-  "RequiredStatusChecks": []
+  "RequiredStatusChecks": [ "Pull Request Status Check", "Custom Status Check" ]
 }
 ```
