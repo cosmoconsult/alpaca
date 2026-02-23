@@ -18,5 +18,5 @@ Now follow the wizard:
 
 With that, the new repository and pipeline will be created. It has all the basic setup and preparation needed to start working on a Business Central project including e.g. a branch policy and automatic setup of artifacts in your pipeline. After creation has finished, you will see your new repository and the new pipeline, both with the name of the app that you entered.
 
-[create-org]: ../getting-started/create-org.md
+[create-org]: create-org.md
 [create-project]: create-project.md

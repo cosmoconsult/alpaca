@@ -28,5 +28,5 @@ With that, you are ready to start developing. You might want to [create a contai
 
 [create-app]: create-app.md
 [create-container]: create-container.md
-[setup-launch]: create-launch-json.md
+[setup-launch]: ../shared/create-launch-json.md
 [git]: https://gitforwindows.org/

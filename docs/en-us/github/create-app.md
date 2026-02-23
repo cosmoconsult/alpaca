@@ -35,5 +35,5 @@ Now follow the wizard:
 
 Now a workflow will run to create the new app and add all necessary files to the repository.
 
-[create-org]: ../getting-started/create-org-github.md
-[create-project]: create-project-github.md
+[create-org]: create-org.md
+[create-project]: create-project.md

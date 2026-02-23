@@ -26,4 +26,4 @@ You're now ready to [create a repository with an AL app](create-app.md).
 >
 >![Organization options](../media/vscode.dev/vscode-browser-project-add.png)
 
-[create-org]: ../getting-started/create-org.md
+[create-org]: create-org.md
