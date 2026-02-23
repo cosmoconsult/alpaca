@@ -9,12 +9,12 @@ We recommend to use an [organization][create-org] for your repositories. One rep
 
 ## Create Repository
 
-To create a repositoy use the `+` action next to your GitHub organization or account:
+To create a repository use the `+` action next to your GitHub organization or account:
 
 ![Extension GitHub Create Repository](../media/extension-github-create-repo.png)
 
 Now follow the wizard:
-1. Enter the type of the new repository. Here you can choose between the PTE or AppSource Templates from Mirosoft or the respective Alpaca templates (recommended). The Alpaca templates are using Alpaca's container infrastructure for the AL-Go pipelines which can then run much faster.
+1. Enter the type of the new repository. Here you can choose between the PTE or AppSource Templates from Microsoft or the respective Alpaca templates (recommended). The Alpaca templates are using Alpaca's container infrastructure for the AL-Go pipelines which can then run much faster.
 1. Enter the name of the new repository
 1. Select if the new repository should be private.
 
