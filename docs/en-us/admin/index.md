@@ -35,7 +35,7 @@ Secrets created with a different convention will not show up in the list of avai
 
 ## IP Artifacts
 
-The idea for the IP artifacts is to enable pipelines and the self-service to consume artifacts from a pre-configured Azure DevOps feed without the need to now where to find this feed or how to access it. This eases handling of regularly used packages and [referencing those artifacts](../containers/setup-artifacts.md#product-feed) is simplified.
+The idea for the IP artifacts is to enable pipelines and the self-service to consume artifacts from a pre-configured Azure DevOps feed without the need to know where to find this feed or how to access it. This eases handling of regularly used packages and [referencing those artifacts](../containers/setup-artifacts.md#product-feed) is simplified.
 
 The name, organization and PAT must be stored as secrets:
 
