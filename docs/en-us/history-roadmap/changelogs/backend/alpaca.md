@@ -8,6 +8,25 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.85.1 (2026-09-20)
+
+- Fix incomplete tests for serialization of octokit.net GitHub API calls
+
+## v0.85.0 (2026-09-20)
+
+- Optimized ruleset handling for required status checks
+  - Use GitHub client of octokit.net for GitHub API calls
+  - Add default status check `Pull Request Status Check`
+  - Fix issue with insufficient permissions or GitHub plans for managing rulesets
+
+## v0.84.5 (2026-02-17)
+
+- Fix issue where wrong AutoStop information was returned
+
+## v0.84.4 (2026-02-16)
+
+- Fix issue on identifying guest users
+
 ## v0.84.3 (2026-02-12)
 
 - Allow custom telemetry headers in CORS policy
