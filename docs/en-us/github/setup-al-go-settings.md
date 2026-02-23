@@ -14,7 +14,7 @@ The AL-Go settings of a GitHub repository control the behavior of the **developm
 - They can contain conditional settings as documented in the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#conditional-settings)
 - They are merged as documented in the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-)
 
-**Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **Build containers** are automatically created by Build workflows (e.g. CI/CD) to publish compiled apps and run automated tests on them.
+**Development containers** are [created via VS Code](create-container.md) while **Build containers** are automatically created by Build workflows (e.g. CI/CD) to publish compiled apps and run automated tests on them.
 
 ## AL-Go settings
 
@@ -58,7 +58,7 @@ Settings to setup artifacts for containers.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](../containers/setup-artifacts.md) |
+| `alpaca.artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
 
 ### Translations
 

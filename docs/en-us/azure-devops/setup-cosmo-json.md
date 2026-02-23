@@ -5,7 +5,7 @@
 
 # Setup `cosmo.json` Config
 
-The `cosmo.json` is  located in `.devops/cosmo.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](../vsc-extension/create-container.md) while **build containers** are automatically created by the pipeline runs to publish compiled apps and run automated tests on them.
+The `cosmo.json` is  located in `.devops/cosmo.json` in your repository and defines the configuration for all **development and build containers**. **Development containers** are [created via VS Code](create-container.md) while **build containers** are automatically created by the pipeline runs to publish compiled apps and run automated tests on them.
 
 A container is created and used as:
 
@@ -80,7 +80,7 @@ By default you will have the following configurations:
 - `nextMajor`: The configuration for the next major BC version. It's automatically used when running the `Next Major` pipeline.
 - `nextMinor`: The configuration for the next minor BC version. It's automatically used when running the `Next Minor` pipeline.
 
-You can define additional configurations like e.g. one which imports RapidStart packages ore one with a backup. When [creating a new dev container](../vsc-extension/create-container.md) you can specify which configuration to use.
+You can define additional configurations like e.g. one which imports RapidStart packages ore one with a backup. When [creating a new dev container](create-container.md) you can specify which configuration to use.
 
 ### Parameters
 

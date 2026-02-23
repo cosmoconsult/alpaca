@@ -5,7 +5,7 @@
 
 # VS Code Extension Setup
 
-One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](create-org-github.md) beforehand.
+One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](../github/create-org.md) beforehand.
 
 > **Note:** The VS Code extension is therefore also easily usable by non-technical users in the browser via [vscode.dev](https://vscode.dev/).  
 > For a complete installation guide, see [VS Code in the browser](vscode-dev.md).

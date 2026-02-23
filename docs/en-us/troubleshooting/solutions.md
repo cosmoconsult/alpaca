@@ -22,14 +22,14 @@ then might a reverse proxy is blocking access to certain URLs. Make sure that th
 
 ## My container doesn't start / the container in my pipeline doesn't start
 
-If a container doesn't start, please always check the logs of the container through the [VS Code Extension](../vsc-extension/open-stuff.md). If you see something like this
+If a container doesn't start, please always check the logs of the container through the [VS Code Extension](../shared/open-stuff.md). If you see something like this
 
 ```powershell
 Exception calling "DownloadFile" with "2" argument(s): "The remote server returned an error: (403) Forbidden.",
 Downloading license file ...
 ```
 
-then very likely your license has expired and the corresponding link with it. You have to update the referenced license file in your `cosmo.json` file. [see](../containers/setup-cosmo-json.md#license-file)
+then very likely your license has expired and the corresponding link with it. You have to update the referenced license file in your `cosmo.json` file. [see](../azure-devops/setup-cosmo-json.md#license-file)
 
 ## My build pipelines sometimes fail and sometimes work with the same code
 

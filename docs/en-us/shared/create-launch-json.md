@@ -7,7 +7,7 @@
 
 ## Creating launch.json files
 
-After [creating a new container](create-container.md) you're almost ready to start development. To connect to your container to publish and debug your app, you need to create a configuration in your `launch.json` file:
+After [creating a new container](../azure-devops/create-container.md) you're almost ready to start development. To connect to your container to publish and debug your app, you need to create a configuration in your `launch.json` file:
 
 1. In the Visual Studio Code extension right click on the container you created before and choose **Create launch.json for this container**.
 1. A `launch.json` file has been created for your app and test app.  Each `launch.json` generated have different startup object depending of the path of your apps. App folder have **Page Customer List** as startup object and Test folder have **Page AL Test Tool**

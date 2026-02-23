@@ -5,7 +5,7 @@
 
 # Setup Artifacts to Import on Startup
 
-Artifacts are configured in the [AL-Go settings](../github/setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
+Artifacts are configured in the [AL-Go settings](setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
 
 Four types of artifacts are supported:
 

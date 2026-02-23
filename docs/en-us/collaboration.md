@@ -15,7 +15,7 @@ Please note that the tenant an Azure DevOps organization is connected to, determ
 1. *For COSMO organizations only*: Files on the fileshare that are referenced as dependencies need to be copied over from your own to the customer specific fileshare. You'll get access information about the customer specific fileshare in step 1.
 1. You need to [allow guest access and invite the external users into the organization](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/add-external-user?view=azure-devops).
 
-Please note that external users now need to [switch to your tenant](vsc-extension/tenant.md) to work in your organization and might want to create separate VS Code profiles if they use Alpaca in multiple tenants.
+Please note that external users now need to [switch to your tenant](azure-devops/tenant.md) to work in your organization and might want to create separate VS Code profiles if they use Alpaca in multiple tenants.
 
 
 ## Use Alpaca in an Azure DevOps organization in a customer tenant
@@ -29,4 +29,4 @@ If your customer wants to have the Azure DevOps organization to reside in their 
 1. If you want to do the project and repository setup for your customer you need to be organization admin. Now do all the necessary project and app setup like normally.
 1. Files on the fileshare that are referenced as dependencies need to be present on the customer specific fileshare. You'll get access information about the customer specific fileshare in step 2.
 
-Please note that developers now need to [switch to the customer tenant](vsc-extension/tenant.md) to work in the customer organization and should create different VS Code profiles for the different tenants.
+Please note that developers now need to [switch to the customer tenant](azure-devops/tenant.md) to work in the customer organization and should create different VS Code profiles for the different tenants.

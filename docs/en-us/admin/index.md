@@ -31,11 +31,11 @@ Licenses are made available to the Self-Service through secrets. Those secrets c
 - `devlic-<version>-<language>` for `.flf` files. Examples: `devlic-bc19-de`, `devlic-bc18-fr-es`, `devlic-nav2018-de`, `devlic-nav2018-hu-w1`
 - `dbclic-<version>-<language>` for `.bclicense` files. Examples: `dbclic-bc19-de`, `dbclic-bc18-fr-es`
 
-Secrets created with a different convention will not show up in the list of available configurations but you can still [reference them in your `cosmo.json`](../containers/setup-cosmo-json.md) for example as `licenseFile` or as `customerLicense`. This is handy when you have a project-specific license that you don't want to make available to all users.
+Secrets created with a different convention will not show up in the list of available configurations but you can still [reference them in your `cosmo.json`](../azure-devops/setup-cosmo-json.md) for example as `licenseFile` or as `customerLicense`. This is handy when you have a project-specific license that you don't want to make available to all users.
 
 ## IP Artifacts
 
-The idea for the IP artifacts is to enable pipelines and the self-service to consume artifacts from a pre-configured Azure DevOps feed without the need to know where to find this feed or how to access it. This eases handling of regularly used packages and [referencing those artifacts](../containers/setup-artifacts.md#product-feed) is simplified.
+The idea for the IP artifacts is to enable pipelines and the self-service to consume artifacts from a pre-configured Azure DevOps feed without the need to know where to find this feed or how to access it. This eases handling of regularly used packages and [referencing those artifacts](../azure-devops/setup-artifacts.md#product-feed) is simplified.
 
 The name, organization and PAT must be stored as secrets:
 

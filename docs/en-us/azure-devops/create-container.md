@@ -14,7 +14,7 @@
 1. Enter a name for your new container.
 1. Wait until the container was created and is shown in the list. If someone else already used a similar container, this just takes a few seconds. Else this might take up to 20 minutes the first time.
 1. After your container was created, the color of the icon shows the status of the container. The red icon indicates that the container is starting. As soon as the icon turns blue, the container is ready to access it.
-1. You will now want to [create a configuration in your launch.json](create-launch-json.md) or [open the Web Client, terminal, file share or log](open-container.md) of your container.
+1. You will now want to [create a configuration in your launch.json](../shared/create-launch-json.md) or [open the Web Client, terminal, file share or log](open-container.md) of your container.
 
 <video width="1280px" height="720px" controls>
   <source src="../media/create-container.mp4" type="video/mp4">
@@ -23,7 +23,7 @@
 
 ## Create a container with configuration from a specific branch
 
-To test out a change in either the `cosmo.json` or your [custom scripts](../containers/setup-custom-scripts.md) without affecting other users, you can create a container and use the configuration and custom scripts from a specific branch:
+To test out a change in either the `cosmo.json` or your [custom scripts](setup-custom-scripts.md) without affecting other users, you can create a container and use the configuration and custom scripts from a specific branch:
 
 1. In the Visual Studio Code extension right click on a branch with your changes under the Repository of your App and choose **Create container with configuration from this branch**.
 1. Enter a name for your new container and hit Enter.

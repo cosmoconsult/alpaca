@@ -38,5 +38,5 @@ With this now every change on the `main` branch will trigger the Template Catalo
 ---
 
 [create-org]: ../getting-started/create-org.md
-[create-project]: ../vsc-extension/create-project.md
-[create-app]: ../vsc-extension/create-app.md
+[create-project]: create-project.md
+[create-app]: create-app.md

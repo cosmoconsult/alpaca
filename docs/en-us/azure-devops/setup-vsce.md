@@ -8,7 +8,7 @@
 One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](create-org.md) beforehand.
 
 > **Note:** The VS Code extension is therefore also easily usable by non-technical users in the browser via [vscode.dev](https://vscode.dev/).  
-> For a complete installation guide, see [VS Code in the browser](vscode-dev.md).
+> For a complete installation guide, see [VS Code in the browser](../getting-started/vscode-dev.md).
 
 ## Installation
 
@@ -40,6 +40,6 @@ Now you can make yourself familiar with the interface:
 1. The **Containers** View shows you all your containers across all your organizations along with their state and details.
 1. The **Product Packages** View shows product packages that you often need during development. The feed from which the packages are fetched [can be configured](../admin/index.md) by your administrator.
 
-You now may want to go through the [walkthrough](walkthrough.md) to get a first impression of COSMO Alpaca.
+You now may want to go through the [walkthrough](../getting-started/walkthrough.md) to get a first impression of COSMO Alpaca.
 
 [vsc-install]: https://code.visualstudio.com/download

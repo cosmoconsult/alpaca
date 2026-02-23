@@ -270,6 +270,6 @@ extends:
 
 ---
 
-[cosmo-json]:      ../containers/setup-cosmo-json.md
-[artifact]:        ../containers/setup-artifacts.md
-[artifact-target]: ../containers/setup-artifacts.md#artifact-target
+[cosmo-json]:      setup-cosmo-json.md
+[artifact]:        setup-artifacts.md
+[artifact-target]: setup-artifacts.md#artifact-target

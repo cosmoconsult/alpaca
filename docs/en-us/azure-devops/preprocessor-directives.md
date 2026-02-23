@@ -9,7 +9,7 @@ If you e.g. have a multi-language app, you may have the same source code as a ba
 
 You can use the [Pipeline Setup Hooks](pipeline-variables.md#pipeline-setup-hooks) to set the `preprocessorSymbols` in your `app.json` at build time to use them during the build.
 
-One example is to add a new property to a [BC artifacts configuration](../containers/setup-cosmo-json.md) in the `cosmo.json`:
+One example is to add a new property to a [BC artifacts configuration](setup-cosmo-json.md) in the `cosmo.json`:
 
 ```json
 {
