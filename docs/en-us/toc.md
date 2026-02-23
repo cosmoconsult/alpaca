@@ -12,11 +12,9 @@
 
 # GitHub (AL-Go)
 
-## Getting Started
+## General Features
 
 ### [Create Organization](getting-started/create-org-github.md)
-
-## General Features
 
 ### [Create Project](vsc-extension/create-project-github.md)
 
@@ -78,9 +76,9 @@
 
 <!-- ### [Setup Custom Scripts](containers/setup-custom-scripts.md) -->
 
-## Workflow Setup
+<!-- ## Workflow Setup -->
 
-### [Setup AL-Go Settings](github/setup-al-go-settings.md)
+<!-- ### [Setup AL-Go Settings](github/setup-al-go-settings.md) -->
 
 <!-- ### [Increase App Version](pipelines/version-increase.md) -->
 
@@ -100,13 +98,11 @@
 
 ### [Assign Organization to Entity](vsc-extension/assign-entity-github.md)
 
-# Azure DevOps
-
-## Getting Started
-
-### [Create Organization](getting-started/create-org.md)
+# Azure DevOps  
 
 ## General Features
+
+### [Create Organization](getting-started/create-org.md)
 
 ### [Favorite Organizations](vsc-extension/favorite-orgs.md)
 

@@ -5,7 +5,7 @@
 
 # Create Container
 
-To develop, test or debug your app, you want to create a Business Central container. You can easily achieve that from within Visual Studio Code by following these steps:
+[!INCLUDE [Create Container Intro](../includes/create-container-intro.md)]
 
 > [!TIP]
 > The videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
