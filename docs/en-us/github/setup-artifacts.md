@@ -62,7 +62,7 @@ Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go
 
 ## URL
 
-Define Urls of APP or ZIP files as artifacts.
+Define URLs of APP or ZIP files as artifacts.
 
 ZIP files are automatically extracted after they are downloaded.
 
