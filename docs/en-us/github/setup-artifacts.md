@@ -19,27 +19,29 @@ Four types of artifacts are supported:
 1. Copy your artifact to the fileshare. One option to organize your folder structure could look like this, but if you have some other structure already in place in your organization, it also might be a good idea to use that:
    * product-artifacts used by multiple projects: `/common/<product>`
    * artifacts related to a customer project: `/<customer-name>/<project-name>`
-1. Add the artifact to `artifacts` in your AL-Go settings:
+1. Add the artifact to `alpaca.artifacts` in your AL-Go settings:
 
 ```json
 {
-    "artifacts": [
-        {
-            "type": "url",
-            "name": "myapp",
-            "version": "1.2.3.4",
-            // fileshare paths can reference a file or ZIP file
-            "url": "C:\\azurefileshare\\my.app",
-            "target": "app" // can also be DLL, RapidStart, Fonts, etc.
-        },
-        {
-            "type": "url",
-            "name": "myapp",
-            // URLs MUST reference a ZIP file
-            "url": "https://my.blob.core.windows.net/test/myapp/myapp_1.2.3.4.app.zip?sv=2019-02-02&...",
-            "target": "app"
-        }
-    ]
+    "alpaca": {
+        "artifacts": [
+            {
+                "type": "url",
+                "name": "myapp",
+                "version": "1.2.3.4",
+                // fileshare paths can reference a file or ZIP file
+                "url": "C:\\azurefileshare\\my.app",
+                "target": "app" // can also be DLL, RapidStart, Fonts, etc.
+            },
+            {
+                "type": "url",
+                "name": "myapp",
+                // URLs MUST reference a ZIP file
+                "url": "https://my.blob.core.windows.net/test/myapp/myapp_1.2.3.4.app.zip?sv=2019-02-02&...",
+                "target": "app"
+            }
+        ]
+    }
 }
 ```
 
@@ -67,15 +69,20 @@ Four types of artifacts are supported:
 
 By default all Microsoft NuGet feeds are available. Custom nuget feeds can either be configured globally, per-project or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
+1. Find out which name the NuGet package has and which version you want to use
+1. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
+
 ```json
 {
-    "artifacts": [
-        {
-            "type": "nuget",  // optional, default when not specified
-            "name": "CosmoConsult.COSMORental.b945e3cd-da15-4575-990e-37ff46875f27",
-            "version": "5.2.270944.0"
-        }
-    ]
+    "alpaca": {
+        "artifacts": [
+            {
+                "type": "nuget",  // optional, default when not specified
+                "name": "CosmoConsult.COSMORental.b945e3cd-da15-4575-990e-37ff46875f27",
+                "version": "5.2.270944.0"
+            }
+        ]
+    }
 }
 ```
 
@@ -95,22 +102,24 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 > Before using product feeds, you need to [configure the feed](../admin/index.md#ip-artifacts).
 
 1. Find out which name the IP artifact has and which version you want to use
-2. Add the Artifact to `artifacts` in your AL-Go settings:
+2. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
 
 ```json
 {
-    "artifacts": [
-        {
-            "type": "ipartifact",
-            "name": "alloy-management",
-            "version": "2.2.*"
-        },
-        {
-            "type": "ipartifact",
-            "name": "commission",
-            "version": "2.1.36626"
-        }
-    ]
+    "alpaca": {
+        "artifacts": [
+            {
+                "type": "ipartifact",
+                "name": "alloy-management",
+                "version": "2.2.*"
+            },
+            {
+                "type": "ipartifact",
+                "name": "commission",
+                "version": "2.1.36626"
+            }
+        ]
+    }
 }
 ```
 
@@ -133,21 +142,23 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 
 ```json
 {
-    "artifacts": [
-        {
-            "type": "url",
-            "name": "Default-Fonts",
-            "url": "c:\\azurefileshare\\common\\default-fonts.zip",
-            "target": "fonts",
-            "ignoreIn": ["build"]
-        },
-        {
-            "type": "url",
-            "name": "Additional Fonts for Barcode Printing",
-            "url": "c:\\azurefileshare\\myProject\\my-additional-fonts.zip",
-            "target": "fonts",
-            "ignoreIn": ["build"]
-        }
-    ]
+    "alpaca": {
+        "artifacts": [
+            {
+                "type": "url",
+                "name": "Default-Fonts",
+                "url": "c:\\azurefileshare\\common\\default-fonts.zip",
+                "target": "fonts",
+                "ignoreIn": ["build"]
+            },
+            {
+                "type": "url",
+                "name": "Additional Fonts for Barcode Printing",
+                "url": "c:\\azurefileshare\\myProject\\my-additional-fonts.zip",
+                "target": "fonts",
+                "ignoreIn": ["build"]
+            }
+        ]
+    }
 }
 ```
