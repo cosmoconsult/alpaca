@@ -114,7 +114,7 @@ Upload files into the Alpaca fileshare, share them and define their download url
                 "type": "url",
                 "name": "myapp",
                 "url": "https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>"
-            },
+            }
         ]
     }
 }
