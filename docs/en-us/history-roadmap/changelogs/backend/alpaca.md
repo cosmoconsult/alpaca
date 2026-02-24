@@ -12,11 +12,11 @@ All notable changes to the Alpaca Backend
 
 - Fetch metadata of NuGet package dependencies
 
-## v0.85.1 (2026-09-20)
+## v0.85.1 (2026-02-20)
 
 - Fix incomplete tests for serialization of octokit.net GitHub API calls
 
-## v0.85.0 (2026-09-20)
+## v0.85.0 (2026-02-20)
 
 - Optimized ruleset handling for required status checks
   - Use GitHub client of octokit.net for GitHub API calls

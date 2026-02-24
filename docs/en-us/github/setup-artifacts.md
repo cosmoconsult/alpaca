@@ -7,70 +7,36 @@
 
 Artifacts are configured in the [AL-Go settings](setup-al-go-settings.md). The defined artifacts are automatically installed in the containers during the container startup.
 
-Four types of artifacts are supported:
+Two types of artifacts are supported:
 
-1. Artifacts from a URL or the Alpaca fileshare
-1. Artifacts from a NuGet feed
-1. Artifacts from a product feed
-
-# URL or Alpaca fileshare
-
-1. Open the Alpaca fileshare. Please contact the Alpaca support if you don't have access yet.
-1. Copy your artifact to the fileshare. One option to organize your folder structure could look like this, but if you have some other structure already in place in your organization, it also might be a good idea to use that:
-   * product-artifacts used by multiple projects: `/common/<product>`
-   * artifacts related to a customer project: `/<customer-name>/<project-name>`
-1. Add the artifact to `alpaca.artifacts` in your AL-Go settings:
-
-```json
-{
-    "alpaca": {
-        "artifacts": [
-            {
-                "type": "url",
-                "name": "myapp",
-                "version": "1.2.3.4",
-                // fileshare paths can reference a file or ZIP file
-                "url": "C:\\azurefileshare\\my.app",
-                "target": "app" // can also be DLL, RapidStart, Fonts, etc.
-            },
-            {
-                "type": "url",
-                "name": "myapp",
-                // URLs MUST reference a ZIP file
-                "url": "https://my.blob.core.windows.net/test/myapp/myapp_1.2.3.4.app.zip?sv=2019-02-02&...",
-                "target": "app"
-            }
-        ]
-    }
-}
-```
-
-> [!NOTE]
-> You need to escape the folder separator `\` by using `\\` because the value must be a JSON-String.
-> The fileshare path always is `c:\azurefileshare` inside of a container. That means that if you place a file `fantastic-app.app` in the root of your fileshare, you need to reference it as `c:\\azurefileshare\\fantastic-app.app`.
-> Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which will be extracted during the container startup.
+1. [Artifacts from a NuGet feed](#nuget-feed)
+1. [Artifacts from a URL](#url)
 
 ## Parameters
 
+Optional parameters available for all artifacts:
+
 |Element|Type||Value|
 |-|-|-|-|
-|`type`             |string  |**mandatory**|The type of the artifact. Must be `url` for fileshare/URL artifacts.|
-|`name`             |string  |**mandatory**|The name of the artifact. Informational only.|
-|`version`          |string  |optional     |The version of the artifact. Informational only.|
-|`url`              |string  |**mandatory**|The path or url to download the artifact.|
-|`target`           |string  |optional     |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
-|`targetFolder`     |string  |optional     |This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
-|`appImportScope`   |string  |optional     |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
-|`appImportSyncMode`|string  |optional     |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
-|`ignoreIn`         |string[]|optional     |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`.|
-|`dependsOn`        |string  |optional     |Specify the dependency of an artifact. The value can be missing (default) or `App`.<br/><br/>Artifacts with a dependency will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
+|`target`           |string  |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
+|`targetFolder`     |string  |This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
+|`appImportScope`   |string  |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
+|`appImportSyncMode`|string  |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
+|`ignoreIn`         |string[]|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`.|
 
-# NuGet feed
+# Artifact Types
 
-By default all Microsoft NuGet feeds are available. Custom nuget feeds can either be configured globally, per-project or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
+## NuGet feed
 
-1. Find out which name the NuGet package has and which version you want to use
-1. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
+Define NuGet packages of BC Apps as artifacts.
+
+The dependencies of a NuGet package are included automatically but can be overwritten by also defining them as artifacts.
+
+By default all Microsoft NuGet feeds are available for AL-Go, but only the feed for the Microsoft Apps is used for containers.
+Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go-settings.md) or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
+
+1. Find out the name and version of the NuGet package you want to use
+1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
 
 ```json
 {
@@ -86,37 +52,31 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 }
 ```
 
-## Parameters
+### Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
-|`type`   |string|optional      |Type of the artifact, use `nuget`. Default when not specified.|
-|`name`   |string|**mandatory** |The name of the artifact.|
-|`version`|string|optional      |The version of the artifact. (latest - when not specified)|
+|`type`             |string  |optional     |Type of the artifact, use `nuget`. Default when not specified.|
+|`name`             |string  |**mandatory**|The name of the artifact.|
+|`version`          |string  |optional     |The version of the artifact. (latest - when not specified)|
 
-# Product feed
+## URL
 
-The use case for the product feed is to enable users and pipelines/workflows to consume artifacts managed in a central feed. This is mainly used for feeds hosting intelectual property. As a bonus you can use the version overview in the VS Code Extension to browse your regularly used artifacts.
+Define URLs of APP or ZIP files as artifacts.
 
-> [!IMPORTANT]
-> Before using product feeds, you need to [configure the feed](../admin/index.md#ip-artifacts).
+ZIP files are automatically extracted after they are downloaded.
 
-1. Find out which name the IP artifact has and which version you want to use
-2. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
-
+1. Find out which url you want to use.
+1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
+ 
 ```json
 {
     "alpaca": {
         "artifacts": [
             {
-                "type": "ipartifact",
-                "name": "alloy-management",
-                "version": "2.2.*"
-            },
-            {
-                "type": "ipartifact",
-                "name": "commission",
-                "version": "2.1.36626"
+                "type": "url",
+                "name": "myapp",
+                "url": "https://my.blob.core.windows.net/test/myapp/myapp_1.2.3.4.app?sv=2019-02-02&..."
             }
         ]
     }
@@ -127,14 +87,38 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 
 |Element|Type||Value|
 |-|-|-|-|
-|`type`|string|**mandatory**|The type of the artifact. Must be `ipartifact` for product feed artifacts.|
-|`name`|string|**mandatory**|The name of the artifact.|
-|`version`|string|optional|The version of the artifact. (Latest - when not specified). The version can include wildcards ("*") at the end, e.g. `2.*` or `2.1.*`|
-|`type`|string[]|optional|Specify the type of the artifact you want to use as an array. For now, you only get the full app with type "app", but in the future test apps, rapidstart packages or runtime packages might follow.|
-|`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`.|
-|`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
+|`type`             |string  |**mandatory**|The type of the artifact. Must be `url` for fileshare/URL artifacts.|
+|`name`             |string  |**mandatory**|The name of the artifact. Informational only.|
+|`version`          |string  |optional     |The version of the artifact. Informational only.|
+|`url`              |string  |**mandatory**|The url to download the artifact.|
 
----
+### Use Alpaca fileshare
+
+Upload files into the Alpaca fileshare, share them and define their download urls as url artifacts.
+
+1. Open the Alpaca fileshare. Please contact the Alpaca support if you don't have access yet.
+1. Copy your artifact to the fileshare. One option to organize your folder structure could look like this, but if you have some other structure already in place in your organization, it also might be a good idea to use that:
+   * product-artifacts used by multiple projects: `/common/<product>`
+   * artifacts related to a customer project: `/<customer-name>/<project-name>`
+1. Create a share link for a file or folder *(without duration and without password)*
+1. Get the download url from the share link 
+    1. Open the share link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/share/<id>)*
+    1. Copy the download link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>)*
+1. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
+
+```json
+{
+    "alpaca": {
+        "artifacts": [
+            {
+                "type": "url",
+                "name": "myapp",
+                "url": "https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>"
+            }
+        ]
+    }
+}
+```
 
 # Artifact Target
 
@@ -147,14 +131,14 @@ The use case for the product feed is to enable users and pipelines/workflows to 
             {
                 "type": "url",
                 "name": "Default-Fonts",
-                "url": "c:\\azurefileshare\\common\\default-fonts.zip",
+                "url": "https://my.blob.core.windows.net/test/fonts/default.zip?sv=2019-02-02&...",
                 "target": "fonts",
                 "ignoreIn": ["build"]
             },
             {
                 "type": "url",
                 "name": "Additional Fonts for Barcode Printing",
-                "url": "c:\\azurefileshare\\myProject\\my-additional-fonts.zip",
+                "url": "https://my.blob.core.windows.net/test/fonts/barcode.zip?sv=2019-02-02&...",
                 "target": "fonts",
                 "ignoreIn": ["build"]
             }

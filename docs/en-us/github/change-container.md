@@ -18,7 +18,7 @@ If you e.g. want to make sure you stay on release 24.2 and use the w1 version, y
 }
 ```
 
-if you e.g. want to use the version required by your apps (major & minor based on dependencies), you would change these properties in the [AL-Go settings](setup-al-go-settings.md):
+If you e.g. want to use the version required by your apps (major & minor based on dependencies), you would change these properties in the [AL-Go settings](setup-al-go-settings.md):
 
 ```json
 {
@@ -27,7 +27,7 @@ if you e.g. want to use the version required by your apps (major & minor based o
 ```
 
 For the changes to take effect you need to commit and push the changes to the repository.
-When creating a new **development container** (see [create container](create-container.md)) or **build container** the new configuration will be applied automically.
+When creating a new **development container** (see [create container](create-container.md)) or **build container** the new configuration will be applied automatically.
 
 > [!NOTE]
 > Existing containers are not affected.
