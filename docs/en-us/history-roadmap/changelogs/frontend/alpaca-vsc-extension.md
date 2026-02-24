@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.73.0 (2026-02-24)
+
+- Reference new COSMO Docs URL
+- Update Alpaca API client
+- Update dependency packages
+
 ## v0.72.0 (2026-02-16)
 
 - Update OpenAPI client generator and Alpaca API client
