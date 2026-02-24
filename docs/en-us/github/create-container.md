@@ -17,7 +17,7 @@
 
 ## Create a container with configuration from a specific branch
 
-To test out a change in either the `alpaca.json` without affecting other users, you can create a container and use the configuration from a specific branch:
+To test out a change in the [AL-Go settings](setup-al-go-settings.md) without affecting other users, you can create a container and use the configuration from a specific branch:
 
 1. In the Visual Studio Code extension click on the **+** icon on the **Containers** node under the Branches and the Project of your Repository.
 1. Enter a name for your new container and hit Enter.
