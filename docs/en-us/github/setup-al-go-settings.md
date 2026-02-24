@@ -5,9 +5,6 @@
 
 # Setup AL-Go Settings
 
-> [!IMPORTANT]
-> This documentation is only relevant for GitHub/AL-Go repositories
-
 The AL-Go settings of a GitHub repository control the behavior of the **development and build containers** as well as the **GitHub workflows**.
 
 - They can be defined in GitHub variables or in various settings files as documented in the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located)
@@ -70,3 +67,20 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 | `alpaca.translationLanguages` | string[] | `[]`    | workflow | Array of language tags for which the translation files are to be generated *(e.g. `[ "de-DE", "de-AT" ]`)* |
 | `alpaca.testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
 | `alpaca.testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
+
+## Migrating from alpaca.json
+
+Migrate and remove existing *alpaca.json* files.
+ 
+Mapping of container configurations to AL-Go settings files:
+> - default   -> .github/AL-Go-Settings.json
+> - current   -> .github/AL-Go-Settings.json
+> - NextMinor -> .github/Test Next Minor.settings.json
+> - NextMajor -> .github/Test Next Major.settings.json
+
+ Mapping of container configuration settings to AL-Go settings
+> - name                                  -> *N/A*
+> - inheritFromWorkflow                   -> *N/A*
+> - country                               -> country
+> - storageAccount, type, version, select -> artifact
+> - artifacts                             -> alpaca.artifacts
