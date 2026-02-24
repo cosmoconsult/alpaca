@@ -8,6 +8,16 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.48.0 (2026-02-24)
+
+- Support adding NuGet dependency to app.json
+- Update Alpaca API client
+- Reference new COSMO Docs URL
+
+## v1.47.0 (2026-02-16)
+
+- Remove dependency on deprecated SwarmUrlLookup [see #4635](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4635)
+
 ## v1.46.0 (2026-02-12)
 
 - Add headers with client name and version to all API requests for better telemetry and analytics
