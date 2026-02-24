@@ -4,115 +4,205 @@
 
 # Getting Started
 
-## [Walkthrough](getting-started/walkthrough.md)
-
-## [Create Organization](getting-started/create-org.md)
-
-## [VS Code Extension Setup](getting-started/access-and-setup-vsce.md)
+## [VS Code Extension Setup](getting-started/setup-vsce.md)
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
-# Usage Guide
+## [Walkthrough](getting-started/walkthrough.md)
+
+# GitHub (AL-Go)
 
 ## General Features
 
-### [Favorite Organizations](vsc-extension/favorite-orgs.md)
+### [Create Organization](github/create-org.md)
 
-### [Create Project](vsc-extension/create-project.md)
+### [Create Project](github/create-project.md)
 
-### [Onboard Existing Projects & Apps](vsc-extension/onboard-project.md)
+### [Interact with Requirements](github/associate-wi.md)
 
-### [Import Project Backlog](vsc-extension/import-projectbacklog.md)
+<!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
 
-### [Customize Projects](vsc-extension/customize-project.md)
-
-### [Interact with Requirements](vsc-extension/associate-wi.md)
-
-### [Download Artifacts](vsc-extension/download-artifact.md)
-
-### [Open Elements in Browser](vsc-extension/open-stuff.md)
+### [Open Elements in Browser](shared/open-stuff.md)
 
 ## App Development
 
-### [Create Repository & App](vsc-extension/create-app.md)
+### [Create Repository & App](github/create-app.md)
 
-### [Clone Repository](vsc-extension/clone-repo.md)
+<!--### [Clone Repository](azure-devops/clone-repo.md)-->
 
-### [Work with Branches](vsc-extension/branches.md)
+<!--### [Work with Branches](azure-devops/branches.md)-->
 
 ## Dev Container Management
 
-### [Create Container](vsc-extension/create-container.md)
+### [Create Container](github/create-container.md)
 
-### [Create Standalone Container](vsc-extension/create-ondemand-container.md)
+<!-- ### [Create Standalone Container](azure-devops/create-ondemand-container.md) -->
 
-### [Get User/Password](vsc-extension/copy-user-pwd.md)
+<!-- ### [Get User/Password](azure-devops/copy-user-pwd.md) -->
 
-### [Open Web Client, Terminal, File Share, Log](vsc-extension/open-container.md)
+<!-- ### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md) -->
 
-### [Delete Container](vsc-extension/delete-container.md)
+<!-- ### [Delete Container](azure-devops/delete-container.md) -->
 
-### [Start/Stop Container](vsc-extension/startstop-container.md)
+<!-- ### [Start/Stop Container](azure-devops/startstop-container.md) -->
 
-### [Auto-Start/-Stop Container](vsc-extension/auto-startstop.md)
+<!-- ### [Auto-Start/-Stop Container](azure-devops/auto-startstop.md) -->
 
-### [Share Container](vsc-extension/share-container.md)
+### [Share Container](github/share-container.md)
 
-### [Backup Container Database](vsc-extension/backup-database.md)
+<!-- ### [Backup Container Database](azure-devops/backup-database.md) -->
 
-### [Rename Container](vsc-extension/rename-container.md)
+### [Rename Container](github/rename-container.md)
 
-### [Restart BC Service Tier](vsc-extension/restart-service-tier.md)
+### [Restart BC Service Tier](github/restart-service-tier.md)
 
-### [Access SQL Server](scenarios/access-sql.md)
+### [Access SQL Server](shared/access-sql.md)
 
-### [Get Event Log](vsc-extension/event-log.md)
+### [Get Event Log](github/event-log.md)
 
-## Dev & Build Container Setup
+## Container Configuration
 
-### [Setup cosmo.json/alpaca.json Config](containers/setup-cosmo-json.md)
+### [Setup AL-Go Settings](github/setup-al-go-settings.md)
 
-### [Setup AL-Go Settings (GitHub)](github/setup-al-go-settings.md)
+### [Change BC Version/Country](github/change-container.md)
 
-### [Change BC Version/Country](containers/change-container.md)
+### [Setup Artifacts to Import on Container Startup](github/setup-artifacts.md)
 
-### [Setup Artifacts to Import on Container Startup](containers/setup-artifacts.md)
+<!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
-### [Setup Database Backup](containers/setup-bak.md)
+<!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
 
-### [Convert .bacpac to .bak](vsc-extension/convert-bacpac-to-bak.md)
+<!-- ### [Setup Companion Containers](azure-devops/setup-companion-container.md) -->
 
-### [Setup Companion Containers](containers/setup-companion-container.md)
+<!-- ### [Setup Custom Scripts](azure-devops/setup-custom-scripts.md) -->
 
-### [Setup Custom Scripts](containers/setup-custom-scripts.md)
+<!-- ## Workflow Setup -->
 
-## Pipeline/Workflow Setup
+<!-- ### [Setup AL-Go Settings](github/setup-al-go-settings.md) -->
 
-### [Setup AL-Go Settings (GitHub)](github/setup-al-go-settings.md)
+<!-- ### [Increase App Version](azure-devops/version-increase.md) -->
 
-### [Increase App Version](pipelines/version-increase.md)
+<!-- ### [Deploy App](azure-devops/create-release-pipeline.md) -->
 
-### [Deploy App](vsc-extension/create-release-pipeline.md)
+<!-- ### [Setup Next Major/-Minor, Localization & Minimum Workflows](azure-devops/next.md) -->
 
-### [Update CI/CD Templates](vsc-extension/cicd-update.md)
+<!-- ### [Using Variables](azure-devops/pipeline-variables.md) -->
 
-### [Setup Next Major/-Minor, Localization & Minimum Pipelines/Workflows](pipelines/next.md)
+<!-- ### [Use Preprocessor Directives](azure-devops/preprocessor-directives.md) -->
 
-### [Using Variables](pipelines/pipeline-variables.md)
+## Collaboration
 
-### [Setup App Signing](pipelines/app-signing.md)
-
-### [Use Preprocessor Directives](pipelines/preprocessor-directives.md)
-
-### [Run Page Scripting Tests](pipelines/pagescriptingtests.md)
+### [Base App Contributions](base-app.md)
 
 ## COSMO-only Features
 
-### [Assign Organization to Customer](vsc-extension/assign-customer.md)
+### [Assign Organization to Entity](github/assign-entity.md)
 
-### [Assign Organization to Entity](vsc-extension/assign-entity.md)
+# Azure DevOps  
 
-### [Assign Organization to Responsible User](vsc-extension/assign-responsible-user.md)
+## General Features
+
+### [Create Organization](azure-devops/create-org.md)
+
+### [Favorite Organizations](azure-devops/favorite-orgs.md)
+
+### [Create Project](azure-devops/create-project.md)
+
+### [Onboard Existing Projects & Apps](azure-devops/onboard-project.md)
+
+### [Import Project Backlog](azure-devops/import-projectbacklog.md)
+
+### [Customize Projects](azure-devops/customize-project.md)
+
+### [Interact with Requirements](azure-devops/associate-wi.md)
+
+### [Download Artifacts](azure-devops/download-artifact.md)
+
+### [Open Elements in Browser](shared/open-stuff.md)
+
+## App Development
+
+### [Create Repository & App](azure-devops/create-app.md)
+
+### [Clone Repository](azure-devops/clone-repo.md)
+
+### [Work with Branches](azure-devops/branches.md)
+
+## Dev Container Management
+
+### [Create Container](azure-devops/create-container.md)
+
+### [Create Standalone Container](azure-devops/create-ondemand-container.md)
+
+### [Get User/Password](azure-devops/copy-user-pwd.md)
+
+### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md)
+
+### [Delete Container](azure-devops/delete-container.md)
+
+### [Start/Stop Container](azure-devops/startstop-container.md)
+
+### [Auto-Start/-Stop Container](azure-devops/auto-startstop.md)
+
+### [Share Container](azure-devops/share-container.md)
+
+### [Backup Container Database](azure-devops/backup-database.md)
+
+### [Rename Container](azure-devops/rename-container.md)
+
+### [Restart BC Service Tier](azure-devops/restart-service-tier.md)
+
+### [Access SQL Server](shared/access-sql.md)
+
+### [Get Event Log](azure-devops/event-log.md)
+
+## Container Configuration
+
+### [Setup cosmo.json Config](azure-devops/setup-cosmo-json.md)
+
+### [Change BC Version/Country](azure-devops/change-container.md)
+
+### [Setup Artifacts to Import on Container Startup](azure-devops/setup-artifacts.md)
+
+### [Setup Database Backup](azure-devops/setup-bak.md)
+
+### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md)
+
+### [Setup Companion Containers](azure-devops/setup-companion-container.md)
+
+### [Setup Custom Scripts](azure-devops/setup-custom-scripts.md)
+
+## Pipeline Setup
+
+### [Increase App Version](azure-devops/version-increase.md)
+
+### [Deploy App](azure-devops/create-release-pipeline.md)
+
+### [Update CI/CD Templates](azure-devops/cicd-update.md)
+
+### [Setup Next Major/-Minor, Localization & Minimum Pipelines](azure-devops/next.md)
+
+### [Using Variables](azure-devops/pipeline-variables.md)
+
+### [Setup App Signing](azure-devops/app-signing.md)
+
+### [Use Preprocessor Directives](azure-devops/preprocessor-directives.md)
+
+### [Run Page Scripting Tests](azure-devops/pagescriptingtests.md)
+
+## Collaboration
+
+### [Cross-Company Collaboration](collaboration.md)
+
+### [Change the Tenant](azure-devops/tenant.md)
+
+## COSMO-only Features
+
+### [Assign Organization to Customer](azure-devops/assign-customer.md)
+
+### [Assign Organization to Entity](azure-devops/assign-entity.md)
+
+### [Assign Organization to Responsible User](azure-devops/assign-responsible-user.md)
 
 # [Administration](admin/index.md)
 
@@ -124,18 +214,10 @@
 
 # Support
 
-## [Create Bug Report or Feature Request](vsc-extension/bug-report.md)
+## [Create Bug Report or Feature Request](shared/bug-report.md)
 
 ## [Typical Problems & Solutions](troubleshooting/solutions.md)
 
-# Collaboration
-
-## [Cross-Company Collaboration](collaboration.md)
-
-## [Change the Tenant](vsc-extension/tenant.md)
-
-## [Base App Contributions](base-app.md)
-
 # [Status & Health](status.md)
 
-# [Download PDF](doc.pdf)
+<!-- # [Download PDF](doc.pdf) -->
