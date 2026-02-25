@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.86.1 (2026-02-25)
+
+- Fix issue during creation of AppSource apps on Azure DevOps
+
 ## v0.86.0 (2026-02-24)
 
 - Fetch metadata of NuGet package dependencies

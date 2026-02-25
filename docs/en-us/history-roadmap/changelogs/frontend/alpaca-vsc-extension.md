@@ -8,6 +8,15 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.74.0 (2026-02-25)
+
+- Add action to copy username for a container (in addition to password)
+- Add copy actions for NuGet packages & versions:
+  - Name
+  - Alpaca artifact (JSON)
+  - app.json dependency
+- Introduce submenus for copy actions to improve usability
+
 ## v0.73.0 (2026-02-24)
 
 - Reference new COSMO Docs URL
