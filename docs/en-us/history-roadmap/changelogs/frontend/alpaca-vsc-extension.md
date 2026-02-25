@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.74.0 (2026-02-25)
+## v0.73.1 (2026-02-25)
 
 - Improve user type handling
 - Add action to copy username for a container (in addition to password)
