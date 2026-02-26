@@ -95,6 +95,18 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 |`name`   |string|**mandatory**|The name of the artifact.|
 |`version`|string|optional     |The version of the artifact. (latest - when not specified)|
 
+You can use the VS Code extension to create the required entries for a NuGet package.
+
+1. Open the workspace of the repository in Visual Studio Code
+2. Open **COSMO Alpaca** extension
+3. Expand/Update the ["Packages" view](packages-view.md)
+4. Expand the entry of the required package (e.g. "COSMO Advanced Manufacturing Pack")
+5. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
+6. Right click on the wanted version and click [**Add Dependency**](packages-view.md#actions-1)
+7. Repeat from 4. for each required product
+8. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
+9. Commit/push the changed `cosmo.json`
+
 # Azure DevOps Artifact feed
 
 > [!IMPORTANT]
@@ -175,20 +187,7 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 }
 ```
 
-You can use the VSCode extension to create the required entries for a product package.
-
-1. Open the workspace of the repository in Visual Studio Code
-1. Go to "COSMO ALPACA"
-1. Expand/Update "PRODUCT PACKAGES"
-1. Expand "Universal Packages"
-1. Expand the entry of the required product (e.g. "COSMO Advanced Manufacturing Pack")
-1. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
-1. Right click on the wanted version and click "Add Dependency"
-1. Repeat from 5. for each required product
-1. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
-1. Commit/push the changed cosmo.json
-
-### Parameters
+## Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
@@ -197,6 +196,19 @@ You can use the VSCode extension to create the required entries for a product pa
 |`type`|string[]|optional|Specify the type of the artifact you want to use as an array. For now, you only get the full app with type "app", but in the future test apps, rapidstart packages or runtime packages might follow.|
 |`ignoreIn`|string[]|optional|Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](setup-cosmo-json.md))*|
 |`dependsOn`|string|optional|Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
+
+You can use the VS Code extension to create the required entries for a product package.
+
+1. Open the workspace of the repository in Visual Studio Code
+2. Open **COSMO Alpaca** extension
+3. Expand/Update ["Packages" view](packages-view.md)
+4. Expand **Universal Packages (ipArtifacts)**
+5. Expand the entry of the required product (e.g. "COSMO Advanced Manufacturing Pack")
+6. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
+7. Right click on the wanted version and click [**Add Dependency**](packages-view.md#actions-1)
+8. Repeat from 5. for each required product
+9. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
+10. Commit/push the changed `cosmo.json`
 
 ---
 
