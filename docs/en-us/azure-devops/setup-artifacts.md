@@ -14,7 +14,7 @@ Four types of artifacts are supported:
 1. Artifacts from an Azure DevOps Artifact feed
 1. Artifacts from a product feed
 
-# URL or Alpaca fileshare
+## URL or Alpaca fileshare
 
 1. Open the Alpaca fileshare. Please contact the Alpaca support if you don't have access yet.
 1. Copy your artifact to the fileshare. One option to organize your folder structure could look like this, but if you have some other structure already in place in your organization, it also might be a good idea to use that:
@@ -54,7 +54,7 @@ Four types of artifacts are supported:
 > The fileshare path always is `c:\azurefileshare` inside of a container. That means that if you place a file `fantastic-app.app` in the root of your fileshare, you need to reference it as `c:\\azurefileshare\\fantastic-app.app`.
 > Fileshare artifacts can be a "normal" files or an archive (`.zip` extension) which will be extracted during the container startup.
 
-## Parameters
+### Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
@@ -68,7 +68,7 @@ Four types of artifacts are supported:
 |`ignoreIn`         |string[]|optional     |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see also [cosmo.json](setup-cosmo-json.md))*|
 |`dependsOn`        |string  |optional     |Specify the dependency of an artifact. The value can be missing (default) or `App`.<br/><br/>Artifacts with a dependency will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
-# NuGet feed
+## NuGet feed
 
 By default all Microsoft NuGet feeds are available. Custom nuget feeds can either be configured globally, per-project or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
@@ -87,7 +87,7 @@ By default all Microsoft NuGet feeds are available. Custom nuget feeds can eithe
 }
 ```
 
-## Parameters
+### Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
@@ -107,7 +107,7 @@ You can use the VS Code extension to create the required entries for a NuGet pac
 8. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
 9. Commit/push the changed `cosmo.json`
 
-# Azure DevOps Artifact feed
+## Azure DevOps Artifact feed
 
 > [!IMPORTANT]
 > This is only available for Alpaca on **Azure DevOps**
@@ -139,7 +139,7 @@ You can use the VS Code extension to create the required entries for a NuGet pac
 > Use the project ID for `project`
 > When you have a project-scoped feed in a different project of the same organization, follow [the instructions here](https://learn.microsoft.com/en-us/azure/devops/artifacts/feeds/project-scoped-feeds?view=azure-devops#q-how-can-i-access-a-project-scoped-feed-in-another-project-from-my-pipeline).
 
-## Parameters
+### Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
@@ -157,7 +157,7 @@ You can use the VS Code extension to create the required entries for a NuGet pac
 |`ignoreIn`         |string[]|optional           |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see [cosmo.json](setup-cosmo-json.md)*|
 |`dependsOn`        |string  |optional           |Specify the dependency of an artifact. The value can be **missing (default)** or `App`.<br/><br/>Artifacts with a dependecy will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App`)* was installed.|
 
-# Product feed
+## Product feed
 
 The use case for the product feed is to enable users and pipelines/workflows to consume artifacts managed in a central feed. This is mainly used for feeds hosting intelectual property. As a bonus you can use the version overview in the VS Code Extension to browse your regularly used artifacts.
 
@@ -187,7 +187,7 @@ The use case for the product feed is to enable users and pipelines/workflows to 
 }
 ```
 
-## Parameters
+### Parameters
 
 |Element|Type||Value|
 |-|-|-|-|
@@ -212,7 +212,7 @@ You can use the VS Code extension to create the required entries for a product p
 
 ---
 
-# Artifact Target
+## Artifact Target
 
 [!INCLUDE [Artifact Target](../includes/artifact-target.md)]
 
