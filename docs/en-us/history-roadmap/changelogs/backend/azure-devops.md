@@ -768,7 +768,7 @@ All notable changes to the Azure DevOps Backend
 # v0.11.12
 
 - Allow reading queries and executing queries by id [see #108](https://dev.azure.com/cc-ppi/General/_workitems/edit/108)
-- Add functionality to create a branch and link it to a work item (https://dev.azure.com/cc-ppi/General/_workitems/edit/504 / [documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/branches.html#create-a-branch-to-work-on-a-work-item))
+- Add functionality to create a branch and link it to a work item ([see #504](https://dev.azure.com/cc-ppi/General/_workitems/edit/504) / [see documentation](../../../azure-devops/branches.md#create-a-branch-to-work-on-a-work-item))
 
 # v0.11.11.3
 
@@ -815,11 +815,11 @@ All notable changes to the Azure DevOps Backend
 
 # v0.11.7
 
-- Add action to get branches (needed for [this](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/branches.html))
+- Add action to get branches (needed for [this](../../../azure-devops/branches.md))
 - Fix bug that prevented PAT-based authentication to work when calling GET Organization
 
 # v0.11.6
 
 - Remove requirement for PATValidationProject: Instead of setting a PATValidationProject query param, most of the time the org can be deduced from the user. If not, a Header "Collection-URI" is used
-- Add AgentController to handle add and delete of agents, necessary for starting agents in server jobs ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/405))
-- Process modification improvements ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/281))
+- Add AgentController to handle add and delete of agents, necessary for starting agents in server jobs ([see documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/405))
+- Process modification improvements ([see documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/281))

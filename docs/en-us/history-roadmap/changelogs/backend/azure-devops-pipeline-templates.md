@@ -8,7 +8,6 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-
 ## v2.52.0 (2026-02-26)
 
 - Fix PageScripting parallelization [see #4618](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4618)
@@ -532,7 +531,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 ## v1.2.5
 
 - Do not use CodeCops for compiling the test app due to this marks a build status as partially succeeded also the main app succeeded without warnings.
-- Support taking the version from the [manifest files (app.json)](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/containers/setup-cosmo-json.html#compiler) for the app during compilation.
+- Support taking the version from the [manifest files (app.json)](../../../azure-devops/setup-cosmo-json.md#compiler) for the app during compilation.
 
 ## v1.2.4
 
@@ -592,7 +591,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v1.1.4
 
-- Support to get custom startup scripts from the repository as explained [here](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/containers/setup-custom-scripts.html)
+- Support to get custom startup scripts from the repository as explained [here](../../../azure-devops/setup-custom-scripts.md)
 
 ## v1.1.3
 

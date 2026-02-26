@@ -651,8 +651,8 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.11.30
 
-- Add the possibility to invoke a database backup for a container (see [docs](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/backup-database.html))
-- Add a second view that shows all currently running containers (see [docs](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/show-all-containers.html))
+- Add the possibility to invoke a database backup for a container ([see documentation](../../../azure-devops/backup-database.md))
+- Add a second view that shows all currently running containers
 - Better error handling when creating containers [see #862](https://dev.azure.com/cc-ppi/General/_workitems/edit/862)
 - The lists below "WorkItems" are now sorted in the same way as the original queries [see #925](https://dev.azure.com/cc-ppi/General/_workitems/edit/925)
 - Fix error preventing the launch.json to be updated when the configurations field is not present, pretty-print config [see #970](https://dev.azure.com/cc-ppi/General/_workitems/edit/970)
@@ -660,7 +660,7 @@ All notable changes to the Visual Studio Code Extension
 - Rename "Update license" to "Update variables/licenses" as it now does both [see #354](https://dev.azure.com/cc-ppi/General/_workitems/edit/354)
 - Add the possibility to set additional owners for a container so that it appears in their tooling as well [see #500](https://dev.azure.com/cc-ppi/General/_workitems/edit/500)
 - Support the new workspace trust feature (https://code.visualstudio.com/docs/editor/workspace-trust) of Visual Studio Code [see #1029](https://dev.azure.com/cc-ppi/General/_workitems/edit/1029)
-- Release "create container from branch" as regular feature, no longer a preview feature (https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/create-branch-container.html)
+- Release "create container from branch" as regular feature, no longer a preview feature ([see documentation](../../../azure-devops/create-container.md#create-a-container-with-configuration-from-a-specific-branch))
 - Fix a problem where creating a container from a branch was impossible if the branch name contained a # [see #1017](https://dev.azure.com/cc-ppi/General/_workitems/edit/1017)
 - Remove the action to create a new app from a container image as those are now deprecated for 4 months (https://freddysblog.com/2021/02/10/removing-all-specific-nav-and-business-central-docker-images/, https://dev.azure.com/cc-ppi/General/_workitems/edit/1069/)
 - Show detailed error responses for project creation [see #380](https://dev.azure.com/cc-ppi/General/_workitems/edit/380)
@@ -677,16 +677,16 @@ All notable changes to the Visual Studio Code Extension
 
 - The initial login sometimes had issues, especially when switching tenants. This should make it more robust [see #912](https://dev.azure.com/cc-ppi/General/_workitems/edit/912)
 - If the backend Swarm configuration was defined with a trailing slash, this could cause problems [see #908](https://dev.azure.com/cc-ppi/General/_workitems/edit/908)
-- New command `Update Task groups` added to import/update Task group templates for setup of Release Pipelines in a project (https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/update-task-groups.html)
-- New command `Create Release Pipeline` added to setup Release Pipelines for Apps in a project (https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/create-release-pipeline.html)
-- Next Major/Minor pipelines added (https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/pipelines/next.html)
+- New command `Update Task groups` added to import/update Task group templates for setup of Release Pipelines in a project ([see documentation](../../../azure-devops/cicd-update.md))
+- New command `Create Release Pipeline` added to setup Release Pipelines for Apps in a project ([see documentation](../../../azure-devops/create-release-pipeline.md))
+- Next Major/Minor pipelines added ([see documentation](../../../azure-devops/next.md))
   - Command added to setup Next Major/Minor pipelines for repository [see #736](https://dev.azure.com/cc-ppi/General/_workitems/edit/736)
   - Fix: Command "setup Next Major/Minor pipelines" was not added in extension [see #736](https://dev.azure.com/cc-ppi/General/_workitems/edit/736)
   - Changed: "setup Next Major/Minor pipelines" command no longer accesses Azure KeyVault secrets [see #736](https://dev.azure.com/cc-ppi/General/_workitems/edit/736)
 - Provide a public API for the extension to allow for extensibility [see #900](https://dev.azure.com/cc-ppi/General/_workitems/edit/900)
 - Allow onboarding of existing projects to the self-service [see #610](https://dev.azure.com/cc-ppi/General/_workitems/edit/610)
 - If artifacts were defined without an ignoreIn config, they were ignored [see #929](https://dev.azure.com/cc-ppi/General/_workitems/edit/929)
-- Support optionally enabling premium SKU for the default user (https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/containers/setup-cosmo-json.html#docker-specific-parameters, see param `enablePremium`)
+- Support optionally enabling premium SKU for the default user ([see documentation](../../../azure-devops/setup-cosmo-json.md#docker-specific-parameters), see param `enablePremium`)
 
 ## v0.11.26
 
@@ -695,8 +695,8 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.11.25
 
-- Allow to manually stop and start containers. **Please note:** This will **keep** the database, but it will **not keep** the file system and a full initialization of the container will be performed, excluding the .app, .fob and rapidstart imports. You can find out more in the [documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/startstop-container.html)
-- Allow to set a locale through cosmo.json when starting a BC container as this can be used to set locale and culture information in the container (https://github.com/microsoft/nav-docker/blob/573359a13e7ac57f5c42b1aeca882a39ee55932b/generic/Run/SetupVariables.ps1#L215-L222)
+- Allow to manually stop and start containers. **Please note:** This will **keep** the database, but it will **not keep** the file system and a full initialization of the container will be performed, excluding the .app, .fob and rapidstart imports. You can find out more in the [see documentation](../../../azure-devops/startstop-container.md)
+- Allow to set a locale through cosmo.json when starting a BC container as this can be used to set locale and culture information in the container (see [nav-docker](https://github.com/microsoft/nav-docker/blob/573359a13e7ac57f5c42b1aeca882a39ee55932b/generic/Run/SetupVariables.ps1#L215-L222))
 - Get RabbitMQ connection information from Azure KeyVault [see #702](https://dev.azure.com/cc-ppi/General/_workitems/edit/702)
 - Handle entites differently for Non-COSMO users [see #690](https://dev.azure.com/cc-ppi/General/_workitems/edit/690)
 - Fix a bug where Graph auth tokens were always requested for COSMO and not the actually selected AD tenant [see #759](https://dev.azure.com/cc-ppi/General/_workitems/edit/759)
@@ -762,7 +762,7 @@ All notable changes to the Visual Studio Code Extension
 ## v0.11.14
 
 - Show "my queries" and "shared queries": To allow more flexibility which work items are visible, you will now also see "my queries" and "shared queries" in the list [see #108](https://dev.azure.com/cc-ppi/General/_workitems/edit/108)
-- Add "Work on this (create branch)" functionality for work items: See [documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/branches.html#create-a-branch-to-work-on-a-work-item)
+- Add "Work on this (create branch)" functionality for work items: [see documentation](../../../azure-devops/branches.md#create-a-branch-to-work-on-a-work-item)
 
 ## v0.11.13
 
@@ -770,7 +770,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.11.12
 
-- Add an action to convert a .bacpac file to a .bak file ([documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/containers/convert-bacpac-to-bak.html))
+- Add an action to convert a .bacpac file to a .bak file ([see documentation](../../../azure-devops/convert-bacpac-to-bak.md))
 - Allow to set up whether multi-tenancy is active or not in containers [see #465](https://dev.azure.com/cc-ppi/General/_workitems/edit/465)
 - Don't default isolation mode to "hyperv" in the extension but use the backend default of "process" because Windows Server 2019 (2004) has problems with network shares and shared disks in hyperv isolation. Allow override through a param "isolation" in cosmo.json
 - Fixes to support trials for Non-COSMO users:
@@ -781,17 +781,17 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.11.11
 
-- Show the branches in a repository with their creators and allow creating a PR for a branch with an action on that branch ([documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/branches.html))
-- Allow to select a different tenant if needed ([documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/tenant.html))
+- Show the branches in a repository with their creators and allow creating a PR for a branch with an action on that branch ([see documentation](../../../azure-devops/branches.md))
+- Allow to select a different tenant if needed ([see documentation](../../../azure-devops/tenant.md))
 - Open organization in browser, same as for other browsers
 
 ## v0.11.10
 
-- Allow definition of favorite organizations including potentially filtering on them ([documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice/vsc-extension/favorite-orgs.html))
-- Use new startup file handling ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/382))
-- Add action to open [documentation](https://docs.cosmoconsult.com/en-us/cloud-service/devops-docker-selfservice)
-- Refresh the organization after an entity has been assigned ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/394))
-- Allow container access even when the container isn't running ([documentation](https://dev.azure.com/cc-ppi/General/_workitems/edit/401))
+- Allow definition of favorite organizations including potentially filtering on them ([see documentation](../../../azure-devops/favorite-orgs.md))
+- Use new startup file handling [see #382](https://dev.azure.com/cc-ppi/General/_workitems/edit/382)
+- Add action to open [documentation](../../../index.md)
+- Refresh the organization after an entity has been assigned [see #394](https://dev.azure.com/cc-ppi/General/_workitems/edit/394)
+- Allow container access even when the container isn't running [see #401](https://dev.azure.com/cc-ppi/General/_workitems/edit/401)
 
 ## v0.11.9
 
