@@ -36,14 +36,13 @@ By default all Microsoft NuGet feeds are available for AL-Go, but only the feed 
 Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go-settings.md) or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
 1. Find out the name and version of the NuGet package you want to use (e.g. from the [Packages View](packages-view.md)).
-1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
+1. Add the artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
 
 ```json
 {
     "alpaca": {
         "artifacts": [
             {
-                "type": "nuget",  // optional, default when not specified
                 "name": "CosmoConsult.COSMORental.b945e3cd-da15-4575-990e-37ff46875f27",
                 "version": "5.2.270944.0"
             }
@@ -56,7 +55,7 @@ Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go
 
 |Element|Type||Value|
 |-|-|-|-|
-|`type`             |string  |optional     |Type of the artifact, use `nuget`. Default when not specified.|
+|`type`             |string  |optional     |Type of the artifact. Default when not specified is `nuget`.|
 |`name`             |string  |**mandatory**|The name of the artifact.|
 |`version`          |string  |optional     |The version of the artifact. (latest - when not specified)|
 
