@@ -18,7 +18,7 @@ The tools are part of the COSMO Alpaca VS Code extension and require no addition
 
 ## Using the Tools in Agent Chat
 
-Open GitHub Copilot Chat in agent mode and describe what you want to do. To help the agent pick the right tool, make sure to mention **alpaca** together with the target platform (**Azure DevOps** or **GitHub**) in your (first) message. For example:
+Open GitHub Copilot Chat in agent mode and describe what you want to do. To help the agent pick the right tool, make sure to mention **Alpaca** together with the target platform (**Azure DevOps** or **GitHub**) in your (first) message. For example:
 
 - *"Use Alpaca to create a new Azure DevOps project called MyProject"*
 - *"With Alpaca, create a GitHub repository and app for our new extension"*
