@@ -201,7 +201,7 @@ You can use the VS Code extension to create the required entries for a product p
 
 1. Open the workspace of the repository in Visual Studio Code
 2. Open **COSMO Alpaca** extension
-3. Expand/Update ["Packages" view](packages-view.md)
+3. Expand/Update the ["Packages" view](packages-view.md)
 4. Expand **Universal Packages (ipArtifacts)**
 5. Expand the entry of the required product (e.g. "COSMO Advanced Manufacturing Pack")
 6. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
