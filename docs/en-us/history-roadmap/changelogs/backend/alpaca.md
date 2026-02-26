@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.87.0 (2026-02-26)
+
+- Add new endpoint to retrieve a specific GitHub owner
+
 ## v0.86.1 (2026-02-25)
 
 - Fix issue during creation of AppSource apps on Azure DevOps
