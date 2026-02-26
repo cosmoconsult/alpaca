@@ -33,6 +33,6 @@ The agent will automatically select the appropriate COSMO Alpaca tool, execute t
 >[!NOTE]
 >Modern AI agents handle large tool sets efficiently without polluting the context window, so having many tools available usually does not negatively affect the experience.
 
-If you want to limit which tools are available to the agent, you can disable individual COSMO Alpaca tools via the **Configure Tools** option in agent chat. For more information see [Agent tools in VS Code](https://code.visualstudio.com/docs/copilot/agents/agent-tools).
+If you want to limit which tools are available to the agent, you can disable individual COSMO Alpaca tools via the **Configure Tools** option in agent chat. For more information, see [Agent tools in VS Code](https://code.visualstudio.com/docs/copilot/agents/agent-tools).
 
 ![Configure Tools](../media/shared/mcp-tools-configure.png)
