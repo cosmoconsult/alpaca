@@ -92,7 +92,7 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`version`            |string|optional     |The version of the BC artifact (e.g. `25`, `25.1`, `25.1.12345`). This will default to the latest version.|
 |`select`             |string|optional     |The [selector](https://github.com/microsoft/navcontainerhelper/blob/49da2c44a41e3671ed3d94c4d8e8362578eda520/Artifacts/Get-BCArtifactUrl.ps1#L12-L22) for the BC artifact. One of `latest`, `first`, `all`, `closest`, `secondToLastMajor`, `current`, `nextMinor`, `nextMajor`, `daily`, `weekly`.|
 |`country`            |string|optional     |The country of the BC artifact (e.g. `w1`, `de`, `fr`, ..). This will default to `w1`|
-|`artifacts`          |array |optional     |The artifacts to import during the startup of the container. See the [documentation](setup-artifacts.md).|
+|`artifacts`          |array |optional     |The artifacts to import during the startup of the container. See the [see documentation](setup-artifacts.md).|
 
 ## Common Parameters
 
