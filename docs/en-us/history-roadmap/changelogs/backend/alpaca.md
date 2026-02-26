@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.87.1 (2026-02-26)
+
+- Add support for bypass actors in required status check rulesets
+- Improved picklist field creation and update handling
+
 ## v0.87.0 (2026-02-26)
 
 - Add new endpoint to retrieve a specific GitHub owner
