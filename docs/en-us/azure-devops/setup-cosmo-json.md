@@ -179,11 +179,7 @@ The additional deployment feeds are used in Product Development to deploy the sa
 
 You can specify custom NuGet feeds to be used by the container when downloading NuGet artifacts (e.g. 3rd party dependencies).
 
-|Element|Type||Value|
-|-|-|-|-|
-|`"feedUrl"`|string|**mandatory**|URL of the NuGet feed|
-|`"pat"`    |string|optional     |Personal Access Token (PAT) for authentication to the NuGet feed (if required)|
-|`"filter"` |string|optional     |Filter to apply when querying the NuGet feed (optional)|
+[!INCLUDE [Custom NuGet Feeds Parameters](../includes/packages-view/custom-feeds-parameters.md)]
 
 You can configure additional custom NuGet feeds in the Visual Studio Code extension settings. These feeds will be automatically passed to the container when creating a new container (together with the ones from the repository configuration). Additionally you can browse your configured custom feeds in the [Packages View](packages-view.md) under the dedicated ["Custom NuGet Feeds"](packages-view.md#custom-nuget-feeds) node.
 

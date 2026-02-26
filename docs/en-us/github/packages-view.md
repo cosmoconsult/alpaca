@@ -3,7 +3,7 @@
     description: Packages View
 ---
 
-# Packages view
+# Packages View
 
 [!INCLUDE [Packages View Intro](../includes/packages-view/intro.md)]
 

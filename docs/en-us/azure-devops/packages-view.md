@@ -3,7 +3,7 @@
     description: Packages View
 ---
 
-# Packages view
+# Packages View
 
 [!INCLUDE [Packages View Intro](../includes/packages-view/intro.md)]
 
@@ -41,14 +41,7 @@ You can also add custom NuGet feeds locally using the VS Code extension setting 
 
 #### Parameters
 
-|Element|Type||Value|
-|-|-|-|-|
-|`feedUrl`|string|**mandatory**|URL of the NuGet feed|
-|`pat`    |string|optional     |Personal Access Token (PAT) for authentication to the NuGet feed (if required)|
-|`filter` |string|optional     |Filter to apply when querying the NuGet feed (optional)|
-
-> [!TIP]
-> Use the `filter` to only show packages containing a certain term. This is useful if you have a lot of packages in your custom feeds and only want to see the relevant ones.
+[!INCLUDE [Packages View Custom Feeds Parameters](../includes/packages-view/custom-feeds-parameters.md)]
 
 ### Actions
 
