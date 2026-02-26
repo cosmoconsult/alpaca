@@ -8,8 +8,27 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
-## v2.48.0 (unreleased)
 
+## v2.52.0 (2026-02-26)
+
+- Fix PageScripting parallelization [see #4618](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4618)
+
+## v2.51.0 (2026-02-25)
+
+- Remove Docker Parameters, add PageScripting parameters for products [see #4649](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4649)
+
+## v2.50.0 (2026-02-24)
+
+- Fix UID handling [see #4678](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4678)
+
+## v2.49.0 (2026-02-23)
+
+- Add AppSourceCop baseline validation and Azure File Share download support [see #4660](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4660)
+- Close Group of Installed Apps in Logs [see #4674](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4674)
+
+## v2.48.0 (2026-02-13)
+
+- Fix issue with fetchfilter on checkout [see #4663](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4663)
 - Add support for checkout of Git submodules in pipeline runs [see #4641](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4641)
 
 ## v2.47.0 (2026-01-19)
