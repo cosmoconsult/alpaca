@@ -26,6 +26,8 @@
 
 ### [Packages View](github/packages-view.md)
 
+### [MCP Tools for Alpaca](shared/mcp-tools.md)
+
 ## App Development
 
 ### [Create Repository & App](github/create-app.md)
@@ -123,6 +125,8 @@
 ### [Open Elements in Browser](shared/open-stuff.md)
 
 ### [Packages View](azure-devops/packages-view.md)
+
+### [MCP Tools for Alpaca](shared/mcp-tools.md)
 
 ## App Development
 
