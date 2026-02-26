@@ -24,6 +24,8 @@
 
 ### [Open Elements in Browser](shared/open-stuff.md)
 
+### [Packages View](github/packages-view.md)
+
 ## App Development
 
 ### [Create Repository & App](github/create-app.md)
@@ -119,6 +121,8 @@
 ### [Download Artifacts](azure-devops/download-artifact.md)
 
 ### [Open Elements in Browser](shared/open-stuff.md)
+
+### [Packages View](azure-devops/packages-view.md)
 
 ## App Development
 

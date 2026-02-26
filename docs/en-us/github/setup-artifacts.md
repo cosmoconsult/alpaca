@@ -35,7 +35,7 @@ The dependencies of a NuGet package are included automatically but can be overwr
 By default all Microsoft NuGet feeds are available for AL-Go, but only the feed for the Microsoft Apps is used for containers.
 Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go-settings.md) or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
-1. Find out the name and version of the NuGet package you want to use
+1. Find out the name and version of the NuGet package you want to use (e.g. from the [Packages View](packages-view.md)).
 1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
 
 ```json
@@ -68,7 +68,7 @@ ZIP files are automatically extracted after they are downloaded.
 
 1. Find out which url you want to use.
 1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
- 
+
 ```json
 {
     "alpaca": {
@@ -101,7 +101,7 @@ Upload files into the Alpaca fileshare, share them and define their download url
    * product-artifacts used by multiple projects: `/common/<product>`
    * artifacts related to a customer project: `/<customer-name>/<project-name>`
 1. Create a share link for a file or folder *(without duration and without password)*
-1. Get the download url from the share link 
+1. Get the download url from the share link
     1. Open the share link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/share/<id>)*
     1. Copy the download link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>)*
 1. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
