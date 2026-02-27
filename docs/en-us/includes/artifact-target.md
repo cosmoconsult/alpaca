@@ -14,7 +14,7 @@ The order of import is:
 1. DLL(s) and Add-Ins
 2. Font(s)
 3. App(s)
-4. RapidStart Package(s)
+4. RapidStart package(s)
 
 ## Examples
 
