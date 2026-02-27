@@ -1,12 +1,15 @@
-The `target` specifies the target folder and finally what should hapen with the artifact.
+The `target` specifies what should hapen with the artifact.
 
-|Target(s)|Destination|Import|
-|-|-|-|
-|`bak`                          |---                                         |The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
-|`saasbak`                      |---                                         |Backup file from an online SaaS environment, [converted from bacpac to bak](../azure-devops/convert-bacpac-to-bak.md), **cannot** be combined with `bak`.|
-|`dll` or `add-ins`             |`<serviceTierFolder>/Add-Ins/<targetFolder>`|The Artifact will be imported as a DLL or Add-In.|
-|`font` or `fonts`              |`c:/fonts`                                  |The Artifact will be imported as a Font.|
-|`app`, `fob`, `rapidStart`, ...|`C:\run\my\apps`                            |The Artifact content will be imported as an App, Fob or RapidStart package depending on the file extension.|
+|Target(s)|Import|
+|-|-|
+|`bak`                          |The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
+|`saasbak`                      |Backup file from an online SaaS environment, [converted from bacpac to bak](../azure-devops/convert-bacpac-to-bak.md), **cannot** be combined with `bak`.|
+|`dll` or `add-ins`             |The Artifact will be imported as a DLL or Add-In.|
+|`font` or `fonts`              |The Artifact will be imported as a Font.|
+|`app`, `fob`, `rapidStart`, ...|The Artifact content will be imported as an App, Fob or RapidStart package.|
+
+> [!TIP]
+> The target `app` is the default value for artifacts, so you can omit it for apps.
 
 The order of import is:
 
