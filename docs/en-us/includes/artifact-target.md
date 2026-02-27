@@ -1,4 +1,4 @@
-The `target` specifies what should hapen with the artifact.
+The `target` specifies what should happen with the artifact.
 
 |Target(s)|Import|
 |-|-|
