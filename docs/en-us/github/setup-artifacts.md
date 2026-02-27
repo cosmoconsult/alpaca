@@ -18,7 +18,7 @@ Optional parameters available for all artifacts:
 
 |Element|Type||Value|
 |-|-|-|-|
-|`target`           |string  |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
+|`target`           |string  |Specify the [Artifact Target](#artifact-target) in the container and import action.|
 |`targetFolder`     |string  |This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
 |`appImportScope`   |string  |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
 |`appImportSyncMode`|string  |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|

@@ -65,7 +65,7 @@ You now learned the fundamental flow of working with COSMO Alpaca. You're now pr
 
 ## Additional use cases covered by COSMO Alpaca
 
-- Apps you develop often depend on certain artifacts like other apps (from an Artifact Feed or filesystem), DLLs, fonts, RapidStart packages or FOBs. You can easily [configure them](../azure-devops/setup-artifacts.md) via the `cosmo.json` file in your app repository, so they get deployed at the container startup.
+- Apps you develop often depend on certain artifacts like other apps (from an artifact feed or filesystem), DLLs, fonts or RapidStart packages. You can easily [configure them](../azure-devops/setup-artifacts.md) via the `cosmo.json` file in your app repository, so they get deployed at the container startup.
 
 - For your containers you may want other data than the Cronus one to develop, test or demo with. You can [set up an on-premises or SaaS backup](../azure-devops/setup-bak.md) that your containers will be using as a base. BacPacs need to be converted to BAK with the [integrated conversion feature](../azure-devops/convert-bacpac-to-bak.md) first.
 

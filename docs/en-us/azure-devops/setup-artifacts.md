@@ -61,7 +61,7 @@ Four types of artifacts are supported:
 |`name`             |string  |**mandatory**|The name of the artifact. Informational only.|
 |`version`          |string  |optional     |The version of the artifact. Informational only.|
 |`url`              |string  |**mandatory**|The path or url to download the artifact.|
-|`target`           |string  |optional     |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
+|`target`           |string  |optional     |Specify the [Artifact Target](#artifact-target) in the container and import action.|
 |`targetFolder`     |string  |optional     |This folder is used for `"target": "dll"` as optional subfolder: `<serviceTierFolder>/Add-Ins/<targetFolder>`|
 |`appImportScope`   |string  |optional     |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
 |`appImportSyncMode`|string  |optional     |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
