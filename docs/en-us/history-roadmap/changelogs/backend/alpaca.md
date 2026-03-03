@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.89.0 (2026-03-03)
+
+- Add Helm secret support for AL Object ID Ninja configuration
+- Improve Kubernetes health check reliability and performance
+
 ## v0.88.0 (2026-03-03)
 
 - Add endpoint for retrieving AL Object ID Ninja configuration
