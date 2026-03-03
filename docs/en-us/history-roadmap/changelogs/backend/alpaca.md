@@ -12,6 +12,11 @@ All notable changes to the Alpaca Backend
 
 - Add endpoint for retrieving AL Object ID Ninja configuration
 
+## v0.87.2 (2026-03-02)
+
+- Update Redis dependency
+- Add Azure DevOps health check
+
 ## v0.87.1 (2026-02-26)
 
 - Add support for bypass actors in required GitHub status check rulesets
