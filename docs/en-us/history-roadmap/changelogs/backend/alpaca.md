@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.89.1 (2026-03-03)
+
+- Fix issue where container startup script URL was overridden when additional folders were configured
+
 ## v0.89.0 (2026-03-03)
 
 - Add Helm secret support for AL Object ID Ninja configuration
