@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.74.0 (2026-03-03)
+
+- Prompt for using Alpaca's AL Object ID Ninja backend
+
 ## v0.73.2 (2026-02-26)
 
 - Prompting for the origin for demo/standalone containers and introducing an option to select a GitHub account for viewing packages.
