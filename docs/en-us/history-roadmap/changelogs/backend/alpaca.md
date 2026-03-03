@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.88.0 (2026-03-03)
+
+- Add endpoint for retrieving AL Object ID Ninja configuration
+
 ## v0.87.1 (2026-02-26)
 
 - Add support for bypass actors in required GitHub status check rulesets
