@@ -202,7 +202,7 @@ COSMO Alpaca supports a modern, end-to-end development workflow:
 Partners who develop their own apps or customize Business Central for customers benefit from automated pipelines/workflows, standardized project setup, and the ability to test against multiple BC versions. The time saved on setup and infrastructure management translates directly into faster delivery and lower costs.
 
 ### End-Users of Business Central
-Even end-users without any development background benefit from COSMO Alpaca indirectly. Because the tool standardizes and automates the development and testing process, the Business Central solutions they receive are delivered faster, with higher quality, and with fewer bugs. End-users involved in user acceptance testing (UAT) can also be given access to dedicated test containers where they can verify new features or changes in a real Business Central environment before go-live — without needing any technical setup on their side.
+End users with their own development skills can use COSMO Alpaca directly and independently — setting up their own projects, creating development containers, and managing their own CI/CD pipelines without relying on a partner or external team.
 
 ### Customers of Business Central Partners
 End customers can collaborate on projects alongside their partner. Organizations can reside in the customer's own Azure AD tenant, giving them control over their data while benefiting from the partner's development workflow.
