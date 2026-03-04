@@ -14,7 +14,7 @@
 
 ## [Walkthrough](getting-started/walkthrough.md)
 
-# GitHub (AL-Go)
+# [GitHub (AL-Go)](github/index.md)
 
 ## General Features
 
@@ -106,7 +106,7 @@
 
 ### [Assign Organization to Entity](github/assign-entity.md)
 
-# Azure DevOps  
+# [Azure DevOps](azure-devops/index.md)  
 
 ## General Features
 
