@@ -30,7 +30,7 @@ Now you're switching to the developer role. You need to implement the requiremen
 1. [Create a development container](../azure-devops/create-container.md) for the app you just created
 1. While your container starts, [find the WorkItem you'll work on and create a new branch](../azure-devops/branches.md#create-a-branch-to-work-on-a-work-item) for it. Switch to that branch.
 1. [Connect your launch.json to the container](../shared/create-launch-json.md)
-1. Your container should be started by now (it turned blue). [Open the BC web client](../azure-devops/open-container.md), copy the [generated username and password](../azure-devops/copy-user-pwd.md) and sign in.
+1. Your container should be started by now (it turned blue). [Open the BC web client](../azure-devops/access-container-resources.md), copy the [generated username and password](../azure-devops/container-credentials.md) and sign in.
 1. Download symbols and start developing and debugging like normally.
 1. When done, [associate the WorkItem to your commit](../azure-devops/associate-wi.md#associate-a-workitem-to-a-commit) and push your changes.
 1. Use the extension to [create a Pull Request](../azure-devops/branches.md#see-and-interact-with-branches) for your development branch.
@@ -71,7 +71,7 @@ You now learned the fundamental flow of working with COSMO Alpaca. You're now pr
 
 - Next to the artifacts described in the two cases above you can also change [the major version or the country](../azure-devops/convert-bacpac-to-bak.md) of your app, the service tier, licenses, compiler as well as many other settings in [the `cosmo.json` configuration](../azure-devops/setup-cosmo-json.md). You can even add additional configurations, so users in your project [can choose](../azure-devops/create-container.md#select-a-specific-bc-artifact-configuration-when-creating-a-new-container) which combination of artifacts or BC version they want to use when creating a container. Changes to this file [can be tested in a separate branch](../azure-devops/create-container.md#create-a-container-with-configuration-from-a-specific-branch) as well before rolling them out to everyone.
 
-- You want to check what your container is doing, you want to move files to or from the container or access the terminal to issue your own commands or debug things? You can easily access the container [logs, fileshare and terminal](../azure-devops/open-container.md).
+- You want to check what your container is doing, you want to move files to or from the container or access the terminal to issue your own commands or debug things? You can easily access the container [logs, fileshare and terminal](../azure-devops/access-container-resources.md).
 
 - Developing SaaS apps and also want to check your apps against the Next Major and Next Minor versions? Set up [Next Minor and Next Major pipelines](../azure-devops/next.md) to automatically check your apps every night.
 

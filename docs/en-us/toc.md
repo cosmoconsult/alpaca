@@ -1,6 +1,8 @@
-# [Intro & Overview](index.md)
+# [Overview](index.md)
 
-# [Pricing & Trial](pricing.md)
+## [Comprehensive Overview](overview/comprehensive-overview.md)
+
+## [Pricing & Trial](overview/pricing.md)
 
 # Getting Started
 
@@ -42,9 +44,9 @@
 
 <!-- ### [Create Standalone Container](azure-devops/create-ondemand-container.md) -->
 
-<!-- ### [Get User/Password](azure-devops/copy-user-pwd.md) -->
+<!-- ### [Get Container Credentials](azure-devops/container-credentials.md) -->
 
-<!-- ### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md) -->
+<!-- ### [Open Web Client, Terminal, File Share, Log](azure-devops/access-container-resources.md) -->
 
 <!-- ### [Delete Container](azure-devops/delete-container.md) -->
 
@@ -96,7 +98,7 @@
 
 ## Collaboration
 
-### [Base App Contributions](base-app.md)
+### [Contribute to Base App](github/contribute-base-app.md)
 
 ## COSMO-only Features
 
@@ -142,9 +144,9 @@
 
 ### [Create Standalone Container](azure-devops/create-ondemand-container.md)
 
-### [Get User/Password](azure-devops/copy-user-pwd.md)
+### [Get Container Credentials](azure-devops/container-credentials.md)
 
-### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md)
+### [Open Web Client, Terminal, File Share, Log](azure-devops/access-container-resources.md)
 
 ### [Delete Container](azure-devops/delete-container.md)
 
@@ -200,7 +202,7 @@
 
 ## Collaboration
 
-### [Cross-Company Collaboration](collaboration.md)
+### [Cross-Company Collaboration](azure-devops/collaboration.md)
 
 ### [Change the Tenant](azure-devops/tenant.md)
 
@@ -222,10 +224,10 @@
 
 # Support
 
-## [Create Bug Report or Feature Request](shared/bug-report.md)
+## [Create Bug Report or Feature Request](support/bug-report.md)
 
-## [Typical Problems & Solutions](troubleshooting/solutions.md)
+## [Typical Problems & Solutions](support/solutions.md)
 
-# [Status & Health](status.md)
+## [Status & Health](status.md)
 
 <!-- # [Download PDF](doc.pdf) -->

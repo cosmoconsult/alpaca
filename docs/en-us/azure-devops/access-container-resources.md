@@ -9,7 +9,7 @@ While you can of course open the Web Client there are also many further ways to 
 
 In the Visual Studio Code extension the following actions are available on a container:
 
-- **Open in browser** to open the Business Central Web Client in your browser where you can log in with your [username and password](copy-user-pwd.md)
+- **Open in browser** to open the Business Central Web Client in your browser where you can log in with your [username and password](container-credentials.md)
 - **Open file share** to upload files to your container. Note: files placed in `C:\temp` are kept during container restarts.
 - **Open log** to view the log of all Business Central related services within your container. Please note that the log is only available as soon as the container is in status "starting". We're currently working on giving you more insights during "pending" state as well.
 - **Open terminal** to get a shell in your container to run any custom commands. You can load the Business Central PowerShell Cmdlets by running `C:\Run\Prompt.ps1`.
