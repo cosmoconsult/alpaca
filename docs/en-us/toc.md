@@ -12,9 +12,9 @@
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
-## [Walkthrough](getting-started/walkthrough.md)
-
 # [GitHub (AL-Go)](github/index.md)
+
+## [Walkthrough](github/walkthrough.md)
 
 ## General Features
 
@@ -22,7 +22,7 @@
 
 ### [Create Project](github/create-project.md)
 
-### [Interact with Requirements](github/associate-wi.md)
+### [Interact with Requirements](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
 
@@ -108,6 +108,8 @@
 
 # [Azure DevOps](azure-devops/index.md)  
 
+## [Walkthrough](azure-devops/walkthrough.md)
+
 ## General Features
 
 ### [Create Organization](azure-devops/create-org.md)
@@ -122,7 +124,7 @@
 
 ### [Customize Projects](azure-devops/customize-project.md)
 
-### [Interact with Requirements](azure-devops/associate-wi.md)
+### [Interact with Requirements](azure-devops/interact-with-requirements.md)
 
 ### [Download Artifacts](azure-devops/download-artifact.md)
 
