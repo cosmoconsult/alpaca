@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v0.90.0 (2026-03-04)
+## v0.90.0 - v0.90.1 (2026-03-04)
 
 - Improve API health checks accuracy and reliability
 
