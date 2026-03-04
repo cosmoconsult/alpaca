@@ -4,7 +4,7 @@
 ---
 
 <iframe src="https://cosmo-ppi.westeurope.cloudapp.azure.com"
-    title="COSMO Alpaca Service Status"
+    title="COSMO Alpaca Status & Health"
     style="height: calc(100vh - 20vh);
         width: 100%;
         border: none;
