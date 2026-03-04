@@ -202,7 +202,7 @@ COSMO Alpaca supports a modern, end-to-end development workflow:
 Partners who develop their own apps or customize Business Central for customers benefit from automated pipelines/workflows, standardized project setup, and the ability to test against multiple BC versions. The time saved on setup and infrastructure management translates directly into faster delivery and lower costs.
 
 ### End-Users of Business Central
-End-users who have own development skills can use COSMO Alpaca directly and independently — setting up their own projects, creating development containers, and managing their own CI/CD pipelines without relying on a partner or external team.
+End users with their own development skills can use COSMO Alpaca directly and independently — setting up their own projects, creating development containers, and managing their own CI/CD pipelines without relying on a partner or external team.
 
 ### Customers of Business Central Partners
 End customers can collaborate on projects alongside their partner. Organizations can reside in the customer's own Azure AD tenant, giving them control over their data while benefiting from the partner's development workflow.
