@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.90.0 (2026-03-04)
+
+- Improve API health check accuracy and reliability
+- Add retry policy for GitHub API requests to improve resilience
+- Add default timeout for HTTP clients to prevent hanging requests
+
 ## v0.89.1 (2026-03-03)
 
 - Fix issue where container startup script URL was overridden when additional folders were configured
