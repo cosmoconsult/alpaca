@@ -3,8 +3,9 @@
     description: Status & Health
 ---
 
-# Status & Health
-
-## Next-Major pipelines failing
-
-With BC28 Microsoft removed the PowerShell 5 compatibility layer which prevent the BC PowerShell Cmdlets from loading within BC containers. The issue was reported to Microsoft here: https://github.com/microsoft/navcontainerhelper/issues/4101
+<iframe src="https://cosmo-ppi.westeurope.cloudapp.azure.com"
+    style="height: calc(100vh - 20vh);
+        width: 100%;
+        border: none;
+        padding: 16px 0;">
+</iframe>
