@@ -17,7 +17,8 @@ For a complete installation guide, see [VS Code in the browser](getting-started/
 
 - [VS Code Extension Setup](getting-started/setup-vsce.md)
 - [VS Code Browser Setup](getting-started/vscode-dev.md)
-- [Walkthrough](getting-started/walkthrough.md)
+- [Walkthrough (GitHub)](github/walkthrough.md)
+- [Walkthrough (Azure DevOps)](azure-devops/walkthrough.md)
 
 ## Documentation by Platform
 

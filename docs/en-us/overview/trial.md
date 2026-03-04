@@ -7,7 +7,7 @@
 
 You can try out COSMO Alpaca for free and run containers for up to 50 hours. There is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](../getting-started/setup-vsce.md).
 
-## What You Can Do in the 50h Free Trial
+## What You Can Do in the 50-Hour Free Trial
 
 The 50-hour free trial gives you full access to COSMO Alpaca — all features are available without any restrictions, so you can experience firsthand how it streamlines your Business Central projects. Here's what you can explore:
 
@@ -30,4 +30,4 @@ Experience the usage-based pricing model with full transparency. Start and stop 
 Access COSMO Alpaca directly in your web browser at [vscode.dev](https://vscode.dev) — no installation required. This is ideal for consultants or decision-makers who want a quick look without setting up a local development environment.
 
 > [!NOTE]
-> The free trial includes 50 hours of container runtime. All project management features — such as creating projects, managing tasks, and browsing pipelines — are available without any time limit. We'll contact you when the 50h free trial is over.
+> The free trial includes 50 hours of container runtime. All project management features — such as creating projects, managing tasks, and browsing pipelines — are available without any time limit. We'll contact you when the 50-hour free trial is over.
