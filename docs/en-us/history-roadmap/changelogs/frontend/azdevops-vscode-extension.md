@@ -8,9 +8,9 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## v1.49.0 (2026-03-04)
+## v1.49.0 - v1.49.1 (2026-03-04)
 
-- Update support ticket template
+- Update support templates
 
 ## v1.48.0 (2026-02-24)
 
