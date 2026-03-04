@@ -228,6 +228,6 @@
 
 ## [Typical Problems & Solutions](support/solutions.md)
 
-## [Status & Health](status.md)
+## [Status & Health](support/status.md)
 
 <!-- # [Download PDF](doc.pdf) -->
