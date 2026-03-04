@@ -2,7 +2,9 @@
 
 ## [Comprehensive Overview](overview/comprehensive-overview.md)
 
-## [Pricing & Trial](overview/pricing.md)
+## [Pricing](overview/pricing.md)
+
+## [Free Trial](overview/trial.md)
 
 # Getting Started
 
