@@ -10,7 +10,7 @@ All notable changes to the Container Backend
 
 ## v1.78.0 (2026-03-04)
 
-- Improve health checks [see #4706](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4706)
+- Improve API health checks accuracy and reliability [see #4706](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4706)
 
 ## v1.77.0 (2026-02-05)
 
