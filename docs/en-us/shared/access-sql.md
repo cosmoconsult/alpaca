@@ -7,7 +7,7 @@
 
 ## With remote VS Code
 
-1. ["Open file share"](../azure-devops/open-container.md) on your container
+1. ["Open file share"](../azure-devops/access-container-resources.md) on your container
 1. On first launch, choose "Windows" as platform in the VS Code Window if you're asked
 1. In the new VS Code window, install the extension [SQL server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 1. Use the SQL Server extension and run "MS SQL: Connect" to connect to localhost\SQLEXPRESS with container user and password
@@ -16,7 +16,7 @@
 
 ## With local Software
 
-1. ["Open terminal"](../azure-devops/open-container.md) on your container
+1. ["Open terminal"](../azure-devops/access-container-resources.md) on your container
 1. Exit remote terminal and copy IP address
    ```pwsh
    PowerShell 7.4.6

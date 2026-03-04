@@ -1,6 +1,6 @@
 ---
-    title: Pricing & Trial
-    description: Pricing & Trial
+    title: Pricing
+    description: Pricing
 ---
 
 <style>
@@ -14,7 +14,7 @@
     }
 </style>
 
-# COSMO Alpaca Pricing and Trial
+# COSMO Alpaca Pricing
 
 COSMO Alpaca has a usage-based pricing model. The usage is billed to the minute based on the container runtime. Containers are used to run isolated Business Central environments used for development, testing, and verifying. The following containers are billed:
 - Development BC Containers
@@ -23,7 +23,7 @@ COSMO Alpaca has a usage-based pricing model. The usage is billed to the minute 
 
 Stopped containers are free, as well as all other project management functions in Alpaca. There are scheduled Auto-Stop and Auto-Start features to help you save costs. There's also a dashboard with usage per organization, project and user that helps you to keep control over your costs.
 
-Please use the pricing calculator below to estimate your monthly costs. The first 50 hours of container runtime are [free for trial](#trial).
+Please use the pricing calculator below to estimate your monthly costs. The first 50 hours of container runtime are [free for trial](trial.md).
 
 
 ## Pricing Calculator
@@ -157,8 +157,3 @@ Please use the pricing calculator below to estimate your monthly costs. The firs
     // run calculate on first load
     calculate();
 </script>
-
-
-## Trial
-
-You can try out COSMO Alpaca for free and run containers for up to 50 hours. There is no prior registration needed. The only thing you need to do is to install the [COSMO Alpaca VS Code extension](azure-devops/setup-vsce.md).

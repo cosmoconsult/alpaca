@@ -1,9 +1,9 @@
 ---
-    title: Base App Contributions
-    description: Base App Contributions
+    title: Contribute to Base App
+    description: Contribute to Base App
 ---
 
-### Base App Contributions
+### Contribute to Base App
 
 1. Join the Microsoft Dynamics 365 Business Central Base Application contribution pilot : https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR_Qj5hjzNeNOhBcvBoRIOltUOVBVTklZN1hBOTZJUU40OE5CUzNWNk1FQy4u
 1. Fork https://github.com/microsoft/BusinessCentralApps
@@ -24,6 +24,6 @@
 1. Now you're ready to go. Publish with F5 and enter your username and the generated password you copied earlier the access the webclient.
 
 <video width="1280px" height="720px" controls>
-  <source src="media/vscode/vsc-baseapp.mp4" type="video/mp4">
+  <source src="../media/vscode/vsc-baseapp.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

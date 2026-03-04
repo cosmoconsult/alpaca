@@ -11,7 +11,7 @@
 1. Enter a name for your new container.
 1. Wait until the container was created and is shown in the list. If someone else already used a similar container, this just takes a few seconds. Else this might take up to 20 minutes the first time.
 1. After your container was created, the color of the icon shows the status of the container. The red icon indicates that the container is starting. As soon as the icon turns blue, the container is ready to access it.
-1. You will now want to [create a configuration in your launch.json](../shared/create-launch-json.md) or [open the Web Client, terminal, file share or log](../azure-devops/open-container.md) of your container.
+1. You will now want to [create a configuration in your launch.json](../shared/create-launch-json.md) or [open the Web Client, terminal, file share or log](../azure-devops/access-container-resources.md) of your container.
 
 ![Create Container](../media/create-container-github.png)
 

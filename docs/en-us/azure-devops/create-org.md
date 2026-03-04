@@ -7,7 +7,7 @@
 
 The top-level entity in Azure DevOps is an organization (or *project collection* as it was named in earlier iterations of the product) and you need to have one if you want to be able to work. To get one, you need to do one of the following:
 
-If you are using the COSMO Alpaca VS Code Extension ([setup instructions](setup-vsce.md)), then you need to go to the Azure DevOps view, click the three dots on the top right and select **New organization**. Alternatively you can directly go to the [signup page](https://aex.dev.azure.com/go/signup?account=true).
+If you are using the COSMO Alpaca VS Code Extension ([setup instructions](../getting-started/setup-vsce.md)), then you need to go to the Azure DevOps view, click the three dots on the top right and select **New organization**. Alternatively you can directly go to the [signup page](https://aex.dev.azure.com/go/signup?account=true).
 
 ![Extension Azure DevOps Create Organization](../media/getting-started/extension-devops-new-org.png)
 

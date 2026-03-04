@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.90.0 - v0.90.1 (2026-03-04)
+
+- Improve API health checks accuracy and reliability
+
 ## v0.89.1 (2026-03-03)
 
 - Fix issue where container startup script URL was overridden when additional folders were configured

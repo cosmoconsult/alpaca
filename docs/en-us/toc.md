@@ -1,6 +1,10 @@
-# [Intro & Overview](index.md)
+# [Overview](index.md)
 
-# [Pricing & Trial](pricing.md)
+## [Comprehensive Overview](overview/comprehensive-overview.md)
+
+## [Pricing](overview/pricing.md)
+
+## [Free Trial](overview/trial.md)
 
 # Getting Started
 
@@ -8,9 +12,9 @@
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
-## [Walkthrough](getting-started/walkthrough.md)
+# [GitHub (AL-Go)](github/index.md)
 
-# GitHub (AL-Go)
+## [Walkthrough](github/walkthrough.md)
 
 ## General Features
 
@@ -18,7 +22,7 @@
 
 ### [Create Project](github/create-project.md)
 
-### [Interact with Requirements](github/associate-wi.md)
+### [Interact with Requirements](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
 
@@ -42,9 +46,9 @@
 
 <!-- ### [Create Standalone Container](azure-devops/create-ondemand-container.md) -->
 
-<!-- ### [Get User/Password](azure-devops/copy-user-pwd.md) -->
+<!-- ### [Get Container Credentials](azure-devops/container-credentials.md) -->
 
-<!-- ### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md) -->
+<!-- ### [Open Web Client, Terminal, File Share, Log](azure-devops/access-container-resources.md) -->
 
 <!-- ### [Delete Container](azure-devops/delete-container.md) -->
 
@@ -96,13 +100,15 @@
 
 ## Collaboration
 
-### [Base App Contributions](base-app.md)
+### [Contribute to Base App](github/contribute-base-app.md)
 
 ## COSMO-only Features
 
 ### [Assign Organization to Entity](github/assign-entity.md)
 
-# Azure DevOps  
+# [Azure DevOps](azure-devops/index.md)  
+
+## [Walkthrough](azure-devops/walkthrough.md)
 
 ## General Features
 
@@ -118,7 +124,7 @@
 
 ### [Customize Projects](azure-devops/customize-project.md)
 
-### [Interact with Requirements](azure-devops/associate-wi.md)
+### [Interact with Requirements](azure-devops/interact-with-requirements.md)
 
 ### [Download Artifacts](azure-devops/download-artifact.md)
 
@@ -142,9 +148,9 @@
 
 ### [Create Standalone Container](azure-devops/create-ondemand-container.md)
 
-### [Get User/Password](azure-devops/copy-user-pwd.md)
+### [Get Container Credentials](azure-devops/container-credentials.md)
 
-### [Open Web Client, Terminal, File Share, Log](azure-devops/open-container.md)
+### [Open Web Client, Terminal, File Share, Log](azure-devops/access-container-resources.md)
 
 ### [Delete Container](azure-devops/delete-container.md)
 
@@ -200,7 +206,7 @@
 
 ## Collaboration
 
-### [Cross-Company Collaboration](collaboration.md)
+### [Cross-Company Collaboration](azure-devops/collaboration.md)
 
 ### [Change the Tenant](azure-devops/tenant.md)
 
@@ -222,10 +228,10 @@
 
 # Support
 
-## [Create Bug Report or Feature Request](shared/bug-report.md)
+## [Create Bug Report or Feature Request](support/bug-report.md)
 
-## [Typical Problems & Solutions](troubleshooting/solutions.md)
+## [Typical Problems & Solutions](support/solutions.md)
 
-# [Status & Health](status.md)
+## [Status & Health](https://cosmo-ppi.westeurope.cloudapp.azure.com/)
 
 <!-- # [Download PDF](doc.pdf) -->
