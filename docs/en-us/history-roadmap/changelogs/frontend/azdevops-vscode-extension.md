@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.49.0 (2026-03-04)
+
+- Update support ticket template
+
 ## v1.48.0 (2026-02-24)
 
 - Support adding NuGet dependency to app.json
