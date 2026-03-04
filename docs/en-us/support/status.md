@@ -11,5 +11,5 @@
         padding: 16px 0;"
     sandbox="allow-scripts allow-same-origin"
     referrerpolicy="no-referrer">
-    <p>Your browser cannot display the embedded status page. <a href="https://cosmo-ppi.westeurope.cloudapp.azure.com" target="_blank" rel="noopener noreferrer">Open the COSMO Alpaca Service Status page directly</a>.</p>
+    <p>Your browser cannot display the embedded status page. <a href="https://cosmo-ppi.westeurope.cloudapp.azure.com" target="_blank" rel="noopener noreferrer">Open the COSMO Alpaca Status & Health page directly</a>.</p>
 </iframe>
