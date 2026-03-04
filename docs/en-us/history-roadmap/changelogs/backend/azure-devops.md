@@ -8,9 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
-## unreleased
+## v1.54.0 (2026-03-04)
 
 - Fix issue with unclear error messages for failed update of the DevOps repository on app creation [see #4650](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4650)
+- Improve health checks [see #4706](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4706)
 
 ## v1.53.0 (2026-02-06)
 
