@@ -232,6 +232,6 @@
 
 ## [Typical Problems & Solutions](support/solutions.md)
 
-## [Status & Health](support/status.md)
+## [Status & Health](https://cosmo-ppi.westeurope.cloudapp.azure.com/)
 
 <!-- # [Download PDF](doc.pdf) -->
