@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.75.0 (2026-03-04)
+
+- Integrate [COSMO Alpaca Status & Health](https://cosmo-ppi.westeurope.cloudapp.azure.com) dashboard into **Alpaca Home**
+- Update support ticket template
+
 ## v0.74.0 (2026-03-03)
 
 - Prompt for using Alpaca's AL Object ID Ninja backend
