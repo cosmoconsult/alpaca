@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.92.1 (2026-03-05)
+
+- Remove AL Object ID Ninja support
+
 ## v0.92.0 (2026-03-05)
 
 - Add support for TestCaseSteps field in Azure DevOps work items
