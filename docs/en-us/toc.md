@@ -36,6 +36,8 @@
 
 ### [Create Repository & App](github/create-app.md)
 
+### [AL Object ID Ninja](shared/al-object-id-ninja.md)
+
 <!--### [Clone Repository](azure-devops/clone-repo.md)-->
 
 <!--### [Work with Branches](azure-devops/branches.md)-->
@@ -141,6 +143,8 @@
 ### [Clone Repository](azure-devops/clone-repo.md)
 
 ### [Work with Branches](azure-devops/branches.md)
+
+### [AL Object ID Ninja](shared/al-object-id-ninja.md)
 
 ## Dev Container Management
 
