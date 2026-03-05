@@ -32,6 +32,8 @@
 
 ### [MCP Tools for Alpaca](shared/mcp-tools.md)
 
+### [AL Object ID Ninja Backend](shared/al-object-id-ninja.md)
+
 ## App Development
 
 ### [Create Repository & App](github/create-app.md)
@@ -133,6 +135,8 @@
 ### [Packages View](azure-devops/packages-view.md)
 
 ### [MCP Tools for Alpaca](shared/mcp-tools.md)
+
+### [AL Object ID Ninja Backend](shared/al-object-id-ninja.md)
 
 ## App Development
 
