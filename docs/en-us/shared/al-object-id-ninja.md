@@ -7,7 +7,7 @@
 
 COSMO Alpaca provides a built-in backend for the [AL Object ID Ninja](https://marketplace.visualstudio.com/items?itemName=vjeko.vjeko-al-objid) VS Code extension. AL Object ID Ninja helps teams manage AL object IDs centrally and prevents ID collisions when multiple developers work on the same Business Central app.
 
-With COSMO Alpaca's built-in backend, you don't need to deploy or maintain your own backend infrastructure and there are no additional costs — it's included in COSMO Alpaca.
+With COSMO Alpaca's built-in backend, you don't need to deploy or maintain your own backend infrastructure or pay for the hosted AL Object ID Ninja backend — it's included in COSMO Alpaca without additional costs.
 
 ## Prerequisites
 
