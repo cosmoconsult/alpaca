@@ -32,11 +32,11 @@
 
 ### [MCP Tools for Alpaca](shared/mcp-tools.md)
 
-### [AL Object ID Ninja Backend](shared/al-object-id-ninja.md)
-
 ## App Development
 
 ### [Create Repository & App](github/create-app.md)
+
+### [AL Object ID Ninja](shared/al-object-id-ninja.md)
 
 <!--### [Clone Repository](azure-devops/clone-repo.md)-->
 
@@ -136,8 +136,6 @@
 
 ### [MCP Tools for Alpaca](shared/mcp-tools.md)
 
-### [AL Object ID Ninja Backend](shared/al-object-id-ninja.md)
-
 ## App Development
 
 ### [Create Repository & App](azure-devops/create-app.md)
@@ -145,6 +143,8 @@
 ### [Clone Repository](azure-devops/clone-repo.md)
 
 ### [Work with Branches](azure-devops/branches.md)
+
+### [AL Object ID Ninja](shared/al-object-id-ninja.md)
 
 ## Dev Container Management
 
