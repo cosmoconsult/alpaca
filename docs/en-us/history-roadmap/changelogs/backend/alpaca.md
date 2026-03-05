@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.92.0 (2026-03-05)
+
+- Add support for TestCaseSteps field in Azure DevOps work items
+
 ## v0.91.0 (2026-03-05)
 
 - Improve user context handling across API services
