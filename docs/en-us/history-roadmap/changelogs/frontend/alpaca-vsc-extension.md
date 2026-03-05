@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.75.2 (2026-03-05)
+
+- Removing prompt for AL Object ID Ninja (see https://www.linkedin.com/posts/lippertmarkus_al-object-id-ninja-an-apology-a-decision-activity-7435372024526520320-npx3)
+
 ## v0.75.0 - v0.75.1 (2026-03-04)
 
 - Integrate [COSMO Alpaca Status & Health](https://cosmo-ppi.westeurope.cloudapp.azure.com) dashboard into **Alpaca Home**
