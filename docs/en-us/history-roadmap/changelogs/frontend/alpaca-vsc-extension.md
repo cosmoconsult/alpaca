@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.76.0 (2026-03-10)
+
+- Identify the repository of the current workspace and automatically locate and expand the corresponding tree view elements
+- Show **Alpaca Home** status tab by default
+- Automatically select the changelog tab after extension updates
+- Update Git extension dependency
+- Update dependency packages
+
 ## v0.75.2 (2026-03-05)
 
 - Removing prompt for AL Object ID Ninja (see https://www.linkedin.com/posts/lippertmarkus_al-object-id-ninja-an-apology-a-decision-activity-7435372024526520320-npx3)
