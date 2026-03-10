@@ -12,7 +12,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 - Identify the repository of the current workspace and automatically locate and expand the corresponding tree view elements
 - Show **Alpaca Home** status tab by default
-- Automatically select the changelog tab only after extension updates
+- Automatically select the changelog tab after extension updates
 - Update Git extension dependency
 - Update dependency packages
 
