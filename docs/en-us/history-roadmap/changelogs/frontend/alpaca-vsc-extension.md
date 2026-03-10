@@ -11,7 +11,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 ## v0.77.0 (2026-03-10)
 
 - Fix issue when switching between Azure tenants and retrieving authentication session for the new tenant
-- **Alpaca Home** supports multi-language now (English and German)
+- Add multi-language support for **Alpaca Home** (English and German)
 
 ## v0.76.0 (2026-03-10)
 
