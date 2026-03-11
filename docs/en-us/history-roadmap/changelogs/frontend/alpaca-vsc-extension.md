@@ -8,9 +8,13 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.78.0 (2026-03-11)
+## v0.79.0 (2026-03-11)
 
 - Add customer assignment action for Azure DevOps organizations and GitHub repositories
+
+## v0.78.0 (2026-03-11)
+
+- Add directCommit prompt when incrementing the repository version or creating an environment on AL-Go
 
 ## v0.77.1 (2026-03-10)
 
