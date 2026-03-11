@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.93.0 (2026-03-11)
+
+- Add support to create AL-Go environments without the direct commit option
+
 ## v0.92.1 (2026-03-05)
 
 - Remove AL Object ID Ninja support
