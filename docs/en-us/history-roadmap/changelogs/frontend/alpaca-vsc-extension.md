@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.79.0 (2026-03-11)
 
-- Add directCommit prompt when incrementing the version and creating an environment on AL-Go
+- Add directCommit prompt when incrementing the repository version or creating an environment on AL-Go
 
 ## v0.77.1 (2026-03-10)
 
