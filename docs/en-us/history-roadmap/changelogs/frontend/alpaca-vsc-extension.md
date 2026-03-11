@@ -8,9 +8,18 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.77.0 (2026-03-10)
+## v0.78.0 (2026-03-11)
 
 - Add customer assignment action
+
+## v0.77.1 (2026-03-10)
+
+- Add workaround for unsupported embedded iframes on **Alpaca Home** when using the web version of VS Code (e.g. vscode.dev)
+
+## v0.77.0 (2026-03-10)
+
+- Fix issue when switching between Azure tenants and retrieving authentication session for the new tenant
+- Add multi-language support for **Alpaca Home** (English and German)
 
 ## v0.76.0 (2026-03-10)
 
