@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.93.1 (2026-03-16)
+
+- Fix issue where API health checks did not use a retry-enabled HTTP client
+
 ## v0.93.0 (2026-03-11)
 
 - Add support to create AL-Go environments without the direct commit option
