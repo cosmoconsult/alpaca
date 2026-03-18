@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.93.2 (2026-03-18)
+
+- Fix issue where Project Collection Administrator permissions were not properly enforced in Azure DevOps
+
 ## v0.93.1 (2026-03-16)
 
 - Fix issue where API health checks did not use a retry-enabled HTTP client
