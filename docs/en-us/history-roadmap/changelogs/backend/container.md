@@ -8,6 +8,14 @@
 
 All notable changes to the Container Backend
 
+## v1.79.0 (2026-03-19)
+
+- Add option to disable certificate verification in container launch-configurations [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
+
+## v1.78.1 (2026-03-16)
+
+- Fix issue where API health checks did not use a retry-enabled HTTP client
+
 ## v1.78.0 (2026-03-04)
 
 - Improve API health checks accuracy and reliability [see #4706](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4706)
