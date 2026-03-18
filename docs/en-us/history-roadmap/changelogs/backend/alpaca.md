@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.93.2 (2026-03-18)
 
-- Enforce Project Collection Admin permission for repository actions
+- Enforce Project Collection Administrator permission for repository actions
 
 ## v0.93.1 (2026-03-16)
 
