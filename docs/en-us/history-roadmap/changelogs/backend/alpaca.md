@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v0.93.2 (2026-03-18)
 
-- Fix issue where Project Collection Administrator permissions were not properly enforced in Azure DevOps
+- Enforce Project Collection Admin permission for repository actions
 
 ## v0.93.1 (2026-03-16)
 
