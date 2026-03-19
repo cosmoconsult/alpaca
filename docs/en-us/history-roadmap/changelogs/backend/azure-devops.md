@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.54.1 (2026-03-16)
+
+- Fix issue where API health checks did not use a retry-enabled HTTP client
+
 ## v1.54.0 (2026-03-04)
 
 - Fix issue with unclear error messages for failed update of the DevOps repository on app creation [see #4650](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4650)

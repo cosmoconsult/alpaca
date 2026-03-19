@@ -8,7 +8,16 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.79.0 (2026-03-11)
+## v0.80.0 (2026-03-19)
+
+- Improve prompt to disable certificate verification in container launch configurations for macOS
+- Fix issue where the communication with the pre-release version of the AL language extension didn't work correctly
+
+## v0.79.0 (2026-03-16)
+
+- Update README
+
+## v0.78.0 (2026-03-11)
 
 - Add directCommit prompt when incrementing the repository version or creating an environment on AL-Go
 
