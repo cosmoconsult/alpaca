@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.93.3 (2026-03-19)
+
+- Fix incorrect data type for BreakOnError in launch configuration
+
 ## v0.93.2 (2026-03-18)
 
 - Enforce Project Collection Administrator permission for repository actions
