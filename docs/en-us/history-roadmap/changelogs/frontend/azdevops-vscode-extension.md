@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.51.0 (2026-03-19)
 
-- Add prompt to disable certificate validation in container launch-configurations for macOS [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
+- Add prompt to disable certificate validation in container launch configurations for macOS [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
 - Fix issue where the communication with the pre-release version of the AL language extension didn't work correctly
 
 ## v1.50.0 (2026-03-16)

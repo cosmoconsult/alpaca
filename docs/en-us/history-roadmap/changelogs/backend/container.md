@@ -10,7 +10,7 @@ All notable changes to the Container Backend
 
 ## v1.79.0 (2026-03-19)
 
-- Add option to disable certificate verification in container launch-configurations [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
+- Add option to disable certificate validation in container launch configurations [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
 
 ## v1.78.1 (2026-03-16)
 
