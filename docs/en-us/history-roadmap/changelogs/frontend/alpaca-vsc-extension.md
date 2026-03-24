@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.81.0 (2026-03-24)
+
+- Add action to create GitHub Projects directly within the Projects tree view
+
 ## v0.80.0 (2026-03-19)
 
 - Improve prompt to disable certificate verification in container launch configurations for macOS
