@@ -8,6 +8,16 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.6.0 (2026-03-24)
+
+- Update documentation links
+- Add support for page scripting tests with COSMO Alpaca container
+- Add check for expected workflow settings
+- Add retry logic for COSMO Alpaca API requests
+- Fix issue with incorrect warnings for missing translations folder and files
+- Fix issue with missing errors thrown by pre-compilation for translations
+- Fix issue with missing error on failing to get published apps of a COSMO Alpaca container
+
 ## v2.5.0 (2026-01-30)
 
 - Replaced SecretSync with ConfigSync
