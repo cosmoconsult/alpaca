@@ -11,7 +11,7 @@ All notable changes to the Alpaca AL-Go Actions
 ## v2.6.0 (2026-03-24)
 
 - Update documentation links
-- Add support for page scripting tests with COSMO Alpaca container
+- Add support for Page Scripting Tests with COSMO Alpaca container
 - Add check for expected workflow settings
 - Add retry logic for COSMO Alpaca API requests
 - Fix issue with incorrect warnings for missing translations folder and files
