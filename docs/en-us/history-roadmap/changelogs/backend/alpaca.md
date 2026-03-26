@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.93.4 (2026-03-26)
+
+- Fix issue where wrong multitenant setting was applied when creating Business Central containers with on-premises artifact type
+
 ## v0.93.3 (2026-03-19)
 
 - Fix incorrect data type for BreakOnError in launch configuration
