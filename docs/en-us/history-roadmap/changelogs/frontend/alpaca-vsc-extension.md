@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.82.0 (2026-03-27)
+
+- Add custom configuration option for container startup script URL
+
 ## v0.81.0 (2026-03-24)
 
 - Add action to create GitHub Projects directly within the Projects tree view
