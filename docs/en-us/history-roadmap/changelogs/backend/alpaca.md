@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.94.0 (2026-03-27)
+
+- Add support for additional folders in Business Central container requests
+
 ## v0.93.4 (2026-03-26)
 
 - Fix issue where wrong multitenant setting was applied when creating Business Central containers with on-premises artifact type
