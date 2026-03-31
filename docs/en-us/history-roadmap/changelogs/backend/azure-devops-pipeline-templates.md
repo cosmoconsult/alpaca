@@ -12,7 +12,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 - Fix issue where the initial build of the localization pipeline always used "base" or "w1" instead of the country of the bcartifact [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
 - Fix issue where the country validations of the localization pipeline could run with "w1" instead of the corresponding country [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
-- Add variable "Localization.Build.Country" to override the country used for the initial build of the localization piepline [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
+- Add variable "Localization.Build.Country" to override the country used for the initial build of the localization pipeline [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
 
 ## v2.56.0 (2026-03-26)
 
