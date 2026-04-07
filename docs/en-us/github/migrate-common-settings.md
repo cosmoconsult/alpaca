@@ -11,9 +11,9 @@ The base migration mapping is already documented in [Setup AL-Go Settings](setup
 
 The official AL-Go settings behavior is documented here:
 
-- [AL-Go settings overview](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md)
-- [Where are the settings located](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located)
-- [Overwrite settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings)
+- [AL-Go settings overview](https://aka.ms/algosettings)
+- [Where are the settings located](https://aka.ms/algosettings#where-are-the-settings-located)
+- [Overwrite settings](https://aka.ms/algosettings#overwrite-settings)
 
 ## Where the settings live now
 
