@@ -9,10 +9,10 @@ AL-Go supports workflow-specific settings files. This is the recommended way to 
 
 The Microsoft AL-Go documentation for this behavior is here:
 
-- [Workflow specific settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#workflow-specific-settings)
-- [buildModes](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#basic-repository-settings)
-- [Conditional settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#conditional-settings)
-- [Overwrite settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings)
+- [Workflow specific settings](https://aka.ms/algosettings#workflow-specific-settings)
+- [buildModes](https://aka.ms/algosettings#basic-repository-settings)
+- [Conditional settings](https://aka.ms/algosettings#conditional-settings)
+- [Overwrite settings](https://aka.ms/algosettings#overwrite-settings)
 
 ## Where to configure workflow-specific behavior
 
