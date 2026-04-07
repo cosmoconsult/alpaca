@@ -30,7 +30,7 @@ AL-Go also supports project-specific workflow settings in `.AL-Go/<workflow>.set
 
 ## How to configure Minimum workflows using build modes
 
-`buildModes` is a repository setting that tells AL-Go which build variants should run. Common examples are:
+`buildModes` is a setting that tells AL-Go which build variants should run. Common examples are:
 
 - `Default`
 - `MinVersion`
