@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.82.1 (2026-03-27)
+
+- Fix issue where the custom configuration option for container startup script URL wasn't applied correctly
+
 ## v0.82.0 (2026-03-27)
 
 - Add custom configuration option for container startup script URL

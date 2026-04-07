@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.55.0 (2026-04-02)
+
+- Add support for BC28 project template [see #4766](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4766)
+
 ## v1.54.1 (2026-03-16)
 
 - Fix issue where API health checks did not use a retry-enabled HTTP client

@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.95.0 (2026-04-02)
+
+- Add user-based access caching for fine-grained per-user cache access control
+- Improve Business Central artifact property handling and overrides when creating containers
+- Remove api-version query parameter from API documentation and generated API clients
+- Redact Personal Access Tokens from error messages for improved security
+- Update AL-Go to v8.3
+
 ## v0.94.0 (2026-03-27)
 
 - Add support for additional folders in Business Central container requests
