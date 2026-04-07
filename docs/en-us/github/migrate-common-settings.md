@@ -33,9 +33,10 @@ Format:
 
 The most common compact form omits values you keep at default, for example:
 
-- `//24.2//latest`
+- `/OnPrem/24.2//latest`
 - `//*//latest`
-- `bcinsider/sandbox/27/us/nextmajor`
+- `////latest`
+- `///us/nextmajor`
 
 Relevant docs:
 
