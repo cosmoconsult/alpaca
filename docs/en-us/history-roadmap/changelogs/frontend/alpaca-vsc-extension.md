@@ -4,13 +4,13 @@
     orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
 ---
 
-## v0.83.0 (2026-04-07)
-
-- Add customer assignment action for Azure DevOps organizations and GitHub repositories
-
 # Visual Studio Code Extension (Preview) Changelog
 
 All notable changes to the Visual Studio Code Extension (Preview)
+
+## v0.83.0 (2026-04-07)
+
+- Add customer assignment action for Azure DevOps organizations and GitHub repositories
 
 ## v0.82.1 (2026-03-27)
 
