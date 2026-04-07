@@ -20,7 +20,7 @@
 
 ### [Create Organization](github/create-org.md)
 
-### [Create Project](github/create-project.md)
+### [Initialize Repository](github/initialize-repository.md)
 
 ### [Interact with Requirements](github/interact-with-requirements.md)
 
@@ -33,6 +33,8 @@
 ### [MCP Tools for Alpaca](shared/mcp-tools.md)
 
 ## App Development
+
+### [Create Project](github/create-project.md)
 
 ### [Create Repository & App](github/create-app.md)
 
@@ -75,6 +77,14 @@
 ### [Change BC Version/Country](github/change-container.md)
 
 ### [Setup Artifacts to Import on Container Startup](github/setup-artifacts.md)
+
+## Workflow Setup
+
+### [Setup Minimum & Other Workflows](github/setup-workflows.md)
+
+### [Versioning Strategies](github/versioning-strategies.md)
+
+### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
 
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
@@ -229,6 +239,8 @@
 # Support
 
 ## [Create Bug Report or Feature Request](support/bug-report.md)
+
+## [GitHub (AL-Go) FAQ](support/github-al-go-faq.md)
 
 ## [Typical Problems & Solutions](support/solutions.md)
 

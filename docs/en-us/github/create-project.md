@@ -13,6 +13,8 @@ In the Alpaca VSC extension the projects are listed underneath the repository:
 
 Single-project repositories only have one project listed there that by default has the same name as the repository.
 
-When [creating a new app](create-app.md) you can specify the project your app should belong to. This is the only way to create a new project - by creating a new app while specifying a project name that isn't existing yet.
+You can create a new project by clicking the **+** button on the *Projects* level. However, a popup will appear with the message: **"You need to create at least one app to create a new project. Please follow the wizard to create the app."**
+
+This means you must first create an app and specify a new project name that doesn't exist yet. When [creating a new app](create-app.md) from within a project, that project will automatically be preselected.
 
 [create-org]: ../getting-started/create-org-github.md
