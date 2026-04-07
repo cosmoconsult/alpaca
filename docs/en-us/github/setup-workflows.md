@@ -5,7 +5,7 @@
 
 # Setup Minimum & Other Workflows
 
-AL-Go supports workflow-specific settings files. This is the recommended way to configure **Minimum**, **Next Minor**, **Next Major**, **Current** and other workflows differently from the normal CI/CD workflow.
+AL-Go supports workflow-specific settings files. This is the recommended way to configure **Next Minor**, **Next Major**, **Current** and other workflows differently from the normal CI/CD workflow.
 
 The Microsoft AL-Go documentation for this behavior is here:
 
