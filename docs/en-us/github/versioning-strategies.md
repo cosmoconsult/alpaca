@@ -92,9 +92,9 @@ This is less common and mainly useful when date-based traceability is more impor
 
 Depending on your setup, these settings are often relevant together with `versioningStrategy`:
 
-- [AL-Go `repoVersion`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#basic-project-settings)
-- [AL-Go `runNumberOffset`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#expert-settings-rarely-used)
-- [AL-Go settings overview](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md)
+- [AL-Go `repoVersion`](https://aka.ms/algosettings#basic-project-settings)
+- [AL-Go `runNumberOffset`](https://aka.ms/algosettings#expert-settings-rarely-used)
+- [AL-Go settings overview](https://aka.ms/algosettings)
 
 ## Common recommendation patterns
 
