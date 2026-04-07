@@ -62,13 +62,12 @@ Old intent: let app dependencies determine the major/minor version
 }
 ```
 
-Old intent: select an insider artifact explicitly
+Old intent: validate against the next major release
 
 ```json
 {
-    "artifact": "bcinsider/sandbox/27/us/latest"
+    "artifact": "///us/nextmajor"
 }
-```
 
 ## Frequently used settings migration
 
