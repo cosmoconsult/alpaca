@@ -25,7 +25,7 @@ For GitHub repositories, the central place is the [AL-Go settings documentation]
 If you need the underlying Microsoft behavior, see the official AL-Go settings reference:
 
 - [AL-Go settings overview](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md)
-- [Where settings are stored](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#where-are-the-settings-located)
+- [Where settings are stored](https://aka.ms/algosettings#where-are-the-settings-located)
 - [Conditional settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#conditional-settings)
 - [Overwrite and merge behavior](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-)
 
