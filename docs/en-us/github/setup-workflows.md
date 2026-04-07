@@ -35,9 +35,7 @@ AL-Go also supports project-specific workflow settings in `.AL-Go/<workflow>.set
 - `Default`
 - `MinVersion`
 
-If you want the **Minimum** workflow to use a different set of build modes than normal CI/CD, define them in `.github/CICD.settings.json`.
-
-Example: run the Minimum workflow with clean-mode validation:
+Example: 
 
 ```json
 {
