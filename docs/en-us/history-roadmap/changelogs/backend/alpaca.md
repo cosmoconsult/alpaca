@@ -8,6 +8,38 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.95.0 (2026-04-02)
+
+- Add user-based access caching for fine-grained per-user cache access control
+- Improve Business Central artifact property handling and overrides when creating containers
+- Remove api-version query parameter from API documentation and generated API clients
+- Redact Personal Access Tokens from error messages for improved security
+- Update AL-Go to v8.3
+
+## v0.94.0 (2026-03-27)
+
+- Add support for additional folders in Business Central container requests
+
+## v0.93.4 (2026-03-26)
+
+- Fix issue where wrong multitenant setting was applied when creating Business Central containers with on-premises artifact type
+
+## v0.93.3 (2026-03-19)
+
+- Fix incorrect data type for BreakOnError in launch configuration
+
+## v0.93.2 (2026-03-18)
+
+- Enforce Project Collection Administrator permission for repository actions
+
+## v0.93.1 (2026-03-16)
+
+- Fix issue where API health checks did not use a retry-enabled HTTP client
+
+## v0.93.0 (2026-03-11)
+
+- Add support to create AL-Go environments without the direct commit option
+
 ## v0.92.1 (2026-03-05)
 
 - Remove AL Object ID Ninja support

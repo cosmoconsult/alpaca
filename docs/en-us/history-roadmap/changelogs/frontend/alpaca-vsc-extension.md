@@ -8,7 +8,28 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.79.0 (2026-03-11)
+## v0.82.1 (2026-03-27)
+
+- Fix issue where the custom configuration option for container startup script URL wasn't applied correctly
+
+## v0.82.0 (2026-03-27)
+
+- Add custom configuration option for container startup script URL
+
+## v0.81.0 (2026-03-24)
+
+- Add action to create GitHub Projects directly within the Projects tree view
+
+## v0.80.0 (2026-03-19)
+
+- Improve prompt to disable certificate verification in container launch configurations for macOS
+- Fix issue where the communication with the pre-release version of the AL language extension didn't work correctly
+
+## v0.79.0 (2026-03-16)
+
+- Update README
+
+## v0.78.0 (2026-03-11)
 
 - Add customer assignment action for Azure DevOps organizations and GitHub repositories
 

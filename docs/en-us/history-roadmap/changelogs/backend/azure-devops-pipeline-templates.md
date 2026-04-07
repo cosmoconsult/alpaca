@@ -8,6 +8,30 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.56.1 (2026-03-30)
+
+- Fix issue where the initial build of the localization pipeline always used "base" or "w1" instead of the country of the BC artifact [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
+- Fix issue where the country validations of the localization pipeline could run with "w1" instead of the corresponding country [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
+- Add variable "Localization.Build.Country" to override the country used for the initial build of the localization pipeline [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
+
+## v2.56.0 (2026-03-26)
+
+- Add reuse of already set COSMO Alpaca endpoint url [see #4752](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4752)
+
+## v2.55.0 (2026-03-24)
+
+- Add support for yaml deployment pipelines [see #3617](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3617)
+- Moved repository from Azure DevOps to GitHub [see #4732](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4732)
+- Add warning for missing files on extension upload to SaaS [see #4746](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4746)
+
+## v2.54.0 (2026-03-16)
+
+- Optimized error handling and logging for (pre-)compilation [see #4727](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4727)
+
+## v2.53.0 (2026-03-03)
+
+- Fix issue where multiple pipeline jobs want to access the same file [see #4678](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4678)
+
 ## v2.52.0 (2026-02-26)
 
 - Fix PageScripting parallelization [see #4618](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4618)

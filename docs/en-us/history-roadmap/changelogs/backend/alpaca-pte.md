@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## (2026-03-25)
+
+- Updated to [Alpaca-Actions@v2.6.0](./alpaca-actions.md#v260-2026-03-24)
+- Updated to [AL-Go@v8.3](https://github.com/microsoft/AL-Go/blob/v8.3/RELEASENOTES.md)
+
 ## (2026-02-04)
 
 - Updated to [Alpaca-Actions@v2.5.0](./alpaca-actions.md#v250-2026-01-30)
