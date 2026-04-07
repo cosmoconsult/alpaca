@@ -72,7 +72,7 @@ This example means: run at `17:00 UTC` on the first Monday of the month.
 
 Relevant docs:
 
-- [AL-Go `workflowSchedule`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#workflow-specific-settings)
+- [AL-Go `workflowSchedule`](https://aka.ms/algosettings#workflow-specific-settings)
 - [Update AL-Go system files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/UpdateAlGoSystemFiles.md)
 - [crontab.guru](https://crontab.guru/)
 
