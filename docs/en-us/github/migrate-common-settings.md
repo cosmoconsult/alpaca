@@ -89,7 +89,7 @@ Old intent: validate against the next major release
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
     "country": "w1",
-    "artifact": "//24.2//latest",
+    "artifact": "/OnPrem/24.2//latest",
     "versioningStrategy": 3,
     "trustMicrosoftNuGetFeeds": true,
     "trustedNuGetFeeds": [
