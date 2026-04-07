@@ -50,9 +50,8 @@ Old intent: use BC `24.2`, keep normal latest selection
 ```json
 {
     "country": "w1",
-    "artifact": "//24.2//latest"
+    "artifact": "/OnPrem/24.2//latest"
 }
-```
 
 Old intent: let app dependencies determine the major/minor version
 
