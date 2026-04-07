@@ -40,7 +40,7 @@ The most common compact form omits values you keep at default, for example:
 Relevant docs:
 
 - [Change BC Version/Country](change-container.md)
-- [AL-Go `artifact` setting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#artifact)
+- [AL-Go `artifact` setting](https://aka.ms/algosettings#artifact)
 
 ### Migration examples
 
