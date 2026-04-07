@@ -9,7 +9,7 @@ AL-Go calculates app versions based on the setting `versioningStrategy`.
 
 The official AL-Go reference is here:
 
-- [AL-Go `versioningStrategy`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#versioningstrategy)
+- [AL-Go `versioningStrategy`](https://aka.ms/algosettings#versioningstrategy)
 
 In COSMO Alpaca GitHub projects, this is configured through the [AL-Go settings](setup-al-go-settings.md).
 
