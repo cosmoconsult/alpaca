@@ -207,11 +207,11 @@ Relevant docs:
 
 ## How do I choose the right version strategy for my repository?
 
-Start with strategy `3` unless you have a specific reason for another model.
+The official AL-Go default is strategy `0`.
 
-- `3`: `Major.Minor.Build` from `app.json`, `Revision` from workflow run number (recommended for most repositories)
-- `0`: build and revision based on workflow run metadata
-- `2`: timestamp-based build/revision
+- `0`: AL-Go default; build and revision are based on workflow run metadata
+- `15`: useful for validation builds when you want isolated validation version numbers
+- Other strategies such as `2` and `3` are available for specific scenarios; use them only if you have a concrete reason
 
 Relevant docs:
 
