@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.95.1 (2026-04-13)
+
+- Fix issue where client did not use organization-specific user identity
+
 ## v0.95.0 (2026-04-02)
 
 - Add user-based access caching for fine-grained per-user cache access control
