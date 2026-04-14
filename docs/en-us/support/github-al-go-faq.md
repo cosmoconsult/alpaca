@@ -151,22 +151,14 @@ Use:
 
 ## How do I migrate an existing repository from Azure DevOps to GitHub and then use COSMO Alpaca containers?
 
-For migration of an existing repository, follow the Microsoft AL-Go migration scenarios first, then apply COSMO Alpaca container settings.
+For a full step-by-step guide including `cosmo.json` → AL-Go settings conversion with examples, see:
 
-Migration guides:
+- [Migrate from Azure DevOps (cosmo.json) to GitHub (AL-Go)](../github/migrate-from-azure-devops.md)
+
+For the repository migration itself (code and history):
 
 - [Migrate from Azure DevOps to AL-Go for GitHub (without history)](https://github.com/microsoft/AL-Go/blob/main/Scenarios/MigrateFromAzureDevOpsWithoutHistory.md)
 - [Migrate from Azure DevOps to AL-Go for GitHub (with history)](https://github.com/microsoft/AL-Go/blob/main/Scenarios/MigrateFromAzureDevOpsWithHistory.md)
-
-After migration, configure BC artifact/country and Alpaca artifacts in AL-Go settings:
-
-- [Change BC Version/Country](../github/change-container.md)
-- [Setup Artifacts to Import on Container Startup](../github/setup-artifacts.md)
-- [Migrate Common Settings from alpaca.json](../github/migrate-common-settings.md)
-
-Then create a fresh container:
-
-- [Create Container](../github/create-container.md)
 
 ## I changed GitHub settings in a pull request, but the PR workflow still behaves like the target branch. Why?
 

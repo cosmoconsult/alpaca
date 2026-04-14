@@ -86,6 +86,8 @@
 
 ### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
 
+### [Migrate from Azure DevOps (cosmo.json)](github/migrate-from-azure-devops.md)
+
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
 <!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
