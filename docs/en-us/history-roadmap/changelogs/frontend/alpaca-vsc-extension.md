@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
-## v0.82.2 (2026-04-08)
+## v0.82.2 (2026-04-14)
 
 - Fix issue where request types were incorrectly imported for API operations without parameters after removing the api-version parameter
 - Fix launch.json issue for configs that are not generated via alpaca extension
