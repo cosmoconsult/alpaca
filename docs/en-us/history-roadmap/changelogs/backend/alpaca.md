@@ -8,6 +8,15 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.96.0 (2026-04-14)
+
+- Add customer account assignment support for GitHub and Azure DevOps organizations
+
+## v0.95.2 (2026-04-14)
+
+- Fix issue where Business Central container launch configuration settings were required even when not applicable
+- Add environment name setting for Business Central container launch configurations
+
 ## v0.95.1 (2026-04-13)
 
 - Fix issue where client did not use organization-specific user identity
