@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.83.1 (2026-04-15)
+
+- Fix missing quotes in the container terminal logic
+
 ## v0.83.0 (2026-04-14)
 
 - Add customer assignment action for Azure DevOps organizations and GitHub repositories
