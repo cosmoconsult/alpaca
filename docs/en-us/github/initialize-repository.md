@@ -11,7 +11,10 @@ This is especially useful after onboarding existing repositories or after manual
 
 ## What Initialize does on repository level
 
-When you run Initialize from the VS Code extension on a GitHub repository, this performs repository-level setup checks and applies configured standards.
+When you run Initialize from the VS Code extension on a GitHub repository, it performs the following:
+
+- Applies configured [GitHub Repo Standards](../admin/index.md#github-repo-standards) (merge methods, branch protection rules, etc.)
+- Creates the `GHTOKENWORKFLOW` repository secret required for GitHub Actions in this repository
 
 ## How to run Initialize
 
