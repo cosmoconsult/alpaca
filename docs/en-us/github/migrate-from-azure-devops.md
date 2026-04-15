@@ -18,10 +18,11 @@ This page focuses on the **settings migration**: turning the content of `cosmo.j
 > On GitHub, we recommend **one repository per customer** with all apps in the same repo. This way, dependencies between apps are found automatically by AL-Go. See [Recommendations](recommendations.md) for naming conventions and repository structure.
 
 > [!IMPORTANT]
-> When migrating, make sure to:
+> Migration steps in VS Code:
 >
-> - Copy the `.AL-Go` and `.github` folders from the **Alpaca-PTE** template (not from Microsoft's PTE template)
-> - Delete the `.devops` folder after you have migrated your settings from `cosmo.json`
+> - Run **Initialize** on the repository
+> - Run **Update AL-Go System Files** action in the GitHub UI, selecting the **Alpaca-PTE** template
+> - Run **Update AL-Go System Files** again, selecting the **Alpaca-PTE** template a second time
 
 ## Target file structure on GitHub
 
