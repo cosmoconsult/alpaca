@@ -5,7 +5,7 @@
 
 # Hybrid Working — Azure DevOps Work Items with GitHub Code
 
-Many teams keep their work items and backlog management in Azure DevOps while hosting their code and CI/CD workflows on GitHub. This page explains how to set up and use this hybrid approach with COSMO Alpaca.
+A hybrid setup is supported where work items and backlog management stay in Azure DevOps while code and CI/CD workflows run on GitHub. This page explains how to set up and use this approach.
 
 ## Setup steps
 
