@@ -42,7 +42,7 @@ Default values should be omitted. The defaults are:
 
 - **storageaccount**: `bcartifacts`
 - **type**: `sandbox`
-- **version**: (none — derived from app dependencies)
+- **version**: empty
 - **country**: `w1`
 - **select**: `latest`
 
