@@ -8,6 +8,19 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.83.1 (2026-04-15)
+
+- Fix missing quotes in the container terminal logic
+
+## v0.83.0 (2026-04-14)
+
+- Add customer assignment action for Azure DevOps organizations and GitHub repositories
+
+## v0.82.2 (2026-04-14)
+
+- Fix issue where request types were incorrectly imported for API operations without parameters after removing the api-version parameter
+- Fix launch.json issue for launch configurations that are not generated via Alpaca extension
+
 ## v0.82.1 (2026-03-27)
 
 - Fix issue where the custom configuration option for container startup script URL wasn't applied correctly
