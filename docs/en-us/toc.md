@@ -24,6 +24,8 @@
 
 ### [Recommendations](github/recommendations.md)
 
+### [Hybrid Working — Azure DevOps & GitHub](github/hybrid-working.md)
+
 ### [Interact with Requirements](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
