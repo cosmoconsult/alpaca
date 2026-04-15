@@ -98,4 +98,4 @@ To run or schedule the update workflow successfully, make sure the repository is
 
 Relevant docs:
 
-- [Initialize Repository](github/initialize-repository.md)
+- [Initialize Repository](initialize-repository.md)

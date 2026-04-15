@@ -27,7 +27,7 @@ If you need the underlying Microsoft behavior, see the official AL-Go settings r
 - [AL-Go settings overview](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md)
 - [Where settings are stored](https://aka.ms/algosettings#where-are-the-settings-located)
 - [Conditional settings](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#conditional-settings)
-- [Overwrite and merge behavior](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings-)
+- [Overwrite and merge behavior](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#overwrite-settings)
 
 ## How do I change the BC version or localization of my containers and workflows?
 
@@ -168,7 +168,7 @@ Relevant docs:
 
 - [AL-Go settings overview](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md)
 
-## What does `"artifact": "//*//latest"` mean and when should I use it?
+## What does `"artifact": "//*//"` mean and when should I use it?
 
 This artifact expression tells AL-Go to resolve the BC artifact version dynamically based on application dependencies (instead of pinning a fixed major/minor).
 
@@ -178,7 +178,7 @@ Example:
 
 ```json
 {
-    "artifact": "//*//latest"
+    "artifact": "//*//"
 }
 ```
 

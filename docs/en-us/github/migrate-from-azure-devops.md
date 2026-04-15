@@ -14,6 +14,15 @@ For the repository migration itself (code, history, branches), use the Microsoft
 
 This page focuses on the **settings migration**: turning the content of `cosmo.json` into the correct AL-Go settings files.
 
+> [!IMPORTANT]
+> On GitHub, we recommend **one repository per customer** with all apps in the same repo. This way, dependencies between apps are found automatically by AL-Go. See [Recommendations](recommendations.md) for naming conventions and repository structure.
+
+> [!IMPORTANT]
+> When migrating, make sure to:
+>
+> - Copy the `.AL-Go` and `.github` folders from the **Alpaca-PTE** template (not from Microsoft's PTE template)
+> - Delete the `.devops` folder after you have migrated your settings from `cosmo.json`
+
 ## Target file structure on GitHub
 
 | File | Purpose |
@@ -62,7 +71,7 @@ In `cosmo.json`, the BC version is configured per `bcArtifacts` configuration wi
 ```json
 {
     "country": "de",
-    "artifact": "/onprem/24.2//latest"
+    "artifact": "/onprem/24.2//"
 }
 ```
 
@@ -82,13 +91,11 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
         },
         "nextMinor": {
             "country": "de",
-            "version": "24",
             "select": "nextMinor"
         },
         "nextMajor": {
             "country": "de",
-            "version": "25",
-            "select": "latest"
+            "select": "nextMajor"
         }
     }
 }
@@ -101,7 +108,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 ```json
 {
     "country": "de",
-    "artifact": "//24//latest"
+    "artifact": "//24//"
 }
 ```
 
@@ -109,7 +116,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 
 ```json
 {
-    "artifact": "//24//nextMinor"
+    "artifact": "////nextMinor"
 }
 ```
 
@@ -117,13 +124,16 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 
 ```json
 {
-    "artifact": "//25//latest"
+    "artifact": "////nextMajor"
 }
 ```
 
 ### Artifacts (dependencies)
 
 In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArtifacts` (NuGet or Azure DevOps feed), and `ipArtifacts` (product feed). In GitHub AL-Go, all dependencies are consolidated under `alpaca.artifacts`.
+
+> [!NOTE]
+> `ipArtifacts` (product feed artifacts) have no direct equivalent in AL-Go. They must be migrated to NuGet artifacts.
 
 #### URL artifacts
 
@@ -151,7 +161,7 @@ In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArti
             {
                 "type": "url",
                 "name": "OPplus Extension",
-                "url": "https://my.blob.core.windows.net/artifacts/OPplus_17.0.app?sv=..."
+                "url": "https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>"
             }
         ]
     }
@@ -159,7 +169,12 @@ In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArti
 ```
 
 > [!NOTE]
-> Fileshare paths (`C:\azurefileshare\...`) are not available on GitHub runners. Replace them with a direct download URL (Azure Blob Storage, any HTTPS endpoint, or use the [Alpaca fileshare URL](setup-artifacts.md#url)).
+> Fileshare paths (`C:\azurefileshare\...`) are not available on GitHub runners. Replace them with:
+>
+> - The [Alpaca fileshare URL](setup-artifacts.md#use-alpaca-fileshare) (recommended — colleagues don't need to move the files elsewhere)
+> - Azure Blob Storage or any other HTTPS endpoint
+>
+> See also: [Setup Artifacts to Import on Container Startup](setup-artifacts.md)
 
 #### NuGet artifacts
 
@@ -224,11 +239,14 @@ If you use private NuGet feeds, also configure `trustedNuGetFeeds`:
     "trustedNuGetFeeds": [
         {
             "url": "https://pkgs.dev.azure.com/myorg/_packaging/myfeed/nuget/v3/index.json",
-            "authTokenSecret": "MyFeedToken"
+            "authTokenSecret": "NUGET_FEED_TOKEN"
         }
     ]
 }
 ```
+> [!NOTE]
+> `authTokenSecret` is the **name of a GitHub secret** that holds the feed token (not the token value itself). Create the corresponding secret in your GitHub repository settings.
+> See also: [AL-Go `trustedNuGetFeeds`](https://aka.ms/algosettings#trustednugetfeeds)
 
 ### Translations (XLIFF)
 
@@ -277,18 +295,15 @@ The fields are the same, but they move under the `alpaca` key.
 
 ```json
 {
-    "trustMicrosoftNuGetFeeds": true,
     "trustedNuGetFeeds": [
         {
             "url": "https://pkgs.dev.azure.com/myorg/_packaging/myfeed/nuget/v3/index.json",
-            "authTokenSecret": "MyFeedToken"
+            "authTokenSecret": "NUGET_FEED_TOKEN"
         }
     ]
 }
 ```
 
-> [!NOTE]
-> In AL-Go, `authTokenSecret` is the **name of a GitHub secret** (not the token itself). Create the corresponding secret in your GitHub repository settings.
 
 ### Compiler settings
 
@@ -357,8 +372,7 @@ The fields are the same, but they move under the `alpaca` key.
         "nextMajor": {
             "country": "de",
             "type": "onprem",
-            "version": "25",
-            "select": "latest"
+            "select": "nextMajor"
         }
     }
 }
@@ -371,7 +385,7 @@ The fields are the same, but they move under the `alpaca` key.
 ```json
 {
     "country": "de",
-    "artifact": "/onprem/24.2//latest",
+    "artifact": "/onprem/24.2//",
     "versioningStrategy": 0,
     "enableCodeCop": true,
     "enableUICop": true,
@@ -379,7 +393,7 @@ The fields are the same, but they move under the `alpaca` key.
     "trustedNuGetFeeds": [
         {
             "url": "https://pkgs.dev.azure.com/myorg/_packaging/myfeed/nuget/v3/index.json",
-            "authTokenSecret": "MyFeedToken"
+            "authTokenSecret": "NUGET_FEED_TOKEN"
         }
     ],
     "alpaca": {
@@ -390,7 +404,7 @@ The fields are the same, but they move under the `alpaca` key.
             {
                 "type": "url",
                 "name": "OPplus",
-                "url": "https://my.blob.core.windows.net/artifacts/OPplus.app?sv=..."
+                "url": "https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>"
             },
             {
                 "name": "Contoso.MyTestLibrary.f1e2d3c4-b5a6-7890-dcba-0987654321fe"
@@ -404,9 +418,12 @@ The fields are the same, but they move under the `alpaca` key.
 
 ```json
 {
-    "artifact": "/onprem/25//latest"
+    "artifact": "/onprem///nextMajor"
 }
 ```
+
+> [!NOTE]
+> The `nextMajor` configuration in `cosmo.json` used a version. In AL-Go, `nextMajor` is handled via the `select` segment of the artifact string without a specific version.
 
 Fields that were dropped:
 

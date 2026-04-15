@@ -17,5 +17,5 @@ When you run Initialize from the VS Code extension on a GitHub repository, this 
 
 1. Open the repository in VS Code.
 1. Right-click the target GitHub repository.
-![Extension GitHub Projects](../media/repository-initialize.png)
+   ![Extension GitHub Projects](../media/repository-initialize.png)
 1. Select **Initialize**.

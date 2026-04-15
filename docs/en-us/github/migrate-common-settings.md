@@ -25,7 +25,7 @@ The most common target files are:
 
 ## How to select the BC artifact version in AL-Go
 
-In AL-Go, the old separate container settings are combined into the `artifact` setting.
+In AL-Go, the separate `bcArtifact` settings are combined into the `artifact` setting.
 
 Format:
 
@@ -33,10 +33,18 @@ Format:
 
 The most common compact form omits values you keep at default, for example:
 
-- `/OnPrem/24.2//latest`
-- `//*//latest`
-- `////latest`
-- `///us/nextmajor`
+- `/onprem/24.2//`
+- `//*//`
+- `////`
+- `///us/nextMajor`
+
+Default values should be omitted. The defaults are:
+
+- **storageaccount**: `bcartifacts`
+- **type**: `sandbox`
+- **version**: (none — derived from app dependencies)
+- **country**: `w1`
+- **select**: `latest`
 
 Relevant docs:
 
@@ -50,14 +58,15 @@ Old intent: use BC `24.2`, keep normal latest selection
 ```json
 {
     "country": "w1",
-    "artifact": "/OnPrem/24.2//latest"
+    "artifact": "/onprem/24.2//"
 }
+```
 
 Old intent: let app dependencies determine the major/minor version
 
 ```json
 {
-    "artifact": "//*//latest"
+    "artifact": "//*//"
 }
 ```
 
@@ -65,8 +74,9 @@ Old intent: validate against the next major release
 
 ```json
 {
-    "artifact": "///us/nextmajor"
+    "artifact": "////nextMajor"
 }
+```
 
 ## Frequently used settings migration
 
@@ -89,8 +99,8 @@ Old intent: validate against the next major release
 {
     "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
     "country": "w1",
-    "artifact": "/OnPrem/24.2//latest",
-    "versioningStrategy": 3,
+    "artifact": "/onprem/24.2//",
+    "versioningStrategy": 0,
     "trustMicrosoftNuGetFeeds": true,
     "trustedNuGetFeeds": [
         {

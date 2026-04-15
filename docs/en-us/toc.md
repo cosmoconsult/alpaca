@@ -22,6 +22,8 @@
 
 ### [Initialize Repository](github/initialize-repository.md)
 
+### [Recommendations](github/recommendations.md)
+
 ### [Interact with Requirements](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
