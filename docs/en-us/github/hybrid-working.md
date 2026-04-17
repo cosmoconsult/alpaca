@@ -31,7 +31,7 @@ Once the connection is established, Azure DevOps and GitHub are aware of each ot
 
 Include `AB#<id>` (where `<id>` is the Azure DevOps work item ID) in your pull request descriptions or in commits. Azure DevOps will automatically link the PR or commit to the work item.
 
-See Microsoft guid: [How to link WIs from GitHub](https://learn.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?view=azure-devops#use-ab-to-link-from-github-to-azure-boards-work-items)
+See Microsoft guide: [How to link WIs from GitHub](https://learn.microsoft.com/en-us/azure/devops/boards/github/link-to-from-github?view=azure-devops#use-ab-to-link-from-github-to-azure-boards-work-items)
 
 > [!IMPORTANT]
 > Using `AB#<id>` in the **PR description** is the recommended approach. When the PR is merged, Azure DevOps automatically transitions the linked work item and records the full link chain (work item → PR → commits). This gives you the best traceability.
