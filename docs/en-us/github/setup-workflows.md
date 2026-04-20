@@ -5,7 +5,10 @@
 
 # Setup Minimum & Other Workflows
 
-AL-Go supports workflow-specific settings files. This is the recommended way to configure **Next Minor**, **Next Major**, **Current** and other workflows differently from the normal CI/CD workflow.
+AL-Go supports workflow-specific settings files. This is the recommended way to configure **Test Current**, **Test Next Minor**, **Test Next Major** and other workflows differently from the normal CI/CD workflow.
+
+> [!NOTE]
+> "Minimum" is not a separate workflow in AL-Go. Instead, minimum version validation is integrated into the existing build workflows (CI/CD, Pull Request Build, Test Current, Test Next Minor, Test Next Major) using `buildModes` and conditional settings.
 
 The Microsoft AL-Go documentation for this behavior is here:
 
@@ -20,10 +23,9 @@ For repository-wide workflow settings, use files in `.github` named like this:
 
 - `.github/CICD.settings.json`
 - `.github/Pull Request Build.settings.json`
-- `.github/Current.settings.json`
-- `.github/Next Minor.settings.json`
-- `.github/Next Major.settings.json`
-- `.github/Minimum.settings.json`
+- `.github/Test Current.settings.json`
+- `.github/Test Next Minor.settings.json`
+- `.github/Test Next Major.settings.json`
 - `.github/Update AL-Go System Files.settings.json`
 
 AL-Go also supports project-specific workflow settings in `.AL-Go/<workflow>.settings.json` for multi-project repositories.
@@ -53,6 +55,24 @@ Example:
 
 > [!NOTE]
 > `buildModes` is an array and arrays are merged by default in AL-Go. If you want a workflow to use only its own build modes, add `overwriteSettings` for `buildModes`.
+
+## Cron configuration for Test Current, Test Next Minor, Test Next Major
+
+The **Test Current**, **Test Next Minor** and **Test Next Major** workflows can also be scheduled through the workflow-specific setting `workflowSchedule`, the same way as **Update AL-Go System Files**.
+
+For example, `.github/Test Next Minor.settings.json`:
+
+```json
+{
+    "workflowSchedule": {
+        "cron": "0 6 * * 1"
+    }
+}
+```
+
+This runs **Test Next Minor** every Monday at `06:00 UTC`.
+
+You can set up schedules for each of these workflows independently using their respective settings files.
 
 ## Cron configuration for Update AL-Go System Files
 

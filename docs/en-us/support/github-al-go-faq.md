@@ -33,7 +33,7 @@ If you need the underlying Microsoft behavior, see the official AL-Go settings r
 
 Use the GitHub-specific guide [Change BC Version/Country](../github/change-container.md).
 
-The actual BC artifact selection is controlled by the AL-Go `artifact` setting. The detailed syntax is documented by Microsoft here:
+The actual BC artifact selection is controlled by the AL-Go `artifact` and `country` settings. The detailed syntax is documented by Microsoft here:
 
 - [AL-Go `artifact` setting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#artifact)
 - [AL-Go `country` setting](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#country)
@@ -117,14 +117,13 @@ If you want the high-level process from repository creation through container us
 - [GitHub Walkthrough](../github/walkthrough.md)
 - [GitHub (AL-Go) overview](../github/index.md)
 
-## Where do I configure translations after the migration away from `alpaca.json`?
+## Where do I configure translations?
 
-For GitHub repositories, translation settings now live under `alpaca` in the AL-Go settings.
+For GitHub repositories, translation settings live under `alpaca` in the AL-Go settings.
 
 Relevant docs:
 
 - [Setup AL-Go Settings](../github/setup-al-go-settings.md#translations)
-- [Migrating from alpaca.json](../github/setup-al-go-settings.md#migrating-from-alpacajson)
 
 ## Where is the official explanation for `versioningStrategy`?
 
@@ -142,12 +141,22 @@ Use:
 - [AL-Go `workflowSchedule`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#workflow-specific-settings)
 - [Update AL-Go system files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/UpdateAlGoSystemFiles.md)
 
-## How do I migrate frequently used settings from `alpaca.json` to AL-Go settings?
+## How do I set up automatic runs for Test Current, Test Next Minor and Test Next Major?
 
-Use:
+Use the `workflowSchedule` setting in workflow-specific settings files, for example `.github/Test Next Minor.settings.json`:
 
-- [Migrate Common Settings from alpaca.json](../github/migrate-common-settings.md)
-- [Setup AL-Go Settings](../github/setup-al-go-settings.md#migrating-from-alpacajson)
+```json
+{
+    "workflowSchedule": {
+        "cron": "0 6 * * 1"
+    }
+}
+```
+
+Relevant docs:
+
+- [Setup Minimum & Other Workflows](../github/setup-workflows.md#cron-configuration-for-test-current-test-next-minor-test-next-major)
+- [AL-Go `workflowSchedule`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#workflow-specific-settings)
 
 ## How do I migrate an existing repository from Azure DevOps to GitHub and then use COSMO Alpaca containers?
 

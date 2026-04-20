@@ -18,11 +18,13 @@ This page focuses on the **settings migration**: turning the content of `cosmo.j
 > On GitHub, we recommend **one repository per customer** with all apps in the same repo. This way, dependencies between apps are found automatically by AL-Go. See [Recommendations](recommendations.md) for naming conventions and repository structure.
 
 > [!IMPORTANT]
-> Migration steps in VS Code:
+> Migration steps:
 >
-> - Run **Initialize** on the repository
-> - Run **Update AL-Go System Files** action in the GitHub UI, selecting the **Alpaca-PTE** template
-> - Run **Update AL-Go System Files** again, selecting the **Alpaca-PTE** template a second time
+> 1. Go to VS Code, run **Initialize** on the repository
+> 2. Run **Update AL-Go System Files** in the GitHub UI, choosing the **Alpaca-PTE**
+> 3. Run **Update AL-Go System Files** again, choosing the **Alpaca-PTE** a second time
+>
+> Running the update twice is required to fully apply the COSMO Alpaca template configuration.
 
 ## Target file structure on GitHub
 
