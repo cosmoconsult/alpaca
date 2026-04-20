@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.80.0 (2026-04-20)
+
+- 4PS only: Setting autostart should be possible [see #4790](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4790)
+
 ## v1.79.0 (2026-03-19)
 
 - Add option to disable certificate validation in container launch configurations [see #4736](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4736)
