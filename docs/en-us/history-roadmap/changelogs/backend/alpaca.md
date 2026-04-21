@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.98.0 (2026-04-21)
+
+- Add support for passing the license file URL to Business Central dev containers when configured in AL-Go repository settings
+
 ## v0.97.2 (2026-04-21)
 
 - Fix issue where GitHub personal accounts were not supported when retrieving domain information
