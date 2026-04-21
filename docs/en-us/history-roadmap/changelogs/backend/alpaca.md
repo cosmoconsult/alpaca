@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.97.2 (2026-04-21)
+
+- Fix issue where GitHub personal accounts were not supported when retrieving domain information
+- Add support for autostart in 4PS Business Central containers
+
 ## v0.97.0 (2026-04-17)
 
 - Add support for retrieving Azure DevOps feeds and artifacts with centralized caching across API instances
