@@ -92,6 +92,12 @@
 
 ### [Migrate from Azure DevOps (cosmo.json)](github/migrate-from-azure-devops.md)
 
+## Releases & Deployment
+
+### [Create Release](github/create-release.md)
+
+### [Add Environment](github/add-environment.md)
+
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
 <!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
