@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.97.2 (2026-04-21)
+
+- Fix issue where GitHub personal accounts were not supported when retrieving domain information
+
 ## v0.97.1 (2026-04-21)
 
 - Fix issue where contribution hierarchy query was called incorrectly during Azure DevOps project onboarding
