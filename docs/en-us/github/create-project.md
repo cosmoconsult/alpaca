@@ -1,9 +1,9 @@
 ---
-    title: Create Project
-    description: Create Project
+    title: Create AL-Go Project
+    description: Create AL-Go Project
 ---
 
-# Create Project
+# Create AL-Go Project
 
 In GitHub (AL-Go) you can cluster multiple apps into *projects*. *Projects* are just subfolders within your repository with one or many AL app directories. All apps within a project are usually shipped together. When [creating a new repository and app](create-app.md) the AL app folders by default are within the root of a repository. This is called a *single-project repository*.
 
