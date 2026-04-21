@@ -15,7 +15,28 @@ In the COSMO Alpaca extension, expand your repository and navigate to **Releases
 
 ![Create Release button](../media/github/github-release-create.png)
 
-### 2. Select the release type
+### 2. Commit directly or create a pull request
+
+Choose how the release changes should be committed:
+
+- **Yes** — commits directly to the branch
+- **No** — opens a pull request for review before the release is finalized
+
+![Directly commit or create pull request](../media/github/github-release-direct-commit.png)
+
+### 3. Enter the release tag
+
+Enter the version tag for the release in `x.y.z` format. The tag will be created in the repository and used to identify this release.
+
+![Enter release tag](../media/github/github-release-create-tag.png)
+
+### 4. Add versioning strategy
+
+Specify the new version number for the main branch. Use `Major.Minor` (optionally `Major.Minor.Build` for versioning strategy 3) for an absolute version change, or use `+1`, `+0.1` (or `+0.0.1` for versioning strategy 3) for an incremental change.
+
+![Versioning strategy](../media/github/github-release-versioningstrategy.png)
+
+### 5. Select the release type
 
 Choose the type of release:
 
@@ -25,13 +46,7 @@ Choose the type of release:
 
 ![Select release type](../media/github/github-release-type.png)
 
-### 3. Review the versioning strategy
-
-The wizard shows the versioning strategy currently configured for the repository. The tag format must match the strategy in use. See [Versioning Strategies](versioning-strategies.md) for details.
-
-![Versioning strategy](../media/github/github-release-versioningstrategy.png)
-
-### 4. Create a release branch
+### 6. Create a release branch
 
 Decide whether to create a dedicated release branch for this release. A release branch allows you to apply hotfixes after the release without affecting the main development branch.
 
@@ -39,21 +54,6 @@ Decide whether to create a dedicated release branch for this release. A release 
 - Select **No** to release directly from the current branch
 
 ![Create release branch](../media/github/github-release-create-branch.png)
-
-### 5. Enter the release tag
-
-Enter the version tag for the release in `x.y.z` format. The tag will be created in the repository and used to identify this release.
-
-![Enter release tag](../media/github/github-release-create-tag.png)
-
-### 6. Commit directly or create a pull request
-
-Choose how the release changes should be committed:
-
-- **Yes** — commits directly to the branch
-- **No** — opens a pull request for review before the release is finalized
-
-![Directly commit or create pull request](../media/github/github-release-direct-commit.png)
 
 ## What happens next
 
