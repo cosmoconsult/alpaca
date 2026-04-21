@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.97.1 (2026-04-21)
+
+- Fix issue where contribution hierarchy query was called incorrectly during Azure DevOps project onboarding
+
 ## v0.97.0 (2026-04-17)
 
 - Add support for retrieving Azure DevOps feeds and artifacts with centralized caching across API instances
