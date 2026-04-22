@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.99.0 (2026-04-22)
+
+- Disable user path restriction for AL file operations in Business Central 27+ containers
+
 ## v0.97.2 (2026-04-21)
 
 - Fix issue where GitHub personal accounts were not supported when retrieving domain information
