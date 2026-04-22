@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.81.0 (2026-04-22)
+
+- Improve agent name construction to handle invalid characters and max. length [see #4799](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4799)
+
 ## v1.80.0 (2026-04-20)
 
 - 4PS only: Setting autostart should be possible [see #4790](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4790)
