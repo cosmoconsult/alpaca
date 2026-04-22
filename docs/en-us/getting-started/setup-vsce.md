@@ -36,6 +36,6 @@ Now you can make yourself familiar with the interface:
 1. The **Containers** View shows you all your containers across all your organizations and accounts along with their state and details.
 1. The **Product Packages** View allows you to browse Business Central NuGet feeds and view package and version information.
 
-You now may want to go through the [walkthrough](walkthrough.md) to get a first impression of COSMO Alpaca.
+You now may want to go through the [walkthrough](../github/walkthrough.md) to get a first impression of COSMO Alpaca.
 
 [vsc-install]: https://code.visualstudio.com/download

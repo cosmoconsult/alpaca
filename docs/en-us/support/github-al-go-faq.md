@@ -78,7 +78,7 @@ Use the [Packages View](../github/packages-view.md) in VS Code and copy the gene
 Relevant docs:
 
 - [Packages View](../github/packages-view.md)
-- [Packages View actions](../includes/packages-view/actions.md)
+- [Packages View](../github/packages-view.md)
 - [NuGet feed artifacts](../github/setup-artifacts.md#nuget-feed)
 
 ## Why is my container not using my changed configuration?
@@ -155,7 +155,7 @@ Use the `workflowSchedule` setting in workflow-specific settings files, for exam
 
 Relevant docs:
 
-- [Setup Minimum & Other Workflows](../github/setup-workflows.md#cron-configuration-for-test-current-test-next-minor-test-next-major)
+- [Setup Minimum & Other Workflows](../github/setup-workflows.md#cron-configuration-example)
 - [AL-Go `workflowSchedule`](https://github.com/microsoft/AL-Go/blob/main/Scenarios/settings.md#workflow-specific-settings)
 
 ## How do I migrate an existing repository from Azure DevOps to GitHub and then use COSMO Alpaca containers?
