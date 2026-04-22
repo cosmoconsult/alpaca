@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.99.0 (2026-04-22)
+
+- Disable user path restriction for AL file operations in Business Central 27+ containers
+
 ## v0.98.0 (2026-04-21)
 
 - Add support for passing the license file URL to Business Central dev containers when configured in AL-Go repository settings
