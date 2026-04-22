@@ -18,7 +18,7 @@
 
 ## General Features
 
-### [Create Organization](github/create-org.md)
+### [Create GitHub Organization](github/create-org.md)
 
 ### [Initialize Repository](github/initialize-repository.md)
 
@@ -38,9 +38,9 @@
 
 ## App Development
 
-### [Create Project](github/create-project.md)
-
 ### [Create Repository & App](github/create-app.md)
+
+### [Create AL-Go Project](github/create-project.md)
 
 <!--### [Clone Repository](azure-devops/clone-repo.md)-->
 
@@ -88,9 +88,9 @@
 
 ### [Versioning Strategies](github/versioning-strategies.md)
 
-### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
-
 ### [Migrate from Azure DevOps (cosmo.json)](github/migrate-from-azure-devops.md)
+
+### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
 
 ## Releases & Deployment
 
@@ -128,7 +128,7 @@
 
 ### [Assign Organization to Entity](github/assign-entity.md)
 
-# [Azure DevOps](azure-devops/index.md)  
+# [Azure DevOps](azure-devops/index.md)
 
 ## [Walkthrough](azure-devops/walkthrough.md)
 
