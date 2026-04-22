@@ -27,7 +27,6 @@ To create an app within your repository, select your repository and navigate the
 ![Extension GitHub Create App](../media/extension-github-create-app.png)
 
 Now follow the wizard:
-1. Enter the name of the project where you want to create the app. You can use `_` to use the default root project. If you enter a project name that doesn't exist yet, the new project will be created. The repo structure might be converted from single-project to multi-project.
 1. Select the type (App, TestApp or PerformanceTestApp) of the new app
 1. Enter the name of the new app
 1. Enter the publisher name of the new app

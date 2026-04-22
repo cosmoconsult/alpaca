@@ -11,22 +11,22 @@ This walkthrough is intended to quickly get to know COSMO Alpaca with GitHub (AL
 
 Before starting with the walkthrough, let's set up our tooling.
 
-1. [Sign up and create an organization](create-org.md)
+1. [Sign up and create an GitHub organization](create-org.md)
 1. [Set up VS Code and the COSMO Alpaca Extension](../getting-started/setup-vsce.md)
 
 ## Create your first app and requirement
 
 Imagine you're the project manager or lead developer and you have a new customer. You now prepare the new project and set up the new repository for that customer via VS Code and create the first requirement:
 
-1. [Create a project](create-project.md) (optional, only needed for multi-project repositories)
 2. [Create repository, AL App and workflows](create-app.md)
+1. [Create a AL-Go project](create-project.md) (optional, only needed for multi-project repositories)
 3. [Open your project/repository in the browser](../shared/open-stuff.md) and create a new issue/workitem that you'll be working on next
 
 ## Implementing your first requirement
 
 Now you're switching to the developer role. You need to implement the requirement described in the issue/workitem your project manager just created. You use the tool you're familiar with: VS Code (with the COSMO Alpaca extension):
 
-1. Clone your app repository to your local machine for development. Open the workspace.
+1. Clone your app repository to your local machine for development and open the workspace.
 1. [Create a development container](create-container.md) for the app you just created.
 1. While your container starts, [create a new branch from your issue/workitem](interact-with-requirements.md) and switch to it.
 1. [Connect your launch.json to the container](../shared/create-launch-json.md).
