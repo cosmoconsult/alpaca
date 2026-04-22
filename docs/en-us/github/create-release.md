@@ -26,13 +26,15 @@ Choose how the release changes should be committed:
 
 ### 3. Enter the release tag
 
-Enter the version tag for the release in `x.y.z` format. The tag will be created in the repository and used to identify this release.
+Enter the version tag for the release in `x.y.z` format. The release is created in GitHub as `v<tag>`, for example `v1.2.3`.
 
 ![Enter release tag](../media/github/github-release-create-tag.png)
 
-### 4. Add versioning strategy
+### 4. Update project and app versions
 
 Specify the new version number for the main branch. Use `Major.Minor` (optionally `Major.Minor.Build` for versioning strategy 3) for an absolute version change, or use `+1`, `+0.1` (or `+0.0.1` for versioning strategy 3) for an incremental change.
+
+This step updates the version of each project and app on the main branch after the release has been created.
 
 ![Versioning strategy](../media/github/github-release-versioningstrategy.png)
 

@@ -30,6 +30,11 @@ For repository-wide workflow settings, use files in `.github` named like this:
 
 AL-Go also supports project-specific workflow settings in `.AL-Go/<workflow>.settings.json` for multi-project repositories.
 
+Recommended split:
+
+- Define repository-wide `conditionalSettings` in `.github/AL-Go-Settings.json`
+- Define project-specific `buildModes` in `./**/.AL-Go/settings.json`
+
 ## How to configure Minimum workflows using build modes
 
 `buildModes` is a setting that tells AL-Go which build variants should run. Common examples are:
@@ -37,12 +42,16 @@ AL-Go also supports project-specific workflow settings in `.AL-Go/<workflow>.set
 - `Default`
 - `MinVersion`
 
-Example: 
+Use one shared configuration model:
+
+1. Define repository-wide rules in `.github/AL-Go-Settings.json`
+2. Define project build modes in `./**/.AL-Go/settings.json`
+
+Repository example in `.github/AL-Go-Settings.json`:
 
 ```json
 {
-    "buildModes": ["Default", "MinVersion"],
-    "ConditionalSettings": [
+    "conditionalSettings": [
         {
             "buildModes": ["MinVersion"],
             "settings": {
@@ -53,14 +62,25 @@ Example:
 }
 ```
 
+Project example in `./**/.AL-Go/settings.json`:
+
+```json
+{
+    "buildModes": ["Default", "MinVersion"]
+}
+```
+
 > [!NOTE]
 > `buildModes` is an array and arrays are merged by default in AL-Go. If you want a workflow to use only its own build modes, add `overwriteSettings` for `buildModes`.
 
-## Cron configuration for Test Current, Test Next Minor, Test Next Major
+## Cron configuration example
 
-The **Test Current**, **Test Next Minor** and **Test Next Major** workflows can also be scheduled through the workflow-specific setting `workflowSchedule`, the same way as **Update AL-Go System Files**.
+All of these workflows are scheduled through the workflow-specific setting `workflowSchedule`.
 
-For example, `.github/Test Next Minor.settings.json`:
+- **Test Current**, **Test Next Minor** and **Test Next Major** use their corresponding `.github/<workflow>.settings.json` files
+- **Update AL-Go System Files** uses `.github/Update AL-Go System Files.settings.json`
+
+Example for a test workflow in `.github/Test Next Minor.settings.json`:
 
 ```json
 {
@@ -74,37 +94,11 @@ This runs **Test Next Minor** every Monday at `06:00 UTC`.
 
 You can set up schedules for each of these workflows independently using their respective settings files.
 
-## Cron configuration for Update AL-Go System Files
-
-The **Update AL-Go System Files** workflow can be scheduled through the workflow-specific setting `workflowSchedule`.
-
-Example:
-
-```json
-{
-    "workflowSchedule": {
-        "cron": "0 17 1-7 * 1"
-    }
-}
-```
-
-This example means: run at `17:00 UTC` on the first Monday of the month.
-
 Relevant docs:
 
 - [AL-Go `workflowSchedule`](https://aka.ms/algosettings#workflow-specific-settings)
 - [Update AL-Go system files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/UpdateAlGoSystemFiles.md)
 - [crontab.guru](https://crontab.guru/)
-
-Create the schedule in `.github/Update AL-Go System Files.settings.json`:
-
-```json
-{
-    "workflowSchedule": {
-        "cron": "0 17 1-7 * 1"
-    }
-}
-```
 
 > [!NOTE]
 > After changing `workflowSchedule`, you need to run **Update AL-Go System Files** once so the generated workflow files pick up the new schedule.

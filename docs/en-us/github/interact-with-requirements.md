@@ -1,9 +1,9 @@
 ---
-    title: Interact with Requirements
-    description: Interact with Requirements
+    title: Work with Issues and Work Items
+    description: Work with GitHub issues and Azure DevOps work items in GitHub repositories
 ---
 
-# Interact with Requirements
+# Work with Issues and Work Items
 
 With GitHub you can either use the GitHub issues to track your requirements or you can use the Azure Boards integration to use WorkItems in Azure DevOps. 
 

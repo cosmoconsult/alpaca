@@ -26,11 +26,11 @@
 
 ### [Hybrid Working — Azure DevOps & GitHub](github/hybrid-working.md)
 
-### [Interact with Requirements](github/interact-with-requirements.md)
+### [Work with Issues and Work Items](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
 
-### [Open Elements in Browser](shared/open-stuff.md)
+<!-- ### [Open Elements in Browser](shared/open-stuff.md) -->
 
 ### [Packages View](github/packages-view.md)
 

@@ -52,3 +52,7 @@ AB#4530
 ```
 
 You can reference multiple work items in a single PR description — each `AB#<id>` creates a separate link.
+
+## Recommended pull request check
+
+If your team wants to enforce traceability, add a pull request workflow or status check that validates whether the PR is linked to at least one work item before it can be merged.
