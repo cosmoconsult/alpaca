@@ -43,7 +43,7 @@ If a repository contains multiple independent apps you could split these into mu
 But this also has some disadvantages:
 
 - AL-Go build workflows create individual build containers for each AL-Go project
-- More complex repository structure and maintenance overhead *(e.g. added/removed dependencies between projects require run of workflow `Update AL-Go System Files`)*
+- More complex repository structure and maintenance overhead *(e.g. added/removed dependencies between projects require running the `Update AL-Go System Files` workflow)*
 
 ## Versioning
 
