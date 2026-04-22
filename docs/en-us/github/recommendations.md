@@ -56,7 +56,7 @@ Use the AL-Go default versioning strategy `0` unless you have a concrete reason 
 By default AL-Go build artifacts have a version independent from the apps and releases starting at `1.0` and will be increased the same way as app versions on release.
 Additionally, these versions can differ between AL-Go projects.
 
-To reduce confusion we recommend to:
+To reduce confusion, we recommend the following:
 
 - Set the AL-Go setting `repoVersion` for the repository to `Major.Minor` *(e.g. `28.0`)* based on the next planned release version or on the app versions. See [Setup AL-Go Settings](setup-al-go-settings.md) for details.
 - Create releases with versions based on the AL-Go setting `repoVersion` of the repository *(e.g. `28.0.1` and `28.0.2`)*
