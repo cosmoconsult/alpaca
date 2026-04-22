@@ -7,6 +7,9 @@
 
 In GitHub (AL-Go) you can cluster multiple apps into *projects*. *Projects* are just subfolders within your repository with one or many AL app directories. All apps within a project are usually shipped together. When [creating a new repository and app](create-app.md) the AL app folders by default are within the root of a repository. This is called a *single-project repository*.
 
+> [!NOTE]
+> Apps of different *projects* in the same repository can be dependent on each other as documented in this [AL-Go Dependencies Workshop](https://github.com/microsoft/AL-Go/blob/main/Workshop/Dependencies1.md).
+
 In the Alpaca VSC extension the projects are listed underneath the repository:
 
 ![Extension GitHub Projects](../media/extension-github-projects.png)

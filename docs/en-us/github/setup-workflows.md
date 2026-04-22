@@ -55,12 +55,17 @@ Repository example in `.github/AL-Go-Settings.json`:
         {
             "buildModes": ["MinVersion"],
             "settings": {
-                "artifact": "//*//first"
+                "artifact": "//*//first",
+                "nuGetFeedSelectMode": "EarliestMatching"
             }
         }
     ]
 }
 ```
+
+> [!NOTE]
+> `nuGetFeedSelectMode: EarliestMatching` is used here together with `MinVersion` to resolve NuGet packages to the earliest possible version based on the BC version and the dependencies of the apps.
+> Currently this setting is not used by containers and is only used by AL-Go workflows to download the required symbols for compilation.
 
 Project example in `./**/.AL-Go/settings.json`:
 
