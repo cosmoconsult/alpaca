@@ -18,15 +18,19 @@
 
 ## General Features
 
-### [Create Organization](github/create-org.md)
+### [Create GitHub Organization](github/create-org.md)
 
-### [Create Project](github/create-project.md)
+### [Initialize Repository](github/initialize-repository.md)
 
-### [Interact with Requirements](github/interact-with-requirements.md)
+### [Recommendations](github/recommendations.md)
+
+### [Hybrid Working — Azure DevOps & GitHub](github/hybrid-working.md)
+
+### [Work with Issues and Work Items](github/interact-with-requirements.md)
 
 <!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
 
-### [Open Elements in Browser](shared/open-stuff.md)
+<!-- ### [Open Elements in Browser](shared/open-stuff.md) -->
 
 ### [Packages View](github/packages-view.md)
 
@@ -35,6 +39,8 @@
 ## App Development
 
 ### [Create Repository & App](github/create-app.md)
+
+### [Create AL-Go Project](github/create-project.md)
 
 <!--### [Clone Repository](azure-devops/clone-repo.md)-->
 
@@ -76,6 +82,22 @@
 
 ### [Setup Artifacts to Import on Container Startup](github/setup-artifacts.md)
 
+## Workflow Setup
+
+### [Setup Minimum & Other Workflows](github/setup-workflows.md)
+
+### [Versioning Strategies](github/versioning-strategies.md)
+
+### [Migrate from Azure DevOps (cosmo.json)](github/migrate-from-azure-devops.md)
+
+### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
+
+## Releases & Deployment
+
+### [Create Release](github/create-release.md)
+
+### [Add Environment](github/add-environment.md)
+
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
 <!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
@@ -106,7 +128,7 @@
 
 ### [Assign Organization to Entity](github/assign-entity.md)
 
-# [Azure DevOps](azure-devops/index.md)  
+# [Azure DevOps](azure-devops/index.md)
 
 ## [Walkthrough](azure-devops/walkthrough.md)
 
@@ -229,6 +251,8 @@
 # Support
 
 ## [Create Bug Report or Feature Request](support/bug-report.md)
+
+## [GitHub (AL-Go) FAQ](support/github-al-go-faq.md)
 
 ## [Typical Problems & Solutions](support/solutions.md)
 
