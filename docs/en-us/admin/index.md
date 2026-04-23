@@ -141,7 +141,43 @@ If you want to better understand which app registrations exactly are generated, 
 
 _This is available for Azure DevOps only_
 
-Customers, who want to customize the template for new app repositories, should create a ConfigMap named `appconfig` with the desired values under the `data` section. This ConfigMap should be placed in the customer configuration repository.
+# [**Preview Extension**](#tab/preview)
+
+In the current extension, the app template is customized through a ConfigMap named `cust-customernamespace--app-custom-template` in the customer configuration repository. Replace `customernamespace` with the actual customer namespace.
+
+The following values are currently relevant:
+
+- `cust-customernamespace__app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, and `idRangesTo`.
+- `cust-customernamespace__app-custom-template__templateUrl` can be used to point to a custom template source.
+- `cust-customernamespace__app-custom-template__excludeFiles` can be used to exclude files from the generated repository template.
+
+#### Example ConfigMap
+
+```yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: cust-customernamespace--app-custom-template
+    annotations:
+        selfservice.cosmoconsult.com/target-namespaces: alpaca-api
+data:
+    cust-customernamespace__app-custom-template__customAppJsonValues: |
+        {
+            "publisher": "Your Publisher",
+            "privacyStatement": "https://your-privacy-statement-url",
+            "EULA": "https://your-eula-url",
+            "help": "https://your-help-url",
+            "url": "https://your-app-url",
+            "idRangesFrom": "50000",
+            "idRangesTo": "50100"
+        }
+#  cust-customernamespace__app-custom-template__templateUrl: ""
+#  cust-customernamespace__app-custom-template__excludeFiles: []
+```
+
+# [**Legacy Extension**](#tab/legacy)
+
+In the legacy extension, customers can customize the template for new app repositories by creating a ConfigMap named `appconfig` in the customer configuration repository and placing the desired values under the `data` section.
 
 The following values can be customized in the ConfigMap:
 
@@ -161,18 +197,20 @@ The following values can be customized in the ConfigMap:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: appconfig
+    name: appconfig
 data:
-  appconfig__name: "YourAppName"
-  appconfig__publisher: "YourPublisher"
-  appconfig__privacyStatement: "https://your-privacy-statement-url"
-  appconfig__EULA: "https://your-eula-url"
-  appconfig__help: "https://your-help-url"
-  appconfig__url: "https://your-app-url"
-  appconfig__idRangesFrom: "50000"
-  appconfig__idRangesTo: "51111"
-  appconfig__logo: "https://your-logo-url"
+    appconfig__name: "Your App Name"
+    appconfig__publisher: "Your Publisher"
+    appconfig__privacyStatement: "https://your-privacy-statement-url"
+    appconfig__EULA: "https://your-eula-url"
+    appconfig__help: "https://your-help-url"
+    appconfig__url: "https://your-app-url"
+    appconfig__idRangesFrom: "50000"
+    appconfig__idRangesTo: "51111"
+    appconfig__logo: "https://your-logo-url"
 ```
+
+---
 
 ## GitHub Repo Standards
 
