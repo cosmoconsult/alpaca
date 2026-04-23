@@ -141,15 +141,15 @@ If you want to better understand which app registrations exactly are generated, 
 
 _This is available for Azure DevOps only_
 
-# [**Preview Extension**](#tab/preview)
+### [**Preview Extension**](#tab/preview)
 
-In the current extension, the app template is customized through a ConfigMap named `cust-customernamespace--app-custom-template` in the customer configuration repository. Replace `customernamespace` with the actual customer namespace.
+In the current extension, the app template is customized through a ConfigMap named `app-custom-template` in the customer configuration repository.
 
 The following values are currently relevant:
 
-- `cust-customernamespace__app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, and `idRangesTo`.
-- `cust-customernamespace__app-custom-template__templateUrl` can be used to point to a custom template source.
-- `cust-customernamespace__app-custom-template__excludeFiles` can be used to exclude files from the generated repository template.
+- `app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, and `idRangesTo`.
+- `app-custom-template__templateUrl` can be used to point to a custom template source.
+- `app-custom-template__excludeFiles` can be used to exclude files from the generated repository template.
 
 #### Example ConfigMap
 
@@ -157,11 +157,11 @@ The following values are currently relevant:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-    name: cust-customernamespace--app-custom-template
+    name: app-custom-template
     annotations:
         selfservice.cosmoconsult.com/target-namespaces: alpaca-api
 data:
-    cust-customernamespace__app-custom-template__customAppJsonValues: |
+    app-custom-template__customAppJsonValues: |
         {
             "publisher": "Your Publisher",
             "privacyStatement": "https://your-privacy-statement-url",
@@ -171,11 +171,11 @@ data:
             "idRangesFrom": "50000",
             "idRangesTo": "50100"
         }
-#  cust-customernamespace__app-custom-template__templateUrl: ""
-#  cust-customernamespace__app-custom-template__excludeFiles: []
+#  app-custom-template__templateUrl: ""
+#  app-custom-template__excludeFiles: []
 ```
 
-# [**Legacy Extension**](#tab/legacy)
+### [**Legacy Extension**](#tab/legacy)
 
 In the legacy extension, customers can customize the template for new app repositories by creating a ConfigMap named `appconfig` in the customer configuration repository and placing the desired values under the `data` section.
 
