@@ -171,8 +171,8 @@ data:
             "idRangesFrom": "50000",
             "idRangesTo": "50100"
         }
-#  app-custom-template__templateUrl: ""
-#  app-custom-template__excludeFiles: []
+    #app-custom-template__templateUrl: ""
+    #app-custom-template__excludeFiles: []
 ```
 
 ### [**Legacy Extension**](#tab/legacy)
