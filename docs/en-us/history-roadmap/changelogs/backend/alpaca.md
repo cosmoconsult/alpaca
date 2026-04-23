@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v0.99.1 (2026-04-23)
+
+- Fix issue where AL-Go deployment process used incorrect version format when triggering deployment workflows
+
 ## v0.99.0 (2026-04-22)
 
 - Disable user path restriction for AL file operations in Business Central 27+ containers
