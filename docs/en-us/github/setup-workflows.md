@@ -78,7 +78,7 @@ Project example in `./**/.AL-Go/settings.json`:
 > [!NOTE]
 > `buildModes` is an array and arrays are merged by default in AL-Go. If you want a workflow to use only its own build modes, add `overwriteSettings` for `buildModes`.
 
-## How to configure multi country validation
+## How to configure multi-country validation
 
 Apps often need to be tested not just against one localization, but against several. AL-Go provides the [`additionalCountries`](https://aka.ms/algosettings#additionalCountries) property for this purpose. This is **not supported in COSMO Alpaca**. We can also handle this requirement using [`buildModes`](https://aka.ms/algosettings#buildModes) and [`ConditionalSettings`](https://aka.ms/algosettings#conditional-settings):
 
