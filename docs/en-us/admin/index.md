@@ -147,7 +147,7 @@ In the current extension, the app template is customized through a ConfigMap nam
 
 The following values are currently relevant:
 
-- `app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, and `idRangesTo`.
+- `app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, `idRangesTo`, and `logo`.
 - `app-custom-template__templateUrl` can be used to point to a custom template source.
 - `app-custom-template__excludeFiles` can be used to exclude files from the generated repository template.
 
@@ -169,7 +169,8 @@ data:
             "help": "https://your-help-url",
             "url": "https://your-app-url",
             "idRangesFrom": "50000",
-            "idRangesTo": "50100"
+            "idRangesTo": "50100",
+            "logo": "https://your-logo-url"
         }
     #app-custom-template__templateUrl: ""
     #app-custom-template__excludeFiles: []
