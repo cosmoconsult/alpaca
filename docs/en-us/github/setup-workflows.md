@@ -55,7 +55,7 @@ Repository example in `.github/AL-Go-Settings.json`:
         {
             "buildModes": ["MinVersion"],
             "settings": {
-                "artifact": "//*//first",
+                "artifact": "/OnPrem/*//first",
                 "nuGetFeedSelectMode": "EarliestMatching"
             }
         }
