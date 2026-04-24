@@ -94,9 +94,11 @@
 
 ## Releases & Deployment
 
+### [Add Environment](github/add-environment.md)
+
 ### [Create Release](github/create-release.md)
 
-### [Add Environment](github/add-environment.md)
+### [Deploy App](github/deploy-app.md)
 
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
