@@ -11,7 +11,7 @@ All notable changes to the Visual Studio Code Extension (legacy)
 ## v1.52.0 (2026-04-24)
 
 - Update Alpaca API client
-- Deprecate COSMO-only customer assignment and add hint to use new extension [see #4806](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4806)
+- Deprecate COSMO-only customer assignment and add a hint to use the new extension [see #4806](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4806)
 - Use Alpaca API to browse artifact feeds and download packages [see #4805](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4805)
 - Add "legacy" indicator to extension name in favor of new extension [see #4813](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4813)
 
