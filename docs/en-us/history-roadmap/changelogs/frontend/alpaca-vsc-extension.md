@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (Preview)
 
 ## v0.83.2 (2026-04-24)
 
-- Fix missing app version prefix in the AL-Go app deployment
+- Fix incorrect AL-Go deployment process used incorrect version, and add handling for multiple release versions
 
 ## v0.83.1 (2026-04-15)
 
