@@ -8,7 +8,7 @@
 [!INCLUDE [Create Container Intro](../includes/create-container-intro.md)]
 
 > [!TIP]
-> The videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
+> The videos below are from the **Legacy Extension**. The workflow in the current **COSMO Alpaca extension** is the same, but the UI may look slightly different.
 
 1. In the Visual Studio Code extension right click on the **Containers** node under the Repository of your App and choose **Create container**.
 1. Enter a name for your new container.

@@ -42,7 +42,7 @@ Users choose their platform when first setting up the extension, and the documen
 
 ### 2. The VS Code Extension
 
-The primary way to interact with COSMO Alpaca is through a Visual Studio Code extension called **COSMO Alpaca Preview**. This extension provides a tree-view sidebar where users can:
+The primary way to interact with COSMO Alpaca is through a Visual Studio Code extension called **COSMO Alpaca**. This extension provides a tree-view sidebar where users can:
 
 - Browse their organizations, projects, and repositories
 - Create new organizations, projects, apps, and containers
@@ -239,7 +239,7 @@ According to COSMO's surveys, COSMO Alpaca saves approximately **20 hours per de
 ## Getting Started
 
 1. **Sign up:** Create a GitHub account or Azure DevOps organization.
-2. **Install the extension:** Search for "COSMO Alpaca Preview" in the VS Code Marketplace and install it, or open [vscode.dev](https://vscode.dev) and install the extension there.
+2. **Install the extension:** Search for "COSMO Alpaca" in the VS Code Marketplace and install it, or open [vscode.dev](https://vscode.dev) and install the extension there.
 3. **Choose your role:** Select "technical" or "functional" view.
 4. **Choose your platform:** Select GitHub or Azure DevOps and sign in.
 5. **Create a project and app:** Use the guided wizards to set up your first project and repository.

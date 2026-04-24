@@ -10,9 +10,9 @@ If you're having projects created without the Alpaca tooling you may want to use
 1. In the Visual Studio Code extension select a project you want to onboard
 1. Open the command palette (F1) and choose **CC: Onboard this project for usage with the self-service**
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
 # [**Legacy Extension**](#tab/legacy)
 
