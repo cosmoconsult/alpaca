@@ -12,7 +12,7 @@
 1. On the project "App" do a right-click and select "Create container" and enter a name for your new container
 1. While the container is creating, right-click on the repository and select "Clone repository"
 1. Open the directory "/App/Layers/W1/BaseApp" within the cloned repository
-1. In the new window, open the **COSMO Alpaca** and find your container underneath project
+1. In the new window, open the **COSMO Alpaca** extension and find your container underneath project
 1. Wait until the container is "healthy". When the container is in "starting" status you can do a right click on the container and select "Show logs" to see what is happening
 1. When the container is healthy, right-click on the container and select "Create launch.json" to setup the connection to the container for development
 1. Right-click on the container and select "Download DLL package"
