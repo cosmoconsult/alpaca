@@ -15,7 +15,7 @@ After you [create a release](create-release.md) and [add at least one environmen
 
 ## Important: Release assets, versions, and dependency order
 
-In GitHub releases, artifacts are grouped by version.
+In the extension Project artifacts will be grouped by version.
 
 For **single-project repositories**, this typically results in one selectable version per release.
 
