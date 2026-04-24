@@ -11,7 +11,7 @@ All notable changes to the Visual Studio Code Extension
 ## v1.0.0 (2026-04-24)
 
 - Move extension out of preview
-- Add support to browse Azure DevOps artifact feeds and download packages
+- Add support for browsing Azure DevOps artifact feeds and downloading packages
 
 ## v0.83.2 (2026-04-24)
 
