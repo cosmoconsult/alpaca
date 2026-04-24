@@ -9,7 +9,7 @@
 1. Fork https://github.com/microsoft/BusinessCentralApps
 1. In VS Code, download **COSMO Alpaca**
 1. Open the **COSMO Alpaca** extension from the sidebar and search for the forked BusinessCentralApps repo in the tree
-1. On the project "App" do a right-cick and select "Create container" and enter a name for your new container
+1. On the project "App" do a right-click and select "Create container" and enter a name for your new container
 1. While the container is creating, right-click on the repository and select "Clone repository"
 1. Open the directory "/App/Layers/W1/BaseApp" within the cloned repository
 1. In the new window, open the **COSMO Alpaca** and find your container underneath project
