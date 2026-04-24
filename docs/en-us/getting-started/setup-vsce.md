@@ -14,15 +14,15 @@ One of the clients that give you access to COSMO Alpaca is the VS Code Extension
 
 1. Open Visual Studio Code. If you don't have it installed, you can get it for free [here][vsc-install]
 1. Go to the extensions view in the activity bar
-1. Search for and install the **COSMO Alpaca Preview** extension
+1. Search for and install the **COSMO Alpaca** extension
 1. Wait until the installation has finished, you might have to reload the VS Code window
 1. Afterwards you should see the extension in the list of installed extensions
 
-![Preview Extension Installation](../media/getting-started/install-extension-preview.png)
+![Extension Installation](../media/getting-started/install-extension.png) <!-- TODO: Update screenshot -->
 
 ## First Use
 
-To open the COSMO Alpaca Preview extension, click the respective icon in the activity bar. On the first use you're asked for your role and whether you want to use Azure DevOps or GitHub as a platform.
+To open the COSMO Alpaca extension, click the respective icon in the activity bar. On the first use you're asked for your role and whether you want to use Azure DevOps or GitHub as a platform.
 
 ![Extension GitHub Role Selection](../media/getting-started/extension-github-role-selection.png)
 

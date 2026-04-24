@@ -10,9 +10,9 @@ In addition to [assigning a customer](assign-customer.md), an organization must 
 
 To assign a responsible user, right-click on the organization and select **Assign responsible user**. A list of all users of the DevOps organization is displayed and the selected user will be assigned as the responsible user.
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
 # [**Legacy Extension**](#tab/legacy)
 

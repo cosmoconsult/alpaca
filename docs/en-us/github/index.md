@@ -38,5 +38,5 @@ Internal features for COSMO CONSULT teams, including assigning organizations to 
 ## Prerequisites
 
 - A GitHub account and at least one GitHub organization
-- The [COSMO Alpaca Preview VS Code extension](../getting-started/setup-vsce.md) installed
+- The [COSMO Alpaca VS Code extension](../getting-started/setup-vsce.md) installed
 - The extension configured for the **GitHub** platform

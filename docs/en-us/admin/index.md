@@ -141,7 +141,7 @@ If you want to better understand which app registrations exactly are generated, 
 
 _This is available for Azure DevOps only_
 
-### [**Preview Extension**](#tab/preview)
+### [**Extension**](#tab/extension)
 
 In the current extension, the app template is customized through a ConfigMap named `app-custom-template` in the customer configuration repository.
 
