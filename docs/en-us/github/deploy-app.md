@@ -38,7 +38,7 @@ You can start the deployment wizard from two places in the extension:
 
 ![Deploy from Environments](../media/github/github-deploy-deploy-from-envs.png)
 
-## Deployment wizard steps (from a specific environment)
+## Deployment wizard steps
 
 ### 1. Select the target environment
 
