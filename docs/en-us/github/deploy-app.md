@@ -1,6 +1,6 @@
 ---
-	title: Deploy App
-	description: How to deploy a released version to a GitHub AL-Go environment using the COSMO Alpaca extension
+title: Deploy App
+description: How to deploy a released version to a GitHub AL-Go environment using the COSMO Alpaca extension
 ---
 
 # Deploy App
