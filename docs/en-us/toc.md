@@ -98,6 +98,8 @@
 
 ### [Add Environment](github/add-environment.md)
 
+### [Deploy App](github/deploy-app.md)
+
 <!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
 
 <!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
