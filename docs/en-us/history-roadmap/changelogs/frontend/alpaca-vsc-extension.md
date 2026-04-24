@@ -1,12 +1,17 @@
 ---
-    title: Visual Studio Code Extension (Preview) Changelog
-    description: Visual Studio Code Extension (Preview) Changelog
+    title: Visual Studio Code Extension Changelog
+    description: Visual Studio Code Extension Changelog
     orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
 ---
 
-# Visual Studio Code Extension (Preview) Changelog
+# Visual Studio Code Extension Changelog
 
-All notable changes to the Visual Studio Code Extension (Preview)
+All notable changes to the Visual Studio Code Extension
+
+## v1.0.0 (2026-04-24)
+
+- Move extension out of preview
+- Add support to browse Azure DevOps artifact feeds and download packages
 
 ## v0.83.2 (2026-04-24)
 

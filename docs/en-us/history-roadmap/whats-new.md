@@ -12,11 +12,11 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 # Frontend
 
-## Visual Studio Code Extension (Preview)
+## Visual Studio Code Extension
 
 [Changelog](changelogs/frontend/alpaca-vsc-extension.md)
 
-## Visual Studio Code Extension
+## Visual Studio Code Extension (legacy)
 
 [Changelog](changelogs/frontend/azdevops-vscode-extension.md)
 
