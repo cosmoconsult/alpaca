@@ -94,9 +94,9 @@
 
 ## Releases & Deployment
 
-### [Create Release](github/create-release.md)
-
 ### [Add Environment](github/add-environment.md)
+
+### [Create Release](github/create-release.md)
 
 ### [Deploy App](github/deploy-app.md)
 
