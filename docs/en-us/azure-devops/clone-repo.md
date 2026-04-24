@@ -17,7 +17,7 @@ To clone the repository, you take these steps:
 With that, you are ready to start developing. You might want to [create a container][create-container] and [setup your launch.json file][setup-launch] to start publishing and debugging
 
 > [!TIP]
-> The screenshots/videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
+> The screenshots/videos below are from the **Legacy Extension**. The extension workflow is the same, but the UI may look slightly different.
 
 <video width="1280px" height="720px" controls>
   <source src="../media/vsc-extension-clone.mp4" type="video/mp4">

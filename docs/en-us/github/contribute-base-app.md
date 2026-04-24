@@ -7,12 +7,12 @@
 
 1. Join the Microsoft Dynamics 365 Business Central Base Application contribution pilot : https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR_Qj5hjzNeNOhBcvBoRIOltUOVBVTklZN1hBOTZJUU40OE5CUzNWNk1FQy4u
 1. Fork https://github.com/microsoft/BusinessCentralApps
-1. In VS Code, download "COSMO Alpaca Preview"
-1. Open the COSMO Alpaca Preview extension from the sidebar and search for the forked BusinessCentralApps repo in the tree
+1. In VS Code, download **COSMO Alpaca**
+1. Open the **COSMO Alpaca** extension from the sidebar and search for the forked BusinessCentralApps repo in the tree
 1. On the project "App" do a right-cick and select "Create container" and enter a name for your new container
 1. While the container is creating, right-click on the repository and select "Clone repository"
 1. Open the directory "/App/Layers/W1/BaseApp" within the cloned repository
-1. In the new window, open the COSMO Alpaca Preview and find your container underneath project
+1. In the new window, open the **COSMO Alpaca** and find your container underneath project
 1. Wait until the container is "healthy". When the container is in "starting" status you can do a right click on the container and select "Show logs" to see what is happening
 1. When the container is healthy, right-click on the container and select "Create launch.json" to setup the connection to the container for development
 1. Right-click on the container and select "Download DLL package"

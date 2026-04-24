@@ -6,7 +6,7 @@
 # Work with Branches
 
 > [!TIP]
-> The screenshots/videos below are from the **Legacy Extension**. The Preview extension workflow is the same, but the UI may look slightly different.
+> The screenshots/videos below are from the **Legacy Extension**. The extension workflow is the same, but the UI may look slightly different.
 
 ## See and interact with branches
 

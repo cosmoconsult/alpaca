@@ -9,7 +9,7 @@
 
 All the feeds visible in the Packages View are also available in Alpaca containers as a source of dependency [artifacts](../azure-devops/setup-artifacts.md#nuget-feed).
 
-## [**Preview Extension**](#tab/preview)
+## [**Extension**](#tab/extension)
 
 ### Custom NuGet feeds
 

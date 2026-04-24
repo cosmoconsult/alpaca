@@ -6,7 +6,7 @@
 # MCP Tools for Alpaca
 
 > [!NOTE]
->Alpaca's MCP tools are currently in beta and only available in the [COSMO Alpaca Preview extension](https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-alpaca-preview).
+>Alpaca's MCP tools are currently in beta and only available in the [COSMO Alpaca extension](https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-alpaca).
 
 The COSMO Alpaca VS Code extension ships with built-in [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) tools that expose almost all COSMO Alpaca functionality directly to AI agents such as GitHub Copilot. This allows you to create projects, repositories, apps, and containers, manage CI/CD pipelines, work with requirements, and much more — all through natural language in agent chat.
 
