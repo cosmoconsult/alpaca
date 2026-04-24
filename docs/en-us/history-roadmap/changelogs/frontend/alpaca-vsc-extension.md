@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (Preview)
 
+## v0.83.2 (2026-04-24)
+
+- Fix missing app version prefix in the AL-Go app deployment
+
 ## v0.83.1 (2026-04-15)
 
 - Fix missing quotes in the container terminal logic
