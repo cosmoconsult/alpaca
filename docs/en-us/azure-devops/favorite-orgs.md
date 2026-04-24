@@ -22,9 +22,9 @@ This will mean that those organizations get a golden globe as icon. If you want 
 
 If you had the organization list already open before changing the setting, you have to reload once.
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
 # [**Legacy Extension**](#tab/legacy)
 

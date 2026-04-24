@@ -21,11 +21,11 @@ To make sure the customizations don't need to be created every time by hand, so 
 2. All available customizations for the entity the organization of the project is connected with are displayed. Choose a customization from the list.
 3. When the customization was applied, you'll get a notification about the success.
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
-The steps above apply to the COSMO Alpaca Preview extension.
+The steps above apply to the COSMO Alpaca extension.
 
 # [**Legacy Extension**](#tab/legacy)
 

@@ -12,9 +12,9 @@ To assign an organization to a customer, right-click on the organization and sel
 
 As part of the customer assignment, the current user is automatically assigned as the responsible user for this customer project. This assignment can be changed by [assigning a responsible user](assign-responsible-user.md).
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
 # [**Legacy Extension**](#tab/legacy)
 

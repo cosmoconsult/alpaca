@@ -28,4 +28,4 @@ Similar as when [creating a container the default way](create-container.md#creat
 
 ## Select a specific container configuration when creating a new container
 
-<!-- TODO: Add content for the Preview extension -->
+<!-- TODO: Add content for the extension -->

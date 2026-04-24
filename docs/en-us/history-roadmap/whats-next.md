@@ -17,8 +17,6 @@ Here you will find what we are currently working on and what is planned for the 
 
 ## Visual Studio Code Extension
 
-- Reimplement the whole extension and adding support for [AL-Go for GitHub](https://github.com/microsoft/AL-Go) ([Preview](https://marketplace.visualstudio.com/items?itemName=cosmoconsult.cosmo-alpaca))\
-  (The new extensions currenly provides mainly GitHub functionality, but we are adding the known Azure DevOps features step by step.)
 - 1-Click install product package in container ([COSMO Improve](https://improve.cosmoconsult.com/ideas/I-0162))
 
 # Backend

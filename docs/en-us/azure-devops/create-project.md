@@ -16,13 +16,12 @@ With that, the new project will be created. It has all the basic setup and prepa
 
 - [Code Search](https://marketplace.visualstudio.com/items?itemName=ms.vss-code-search)
 - [Pull Request Merge Conflict Extension](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.conflicts-tab)
-- [Generic Connection Viewer](https://marketplace.visualstudio.com/items?itemName=achermyanin.credentials-viewer)
 - [AL Language Syntax Highlights](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.allanghighlights)
 
 You're now ready to [create a repository with an AL app](create-app.md).
 
 > [!NOTE]
->To add a new project in the preview Alpaca extension, use the **plus (+) icon** next to the organization name.
+>To add a new project in the Alpaca extension, use the **plus (+) icon** next to the organization name.
 >
 >![Organization options](../media/vscode.dev/vscode-browser-project-add.png)
 

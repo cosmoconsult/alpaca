@@ -9,9 +9,9 @@ If you are working with Azure DevOps organizations connected to different Azure 
 
 If you regularly need to switch tenants we heavily recommend to set up [separate profiles in VS Code](https://code.visualstudio.com/docs/editor/profiles) for the different tenants.
 
-# [**Preview Extension**](#tab/preview)
+# [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the Preview extension -->
+<!-- TODO: Add updated screenshot/video for the extension -->
 
 # [**Legacy Extension**](#tab/legacy)
 
