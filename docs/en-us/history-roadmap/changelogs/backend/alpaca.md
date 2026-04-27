@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.0.1 (2026-04-27)
+
+- Fix issue where required configuration values were missing from the deployment configuration
+- Fix issue where NuGet package metadata failed to load
+
 ## v0.99.1 (2026-04-23)
 
 - Fix issue where AL-Go deployment process used incorrect version format when triggering deployment workflows
