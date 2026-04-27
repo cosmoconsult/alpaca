@@ -14,7 +14,7 @@ Use the following naming scheme:
 | Scenario | Pattern | Example |
 | - | - | - |
 | Customer project | `bc-customer-<customername>` | `bc-customer-acme` |
-| Product | `bc-product-<productname>` | `bc-product-opplus` |
+| Product | `bc-solution-<productname>` | `bc-solution-opplus` |
 | Asset / shared library | `bc-asset-<assetname>` | `bc-asset-translations` |
 
 ## Repository structure
