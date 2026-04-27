@@ -8,7 +8,7 @@
 
 All notable changes to the Alpaca Backend
 
-## v1.0.1 - v1.0.2 (2026-04-27)
+## v1.0.1 - v1.0.3 (2026-04-27)
 
 - Fix issue where required configuration values were missing from the deployment configuration
 - Fix issue where NuGet package metadata failed to load
