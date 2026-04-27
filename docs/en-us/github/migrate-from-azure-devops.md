@@ -434,7 +434,7 @@ Fields that were dropped:
 - `licenseFile` — BC 23+ uses Cronus by default; if needed, use `licenseFileUrlSecretName`
 - fileshare `url` — replaced with HTTPS URL
 
-## Merge multiple Azure DevOps Repositories into one multi project AL-Go repository
+## Merge multiple Azure DevOps repositories into one multi-project AL-Go repository
 
 In Azure DevOps, a repository was often created for each app, with one subfolder for the actual app and another for the test app.
 In AL-Go, it often makes sense to convert several of these repositories into one multi-project repository.
