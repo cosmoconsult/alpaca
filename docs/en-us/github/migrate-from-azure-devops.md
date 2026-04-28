@@ -485,6 +485,13 @@ It's possible that the `git log` may not properly show changes before the merge 
 When pushing to GitHub, an error may occur if the repository history contains files larger than 100 MB. In this case, these files must be removed or managed using Git LFS.
 The files can be removed from the history using the following commands (requires Python and pip; use Codespace if necessary). The filenames can be found in the Git error message that appears during the push. Warning: This changes the commit history and should only be done if absolutely necessary. Because these steps are run in an existing working repository rather than in a fresh clone, `git filter-repo` may otherwise refuse to run with a safety error. In this specific situation, `--force` is required because you are intentionally rewriting the local history before pushing the migrated repository to GitHub. As always, test and verify locally first before pushing the changes to GitHub.
 
+```powershell
+# Step 1: Install git-filter-repo if not already installed
+python -m pip install git-filter-repo
+
+# Step 2: Remove large files from history
+git filter-repo --path migration/Export-NAVObjects/01_NavBaseObjects.txt --invert-paths
+git filter-repo --path migration/Export-NAVObjects/02_NavModuleObjects.txt --invert-paths # Repeat for each large file
 
 #Step 3: Add origin remote and push to GitHub
 git remote add origin https://github.com/[MyOrga]/[MyRepo].git
