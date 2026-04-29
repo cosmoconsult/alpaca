@@ -54,4 +54,4 @@ The change logs contain all notable changes to COSMO Alpaca.
 
 ### Alpaca AL-Go AppSource App Template
 
-**available soon...**
+[Changelog](changelogs/backend/alpaca-appsource.md)

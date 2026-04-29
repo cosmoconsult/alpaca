@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## v2.7.0 (2026-04-29)
+
+- Updated to [Alpaca-Actions@v2.7.0](./alpaca-actions.md#v270-2026-04-29)
+- Improved context loading for Alpaca integration into AL-Go build workflow
+
 ## (2026-03-25)
 
 - Updated to [Alpaca-Actions@v2.6.0](./alpaca-actions.md#v260-2026-03-24)
