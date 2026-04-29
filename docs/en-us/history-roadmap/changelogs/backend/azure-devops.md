@@ -11,7 +11,7 @@ All notable changes to the Azure DevOps Backend
 ## v1.56.0 (2026-04-29)
 
 - Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4811)
-- Add test-specific ruleset and codecops in the cosmo.json [see #4815](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4815/)
+- Add test-specific ruleset and codeCops in the cosmo.json [see #4815](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4815/)
 
 ## v1.55.0 (2026-04-02)
 
