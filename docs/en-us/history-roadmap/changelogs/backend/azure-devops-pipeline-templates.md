@@ -14,7 +14,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.60.0 (2026-04-28)
 
-- Add feature that sets build by in the app manifest on compilation [see #4812](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4812)
+- Add feature that sets the `build.by` property in `app.json` during compilation [see #4812](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4812)
 
 ## v2.59.3 (2026-04-21)
 
