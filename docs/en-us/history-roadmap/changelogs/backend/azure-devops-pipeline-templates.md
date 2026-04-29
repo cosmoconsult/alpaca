@@ -42,7 +42,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.57.0 (2026-04-13)
 
-- Add feature to support different rulesets and codecops for the test app via variables
+- Add feature to support different rulesets and `codeCops` for the test app via variables
 
 ## v2.56.2 (2026-04-02)
 
