@@ -8,6 +8,46 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.61.0 (2026-04-28)
+
+- Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4811)
+
+## v2.60.0 (2026-04-28)
+
+- Add feature that sets build by in the app manifest on compilation [see #4812](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4812)
+
+## v2.59.3 (2026-04-21)
+
+- Fix issue where the dependency download had to check already downloaded dependencies each time [see #4795](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4795)
+
+## v2.59.2 (2026-04-17)
+
+- Fix issue with the refactored PowerShell logging in pipelines
+
+## v2.59.1 (2026-04-16)
+
+- Fix issue where the ruleset file of the cosmo.json was not used for the test app [see #4786](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4786)
+
+## v2.59.0 (2026-04-15)
+
+- Refactored PowerShell logging in pipelines for consistency and readability [see #4778](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4778)
+
+## v2.58.0 (2026-04-14)
+
+- Changed SaaS deployment of the release pipeline to always create a new upload context [see #4777](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4777)
+
+## v2.57.1 (2026-04-13)
+
+- Fix of some typos
+
+## v2.57.0 (2026-04-13)
+
+- Add feature to support different rulesets and codecops for the test app via variables
+
+## v2.56.2 (2026-04-02)
+
+- Fix issue where the extraction of the compiler from the latest AL VSIX failed [see #4765](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4765)
+
 ## v2.56.1 (2026-03-30)
 
 - Fix issue where the initial build of the localization pipeline always used "base" or "w1" instead of the country of the BC artifact [see #4740](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4740)
