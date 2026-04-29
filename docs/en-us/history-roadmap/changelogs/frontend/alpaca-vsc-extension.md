@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.0.1 (2026-04-30)
+
+- Show packages view also in functional mode
+- Show prominent inline actions also in context menus for all tree view elements
+- Fix issue where loading NuGet feeds or packages could result with an 401 unauthorized error
+
 ## v1.0.0 (2026-04-24)
 
 - Move extension out of preview
