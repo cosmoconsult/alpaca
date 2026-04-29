@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.7.0 (2026-04-29)
+
+- Add warning for unsupported AL-Go setting "additionalCountries"
+- Add support to skip container creation for AL-Go projects with "doNotPublishApps"
+
 ## v2.6.0 (2026-03-24)
 
 - Update documentation links
