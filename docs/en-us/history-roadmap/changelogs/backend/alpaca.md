@@ -8,6 +8,18 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.3.0 (2026-04-29)
+
+- Add test-specific ruleset and codeCops in the `cosmo.json`
+
+## v1.2.0 (2026-04-29)
+
+- Add feature to publish artifacts that are dependent on the test app
+
+## v1.1.0 (2026-04-28)
+
+- Pass the GitHub workflow name instead of the ID to Kubernetes annotations and labels
+
 ## v1.0.1 - v1.0.3 (2026-04-27)
 
 - Fix issue where required configuration values were missing from the deployment configuration
