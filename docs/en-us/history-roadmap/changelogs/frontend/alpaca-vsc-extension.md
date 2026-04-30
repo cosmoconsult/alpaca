@@ -12,6 +12,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Show packages view also in functional mode
 - Show prominent inline actions also in context menus for all tree view elements
+- Add UI action to toggle the visibility of pull requests between all pull requests and only pull requests created by the current user
 - Fix issue where loading NuGet feeds or packages could result with an 401 unauthorized error
 
 ## v1.0.0 (2026-04-24)
