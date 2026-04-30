@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.3.0 (2026-04-29)
 
-- Add test-specific ruleset and codeCops in the cosmo.json
+- Add test-specific ruleset and codeCops in the `cosmo.json`
 
 ## v1.2.0 (2026-04-29)
 
