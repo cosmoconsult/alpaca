@@ -490,8 +490,8 @@ The files can be removed from the history using the following commands (requires
 python -m pip install git-filter-repo
 
 # Step 2: Remove large files from history
-git filter-repo --path migration/Export-NAVObjects/01_NavBaseObjects.txt --invert-paths
-git filter-repo --path migration/Export-NAVObjects/02_NavModuleObjects.txt --invert-paths # Repeat for each large file
+git filter-repo --path path/to/file-reported-by-github.ext --invert-paths
+git filter-repo --path path/to/another-file-reported-by-github.ext --invert-paths # Repeat for each large file
 
 #Step 3: Add origin remote and push to GitHub
 git remote add origin https://github.com/[MyOrga]/[MyRepo].git
