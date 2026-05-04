@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.3.1 (2026-05-04)
+
+- Fix issue where additional volumes were not mounted for Azure File Share artifacts
+
 ## v1.3.0 (2026-04-29)
 
 - Add test-specific ruleset and codeCops in the `cosmo.json`
