@@ -493,7 +493,7 @@ python -m pip install git-filter-repo
 git filter-repo --path path/to/file-reported-by-github.ext --invert-paths
 git filter-repo --path path/to/another-file-reported-by-github.ext --invert-paths # Repeat for each large file
 
-#Step 3: Add origin remote and push to GitHub
+# Step 3: Add origin remote and push to GitHub
 git remote add origin https://github.com/[MyOrga]/[MyRepo].git
 git push origin --force --all
 git push origin --force --tags
