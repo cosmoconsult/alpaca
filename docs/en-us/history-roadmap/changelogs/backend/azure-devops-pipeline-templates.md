@@ -14,7 +14,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.62.0 (2026-04-29)
 
-- Add test-specific ruleset and codecops [see #4815](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4815)
+- Add test-specific ruleset and codeCops [see #4815](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4815)
 
 ## v2.61.0 (2026-04-28)
 
