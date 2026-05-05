@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.63.0 (2026-05-05)
+
+- Revert: Changed SaaS deployment of the release pipeline to always create a new upload context [see #4777](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4777)
+
+## v2.62.0 (2026-04-29)
+
+- Add test-specific ruleset and codecops [see #4815](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4815)
+
 ## v2.61.0 (2026-04-28)
 
 - Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4811)
