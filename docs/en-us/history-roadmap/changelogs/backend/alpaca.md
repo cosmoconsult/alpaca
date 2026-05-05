@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.3.2 (2026-05-05)
+
+- Fix issue where on-premises deployments were not always configured to run on Windows with PowerShell
+
 ## v1.3.1 (2026-05-04)
 
 - Fix issue where additional volumes were not mounted for Azure File Share artifacts
