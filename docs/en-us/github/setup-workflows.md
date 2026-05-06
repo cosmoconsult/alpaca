@@ -149,6 +149,8 @@ Project example in `./**/.AL-Go/settings.json`
 }
 ```
 
+This can also be solved by using [Preconfigured Build Modes (COSMO-only)](preconfigured-build-modes.md).
+
 
 ## Cron configuration example
 
@@ -173,6 +175,7 @@ You can set up schedules for each of these workflows independently using their r
 
 Relevant docs:
 
+- [Preconfigured Build Modes (COSMO-only)](preconfigured-build-modes.md)
 - [AL-Go `workflowSchedule`](https://aka.ms/algosettings#workflow-specific-settings)
 - [Update AL-Go system files](https://github.com/microsoft/AL-Go/blob/main/Scenarios/UpdateAlGoSystemFiles.md)
 - [crontab.guru](https://crontab.guru/)
