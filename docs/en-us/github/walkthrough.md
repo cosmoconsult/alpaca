@@ -14,13 +14,16 @@ Before starting with the walkthrough, let's set up our tooling.
 1. [Sign up and create an GitHub organization](create-org.md)
 1. [Set up VS Code and the COSMO Alpaca Extension](../getting-started/setup-vsce.md)
 
+> [!IMPORTANT]
+> **COSMO** users don't have to create a GitHub organization as all repositories are to be created within the **cosmconsult** organization.
+
 ## Create your first app and requirement
 
 Imagine you're the project manager or lead developer and you have a new customer. You now prepare the new project and set up the new repository for that customer via VS Code and create the first requirement:
 
-2. [Create repository, AL App and workflows](create-app.md)
+1. [Create repository, AL App and workflows](create-app.md)
 1. [Create a AL-Go project](create-project.md) (optional, only needed for multi-project repositories)
-3. [Open your project/repository in the browser](../shared/open-stuff.md) and create a new issue/workitem that you'll be working on next
+1. [Open your project/repository in the browser](../shared/open-stuff.md) and create a new issue/workitem that you'll be working on next
 
 ## Implementing your first requirement
 
