@@ -15,7 +15,7 @@ Before starting with the walkthrough, let's set up our tooling.
 1. [Set up VS Code and the COSMO Alpaca Extension](../getting-started/setup-vsce.md)
 
 > [!IMPORTANT]
-> **COSMO** users don't have to create a GitHub organization as all repositories are to be created within the **cosmconsult** organization.
+> **COSMO** users don't have to create a GitHub organization as all repositories are to be created within the **cosmoconsult** organization.
 
 ## Create your first app and requirement
 
