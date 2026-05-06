@@ -11,7 +11,7 @@ Here you will find what we are currently working on and what is planned for the 
 
 # General
 
-- Update documenation and remove outdated information (e.g. Docker Swarm specifics)
+- Update documentation and remove outdated information (e.g. Docker Swarm specifics)
 
 # Frontend
 
@@ -28,6 +28,7 @@ Here you will find what we are currently working on and what is planned for the 
 ## GitHub
 
 - Extend integration with AL-Go for GitHub
+- Add support for running Performance Test Apps ([#4854](https://dev.azure.com/cc-ppi/General/_workitems/edit/4854))
 
 ## Container
 

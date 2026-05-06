@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.4.0 (2026-05-06)
+
+- Add support for creating GitHub repositories from custom AL-Go template repositories
+
 ## v1.3.2 (2026-05-05)
 
 - Fix issue where on-premises deployments were not always configured to run on Windows with PowerShell
