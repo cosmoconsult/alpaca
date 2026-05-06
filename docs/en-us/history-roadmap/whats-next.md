@@ -28,7 +28,7 @@ Here you will find what we are currently working on and what is planned for the 
 ## GitHub
 
 - Extend integration with AL-Go for GitHub
-- Add support for running Performance Tests Apps ([#4854](https://dev.azure.com/cc-ppi/General/_workitems/edit/4854))
+- Add support for running Performance Test Apps ([#4854](https://dev.azure.com/cc-ppi/General/_workitems/edit/4854))
 
 ## Container
 
