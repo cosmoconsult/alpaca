@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.3.0 (2026-05-07)
+
+- Add support for repository creation with custom AL-Go GitHub templates of the same owner
+
 ## v1.2.0 (2026-05-07)
 
 - **COSMO-only**: Propose entity and customer assignment on project/repository creation
@@ -283,7 +287,7 @@ All notable changes to the Visual Studio Code Extension
 ## v0.53.0 (2025-08-28)
 
 - Add function to create projects
-  
+
 ## v0.52.1 (2025-08-27)
 
 - Fix issue when creating launch.json
@@ -299,7 +303,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Update Alpaca API client
 - Add function to customize Azure DevOps processes
-  
+
 ## v0.50.1 (2025-07-24)
 
 - Update Alpaca API client
@@ -439,7 +443,7 @@ All notable changes to the Visual Studio Code Extension
 - Improve documentation of auto start/stop actions and settings
 - Update dependency packages
 - Update API clients
-  
+
 ## 0.31.0 (2024-11-19)
 
 - Fix visibility issue when switching to only show favorites
