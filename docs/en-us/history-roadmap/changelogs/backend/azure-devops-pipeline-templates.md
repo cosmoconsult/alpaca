@@ -1,7 +1,7 @@
 ---
     title: Azure DevOps Pipeline Templates Changelog
     description: Azure DevOps Pipeline Templates Changelog
-    orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/Templates-DevOps-D365BC?path=%2Fchangelog.md
+    orig-source: https://github.com/cosmoconsult/alpaca-ado-templates-devops
 ---
 
 # Azure DevOps Pipeline Templates Changelog

@@ -1,12 +1,16 @@
 ---
     title: Visual Studio Code Extension Changelog
     description: Visual Studio Code Extension Changelog
-    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
+    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension
 ---
 
 # Visual Studio Code Extension Changelog
 
 All notable changes to the Visual Studio Code Extension
+
+## v1.2.0 (2026-05-07)
+
+- **COSMO-only**: Propose entity and customer assignment on project/repository creation
 
 ## v1.1.0 (2026-04-30)
 
