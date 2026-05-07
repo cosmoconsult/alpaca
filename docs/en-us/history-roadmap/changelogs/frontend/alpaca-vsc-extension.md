@@ -1,7 +1,7 @@
 ---
     title: Visual Studio Code Extension Changelog
     description: Visual Studio Code Extension Changelog
-    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
+    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension
 ---
 
 # Visual Studio Code Extension Changelog

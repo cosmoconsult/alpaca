@@ -1,7 +1,7 @@
 ---
     title: Visual Studio Code Extension (legacy) Changelog
     description: Visual Studio Code Extension (legacy) Changelog
-    orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-vscode-extension?path=/CHANGELOG.md
+    orig-source: https://dev.azure.com/cc-ppi/Self-Service/_git/azdevops-vscode-extension
 ---
 
 # Visual Studio Code Extension (legacy) Changelog
