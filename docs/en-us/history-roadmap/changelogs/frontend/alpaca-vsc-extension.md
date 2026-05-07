@@ -287,8 +287,8 @@ All notable changes to the Visual Studio Code Extension
 ## v0.52.1 (2025-08-27)
 
 - Fix issue when creating launch.json
-- Fix SSH key permission error on Windows when opening terminal or file share ([related change](azdevops-vscode-extension.md#v1350-2025-07-22))
-- Cache expiration is now configurable: `cosmo-alpaca.cacheExpirationHours` ([related change](azdevops-vscode-extension.md#v1360-2025-07-25))
+- Fix SSH key permission error on Windows when opening terminal or file share ([related change](https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/history-roadmap/changelogs/frontend/azdevops-vscode-extension.html#v1350-2025-07-22))
+- Cache expiration is now configurable: `cosmo-alpaca.cacheExpirationHours` ([related change](https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/history-roadmap/changelogs/frontend/azdevops-vscode-extension.html#v1360-2025-07-25))
 - Update dependency packages
 
 ## v0.52.0 (2025-08-13)
