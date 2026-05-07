@@ -157,7 +157,7 @@ The additional deployment feeds are used in Product Development to deploy the sa
 "licenseFile": ""
 ```
 
-- *COSMO-only*: If the default Cronus license doesn't work for you, you can use a country specific development license variable. Unfortunatly we can only provide updated licenses for the latest BC versions, but to avoid updating the license in your cosmo.json repeatedly, you can now use the new "latest" license secrets. Those secrets are named after the following format: `dbclic-bc-<language>` *(.bclicense)* or `devlic-bc-<language>` *(.flf)*. e.g.:
+- **COSMO-only**: If the default Cronus license doesn't work for you, you can use a country specific development license variable. Unfortunatly we can only provide updated licenses for the latest BC versions, but to avoid updating the license in your cosmo.json repeatedly, you can now use the new "latest" license secrets. Those secrets are named after the following format: `dbclic-bc-<language>` *(.bclicense)* or `devlic-bc-<language>` *(.flf)*. e.g.:
   - **.bclicense** *(BC version **17.12**, **18.7**, **19.1** and later)*:
     - $(dbclic-bc-at)
     - $(dbclic-bc-de)

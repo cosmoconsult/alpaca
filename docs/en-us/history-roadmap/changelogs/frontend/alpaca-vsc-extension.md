@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.2.0 (2026-05-07)
+
+- **COSMO-only**: Propose entity and customer assignment on project/repository creation
+
 ## v1.1.0 (2026-04-30)
 
 - Show packages view also in functional mode
