@@ -1,12 +1,24 @@
 ---
     title: Visual Studio Code Extension Changelog
     description: Visual Studio Code Extension Changelog
-    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension/releases
+    orig-source: https://github.com/cosmoconsult/alpaca-vsc-extension
 ---
 
 # Visual Studio Code Extension Changelog
 
 All notable changes to the Visual Studio Code Extension
+
+## v1.4.0 (2026-05-07)
+
+- Add refresh button to the template picker for repository creation to reload custom AL-Go GitHub templates
+
+## v1.3.0 (2026-05-07)
+
+- Add support for repository creation with custom AL-Go GitHub templates of the same owner
+
+## v1.2.0 (2026-05-07)
+
+- **COSMO-only**: Propose entity and customer assignment on project/repository creation
 
 ## v1.1.0 (2026-04-30)
 
@@ -279,12 +291,12 @@ All notable changes to the Visual Studio Code Extension
 ## v0.53.0 (2025-08-28)
 
 - Add function to create projects
-  
+
 ## v0.52.1 (2025-08-27)
 
 - Fix issue when creating launch.json
-- Fix SSH key permission error on Windows when opening terminal or file share ([related change](azdevops-vscode-extension.md#v1350-2025-07-22))
-- Cache expiration is now configurable: `cosmo-alpaca.cacheExpirationHours` ([related change](azdevops-vscode-extension.md#v1360-2025-07-25))
+- Fix SSH key permission error on Windows when opening terminal or file share ([related change](https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/history-roadmap/changelogs/frontend/azdevops-vscode-extension.html#v1350-2025-07-22))
+- Cache expiration is now configurable: `cosmo-alpaca.cacheExpirationHours` ([related change](https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/history-roadmap/changelogs/frontend/azdevops-vscode-extension.html#v1360-2025-07-25))
 - Update dependency packages
 
 ## v0.52.0 (2025-08-13)
@@ -295,7 +307,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Update Alpaca API client
 - Add function to customize Azure DevOps processes
-  
+
 ## v0.50.1 (2025-07-24)
 
 - Update Alpaca API client
@@ -435,7 +447,7 @@ All notable changes to the Visual Studio Code Extension
 - Improve documentation of auto start/stop actions and settings
 - Update dependency packages
 - Update API clients
-  
+
 ## 0.31.0 (2024-11-19)
 
 - Fix visibility issue when switching to only show favorites
