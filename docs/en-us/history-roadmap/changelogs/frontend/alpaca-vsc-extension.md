@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.4.0 (2026-05-07)
+
+- Add refresh button to the template picker for repository creation to reload custom AL-Go GitHub templates
+
 ## v1.3.0 (2026-05-07)
 
 - Add support for repository creation with custom AL-Go GitHub templates of the same owner
