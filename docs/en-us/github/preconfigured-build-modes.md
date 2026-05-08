@@ -17,7 +17,8 @@ These settings are implemented through `ConditionalSettings` and allow you to co
 ### Behavior tokens
 
 - `nocontainer` -> sets `doNotPublishApps: true`
-- `minversion` -> sets `artifact: /onprem/*//first`
+- `minversion` or `minversion:sandbox` -> sets `artifact: /sandbox/*//first` and `nuGetFeedSelectMode: EarliestMatching`
+- `minversion:onprem` -> sets `artifact: /onprem/*//first` and `nuGetFeedSelectMode: EarliestMatching`
 
 ### Country tokens
 
@@ -32,7 +33,8 @@ The wildcard patterns allow token matching at the start, middle, or end of the b
 That means you can define combined build modes such as:
 
 - `nocontainer-minversion-country:de`
-- `country:us-minversion`
+- `country:us-minversion:sandbox`
+- `country:gb-minversion:onprem`
 - `featureX-country:at-nocontainer`
 
 If a combined build mode matches multiple conditional blocks, AL-Go applies all matching settings.
@@ -46,6 +48,7 @@ Example in `./**/.AL-Go/settings.json`:
   "buildModes": [
     "Default",
     "nocontainer-minversion-country:de",
+    "country:gb-minversion:onprem",
     "country:us"
   ]
 }
@@ -54,8 +57,15 @@ Example in `./**/.AL-Go/settings.json`:
 Result for `nocontainer-minversion-country:de`:
 
 - `doNotPublishApps: true`
-- `artifact: /onprem/*//first`
+- `artifact: /sandbox/*//first`
+- `nuGetFeedSelectMode: EarliestMatching`
 - `country: de`
+
+Result for `country:gb-minversion:onprem`:
+
+- `artifact: /onprem/*//first`
+- `nuGetFeedSelectMode: EarliestMatching`
+- `country: gb`
 
 ## Notes
 
