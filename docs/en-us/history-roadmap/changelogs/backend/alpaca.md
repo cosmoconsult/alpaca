@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.5.0 (2026-05-11)
+
+- Add support for specifying a server instance name when creating GitHub OnPrem environments
+
+
 ## v1.4.0 (2026-05-06)
 
 - Add support for creating GitHub repositories from custom AL-Go template repositories
