@@ -33,7 +33,7 @@ Collaborate on the Business Central base app with other teams and contributors.
 
 ### COSMO-only Features
 
-Internal features for COSMO CONSULT teams, including assigning organizations to COSMO entities for internal tracking.
+Internal features for COSMO CONSULT teams, including [preconfigured build modes](preconfigured-build-modes.md) for conditional workflow behavior and assigning organizations to COSMO entities for internal tracking.
 
 ## Prerequisites
 

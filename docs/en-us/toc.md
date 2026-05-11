@@ -130,6 +130,8 @@
 
 ### [Assign Organization to Entity](github/assign-entity.md)
 
+### [Preconfigured Build Modes](github/preconfigured-build-modes.md)
+
 # [Azure DevOps](azure-devops/index.md)
 
 ## [Walkthrough](azure-devops/walkthrough.md)
