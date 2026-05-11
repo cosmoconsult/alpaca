@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.6.0 (2026-05-11)
+
+- Require the name of the BC server instance when creating on-premise GitHub environments
+
 ## v1.5.0 (2026-05-08)
 
 - Automatically stop container health checks when the status could not be retrieved multiple times
