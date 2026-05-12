@@ -57,6 +57,18 @@ Settings to setup artifacts for containers.
 | - | - | - | - | - |
 | `alpaca.artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
 
+### Authentication
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca.auth` | string | `NavUserPassword` | container | The authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`. |
+
+> [!IMPORTANT]
+> To use `AAD` authentication, you must have a verified email address in your GitHub account that matches the domain of the [AAD authentication configuration](../admin/index.md#configuring-your-backend-for-aad-authentication).
+
+> [!NOTE]
+> This setting is only relevant for development containers created via VS Code. Build containers used in GitHub workflows always use `NavUserPassword` authentication.
+
 ### Translations
 
 Settings to setup translations creation and testing using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync).
@@ -71,7 +83,7 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 ## Migrating from alpaca.json
 
 Migrate and remove existing *alpaca.json* files.
- 
+
 Mapping of container configurations to AL-Go settings files:
 > - default   -> .github/AL-Go-Settings.json
 > - current   -> .github/AL-Go-Settings.json
