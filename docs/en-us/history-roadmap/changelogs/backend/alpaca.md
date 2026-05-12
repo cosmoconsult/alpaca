@@ -11,7 +11,6 @@ All notable changes to the Alpaca Backend
 ## v1.6.0 (2026-05-12)
 
 - Add support for cloning an existing container
-- Make the filter parameter optional when retrieving containers of a user
 
 ## v1.5.0 (2026-05-11)
 
