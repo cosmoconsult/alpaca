@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.7.0 (2026-05-12)
+
+- Add action to clone a container by creating a new container based on an existing one
+
 ## v1.6.0 (2026-05-11)
 
 - Require the name of the BC server instance when creating on-premise GitHub environments
