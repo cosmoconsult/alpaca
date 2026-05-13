@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.7.0 (2026-05-13)
+
+- Add caching for AL-Go repositories in GitHub to improve response times
+
 ## v1.6.0 (2026-05-12)
 
 - Add support for cloning an existing container
