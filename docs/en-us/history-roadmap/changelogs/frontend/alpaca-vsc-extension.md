@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.8.0 (2026-05-12)
+
+- Add authentication scope to request access to the user's profile on GitHub
+
 ## v1.7.0 (2026-05-12)
 
 - Add action to clone a container by creating a new container based on an existing one
