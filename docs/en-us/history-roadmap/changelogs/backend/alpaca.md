@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.8.0 (2026-05-13)
+
+- Add repository write permission check when updating CI/CD settings for a project
+- Skip CI/CD permission check for basic users when updating project settings
+
 ## v1.7.0 (2026-05-13)
 
 - Add caching for AL-Go repositories in GitHub to improve response times
