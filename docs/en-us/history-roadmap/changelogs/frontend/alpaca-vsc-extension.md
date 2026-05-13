@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.9.0 (2026-05-13)
+
+- Add highlight for GitHub repositories with missing/invalid AL-Go settings
+
 ## v1.8.0 (2026-05-12)
 
 - Add authentication scope to request access to the user's profile on GitHub
