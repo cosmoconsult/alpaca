@@ -24,7 +24,7 @@ These settings are implemented through `ConditionalSettings` and allow you to co
 
 Use one of these as `country:<code>`:
 
-- `w1`, `base`, `at`, `au`, `be`, `ca`, `ch`, `cz`, `de`, `dk`, `dk`, `dk`, `es`, `fi`, `fr`, `gb`, `in`, `is`, `it`, `mx`, `nl`, `no`, `nz`, `ru`, `se`, `us`
+- `w1`, `base`, `at`, `au`, `be`, `ca`, `ch`, `cz`, `de`, `dk`, `es`, `fi`, `fr`, `gb`, `in`, `is`, `it`, `mx`, `nl`, `no`, `nz`, `ru`, `se`, `us`
 
 ## How combinations work
 
