@@ -213,7 +213,9 @@ You can optionally set custom BC service tier or Web server settings within the 
 |-|-|-|-|
 |`"compilerVsixVersion"`    |string  |optional|Defines the version of the AL language VSC Extension whose AL compiler is to be used (`container` (default), `latest`, `prerelease`, `<a>[.<b>][.<c>][.<d>]`)|
 |`"codeCops"`               |string[]|optional|Defines the array of the AL Analyzer(s) used for compiling (e.g. `[ "CodeCop", "UICop", "LinterCop", "<url>", "<path>" ]`) <br/>For [LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop) it is recommended to set `"compilerVsixVersion"` to `"latest"` for the BC artifact `current` |
+|`"codeCopsTest"`            |string[]  |optional|Defines the array of the AL Analyzer(s) used to compile the test project|
 |`"rulesetFile"`            |string  |optional|Overrule the rules from the code cops. Path relative to AlSourcePath or an external url.|
+|`"rulesetFileTest"`            |string  |optional|Overrule the rules from the code cops for the test project.|
 |`"appManifestFile"`        |string  |optional|Sets the path to [manifest file (app.json)](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-json-files#Appjson) of the app. Path is relative [Build.SourcesDirectory](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)|
 |`"testAppManifestFile"`    |string  |optional|Sets the path to manifest file (app.json) of the test app. Path is relative [Build.SourcesDirectory](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml#build-variables-devops-services)|
 |`"setBuildIdInManifestOn"` |string  |optional|If this option is set the version is taken from the manifest file (app.json) and the BuildId is set on the position defined with this option. Possible values are: "None", "Build", "Revision"|
