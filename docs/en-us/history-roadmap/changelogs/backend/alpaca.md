@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.8.1 (2026-05-15)
+
+- Fix incorrect Azure DevOps repository contribute permission check when updating CI/CD pipeline templates for a project
+
 ## v1.8.0 (2026-05-13)
 
 - Add repository write permission check when updating CI/CD pipeline templates for a project
