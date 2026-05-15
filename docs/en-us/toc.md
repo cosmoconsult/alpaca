@@ -68,6 +68,8 @@
 
 ### [Rename Container](github/rename-container.md)
 
+### [Clone Container](github/clone-container.md)
+
 ### [Restart BC Service Tier](github/restart-service-tier.md)
 
 ### [Access SQL Server](shared/access-sql.md)
@@ -189,6 +191,8 @@
 ### [Backup Container Database](azure-devops/backup-database.md)
 
 ### [Rename Container](azure-devops/rename-container.md)
+
+### [Clone Container](azure-devops/clone-container.md)
 
 ### [Restart BC Service Tier](azure-devops/restart-service-tier.md)
 
