@@ -5,7 +5,7 @@
 
 # Create Repository & App
 
-We recommend to use an [organization][create-org] for your repositories. One repository can contain one or many [projects][create-project] that can contain one or many apps. 
+We recommend to use an [organization][create-org] for your repositories. One repository can contain one or many [projects][create-project] that can contain one or many apps.
 
 ## Create Repository
 
@@ -14,7 +14,10 @@ To create a repository use the `+` action next to your GitHub organization or ac
 ![Extension GitHub Create Repository](../media/extension-github-create-repo.png)
 
 Now follow the wizard:
-1. Enter the type of the new repository. Here you can choose between the PTE or AppSource Templates from Microsoft or the respective Alpaca templates (recommended). The Alpaca templates are using Alpaca's container infrastructure for the AL-Go pipelines which can then run much faster.
+1. Select the template for the new repository:
+   - Public AppSource and PTE Templates from Microsoft
+   - Public AppSource and PTE Templates for COSMO Alpaca which are configured to use COSMO Alpaca's container infrastructure for the AL-Go workflows (recommended)
+   - GitHub template repositories of the target GitHub organization/account which are AL-Go repositories.
 1. Enter the name of the new repository
 1. Select if the new repository should be private.
 
