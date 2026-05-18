@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.9.0 (2026-05-18)
+
+- Fix incorrect AL-Go project identifier resolution for container requests
+
 ## v1.8.1 (2026-05-15)
 
 - Fix incorrect Azure DevOps repository contribute permission check when updating CI/CD pipeline templates for a project
