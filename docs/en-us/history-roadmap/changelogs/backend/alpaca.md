@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.10.0 (2026-05-18)
+
+- Add support for AAD authentication for GitHub container requests, including automatic resolution of the container username based on the user's verified emails
+
 ## v1.9.0 (2026-05-18)
 
 - Fix incorrect AL-Go project identifier resolution for container requests
