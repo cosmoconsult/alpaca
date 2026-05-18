@@ -312,9 +312,9 @@ The fields are the same, but they move under the `alpaca` key.
 
 | cosmo.json field | AL-Go setting | Notes |
 | - | - | - |
-| `codeCops` | `enableCodeCop`, `enableUICop`, `customCodeCops` | AL-Go uses individual boolean flags plus an array for custom cops |
-| `rulesetFile` | `rulesetFile` | Same concept |
-| `compilerVsixVersion` | `vsixFile` | Values differ: `container`→`default`, `latest`→`latest`, `prerelease`→`preview` |
+| `codeCops` | [`enableCodeCop`](https://aka.ms/algosettings#enableCodeCop), [`enableUICop`](https://aka.ms/algosettings#enableUICop), [`enablePerTenantExtensionCop`](https://aka.ms/algosettings#enablePerTenantExtensionCop), [`enableAppSourceCop`](https://aka.ms/algosettings#enableAppSourceCop), [`customCodeCops`](https://aka.ms/algosettings#customCodeCops) | AL-Go uses individual boolean flags plus an array for custom cops |
+| `rulesetFile` | [`rulesetFile`](https://aka.ms/algosettings#rulesetFile) | Same concept but the path must be relative to the project root |
+| `compilerVsixVersion` | [`vsixFile`](https://aka.ms/algosettings#vsixFile) | Values differ: `container`→`default`, `latest`→`latest`, `prerelease`→`preview` |
 
 ### Versioning
 
@@ -326,8 +326,8 @@ The fields are the same, but they move under the `alpaca` key.
 
 | cosmo.json field | AL-Go setting | Notes |
 | - | - | - |
-| `enablePremium` | `assignPremiumPlan` | Same intent |
-| `importTestApps` | `installTestFramework` / `installTestRunner` | AL-Go has separate flags |
+| `enablePremium` | [`assignPremiumPlan`](https://aka.ms/algosettings#assignPremiumPlan) | Same intent |
+| `importTestApps` | [`installTestFramework`](https://aka.ms/algosettings#installTestFramework) / [`installTestRunner`](https://aka.ms/algosettings#installTestRunner) | AL-Go has separate flags |
 
 ## Full migration example
 
@@ -350,7 +350,16 @@ The fields are the same, but they move under the `alpaca` key.
             "authToken": "$(MyFeedPAT)"
         }
     ],
-
+    "artifacts": [
+        {
+            "name": "My-Custom-Fonts",
+            "url": "https://my.blob.core.windows.net/anypath/fonts.zip?sp=***",
+            "target": "fonts",
+            "ignoreIn": [
+                "build"
+            ]
+        }
+    ],
     "bcArtifacts": {
         "current": {
             "country": "de",
@@ -411,7 +420,15 @@ The fields are the same, but they move under the `alpaca` key.
             },
             {
                 "name": "Contoso.MyTestLibrary.f1e2d3c4-b5a6-7890-dcba-0987654321fe"
-            }
+            },
+            {
+                "name": "My-Custom-Fonts",
+                "url": "https://my.blob.core.windows.net/anypath/fonts.zip?sp=***",
+                "target": "fonts",
+                "ignoreIn": [
+                    "build"
+                ]
+        }
         ]
     }
 }
@@ -429,10 +446,22 @@ The fields are the same, but they move under the `alpaca` key.
 > The `nextMajor` configuration in `cosmo.json` used a version. In AL-Go, `nextMajor` is handled via the `select` segment of the artifact string without a specific version.
 
 Fields that were dropped:
-
-- `artifactsFeed`, `devopsPool` — Azure DevOps specific, not needed
+- `dockerSwarmUrl`, `dockerParamsForBuild` — COSMO backend build infrastructure settings are not used in GitHub Actions
+- `artifactsFeed`, `artifactsScope`, `artifactsPackageName`, `devopsPool`, `publishArtifactOnCompile`, `enableCompilerOutput`, `publishToFolderStructure` — Azure DevOps specific, not needed
 - `licenseFile` — BC 23+ uses Cronus by default; if needed, use `licenseFileUrlSecretName`
 - fileshare `url` — replaced with HTTPS URL
+- `testSuite` — AL-Go executes all tests from included test apps by default
+- `downloadSourcePreviousRelease` — AL-Go downloads previous versions from NuGet feeds, so this setting is not applicable
+- `customNavSettings` — no direct equivalent; If settings are required, try to use [BcContainerHelper setting](https://aka.ms/algosettings#bccontainerhelper-settings) to set environment Variables.
+    ```json
+    {
+        "DefaultNewContainerParameters": {
+            "additionalParameters": "-e CustomNavSettings=DisableWriteInsideTryFunctions=false"
+        }
+    }
+    ```
+    **Note:** TaskScheduler is enabled by default for dev containers and disabled by default for build containers.
+- `appImportSuppressWarnings` — AL-Go does not have a direct equivalent
 
 ## Merge multiple Azure DevOps repositories into one multi-project AL-Go repository
 
