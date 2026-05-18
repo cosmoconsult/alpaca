@@ -428,7 +428,7 @@ The fields are the same, but they move under the `alpaca` key.
                 "ignoreIn": [
                     "build"
                 ]
-        }
+            }
         ]
     }
 }
@@ -452,7 +452,7 @@ Fields that were dropped:
 - fileshare `url` — replaced with HTTPS URL
 - `testSuite` — AL-Go executes all tests from included test apps by default
 - `downloadSourcePreviousRelease` — AL-Go downloads previous versions from NuGet feeds, so this setting is not applicable
-- `customNavSettings` — no direct equivalent; If settings are required, try to use [BcContainerHelper setting](https://aka.ms/algosettings#bccontainerhelper-settings) to set environment Variables.
+- `customNavSettings` — no direct equivalent; if settings are required, try to use [BcContainerHelper settings](https://aka.ms/algosettings#bccontainerhelper-settings) to set environment variables.
     ```json
     {
         "DefaultNewContainerParameters": {
