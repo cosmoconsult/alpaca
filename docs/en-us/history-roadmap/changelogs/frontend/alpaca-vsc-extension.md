@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.10.0 (2026-05-19)
+
+- Show a notification when a container's autostop is less than 1 hour away, with a "Postpone 1h" option to delay the shutdown
+
 ## v1.9.0 (2026-05-13)
 
 - Add highlight for GitHub repositories with missing/invalid AL-Go settings
