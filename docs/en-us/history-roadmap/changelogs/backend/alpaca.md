@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.10.1 (2026-05-19)
+
+- Fix issue where container auto-stop time was calculated incorrectly due to missing variable assignment when rounding
+
 ## v1.10.0 (2026-05-18)
 
 - Add support for AAD authentication for GitHub container requests, including automatic resolution of the container username based on the user's verified emails
