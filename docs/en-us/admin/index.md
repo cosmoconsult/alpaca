@@ -141,9 +141,7 @@ If you want to better understand which app registrations exactly are generated, 
 
 _This is available for Azure DevOps only_
 
-### [**Extension**](#tab/extension)
-
-In the current extension, the app template is customized through a ConfigMap named `app-custom-template` in the customer configuration repository.
+The app template is customized through a ConfigMap named `app-custom-template` in the customer configuration repository.
 
 The following values are currently relevant:
 
@@ -158,8 +156,6 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
     name: app-custom-template
-    annotations:
-        selfservice.cosmoconsult.com/target-namespaces: alpaca-api
 data:
     app-custom-template__customAppJsonValues: |
         {
@@ -176,21 +172,9 @@ data:
     #app-custom-template__excludeFiles: []
 ```
 
-### [**Legacy Extension**](#tab/legacy)
+## Configuring NuGet
 
-In the legacy extension, customers can customize the template for new app repositories by creating a ConfigMap named `appconfig` in the customer configuration repository and placing the desired values under the `data` section.
-
-The following values can be customized in the ConfigMap:
-
-- `name`
-- `publisher`
-- `privacyStatement`
-- `EULA`
-- `help`
-- `url`
-- `idRangesFrom`
-- `idRangesTo`
-- `logo` (URL that will be downloaded as a file into the repository that is created)
+NuGet feeds can be configured through a ConfigMap named `nuget` in the customer configuration repository. This allows you to define multiple feed types with their respective URLs and authentication.
 
 #### Example ConfigMap
 
@@ -198,20 +182,23 @@ The following values can be customized in the ConfigMap:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-    name: appconfig
+  name: nuget
 data:
-    appconfig__name: "Your App Name"
-    appconfig__publisher: "Your Publisher"
-    appconfig__privacyStatement: "https://your-privacy-statement-url"
-    appconfig__EULA: "https://your-eula-url"
-    appconfig__help: "https://your-help-url"
-    appconfig__url: "https://your-app-url"
-    appconfig__idRangesFrom: "50000"
-    appconfig__idRangesTo: "51111"
-    appconfig__logo: "https://your-logo-url"
+  nuget: |
+    {
+      "types": [
+        {
+          "name": "OurCompany App Releases",
+          "feeds": [
+            {
+              "feedUrl": "https://pkgs.dev.azure.com/OurCompany-App-Releases/_packaging/Releases/nuget/v3/index.json",
+              "pat": "<pat>"
+            }
+          ]
+        }
+      ]
+    }
 ```
-
----
 
 ## GitHub Repo Standards
 
