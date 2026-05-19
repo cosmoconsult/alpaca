@@ -11,7 +11,7 @@ All notable changes to the Alpaca AL-Go Actions
 ## v2.8.0 (2026-05-19)
 
 - Add check for project names with the same hyphen-prefix
-- Add support to download previous version from trusted NuGet feeds for upgrade validation with AL-Go setting "alpaca.useNuGetFeedsForUpgrade"
+- Add support for downloading the previous version from trusted NuGet feeds for upgrade validation with AL-Go setting "alpaca.useNuGetFeedsForUpgrade"
 - Add support for re-run of failed jobs by creating the container if missing
 
 ## v2.7.0 (2026-04-29)
