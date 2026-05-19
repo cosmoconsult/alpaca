@@ -8,6 +8,14 @@
 
 All notable changes to the Container Backend
 
+## v1.83.0 (2026-05-19)
+
+- Fix issue where container auto-stop time override was calculated incorrectly due to missing variable assignment when rounding [see #4722](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4722)
+
+## v1.82.0 (2026-04-23)
+
+- Update backup converter version
+
 ## v1.81.0 (2026-04-22)
 
 - Improve agent name construction to handle invalid characters and max. length [see #4799](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4799)

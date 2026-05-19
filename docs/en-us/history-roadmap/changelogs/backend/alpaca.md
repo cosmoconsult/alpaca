@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.10.1 (2026-05-19)
 
-- Fix issue where container auto-stop time was calculated incorrectly due to missing variable assignment when rounding
+- Fix issue where container auto-stop time override was calculated incorrectly due to missing variable assignment when rounding
 
 ## v1.10.0 (2026-05-18)
 

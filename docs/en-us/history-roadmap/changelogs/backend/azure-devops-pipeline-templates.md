@@ -8,25 +8,29 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.64.0 (2026-05-16)
+
+- Remove tenant status check and data upgrade before publishing the app [see #4865](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4865)
+
 ## v2.63.0 (2026-05-05)
 
 - Revert: Changed SaaS deployment of the release pipeline to always create a new upload context [see #4777](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4777)
 
 ## v2.62.0 (2026-04-29)
 
-- Add test-specific ruleset and codeCops [see #4815](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4815)
+- Add test-specific ruleset and codeCops [see #4815](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4815)
 
 ## v2.61.0 (2026-04-28)
 
-- Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4811)
+- Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4811)
 
 ## v2.60.0 (2026-04-28)
 
-- Add feature that sets the `build.by` property in `app.json` during compilation [see #4812](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4812)
+- Add feature that sets the `build.by` property in `app.json` during compilation [see #4812](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4812)
 
 ## v2.59.3 (2026-04-21)
 
-- Fix issue where the dependency download had to check already downloaded dependencies each time [see #4795](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4795)
+- Fix issue where the dependency download had to check already downloaded dependencies each time [see #4795](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4795)
 
 ## v2.59.2 (2026-04-17)
 
@@ -34,11 +38,11 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.59.1 (2026-04-16)
 
-- Fix issue where the ruleset file of the cosmo.json was not used for the test app [see #4786](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4786)
+- Fix issue where the ruleset file of the cosmo.json was not used for the test app [see #4786](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4786)
 
 ## v2.59.0 (2026-04-15)
 
-- Refactored PowerShell logging in pipelines for consistency and readability [see #4778](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4778)
+- Refactored PowerShell logging in pipelines for consistency and readability [see #4778](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4778)
 
 ## v2.58.0 (2026-04-14)
 
@@ -54,7 +58,7 @@ All notable changes to the Azure DevOps Pipeline Templates
 
 ## v2.56.2 (2026-04-02)
 
-- Fix issue where the extraction of the compiler from the latest AL VSIX failed [see #4765](https://dev.azure.com/cc-ppi/83f75d99-795d-45dc-8543-9fe1918ff7f9/_workitems/edit/4765)
+- Fix issue where the extraction of the compiler from the latest AL VSIX failed [see #4765](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4765)
 
 ## v2.56.1 (2026-03-30)
 
