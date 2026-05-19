@@ -57,7 +57,7 @@ A package in the artifact feed must have the following folder structure:
 ![Folder Structure](../media/pipelines/ip-feed-folder-structure.png)
 
 > [!IMPORTANT]
-> For now, you only get the full app with type "app", but in the future test apps, rapidstart packages or runtime packages might follow.
+> For now, you only get the full app with type "app", but in the future test apps, configuration packages (rapidstart) or runtime packages might follow.
 
 ## Configuring your backend for AAD authentication
 
