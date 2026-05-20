@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.11.0 (2026-05-20)
+
+- Use HTTP HEAD instead of GET when checking artifact sizes to avoid memory issues with large artifacts
+
 ## v1.10.1 (2026-05-19)
 
 - Fix issue where container auto-stop time override was calculated incorrectly due to missing variable assignment when rounding
