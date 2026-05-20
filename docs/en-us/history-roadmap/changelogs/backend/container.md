@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.84.0 (2026-05-20)
+
+- Fix issue where container configurations failed to validate in case of big artifacts referenced via https [see #4876](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4876)
+
 ## v1.83.0 (2026-05-19)
 
 - Fix issue where container auto-stop time override was calculated incorrectly due to missing variable assignment when rounding [see #4722](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4722)
