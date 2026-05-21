@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.12.0 (2026-05-21)
+
+- Add wildcard pattern matching support for GitHub AL-Go project configuration conditions
+- Update AL-Go actions to v9.0
+
 ## v1.11.0 (2026-05-20)
 
 - Use HTTP HEAD instead of GET when checking artifacts to avoid memory issues with large artifacts
