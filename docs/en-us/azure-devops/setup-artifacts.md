@@ -154,7 +154,7 @@ You can use the VS Code extension to create the required entries for a NuGet pac
 |`target`           |string  |optional           |Specify the [Artifact Target](#artifact-target) folder in the container file system and import action.|
 |`appImportScope`   |string  |optional           |Specify the import scope for apps. The value can be `Global` (default) or `Tenant`.|
 |`appImportSyncMode`|string  |optional           |Specify the import sync mode for apps. The value can be `Add` (default), `Clean`, `Development` or `ForceSync`.|
-|`ignoreIn`         |string[]|optional           |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see [cosmo.json](setup-cosmo-json.md)*|
+|`ignoreIn`         |string[]|optional           |Specify in which container setup this artifact should be ignored. The value is an array of: `dev` and/or `build`. *(see [cosmo.json](setup-cosmo-json.md))*|
 |`dependsOn`        |string  |optional           |Specify the dependency of an artifact. The value can be **missing (default)**, `App` or `TestApp`.<br/><br/>Artifacts with a dependency will still be downloaded on container start but only installed by the build pipeline after the dependency *(e.g. `App` or `TestApp`)* was installed.|
 
 ## Product feed
