@@ -108,7 +108,7 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"downloadSourcePreviousRelease"`|string |optional     |Specify if the artifact for the breaking change test should be taken from the target branch of the pull request or from a feed. Values are: `Feed`, `PR-Target` (default). Use the above described option `"previousRelease"` to specify the feed and package name.|
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
-|`"importTestLibraries"`          |boolean|optional     |Set to true to import the Test Libraries by Microsoft. (This is only relevant when creating containers based on a backup without Test Libraries. Normal containers already include the Test Libraries)|
+|`"importTestLibraries"`          |boolean|optional     |Set to true to import the Test Libraries by Microsoft. (This is only relevant when creating containers based on a backup without Test Libraries. Normal containers already include the Test Libraries.)|
 |`"customNuGetFeeds"`             |array  |optional     |An optional array of custom NuGet feeds. [more](#custom-nuget-feeds)|
 
 ### Additional Deployment Feeds
