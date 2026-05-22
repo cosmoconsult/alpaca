@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.12.1 (2026-05-22)
+
+- Fix issue where bcArtifact property overrides were not correctly applied for GitHub container requests
+
 ## v1.12.0 (2026-05-21)
 
 - Add wildcard pattern matching support for GitHub AL-Go project configuration conditions
