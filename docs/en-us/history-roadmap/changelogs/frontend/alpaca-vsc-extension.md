@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.11.0 (2026-05-22)
+
+- Add action to allow creating a container with version and country selection
+
 ## v1.10.0 (2026-05-19)
 
 - Show a notification when a container's autostop is less than 1 hour away, with a "Postpone 1h" option to delay the shutdown
