@@ -90,6 +90,8 @@
 
 ### [Versioning Strategies](github/versioning-strategies.md)
 
+### [Custom CodeCops](github/custom-codecops.md)
+
 ### [Migrate from Azure DevOps (cosmo.json)](github/migrate-from-azure-devops.md)
 
 ### [Migrate Common Settings from alpaca.json](github/migrate-common-settings.md)
