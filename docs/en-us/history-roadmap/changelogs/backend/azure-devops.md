@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.57.0 (2026-05-26)
+
+- Add "Application Test Library" for BC 28x and higher when `importTestLibraries` is set [see #4887](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4887)
+
 ## v1.56.0 (2026-04-29)
 
 - Add feature to publish artifacts that are dependent on the test app [see #4811](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4811)
