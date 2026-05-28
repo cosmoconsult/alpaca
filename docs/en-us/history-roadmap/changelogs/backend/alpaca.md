@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.13.0 (2026-05-28)
+
+- Add support for importing test libraries for Business Central containers
+- Add support for selectively installing test runner, test framework, test libraries, and performance toolkit for Business Central containers based on AL-Go project settings
+
 ## v1.12.1 (2026-05-22)
 
 - Fix issue where bcArtifact property overrides were not correctly applied for GitHub container requests
