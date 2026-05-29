@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.13.1 (2026-05-29)
+
+- Fix issue where test libraries and performance toolkit were added to container artifacts even when no backup artifact was present
+
+
 ## v1.13.0 (2026-05-28)
 
 - Add support for importing test libraries and apps based on `cosmo.json` and AL-Go settings
