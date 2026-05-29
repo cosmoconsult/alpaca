@@ -10,8 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.13.1 (2026-05-29)
 
-- Fix issue where test libraries and performance toolkit were added to container artifacts even when no backup artifact was present
-
+- Add test libraries artifacts only for containers using a backup file
 
 ## v1.13.0 (2026-05-28)
 
