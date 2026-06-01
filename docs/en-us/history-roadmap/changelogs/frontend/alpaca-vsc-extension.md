@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.12.0 (2026-06-01)
+
+- **COSMO-only**: Make entity and customer assignment on project/repository creation optional, and add "Later" option to the prompt to allow skipping the assignment (assignment is required before creating an app at the latest)
+
 ## v1.11.0 (2026-05-22)
 
 - Add action to allow creating a container with version and country selection
