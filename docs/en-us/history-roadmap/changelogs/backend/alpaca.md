@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.15.0 (2026-06-01)
+
+- Add endpoints to create container database backups and convert backup files from .bacpac to .bak format
+
 ## v1.14.0 (2026-06-01)
 
 - Enhance container clone function to support legacy containers
