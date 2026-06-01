@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.14.0 (2026-06-01)
 
-- Enhance container clone function to support legacy containers by improving compatibility with legacy SSH secret naming and display name environment variables
+- Enhance container clone function to support legacy containers
 
 ## v1.13.1 (2026-05-29)
 
