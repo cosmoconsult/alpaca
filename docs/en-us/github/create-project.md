@@ -16,6 +16,6 @@ In the Alpaca VSC extension the projects are listed underneath the repository:
 
 Single-project repositories only have one project listed there that by default has the same name as the repository.
 
-You can create a new project by right-clicking on **Projects** and selecting **Create AL-Go project** or use the `+` action next to it. However, a popup will appear with the message: **"You need to create at least one app to create a new project. Please follow the wizard to create the app."****
+You can create a new project by right-clicking on **Projects** and selecting **Create AL-Go project** or use the `+` action next to it. However, a popup will appear with the message: **"You need to create at least one app to create a new project. Please follow the wizard to create the app."**
 
 This means you must first create an app and specify a new project name that doesn't exist yet. When [creating a new app](create-app.md) from within a project, that project will automatically be preselected.

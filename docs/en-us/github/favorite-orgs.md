@@ -38,13 +38,13 @@ This will add the organization or repository to the list of favorites or hidden 
 
 ```json
     "cosmo-alpaca.visibility.github.accounts.hidden": [
-        "AlpacaDemoHidden",
+        "AlpacaDemoHidden"
     ]
 ```
 
 ```json
     "cosmo-alpaca.visibility.github.repositories.hidden": [
-        "AlpacaDemoHiddenRepo",
+        "AlpacaDemoHiddenRepo"
     ]
 ```
 

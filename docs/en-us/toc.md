@@ -26,7 +26,7 @@
 
 ### [Initialize Repository](github/initialize-repository.md)
 
-### [Favorite Organizations](github/favorite-orgs.md)
+### [Favorite or Hide Organizations & Repositories](github/favorite-orgs.md)
 
 ### [Hybrid Working — Azure DevOps & GitHub](github/hybrid-working.md)
 

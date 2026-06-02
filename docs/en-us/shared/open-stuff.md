@@ -5,4 +5,4 @@
 
 # Open Elements in Browser
 
-Most of the elements in the tree views can be opened in the browser, e.g. an organizaiton, project, repository. To achieve that, you just right-click on the element and select **Open in browser**.
+Most of the elements in the tree views can be opened in the browser, e.g. an organization, project, or repository. To achieve that, you just right-click on the element and select **Open in browser**.

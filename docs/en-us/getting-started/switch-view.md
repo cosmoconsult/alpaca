@@ -5,7 +5,7 @@
 
 # Switch Platform View
 
-The COSMO Alpaca extension supports both Azure DevOps and Github (AL-Go). You can select your preferred platform during the initial setup of the extension ([locally in VSC](setup-vsce.md) or [in the browser](vscode-dev.md)).
+The COSMO Alpaca extension supports both Azure DevOps and GitHub (AL-Go). You can select your preferred platform during the initial setup of the extension ([locally in VS Code](setup-vsce.md) or [in the browser](vscode-dev.md)).
 
 If you want to switch your platform view later on, you can do so directly in the UI:
 

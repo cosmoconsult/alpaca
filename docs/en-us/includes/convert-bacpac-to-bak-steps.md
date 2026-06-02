@@ -1,4 +1,4 @@
-1. Upload the file to the Azure Fileshare directly in the root folder or in a subfolder (e.g in a subfolder "backups" and the name of the file is "database-backup.bacpac")
+1. Upload the file to the Azure Fileshare directly in the root folder or in a subfolder (e.g. in a subfolder "backups" and the name of the file is "database-backup.bacpac")
 1. Go to an organization, project and repository of your choosing. The conversion is not actually connected to the repository, but the container will appear below that repository.
 1. Do a right-click on the **Containers** item and select **Convert database backup**
 1. Enter the display name for the conversion container, e.g. "Backup Conversion"
