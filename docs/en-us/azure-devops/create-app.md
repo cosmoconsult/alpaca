@@ -25,9 +25,9 @@ When creating a BC app using COSMO Alpaca and Azure DevOps, you need an [organiz
 
 Now follow the wizard:
 1. Enter a name for the new app (the repository will have the same name)
-2. Select the BC version that you want to use
-3. Select the country that you want to use
-4. Select the license that you want to use
-5. Select the auth mechanism (see param `auth` described [here](setup-cosmo-json.md#common-parameters))
+1. Select the BC version that you want to use
+1. Select the country that you want to use
+1. Select the license that you want to use
+1. Select the auth mechanism (see param `auth` described [here](setup-cosmo-json.md#common-parameters))
 
 With that, the new repository and pipeline will be created. It has all the basic setup and preparation needed to start working on a Business Central project including e.g. a branch policy and automatic setup of artifacts in your pipeline. After creation has finished, you will see your new repository and the new pipeline, both with the name of the app that you entered.

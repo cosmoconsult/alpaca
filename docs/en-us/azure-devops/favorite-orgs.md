@@ -22,7 +22,7 @@ This will add the organization or project to the list of favorites or hidden ite
    - **Visibility › Azure DevOps › Organizations: Hidden**
    - **Visibility › Azure DevOps › Projects: Hidden**
 
-## Setting Examples
+### Setting Examples
 
 ```json
     "cosmo-alpaca.visibility.azureDevops.organizations.favorites": [
