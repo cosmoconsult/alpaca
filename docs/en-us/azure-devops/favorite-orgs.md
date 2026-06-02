@@ -40,14 +40,14 @@ This will add the organization or project to the list of favorites or hidden ite
 
 ```json
     "cosmo-alpaca.visibility.azureDevops.organizations.hidden": [
-        "AlpacaDemoHidden",
         "AlpacaDemoHidden"
+    ]
 ```
 
 ```json
     "cosmo-alpaca.visibility.azureDevops.projects.hidden": [
-        "AlpacaDemoHiddenProject",
         "AlpacaDemoHiddenProject"
+    ]
 ```
 
 You can additionally configure that only your favorites are visible. To do that either toggle the filter icon above the list view or configure the setting **COSMO Alpaca: Visibility › Azure Devops › Organizations: Only Show Favorites** accordingly.
