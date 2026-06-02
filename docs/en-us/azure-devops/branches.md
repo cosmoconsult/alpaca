@@ -24,7 +24,7 @@ With a right-click, you open the branch in the browser or you can create a Pull 
 If you want to work on a work item, you will probably need a dedicated branch. To make that very easy, there is an action to do that. To use it, take the following steps:
 
 1. Find the work item that you want to work on
-1. Right-click on the work item and select "Work on this (create brach)"
+1. Right-click on the work item and select **Work on this (create branch)**
 1. In the popup that appears next, select the repository that you want to use
 1. In the next popup select the base branch that you want to base your branch on
 1. Enter the name of your branch in the entry box that comes up next

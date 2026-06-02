@@ -63,7 +63,7 @@ You can use the VS Code extension to help you create the required entries for a 
 
 1. Open the workspace of the repository in Visual Studio Code
 2. Open **COSMO Alpaca** extension
-3. Expand/Update the ["Packages" view](packages-view.md)
+3. Expand/Update the [**Packages** view](packages-view.md)
 4. Expand the entry of the required package (e.g. "COSMO Advanced Manufacturing Pack")
 5. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
 6. Right click on the wanted version, choose **Copy** and select [**Alpaca artifact JSON**](packages-view.md#actions)

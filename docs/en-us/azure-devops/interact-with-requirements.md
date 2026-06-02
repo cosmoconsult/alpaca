@@ -5,6 +5,10 @@
 
 # Interact with Requirements
 
+> [!NOTE]
+> This section describes features that are no longer available in the current COSMO Alpaca extension, but only in the Legacy Extension.
+> At the moment, there are no plans to bring these features to the current extension, but we are open to feature requests.
+
 The COSMO Alpaca extension allows a couple of interactions with WorkItems in your projects. To see the WorkItems, you go to the COSMO Alpaca view, open your project and extend "WorkItems (max 25 per query)". You will always see a couple of predefined queries there and you will also see all shared queries in your project as well as your own private queries. Please note that for now only queries of type "flat list of WorkItems" are shown. If you need more information about working with queries, please take a look at the [Azure DevOps documentation](https://docs.microsoft.com/en-us/azure/devops/boards/queries/about-managed-queries?view=azure-devops)
 
 ## Associate a WorkItem to a commit

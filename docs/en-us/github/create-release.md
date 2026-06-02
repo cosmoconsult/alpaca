@@ -11,7 +11,7 @@ In COSMO Alpaca GitHub projects, releases are managed directly from the Visual S
 
 ### 1. Open the Releases section
 
-In the COSMO Alpaca extension, expand your repository and navigate to **Releases**. Click the **+** button to start the release wizard.
+In the COSMO Alpaca extension, expand your repository and navigate to **Releases**. Click the `+` button to start the release wizard.
 
 ![Create Release button](../media/github/github-release-create.png)
 

@@ -12,25 +12,27 @@
 
 ## [VS Code Browser Setup](getting-started/vscode-dev.md)
 
+## [Switch Views](getting-started/switch-view.md)
+
 # [GitHub (AL-Go)](github/index.md)
 
 ## [Walkthrough](github/walkthrough.md)
 
 ## General Features
 
-### [Create GitHub Organization](github/create-org.md)
+### [Create Organization](github/create-org.md)
+
+### [Recommendations](github/recommendations.md)
 
 ### [Initialize Repository](github/initialize-repository.md)
 
-### [Recommendations](github/recommendations.md)
+### [Favorite Organizations](github/favorite-orgs.md)
 
 ### [Hybrid Working — Azure DevOps & GitHub](github/hybrid-working.md)
 
 ### [Work with Issues and Work Items](github/interact-with-requirements.md)
 
-<!-- ### [Download Artifacts](azure-devops/download-artifact.md) -->
-
-<!-- ### [Open Elements in Browser](shared/open-stuff.md) -->
+### [Open Elements in Browser](shared/open-stuff.md)
 
 ### [Packages View](github/packages-view.md)
 
@@ -42,13 +44,13 @@
 
 ### [Create AL-Go Project](github/create-project.md)
 
-<!--### [Clone Repository](azure-devops/clone-repo.md)-->
+### [Clone Repository](github/clone-repo.md)
 
 <!--### [Work with Branches](azure-devops/branches.md)-->
 
-## Dev Container Management
+## Container Management
 
-### [Create Container](github/create-container.md)
+### [Create Dev Container](github/create-container.md)
 
 <!-- ### [Create Standalone Container](azure-devops/create-ondemand-container.md) -->
 
@@ -64,7 +66,9 @@
 
 ### [Share Container](github/share-container.md)
 
-<!-- ### [Backup Container Database](azure-devops/backup-database.md) -->
+### [Backup Container Database](github/backup-database.md)
+
+### [Convert .bacpac to .bak](github/convert-bacpac-to-bak.md)
 
 ### [Rename Container](github/rename-container.md)
 
@@ -84,6 +88,12 @@
 
 ### [Setup Artifacts to Import on Container Startup](github/setup-artifacts.md)
 
+<!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
+
+<!-- ### [Setup Companion Containers](azure-devops/setup-companion-container.md) -->
+
+<!-- ### [Setup Custom Scripts](azure-devops/setup-custom-scripts.md) -->
+
 ## Workflow Setup
 
 ### [Setup Minimum & Other Workflows](github/setup-workflows.md)
@@ -102,35 +112,15 @@
 
 ### [Deploy App](github/deploy-app.md)
 
-<!-- ### [Setup Database Backup](azure-devops/setup-bak.md) -->
-
-<!-- ### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md) -->
-
-<!-- ### [Setup Companion Containers](azure-devops/setup-companion-container.md) -->
-
-<!-- ### [Setup Custom Scripts](azure-devops/setup-custom-scripts.md) -->
-
-<!-- ## Workflow Setup -->
-
-<!-- ### [Setup AL-Go Settings](github/setup-al-go-settings.md) -->
-
-<!-- ### [Increase App Version](azure-devops/version-increase.md) -->
-
-<!-- ### [Deploy App](azure-devops/create-release-pipeline.md) -->
-
-<!-- ### [Setup Next Major/-Minor, Localization & Minimum Workflows](azure-devops/next.md) -->
-
-<!-- ### [Using Variables](azure-devops/pipeline-variables.md) -->
-
-<!-- ### [Use Preprocessor Directives](azure-devops/preprocessor-directives.md) -->
-
 ## Collaboration
 
 ### [Contribute to Base App](github/contribute-base-app.md)
 
 ## COSMO-only Features
 
-### [Assign Organization to Entity](github/assign-entity.md)
+### [Assign Repository to Entity](github/assign-entity.md)
+
+### [Assign Repository to Customer](github/assign-customer.md)
 
 ### [Preconfigured Build Modes](github/preconfigured-build-modes.md)
 
@@ -170,9 +160,9 @@
 
 ### [Work with Branches](azure-devops/branches.md)
 
-## Dev Container Management
+## Container Management
 
-### [Create Container](azure-devops/create-container.md)
+### [Create Dev Container](azure-devops/create-container.md)
 
 ### [Create Standalone Container](azure-devops/create-ondemand-container.md)
 
@@ -189,6 +179,8 @@
 ### [Share Container](azure-devops/share-container.md)
 
 ### [Backup Container Database](azure-devops/backup-database.md)
+
+### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md)
 
 ### [Rename Container](azure-devops/rename-container.md)
 
@@ -209,8 +201,6 @@
 ### [Setup Artifacts to Import on Container Startup](azure-devops/setup-artifacts.md)
 
 ### [Setup Database Backup](azure-devops/setup-bak.md)
-
-### [Convert .bacpac to .bak](azure-devops/convert-bacpac-to-bak.md)
 
 ### [Setup Companion Containers](azure-devops/setup-companion-container.md)
 
@@ -242,11 +232,9 @@
 
 ## COSMO-only Features
 
-### [Assign Organization to Customer](azure-devops/assign-customer.md)
-
 ### [Assign Organization to Entity](azure-devops/assign-entity.md)
 
-### [Assign Organization to Responsible User](azure-devops/assign-responsible-user.md)
+### [Assign Organization to Customer](azure-devops/assign-customer.md)
 
 # [Administration](admin/index.md)
 

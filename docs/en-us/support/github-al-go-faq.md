@@ -96,7 +96,7 @@ For COSMO-internal repositories, first verify that the repository is assigned to
 
 Relevant docs:
 
-- [Assign Organization/Repository to Entity](../github/assign-entity.md)
+- [Assign Repository to Entity](../github/assign-entity.md)
 
 If the error message is still too generic, create a support ticket with repro steps:
 

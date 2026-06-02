@@ -1,0 +1,2 @@
+- **technical**: the full version of the existing VS Code extension
+- **functional**: a simplified interface focused on the core features (especially for non-technical users)
