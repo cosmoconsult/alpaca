@@ -17,11 +17,11 @@
 1. When the container is healthy, right-click on the container and select **Create launch.json** to setup the connection to the container for development
 1. Right-click on the container and select **Download DLL package**
 1. Right-click on the container and select **Copy password**
-1. Press F1 -> Download symbols, choose the container, enter your username and paste the copied password (you may need to switch AL Language extension to Pre-Release version : https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
+1. Press F1 -> Download symbols, choose the container, enter your username, and paste the copied password (you may need to switch the AL Language extension to the Pre-Release version: https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/get-al-vsix-preview-versions-visual-studio-code-marketplace)
 1. Right-click on the container and select **Prepare for base app deployment**. This sets the assembly probing paths and increases the version of the base app in app.json
 1. In the meantime the DLLs should have been downloaded via your browser. Extract and move them to the `.netpackages` directory. Reload VS Code for AL to grab those changes
-1. If you haven't got the newest AL extension and seeing errors you might need to set the runtime in app.json to 12.0
-1. Now you're ready to go. Publish with F5 and enter your username and the generated password you copied earlier the access the webclient.
+1. If you haven't got the newest AL extension and you see errors, you might need to set the runtime in app.json to 12.0
+1. Now you're ready to go. Publish with F5 and enter your username and the generated password you copied earlier to access the web client.
 
 <video width="1280px" height="720px" controls>
   <source src="../media/vscode/vsc-baseapp.mp4" type="video/mp4">

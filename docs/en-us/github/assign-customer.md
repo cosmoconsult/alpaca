@@ -8,7 +8,7 @@
 > [!IMPORTANT]
 > This is currently only available for **COSMO**
 
-It is important to assign a repository to its COSMO customer in order to be able to establish a connection between the GitHub repository and the customer´s data, which is processed/used by other COSMO services.
+It is important to assign a repository to its COSMO customer in order to be able to establish a connection between the GitHub repository and the customer's data, which is processed/used by other COSMO services.
 
 To assign a repository to a customer:
 1. Right-click on the repository and select **Assign customer account**

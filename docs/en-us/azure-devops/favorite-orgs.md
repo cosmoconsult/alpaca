@@ -17,10 +17,10 @@ This will add the organization or project to the list of favorites or hidden ite
 
 1. Open the extension settings
 1. Find the relevant setting under **COSMO Alpaca** and click on **Edit in settings.json** (as the settings are arrays, they need to be configured manually in the settings file)
-   - **Visibility › Azure Devops › Organizations: Favorites**
-   - **Visibility › Azure Devops › Projects: Favorites**
-   - **Visibility › Azure Devops › Organizations: Hidden**
-   - **Visibility › Azure Devops › Projects: Hidden**
+   - **Visibility › Azure DevOps › Organizations: Favorites**
+   - **Visibility › Azure DevOps › Projects: Favorites**
+   - **Visibility › Azure DevOps › Organizations: Hidden**
+   - **Visibility › Azure DevOps › Projects: Hidden**
 
 ## Setting Examples
 
@@ -50,7 +50,7 @@ This will add the organization or project to the list of favorites or hidden ite
     ]
 ```
 
-You can additionally configure that only your favorites are visible. To do that either toggle the filter icon above the list view or configure the setting **COSMO Alpaca: Visibility › Azure Devops › Organizations: Only Show Favorites** accordingly.
+You can additionally configure that only your favorites are visible. To do that either toggle the filter icon above the list view or configure the setting **COSMO Alpaca: Visibility › Azure DevOps › Organizations: Only Show Favorites** accordingly.
 
 ![Favorite Filter](../media/favorite-filter-devops.png)
 
