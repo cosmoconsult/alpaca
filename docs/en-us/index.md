@@ -10,8 +10,7 @@ COSMO Alpaca is intended to make the usage of Azure DevOps and GitHub (AL-Go) in
 > [!NOTE]
 > This documentation covers the **COSMO Alpaca** extension, which supports both **GitHub (AL-Go)** and **Azure DevOps**. If you are using the legacy COSMO Alpaca extension (Azure DevOps only), relevant differences are noted within the Azure DevOps pages.
 
-After installation you can select between *technical* or *functional* which will affect the UI and UX to make it more suitable for your role. The VS Code extension is therefore also easily usable by non-technical users in the browser via [vscode.dev](https://vscode.dev/).
-For a complete installation guide, see [VS Code in the browser](getting-started/vscode-dev.md).
+After installation you can select between **technical** or **functional** which will affect the UI and UX to make it more suitable for your role. The VS Code extension is also easily usable in the browser via [vscode.dev](https://vscode.dev/) (especially for non-technical users). For a complete installation guide, see [VS Code in the browser](getting-started/vscode-dev.md).
 
 ## Getting Started
 
@@ -28,4 +27,3 @@ This documentation is organized by platform at the top level. Select your platfo
 - **Azure DevOps** — Project management, CI/CD pipelines, container configuration via cosmo.json
 
 Many features (especially container management) work the same across both platforms. Where this is the case, shared pages are linked from both platform sections and use tabs to show platform-specific steps.
-

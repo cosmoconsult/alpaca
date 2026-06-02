@@ -1,21 +1,18 @@
 ---
-    title: Assign Organization/Repository to Entity
-    description: Assign Organization/Repository to Entity
+    title: Assign Repository to Entity
+    description: Assign Repository to Entity
 ---
 
-# Assign Organization/Repository to Entity
-_This is only available for COSMO CONSULT_
+# Assign Repository to Entity
+
+> [!IMPORTANT]
+> This is currently only available for **COSMO**
 
 To know which entity a GitHub repository belongs, we need to assign a COSMO entity to all repositories.
 
-To assign a repository to an entity, right-click on the repository and select **Assign COSMO entity**. 
+To assign a repository to an entity:
+1. Right-click on the repository and select **Assign entity**
+1. Select the entity to which the repository should be assigned from the list of entities shown
+1. Wait until the assignment is successful and the repository list reloads showing the newly assigned entity next to the repository
 
-![assign-COSMO-entity](../media/cosmo-entity/vsc-extension-assign-gh-entity-select.png)
-
-A list of the COSMO entities will be displayed. By clicking on the COSMO entity, it will be assigned to the selected repository.
-
-![list-COSMO-entity](../media/cosmo-entity/vsc-extension-assign-gh-entity-list.png)
-
-If the COSMO entity is successfully assigned, it will appear in the repository view.
-
-![list-COSMO-entity](../media/cosmo-entity/vsc-extension-assign-gh-entity-assigned.png)
+![Assign Entity](../media/assign-entity-github.png)

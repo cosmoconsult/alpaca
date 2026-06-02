@@ -5,37 +5,51 @@
 
 # VS Code Extension Setup
 
-One of the clients that give you access to COSMO Alpaca is the VS Code Extension. Before setting it up you might want to [create an organization](../github/create-org.md) beforehand.
-
-> **Note:** The VS Code extension is therefore also easily usable by non-technical users in the browser via [vscode.dev](https://vscode.dev/).  
-> For a complete installation guide, see [VS Code in the browser](vscode-dev.md).
+The client to access COSMO Alpaca is a Visual Studio Code Extension.
 
 ## Installation
 
-1. Open Visual Studio Code. If you don't have it installed, you can get it for free [here][vsc-install]
-1. Go to the extensions view in the activity bar
-1. Search for and install the **COSMO Alpaca** extension
+1. Open Visual Studio Code. If you don't have it installed, you can get it for free [here](https://code.visualstudio.com/download)
+1. Go to the "Extensions" view in the activity bar
+1. Search and install the **COSMO Alpaca** extension
 1. Wait until the installation has finished, you might have to reload the VS Code window
 1. Afterwards you should see the extension in the list of installed extensions
 
-![Extension Installation](../media/getting-started/install-extension.png) <!-- TODO: Update screenshot -->
+![Extension Installation](../media/getting-started/install-extension.png)
 
 ## First Use
 
-To open the COSMO Alpaca extension, click the respective icon in the activity bar. On the first use you're asked for your role and whether you want to use Azure DevOps or GitHub as a platform.
+To open the **COSMO Alpaca** extension, click the respective icon in the activity bar. On first use you'll see a welcome screen, and before you can start you'll be asked for your role. The extension offers two view modes:
+[!INCLUDE [View Mode List](../includes/view-mode-list.md)]
 
-![Extension GitHub Role Selection](../media/getting-started/extension-github-role-selection.png)
+![Extension Role Selection](../media/getting-started/extension-role-selection.png)
 
-Depending on what platform you choose you'll be asked to sign in with your GitHub or Microsoft account. Check the other tab in the documentation for Azure DevOps, we'll go with GitHub here.
+After selecting your role, you will be asked to select the platform you want to use COSMO Alpaca with: **GitHub (AL-Go)** or  **Azure DevOps**. Depending on what platform you choose you'll be asked to sign in with your GitHub or Microsoft account.
+
+> [!TIP]
+> You can [switch](switch-view.md) between platforms and views at any time.
 
 Now you can make yourself familiar with the interface:
 
+### [**GitHub (AL-Go)**](#tab/github)
+
+1. The **GitHub** view lets you navigate through your GitHub organizations, accounts, repositories and more.
+1. The **Containers** view shows you all your containers across all your organizations and accounts along with their state and details.
+1. The **Packages** view allows you to browse Business Central NuGet feeds and view package and version information.
+
 ![Extension GitHub Overview](../media/getting-started/extension-github-overview.png)
 
-1. The **GitHub** View let's you navigate through your Azure GitHub organizations, accounts, repositories and more.
-1. The **Containers** View shows you all your containers across all your organizations and accounts along with their state and details.
-1. The **Product Packages** View allows you to browse Business Central NuGet feeds and view package and version information.
+### [**Azure DevOps**](#tab/azuredevops)
 
-You now may want to go through the [walkthrough](../github/walkthrough.md) to get a first impression of COSMO Alpaca.
+1. The **Azure DevOps** view lets you navigate through your Azure DevOps organizations, projects, repositories and more.
+1. The **Containers** view shows you all your containers across all your organizations and accounts along with their state and details.
+1. The **Packages** view allows you to browse Business Central NuGet feeds and view package and version information.
 
-[vsc-install]: https://code.visualstudio.com/download
+![Extension Azure DevOps Overview](../media/getting-started/extension-azuredevops-overview.png)
+
+---
+
+You now may want to get your first impressions of COSMO Alpaca:
+
+- [Walkthrough GitHub](../github/walkthrough.md)
+- [Walkthrough Azure DevOps](../azure-devops/walkthrough.md)

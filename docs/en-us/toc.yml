@@ -1,0 +1,47 @@
+- name: Overview
+  href: index.md
+  items:
+    - name: Comprehensive Overview
+      href: overview/comprehensive-overview.md
+    - name: Pricing
+      href: overview/pricing.md
+    - name: Free Trial
+      href: overview/trial.md
+
+- name: Getting Started
+  items:
+    - name: VS Code Extension Setup
+      href: getting-started/setup-vsce.md
+    - name: VS Code Browser Setup
+      href: getting-started/vscode-dev.md
+    - name: Switch Views
+      href: getting-started/switch-view.md
+
+- name: GitHub (AL-Go)
+  href: github/toc.md
+  topicHref: github/index.md
+
+- name: Azure DevOps
+  href: azure-devops/toc.md
+  topicHref: azure-devops/index.md
+
+- name: Administration
+  href: admin/index.md
+
+- name: Roadmap & History
+  items:
+    - name: What's Next
+      href: history-roadmap/whats-next.md
+    - name: What's New
+      href: history-roadmap/whats-new.md
+
+- name: Support
+  items:
+    - name: Create Bug Report or Feature Request
+      href: support/bug-report.md
+    - name: GitHub (AL-Go) FAQ
+      href: support/github-al-go-faq.md
+    - name: Typical Problems & Solutions
+      href: support/solutions.md
+    - name: Status & Health
+      href: https://cosmo-ppi.westeurope.cloudapp.azure.com/

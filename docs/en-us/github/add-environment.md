@@ -26,7 +26,7 @@ Once the Microsoft Entra app is set up and you have the **ClientId**, **ClientSe
 
 #### 1. Open the Environments section
 
-In the COSMO Alpaca extension, expand your repository and navigate to **Environments**. Click the **+** button to start the environment wizard.
+In the COSMO Alpaca extension, expand your repository and navigate to **Environments**. Click the `+` button to start the environment wizard.
 
 #### 2. Select the environment type
 

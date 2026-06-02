@@ -5,7 +5,8 @@
 
 # Customize Projects
 
-> **Note:** If you want to learn more about how to define and structure customizations for Azure DevOps processes – including adding fields, modifying layouts, defining rules, and managing states – please refer to the dedicated [**Process Modification documentation**](process-modification.md).
+> [!NOTE]
+> If you want to learn more about how to define and structure customizations for Azure DevOps processes – including adding fields, modifying layouts, defining rules, and managing states – please refer to the dedicated [**Process Modification documentation**](process-modification.md).
 
 For your specific project in Azure DevOps you might have additional requirements which need customizations. Some examples for customizations include:
 
@@ -23,7 +24,7 @@ To make sure the customizations don't need to be created every time by hand, so 
 
 # [**Extension**](#tab/extension)
 
-<!-- TODO: Add updated screenshot/video for the extension -->
+![Customize Project](../media/customize-project.png)
 
 The steps above apply to the COSMO Alpaca extension.
 
@@ -33,5 +34,3 @@ The steps above apply to the COSMO Alpaca extension.
   <source src="../media/customize-project.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
----

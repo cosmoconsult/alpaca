@@ -327,8 +327,8 @@ The fields are the same, but they move under the `alpaca` key.
 | cosmo.json field | AL-Go setting | Notes |
 | - | - | - |
 | `enablePremium` | [`assignPremiumPlan`](https://aka.ms/algosettings#assignPremiumPlan) | Same intent |
-| `importTestApps` | [`installTestFramework`](https://aka.ms/algosettings#installTestFramework) / [`installTestRunner`](https://aka.ms/algosettings#installTestRunner) | AL-Go has separate flags |
-| `importTestLibraries` | [`installTestLibraries`](https://aka.ms/algosettings#installTestLibraries) | AL-Go has a separate flag |
+| `importTestApps` | [`installTestFramework`](https://aka.ms/algosettings#installTestFramework) / [`installTestRunner`](https://aka.ms/algosettings#installTestRunner) | AL-Go has separate (calculated) flags |
+| `importTestLibraries` | [`installTestLibraries`](https://aka.ms/algosettings#installTestLibraries) | AL-Go has a separate (calculated) flag |
 
 ## Full migration example
 

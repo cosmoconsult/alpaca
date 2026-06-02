@@ -37,7 +37,7 @@ Invite external users — customers, partners, or freelancers — to collaborate
 
 ### COSMO-only Features
 
-Internal features for COSMO CONSULT teams, including assigning organizations to customers, COSMO entities, and responsible users for internal tracking and license management.
+Internal features for COSMO CONSULT teams, including assigning organizations to customers, COSMO entities for internal tracking and license management.
 
 ## Prerequisites
 
