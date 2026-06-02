@@ -9,4 +9,4 @@ If you want to start developing on a repository (see [create app](create-app.md)
 
 [!INCLUDE [Clone Repository Steps](../includes/clone-repository-steps.md)]
 
-With that, you are ready to start developing. You might want to [create a container](create-container.md) and [setup your launch.json file](../shared/create-launch-json.md) to start publishing and debugging
+With that, you are ready to start developing. You might want to [create a container](create-container.md) and [set up your launch.json file](../shared/create-launch-json.md) to start publishing and debugging

@@ -19,6 +19,6 @@ To assign an organization to an entity:
 1. Select the entity to which the organization should be assigned from the list of entities shown
 1. Wait until the assignment is successful and the organization list reloads showing the newly assigned entity next to the organization
 
- When you select the entity, the local Azure DevOps administrators group will be added to the project collection (old name for "organization") administrators, which is also used as mechanism to later read the organization assignment.
+When you select the entity, the local Azure DevOps administrators group will be added to the project collection (old name for "organization") administrators, which is also used as a mechanism to later read the organization assignment.
 
 ![Assign Entity](../media/assign-entity-devops.png)
