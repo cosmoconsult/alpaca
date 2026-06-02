@@ -132,7 +132,7 @@
 
 ### [Create Organization](azure-devops/create-org.md)
 
-### [Favorite Organizations](azure-devops/favorite-orgs.md)
+### [Favorite or Hide Organizations & Projects](azure-devops/favorite-orgs.md)
 
 ### [Create Project](azure-devops/create-project.md)
 
