@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## Unreleased
+
+- Pre-fill the container name prompt with the branch name when the "Prefix container name with branch" setting is enabled
+
 ## v1.13.0 (2026-06-01)
 
 - Add action to create a backup of a container's database
