@@ -8,9 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## Unreleased
+## v1.14.0 (2026-06-03)
 
 - Pre-fill the container name prompt with the branch name when the "Prefix container name with branch" setting is enabled
+- Add "Create Pull Request" action to Azure DevOps branches and Pull Requests label
+- Add browser fallback for GitHub's "Create Pull Request" action when no local Git repository is available
+- Fix "Create Pull Request" for GitHub branches not checked out locally (fetches and checks out the branch after user confirmation)
 
 ## v1.13.0 (2026-06-01)
 
