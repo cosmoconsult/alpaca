@@ -115,7 +115,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 }
 ```
 
-`.github/Next Minor.settings.json`:
+`.github/Test Next Minor.settings.json`:
 
 ```json
 {
@@ -123,7 +123,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 }
 ```
 
-`.github/Next Major.settings.json`:
+`.github/Test Next Major.settings.json`:
 
 ```json
 {
