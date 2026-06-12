@@ -32,14 +32,27 @@ If there's no user in the customer tenant that has the rights to create new App 
    * Select "Automation.ReadWrite.All"
    * Click on "Add permissions"
    * Now select your newly created API Permission and click on the button "Grant admin consent for *CustomerName*.onmicrosoft.com"
-1. Click on "Certificates & secrets"
-   * Click on "New client secret"
-   * Add a description
-   * Add the expiration date
-   * Click on "Add"
-   * Important: Copy the "value" of the secret right away! It won't be fully shown later on. This is the **ClientSecret** needed for the next steps
+1. Choose one of the following authentication options
+   * **Client secret**
+     * Click on "Certificates & secrets"
+     * Click on "New client secret"
+     * Add a description
+     * Add the expiration date
+     * Click on "Add"
+     * Important: Copy the "value" of the secret right away! It won't be fully shown later on. This is the **ClientSecret** needed for the next steps
+   * **Federated credentials** (GitHub only)
+     * Open "Certificates & secrets"
+     * Open the "Federated credentials" tab
+     * Click on "Add credential"
+     * Select the GitHub Actions scenario
+     * Fill in the required GitHub organization, repository, and branch or environment details
+     * Click on "Add"
+     * Use this option if you want to authenticate GitHub Actions without storing a long-lived **ClientSecret**
 1. Select "Overview"
      * The "Application (client) ID" is the **ClientId** needed for the next steps
+
+> [!NOTE]
+> Federated credentials are intended for GitHub-based deployments. If you use Azure DevOps or another secret-based flow, continue with the **Client secret** option.
 
 #### Register the Microsoft Entra application in Business Central Admin Center
 

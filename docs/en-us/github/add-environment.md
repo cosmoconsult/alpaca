@@ -22,7 +22,7 @@ Before you can configure a SaaS environment in the extension, you need to regist
 
 ### Configure the SaaS environment in VS Code
 
-Once the Microsoft Entra app is set up and you have the **ClientId**, **ClientSecret**, and **TenantId** at hand, proceed with the following steps in the COSMO Alpaca extension.
+Once the Microsoft Entra app is set up and you have the **ClientId** and **TenantId** at hand, proceed with the following steps in the COSMO Alpaca extension. If you use secret-based authentication, you also need the **ClientSecret**. If you use federated credentials, configure them in the Microsoft Entra app registration instead of creating a client secret.
 
 #### 1. Open the Environments section
 
@@ -79,9 +79,9 @@ Enter the **ClientId** obtained in the [Create the app registration](#create-the
 
 ![Enter Client ID](../media/github/github-env-client-id.png)
 
-#### 9. Enter the Client Secret
+#### 9. Enter the Client Secret, if applicable
 
-Enter the **ClientSecret** (the value copied from Certificates & secrets) obtained in the [Create the app registration](#create-the-app-registration) step above.
+If you use secret-based authentication, enter the **ClientSecret** (the value copied from Certificates & secrets) obtained in the [Create the app registration](#create-the-app-registration) step above. If you use federated credentials for GitHub Actions, you can skip creating a long-lived client secret in Microsoft Entra ID.
 
 ![Enter Client Secret](../media/github/github-env-client-secret.png)
 
