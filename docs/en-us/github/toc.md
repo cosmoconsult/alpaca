@@ -82,6 +82,10 @@
 
 ## [Versioning Strategies](versioning-strategies.md)
 
+# Migration
+
+## [Switch from AL-Go to COSMO Alpaca AL-Go](migrate-from-al-go.md)
+
 ## [Migrate from Azure DevOps (cosmo.json)](migrate-from-azure-devops.md)
 
 ## [Migrate Common Settings from alpaca.json](migrate-common-settings.md)
