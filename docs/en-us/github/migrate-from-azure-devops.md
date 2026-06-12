@@ -435,7 +435,7 @@ The fields are the same, but they move under the `alpaca` key.
 }
 ```
 
-`.github/Next Major.settings.json`:
+`.github/Test Next Major.settings.json`:
 
 ```json
 {
