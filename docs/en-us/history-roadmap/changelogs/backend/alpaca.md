@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.16.0 (2026-06-12)
 
-- Exclude customers flagged as "do not use" from customer account results
+- Exclude COSMO customers flagged as "do not use" from customer account results
 
 ## v1.15.0 (2026-06-01)
 
