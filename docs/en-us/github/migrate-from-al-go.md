@@ -19,7 +19,7 @@ Switching to COSMO Alpaca AL-Go mainly does three things:
 
 - It prepares the repository for COSMO Alpaca by running **Initialize**.
 - It updates the AL-Go system files to use the COSMO Alpaca template.
-- It allows you to add COSMO Alpaca specific settings under the `alpaca` property in your AL-Go settings files.
+- It allows you to add COSMO Alpaca-specific settings under the `alpaca` property in your AL-Go settings files.
 
 Your existing AL-Go repository structure and normal AL-Go settings stay in place.
 
