@@ -141,7 +141,7 @@ If a setting should only affect one workflow, move it out of the global settings
 
 Examples:
 
-- `.github/Next Minor.settings.json`
+- `.github/Test Next Minor.settings.json`
 - `.github/Update AL-Go System Files.settings.json`
 
 See also:

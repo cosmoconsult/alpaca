@@ -8,6 +8,12 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.15.0 (2026-06-12)
+
+- Use the repository name in the UI for single-project AL-Go repositories
+- Customer accounts and entities are now shown in alphabetical order in the selection lists
+- Fix downloading packages from organization-scoped Azure DevOps artifact feeds
+
 ## v1.14.0 (2026-06-03)
 
 - Pre-fill the container name prompt with the branch name when the "Prefix container name with branch" setting is enabled
