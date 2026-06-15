@@ -11,7 +11,7 @@ Use this migration if your repository is already on **GitHub** and already uses 
 
 
 > [!NOTE]
-> If the repository already uses a custom template, you must migrate that custom template first. After this is done, a initialization and normal update is enough.
+> If the repository already uses a custom template, you must migrate that custom template first. After that, an initialization and a normal update are enough.
 
 ## What changes when switching
 
