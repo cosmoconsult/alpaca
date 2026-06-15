@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.16.1 (2026-06-15)
 
-- Fix issue where Azure DevOps app updates failed due to incorrect logo file path handling
+- Fix issue where Azure DevOps app creation failed due to incorrect logo file path handling
 
 ## v1.16.0 (2026-06-12)
 
