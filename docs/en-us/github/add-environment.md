@@ -81,7 +81,7 @@ Enter the **ClientId** obtained in the [Create the app registration](#create-the
 
 #### 9. Enter the Client Secret, if applicable
 
-If you use secret-based authentication, enter the **ClientSecret** (the value copied from Certificates & secrets) obtained in the [Create the app registration](#create-the-app-registration) step above. If you use federated credentials for GitHub Actions, you can skip creating a long-lived client secret in Microsoft Entra ID.
+If you use secret-based authentication, enter the **ClientSecret** (the value copied from Certificates & secrets) obtained in the [Create the app registration](#create-the-app-registration) step above. If you use federated credentials for GitHub Actions, you will skip this input field.
 
 ![Enter Client Secret](../media/github/github-env-client-secret.png)
 
