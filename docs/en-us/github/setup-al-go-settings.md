@@ -25,7 +25,7 @@ All available AL-Go settings are documented in the [AL-Go documentation](https:/
 | `trustMicrosoftNuGetFeeds` | boolean  | `true`                                  | container, workflow | Set `true` to trust NuGet feeds provided by Microsoft. <br>[AL-Go documentation](https://aka.ms/algosettings#trustMicrosoftNuGetFeeds) |
 | `versioningStrategy`       | integer  | `0`                                     | workflow            | Determines how versioning is performed. Use the AL-Go default `0` unless you have a concrete reason for another strategy. <br>[AL-Go documentation](https://aka.ms/algosettings#versioningstrategy) |
 | `assignPremiumPlan`        | boolean  | `false`                                 | container           | Set `true` to enable premium user experience for the default user of sandbox containers. <br>[AL-Go documentation](https://aka.ms/algosettings#assignPremiumPlan) |
-| `licenseFileUrlSecretName` | string   | `LicenseFileUrl`                        | container           | The name of a GitHub secret containing the Url of a License File <br>[AL-Go documentation](https://aka.ms/algosettings#licenseFileUrlSecretName) |
+| `licenseFileUrlSecretName` | string   | `LicenseFileUrl`                        | container           | The name of a GitHub secret containing the url of a License File <br>[AL-Go documentation](https://aka.ms/algosettings#licenseFileUrlSecretName) |
 
 ### License File
 
@@ -38,7 +38,9 @@ To use the default Cronus license of your BC version you have to ensure that the
 For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy value:
 
 ```json
+{
 "licenseFileUrlSecretName": "NonExistingSecret"
+}
 ```
 
 #### Recommendations
@@ -46,10 +48,10 @@ For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy v
 - BC Version **< 23**:
   - If you don't use any 3rd party dependencies you can use the [default Cronus license](#cronus-license) of your BC version
 
-  - if you use 3rd party dependencies you can use the BC23 Cronus license
+  - If you use 3rd party dependencies you can use the BC23 Cronus license
 
     > [!NOTE]
-    > only for BC Versions **17.12+**, **18.7+**, **19.1+** or up until **BC22**
+    > Only for BC Versions **17.12+**, **18.7+**, **19.1+** or up until **BC22**
 
     - Create a GitHub secret:
         - Name: `BC_LIC_23_CRONUS`
@@ -57,7 +59,9 @@ For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy v
     - Set AL-Go setting `licenseFileUrlSecretName`:
 
       ```json
+      {
       "licenseFileUrlSecretName": "BC_LIC_23_CRONUS"
+      }
       ```
 
 - BC Version **>= 23**:
