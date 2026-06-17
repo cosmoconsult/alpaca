@@ -60,7 +60,7 @@ For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy v
 
       ```json
       {
-      "licenseFileUrlSecretName": "BC_LIC_23_CRONUS"
+        "licenseFileUrlSecretName": "BC_LIC_23_CRONUS"
       }
       ```
 
