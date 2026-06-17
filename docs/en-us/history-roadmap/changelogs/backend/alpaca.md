@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.17.0 (2026-06-17)
+
+- Add support for creating GitHub environments according to federated credentials
+
 ## v1.16.1 (2026-06-15)
 
 - Fix issue where Azure DevOps app creation failed due to incorrect logo file path handling
