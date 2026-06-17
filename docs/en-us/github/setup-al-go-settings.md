@@ -39,7 +39,7 @@ For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy v
 
 ```json
 {
-"licenseFileUrlSecretName": "NonExistingSecret"
+  "licenseFileUrlSecretName": "NonExistingSecret"
 }
 ```
 
