@@ -11,7 +11,7 @@ Use this migration if your repository is already on **GitHub** and already uses 
 
 
 > [!WARNING]
-> AL-Go currently does not reliably support customer templates layered on top of COSMO Alpaca templates. If custom templates are added on top, not all COSMO Alpaca settings are inherited correctly into the repositories.
+> AL-Go currently does not reliably support custom templates layered on top of COSMO Alpaca templates. If you add custom templates, repositories might not inherit all COSMO Alpaca settings correctly.
 
 ## What changes when switching
 
