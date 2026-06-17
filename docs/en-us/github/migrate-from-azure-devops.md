@@ -133,7 +133,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 
 ### Artifacts (dependencies)
 
-In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArtifacts` (NuGet or Azure DevOps feed), and `ipArtifacts` (product feed). In GitHub AL-Go, all dependencies are consolidated under `alpaca.artifacts`.
+In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArtifacts` (NuGet or Azure DevOps feed), and `ipArtifacts` (product feed). In GitHub AL-Go, all dependencies are consolidated under `alpaca` > `artifacts`.
 
 > [!NOTE]
 > `ipArtifacts` (product feed artifacts) have no direct equivalent in AL-Go. They must be migrated to NuGet artifacts.
