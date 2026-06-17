@@ -10,8 +10,8 @@ This page explains how to take an existing GitHub repository that already uses M
 Use this migration if your repository is already on **GitHub** and already uses AL-Go, but you now want to use COSMO Alpaca features such as managed repository standards, COSMO Alpaca workflow extensions, and cloud-hosted development containers.
 
 
-> [!NOTE]
-> If the repository already uses a custom template, you must migrate that custom template first. After that, an initialization and a normal update are enough.
+> [!WARNING]
+> AL-Go currently does not reliably support customer templates layered on top of COSMO Alpaca templates. If custom templates are added on top, not all COSMO Alpaca settings are inherited correctly into the repositories.
 
 ## What changes when switching
 
