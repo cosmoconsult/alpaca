@@ -29,11 +29,11 @@ All available AL-Go settings are documented in the [AL-Go documentation](https:/
 
 ### License File
 
-The AL-Go setting `licenseFileUrlSecretName` can be used to set the License that should be used by the BC Service in the container.
+The AL-Go setting `licenseFileUrlSecretName` specifies the GitHub secret name containing the license file URL used by the BC service in the container.
 
 #### Cronus License
 
-To use the default Cronus license of your BC version you have to ensure that the GitHub secret for the License File url *(default: `LicenseFileUrl`)* does not exist.
+To use the default Cronus license of your BC version, ensure that the GitHub secret containing the license file URL *(default: `LicenseFileUrl`)* does not exist.
 
 For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy value:
 
