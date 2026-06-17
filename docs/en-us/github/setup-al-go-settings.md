@@ -127,13 +127,13 @@ Settings to setup artifacts for containers.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
+| `alpaca` > `artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
 
 ### Authentication
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.auth` | string | `NavUserPassword` | container | The authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`. |
+| `alpaca` > `auth` | string | `NavUserPassword` | container | The authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`. |
 
 > [!IMPORTANT]
 > To use `AAD` authentication, you must have a verified email address in your GitHub account that matches the domain of the [AAD authentication configuration](../admin/index.md#configuring-your-backend-for-aad-authentication).
@@ -147,10 +147,10 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.createTranslations`   | boolean  | `false` | workflow | Set `true` to enable automatic generation of translation files (.xlf) based on the comments *(e.g. `Comment="de-DE=Foo||de-AT=Bar"`)* for AL caption/labels using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync). |
-| `alpaca.translationLanguages` | string[] | `[]`    | workflow | Array of language tags for which the translation files are to be generated *(e.g. `[ "de-DE", "de-AT" ]`)* |
-| `alpaca.testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
-| `alpaca.testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
+| `alpaca` > `createTranslations`   | boolean  | `false` | workflow | Set `true` to enable automatic generation of translation files (.xlf) based on the comments *(e.g. `Comment="de-DE=Foo||de-AT=Bar"`)* for AL caption/labels using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync). |
+| `alpaca` > `translationLanguages` | string[] | `[]`    | workflow | Array of language tags for which the translation files are to be generated *(e.g. `[ "de-DE", "de-AT" ]`)* |
+| `alpaca` > `testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
+| `alpaca` > `testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
 
 ### Breaking Change Check using NuGet Feeds
 
@@ -158,7 +158,7 @@ Settings to change the behavior of the breaking change check of the build workfl
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca.useNuGetFeedsForUpgrade` | boolean | `false` | workflow | Set `true` to test for breaking changes by downloading previous app versions from the trusted NuGet feeds rather than from the assets of the latest GitHub release. |
+| `alpaca` > `useNuGetFeedsForUpgrade` | boolean | `false` | workflow | Set `true` to test for breaking changes by downloading previous app versions from the trusted NuGet feeds rather than from the assets of the latest GitHub release. |
 
 ## Migrating from alpaca.json
 
@@ -170,10 +170,10 @@ Mapping of container configurations to AL-Go settings files:
 > - NextMinor -> .github/Test Next Minor.settings.json
 > - NextMajor -> .github/Test Next Major.settings.json
 
- Mapping of container configuration settings to AL-Go settings
+Mapping of container configuration settings to AL-Go settings
 > - name                                  -> *N/A*
 > - inheritFromWorkflow                   -> *N/A*
 > - country                               -> country
 > - storageAccount, type, version, select -> artifact
-> - artifacts                             -> alpaca.artifacts
+> - artifacts                             -> alpaca > artifacts
 > - licenseFile                           -> licenseFileUrlSecretName
