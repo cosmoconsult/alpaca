@@ -25,7 +25,7 @@ All available AL-Go settings are documented in the [AL-Go documentation](https:/
 | `trustMicrosoftNuGetFeeds` | boolean  | `true`                                  | container, workflow | Set `true` to trust NuGet feeds provided by Microsoft. <br>[AL-Go documentation](https://aka.ms/algosettings#trustMicrosoftNuGetFeeds) |
 | `versioningStrategy`       | integer  | `0`                                     | workflow            | Determines how versioning is performed. Use the AL-Go default `0` unless you have a concrete reason for another strategy. <br>[AL-Go documentation](https://aka.ms/algosettings#versioningstrategy) |
 | `assignPremiumPlan`        | boolean  | `false`                                 | container           | Set `true` to enable premium user experience for the default user of sandbox containers. <br>[AL-Go documentation](https://aka.ms/algosettings#assignPremiumPlan) |
-| `licenseFileUrlSecretName` | string   | `LicenseFileUrl`                        | container           | The name of a GitHub secret containing the url of a License File <br>[AL-Go documentation](https://aka.ms/algosettings#licenseFileUrlSecretName) |
+| `licenseFileUrlSecretName` | string   | `LicenseFileUrl`                        | container           | The name of a GitHub secret containing the URL of the license file. <br>[AL-Go documentation](https://aka.ms/algosettings#licenseFileUrlSecretName) |
 
 ### License File
 
