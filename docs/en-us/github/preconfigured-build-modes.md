@@ -73,7 +73,7 @@ Result for `gb_MinVersionOnPrem`:
 
 ## Notes
 
-- Build modes are case insensitive.
+- Build modes are case-insensitive.
 - Keep build mode names token-based and underscore-separated for readability.
 - Use exactly one country code token per combined mode to avoid conflicting country assignments.
 - For generic AL-Go behavior, see the Microsoft docs for [`buildModes`](https://aka.ms/algosettings#buildModes) and [`ConditionalSettings`](https://aka.ms/algosettings#conditional-settings).
