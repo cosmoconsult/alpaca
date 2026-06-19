@@ -16,13 +16,17 @@ These settings are implemented through `ConditionalSettings` and allow you to co
 
 ### Behavior tokens
 
-- `nocontainer` -> sets `doNotPublishApps: true`
-- `minversion` or `minversion:sandbox` -> sets `artifact: /sandbox/*//first` and `nuGetFeedSelectMode: EarliestMatching`
-- `minversion:onprem` -> sets `artifact: /onprem/*//first` and `nuGetFeedSelectMode: EarliestMatching`
+- `NoContainer` -> sets `doNotPublishApps: true`
+- `MinVersion` or `MinVersionSandbox` -> sets `artifact: /sandbox/*//first` and `nuGetFeedSelectMode: EarliestMatching`
+- `MinVersionOnPrem` -> sets `artifact: /onprem/*//first` and `nuGetFeedSelectMode: EarliestMatching`
+- `CurrentVersion` or `CurrentVersionSandbox` -> sets `artifact: /sandbox///Latest`
+- `CurrentVersionOnPrem` -> sets `artifact: /onprem///Latest`
+- `NextMinorVersion` or `NextMinorVersionSandbox` -> sets `artifact: /sandbox///NextMinor`
+- `NextMajorVersion` or `NextMajorVersionSandbox` -> sets `artifact: /sandbox///NextMajor`
 
 ### Country tokens
 
-Use one of these as `country:<code>`:
+Use one of these country codes directly:
 
 - `w1`, `base`, `at`, `au`, `be`, `ca`, `ch`, `cz`, `de`, `dk`, `es`, `fi`, `fr`, `gb`, `in`, `is`, `it`, `mx`, `nl`, `no`, `nz`, `ru`, `se`, `us`
 
@@ -32,10 +36,11 @@ The wildcard patterns allow token matching at the start, middle, or end of the b
 
 That means you can define combined build modes such as:
 
-- `nocontainer-minversion-country:de`
-- `country:us-minversion:sandbox`
-- `country:gb-minversion:onprem`
-- `featureX-country:at-nocontainer`
+- `NoContainer_MinVersion_de`
+- `de_CurrentVersionSandbox`
+- `us_NextMinorVersionSandbox`
+- `gb_MinVersionOnPrem`
+- `featureX_at_NoContainer`
 
 If a combined build mode matches multiple conditional blocks, AL-Go applies all matching settings.
 
@@ -47,21 +52,21 @@ Example in `./**/.AL-Go/settings.json`:
 {
   "buildModes": [
     "Default",
-    "nocontainer-minversion-country:de",
-    "country:gb-minversion:onprem",
-    "country:us"
+    "NoContainer_MinVersion_de",
+    "gb_MinVersionOnPrem",
+    "us"
   ]
 }
 ```
 
-Result for `nocontainer-minversion-country:de`:
+Result for `NoContainer_MinVersion_de`:
 
 - `doNotPublishApps: true`
 - `artifact: /sandbox/*//first`
 - `nuGetFeedSelectMode: EarliestMatching`
 - `country: de`
 
-Result for `country:gb-minversion:onprem`:
+Result for `gb_MinVersionOnPrem`:
 
 - `artifact: /onprem/*//first`
 - `nuGetFeedSelectMode: EarliestMatching`
@@ -69,6 +74,7 @@ Result for `country:gb-minversion:onprem`:
 
 ## Notes
 
-- Keep build mode names token-based and hyphen-separated for readability.
-- Use exactly one `country:<code>` token per combined mode to avoid conflicting country assignments.
+- Build modes are case-insensitive.
+- Keep build mode names token-based and underscore-separated for readability.
+- Use exactly one country code token per combined mode to avoid conflicting country assignments.
 - For generic AL-Go behavior, see the Microsoft docs for [`buildModes`](https://aka.ms/algosettings#buildModes) and [`ConditionalSettings`](https://aka.ms/algosettings#conditional-settings).
