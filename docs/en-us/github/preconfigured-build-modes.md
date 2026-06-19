@@ -37,7 +37,8 @@ The wildcard patterns allow token matching at the start, middle, or end of the b
 That means you can define combined build modes such as:
 
 - `NoContainer_MinVersion_de`
-- `us_MinVersionSandbox`
+- `de_CurrentVersionSandbox`
+- `us_NextMinorVersionSandbox`
 - `gb_MinVersionOnPrem`
 - `featureX_at_NoContainer`
 
