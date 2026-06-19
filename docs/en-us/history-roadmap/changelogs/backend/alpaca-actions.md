@@ -15,7 +15,7 @@ All notable changes to the Alpaca AL-Go Actions
 
 ## v2.8.3 (2026-05-29)
 
-- Fix issue with url alpaca artifacts without a downloadable url
+- Fix issue with Url-artifacts that were missing a downloadable URL
 
 ## v2.8.2 (2026-05-27)
 
