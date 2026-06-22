@@ -5,7 +5,8 @@
 
 # GitHub Repository Recommendations
 
-This page summarizes COSMO-specific conventions and best practices for GitHub repositories using COSMO Alpaca with AL-Go.
+> [!IMPORTANT]
+> This page summarizes **COSMO-specific** conventions and best practices for GitHub repositories using COSMO Alpaca with AL-Go.
 
 ## Repository naming
 

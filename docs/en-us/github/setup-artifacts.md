@@ -36,7 +36,7 @@ By default all Microsoft NuGet feeds are available for AL-Go, but only the feed 
 Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go-settings.md) or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
 1. Find out the name and version of the NuGet package you want to use (e.g. from the [Packages View](packages-view.md)).
-1. Add the artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md):
+1. Add the artifact to `alpaca` > `artifacts` in your [AL-Go settings](setup-al-go-settings.md):
 
 ```json
 {
@@ -63,11 +63,11 @@ You can use the VS Code extension to help you create the required entries for a 
 
 1. Open the workspace of the repository in Visual Studio Code
 2. Open **COSMO Alpaca** extension
-3. Expand/Update the ["Packages" view](packages-view.md)
+3. Expand/Update the [**Packages** view](packages-view.md)
 4. Expand the entry of the required package (e.g. "COSMO Advanced Manufacturing Pack")
 5. Expand the version and its dependencies to find a valid version for your case *(e.g. version installed in the customer environment)*
 6. Right click on the wanted version, choose **Copy** and select [**Alpaca artifact JSON**](packages-view.md#actions)
-7. Add the copied JSON to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md#artifacts)
+7. Add the copied JSON to `alpaca` > `artifacts` in your [AL-Go settings](setup-al-go-settings.md#artifacts)
 8. Repeat from 4. for each required product
 9. *(Optional) Remove version of added artifacts in the cosmo.json to always use the latest versions*
 10. Commit/push the changed AL-Go configuration
@@ -79,7 +79,7 @@ Define URLs of APP or ZIP files as artifacts.
 ZIP files are automatically extracted after they are downloaded.
 
 1. Find out which url you want to use.
-1. Add the Artifact to `alpaca.artifacts` in your [AL-Go settings](setup-al-go-settings.md#artifacts):
+1. Add the Artifact to `alpaca` > `artifacts` in your [AL-Go settings](setup-al-go-settings.md#artifacts):
 
 ```json
 {
@@ -116,7 +116,7 @@ Upload files into the Alpaca fileshare, share them and define their download url
 1. Get the download url from the share link
     1. Open the share link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/share/<id>)*
     1. Copy the download link *(https://<cluster>.westeurope.cloudapp.azure.com/filebrowser/api/public/dl/<id>)*
-1. Add the Artifact to `alpaca.artifacts` in your AL-Go settings:
+1. Add the Artifact to `alpaca` > `artifacts` in your AL-Go settings:
 
 ```json
 {

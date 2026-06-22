@@ -5,7 +5,7 @@
 
 # Create Project
 
-When working with Azure DevOps, you need an organization (see [create org][create-org]) and a project. To create a project, you need to take the following steps:
+When working with Azure DevOps, you need an organization (see [create org](create-org.md)) and a project. To create a project, you need to take the following steps:
 
 1. Right-click on the organization where you want to create a project and select **Create project**
 1. Enter a name for the new project
@@ -19,10 +19,3 @@ With that, the new project will be created. It has all the basic setup and prepa
 - [AL Language Syntax Highlights](https://marketplace.visualstudio.com/items?itemName=ms-dynamics-smb.allanghighlights)
 
 You're now ready to [create a repository with an AL app](create-app.md).
-
-> [!NOTE]
->To add a new project in the Alpaca extension, use the **plus (+) icon** next to the organization name.
->
->![Organization options](../media/vscode.dev/vscode-browser-project-add.png)
-
-[create-org]: create-org.md

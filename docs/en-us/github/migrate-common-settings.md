@@ -84,11 +84,11 @@ Old intent: validate against the next major release
 | - | - |
 | BC country | `country` |
 | BC artifact selection | `artifact` |
-| Container startup artifacts | `alpaca.artifacts` |
-| Translation generation | `alpaca.createTranslations` |
-| Translation languages | `alpaca.translationLanguages` |
-| Translation validation | `alpaca.testTranslations` |
-| Translation rules | `alpaca.testTranslationRules` |
+| Container startup artifacts | `alpaca` > `artifacts` |
+| Translation generation | `alpaca` > `createTranslations` |
+| Translation languages | `alpaca` > `translationLanguages` |
+| Translation validation | `alpaca` > `testTranslations` |
+| Translation rules | `alpaca` > `testTranslationRules` |
 | Trusted external NuGet feeds | `trustedNuGetFeeds` |
 | Use Microsoft NuGet feeds | `trustMicrosoftNuGetFeeds` |
 | Workflow versioning model | `versioningStrategy` |
@@ -123,7 +123,7 @@ Old intent: validate against the next major release
 
 ## Migration notes for artifacts
 
-If you previously managed dependencies separately, move them into `alpaca.artifacts`.
+If you previously managed dependencies separately, move them into `alpaca` > `artifacts`.
 
 Relevant docs:
 
@@ -141,7 +141,7 @@ If a setting should only affect one workflow, move it out of the global settings
 
 Examples:
 
-- `.github/Next Minor.settings.json`
+- `.github/Test Next Minor.settings.json`
 - `.github/Update AL-Go System Files.settings.json`
 
 See also:

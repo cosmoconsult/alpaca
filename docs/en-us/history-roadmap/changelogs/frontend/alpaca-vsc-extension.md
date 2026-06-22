@@ -8,6 +8,28 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.15.0 (2026-06-12)
+
+- Use the repository name in the UI for single-project AL-Go repositories
+- Customer accounts and entities are now shown in alphabetical order in the selection lists
+- Fix downloading packages from organization-scoped Azure DevOps artifact feeds
+
+## v1.14.0 (2026-06-03)
+
+- Pre-fill the container name prompt with the branch name when the "Prefix container name with branch" setting is enabled
+- Add "Create Pull Request" action to Azure DevOps branches and Pull Requests label
+- Add browser fallback for GitHub's "Create Pull Request" action when no local Git repository is available
+- Fix "Create Pull Request" for GitHub branches not checked out locally (fetches and checks out the branch after user confirmation)
+
+## v1.13.0 (2026-06-01)
+
+- Add action to create a backup of a container's database
+- Add action to convert a `.bacpac` backup file to a `.bak` backup file
+
+## v1.12.0 (2026-06-01)
+
+- **COSMO-only**: Make entity and customer assignment on project/repository creation optional, and add "Later" option to the prompt to allow skipping the assignment (assignment is required before creating an app at the latest)
+
 ## v1.11.0 (2026-05-22)
 
 - Add action to allow creating a container with version and country selection

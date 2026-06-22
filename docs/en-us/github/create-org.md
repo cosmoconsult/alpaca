@@ -9,7 +9,7 @@ If you haven't already, please [sign up for a GitHub account](https://github.com
 
 We recommend that you use a GitHub organization to group all your repositories together. If you don't have an organization yet, you can use the action in COSMO Alpaca to create one or alternatively click [here](https://github.com/organizations/plan).
 
-![Extension Github Create Organization](../media/getting-started/extension-github-new-account.png)
+![Extension GitHub Create Organization](../media/getting-started/extension-github-new-org.png)
 
 The free plan is sufficient to use COSMO Alpaca.
 

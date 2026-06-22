@@ -115,7 +115,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 }
 ```
 
-`.github/Next Minor.settings.json`:
+`.github/Test Next Minor.settings.json`:
 
 ```json
 {
@@ -123,7 +123,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 }
 ```
 
-`.github/Next Major.settings.json`:
+`.github/Test Next Major.settings.json`:
 
 ```json
 {
@@ -133,7 +133,7 @@ In `cosmo.json`, `bcArtifacts` holds named configurations. In AL-Go, the equival
 
 ### Artifacts (dependencies)
 
-In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArtifacts` (NuGet or Azure DevOps feed), and `ipArtifacts` (product feed). In GitHub AL-Go, all dependencies are consolidated under `alpaca.artifacts`.
+In `cosmo.json`, dependencies come from `artifacts` (URL/fileshare), `devopsArtifacts` (NuGet or Azure DevOps feed), and `ipArtifacts` (product feed). In GitHub AL-Go, all dependencies are consolidated under `alpaca` > `artifacts`.
 
 > [!NOTE]
 > `ipArtifacts` (product feed artifacts) have no direct equivalent in AL-Go. They must be migrated to NuGet artifacts.
@@ -327,8 +327,8 @@ The fields are the same, but they move under the `alpaca` key.
 | cosmo.json field | AL-Go setting | Notes |
 | - | - | - |
 | `enablePremium` | [`assignPremiumPlan`](https://aka.ms/algosettings#assignPremiumPlan) | Same intent |
-| `importTestApps` | [`installTestFramework`](https://aka.ms/algosettings#installTestFramework) / [`installTestRunner`](https://aka.ms/algosettings#installTestRunner) | AL-Go has separate flags |
-| `importTestLibraries` | [`installTestLibraries`](https://aka.ms/algosettings#installTestLibraries) | AL-Go has a separate flag |
+| `importTestApps` | [`installTestFramework`](https://aka.ms/algosettings#installTestFramework) / [`installTestRunner`](https://aka.ms/algosettings#installTestRunner) | AL-Go has separate (calculated) flags |
+| `importTestLibraries` | [`installTestLibraries`](https://aka.ms/algosettings#installTestLibraries) | AL-Go has a separate (calculated) flag |
 
 ## Full migration example
 
@@ -435,7 +435,7 @@ The fields are the same, but they move under the `alpaca` key.
 }
 ```
 
-`.github/Next Major.settings.json`:
+`.github/Test Next Major.settings.json`:
 
 ```json
 {

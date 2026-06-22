@@ -1,0 +1,2 @@
+- **technical**: full interface with all features
+- **functional**: simplified interface focused on core features (especially for non-technical users)

@@ -8,6 +8,23 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.8.4 (2026-06-19)
+
+- Fix issue with installing apps in the container without sorting them by dependencies
+- Fix issue with incorrect download of previous test app versions from trusted NuGet feeds
+
+## v2.8.3 (2026-05-29)
+
+- Fix issue with Url-artifacts that were missing a downloadable URL
+
+## v2.8.2 (2026-05-27)
+
+- Fix issue with uninstalling apps from the container
+
+## v2.8.1 (2026-05-21)
+
+- No changes
+
 ## v2.8.0 (2026-05-19)
 
 - Add check for project names with the same hyphen-prefix

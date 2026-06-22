@@ -8,6 +8,34 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.17.0 (2026-06-17)
+
+- Add support for creating GitHub environments according to federated credentials
+
+## v1.16.1 (2026-06-15)
+
+- Fix issue where Azure DevOps app creation failed due to incorrect logo file path handling
+
+## v1.16.0 (2026-06-12)
+
+- Exclude COSMO customers flagged as "do not use" from customer account results
+
+## v1.15.0 (2026-06-01)
+
+- Add endpoints to create container database backups and convert backup files from `.bacpac` to `.bak` format
+
+## v1.14.0 (2026-06-01)
+
+- Enhance container clone function to support legacy containers
+
+## v1.13.1 (2026-05-29)
+
+- Add test libraries artifacts only for containers using a backup file
+
+## v1.13.0 (2026-05-28)
+
+- Add support for importing test libraries and apps based on `cosmo.json` and AL-Go settings
+
 ## v1.12.1 (2026-05-22)
 
 - Fix issue where bcArtifact property overrides were not correctly applied for GitHub container requests

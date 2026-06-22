@@ -5,18 +5,18 @@
 
 # Create Repository & App
 
-We recommend to use an [organization][create-org] for your repositories. One repository can contain one or many [projects][create-project] that can contain one or many apps.
+We recommend to use an [organization](create-org.md) for your repositories. One repository can contain one or many [projects](create-project.md) that can contain one or many apps.
 
 ## Create Repository
 
-To create a repository use the `+` action next to your GitHub organization or account:
+To create a repository right-click your GitHub organization or account and select **Create AL-Go repository** or use the `+` action next to it:
 
 ![Extension GitHub Create Repository](../media/extension-github-create-repo.png)
 
 Now follow the wizard:
 1. Select the template for the new repository:
    - Public AppSource and PTE Templates from Microsoft
-   - Public AppSource and PTE Templates for COSMO Alpaca which are configured to use COSMO Alpaca's container infrastructure for the AL-Go workflows (recommended)
+   - Public AppSource and PTE Templates for COSMO Alpaca which are configured to use COSMO Alpaca's container infrastructure for the AL-Go workflows (**recommended**)
    - GitHub template repositories of the target GitHub organization/account which are AL-Go repositories.
 1. Enter the name of the new repository
 1. Select if the new repository should be private.
@@ -25,7 +25,7 @@ With that a single-project repository will be created based on the selected temp
 
 ## Create App
 
-To create an app within your repository, select your repository and navigate the tree to `Projects > [project] > Apps` and click the `+` action:
+To create an app within your repository, select your repository and navigate the tree to `Projects > [project]`. Right-click on **Apps** and select **Create AL-Go App** or use the `+` action next to it:
 
 ![Extension GitHub Create App](../media/extension-github-create-app.png)
 
@@ -36,6 +36,3 @@ Now follow the wizard:
 1. Enter the ID range of the new app
 
 Now a workflow will run to create the new app and add all necessary files to the repository.
-
-[create-org]: create-org.md
-[create-project]: create-project.md
