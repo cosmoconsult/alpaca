@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.18.0 (2026-06-23)
+
+- Improve handling of AL-Go single-project repositories to align with AL-Go standards
+
 ## v1.17.0 (2026-06-17)
 
 - Add support for creating GitHub environments according to federated credentials
