@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.18.0 (2026-06-23)
 
-- Fix handling of AL-Go default project representation in single-project GitHub repositories
+- Improve handling of AL-Go single-project repositories to align with AL-Go standards
 
 ## v1.17.0 (2026-06-17)
 
