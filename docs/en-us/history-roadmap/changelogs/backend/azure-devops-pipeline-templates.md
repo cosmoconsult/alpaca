@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.66.0 (2026-06-23)
+
+- Do not retry deleting a non-existing container [see #4924](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4924)
+
+## v2.65.0 (2026-06-08)
+
+- Suppress publishing already published app versions [see #4904](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4904)
+
 ## v2.64.0 (2026-05-16)
 
 - Remove tenant status check and data upgrade before publishing the app [see #4865](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4865)
