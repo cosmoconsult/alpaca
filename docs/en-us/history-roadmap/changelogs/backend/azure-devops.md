@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## Unreleased
+
+- Enable classic release pipelines when importing task groups [see #4923](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4923)
+
 ## v1.57.0 (2026-05-26)
 
 - Add "Application Test Library" for BC 28x and higher when `importTestLibraries` is set [see #4887](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4887)
