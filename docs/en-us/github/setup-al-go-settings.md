@@ -131,7 +131,7 @@ Settings to setup artifacts for containers.
 
 ### App Import Exclude Expressions
 
-Settings to exclude apps while importing apps and their dependent apps.
+Setting to exclude apps while importing apps.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
