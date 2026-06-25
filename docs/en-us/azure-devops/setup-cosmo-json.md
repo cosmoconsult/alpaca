@@ -37,10 +37,6 @@ A basic `cosmo.json` could look like the following:
             "ignoreIn": ["dev"]
         }
     ],
-
-    // Exclude expressions for app import
-    "appExcludeExpr": "",
-    "dependentAppExcludeExpr": "",
    
     // Common Artifacts used for each bcArtifact configuration
     "artifacts": [],
@@ -56,11 +52,7 @@ A basic `cosmo.json` could look like the following:
         "current": {
             // Specific Artifacts used only for this bcArtifact configuration
             "artifacts": [],
-            "devopsArtifacts": [],
-
-            // Overrules global exclude expressions for this bcArtifact configuration
-            "appExcludeExpr": "",
-            "dependentAppExcludeExpr": ""    
+            "devopsArtifacts": [],  
         },
         "nextMinor": {
             // ...
