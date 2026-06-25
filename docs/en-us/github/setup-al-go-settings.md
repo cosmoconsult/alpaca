@@ -115,9 +115,8 @@ The AL-Go settings can contain COSMO Alpaca specific settings, which are stored 
     "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
     "country": "w1",    // AL-Go Setting
     "debugMode": true,  // BcContainerHelper Setting
-    "alpaca": { // COSMO Alpaca Settings
-      "artifacts": [],
-      "appExcludeExpr": ""
+    "alpaca": { 
+      "artifacts": [],// COSMO Alpaca Settings
     }
 }
 ```
