@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.17.0 (2026-06-25)
+
+- Streamlined and refactored selection dialogs; additionally the first item is no longer pre-selected, preventing accidental selection
+
+## v1.16.0 (2026-06-18)
+
+- Add support for creating GitHub Environments with federated authentication
+
 ## v1.15.0 (2026-06-12)
 
 - Use the repository name in the UI for single-project AL-Go repositories
