@@ -116,7 +116,7 @@ The AL-Go settings can contain COSMO Alpaca specific settings, which are stored 
     "country": "w1",    // AL-Go Setting
     "debugMode": true,  // BcContainerHelper Setting
     "alpaca": {
-      "artifacts": [], // COSMO Alpaca Setting
+        "artifacts": [] // COSMO Alpaca Setting
     }
 }
 ```
