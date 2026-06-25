@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (legacy)
 
+## v1.53.0 (2026-06-25)
+
+- Add support for `appExcludeExpr` and `dependentAppExcludeExpr` in `cosmo.json` [see #2319](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2319)
+
 ## v1.52.0 (2026-04-24)
 
 - Update Alpaca API client

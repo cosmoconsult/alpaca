@@ -115,8 +115,9 @@ The AL-Go settings can contain COSMO Alpaca specific settings, which are stored 
     "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.1/.Modules/settings.schema.json",
     "country": "w1",    // AL-Go Setting
     "debugMode": true,  // BcContainerHelper Setting
-    "alpaca": {
-        "artifacts": [] // COSMO Alpaca Setting
+    "alpaca": { // COSMO Alpaca Settings
+      "artifacts": [],
+      "appExcludeExpr": ""
     }
 }
 ```
@@ -128,6 +129,14 @@ Settings to setup artifacts for containers.
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
 | `alpaca` > `artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
+
+### App Import Exclude Expressions
+
+Settings to exclude apps while importing apps and their dependent apps.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `appExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing apps. |
 
 ### Authentication
 

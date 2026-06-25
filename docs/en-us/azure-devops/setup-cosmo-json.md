@@ -37,6 +37,10 @@ A basic `cosmo.json` could look like the following:
             "ignoreIn": ["dev"]
         }
     ],
+
+    // Exclude expressions for app import
+    "appExcludeExpr": "",
+    "dependentAppExcludeExpr": "",
    
     // Common Artifacts used for each bcArtifact configuration
     "artifacts": [],
@@ -52,7 +56,11 @@ A basic `cosmo.json` could look like the following:
         "current": {
             // Specific Artifacts used only for this bcArtifact configuration
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": [],
+
+            // Overrules global exclude expressions for this bcArtifact configuration
+            "appExcludeExpr": "",
+            "dependentAppExcludeExpr": ""    
         },
         "nextMinor": {
             // ...
@@ -93,6 +101,8 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`select`             |string|optional     |The [selector](https://github.com/microsoft/navcontainerhelper/blob/49da2c44a41e3671ed3d94c4d8e8362578eda520/Artifacts/Get-BCArtifactUrl.ps1#L12-L22) for the BC artifact. One of `latest`, `first`, `all`, `closest`, `secondToLastMajor`, `current`, `nextMinor`, `nextMajor`, `daily`, `weekly`.|
 |`country`            |string|optional     |The country of the BC artifact (e.g. `w1`, `de`, `fr`, ..). This will default to `w1`|
 |`artifacts`          |array |optional     |The artifacts to import during the startup of the container. See the [see documentation](setup-artifacts.md).|
+|`appExcludeExpr`     |string|optional     |Regular expression used to exclude apps from import for this specific `bcArtifact` configuration. If set, this overrules the global `appExcludeExpr`.|
+|`dependentAppExcludeExpr`|string|optional|Regular expression used to exclude dependent apps from import for this specific `bcArtifact` configuration. If set, this overrules the global `dependentAppExcludeExpr`.|
 
 ## Common Parameters
 
@@ -109,6 +119,8 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
 |`"importTestLibraries"`          |boolean|optional     |Set to true to import the Test Libraries by Microsoft. (This is only relevant when creating containers based on a backup without Test Libraries. Normal containers already include the Test Libraries.)|
+|`"appExcludeExpr"`               |string |optional     |Regular expression used to exclude apps while importing apps. This can be overruled by setting `appExcludeExpr` on a specific `bcArtifact` configuration.|
+|`"dependentAppExcludeExpr"`      |string |optional     |Regular expression used to exclude dependent apps while importing apps and their dependencies. This can be overruled by setting `dependentAppExcludeExpr` on a specific `bcArtifact` configuration.|
 |`"customNuGetFeeds"`             |array  |optional     |An optional array of custom NuGet feeds. [more](#custom-nuget-feeds)|
 
 ### Additional Deployment Feeds
