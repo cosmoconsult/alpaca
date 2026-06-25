@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.20.0 (2026-06-25)
+
+- Improve namespace resolution for external GitHub collaborators
+
 ## v1.19.0 (2026-06-25)
 
 - Add support for app exclusion expression configuration in `cosmo.json` and AL-Go settings
