@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.19.0 (2026-06-25)
 
-- Add support for app exclusion expression configuration in container artifact handling via cosmo.json and AL-Go settings
+- Add support for app exclusion expression configuration in `cosmo.json` and AL-Go settings
 
 ## v1.18.0 (2026-06-23)
 
