@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.67.0 (2026-06-25)
+
+- Add feature to define `appExcludeExpr` and `dependentAppExcludeExpr` in `cosmo.json` [see #2319](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2319)
+
 ## v2.66.0 (2026-06-23)
 
 - Do not retry deleting a non-existing container [see #4924](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4924)

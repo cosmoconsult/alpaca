@@ -129,6 +129,14 @@ Settings to setup artifacts for containers.
 | - | - | - | - | - |
 | `alpaca` > `artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
 
+### App Import Exclude Expressions
+
+Setting to exclude apps while importing apps.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `artifactsAppExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing apps. |
+
 ### Authentication
 
 | Element | Type | Default | Scope | Value |

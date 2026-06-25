@@ -109,6 +109,8 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
 |`"importTestLibraries"`          |boolean|optional     |Set to true to import the Test Libraries by Microsoft. (This is only relevant when creating containers based on a backup without Test Libraries. Normal containers already include the Test Libraries.)|
+|`"appExcludeExpr"`               |string |optional     |Regular expression used to exclude apps while importing apps. This can be overruled by setting `appExcludeExpr` on a specific `bcArtifact` configuration.|
+|`"dependentAppExcludeExpr"`      |string |optional     |Regular expression used to exclude dependent apps while importing apps and their dependencies. This can be overruled by setting `dependentAppExcludeExpr` on a specific `bcArtifact` configuration.|
 |`"customNuGetFeeds"`             |array  |optional     |An optional array of custom NuGet feeds. [more](#custom-nuget-feeds)|
 
 ### Additional Deployment Feeds
