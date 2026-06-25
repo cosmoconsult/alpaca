@@ -52,7 +52,7 @@ A basic `cosmo.json` could look like the following:
         "current": {
             // Specific Artifacts used only for this bcArtifact configuration
             "artifacts": [],
-            "devopsArtifacts": []
+            "devopsArtifacts": []   
         },
         "nextMinor": {
             // ...
