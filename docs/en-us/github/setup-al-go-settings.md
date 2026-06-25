@@ -135,7 +135,7 @@ Settings to exclude apps while importing apps and their dependent apps.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca` > `appExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing apps. |
+| `alpaca` > `artifactsAppExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing apps. |
 
 ### Authentication
 
