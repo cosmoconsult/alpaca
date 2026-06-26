@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.21.0 (2026-06-26)
+
+- Add enum for Business Central countries for improved input validation
+
 ## v1.20.1 (2026-06-26)
 
 - Revert dedicated namespace resolution for external GitHub collaborators
