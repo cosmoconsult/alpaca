@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.18.0 (2026-06-26)
+
+- Add an actual selection dialog to choose the BC country when creating a container (with version and country selection)
+- Pre-select the first container configuration when creating a container to improve usability
+
 ## v1.17.0 (2026-06-25)
 
 - Streamlined and refactored selection dialogs; additionally the first item is no longer pre-selected, preventing accidental selection
@@ -92,7 +97,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.83.2 (2026-04-24)
 
-- Fix incorrect AL-Go deployment process used incorrect version, and add handling for multiple release versions
+- Fix incorrect version used in AL-Go deployment process, and add handling for multiple release versions
 
 ## v0.83.1 (2026-04-15)
 
@@ -660,7 +665,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Make extension more compatible with codespaces
 - Update API clients
-- UI/UX improvements - tree view, icons, favorites- Execute DLL collection asynchronously
+- UI/UX improvements - tree view, icons, favorites - Execute DLL collection asynchronously
 
 ## 0.8.3 (2024-01-18)
 
