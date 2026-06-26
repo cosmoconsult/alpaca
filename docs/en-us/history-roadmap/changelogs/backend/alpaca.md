@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.21.1 (2026-06-26)
+
+- Fix issue where app exclusion expression had no fallback value set for container configurations
+
 ## v1.21.0 (2026-06-26)
 
 - Add enum for Business Central countries for improved input validation
