@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.21.1 (2026-06-26)
 
-- Fix issue where app exclusion expression had no fallback value set for container configurations
+- Add default value for app exclusion expression in `cosmo.json` container configurations
 
 ## v1.21.0 (2026-06-26)
 
