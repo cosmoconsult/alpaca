@@ -10,7 +10,8 @@ All notable changes to the Alpaca Backend
 
 ## v1.22.0 (2026-06-30)
 
-- Fix issue where wrong username was used for AAD authentication in container requests
+- Fix issue where wrong username was used for containers using AAD authentication
+- Improve code quality
 
 ## v1.21.1 (2026-06-26)
 
