@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.22.0 (2026-06-30)
+
+- Fix issue where wrong username was used for AAD authentication in container requests
+
 ## v1.21.1 (2026-06-26)
 
 - Add default value for app exclusion expression in `cosmo.json` container configurations
