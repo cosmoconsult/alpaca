@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.23.0 (2026-07-01)
+
+- Add example responses to OpenAPI documentation for all API endpoints
+- Improve code quality
+
 ## v1.22.0 (2026-06-30)
 
 - Fix issue where wrong username was used for containers using AAD authentication
