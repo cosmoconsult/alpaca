@@ -11,7 +11,7 @@ All notable changes to the Alpaca Backend
 ## v1.23.0 (2026-07-01)
 
 - Add example responses to OpenAPI documentation for all API endpoints
-- Improve error message clarity for container and repository settings services
+- Improve code quality
 
 ## v1.22.0 (2026-06-30)
 
