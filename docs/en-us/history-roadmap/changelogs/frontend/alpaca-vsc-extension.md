@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.19.0 (2026-07-01)
+
+- Improve multi-backend support for language model tools
+- Exclude labels from selection dialogs that let you pick a child item from a tree
+
 ## v1.18.0 (2026-06-26)
 
 - Add an actual selection dialog to choose the BC country when creating a container (with version and country selection)
