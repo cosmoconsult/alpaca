@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.23.1 (2026-07-01)
+
+- Fix issue where NuGet package download returned an incorrect error for non-existent packages
+
 ## v1.23.0 (2026-07-01)
 
 - Add example responses to OpenAPI documentation for all API endpoints
