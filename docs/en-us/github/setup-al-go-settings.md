@@ -174,7 +174,7 @@ Settings to control the behavior if a test run finishes without any `testcase` e
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca` > `ActionOnMissingTests` | string | `Warning` | workflow | Controls how missing test cases are handled in the build workflow. Allowed values: `None`, `Warning`, `Error`. <br>`None`: skip the check. <br>`Warning`: log a warning and continue. <br>`Error`: fail the workflow step with an error. |
+| `alpaca` > `actionOnMissingTests` | string | `Warning` | workflow | Controls how missing test cases are handled in the build workflow. Allowed values: `None`, `Warning`, `Error`. <br>`None`: skip the check. <br>`Warning`: log a warning and continue. <br>`Error`: fail the workflow step with an error. |
 
 ## Migrating from alpaca.json
 
