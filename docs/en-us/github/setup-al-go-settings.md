@@ -170,7 +170,7 @@ Settings to change the behavior of the breaking change check of the build workfl
 
 ### Action on Missing Test Cases
 
-Settings to control the behavior if a test run finishes without any `testcase` entry in the JUnit result file.
+Settings to control the behavior if a test apps are executed but no test result is found. This may be the case if none of the test apps have test cases or if all of them have been ignored.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
