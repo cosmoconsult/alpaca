@@ -168,6 +168,14 @@ Settings to change the behavior of the breaking change check of the build workfl
 | - | - | - | - | - |
 | `alpaca` > `useNuGetFeedsForUpgrade` | boolean | `false` | workflow | Set `true` to test for breaking changes by downloading previous app versions from the trusted NuGet feeds rather than from the assets of the latest GitHub release. |
 
+### Action on Missing Test Cases
+
+Settings to control the behavior if a test run finishes without any `testcase` entry in the JUnit result file.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `ActionOnMissingTests` | string | `Warning` | workflow | Controls how missing test cases are handled in the build workflow. Allowed values: `None`, `Warning`, `Error`. <br>`None`: skip the check. <br>`Warning`: log a warning and continue. <br>`Error`: fail the workflow step with an error. |
+
 ## Migrating from alpaca.json
 
 Migrate and remove existing *alpaca.json* files.
