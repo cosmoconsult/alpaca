@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.24.0 (2026-07-03)
+
+- Add support for importing Azure DevOps dashboards
+
 ## v1.23.2 (2026-07-03)
 
 - Fix duplicate container entry in OpenAPI example responses
