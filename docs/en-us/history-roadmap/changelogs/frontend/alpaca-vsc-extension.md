@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.19.1 (2026-07-03)
+
+- Internal improvements
+
 ## v1.19.0 (2026-07-01)
 
 - Improve multi-backend support for language model tools
