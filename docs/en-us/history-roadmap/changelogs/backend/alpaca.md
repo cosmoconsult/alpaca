@@ -12,7 +12,6 @@ All notable changes to the Alpaca Backend
 
 - Fix duplicate container entry in OpenAPI example responses
 - Add `podType` to container OpenAPI example responses
-- Update agentic workflow OpenAPI example
 
 ## v1.23.1 (2026-07-01)
 
