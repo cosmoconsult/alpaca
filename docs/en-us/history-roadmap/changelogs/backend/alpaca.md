@@ -8,6 +8,12 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.23.2 (2026-07-03)
+
+- Fix duplicate container entry in OpenAPI example responses
+- Add `podType` to container OpenAPI example responses
+- Update agentic workflow OpenAPI example
+
 ## v1.23.1 (2026-07-01)
 
 - Fix issue where NuGet package download returned an incorrect error for non-existent packages
