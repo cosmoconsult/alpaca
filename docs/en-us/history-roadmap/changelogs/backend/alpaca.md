@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.24.1 (2026-07-06)
+
+- Fix incorrect naming of the Azure DevOps dashboard import API endpoint
+
 ## v1.24.0 (2026-07-03)
 
 - Add support for importing Azure DevOps dashboards
