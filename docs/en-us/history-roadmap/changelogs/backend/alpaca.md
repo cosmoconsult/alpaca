@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.25.0 (2026-07-07)
+
+- Add support for configuring NuGet feed package version selection mode in AL-Go projects
+
 ## v1.24.1 (2026-07-06)
 
 - Fix incorrect naming of the Azure DevOps dashboard import API endpoint
