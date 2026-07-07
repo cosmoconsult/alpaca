@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.20.0 (2026-07-06)
+
+- Add an Azure DevOps action to import dashboards from another team or project
+
 ## v1.19.1 (2026-07-03)
 
 - Internal improvements
