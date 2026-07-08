@@ -45,7 +45,7 @@ If there's no user in the customer tenant that has the rights to create new App 
      * Open the "Federated credentials" tab
      * Click on "Add credential"
      * Select the GitHub Actions scenario
-     * Fill in the required GitHub organization, repository, and environment details (Entity type should be *Environment*)
+     * Fill in the required GitHub organization, repository, and environment details ("Entity type" should be "Environment")
      * Click on "Add"
      * Use this option if you want to authenticate GitHub Actions without storing a long-lived **ClientSecret**
 1. Select "Overview"
