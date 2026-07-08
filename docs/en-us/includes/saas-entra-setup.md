@@ -45,7 +45,7 @@ If there's no user in the customer tenant that has the rights to create new App 
      * Open the "Federated credentials" tab
      * Click on "Add credential"
      * Select the GitHub Actions scenario
-     * Fill in the required GitHub organization, repository, and environment details
+     * Fill in the required GitHub organization, repository, and environment details (Entity type should be *Environment*)
      * Click on "Add"
      * Use this option if you want to authenticate GitHub Actions without storing a long-lived **ClientSecret**
 1. Select "Overview"
@@ -77,11 +77,12 @@ If there's no user in the customer tenant that has the rights to create new App 
    * A page with a required Login opens
    * Use the newly created user from the previous step or another user with "Global Administrator"-role and continue
    * Accept the requested permissions and the page should close afterwards
-7. Look at the bottom of the Microsoft Entra application page and add the following
+7. Make sure the Entra Application is enabled
+8. Look at the bottom of the Microsoft Entra application page and add the following
    * "D365 AUTOMATION"
    * "EXTEN. MGT. - ADMIN"
    * *additional permission sets required by partner apps (e.g. "CCS LIC ALL" for COSMO Licensing)*
-8. Your Microsoft Entra application is now fully set up!
+9. Your Microsoft Entra application is now fully set up!
 
 > [!NOTE]
 > This step needs to be done for each Business Central environment you want to deploy to.
