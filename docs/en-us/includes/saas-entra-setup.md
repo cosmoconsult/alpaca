@@ -77,7 +77,7 @@ If there's no user in the customer tenant that has the rights to create new App 
    * A page with a required Login opens
    * Use the newly created user from the previous step or another user with "Global Administrator"-role and continue
    * Accept the requested permissions and the page should close afterwards
-7. Make sure the Entra Application is enabled
+7. Make sure the Microsoft Entra application is enabled
 8. Look at the bottom of the Microsoft Entra application page and add the following
    * "D365 AUTOMATION"
    * "EXTEN. MGT. - ADMIN"
