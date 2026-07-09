@@ -8,6 +8,13 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## v2.9.0 (2026-07-09)
+
+- Updated to [Alpaca-Actions@v2.9.0](./alpaca-actions.md#v290-2026-07-09)
+- Add workflow "COSMO Alpaca - Update Settings Files" to update AL-Go settings files
+- Add check for out-of-date AL-Go settings files to build workflows
+- Add update of AL-Go settings files to workflow "Update AL-Go System Files"
+
 ## v2.8.4 (2026-06-19)
 
 - Updated to [Alpaca-Actions@v2.8.4](./alpaca-actions.md#v284-2026-06-19)

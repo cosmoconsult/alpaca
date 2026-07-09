@@ -8,6 +8,18 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.9.0 (2026-07-09)
+
+- Add action to update AL-Go settings files
+- Add setting to enforce conditional settings for build modes of the AL-Go organization settings (ALGoOrgSettings)
+- Add setting to override the container startup scripts (for internal tests)
+- Add setting to handle missing test executions
+- Add XLIFF-Sync notes of issues found during translations test
+- Add check to enforce pwsh (support for powershell 5 is deprecated)
+- Add override for unpublishing apps from the container to suppress the unsupported feature
+- Add automatic deactivation of external rulesets for unsupported AL compiler versions
+- Add automatic installation of ALCops
+
 ## v2.8.4 (2026-06-19)
 
 - Fix issue with installing apps in the container without sorting them by dependencies

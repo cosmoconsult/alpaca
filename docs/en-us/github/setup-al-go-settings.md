@@ -128,14 +128,7 @@ Settings to setup artifacts for containers.
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
 | `alpaca` > `artifacts` | object[] | `[]` | container | Array of artifacts to import during the startup of a container. [COSMO Alpaca documentation](setup-artifacts.md) |
-
-### App Import Exclude Expressions
-
-Setting to exclude apps while importing apps.
-
-| Element | Type | Default | Scope | Value |
-| - | - | - | - | - |
-| `alpaca` > `artifactsAppExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing apps. |
+| `alpaca` > `artifactsAppExcludeExpr` | string | `""` | container | Regular expression used to exclude apps while importing the artifacts during the container start. |
 
 ### Authentication
 
@@ -167,6 +160,30 @@ Settings to change the behavior of the breaking change check of the build workfl
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
 | `alpaca` > `useNuGetFeedsForUpgrade` | boolean | `false` | workflow | Set `true` to test for breaking changes by downloading previous app versions from the trusted NuGet feeds rather than from the assets of the latest GitHub release. |
+
+### Tests
+
+Settings to change the behaviour of running tests for the build workflows.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `actionOnMissingTests` | string | `Warning` | workflow | Defines the action for the case where no test was executed for the test apps *(`None`, `Warning`, `Error`)*. |
+
+### Update of AL-Go Settings Files
+
+Settings to change the behaviour of the workflow "COSMO Alpaca - Update Settings Files".
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `enforceOrgBuildModesSettings` | boolean | `false` | workflow | Set `true` to enforce the conditional settings for build modes of the organization settings (`ALGoOrgSettings`). The conditional settings are only enforced in repositories using at least one build mode in any settings file. The conditional settings are only added to a settings file if both contain at least one matching setting (e.g. both contain `artifact`). |
+
+### Container
+
+Settings to change the behaviour of the container.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `startupScriptUrl` | string | `` | container | Overrides the startup scripts downloaded and used by the container. **NOTE**: This overrides the COSMO Alpaca specific customizations for the container startup. Should only be used with caution. |
 
 ## Migrating from alpaca.json
 
