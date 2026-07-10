@@ -163,7 +163,7 @@ Settings to change the behavior of the breaking change check of the build workfl
 
 ### Tests
 
-Settings to change the behaviour of running tests for the build workflows.
+Settings to change the behavior of running tests for the build workflows.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
