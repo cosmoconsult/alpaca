@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension (legacy)
 
 ## v1.54.0 (2026-07-09)
 
-- Show "main owner" as tooltip for owners [see #4959](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4959)
+- Show "main owner" in container details [see #4959](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4959)
 
 ## v1.53.0 (2026-06-25)
 
