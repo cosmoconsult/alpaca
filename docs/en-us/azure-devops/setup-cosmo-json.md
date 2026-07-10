@@ -37,7 +37,7 @@ A basic `cosmo.json` could look like the following:
             "ignoreIn": ["dev"]
         }
     ],
-   
+
     // Common Artifacts used for each bcArtifact configuration
     "artifacts": [],
     "devopsArtifacts": [],
@@ -52,17 +52,17 @@ A basic `cosmo.json` could look like the following:
         "current": {
             // Specific Artifacts used only for this bcArtifact configuration
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         "nextMinor": {
             // ...
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         "nextMajor": {
             // ...
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         // ...
     },
@@ -151,11 +151,11 @@ The additional deployment feeds are used in Product Development to deploy the sa
 - If you use third 3rd party dependencies and running BC version **17.12+**, **18.7+**, **19.1+** or up until **BC22** you can use the BC23 Cronus license that contains all license ranges by specifying this in your cosmo.json:
 
 ```json
-"licenseFile": "https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D" 
+"licenseFile": "https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D"
 ```
 
 - Starting with **BC23** you can always use the default Cronus license since it includes all license ranges by specifying this in your cosmo.json:
-  
+
 ```json
 "licenseFile": ""
 ```
