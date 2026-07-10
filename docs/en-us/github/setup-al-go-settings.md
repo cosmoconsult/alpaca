@@ -183,7 +183,7 @@ Settings to change the behaviour of the container.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca` > `startupScriptUrl` | string | `` | container | Overrides the startup scripts downloaded and used by the container. **NOTE**: This overrides the COSMO Alpaca specific customizations for the container startup. Should only be used with caution. |
+| `alpaca` > `startupScriptUrl` | string | `""` | container | Overrides the startup scripts downloaded and used by the container. **NOTE**: This overrides the COSMO Alpaca specific customizations for the container startup. Should only be used with caution. |
 
 ## Migrating from alpaca.json
 
