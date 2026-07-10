@@ -179,7 +179,7 @@ Settings to change the behavior of the workflow "COSMO Alpaca - Update Settings 
 
 ### Container
 
-Settings to change the behaviour of the container.
+Settings to change the behavior of the container.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
