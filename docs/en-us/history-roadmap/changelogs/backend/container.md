@@ -8,6 +8,9 @@
 
 All notable changes to the Container Backend
 
+## v1.85.0 (2026-07-09)
+
+- Overwrite main owner during clone [see #4959](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4959)
 ## v1.84.0 (2026-05-20)
 
 - Fix issue where container configurations failed to validate in case of big artifacts referenced via https [see #4876](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4876)
