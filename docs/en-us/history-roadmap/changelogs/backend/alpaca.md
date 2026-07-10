@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.27.0 (2026-07-10)
+
+- Add support for downloading container logs
+
 ## v1.26.0 (2026-07-10)
 
 - Set main owner when cloning containers
