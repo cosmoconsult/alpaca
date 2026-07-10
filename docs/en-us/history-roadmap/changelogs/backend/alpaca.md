@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.26.0 (2026-07-10)
+
+- Set main owner when cloning containers
+
 ## v1.25.0 (2026-07-07)
 
 - Add support for configuring NuGet feed package version selection mode in AL-Go projects
