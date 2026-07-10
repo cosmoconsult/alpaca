@@ -171,7 +171,7 @@ Settings to change the behavior of running tests for the build workflows.
 
 ### Update of AL-Go Settings Files
 
-Settings to change the behaviour of the workflow "COSMO Alpaca - Update Settings Files".
+Settings to change the behavior of the workflow "COSMO Alpaca - Update Settings Files".
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
