@@ -4,7 +4,7 @@ title: "[QUESTION] "
 labels:
   - question
 assignees:
-  - lippertmarkus
+  - ps610
 body:
   - type: textarea
     id: question
