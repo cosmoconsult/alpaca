@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.22.0 (2026-07-13)
+
+- Display the owner(s) and main owner of a container
+
 ## v1.21.0 (2026-07-10)
 
 - Add support to download logs of a running container
