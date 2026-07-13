@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.21.0 (2026-07-10)
+
+- Add support to download logs of a running container
+
 ## v1.20.0 (2026-07-06)
 
 - Add an Azure DevOps action to import dashboards from another team or project
