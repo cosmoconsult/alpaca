@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.28.0 (2026-07-13)
+
+- Add owner and main owner information to container info
+
 ## v1.27.0 (2026-07-10)
 
 - Add support for downloading container logs
