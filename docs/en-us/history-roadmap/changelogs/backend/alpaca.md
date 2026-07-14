@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.29.0 (2026-07-14)
+
+- Extend GitHub repository filtering to include Business Central repositories based on name prefix and topics
+
 ## v1.28.0 (2026-07-13)
 
 - Add owner and main owner information to container info
