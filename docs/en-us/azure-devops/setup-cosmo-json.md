@@ -37,7 +37,7 @@ A basic `cosmo.json` could look like the following:
             "ignoreIn": ["dev"]
         }
     ],
-   
+
     // Common Artifacts used for each bcArtifact configuration
     "artifacts": [],
     "devopsArtifacts": [],
@@ -52,17 +52,17 @@ A basic `cosmo.json` could look like the following:
         "current": {
             // Specific Artifacts used only for this bcArtifact configuration
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         "nextMinor": {
             // ...
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         "nextMajor": {
             // ...
             "artifacts": [],
-            "devopsArtifacts": []    
+            "devopsArtifacts": []
         },
         // ...
     },
@@ -109,6 +109,8 @@ You can define additional configurations like e.g. one which imports RapidStart 
 |`"auth"`                         |string |optional     |The used authentication method to access the container. This can be either `NavUserPassword` (default) or `AAD`.|
 |`"importTestApps"`               |boolean|optional     |Set to true to import the System Application Test App as well as the [AL Test Runner](https://marketplace.visualstudio.com/items?itemName=jamespearson.al-test-runner) Service App|
 |`"importTestLibraries"`          |boolean|optional     |Set to true to import the Test Libraries by Microsoft. (This is only relevant when creating containers based on a backup without Test Libraries. Normal containers already include the Test Libraries.)|
+|`"appExcludeExpr"`               |string |optional     |Regular expression used to exclude apps while importing apps. This can be overruled by setting `appExcludeExpr` on a specific `bcArtifact` configuration.|
+|`"dependentAppExcludeExpr"`      |string |optional     |Regular expression used to exclude dependent apps while importing apps and their dependencies. This can be overruled by setting `dependentAppExcludeExpr` on a specific `bcArtifact` configuration.|
 |`"customNuGetFeeds"`             |array  |optional     |An optional array of custom NuGet feeds. [more](#custom-nuget-feeds)|
 
 ### Additional Deployment Feeds
@@ -149,11 +151,11 @@ The additional deployment feeds are used in Product Development to deploy the sa
 - If you use third 3rd party dependencies and running BC version **17.12+**, **18.7+**, **19.1+** or up until **BC22** you can use the BC23 Cronus license that contains all license ranges by specifying this in your cosmo.json:
 
 ```json
-"licenseFile": "https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D" 
+"licenseFile": "https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D"
 ```
 
 - Starting with **BC23** you can always use the default Cronus license since it includes all license ranges by specifying this in your cosmo.json:
-  
+
 ```json
 "licenseFile": ""
 ```

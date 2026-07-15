@@ -4,7 +4,7 @@ title: "[FEATURE] "
 labels:
   - enhancement
 assignees:
-  - lippertmarkus
+  - ps610
 body:
   - type: textarea
     id: problem

@@ -8,6 +8,86 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.30.1 (2026-07-15)
+
+- Fix issue where AL-Go bcArtifact version was incorrectly set when the artifact select mode is Current, NextMinor, or NextMajor
+
+## v1.30.0 (2026-07-14)
+
+- Add support for inheriting AL-Go app dependencies as NuGet artifacts in container configuration
+- Improve NuGet artifact validation to support version ranges and enforce valid app ID naming for both GitHub and Azure DevOps
+
+## v1.29.0 (2026-07-14)
+
+- Extend GitHub repository filtering to include Business Central repositories based on name prefix and topics
+
+## v1.28.0 (2026-07-13)
+
+- Add owner and main owner information to container info
+
+## v1.27.0 (2026-07-10)
+
+- Add support for downloading container logs
+
+## v1.26.0 (2026-07-10)
+
+- Set main owner when cloning containers
+
+## v1.25.0 (2026-07-07)
+
+- Add support for configuring NuGet feed package version selection mode in AL-Go projects
+
+## v1.24.1 (2026-07-06)
+
+- Fix incorrect naming of the Azure DevOps dashboard import API endpoint
+
+## v1.24.0 (2026-07-03)
+
+- Add support for importing Azure DevOps dashboards
+
+## v1.23.2 (2026-07-03)
+
+- Fix duplicate container entry in OpenAPI example responses
+- Add `podType` to container OpenAPI example responses
+
+## v1.23.1 (2026-07-01)
+
+- Fix issue where NuGet package download returned an incorrect error for non-existent packages
+
+## v1.23.0 (2026-07-01)
+
+- Add example responses to OpenAPI documentation for all API endpoints
+- Improve code quality
+
+## v1.22.0 (2026-06-30)
+
+- Fix issue where wrong username was used for containers using AAD authentication
+- Improve code quality
+
+## v1.21.1 (2026-06-26)
+
+- Add default value for app exclusion expression in `cosmo.json` container configurations
+
+## v1.21.0 (2026-06-26)
+
+- Add enum for Business Central countries for improved input validation
+
+## v1.20.1 (2026-06-26)
+
+- Revert dedicated namespace resolution for external GitHub collaborators
+
+## v1.20.0 (2026-06-25)
+
+- Improve namespace resolution for external GitHub collaborators
+
+## v1.19.0 (2026-06-25)
+
+- Add support for app exclusion expression configuration in `cosmo.json` and AL-Go settings
+
+## v1.18.0 (2026-06-23)
+
+- Improve handling of AL-Go single-project repositories to align with AL-Go standards
+
 ## v1.17.0 (2026-06-17)
 
 - Add support for creating GitHub environments according to federated credentials

@@ -8,6 +8,40 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.22.0 (2026-07-13)
+
+- Display the owner(s) and main owner of a container
+
+## v1.21.0 (2026-07-10)
+
+- Add support to download logs of a running container
+
+## v1.20.0 (2026-07-06)
+
+- Add an Azure DevOps action to import dashboards from another team or project
+
+## v1.19.1 (2026-07-03)
+
+- Internal improvements
+
+## v1.19.0 (2026-07-01)
+
+- Improve multi-backend support for language model tools
+- Exclude labels from selection dialogs that let you pick a child item from a tree
+
+## v1.18.0 (2026-06-26)
+
+- Add an actual selection dialog to choose the BC country when creating a container (with version and country selection)
+- Pre-select the first container configuration when creating a container to improve usability
+
+## v1.17.0 (2026-06-25)
+
+- Streamlined and refactored selection dialogs; additionally the first item is no longer pre-selected, preventing accidental selection
+
+## v1.16.0 (2026-06-18)
+
+- Add support for creating GitHub Environments with federated authentication
+
 ## v1.15.0 (2026-06-12)
 
 - Use the repository name in the UI for single-project AL-Go repositories
@@ -84,7 +118,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v0.83.2 (2026-04-24)
 
-- Fix incorrect AL-Go deployment process used incorrect version, and add handling for multiple release versions
+- Fix incorrect version used in AL-Go deployment process, and add handling for multiple release versions
 
 ## v0.83.1 (2026-04-15)
 
@@ -652,7 +686,7 @@ All notable changes to the Visual Studio Code Extension
 
 - Make extension more compatible with codespaces
 - Update API clients
-- UI/UX improvements - tree view, icons, favorites- Execute DLL collection asynchronously
+- UI/UX improvements - tree view, icons, favorites - Execute DLL collection asynchronously
 
 ## 0.8.3 (2024-01-18)
 
