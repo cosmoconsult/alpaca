@@ -482,8 +482,8 @@ Set-Location -Path $LocalRepoPath
 git clone https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoA] .
 
 # Step 2: Rewrite history of the target repository to move all files into a subdirectory (e.g., "Project A")
+# Requires git-filter-repo (install once via: python -m pip install git-filter-repo)
 git-filter-repo --replace-refs delete-no-add --to-subdirectory-filter "Project A/"
-
 # Step 3: Clone the second repository
 $LocalRepoPathOfMergeSource = "C:\git\MergeSourceRepo" # adjust as needed
 Set-Location -Path $LocalRepoPathOfMergeSource
