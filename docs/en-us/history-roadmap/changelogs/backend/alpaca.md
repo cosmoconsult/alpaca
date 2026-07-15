@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.30.0 (2026-07-14)
 
-- Add support for inheriting AL-Go app dependencies as NuGet artifacts in project configuration
+- Add support for inheriting AL-Go app dependencies as NuGet artifacts in container configuration
 - Improve NuGet artifact validation to support version ranges and enforce valid app ID naming for both GitHub and Azure DevOps
 
 ## v1.29.0 (2026-07-14)
