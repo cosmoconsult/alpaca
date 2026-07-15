@@ -4,7 +4,7 @@ title: "[BUG] "
 labels:
   - bug
 assignees:
-  - lippertmarkus
+  - ps610
 body:
   - type: checkboxes
     id: status_dashboard
