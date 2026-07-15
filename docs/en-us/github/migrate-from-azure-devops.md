@@ -526,4 +526,4 @@ git push origin --force --tags
 
 After that, copy the required AL-Go files into the repository. You can follow the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/MigrateFromAzureDevOpsWithHistory.md) starting from step 8. However, do not use the Microsoft templates. Use either the [COSMO Alpaca PTE Template](https://github.com/cosmoconsult/Alpaca-PTE-Template) or the [COSMO Alpaca AppSource Template](https://github.com/cosmoconsult/Alpaca-AppSource-Template).
 
-After the push, the repository still needs to be [initialized](initialize-repository.md). Then run the GitHub Action "Update AL-Go System Files" to bring all files up to date.
+After the push, the repository still needs to be [initialized](initialize-repository.md). Then run the **Update AL-Go System Files** GitHub Action to bring all files up to date.
