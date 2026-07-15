@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.30.1 (2026-07-15)
+
+- Fix issue where AL-Go bcArtifact version was incorrectly set when the artifact select mode is Current, NextMinor, or NextMajor
+
 ## v1.30.0 (2026-07-14)
 
 - Add support for inheriting AL-Go app dependencies as NuGet artifacts in container configuration
