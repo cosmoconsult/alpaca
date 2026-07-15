@@ -470,47 +470,42 @@ In Azure DevOps, a repository was often created for each app, with one subfolder
 In AL-Go, it often makes sense to convert several of these repositories into one multi-project repository.
 If you want to [merge them without history](https://github.com/microsoft/AL-Go/blob/main/Scenarios/MigrateFromAzureDevOpsWithoutHistory.md), this can be easily done by simply copying the repositories together.
 
-However, if you want to preserve the history of both source repositories, this is also possible. To do this, first create and [initialize the destination repository](initialize-repository.md), and then merge the source repositories.
+However, if you want to preserve the history of both source repositories, this is also possible. Use the following approach to combine the history of both repositories into a new repository. The files from both repositories are moved into separate subdirectories to enable multiple projects in a single repository.
 
 > [!IMPORTANT]
 > The following procedure should be executed entirely locally or in a codespace and only pushed to GitHub after proper review.
 
 ```powershell
-# Step 1: Clone the target repository
-$TargetRepoPath = "C:\git\TargetRepo" # adjust as needed
-Set-Location -Path $TargetRepoPath
-git clone https://github.com/[MyOrga]/[MyRepo].git .
+# Step 1: Clone the first (target) repository
+$LocalRepoPath = "C:\git\TargetRepo" # adjust as needed
+Set-Location -Path $LocalRepoPath
+git clone https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoA] .
 
-# Step 2: Add RepoA and fetch its history
-git remote add repoa "https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoA]"
-git fetch repoa --tags
+# Step 2: Rewrite history of the target repository to move all files into a subdirectory (e.g., "Project A")
+git-filter-repo --replace-refs delete-no-add --to-subdirectory-filter "Project A/"
 
-# Step 3: Merge RepoA into projA subdirectory
-git merge -s ours --no-commit --allow-unrelated-histories repoa/main
-git read-tree --prefix=projA/ -u repoa/main # projA is the name of the AL-Go project folder
-git commit -m "Merge RepoA into projA subdirectory"
+# Step 3: Clone the second repository
+$LocalRepoPathOfMergeSource = "C:\git\MergeSourceRepo" # adjust as needed
+Set-Location -Path $LocalRepoPathOfMergeSource
+git clone https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoB] .
 
-# Step 4: Add RepoB and fetch its history
-git remote add repob "https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoB]"
-git fetch repob --tags
+# Step 4: Rewrite history of the source repository to move all files into a subdirectory (e.g., "Project B")
+git-filter-repo --replace-refs delete-no-add --to-subdirectory-filter "Project B/"
 
-# Step 5: Merge RepoB into projB subdirectory
-git merge -s ours --no-commit --allow-unrelated-histories repob/main
-git read-tree --prefix=projB/ -u repob/main # projB is the name of the AL-Go project folder
-git commit -m "Merge RepoB into projB subdirectory"
+# Step 5
+Set-Location -Path $LocalRepoPath
+git remote add repob $LocalRepoPathOfMergeSource
+git fetch repob
+git merge --allow-unrelated-histories repob/main
+git remote remove repob
 
 # Step 6: Verify the result
 git log --all --graph --oneline
 
-# Step 7: Remove remotes
-git remote remove repoa
-git remote remove repob
-
-# Step 8: Push to GitHub
-git push origin main --tags
+# Step 7: Push to GitHub
+git remote add "origin" https://github.com/[MyOrga]/[MyRepo].git
+git push --force --mirror origin
 ```
-
-It's possible that the `git log` may not properly show changes before the merge commit. However, `git blame` should provide the full history for all files.
 
 When pushing to GitHub, an error may occur if the repository history contains files larger than 100 MB. In this case, these files must be removed or managed using Git LFS.
 The files can be removed from the history using the following commands (requires Python and pip; use Codespace if necessary). The filenames can be found in the Git error message that appears during the push. Warning: This changes the commit history and should only be done if absolutely necessary. Because these steps are run in an existing working repository rather than in a fresh clone, `git filter-repo` may otherwise refuse to run with a safety error. In this specific situation, `--force` is required because you are intentionally rewriting the local history before pushing the migrated repository to GitHub. As always, test and verify locally first before pushing the changes to GitHub.
@@ -528,3 +523,7 @@ git remote add origin https://github.com/[MyOrga]/[MyRepo].git
 git push origin --force --all
 git push origin --force --tags
 ```
+
+After that, copy the required AL-Go files into the repository. You can follow the [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/MigrateFromAzureDevOpsWithHistory.md) starting from step 8. However, do not use the Microsoft templates. Use either the [COSMO Alpaca PTE Template](https://github.com/cosmoconsult/Alpaca-PTE-Template) or the [COSMO Alpaca AppSource Template](https://github.com/cosmoconsult/Alpaca-AppSource-Template).
+
+After the push, the repository still needs to be [initialized](initialize-repository.md). Then run the GitHub Action "Update AL-Go System Files" to bring all files up to date.
