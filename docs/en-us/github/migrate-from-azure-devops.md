@@ -492,7 +492,7 @@ git clone https://[MyOrga]@dev.azure.com/[MyOrga]/[MyProject]/_git/[MyRepoB] .
 # Step 4: Rewrite history of the source repository to move all files into a subdirectory (e.g., "Project B")
 git-filter-repo --replace-refs delete-no-add --to-subdirectory-filter "Project B/"
 
-# Step 5
+# Step 5: Merge the rewritten second repository into the first repository
 Set-Location -Path $LocalRepoPath
 git remote add repob $LocalRepoPathOfMergeSource
 git fetch repob
