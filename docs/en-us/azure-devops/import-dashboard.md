@@ -19,7 +19,7 @@ The extension provides a convenient way to import an existing dashboard from one
 Right-click on the target project in the **Azure DevOps** view where you want to import the dashboard.  
 Select **Import Dashboard** from the context menu.
 
-**Step 1:** Right-click on the target project and select Import Dashboard
+**Step 1:** Right-click on the target project and select **Import Dashboard**
 ![import dashboard menu](../media/import-dashboard-menu.png)
 
 ### 2. Select the Source Organization
