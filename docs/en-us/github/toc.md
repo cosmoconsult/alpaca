@@ -82,6 +82,8 @@
 
 ## [Versioning Strategies](versioning-strategies.md)
 
+## [Custom CodeCops](custom-codecops.md)
+
 # Migration
 
 ## [Switch from AL-Go to COSMO Alpaca AL-Go](migrate-from-al-go.md)
