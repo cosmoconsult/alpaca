@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.31.0 (2026-07-16)
+
+- Add support for setting the repository template in AL-Go projects
+
 ## v1.30.1 (2026-07-15)
 
 - Fix issue where AL-Go bcArtifact version was incorrectly set when the artifact select mode is Current, NextMinor, or NextMajor
