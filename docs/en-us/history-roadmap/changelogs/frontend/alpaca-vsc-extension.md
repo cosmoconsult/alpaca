@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.23.0 (2026-07-16)
+
+- Add support for changing the AL-Go repository template
+
 ## v1.22.0 (2026-07-13)
 
 - Display the owner(s) and main owner of a container
