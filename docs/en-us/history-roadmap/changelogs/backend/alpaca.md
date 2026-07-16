@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.31.1 (2026-07-16)
+
+- Fix incorrect Azure DevOps team example responses in OpenAPI documentation
+
 ## v1.31.0 (2026-07-16)
 
 - Add support for setting the repository template in AL-Go projects
