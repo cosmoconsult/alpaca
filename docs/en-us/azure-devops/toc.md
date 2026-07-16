@@ -12,6 +12,8 @@
 
 ## [Import Project Backlog](import-projectbacklog.md)
 
+## [Import Dashboard](import-dashboard.md)
+
 ## [Customize Projects](customize-project.md)
 
 ## [Interact with Requirements](interact-with-requirements.md)
