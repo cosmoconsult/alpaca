@@ -1,6 +1,6 @@
 ---
-title: Newsletters
-description: Newsletters
+    title: Newsletters
+    description: Newsletters
 ---
 
 # Newsletters
