@@ -178,12 +178,12 @@ Settings to override code analyzer settings for test apps and BCPT apps.
 
 | Element | Type | Default | Scope | Value |
 | - | - | - | - | - |
-| `alpaca` > `enableCodeCopForTestApps` | boolean | [`enableCodeCop`](https://aka.ms/algosettings#enableCodeCop) | workflow | Overrides `enableCodeCop` for test app builds. |
-| `alpaca` > `enableUICopForTestApps` | boolean | [`enableUICop`](https://aka.ms/algosettings#enableUICop) | workflow | Overrides `enableUICop` for test app builds. |
-| `alpaca` > `enablePerTenantExtensionCopForTestApps` | boolean | [`enablePerTenantExtensionCop`](https://aka.ms/algosettings#enablePerTenantExtensionCop) | workflow | Overrides `enablePerTenantExtensionCop` for test app builds. |
-| `alpaca` > `enableAppSourceCopForTestApps` | boolean | [`enableAppSourceCop`](https://aka.ms/algosettings#enableAppSourceCop) | workflow | Overrides `enableAppSourceCop` for test app builds. |
-| `alpaca` > `customCodeCopsForTestApps` | string[] | [`customCodeCops`](https://aka.ms/algosettings#customCodeCops) | workflow | Overrides `customCodeCops` for test app builds. If set to an empty array, the `customCodeCops` compilation parameter is removed. |
-| `alpaca` > `rulesetFileForTestApps` | string | [`rulesetFile`](https://aka.ms/algosettings#rulesetFile) | workflow | Overrides `rulesetFile` for test app builds. |
+| `alpaca` > `enableCodeCopForTestApps` | boolean | [`enableCodeCop`](https://aka.ms/algosettings#enablecodecop) | workflow | Overrides `enableCodeCop` for test app builds. |
+| `alpaca` > `enableUICopForTestApps` | boolean | [`enableUICop`](https://aka.ms/algosettings#enableuicop) | workflow | Overrides `enableUICop` for test app builds. |
+| `alpaca` > `enablePerTenantExtensionCopForTestApps` | boolean | [`enablePerTenantExtensionCop`](https://aka.ms/algosettings#enablepertenantextensioncop) | workflow | Overrides `enablePerTenantExtensionCop` for test app builds. |
+| `alpaca` > `enableAppSourceCopForTestApps` | boolean | [`enableAppSourceCop`](https://aka.ms/algosettings#enableappsourcecop) | workflow | Overrides `enableAppSourceCop` for test app builds. |
+| `alpaca` > `customCodeCopsForTestApps` | string[] | [`customCodeCops`](https://aka.ms/algosettings#customcodecops) | workflow | Overrides `customCodeCops` for test app builds. If set to an empty array, the `customCodeCops` compilation parameter is removed. |
+| `alpaca` > `rulesetFileForTestApps` | string | [`rulesetFile`](https://aka.ms/algosettings#rulesetfile) | workflow | Overrides `rulesetFile` for test app builds. |
 
 ### Update of AL-Go Settings Files
 
