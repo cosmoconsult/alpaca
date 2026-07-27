@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.24.0 (2026-07-27)
+
+- Add a build mode picker when creating GitHub containers after selecting the AL-Go settings name
+
 ## v1.23.0 (2026-07-16)
 
 - Add support for changing the AL-Go repository template
