@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.32.1 (2026-07-28)
+
+- Fix FileBrowser artifact share URLs to use download URLs
+
 ## v1.31.1 (2026-07-16)
 
 - Fix incorrect Azure DevOps team example responses in OpenAPI documentation
