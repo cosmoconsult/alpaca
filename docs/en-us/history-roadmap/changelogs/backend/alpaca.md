@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.32.1 (2026-07-28)
+
+- Fix File Browser artifact share URLs to use as download URLs
+
+## v1.32.0 (2026-07-27)
+
+- Add endpoint to retrieve AL-Go Build Modes for container creation
+
 ## v1.31.1 (2026-07-16)
 
 - Fix incorrect Azure DevOps team example responses in OpenAPI documentation
