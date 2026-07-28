@@ -10,11 +10,11 @@ All notable changes to the Alpaca Backend
 
 ## v1.32.1 (2026-07-28)
 
-- Fix FileBrowser artifact share URLs to use download URLs
+- Fix File Browser artifact share URLs to use as download URLs
 
 ## v1.32.0 (2026-07-27)
 
-- Add endpoint to retrieve Build Modes for container creation
+- Add endpoint to retrieve AL-Go Build Modes for container creation
 
 ## v1.31.1 (2026-07-16)
 
