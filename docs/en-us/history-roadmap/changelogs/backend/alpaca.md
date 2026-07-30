@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.33.0 (2026-07-30)
+
+- Add support for deploying a development instance with differentiated leader election and configurable ingress path version prefixes
+- Improve deployment configuration cleanup by removing unused resources
+
 ## v1.32.1 (2026-07-28)
 
 - Fix File Browser artifact share URLs to use as download URLs
