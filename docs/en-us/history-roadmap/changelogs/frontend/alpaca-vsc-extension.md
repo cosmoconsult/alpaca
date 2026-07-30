@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.24.1 (2026-07-30)
+
+- Fix minor issues in the async quick pick and simplify it (e.g., for template selection on repository creation)
+
 ## v1.24.0 (2026-07-27)
 
 - Add build mode selection support for GitHub container creation through a dedicated action
