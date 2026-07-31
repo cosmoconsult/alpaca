@@ -27,6 +27,9 @@ All available AL-Go settings are documented in the [AL-Go documentation](https:/
 | `assignPremiumPlan`        | boolean  | `false`                                 | container           | Set `true` to enable premium user experience for the default user of sandbox containers. <br>[AL-Go documentation](https://aka.ms/algosettings#assignPremiumPlan) |
 | `licenseFileUrlSecretName` | string   | `LicenseFileUrl`                        | container           | The name of a GitHub secret containing the URL of the license file. <br>[AL-Go documentation](https://aka.ms/algosettings#licenseFileUrlSecretName) |
 
+> [!NOTE]
+> COSMO Alpaca cannot guarantee support for the AL-Go setting [`updateDependencies`](https://aka.ms/algosettings#updatedependencies) in every case. When enabled, AL-Go sets dependency versions in `app.json` to the exact four-part Business Central version used for compilation. A COSMO Alpaca container might use a slightly different Business Central build than the AL-Go compiler, causing these exact dependency versions to be unavailable in the container.
+
 ### License File
 
 The AL-Go setting `licenseFileUrlSecretName` specifies the GitHub secret name containing the license file URL used by the BC service in the container.
@@ -54,8 +57,8 @@ For this you could set the AL-Go setting `licenseFileUrlSecretName` to a dummy v
     > Only for BC Versions **17.12+**, **18.7+**, **19.1+** or up until **BC22**
 
     - Create a GitHub secret:
-        - Name: `BC_LIC_23_CRONUS`
-        - Value: `https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D`
+      - Name: `BC_LIC_23_CRONUS`
+      - Value: `https://ccppi.blob.core.windows.net/lic/Cronus.bclicense?sp=r&st=2023-06-08T05:34:31Z&se=2033-08-06T13:34:31Z&spr=https&sv=2022-11-02&sr=b&sig=5Noq50jApcWD4XQOG09v%2BChscfio%2B813Kfim79v88RY%3D`
     - Set AL-Go setting `licenseFileUrlSecretName`:
 
       ```json

@@ -12,6 +12,11 @@ Two types of artifacts are supported:
 1. [Artifacts from a NuGet feed](#nuget-feed)
 1. [Artifacts from a URL](#url)
 
+## Inherit App Dependencies
+
+The dependencies of your app are automatically detected from your `app.json` files and inherited as NuGet artifacts for the container configuration. If all app dependencies are available as NuGet artifacts within COSMO Alpaca (see [**Packages View**](./packages-view.md)), you do not need to configure them manually.
+Explicitly configured artifacts take precedence over inherited dependencies. If you specify the `version` of an artifact, it overrides the version inherited from `app.json`. The AL-Go setting `nuGetFeedSelectMode` is fully supported when resolving NuGet package versions.
+
 ## Parameters
 
 Optional parameters available for all artifacts:
@@ -36,7 +41,7 @@ By default all Microsoft NuGet feeds are available for AL-Go, but only the feed 
 Trusted NuGet feeds can either be configured in the [AL-Go settings](setup-al-go-settings.md) or per-user by specifying custom nuget feeds in the Alpaca settings in VS Code.
 
 1. Find out the name and version of the NuGet package you want to use (e.g. from the [Packages View](packages-view.md)).
-1. Add the artifact to `alpaca` > `artifacts` in your [AL-Go settings](setup-al-go-settings.md):
+2. Add the artifact to `alpaca` > `artifacts` in your [AL-Go settings](setup-al-go-settings.md):
 
 ```json
 {
