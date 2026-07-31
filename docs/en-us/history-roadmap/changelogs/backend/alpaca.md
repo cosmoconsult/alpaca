@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.34.0 (2026-07-31)
+
+- Add support for requiring up-to-date branches in GitHub repository standards
+
 ## v1.33.0 (2026-07-30)
 
 - Add support for deploying a development instance with differentiated leader election and configurable ingress path version prefixes
