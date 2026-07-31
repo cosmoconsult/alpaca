@@ -220,12 +220,18 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 | `UseSquashPrTitleAsDefault`          | `bool`     | Automatically set the title of squashed commits to be the PR title.                                                                                              |
 | `AllowRebaseMerge`                   | `bool`     | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
 | `AllowUpdateBranch`                  | `bool`     | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
+| `RequireUpToDateBranch`              | `bool`     | requires branches to be up to date before merging; defaults to true unless explicitly disabled                                                                   |
 | `AllowAutoMerge`                     | `bool`     | Allows the auto merge feature to be used.                                                                                                                        |
 | `DeleteBranchOnMerge`                | `bool`     | Automatically delete branches on PR merge.                                                                                                                       |
 | `RequiredStatusChecks`               | `string[]` | Defines the required status checks for the default branch by creating the repository ruleset `COSMO Alpaca Status Checks (managed - edit status only)`.<br>These checks must pass before pull requests can be merged, but can be bypassed by organization and repository admins.<br>*(Default: `[ "Pull Request Status Check" ]` for the AL-Go workflow **Pull Request Build**)* |
 
 > [!NOTE]
 > All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
+
+### Overriding organization defaults per repository
+
+The `ALPACA_REPO_STANDARDS` variable is defined as on organization level, you can override it in a repository by creating a repository variable with the same name.
+Only provide the adjusted settings in the repository variable in the backend both definitions are merged, and repository values take precedence.
 
 #### Example
 
