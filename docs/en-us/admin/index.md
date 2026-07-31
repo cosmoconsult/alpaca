@@ -204,7 +204,9 @@ data:
 
 _This is available for GitHub only_
 
-When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running "Initialize" on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
+When creating a new repository in VS Code, COSMO Alpaca automatically reads the `ALPACA_REPO_STANDARDS` variable and applies the configured standards. The same standards are also applied when you run **Initialize** on an existing repository from VS Code.
+
+`ALPACA_REPO_STANDARDS` can be defined at repository or organization level. To override organization defaults for a specific repository, create a repository variable with the same name and include only the settings you want to change. In the backend, both definitions are merged, and repository values take precedence.
 
 ### Parameters
 
@@ -220,6 +222,7 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 | `UseSquashPrTitleAsDefault`          | `bool`     | Automatically set the title of squashed commits to be the PR title.                                                                                              |
 | `AllowRebaseMerge`                   | `bool`     | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
 | `AllowUpdateBranch`                  | `bool`     | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
+| `RequireUpToDateBranch`              | `bool`     | Requires branches to be up to date with its base branch before merging. Defaults to `true` unless explicitly disabled.                                                                |
 | `AllowAutoMerge`                     | `bool`     | Allows the auto merge feature to be used.                                                                                                                        |
 | `DeleteBranchOnMerge`                | `bool`     | Automatically delete branches on PR merge.                                                                                                                       |
 | `RequiredStatusChecks`               | `string[]` | Defines the required status checks for the default branch by creating the repository ruleset `COSMO Alpaca Status Checks (managed - edit status only)`.<br>These checks must pass before pull requests can be merged, but can be bypassed by organization and repository admins.<br>*(Default: `[ "Pull Request Status Check" ]` for the AL-Go workflow **Pull Request Build**)* |
@@ -241,6 +244,7 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
   "UseSquashPrTitleAsDefault": true,
   "AllowRebaseMerge": false,
   "AllowUpdateBranch": true,
+  "RequireUpToDateBranch": true,
   "AllowAutoMerge": true,
   "DeleteBranchOnMerge": true,
   "RequiredStatusChecks": [ "Pull Request Status Check", "Custom Status Check" ]
