@@ -230,7 +230,6 @@ When creating a new repository in VS Code, COSMO Alpaca automatically reads the 
 > [!NOTE]
 > All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
 
-
 #### Example
 
 ```json
