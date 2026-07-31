@@ -204,8 +204,9 @@ data:
 
 _This is available for GitHub only_
 
-When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running "Initialize" on an existing repository from VS Code. 
-The variable can be defined on repository or on organization level to apply to all repositories. You can override the variable on organization level by creating a repository variable with the same name. Only provide the adjusted settings in the repository variable, in the backend both definitions are merged and the repository values take precedence.
+When creating a new repository in VS Code, COSMO Alpaca automatically reads the `ALPACA_REPO_STANDARDS` variable and applies the configured standards. The same standards are also applied when you run **Initialize** on an existing repository from VS Code.
+
+`ALPACA_REPO_STANDARDS` can be defined at repository or organization level. To override organization defaults for a specific repository, create a repository variable with the same name and include only the settings you want to change. In the backend, both definitions are merged, and repository values take precedence.
 
 ### Parameters
 
