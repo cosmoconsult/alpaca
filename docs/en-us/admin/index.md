@@ -204,7 +204,8 @@ data:
 
 _This is available for GitHub only_
 
-When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running "Initialize" on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories.
+When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPACA_REPO_STANDARDS` and applies the standards defined there. The standards are also applied when running "Initialize" on an existing repository from VS Code. The variable can be defined on repository or on organization level to apply to all repositories. You can override the variable on organization level in a repository by creating a repository variable with the same name.
+Only provide the adjusted settings in the repository variable in the backend both definitions are merged, and repository values take precedence.
 
 ### Parameters
 
@@ -228,10 +229,6 @@ When creating a new repo in VS Code, Alpaca automatically reads a variable `ALPA
 > [!NOTE]
 > All setting parameters are optional. If a parameter is not set, the corresponding setting will not be changed.
 
-### Overriding organization defaults per repository
-
-The `ALPACA_REPO_STANDARDS` variable is defined as on organization level, you can override it in a repository by creating a repository variable with the same name.
-Only provide the adjusted settings in the repository variable in the backend both definitions are merged, and repository values take precedence.
 
 #### Example
 
@@ -247,6 +244,7 @@ Only provide the adjusted settings in the repository variable in the backend bot
   "UseSquashPrTitleAsDefault": true,
   "AllowRebaseMerge": false,
   "AllowUpdateBranch": true,
+  "RequireUpToDateBranch": true,
   "AllowAutoMerge": true,
   "DeleteBranchOnMerge": true,
   "RequiredStatusChecks": [ "Pull Request Status Check", "Custom Status Check" ]
