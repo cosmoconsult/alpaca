@@ -10,9 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.34.1 (2026-08-04)
 
-- Fix Azure DevOps Azure File Share artifact localization to use the correct IP artifacts
-- Improve Azure DevOps package tree generation when minor package lists are missing
-- Update ASP.NET API versioning, Microsoft Identity Web, and report generation dependencies
+- Fix issue with Azure Fileshare IP-Artifacts
 
 ## v1.34.0 (2026-07-31)
 
