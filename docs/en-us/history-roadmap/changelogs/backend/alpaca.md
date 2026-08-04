@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.34.1 (2026-08-04)
+
+- Fix issue with Azure Fileshare IP-Artifacts
+
 ## v1.34.0 (2026-07-31)
 
 - Add support to configure requiring up-to-date branches in Alpaca repository standards
