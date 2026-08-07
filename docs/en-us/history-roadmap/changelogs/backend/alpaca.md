@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.35.1 (2026-08-07)
 
-- Fix Azure DevOps translated URL artifacts to use the URL artifact type
+- Fix issue with Azure Fileshare IP-Artifacts translated URL artifacts
 
 ## v1.35.0 (2026-08-06)
 
