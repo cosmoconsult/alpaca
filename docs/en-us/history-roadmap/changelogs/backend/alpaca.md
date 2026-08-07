@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.35.1 (2026-08-07)
+
+- Fix Azure DevOps translated artifacts to use URL artifact types
+
 ## v1.35.0 (2026-08-06)
 
 - Add support for assigning repository creators as CODEOWNERS when creating repositories from templates
