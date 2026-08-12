@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.36.0 (2026-08-12)
+
+- Add support for legacy Azure DevOps extensions by maintaining both current and legacy service connections
+
 ## v1.35.3 (2026-08-12)
 
 - Fix issue where Azure DevOps organization groups and users beyond the first result page were not returned
