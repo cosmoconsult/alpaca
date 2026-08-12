@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension (legacy)
 
+## v1.55.0 (2026-07-09)
+
+- Deprecate project customization and add a hint to use the new extension [see #5009](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5009)
+
 ## v1.54.0 (2026-07-09)
 
 - Show "main owner" in container details [see #4959](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4959)
