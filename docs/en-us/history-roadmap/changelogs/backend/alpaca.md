@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.35.3 (2026-08-12)
+
+- Fix issue where Azure DevOps organization groups and users beyond the first result page were not returned
+
 ## v1.35.2 (2026-08-12)
 
 - Avoid unnecessary CI/CD runs when automatically updating GitHub CODEOWNERS files
