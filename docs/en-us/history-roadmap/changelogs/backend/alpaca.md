@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.35.2 (2026-08-12)
+
+- Avoid unnecessary CI/CD runs when automatically updating GitHub CODEOWNERS files
+
 ## v1.35.1 (2026-08-07)
 
 - Fix issue with Azure Fileshare IP-Artifacts translated URL artifacts
