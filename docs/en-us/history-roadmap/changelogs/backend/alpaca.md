@@ -11,7 +11,6 @@ All notable changes to the Alpaca Backend
 ## v1.35.2 (2026-08-12)
 
 - Avoid unnecessary CI/CD runs when automatically updating GitHub CODEOWNERS files
-- Improve API versioning routing, validation, and OpenAPI support
 
 ## v1.35.1 (2026-08-07)
 
