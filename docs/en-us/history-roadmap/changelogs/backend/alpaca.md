@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.38.0 (2026-08-13)
+
+- Add support for adding existing standard fields to Azure DevOps work item layouts and associating behaviors with work item types
+
 ## v1.37.0 (2026-08-13)
 
 - Add validation for NuGet artifacts when creating containers
