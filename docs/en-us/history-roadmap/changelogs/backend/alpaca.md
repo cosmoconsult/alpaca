@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.37.0 (2026-08-13)
+
+- Add validation for NuGet artifacts when creating containers
+
 ## v1.36.0 (2026-08-12)
 
 - Add support for legacy Azure DevOps extensions by maintaining both current and legacy service connections
