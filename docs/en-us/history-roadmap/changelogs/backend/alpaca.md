@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.40.0 (2026-08-25)
+
+- Add support for deploying Business Central app artifacts from NuGet and Azure DevOps sources into containers
+
 ## v1.38.0 (2026-08-13)
 
 - Add support for adding existing standard fields to Azure DevOps work item layouts and associating behaviors with work item types
