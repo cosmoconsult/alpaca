@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.25.0 (2026-08-25)
+
+- Add support for deploying NuGet and Azure DevOps Artifacts package versions directly to containers from their tree views
+
 ## v1.24.1 (2026-07-30)
 
 - Fix minor issues in the async quick pick and simplify it (e.g., for template selection on repository creation)
