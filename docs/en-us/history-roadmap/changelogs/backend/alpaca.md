@@ -12,6 +12,14 @@ All notable changes to the Alpaca Backend
 
 - Add support for deploying Business Central app artifacts from NuGet and Azure DevOps sources into containers
 
+## v1.39.1 (2026-08-25)
+
+- Fix Kubernetes repository and owner label normalization to prevent workflow failures
+
+## v1.39.0 (2026-08-17)
+
+- Add comprehensive validation for BC artifact Select values and supported BC versions
+
 ## v1.38.0 (2026-08-13)
 
 - Add support for adding existing standard fields to Azure DevOps work item layouts and associating behaviors with work item types
