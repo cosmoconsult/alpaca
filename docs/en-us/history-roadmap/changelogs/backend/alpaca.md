@@ -10,8 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.41.0 (2026-08-31)
 
-- Preserve existing Kubernetes startup probe settings when extending container startup timeouts
-- Improve reliability of automated Alpaca Backend changelog updates
+- Make startup probe extension additive
 
 ## v1.40.0 (2026-08-25)
 
