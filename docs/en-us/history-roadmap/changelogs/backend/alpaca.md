@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.41.0 (2026-08-31)
+
+- Make startup probe extension additive
+
 ## v1.40.0 (2026-08-25)
 
 - Add support for deploying Business Central app artifacts from NuGet and Azure DevOps sources into containers
