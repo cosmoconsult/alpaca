@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.41.1 (2026-09-01)
+
+- Fix weekly Business Central artifact selection for containers to use the version configured in AL-Go
+
 ## v1.41.0 (2026-08-31)
 
 - Make startup probe extension additive
