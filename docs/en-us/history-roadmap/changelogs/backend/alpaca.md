@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.42.0 (2026-09-02)
+
+- Add container creation timestamps to container information
+- Improve streamed Azure DevOps app artifact deployment to containers
+
 ## v1.41.1 (2026-09-01)
 
 - Fix weekly BC artifact selection to use the version requested by AL-Go
