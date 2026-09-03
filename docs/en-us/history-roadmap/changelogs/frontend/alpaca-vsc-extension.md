@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.27.0 (2026-09-03)
+
+- Add an option to include removed work items when importing an Azure DevOps backlog
+
 ## v1.26.0 (2026-09-03)
 
 - Show a warning badge on containers that are older than 1 year
