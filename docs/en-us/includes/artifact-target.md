@@ -3,7 +3,7 @@ The `target` specifies what should happen with the artifact.
 |Target(s)|Import|
 |-|-|
 |`app`             |The Artifact content will be imported as an App. This is the **default target**, so you can omit the target for apps.|
-|`rapidStart`      |The Artifact content will be imported as a RapidStart package.|
+|`rapidStart`      |The Artifact content will be imported as a Configuration Package (RapidStart).|
 |`bak`             |The **first** *(not ignored)* `bak` Artifact is used as database backup file during container creation.|
 |`saasbak`         |Backup file from an online SaaS environment, [converted from bacpac to bak](../azure-devops/convert-bacpac-to-bak.md), **cannot** be combined with `bak`.|
 |`dll` or `add-ins`|The Artifact will be imported as a DLL or Add-In.|
@@ -14,7 +14,7 @@ The order of import is:
 1. DLL(s) and Add-Ins
 2. Font(s)
 3. App(s)
-4. RapidStart package(s)
+4. Configuration Packages (RapidStart)
 
 ## Examples
 

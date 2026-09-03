@@ -90,7 +90,7 @@ Containers are configured through settings files stored in the project repositor
 These configuration files define:
 - The Business Central version, country, and type (sandbox or on-premises)
 - License files to use
-- Artifacts to import (apps, DLLs, fonts, RapidStart packages, etc.) from URLs, file shares, NuGet feeds, or Azure DevOps artifact feeds
+- Artifacts to import (apps, DLLs, fonts, Configuration Packages (RapidStart), etc.) from URLs, file shares, NuGet feeds, or Azure DevOps artifact feeds
 - Database backups to restore
 - Custom server and web settings
 - Authentication methods (username/password or Azure AD)
@@ -165,7 +165,7 @@ COSMO Alpaca supports a modern, end-to-end development workflow:
 ### Artifact and Package Management
 - Browse NuGet feeds, Microsoft feeds, and custom feeds from the Packages View
 - Download packages or add them to AL package cache directly
-- Configure app dependencies, DLLs, fonts, RapidStart packages, and more
+- Configure app dependencies, DLLs, fonts, Configuration Packages (RapidStart), and more
 - Support for fileshare, URL, NuGet, Azure DevOps feeds, and product feeds as artifact sources
 - IP (Intellectual Property) artifact feeds for pre-configured product packages
 
