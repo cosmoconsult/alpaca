@@ -727,7 +727,7 @@ All notable changes to the Visual Studio Code Extension (legacy)
 
 ## v0.11.25
 
-- Allow to manually stop and start containers. **Please note:** This will **keep** the database, but it will **not keep** the file system and a full initialization of the container will be performed, excluding the .app, .fob and Configuration Package (RapidStart) imports. You can find out more in the [see documentation](../../../azure-devops/startstop-container.md)
+- Allow to manually stop and start containers. **Please note:** This will **keep** the database, but it will **not keep** the file system and a full initialization of the container will be performed, excluding the .app, .fob and Configuration Package (RapidStart) imports. You can find out more in the [documentation](../../../azure-devops/startstop-container.md).
 - Allow to set a locale through cosmo.json when starting a BC container as this can be used to set locale and culture information in the container (see [nav-docker](https://github.com/microsoft/nav-docker/blob/573359a13e7ac57f5c42b1aeca882a39ee55932b/generic/Run/SetupVariables.ps1#L215-L222))
 - Get RabbitMQ connection information from Azure KeyVault [see #702](https://dev.azure.com/cc-ppi/General/_workitems/edit/702)
 - Handle entites differently for Non-COSMO users [see #690](https://dev.azure.com/cc-ppi/General/_workitems/edit/690)
