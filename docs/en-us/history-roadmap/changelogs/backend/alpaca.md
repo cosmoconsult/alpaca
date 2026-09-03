@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.43.0 (2026-09-03)
+
+- Add support for including removed work items when importing Azure DevOps backlogs
+
 ## v1.42.0 (2026-09-02)
 
 - Add container creation timestamps to container information
