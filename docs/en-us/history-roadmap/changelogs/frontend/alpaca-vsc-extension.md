@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.25.1 (2026-09-03)
+
+- Add support for deploying a NuGet or Azure DevOps Artifacts package directly to a container without selecting a specific version (deploys the latest version)
+
 ## v1.25.0 (2026-08-25)
 
 - Add support for deploying NuGet and Azure DevOps Artifacts package versions directly to containers from their tree views
