@@ -47,11 +47,11 @@ The name, organization and PAT must be stored as secrets:
 
 A package in the artifact feed must have the following folder structure:
 
-| Folder         | Content                                     |
-| -------------- | ------------------------------------------- |
-| `"app"`        | app file of the main app                    |
-| `"test"`       | app file of the test app                    |
-| `"runtime"`    | app file of the runtime package             |
+| Folder         | Content                                                   |
+| -------------- | --------------------------------------------------------- |
+| `"app"`        | app file of the main app                                  |
+| `"test"`       | app file of the test app                                  |
+| `"runtime"`    | app file of the runtime package                           |
 | `"rapidstart"` | the Configuration Package (RapidStart) belonging to the app |
 
 ![Folder Structure](../media/pipelines/ip-feed-folder-structure.png)
