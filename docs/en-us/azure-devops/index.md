@@ -25,7 +25,7 @@ Spin up cloud-hosted Business Central environments for development, testing, and
 
 ### Container Configuration
 
-Configure containers through `cosmo.json` in the `.devops` folder. Define the Business Central version, country, and type (sandbox or on-premises), specify license files, artifacts to import (apps, DLLs, fonts, RapidStart packages) from URLs, file shares, NuGet feeds, or Azure DevOps artifact feeds, database backups to restore, custom server and web settings, authentication methods, custom startup scripts, and companion containers. Support for multiple named configurations (e.g., "current", "nextMajor", "nextMinor") lets teams test against different BC versions.
+Configure containers through `cosmo.json` in the `.devops` folder. Define the Business Central version, country, and type (sandbox or on-premises), specify license files, artifacts to import (apps, DLLs, fonts, Configuration Packages (RapidStart)) from URLs, file shares, NuGet feeds, or Azure DevOps artifact feeds, database backups to restore, custom server and web settings, authentication methods, custom startup scripts, and companion containers. Support for multiple named configurations (e.g., "current", "nextMajor", "nextMinor") lets teams test against different BC versions.
 
 ### Pipeline Setup
 

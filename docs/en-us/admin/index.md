@@ -47,17 +47,17 @@ The name, organization and PAT must be stored as secrets:
 
 A package in the artifact feed must have the following folder structure:
 
-| Folder         | Content                                     |
-| -------------- | ------------------------------------------- |
-| `"app"`        | app file of the main app                    |
-| `"test"`       | app file of the test app                    |
-| `"runtime"`    | app file of the runtime package             |
-| `"rapidstart"` | the rapidstart package belonging to the app |
+| Folder         | Content                                                   |
+| -------------- | --------------------------------------------------------- |
+| `"app"`        | app file of the main app                                  |
+| `"test"`       | app file of the test app                                  |
+| `"runtime"`    | app file of the runtime package                           |
+| `"rapidstart"` | the Configuration Package (RapidStart) belonging to the app |
 
 ![Folder Structure](../media/pipelines/ip-feed-folder-structure.png)
 
 > [!IMPORTANT]
-> For now, you only get the full app with type "app", but in the future test apps, configuration packages (rapidstart) or runtime packages might follow.
+> For now, you only get the full app with type "app", but in the future test apps, Configuration Packages (RapidStart) or runtime packages might follow.
 
 ## Configuring your backend for AAD authentication
 

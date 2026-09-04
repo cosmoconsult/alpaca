@@ -80,7 +80,7 @@ By default you will have the following configurations:
 - `nextMajor`: The configuration for the next major BC version. It's automatically used when running the `Next Major` pipeline.
 - `nextMinor`: The configuration for the next minor BC version. It's automatically used when running the `Next Minor` pipeline.
 
-You can define additional configurations like e.g. one which imports RapidStart packages ore one with a backup. When [creating a new dev container](create-container.md) you can specify which configuration to use.
+You can define additional configurations like e.g. one which imports Configuration Packages (RapidStart) or one with a backup. When [creating a new dev container](create-container.md) you can specify which configuration to use.
 
 ### Parameters
 
