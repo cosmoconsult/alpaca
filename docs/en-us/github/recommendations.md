@@ -10,10 +10,10 @@
 
 ## Repository naming
 
-Use a naming convention that clearly indicates the type and purpose of the repository. This helps in quickly identifying the nature of the repository and its intended use.
-Also this help defining [conditional settings](https://aka.ms/algosettings#conditional-settings) based on repository name as [organizational settings](https://aka.ms/algosettings#where-are-the-settings-located).
+Use a naming convention that clearly indicates the type and purpose of the repository. This helps quickly identify the repository and its intended use.
+This also helps define [conditional settings](https://aka.ms/algosettings#conditional-settings) based on the repository name via [organizational settings](https://aka.ms/algosettings#where-are-the-settings-located).
 
-At COSMO CONSULT we follow these naming conventions for our GitHub repositories:
+At COSMO CONSULT, we follow these naming conventions for our GitHub repositories:
 
 | Scenario | Pattern | Example |
 | - | - | - |
@@ -77,11 +77,11 @@ Repository example in `.github/AL-Go-Settings.json`:
 > By default app versions are independent from the repository version.
 > To change this you can add `16` to your defined versioning strategy to also use the repository version for all app versions. See [Versioning Strategies](versioning-strategies.md) for details.
 
-## Use GitHub App Authentication for GhTokenWorkflow
+## GitHub App authentication for `GhTokenWorkflow`
 
 The easiest configuration for a single repository is to use a PAT (Personal Access Token) generated from your GitHub account. COSMO Alpaca does this automatically for you when initializing the repository through the VS Code extension.
 
-The significantly better, but somewhat more involved, setup is to use GitHub App authentication for the GhTokenWorkflow. The [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/GhTokenWorkflow.md#github-app-authentication-recommended) describes how to configure it in detail.
+The significantly better, but somewhat more involved, setup is to use GitHub App authentication for the `GhTokenWorkflow`. The [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/GhTokenWorkflow.md#github-app-authentication-recommended) describes how to configure it in detail.
 
 This has several advantages:
 
