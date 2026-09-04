@@ -203,7 +203,9 @@ Use `windows-latest` for a GitHub-hosted runner or specify the label of your sel
 }
 ```
 
-Use the public URL when the deployment is executed from a GitHub-hosted runner. If you use a self-hosted runner inside the same network, you can also use an internal address.
+Use the public URL when the deployment is executed from a GitHub-hosted runner. Even if you have a self-hosted runner inside the same network, the public URL should be used to avoid issues due to SSL encryption. If your Business Central OData Service (used for the automation API) is listening on a different port than the default, you need to specify that port in the `apiBaseUrl` as well.
+
+Please note that if a tenant is specified in the AuthContext Secret, the app will only be published for that tenant.
 
 For OnPremise deployments, you can also use authentication through a service principal (requires a correspondingly configured Business Central server). In that case, you need to create a Microsoft Entra app registration. For detailed setup and additional configuration options, see the [AL-Go OnPremise Deployer README](https://github.com/akoniecki/AL-Go-OnPremise-Deployer/blob/main/README.md).
 
