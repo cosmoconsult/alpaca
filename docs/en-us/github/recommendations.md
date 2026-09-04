@@ -88,7 +88,7 @@ This has several advantages:
 - Improved security because no personal access tokens (PATs) need to be stored in the repository.
 - Easier permission management through the GitHub App.
 - Automatic token renewal by the GitHub App.
-- Pull requests created by GitHub Actions, such as `Update AL-Go System Files` or `Increment Version`, can be reviewed and merged by the maintainer, even where review requirements might otherwise prevent it.
+- Pull requests created by GitHub Actions, such as `Update AL-Go System Files` or `Increment Version`, can be reviewed and merged by the maintainer, even when review requirements might otherwise prevent it.
 
 ## Use GitHub Repo Standards
 
