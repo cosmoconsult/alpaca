@@ -10,12 +10,15 @@
 
 ## Repository naming
 
-Use the following naming scheme:
+Use a naming convention that clearly indicates the type and purpose of the repository. This helps in quickly identifying the nature of the repository and its intended use.
+Also this help defining [conditional settings](https://aka.ms/algosettings#conditional-settings) based on repository name as [organizational settings](https://aka.ms/algosettings#where-are-the-settings-located).
+
+At COSMO CONSULT we follow these naming conventions for our GitHub repositories:
 
 | Scenario | Pattern | Example |
 | - | - | - |
 | Customer project | `bc-customer-<customername>` | `bc-customer-acme` |
-| Product | `bc-solution-<productname>` | `bc-solution-opplus` |
+| Product | `bc-solution-<productname>` | `bc-solution-incoming-outgoings` |
 | Asset / shared library | `bc-asset-<assetname>` | `bc-asset-translations` |
 
 ## Repository structure
@@ -73,6 +76,24 @@ Repository example in `.github/AL-Go-Settings.json`:
 > [!NOTE]
 > By default app versions are independent from the repository version.
 > To change this you can add `16` to your defined versioning strategy to also use the repository version for all app versions. See [Versioning Strategies](versioning-strategies.md) for details.
+
+## Use GitHub App Authentication for GhTokenWorkflow
+
+The easiest configuration for a single repository is to use a PAT (Personal Access Token) generated from your GitHub account. COSMO Alpaca does this automatically for you when initializing the repository through the VS Code extension.
+
+The significantly better, but somewhat more involved, setup is to use GitHub App authentication for the GhTokenWorkflow. The [AL-Go documentation](https://github.com/microsoft/AL-Go/blob/main/Scenarios/GhTokenWorkflow.md#github-app-authentication-recommended) describes how to configure it in detail.
+
+This has several advantages:
+
+- Improved security because no personal access tokens (PATs) need to be stored in the repository.
+- Easier permission management through the GitHub App.
+- Automatic token renewal by the GitHub App.
+- Pull requests created by Actions, such as `Update AL-Go System Files` or `Increment Version`, can be reviewed and merged by the maintainer, even where review requirements might otherwise prevent it.
+
+## Use GitHub Repo Standards
+
+Use [GitHub repository standards](../admin/index.md#github-repo-standards) to maintain consistency and improve collaboration across projects. This includes adhering to naming conventions, branch strategies, and file organization as recommended by GitHub.
+
 
 ## See also
 
