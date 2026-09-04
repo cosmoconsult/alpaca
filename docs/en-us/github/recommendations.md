@@ -88,11 +88,11 @@ This has several advantages:
 - Improved security because no personal access tokens (PATs) need to be stored in the repository.
 - Easier permission management through the GitHub App.
 - Automatic token renewal by the GitHub App.
-- Pull requests created by Actions, such as `Update AL-Go System Files` or `Increment Version`, can be reviewed and merged by the maintainer, even where review requirements might otherwise prevent it.
+- Pull requests created by GitHub Actions, such as `Update AL-Go System Files` or `Increment Version`, can be reviewed and merged by the maintainer, even where review requirements might otherwise prevent it.
 
 ## Use GitHub Repo Standards
 
-Use [GitHub repository standards](../admin/index.md#github-repo-standards) to maintain consistency and improve collaboration across projects. This includes adhering to naming conventions, branch strategies, and file organization as recommended by GitHub.
+Use [GitHub Repo Standards](../admin/index.md#github-repo-standards) to maintain consistency and improve collaboration across projects. COSMO Alpaca applies the configured standards when creating or initializing repositories.
 
 
 ## See also
