@@ -203,7 +203,7 @@ Use `windows-latest` for a GitHub-hosted runner or specify the label of your sel
 }
 ```
 
-Use the public URL when the deployment is executed from a GitHub-hosted runner. Even if you have a self-hosted runner inside the same network, the public URL should be used to avoid issues due to SSL encryption. If your Business Central OData Service (used for the automation API) is listed under a different port than the default, you need to specify that port in the `apiBaseUrl` as well.
+Use the public URL when the deployment is executed from a GitHub-hosted runner. Even if you have a self-hosted runner inside the same network, the public URL should be used to avoid issues due to SSL encryption. If your Business Central OData Service (used for the automation API) is listening on a different port than the default, you need to specify that port in the `apiBaseUrl` as well.
 
 Please note that if a tenant is specified in the AuthContext Secret, the app will only be published for that tenant.
 
