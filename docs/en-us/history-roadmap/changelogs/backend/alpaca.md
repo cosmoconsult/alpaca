@@ -10,8 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.44.0 (2026-09-07)
 
-- Add support for File Browser share links with nested paths and SaaS backup artifacts in container requests
-- Stabilize container API example timestamps in generated documentation
+- Add support for File Browser share links with nested paths
 
 ## v1.43.0 (2026-09-03)
 
