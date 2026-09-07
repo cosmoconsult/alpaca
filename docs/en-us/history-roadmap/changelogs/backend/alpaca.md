@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.45.0 (2026-09-07)
 
-- Add support for configuring licenses per Business Central artifact in Azure DevOps container requests
+- Add support for configuring licenses per BcArtifact in Azure DevOps `cosmo.json`
 
 ## v1.44.0 (2026-09-07)
 
