@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.44.0 (2026-09-07)
+
+- Add support for FileBrowser share links with nested paths and SaaS backup artifacts in container requests
+- Stabilize container API example timestamps in generated documentation
+
 ## v1.43.0 (2026-09-03)
 
 - Add support for including removed work items when importing Azure DevOps backlogs
