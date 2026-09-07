@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.45.0 (2026-09-07)
+
+- Add support for configuring licenses per BcArtifact in Azure DevOps `cosmo.json`
+
 ## v1.44.0 (2026-09-07)
 
 - Add support for File Browser share links with nested paths
