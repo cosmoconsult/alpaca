@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.46.0 (2026-09-08)
 
-- Add support for configuring merge and squash commit titles and messages in GitHub repository standards
+- Add support for configuring merge and squash commit titles and messages in GitHub `ALPACA_REPO_STANDARDS`
 
 ## v1.45.0 (2026-09-07)
 
