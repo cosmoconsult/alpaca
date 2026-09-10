@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.47.0 (2026-09-10)
+
+- Add ASP.NET Core 10 runtime support to the Alpaca API container image
+
 ## v1.46.0 (2026-09-08)
 
 - Add support for configuring merge and squash commit titles and messages in GitHub `ALPACA_REPO_STANDARDS`
