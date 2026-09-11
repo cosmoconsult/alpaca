@@ -172,6 +172,18 @@ Settings to change the behavior of running tests for the build workflows.
 | - | - | - | - | - |
 | `alpaca` > `actionOnMissingTests` | string | `Warning` | workflow | Defines the action for the case where no test was executed for the test apps *(`None`, `Warning`, `Error`)*. |
 
+### AppSourceCop
+
+Settings to configure the AppSourceCop analyzer used during compilation.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `obsoleteTagVersion` | string | `""` | workflow | The value written to `obsoleteTagVersion` in `AppSourceCop.json` before compilation, if the AL-Go setting `enableAppSourceCop` is enabled. |
+| `alpaca` > `obsoleteTagPattern` | string | `""` | workflow | The value written to `obsoleteTagPattern` in `AppSourceCop.json` before compilation, if the AL-Go setting `enableAppSourceCop` is enabled. |
+
+> [!NOTE]
+> If `enableAppSourceCop` and `enableCodeAnalyzersOnTestApps` are both enabled, the mandatory affixes configured via the AL-Go setting `AppSourceCopMandatoryAffixes` are also applied to the `AppSourceCop.json` of test apps and Business Central Performance Toolkit (BCPT) apps. The `AppSourceCop.json` file is created automatically if it does not already exist.
+
 ### Update of AL-Go Settings Files
 
 Settings to change the behavior of the workflow "COSMO Alpaca - Update Settings Files".
