@@ -8,6 +8,19 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## v2.10.2 (2026-09-11)
+
+- Updated to [Alpaca-Actions@v2.10.2](./alpaca-actions.md#v2102-2026-09-11)
+
+## v2.10.1 (2026-07-28)
+
+- Updated to [Alpaca-Actions@v2.10.1](./alpaca-actions.md#v2101-2026-07-28)
+
+## v2.10.0 (2026-07-13)
+
+- Updated to [Alpaca-Actions@v2.10.0](./alpaca-actions.md#v2100-2026-07-13)
+- Fix issue with pull request workflow using the wrong ref to check for out-of-date AL-Go settings files
+
 ## v2.9.0 (2026-07-09)
 
 - Updated to [Alpaca-Actions@v2.9.0](./alpaca-actions.md#v290-2026-07-09)
