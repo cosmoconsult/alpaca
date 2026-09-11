@@ -8,6 +8,21 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.10.2 (2026-09-11)
+
+- Add redaction of sensitive information of COSMO Alpaca url artifacts (PATs, FileBrowser Share IDs, SAS Signatures)
+- Add conversion of FileBrowser share urls to download urls for COSMO Alpaca url artifacts
+- Fix issue with build workflows not using build mode to determine COSMO Alpaca url artifacts to download
+- Fix issue with build workflows not publishing up-to-date project dependencies in container if an older version is already installed
+
+## v2.10.1 (2026-07-28)
+
+- Fix issue with token used for updating Alpaca system files
+
+## v2.10.0 (2026-07-13)
+
+- No changes
+
 ## v2.9.0 (2026-07-09)
 
 - Add action to update AL-Go settings files
