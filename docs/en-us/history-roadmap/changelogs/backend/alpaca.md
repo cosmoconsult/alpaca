@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.48.0 (2026-09-15)
+
+- Add automatic conversion of File Browser share URLs to direct download URLs in GitHub project configurations
+
 ## v1.47.0 (2026-09-10)
 
 - Add ASP.NET Core 10 runtime support to the Alpaca API container image
