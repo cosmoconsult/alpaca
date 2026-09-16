@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.49.0 (2026-09-16)
+
+- Improve GitHub authentication performance and reliability by caching successful token validations
+
 ## v1.48.0 (2026-09-15)
 
 - Add automatic conversion of File Browser share URLs to direct download URLs in GitHub project configurations
