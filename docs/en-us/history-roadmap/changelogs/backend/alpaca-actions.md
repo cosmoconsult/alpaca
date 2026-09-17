@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.11.0 (2026-09-17)
+
+- Add settings to add obsolete tags to AppSourceCop.json
+- Add creation/update of AppSourceCop.json for test apps
+- Add settings to use different code analyzers for test apps
+- Add warning annotation for disabled translation feature before translation creation/testing
+- Add action to update the README file based on projects and apps
+
 ## v2.10.2 (2026-09-11)
 
 - Add redaction of sensitive information of COSMO Alpaca url artifacts (PATs, FileBrowser Share IDs, SAS Signatures)
