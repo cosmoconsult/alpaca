@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.50.0 (2026-09-17)
+
+- Add support for accessing containers owned by a GitHub username or verified email address, with stricter owner validation across GitHub and Azure DevOps
+
 ## v1.49.0 (2026-09-16)
 
 - Improve GitHub authentication performance and reliability by caching successful token validations
