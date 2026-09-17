@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.28.0 (2026-09-17)
+
+- Group containers by origin in the container tree view based on the new setting `cosmo-alpaca.visibility.groupContainersByOrigin` (enabled by default)
+- Improve container owner changes
+
 ## v1.27.0 (2026-09-03)
 
 - Add an option to include removed work items when importing an Azure DevOps backlog
