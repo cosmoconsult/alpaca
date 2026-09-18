@@ -21,7 +21,7 @@ This page focuses on the **settings migration**: turning the content of `cosmo.j
 > Migration steps:
 >
 > 1. Open **COSMO Alpaca** in VS Code and run **Initialize** on the repository.
-> 2. In GitHub, run the **Update AL-Go System Files** GitHub Action and set the template URL to `https://github.com/cosmoconsult/Alpaca-PTE@main`.
+> 2. In GitHub, run the **Update AL-Go System Files** GitHub Action and set the template URL to `https://github.com/cosmoconsult/Alpaca-PTE@main` or `https://github.com/cosmoconsult/Alpaca-AppSource@main`.
 > 3. Run **Update AL-Go System Files** again with the same template URL a second time.
 >
 > Running the update twice is required to fully apply the COSMO Alpaca template configuration.

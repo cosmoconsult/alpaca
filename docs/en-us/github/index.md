@@ -25,7 +25,7 @@ Spin up cloud-hosted Business Central environments for development, testing, and
 
 ### Container Configuration
 
-Configure containers through AL-Go settings files (`.github/AL-Go-Settings.json`) with COSMO Alpaca-specific settings under the `alpaca` property. Control the Business Central version and country, define artifacts to import (apps, DLLs, fonts, RapidStart packages) from URLs, file shares, or NuGet feeds, and more.
+Configure containers through AL-Go settings files (`.github/AL-Go-Settings.json`) with COSMO Alpaca-specific settings under the `alpaca` property. Control the Business Central version and country, define artifacts to import (apps, DLLs, fonts, Configuration Packages (RapidStart)) from URLs, file shares, or NuGet feeds, and more.
 
 ### Collaboration
 

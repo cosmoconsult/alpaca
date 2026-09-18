@@ -8,6 +8,50 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.50.0 (2026-09-17)
+
+- Add support for accessing containers owned by a GitHub username or verified email address, with stricter owner validation across GitHub and Azure DevOps
+
+## v1.49.0 (2026-09-16)
+
+- Improve GitHub authentication performance and reliability by caching successful token validations
+
+## v1.48.0 (2026-09-15)
+
+- Add automatic conversion of File Browser share URLs to direct download URLs in GitHub project configurations
+
+## v1.47.0 (2026-09-10)
+
+- Add ASP.NET Core 10 runtime support to the Alpaca API container image
+
+## v1.46.0 (2026-09-08)
+
+- Add support for configuring merge and squash commit titles and messages in GitHub `ALPACA_REPO_STANDARDS`
+
+## v1.45.0 (2026-09-07)
+
+- Add support for configuring licenses per BcArtifact in Azure DevOps `cosmo.json`
+
+## v1.44.0 (2026-09-07)
+
+- Add support for File Browser share links with nested paths
+
+## v1.43.0 (2026-09-03)
+
+- Add support for including removed work items when importing Azure DevOps backlogs
+
+## v1.42.0 (2026-09-02)
+
+- Add container creation timestamps to container information
+
+## v1.41.1 (2026-09-01)
+
+- Fix weekly BC artifact selection to use the version requested by AL-Go
+
+## v1.41.0 (2026-08-31)
+
+- Make startup probe extension additive
+
 ## v1.40.0 (2026-08-25)
 
 - Add support for deploying Business Central app artifacts from NuGet and Azure DevOps sources into containers

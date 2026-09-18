@@ -8,6 +8,23 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.28.0 (2026-09-17)
+
+- Group containers by origin in the container tree view based on the new setting `cosmo-alpaca.visibility.groupContainersByOrigin` (enabled by default)
+- Improve container owner changes
+
+## v1.27.0 (2026-09-03)
+
+- Add an option to include removed work items when importing an Azure DevOps backlog
+
+## v1.26.0 (2026-09-03)
+
+- Show a warning badge on containers that are older than 1 year
+
+## v1.25.1 (2026-09-03)
+
+- Add support for deploying a NuGet or Azure DevOps Artifacts package directly to a container without selecting a specific version (deploys the latest version)
+
 ## v1.25.0 (2026-08-25)
 
 - Add support for deploying NuGet and Azure DevOps Artifacts package versions directly to containers from their tree views

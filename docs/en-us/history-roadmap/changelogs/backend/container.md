@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.86.0 (2026-08-31)
+
+- Make startup probe extension additive [see #5013](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5013)
+
 ## v1.85.0 (2026-07-09)
 
 - Overwrite main owner during clone [see #4959](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4959)

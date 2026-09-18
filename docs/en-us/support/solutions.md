@@ -70,12 +70,12 @@ But unfortunately, there is no solution for BC24 and BC25, but Microsoft has pro
 
 If you encounter problems with pipelines running into timeouts, please increase the timeout as a workaround. You can achieve this by setting the variable `Build.TimeoutInMinutes` in your library to a higher value (recommended: `"120"`).
 
-## RapidStart Import Fails in BC 27
+## Configuration Package (RapidStart) Import Fails in BC 27
 
 Starting with Business Central version 27, the setting **`EnforceUserPathForAlFileOperations`** is enabled by default (`true`).
-This restricts AL file operations (e.g., RapidStart imports) to the service account’s user folder only.
+This restricts AL file operations (e.g., Configuration Package (RapidStart) imports) to the service account’s user folder only.
 
-In container environments (where the service typically runs under the **SYSTEM** account), RapidStart packages located in common directories such as `C:\run`, `Temp`, or `Users` fail to import with the following error message:
+In container environments (where the service typically runs under the **SYSTEM** account), Configuration Packages (RapidStart) located in common directories such as `C:\run`, `Temp`, or `Users` fail to import with the following error message:
 
 > *Files outside of the current user's folder cannot be accessed.*
 
@@ -91,7 +91,7 @@ Add the following setting to your `cosmo.json`:
 ]
 ```
 
-After updating the file, recreate the container. RapidStart imports should then function as before.
+After updating the file, recreate the container. Configuration Package (RapidStart) imports should then function as before.
 
 ## Azure DevOps Pipeline does not start due to missing parallelism
 
