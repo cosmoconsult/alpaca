@@ -110,6 +110,9 @@ Remove **Pipeline Variable** by:
 | Compile.TestTranslations     | `testTranslations`     |    `false`    | `true` to enable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)                                                      |
 | Compile.TestTranslationRules | `testTranslationRules` |               | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`) |
 
+> [!NOTE]
+> The separator for developer notes (`DeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
+
 ## Test App
 
 | Name                         | cosmo.json                    | Default Value  | Description                                                                                                                                                                                    |
