@@ -20,7 +20,7 @@ You can deploy a NuGet package or an Azure DevOps Artifact directly to a running
 1. Select the target container.
 1. Confirm the deployment.
 
-Alpaca downloads and installs the latest available version in the selected container.
+The latest (if no specific version was selected) version of the artifact will be downloaded and installed.
 
 The extension shows the deployment progress and refreshes the container after the operation completes.
 
