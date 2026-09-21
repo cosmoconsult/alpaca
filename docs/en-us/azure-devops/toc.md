@@ -74,6 +74,8 @@
 
 ## [Setup Artifacts to Import on Container Startup](setup-artifacts.md)
 
+## [Deploy Artifact to Container](../shared/deploy-artifact-to-container.md)
+
 ## [Setup Database Backup](setup-bak.md)
 
 ## [Setup Companion Containers](setup-companion-container.md)
