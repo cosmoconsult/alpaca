@@ -172,6 +172,34 @@ Settings to change the behavior of running tests for the build workflows.
 | - | - | - | - | - |
 | `alpaca` > `actionOnMissingTests` | string | `Warning` | workflow | Defines the action for the case where no test was executed for the test apps *(`None`, `Warning`, `Error`)*. |
 
+### AppSourceCop
+
+Settings to configure the AppSourceCop analyzer used during compilation.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `obsoleteTagVersion` | string | `""` | workflow | The value written to `obsoleteTagVersion` in `AppSourceCop.json` before compilation, if the AL-Go setting `enableAppSourceCop` is enabled. |
+| `alpaca` > `obsoleteTagPattern` | string | `""` | workflow | The value written to `obsoleteTagPattern` in `AppSourceCop.json` before compilation, if the AL-Go setting `enableAppSourceCop` is enabled. |
+
+> [!NOTE]
+> If `enableAppSourceCop` and `enableCodeAnalyzersOnTestApps` are both enabled, the mandatory affixes configured via the AL-Go setting `AppSourceCopMandatoryAffixes` are also applied to the `AppSourceCop.json` of test apps and Business Central Performance Toolkit (BCPT) apps. The `AppSourceCop.json` file is created automatically if it does not already exist.
+
+### Code Analyzers for Test Apps
+
+Settings to override code analyzer settings for test apps and BCPT apps.
+
+> [!NOTE]
+> These settings are only applied when [`enableCodeAnalyzersOnTestApps`](https://aka.ms/algosettings#enablecodeanalyzersontestapps) is enabled.
+
+| Element | Type | Default | Scope | Value |
+| - | - | - | - | - |
+| `alpaca` > `enableCodeCopForTestApps` | boolean | [`enableCodeCop`](https://aka.ms/algosettings#enablecodecop) | workflow | Overrides `enableCodeCop` for test app builds. |
+| `alpaca` > `enableUICopForTestApps` | boolean | [`enableUICop`](https://aka.ms/algosettings#enableuicop) | workflow | Overrides `enableUICop` for test app builds. |
+| `alpaca` > `enablePerTenantExtensionCopForTestApps` | boolean | [`enablePerTenantExtensionCop`](https://aka.ms/algosettings#enablepertenantextensioncop) | workflow | Overrides `enablePerTenantExtensionCop` for test app builds. |
+| `alpaca` > `enableAppSourceCopForTestApps` | boolean | [`enableAppSourceCop`](https://aka.ms/algosettings#enableappsourcecop) | workflow | Overrides `enableAppSourceCop` for test app builds. |
+| `alpaca` > `customCodeCopsForTestApps` | string[] | [`customCodeCops`](https://aka.ms/algosettings#customcodecops) | workflow | Overrides `customCodeCops` for test app builds. If set to an empty array, the `customCodeCops` compilation parameter is removed. |
+| `alpaca` > `rulesetFileForTestApps` | string | [`rulesetFile`](https://aka.ms/algosettings#rulesetfile) | workflow | Overrides `rulesetFile` for test app builds. |
+
 ### Update of AL-Go Settings Files
 
 Settings to change the behavior of the workflow "COSMO Alpaca - Update Settings Files".
