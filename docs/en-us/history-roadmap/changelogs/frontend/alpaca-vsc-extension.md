@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.28.1 (2026-09-21)
+
+- Display the correct origin label for GitHub and Azure DevOps containers when both are shown together
+
 ## v1.28.0 (2026-09-17)
 
 - Group containers by origin in the container tree view based on the new setting `cosmo-alpaca.visibility.groupContainersByOrigin` (enabled by default)
