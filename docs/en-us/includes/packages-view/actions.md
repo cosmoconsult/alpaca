@@ -15,3 +15,4 @@
 ![package-download-platform](../../media/vscode/packages-view/download-platform.png)
 
 ![package-download-version](../../media/vscode/packages-view/download-version.png)
+
