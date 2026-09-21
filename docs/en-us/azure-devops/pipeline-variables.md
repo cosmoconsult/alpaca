@@ -111,7 +111,7 @@ Remove **Pipeline Variable** by:
 | Compile.TestTranslationRules | `testTranslationRules` |               | Array of the additional rules for which the generated translations files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`) |
 
 > [!NOTE]
-> The separator for developer notes (`DeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
+> The separator for developer notes (`parseFromDeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
 
 ## Test App
 
@@ -275,4 +275,3 @@ extends:
 
 [cosmo-json]:      setup-cosmo-json.md
 [artifact]:        setup-artifacts.md
-[artifact-target]: setup-artifacts.md#artifact-target
