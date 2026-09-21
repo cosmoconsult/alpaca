@@ -20,7 +20,7 @@ You can deploy a NuGet package or an Azure DevOps Artifact directly to a running
 1. Select the target container.
 1. Confirm the deployment.
 
-The latest (if no specific version was selected) version of the artifact will be downloaded and installed.
+The latest version (if no specific version was selected) of the artifact will be downloaded and installed.
 
 The extension shows the deployment progress and refreshes the container after the operation completes.
 
