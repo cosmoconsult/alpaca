@@ -156,6 +156,9 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 | `alpaca` > `testTranslations`     | boolean  | `false` | workflow | Set `true` to enable tests of translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://github.com/rvanbekkum/ps-xliff-sync) |
 | `alpaca` > `testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
 
+> [!NOTE]
+> The separator for developer notes (`parseFromDeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
+
 ### Breaking Change Check using NuGet Feeds
 
 Settings to change the behavior of the breaking change check of the build workflows.
