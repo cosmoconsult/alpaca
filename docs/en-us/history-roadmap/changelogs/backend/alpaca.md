@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.50.1 (2026-09-22)
 
-- Fix File Browser share URLs in GitHub project configurations so they download files directly
+- Convert License File from Filebrowser share links to direct download URLs
 
 ## v1.50.0 (2026-09-17)
 
