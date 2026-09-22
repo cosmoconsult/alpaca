@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.50.1 (2026-09-22)
+
+- Fix File Browser share URLs in GitHub project configurations so they download files directly
+
 ## v1.50.0 (2026-09-17)
 
 - Add support for accessing containers owned by a GitHub username or verified email address, with stricter owner validation across GitHub and Azure DevOps
