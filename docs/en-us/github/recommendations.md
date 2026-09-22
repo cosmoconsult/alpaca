@@ -114,7 +114,7 @@ Configure the **Update AL-Go System Files** workflow to add the work item ID to 
 }
 ```
 
-This automatically links the workflow commit and pull request to the Azure DevOps work item.
+This automatically links the workflow commit and pull request to the Azure DevOps work item when the Azure Boards GitHub connection described in [Hybrid Working](hybrid-working.md) is configured.
 
 ## See also
 
