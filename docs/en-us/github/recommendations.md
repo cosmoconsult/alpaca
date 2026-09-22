@@ -98,19 +98,20 @@ Use [GitHub Repo Standards](../admin/index.md#github-repo-standards) to maintain
 
 Configure the **Update AL-Go System Files** workflow to add the work item ID to its commit message and pull request description. Add the following conditional setting to the applicable organizational or repository settings and replace `<work-item-id>` with the relevant work item ID:
 
-```json
-"ConditionalSettings": [
+{
+  "ConditionalSettings": [
     {
-        "workflows": [
-            "Update AL-Go System Files"
-        ],
-        "settings": {
-            "commitOptions": {
-                "messageSuffix": "AB#<work-item-id>"
-            }
+      "workflows": [
+        "Update AL-Go System Files"
+      ],
+      "settings": {
+        "commitOptions": {
+          "messageSuffix": "AB#<work-item-id>"
         }
+      }
     }
-]
+  ]
+}
 ```
 
 This automatically links the workflow commit and pull request to the Azure DevOps work item.
