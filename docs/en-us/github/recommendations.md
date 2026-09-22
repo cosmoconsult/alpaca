@@ -94,7 +94,7 @@ This has several advantages:
 
 Use [GitHub Repo Standards](../admin/index.md#github-repo-standards) to maintain consistency and improve collaboration across projects. COSMO Alpaca applies the configured standards when creating or initializing repositories.
 
-### Link AL-Go workflow commits to work items
+## Link AL-Go workflow commits to work items
 
 Configure the **Update AL-Go System Files** workflow to add the work item ID to its commit message and pull request description. Add the following conditional setting to the applicable organizational or repository settings and replace `<work-item-id>` with the relevant work item ID:
 
