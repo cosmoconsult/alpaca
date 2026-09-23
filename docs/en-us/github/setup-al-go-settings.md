@@ -157,7 +157,7 @@ Settings to setup translations creation and testing using [xliff-sync](https://g
 | `alpaca` > `testTranslationRules` | string[] | `[]`    | workflow | Array of the additional rules for which the generated translations files should be tested *(`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)*. <br>See [xliff-sync documentation](https://github.com/rvanbekkum/vsc-xliff-sync?tab=readme-ov-file#check-for-need-work-translations) for details. |
 
 > [!NOTE]
-> The separator for developer notes (`parseFromDeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
+> The separator for translations in developer notes (`parseFromDeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).
 
 ### Breaking Change Check using NuGet Feeds
 
