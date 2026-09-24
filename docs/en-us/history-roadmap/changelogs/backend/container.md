@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.87.0 (2026-09-24)
+
+- Verify a pod is running when reading logs or executing commands [see #5090](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5090)
+
 ## v1.86.0 (2026-08-31)
 
 - Make startup probe extension additive [see #5013](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5013)
