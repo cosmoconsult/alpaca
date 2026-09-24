@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.51.0 (2026-09-24)
+
+- Convert FileBrowser share URLs to direct download URLs in container configurations
+
 ## v1.50.1 (2026-09-22)
 
 - Convert License File from Filebrowser share links to direct download URLs
