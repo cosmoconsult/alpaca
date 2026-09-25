@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.52.0 (2026-09-25)
+
+- Improve GitHub container AAD authentication by accepting email addresses as usernames and owners
+- Prevent passwords from being returned in container information for AAD-authenticated containers
+
 ## v1.51.0 (2026-09-24)
 
 - Convert FileBrowser share URLs to direct download URLs in container configurations
