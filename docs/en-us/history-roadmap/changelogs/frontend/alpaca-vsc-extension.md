@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.28.2 (2026-09-24)
+
+- Always show the toolbar buttons (e.g. refresh) even when they are moved to another view container or panel
+
 ## v1.28.1 (2026-09-21)
 
 - Display the correct origin label for GitHub and Azure DevOps containers when both are shown together
