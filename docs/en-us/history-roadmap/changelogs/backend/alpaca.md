@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.53.0 (2026-09-29)
+
+- Add support for Entra-issued Azure DevOps pipeline tokens
+
 ## v1.52.0 (2026-09-25)
 
 - Improve GitHub container AAD authentication by accepting email addresses as usernames and owners
