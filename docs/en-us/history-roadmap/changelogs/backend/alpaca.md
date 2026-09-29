@@ -11,7 +11,6 @@ All notable changes to the Alpaca Backend
 ## v1.53.0 (2026-09-29)
 
 - Add support for Entra-issued Azure DevOps pipeline tokens
-- Improve Azure DevOps pipeline authentication by requiring successful token validation with Azure DevOps and caching validation results
 
 ## v1.52.0 (2026-09-25)
 
