@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.54.0 (2026-09-30)
 
-- Add contact email annotation to containers, set from the creating user and preserved when cloning
+- Add contact email annotation to containers
 
 ## v1.53.0 (2026-09-29)
 
