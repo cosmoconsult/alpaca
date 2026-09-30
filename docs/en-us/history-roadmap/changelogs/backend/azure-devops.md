@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.59.0 (2026-09-30)
+
+- Add support for BC29 project template [see #5098](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5098)
+
 ## v1.58.0 (2026-06-25)
 
 - Add feature to define `appExcludeExpr` and `dependentAppExcludeExpr` in `cosmo.json` [see #2319](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2319)
