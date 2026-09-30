@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.54.0 (2026-09-30)
+
+- Add contact email annotation to containers
+
 ## v1.53.0 (2026-09-29)
 
 - Add support for Entra-issued Azure DevOps pipeline tokens
