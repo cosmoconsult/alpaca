@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.54.1 (2026-10-02)
+
+- Fix issue where the AL-Go artifact version was applied for artifact selections that do not support a version in containers
+
 ## v1.54.0 (2026-09-30)
 
 - Add contact email annotation to containers
