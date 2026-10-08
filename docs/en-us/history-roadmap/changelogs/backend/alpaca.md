@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.54.2 (2026-10-08)
+
+- Fix issue where NuGet artifact availability validation in containers did not handle plain versions correctly for non-exact select modes
+
 ## v1.54.1 (2026-10-02)
 
 - Fix issue where the AL-Go artifact version was applied for artifact selections that do not support a version in containers
