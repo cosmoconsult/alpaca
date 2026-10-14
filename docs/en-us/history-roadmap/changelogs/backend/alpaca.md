@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.55.0 (2026-10-14)
+
+- Add support for prerelease NuGet packages in artifact handling and NuGet feed selection
+- Improve NuGet version and version range handling when validating artifacts
+
 ## v1.54.2 (2026-10-08)
 
 - Fix issue where NuGet artifact availability validation in containers did not handle plain versions correctly for non-exact select modes
