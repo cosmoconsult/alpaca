@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.88.0 (2026-10-15)
+
+- Add caching for Azure DevOps token validation [see #5112](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5112)
+
 ## v1.87.0 (2026-09-24)
 
 - Verify a pod is running when reading logs or executing commands [see #5090](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5090)
