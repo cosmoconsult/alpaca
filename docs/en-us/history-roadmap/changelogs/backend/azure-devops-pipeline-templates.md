@@ -8,6 +8,30 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.67.6 (2026-10-15)
+
+- Fix retry handling after API request timeouts [see #5113](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5113)
+
+## v2.67.5 (2026-09-15)
+
+- Allow AppSourceCop pre-checks when no IP packages are configured and skip invalid package versions [see #5074](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5074)
+
+## v2.67.4 (2026-09-09)
+
+- Fall back to an alternative analyzer folder when the default folder is missing [see #5059](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5059)
+
+## v2.67.3 (2026-08-28)
+
+- Trim leading and trailing separators from app names in Azure DevOps artifacts [see #5024](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5024)
+
+## v2.67.2 (2026-08-18)
+
+- Resolve transitive dependency versions using `MinVersion` as a fallback and skip dependencies with no resolvable version [see #5015](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5015)
+
+## v2.67.1 (2026-07-04)
+
+- Allow pipeline variables `appExcludeExpr` and `dependentAppExcludeExpr` to override `cosmo.json` settings [see #4948](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4948)
+
 ## v2.67.0 (2026-06-25)
 
 - Add feature to define `appExcludeExpr` and `dependentAppExcludeExpr` in `cosmo.json` [see #2319](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2319)
