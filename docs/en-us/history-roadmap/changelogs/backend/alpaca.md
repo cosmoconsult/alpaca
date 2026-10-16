@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.56.0 (2026-10-16)
+
+- Improve API health checks
+
 ## v1.55.0 (2026-10-14)
 
 - Add support for prerelease NuGet packages in artifact handling and NuGet feed selection
