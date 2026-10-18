@@ -8,7 +8,11 @@
 
 All notable changes to the Container Backend
 
-## v1.88.1 (2026-10-16)
+## v1.88.3 (2026-10-18)
+
+- Add rate limiting for container related operations [see #5117](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5117)
+
+## v1.88.1- v1.88.2 (2026-10-16)
 
 - Improve API health checks [see #5114](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5114)
 

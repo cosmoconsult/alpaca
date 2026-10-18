@@ -8,7 +8,7 @@
 
 All notable changes to the Azure DevOps Backend
 
-## v1.60.1 (2026-10-16)
+## v1.60.1 - v1.60.2 (2026-10-16)
 
 - Improve API health checks [see #5114](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5114)
 
