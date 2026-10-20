@@ -218,8 +218,11 @@ When creating a new repository in VS Code, COSMO Alpaca automatically reads the 
 | `HasDiscussions`                     | `bool`     | Sets whether to enable discussions for the repository.                                                                                                           |
 | `HasProjects`                        | `bool`     | Sets whether to enable projects for the repository.                                                                                                              |
 | `AllowMergeCommit`                   | `bool`     | Allows the "Create a merge commit" merge method to be used.                                                                                                      |
+| `MergeCommitTitle`                   | `string`   | Defines the default title for merge commits. Allowed values: `PR_TITLE`, `MERGE_MESSAGE`.                                                                         |
+| `MergeCommitMessage`                 | `string`   | Defines the default message for merge commits. Allowed values: `PR_BODY`, `PR_TITLE`, `BLANK`.                                                                   |
 | `AllowSquashMerge`                   | `bool`     | Allows the "Squash Merge" merge method to be used.                                                                                                               |
-| `UseSquashPrTitleAsDefault`          | `bool`     | Automatically set the title of squashed commits to be the PR title.                                                                                              |
+| `SquashMergeCommitTitle`             | `string`   | Defines the default title for squashed commits. Allowed values: `PR_TITLE`, `COMMIT_OR_PR_TITLE`.                                                                |
+| `SquashMergeCommitMessage`           | `string`   | Defines the default message for squashed commits. Allowed values: `PR_BODY`, `COMMIT_MESSAGES`, `BLANK`.                                                        |
 | `AllowRebaseMerge`                   | `bool`     | Allows the "Rebase and Merge" method to be used.                                                                                                                 |
 | `AllowUpdateBranch`                  | `bool`     | Sets whether to always allow a pull request head branch that is behind its base branch to be updated even if it is not required to be up to date before merging. |
 | `RequireUpToDateBranch`              | `bool`     | Requires branches to be up to date with its base branch before merging. Defaults to `true` unless explicitly disabled.                                                                |
@@ -240,8 +243,11 @@ When creating a new repository in VS Code, COSMO Alpaca automatically reads the 
   "HasDiscussions": false,
   "HasProjects": false,
   "AllowMergeCommit": false,
+  "MergeCommitTitle": "PR_TITLE",
+  "MergeCommitMessage": "PR_BODY",
   "AllowSquashMerge": true,
-  "UseSquashPrTitleAsDefault": true,
+  "SquashMergeCommitTitle": "PR_TITLE",
+  "SquashMergeCommitMessage": "PR_BODY",
   "AllowRebaseMerge": false,
   "AllowUpdateBranch": true,
   "RequireUpToDateBranch": true,

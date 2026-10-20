@@ -227,3 +227,6 @@ You can optionally set custom BC service tier or Web server settings within the 
 |`"translationLanguages"`   |string[]|optional|Defines the array of language tags for which the translation files are to be generated (e.g. `[ "de-DE", "de-AT" ]`)|
 |`"testTranslations"`       |boolean |optional|Enable or disable tests of the generated translation files (.xlf) for missing translations and additional rules using [xliff-sync](https://www.powershellgallery.com/packages/XliffSync/)|
 |`"testTranslationRules"`   |string[]|optional|Defines the array of additional rules for which the generated translation files should be tested (`All`, `ConsecutiveSpacesConsistent`, `ConsecutiveSpacesExist`, `OptionMemberCount`, `OptionLeadingSpaces`, `Placeholders`, `PlaceholdersDevNote`)|
+
+> [!NOTE]
+> The separator for translations in developer notes (`parseFromDeveloperNoteSeparator`) is centrally configured as a double pipe (`||`).

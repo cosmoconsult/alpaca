@@ -8,6 +8,73 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.56.0 - v1.56.1 (2026-10-16)
+
+- Improve API health checks
+
+## v1.55.0 (2026-10-14)
+
+- Add support for prerelease NuGet packages in artifact handling and NuGet feed selection
+- Improve NuGet version and version range handling when validating artifacts
+
+## v1.54.2 (2026-10-08)
+
+- Fix issue where NuGet artifact availability validation in containers did not handle plain versions correctly for non-exact select modes
+
+## v1.54.1 (2026-10-02)
+
+- Fix issue where the AL-Go artifact version was applied for artifact selections that do not support a version in containers
+
+## v1.54.0 (2026-09-30)
+
+- Add contact email annotation to containers
+
+## v1.53.0 (2026-09-29)
+
+- Add support for Entra-issued Azure DevOps pipeline tokens
+- Add caching for Azure DevOps token validation
+
+## v1.52.0 (2026-09-25)
+
+- Improve GitHub container AAD authentication by accepting email addresses as usernames and owners
+- Prevent passwords from being returned in container information for AAD-authenticated containers
+
+## v1.51.0 (2026-09-24)
+
+- Convert FileBrowser share URLs to direct download URLs in container configurations
+
+## v1.50.1 (2026-09-22)
+
+- Convert License File from Filebrowser share links to direct download URLs
+
+## v1.50.0 (2026-09-17)
+
+- Add support for accessing containers owned by a GitHub username or verified email address, with stricter owner validation across GitHub and Azure DevOps
+
+## v1.49.0 (2026-09-16)
+
+- Improve GitHub authentication performance and reliability by caching successful token validations
+
+## v1.48.0 (2026-09-15)
+
+- Add automatic conversion of File Browser share URLs to direct download URLs in GitHub project configurations
+
+## v1.47.0 (2026-09-10)
+
+- Add ASP.NET Core 10 runtime support to the Alpaca API container image
+
+## v1.46.0 (2026-09-08)
+
+- Add support for configuring merge and squash commit titles and messages in GitHub `ALPACA_REPO_STANDARDS`
+
+## v1.45.0 (2026-09-07)
+
+- Add support for configuring licenses per BcArtifact in Azure DevOps `cosmo.json`
+
+## v1.44.0 (2026-09-07)
+
+- Add support for File Browser share links with nested paths
+
 ## v1.43.0 (2026-09-03)
 
 - Add support for including removed work items when importing Azure DevOps backlogs

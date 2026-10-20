@@ -8,6 +8,27 @@
 
 All notable changes to the Alpaca AL-Go Per Tenant Extension Template
 
+## v2.11.0 (2026-09-17)
+
+- Updated to [AL-Go@v9.1](https://github.com/microsoft/AL-Go/blob/v9.1/RELEASENOTES.md)
+- Updated to [AL-Go@v9.2](https://github.com/microsoft/AL-Go/blob/v9.2/RELEASENOTES.md)
+- Updated to [Alpaca-Actions@v2.11.0](./alpaca-actions.md#v2110-2026-09-17)
+- Add workflow "COSMO Alpaca - Update README" to update the README file based on projects and apps
+- Fix issue with pull request workflow using the wrong ref to check for out-of-date AL-Go settings files on "pull_request_target" event
+
+## v2.10.2 (2026-09-11)
+
+- Updated to [Alpaca-Actions@v2.10.2](./alpaca-actions.md#v2102-2026-09-11)
+
+## v2.10.1 (2026-07-28)
+
+- Updated to [Alpaca-Actions@v2.10.1](./alpaca-actions.md#v2101-2026-07-28)
+
+## v2.10.0 (2026-07-13)
+
+- Updated to [Alpaca-Actions@v2.10.0](./alpaca-actions.md#v2100-2026-07-13)
+- Fix issue with pull request workflow using the wrong ref to check for out-of-date AL-Go settings files
+
 ## v2.9.0 (2026-07-09)
 
 - Updated to [Alpaca-Actions@v2.9.0](./alpaca-actions.md#v290-2026-07-09)

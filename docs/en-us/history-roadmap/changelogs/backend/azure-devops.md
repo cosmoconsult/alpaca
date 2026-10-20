@@ -8,6 +8,18 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.60.1 - v1.60.2 (2026-10-16)
+
+- Improve API health checks [see #5114](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5114)
+
+## v1.60.0 (2026-10-15)
+
+- Add caching for Azure DevOps token validation [see #5112](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5112)
+
+## v1.59.0 (2026-09-30)
+
+- Add support for BC29 project template [see #5098](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5098)
+
 ## v1.58.0 (2026-06-25)
 
 - Add feature to define `appExcludeExpr` and `dependentAppExcludeExpr` in `cosmo.json` [see #2319](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/2319)

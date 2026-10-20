@@ -8,6 +8,22 @@
 
 All notable changes to the Container Backend
 
+## v1.88.3 (2026-10-18)
+
+- Add rate limiting for container related operations [see #5117](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5117)
+
+## v1.88.1- v1.88.2 (2026-10-16)
+
+- Improve API health checks [see #5114](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5114)
+
+## v1.88.0 (2026-10-15)
+
+- Add caching for Azure DevOps token validation [see #5112](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5112)
+
+## v1.87.0 (2026-09-24)
+
+- Verify a pod is running when reading logs or executing commands [see #5090](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5090)
+
 ## v1.86.0 (2026-08-31)
 
 - Make startup probe extension additive [see #5013](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5013)

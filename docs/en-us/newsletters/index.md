@@ -9,6 +9,8 @@ Here you can find all editions of the COSMO Alpaca Newsletter.
 
 If you want to receive the newsletter directly in your inbox, please register by filling out the [registration form](https://forms.office.com/e/x4g6DfhseN).
 
+## [September 2026](202609.md)
+
 ## [July 2026](202607.md)
 
 ## [May 2026](202605.md)

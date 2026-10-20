@@ -8,6 +8,24 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.29.0 (2026-09-30)
+
+- Add CICD and Pull Request Build workflow options when creating containers
+- Add action to download the latest version of a NuGet package or Azure DevOps artifact
+
+## v1.28.2 (2026-09-24)
+
+- Always show the toolbar buttons (e.g. refresh) even when they are moved to another view container or panel
+
+## v1.28.1 (2026-09-21)
+
+- Display the correct origin label for GitHub and Azure DevOps containers when both are shown together
+
+## v1.28.0 (2026-09-17)
+
+- Group containers by origin in the container tree view based on the new setting `cosmo-alpaca.visibility.groupContainersByOrigin` (enabled by default)
+- Improve container owner changes
+
 ## v1.27.0 (2026-09-03)
 
 - Add an option to include removed work items when importing an Azure DevOps backlog
