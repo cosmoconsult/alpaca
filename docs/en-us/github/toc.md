@@ -1,10 +1,10 @@
 # [Walkthrough](walkthrough.md)
 
+# [Recommendations](recommendations.md)
+
 # General Features
 
 ## [Create Organization](create-org.md)
-
-## [Recommendations](recommendations.md)
 
 ## [Initialize Repository](initialize-repository.md)
 
