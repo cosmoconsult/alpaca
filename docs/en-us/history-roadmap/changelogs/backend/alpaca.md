@@ -11,7 +11,7 @@ All notable changes to the Alpaca Backend
 ## v1.57.0 (2026-10-26)
 
 - Isolate cache access per repository for GitHub App tokens
-- Fix issue where the DisableCertValidation option was not applied to attach and snapshot configurations in Container debugging
+- Fix issue where the DisableCertValidation option was not applied to attach and snapshot configurations in Container launch configurations
 
 ## v1.56.0 - v1.56.1 (2026-10-16)
 
