@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.59.0 (2026-10-26)
+
+- Reduce GitHub API calls by caching repository custom properties used for COSMO entity and customer account lookups
+- Improve performance of Azure DevOps entity and customer account lookups by caching customer account assignments per organization
+
 ## v1.58.0 (2026-10-26)
 
 - Improve AL-Go repository discovery by narrowing it with code search, reducing the number of settings lookups
