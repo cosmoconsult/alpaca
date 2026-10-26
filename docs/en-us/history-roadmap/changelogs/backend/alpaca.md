@@ -10,8 +10,8 @@ All notable changes to the Alpaca Backend
 
 ## v1.58.0 (2026-10-26)
 
-- Improve AL-Go repository discovery for GitHub by narrowing it with code search, reducing the number of settings lookups
-- Require the `BC-` prefix for COSMO non-template repository listings on GitHub, keeping template listings exempt
+- Improve AL-Go repository discovery by narrowing it with code search, reducing the number of settings lookups
+- Add shortcut using the `bc-` prefix for COSMO non-template repository listings on GitHub
 
 ## v1.57.1 (2026-10-26)
 
