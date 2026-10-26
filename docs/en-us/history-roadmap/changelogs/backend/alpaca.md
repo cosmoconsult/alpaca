@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.57.1 (2026-10-26)
+
+- Fix issue where the schema update mode was not supported in container launch configurations
+
 ## v1.57.0 (2026-10-26)
 
 - Isolate cache access per repository for GitHub App tokens
