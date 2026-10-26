@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.59.1 (2026-10-26)
+
+- Fix issue where PPI repositories were not included in COSMO AL-Go repository discovery
+
 ## v1.59.0 (2026-10-26)
 
 - Reduce GitHub API calls by caching repository custom properties used for COSMO entity and customer account lookups
