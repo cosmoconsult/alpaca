@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.29.1 (2026-10-29)
+
+- Fix launch configurations that use a schema update mode.
+- Show a notification after extension updates instead of automatically opening Alpaca Home. Use the notification's Open Changelog button to see what's new.
+
 ## v1.29.0 (2026-09-30)
 
 - Add CICD and Pull Request Build workflow options when creating containers
