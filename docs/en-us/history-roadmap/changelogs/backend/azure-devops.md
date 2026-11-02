@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.61.0 (2026-11-02)
+
+- Reduce wait times when API requests fail and improve cancellation handling [see #5144](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5144)
+
 ## v1.60.1 - v1.60.2 (2026-10-16)
 
 - Improve API health checks [see #5114](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5114)

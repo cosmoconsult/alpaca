@@ -8,6 +8,10 @@
 
 All notable changes to the Container Backend
 
+## v1.89.0 (2026-11-02)
+
+- Reduce wait times when API requests fail and improve cancellation handling [see #5144](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5144)
+
 ## v1.88.3 (2026-10-18)
 
 - Add rate limiting for container related operations [see #5117](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5117)
