@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.61.0 (2026-11-02)
+
+- Improve performance of GitHub and Azure DevOps authentication by caching token validation in memory
+
 ## v1.60.0 (2026-11-02)
 
 - Improve performance and reliability of GitHub and Kubernetes requests by reusing connections, applying a 30-second request timeout and limiting retries to three attempts
