@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.60.0 (2026-11-02)
+
+- Improve performance and reliability of GitHub and Kubernetes requests by reusing connections, applying a 30-second request timeout and limiting retries to three attempts
+
 ## v1.59.0 - v1.59.1 (2026-10-26)
 
 - Reduce GitHub API calls by caching repository custom properties used for COSMO entity and customer account lookups
