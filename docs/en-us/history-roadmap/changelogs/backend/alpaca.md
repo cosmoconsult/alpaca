@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.62.0 (2026-11-04)
+
+- Cache GitHub organization memberships to reduce repeated requests when discovering AL-Go repositories
+- Improve resilience to cache outages (e.g. Redis) by falling back to the source and cleaning up stale cache entries
+
 ## v1.61.0 (2026-11-02)
 
 - Improve performance of GitHub and Azure DevOps authentication by caching token validation in memory
