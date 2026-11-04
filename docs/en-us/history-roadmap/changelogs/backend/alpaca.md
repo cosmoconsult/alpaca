@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.63.1 (2026-11-04)
 
-- Fix issue where container file downloads (app info, event log, and direct file downloads) depended on the public ingress; they now use the internal Kubernetes service
+- Implement container file downloads via the internal Kubernetes service
 
 ## v1.63.0 (2026-11-04)
 
