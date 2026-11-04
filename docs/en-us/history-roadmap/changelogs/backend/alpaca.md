@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.63.0 (2026-11-04)
+
+- Add daily background cleanup of orphaned SSH secrets for Business Central containers that no longer have a matching app
+
 ## v1.62.0 (2026-11-04)
 
 - Cache GitHub organization memberships to reduce repeated requests when discovering AL-Go repositories
