@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.63.2 (2026-11-05)
+
+- Fix issue where internal file downloads from containers could fail because the container was not ready yet
+
 ## v1.63.1 (2026-11-04)
 
 - Implement container file downloads via the internal Kubernetes service
