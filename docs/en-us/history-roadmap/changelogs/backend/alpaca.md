@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.63.1 (2026-11-04)
+
+- Implement container file downloads via the internal Kubernetes service
+
 ## v1.63.0 (2026-11-04)
 
 - Add daily background cleanup of orphaned SSH secrets for Business Central containers that no longer have a matching app
