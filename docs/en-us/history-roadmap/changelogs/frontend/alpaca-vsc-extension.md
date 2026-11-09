@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.30.1 (2026-11-06)
+
+- Add support for importing Azure DevOps project- and team-scoped dashboards, preserving their scope and allowing team dashboards to be assigned to an existing target team.
+
 ## v1.30.0 (2026-11-05)
 
 - The GitHub Pull Requests extension is now optional and starts only when needed, so it no longer delays or prevents COSMO Alpaca from starting. GitHub pull request actions offer installation when needed and fall back to the browser if the extension is unavailable.
