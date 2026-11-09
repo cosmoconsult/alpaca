@@ -10,7 +10,7 @@ All notable changes to the Alpaca Backend
 
 ## v1.63.3 (2026-11-09)
 
-- Fix issue where importing Azure DevOps team dashboards required creating a new team; dashboards can now be imported into an existing target team
+- Add support for importing Azure DevOps project- and team-scoped dashboards, preserving their scope and allowing team dashboards to be assigned to an existing target team.
 
 ## v1.63.2 (2026-11-05)
 
