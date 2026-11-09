@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.63.3 (2026-11-09)
+
+- Fix issue where importing Azure DevOps team dashboards required creating a new team; dashboards can now be imported into an existing target team
+
 ## v1.63.2 (2026-11-05)
 
 - Fix issue where internal file downloads from containers could fail because the container was not ready yet
