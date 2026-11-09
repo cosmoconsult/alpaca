@@ -10,7 +10,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.30.1 (2026-11-06)
 
-- When importing a team dashboard, choose which team in the target project should receive it.
+- Add support for importing Azure DevOps project- and team-scoped dashboards, preserving their scope and allowing team dashboards to be assigned to an existing target team.
 
 ## v1.30.0 (2026-11-05)
 
