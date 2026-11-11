@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.31.0 (2026-11-11)
+
+- Use organization-scoped Azure DevOps personal access tokens when creating containers.
+
 ## v1.30.1 (2026-11-06)
 
 - Add support for importing Azure DevOps project- and team-scoped dashboards, preserving their scope and allowing team dashboards to be assigned to an existing target team.
