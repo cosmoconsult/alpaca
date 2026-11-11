@@ -176,7 +176,7 @@ data:
 
 Set `app-custom-template__templateUrl` to a direct ZIP download URL that the COSMO Alpaca backend can access. The ZIP replaces the app template; it is not an overlay on the standard template. Include all files needed by your app and pipeline.
 
-For compatibility with backends that read the archive root directly, package the repository contents without an enclosing directory. For example:
+In the root layout, the ZIP contains the repository files directly, without an enclosing directory. For example:
 
 ```text
 custom-template.zip
@@ -190,8 +190,6 @@ custom-template.zip
 |-- res/
 `-- AppTemplateSaaSProject.code-workspace
 ```
-
-The [PTE](https://github.com/cosmoconsult/alpaca-ado-templates-project/tree/main/PTE) and [AppSource](https://github.com/cosmoconsult/alpaca-ado-templates-project/tree/main/AppSource) templates are starting points. ZIP the **contents** of the chosen directory, including hidden directories such as `.devops`, not its parent directory. A GitHub source-code ZIP adds an enclosing directory and is not suitable unchanged.
 
 The example is not a mandatory file list: `.devops/azure-pipeline.yml` is required for the automatically created build pipeline. Keep `.devops/cosmo.json` when using the standard COSMO Alpaca pipeline configuration. Test apps, resources and workspace files depend on your project. Keep the pipeline's shared-template references compatible with the project's `DevOps` repository.
 
@@ -212,7 +210,7 @@ custom-template.zip
 For a PTE app, only the contents of `PTE/` become the repository root; for an AppSource app, only the contents of `AppSource/` do. Files outside the selected folder are not merged into it. These backends retain root-layout support for custom archives when no matching type folder is present. Supply both type folders if the archive is intended for both app types.
 
 > [!IMPORTANT]
-> Combined-archive support depends on the deployed backend version; confirm availability before using it. Use the root layout otherwise. `PipelineTemplates/` in the standard combined artifact is separate from the app folders and is not required in a custom app template.
+> Combined-archive support depends on the deployed backend version; confirm availability before using it. Use the root layout otherwise.
 
 #### Placeholders
 
