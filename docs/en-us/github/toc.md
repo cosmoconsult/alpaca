@@ -30,6 +30,8 @@
 
 <!--## [Work with Branches](branches.md)-->
 
+## [AL Object ID Ninja](../shared/al-object-id-ninja.md)
+
 # Container Management
 
 ## [Create Dev Container](create-container.md)
