@@ -8,6 +8,11 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.69.0 (2026-11-13)
+
+- Rename PowerShell functions to follow approved verb and singular noun naming rules, keeping the previous names as aliases [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
+- Add UTF-8 BOM to PowerShell module manifests containing non-ASCII characters [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
+
 ## v2.67.6 (2026-10-15)
 
 - Fix retry handling after API request timeouts [see #5113](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5113)
