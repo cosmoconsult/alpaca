@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.63.4 (2026-11-13)
+
+- Fix issue where template updates of Azure DevOps repositories did not reach all relevant branches, including repositories still using `master`
+- Improve error responses to report all failures and their underlying causes, including a warning about partial changes when updating multiple Azure DevOps branches
+
 ## v1.63.3 (2026-11-09)
 
 - Add support for importing Azure DevOps project- and team-scoped dashboards, preserving their scope and allowing team dashboards to be assigned to an existing target team.
