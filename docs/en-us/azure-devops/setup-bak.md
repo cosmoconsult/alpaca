@@ -73,7 +73,7 @@ You need write-access to the File-Share which is attached to your target Swarm-E
 * The **first** *(not ignored)* `saasbak` or `bak` Artifact is used as database backup file during container creation.
 
 > **IMPORTANT**\
-> All apps used in the backup file must be listed as `ipArtifacts` or `devopsArtifacts`. \
+> When using a SaaS backup, all apps used in the backup file must be listed as `ipArtifacts` or `devopsArtifacts`. \
 > Ensure that the exact app version used in the backup data is specified or automatically retrieved.
 >
 > In case you are unable to provide all apps (e.g. 3rd party apps or SaaS-only apps) you have the option to exclude them from the SaaS backup by using the following [custom script](setup-custom-scripts.md)
