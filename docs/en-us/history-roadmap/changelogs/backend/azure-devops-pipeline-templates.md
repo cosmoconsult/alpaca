@@ -13,6 +13,18 @@ All notable changes to the Azure DevOps Pipeline Templates
 - Rename PowerShell functions to follow approved verb and singular noun naming rules, keeping the previous names as aliases [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
 - Add UTF-8 BOM to PowerShell module manifests containing non-ASCII characters [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
 
+## v2.68.1 (2026-11-10)
+
+- Fix API error-body logging for Windows PowerShell 5.1 and PowerShell 7 [see #5156](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5156)
+
+## v2.68.0 (2026-11-09)
+
+- Detect stopped or failed containers during startup and fail early with container status and output [see #5149](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5149)
+
+## v2.67.7 (2026-11-06)
+
+- Fix deployment compatibility with Business Central 29 and later, use tenant scope when unspecified, and improve app filtering and agent pool defaults [see #3617](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/3617)
+
 ## v2.67.6 (2026-10-15)
 
 - Fix retry handling after API request timeouts [see #5113](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5113)
