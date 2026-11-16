@@ -8,6 +8,10 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.32.0 (2026-11-16)
+
+- View and change a container's contact email from its details and context menu. Choose a verified account email or enter a valid custom address, and set a dedicated default contact email for new containers.
+
 ## v1.31.0 (2026-11-11)
 
 - Use organization-scoped Azure DevOps personal access tokens when creating containers.
