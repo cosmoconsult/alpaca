@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.64.0 (2026-11-16)
+
+- Add support for configurable contact emails when creating containers for Azure DevOps and GitHub, inferring the email of the acting user when none is provided
+- Add endpoint to list the verified email addresses of the current GitHub user
+
 ## v1.63.4 (2026-11-13)
 
 - Fix issue where template updates of Azure DevOps repositories did not reach all relevant branches, including repositories still using `master`
