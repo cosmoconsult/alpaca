@@ -1,0 +1,28 @@
+{
+    "newsletters": [
+        {
+            "id": "202609",
+            "title": "September 2026",
+            "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202609.html",
+            "markdownUrl": "https://raw.githubusercontent.com/cosmoconsult/alpaca/refs/heads/main/docs/en-us/newsletters/202609.md"
+        },
+        {
+            "id": "202607",
+            "title": "July 2026",
+            "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202607.html",
+            "markdownUrl": "https://raw.githubusercontent.com/cosmoconsult/alpaca/refs/heads/main/docs/en-us/newsletters/202607.md"
+        },
+        {
+            "id": "202605",
+            "title": "May 2026",
+            "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202605.html",
+            "markdownUrl": "https://raw.githubusercontent.com/cosmoconsult/alpaca/refs/heads/main/docs/en-us/newsletters/202605.md"
+        },
+        {
+            "id": "202603",
+            "title": "March 2026",
+            "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202603.html",
+            "markdownUrl": "https://raw.githubusercontent.com/cosmoconsult/alpaca/refs/heads/main/docs/en-us/newsletters/202603.md"
+        }
+    ]
+}

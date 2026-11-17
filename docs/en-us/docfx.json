@@ -26,7 +26,8 @@
                     "**/*.png",
                     "**/*.jpg",
                     "**/*.gif",
-                    "**/media/**"
+                    "**/media/**",
+                    "**/newsletters/index.json"
                 ],
                 "exclude": [
                     "**/obj/**",
