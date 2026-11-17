@@ -8,6 +8,14 @@
 
 All notable changes to the Azure DevOps Backend
 
+## v1.62.1 (2026-11-17)
+
+- Fix issue where COSMO-specific default team settings, public board badges, anonymous badge access, and public-project policy were applied to non-COSMO tenants when onboarding Azure DevOps projects [see #5166](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5150)
+
+## v1.62.0 (2026-11-11)
+
+- Align legacy PAT creation defaults with the retirement of global Azure DevOps PATs [see #4922](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4922)
+
 ## v1.61.0 (2026-11-02)
 
 - Reduce wait times when API requests fail and improve cancellation handling [see #5144](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5144)
