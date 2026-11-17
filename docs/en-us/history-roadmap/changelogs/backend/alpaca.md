@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.64.1 (2026-11-17)
+
+- Fix issue where COSMO-specific default team settings, public board badges, anonymous badge access, and public-project policy were applied to non-COSMO tenants when onboarding Azure DevOps projects
+
 ## v1.64.0 (2026-11-16)
 
 - Add support for configurable contact emails when creating containers for Azure DevOps and GitHub, inferring the email of the acting user when none is provided
