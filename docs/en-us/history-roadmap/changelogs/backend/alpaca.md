@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.64.3 (2026-11-18)
+
+- Fix issue where GitHub repositories, including older repositories and templates, were missing from AL-Go repository lists because they were omitted from GitHub code search
+
 ## v1.64.2 (2026-11-18)
 
 - Fix issue where GitHub repository access checks did not handle SSO authorization requirements, now returning a 403 error with the affected organization details
