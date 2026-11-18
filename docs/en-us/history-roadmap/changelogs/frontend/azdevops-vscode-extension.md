@@ -8,6 +8,14 @@
 
 All notable changes to the Visual Studio Code Extension (legacy)
 
+## v1.57.0 (2026-11-18)
+
+- Align legacy PAT creation defaults with the retirement of global Azure DevOps PATs [see #4922](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/4922)
+
+## v1.56.0 (2026-10-20)
+
+- Improve container health checks [see #5119](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5119)
+
 ## v1.55.0 (2026-07-09)
 
 - Deprecate project customization and add a hint to use the new extension [see #5009](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5009)
