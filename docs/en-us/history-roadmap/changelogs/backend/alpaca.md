@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.64.2 (2026-11-18)
+
+- Fix issue where GitHub repository access checks did not handle SSO authorization requirements, now returning a 403 error with the affected organization details
+
 ## v1.64.1 (2026-11-17)
 
 - Fix issue where COSMO-specific default team settings, public board badges, anonymous badge access, and public-project policy were applied to non-COSMO tenants when onboarding Azure DevOps projects
