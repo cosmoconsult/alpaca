@@ -8,7 +8,7 @@
 
 All notable changes to the Visual Studio Code Extension
 
-## v1.33.1 (2026-11-19)
+## v1.33.1 - v1.33.2 (2026-11-19)
 
 - Fix loading newsletters in **Alpaca Home** when using VS Code for the web.
 - Fix loading the changelog in **Alpaca Home** when using VS Code for the web.
