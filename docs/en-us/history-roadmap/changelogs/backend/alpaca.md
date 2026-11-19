@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.64.4 (2026-11-19)
+
+- Fix issue where GitHub secondary rate limits were incorrectly treated as access denials and cached, causing users to be denied access to resources
+
 ## v1.64.3 (2026-11-18)
 
 - Fix issue where GitHub repositories, including older repositories and templates, were missing from AL-Go repository lists because they were omitted from GitHub code search
