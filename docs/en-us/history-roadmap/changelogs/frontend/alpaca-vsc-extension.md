@@ -20,7 +20,7 @@ All notable changes to the Visual Studio Code Extension
 
 ## v1.32.1 (2026-11-17)
 
-- Offer a "Sign in with SSO" action when GitHub requires organization SSO authorization.
+- Offer a **Sign in with SSO** action when GitHub requires organization SSO authorization.
 
 ## v1.32.0 (2026-11-16)
 
