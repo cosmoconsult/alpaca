@@ -8,6 +8,11 @@
 
 All notable changes to the Visual Studio Code Extension
 
+## v1.33.1 (2026-11-19)
+
+- Fix loading newsletters in **Alpaca Home** when using VS Code for the web.
+- Fix loading the changelog in **Alpaca Home** when using VS Code for the web.
+
 ## v1.33.0 (2026-11-19)
 
 - Read COSMO Alpaca newsletters directly in **Alpaca Home**, with subtle unread indicators and one-time notifications for new editions.
