@@ -8,6 +8,11 @@
 
 All notable changes to the Alpaca AL-Go AppSource App Template
 
+## v2.12.0 (2026-11-19)
+
+- Updated to [AL-Go@v10.0](https://github.com/microsoft/AL-Go/blob/v10.0/RELEASENOTES.md)
+- Updated to [Alpaca-Actions@v2.12.0](./alpaca-actions.md#v2120-2026-11-19)
+
 ## v2.11.0 (2026-09-17)
 
 - Updated to [AL-Go@v9.1](https://github.com/microsoft/AL-Go/blob/v9.1/RELEASENOTES.md)
