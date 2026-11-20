@@ -146,7 +146,7 @@ The app template is customized through a ConfigMap named `app-custom-template` i
 The following values are currently relevant:
 
 - `app-custom-template__customAppJsonValues` contains the custom `app.json` values, for example `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, `idRangesTo`, and `logo`.
-- `app-custom-template__templateUrl` can be used to point to a custom template source.
+- `app-custom-template__templateUrl` can be used to point to a custom template ZIP (see [Custom template archives](#custom-template-archives)).
 - `app-custom-template__excludeFiles` can be used to exclude files from the generated repository template.
 
 #### Example ConfigMap
@@ -171,6 +171,60 @@ data:
     #app-custom-template__templateUrl: ""
     #app-custom-template__excludeFiles: []
 ```
+
+### Custom template archives
+
+Set `app-custom-template__templateUrl` to a direct ZIP download URL that the COSMO Alpaca backend can access. The ZIP replaces the app template; it is not an overlay on the standard template. Include all files needed by your app and pipeline.
+
+In the root layout, the ZIP contains the repository files directly, without an enclosing directory. For example:
+
+```text
+custom-template.zip
+|-- .devops/
+|   |-- azure-pipeline.yml
+|   `-- cosmo.json
+|-- app/
+|   `-- app.json
+|-- test/
+|   `-- app.json
+|-- res/
+`-- AppTemplateSaaSProject.code-workspace
+```
+
+The example is not a mandatory file list: `.devops/azure-pipeline.yml` is required for the automatically created build pipeline. Keep `.devops/cosmo.json` when using the standard COSMO Alpaca pipeline configuration. Test apps, resources and workspace files depend on your project. Keep the pipeline's shared-template references compatible with the project's `DevOps` repository.
+
+#### Combined archives
+
+Backends with app-type folder selection also accept a combined ZIP with `PTE/` and `AppSource/` at the archive root:
+
+```text
+custom-template.zip
+|-- PTE/
+|   |-- .devops/
+|   `-- app/
+`-- AppSource/
+    |-- .devops/
+    `-- app/
+```
+
+For a PTE app, only the contents of `PTE/` become the repository root; for an AppSource app, only the contents of `AppSource/` do. Files outside the selected folder are not merged into it. These backends retain root-layout support for custom archives when no matching type folder is present. Supply both type folders if the archive is intended for both app types.
+
+> [!IMPORTANT]
+> Combined-archive support depends on the deployed backend version; confirm availability before using it. Use the root layout otherwise.
+
+#### Placeholders
+
+Text file contents use case-sensitive `${name}` placeholders, for example `"name": "${appName}"` in `app/app.json`. Replacement does not generally rename files or directories; unknown placeholders remain unchanged.
+
+| Values | Source |
+| --- | --- |
+| `appId`, `testAppId` | Newly generated GUIDs |
+| `appName`, `projectName`, `auth`, `country`, `translationLanguages`, `createTranslations` | App creation settings; `country` is lowercase, and translation languages are a comma-separated list of quoted language codes |
+| `publisher`, `privacyStatement`, `EULA`, `help`, `url`, `idRangesFrom`, `idRangesTo`, `logo` | `customAppJsonValues`, or built-in defaults when that setting is absent |
+
+`customAppJsonValues` is a JSON object of string values and replaces, rather than merges with, the built-in values. Include every configurable value referenced by your template; do not redefine the generated or app-creation keys. AppSource ID ranges are set to `5000000` through `5000100` during initialization.
+
+Use unquoted placeholders for JSON numbers, booleans and lists, for example `"from": ${idRangesFrom}`, `"createTranslations": ${createTranslations}` and `"translationLanguages": [${translationLanguages}]`. Replacement is literal, without JSON escaping, so ensure the resulting files are valid. Image files are excluded from text replacement. The standard workspace names `AppTemplateSaaSProject.code-workspace` (PTE) and `AppTemplateSaaSProduct.code-workspace` (AppSource) are renamed to the app name.
 
 ## Configuring NuGet
 
