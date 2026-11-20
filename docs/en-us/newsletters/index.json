@@ -1,12 +1,6 @@
 {
     "newsletters": [
         {
-            "id": "202611",
-            "title": "November 2026",
-            "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202611.html",
-            "markdownUrl": "https://raw.githubusercontent.com/cosmoconsult/alpaca/refs/heads/main/docs/en-us/newsletters/202611.md"
-        },
-        {
             "id": "202609",
             "title": "September 2026",
             "url": "https://docs.cosmoconsult.com/en-us/cloud-service/alpaca/newsletters/202609.html",
