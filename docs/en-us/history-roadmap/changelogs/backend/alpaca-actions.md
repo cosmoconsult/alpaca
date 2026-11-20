@@ -8,6 +8,14 @@
 
 All notable changes to the Alpaca AL-Go Actions
 
+## v2.12.0 (2026-11-19)
+
+- Improve error handling for failing COSMO Alpaca artifact downloads
+- Update settings check on initialization: deprecated `.alpaca/alpaca.json` configuration files now cause an error and the hyphen-prefix project directory check was removed
+- Add validation of the types of COSMO Alpaca AL-Go settings
+- Stop waiting for the COSMO Alpaca container when it stops or fails during startup
+- Fix issue where generated README links were not rendered below the description
+
 ## v2.11.0 (2026-09-17)
 
 - Add settings to add obsolete tags to AppSourceCop.json
