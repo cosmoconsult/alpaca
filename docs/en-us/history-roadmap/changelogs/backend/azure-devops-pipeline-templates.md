@@ -8,6 +8,10 @@
 
 All notable changes to the Azure DevOps Pipeline Templates
 
+## v2.69.1 (2026-11-23)
+
+- Fix issue where PowerShell parameters for container authentication, repository identifiers and the legacy compiler option were ignored [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
+
 ## v2.69.0 (2026-11-13)
 
 - Rename PowerShell functions to follow approved verb and singular noun naming rules, keeping the previous names as aliases [see #5152](https://dev.azure.com/cc-ppi/Self-Service/_workitems/edit/5152)
