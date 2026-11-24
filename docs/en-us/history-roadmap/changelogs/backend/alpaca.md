@@ -8,6 +8,10 @@
 
 All notable changes to the Alpaca Backend
 
+## v1.65.0 (2026-11-24)
+
+- Improve GitHub repository lookups by reusing repository data and user access already validated by repository listings, with access cache entries limited to 30 minutes
+
 ## v1.64.4 (2026-11-19)
 
 - Fix issue where GitHub secondary rate limits were incorrectly treated as access denials and cached, causing users to be denied access to resources
