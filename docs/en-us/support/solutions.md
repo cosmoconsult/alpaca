@@ -99,7 +99,7 @@ On new Azure DevOps organizations and private projects [Microsoft does no longer
 
 You have to request the free grant by submitting the [parallelism request form](https://aka.ms/azpipelines-parallelism-request). *(It can take several business days to process the request.)*
 
-## Windows Server 2019 images are now retired.
+## Windows Server 2019 images are now retired
 
 Microsoft has [removed Windows Server 2019 Support](https://devblogs.microsoft.com/devops/upcoming-updates-for-azure-pipelines-agents-images/#windows) for Microsoft Hosted Agents.
 In earlier versions, we used this as the default.
@@ -122,7 +122,7 @@ One indicator of this problem is that when scheduling a pipeline run, the 'Run' 
 To switch to a current image, it is advisable to first update the DevOps repository.
 If release pipelines already exist, they must be adjusted.
 This can be done either using [this script](../media/troubleshoot/fix-agentpool-in-yamlpipeline.ps1) for all pipelines in an Azure DevOps organization or manually for each pipeline. The latter can be time-consuming.
-1. Open your  pipeline and click 'Edit'. (Repeat for all Release Pipelines)
+1. Open your  pipeline and click 'Edit'. (Repeat for all Pipelines)
 1. Click the three dots in the upper right corner and select 'Triggers'
 1. Navigate to the 'YAML' Tab an set the 'Default agent pool for YAML' to 'Azure Pipelines'
 1. Save the changes and start a test run.
