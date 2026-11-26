@@ -126,3 +126,11 @@ This can be done either using [this script](../media/troubleshoot/fix-agentpool-
 1. Click the three dots in the upper right corner and select 'Triggers'
 1. Navigate to the 'YAML' Tab an set the 'Default agent pool for YAML' to 'Azure Pipelines'
 1. Save the changes and start a test run.
+
+> [!NOTE]
+> **The Azure Pipelines agent pool is missing**
+>
+> If the **Azure Pipelines** agent pool does not exist, first check **Organization settings → Agent pools** as an organization administrator. The pool may still exist but be unavailable to a project.
+>
+> 1. If **Azure Pipelines** exists at the organization level, go to **Project settings → Agent pools → Add pool** and choose **Use an existing agent pool from the organization**. Grant access permission to all pipelines.
+> 2. If the pool is absent at the organization level, [open an Azure DevOps support request](https://azure.microsoft.com/en-us/support/create-ticket/) and ask Microsoft to restore or reprovision the Microsoft-hosted pool. Include the organization URL, approximate deletion time, and affected projects. We are not aware of a documented self-service restore procedure. Creating a self-hosted pool with the same name will **not** make it Microsoft-hosted.
